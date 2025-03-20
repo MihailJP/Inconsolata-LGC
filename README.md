@@ -159,6 +159,9 @@ Although small caps are hardly used for coding or terminal console, in case
 you need them retaining character width. Small letters are converted to small
 caps through `smcp` feature, and capital letters are through `c2sc`.
 
+For Turkish, Azerbaijani, Crimean Tatar, Gagauz, and Tatar languages, `smcp`
+converts lowercase _i_ to dotted small-capital _İ_.
+
 ### `cv02`: _r_ with serif ###
 ![Differences between regular and alternative r](doc/r_with_serif.png)
 

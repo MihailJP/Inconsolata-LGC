@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1161020814
-ModificationTime: 1742457683
+ModificationTime: 1742480219
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -53,36 +53,45 @@ Lookup: 1 0 0 "Ewe f-hook" { "Ewe f-hook-1"  } ['locl' ('latn' <'AVN ' 'EWE ' 'L
 Lookup: 1 0 0 "Chuvash variant of The" { "Chuvash variant of The-1" ("cv") } ['locl' ('cyrl' <'CHU ' > ) ]
 Lookup: 5 0 0 "Dutch accented IJ" { "Dutch accented IJ-1"  } ['locl' ('latn' <'FLE ' 'NLD ' > ) ]
 Lookup: 1 0 0 "J with acute accent" { "J with acute accent-1"  } []
-Lookup: 1 0 0 "Old style numerals" { "Old style numerals-1" ("oldstyle") } ['onum' ('DFLT' <'dflt' > 'cyrl' <'BGR ' 'BOS ' 'CHU ' 'MKD ' 'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'AVN ' 'EWE ' 'FLE ' 'ISM ' 'LEF ' 'LSM ' 'MOL ' 'NLD ' 'NSM ' 'PLK ' 'ROM ' 'SKS ' 'SSM ' 'WCI ' 'ZHP ' 'dflt' > ) ]
-Lookup: 1 0 0 "Superscripts" { "Superscripts-1" ("superior") } ['sups' ('DFLT' <'dflt' > 'cyrl' <'BGR ' 'BOS ' 'CHU ' 'MKD ' 'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'AVN ' 'EWE ' 'FLE ' 'ISM ' 'LEF ' 'LSM ' 'MOL ' 'NLD ' 'NSM ' 'PLK ' 'ROM ' 'SKS ' 'SSM ' 'WCI ' 'ZHP ' 'dflt' > ) ]
-Lookup: 1 0 0 "Subscripts" { "Subscripts-1" ("inferior") } ['subs' ('DFLT' <'dflt' > 'cyrl' <'BGR ' 'BOS ' 'CHU ' 'MKD ' 'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'AVN ' 'EWE ' 'FLE ' 'ISM ' 'LEF ' 'LSM ' 'MOL ' 'NLD ' 'NSM ' 'PLK ' 'ROM ' 'SKS ' 'SSM ' 'WCI ' 'ZHP ' 'dflt' > ) ]
-Lookup: 1 0 0 "Lowercase to small caps" { "Lowercase to small caps-1"  } ['smcp' ('latn' <'AVN ' 'EWE ' 'FLE ' 'ISM ' 'LEF ' 'LSM ' 'MOL ' 'NLD ' 'NSM ' 'PLK ' 'ROM ' 'SKS ' 'SSM ' 'WCI ' 'ZHP ' 'dflt' > ) ]
-Lookup: 1 0 0 "Uppercase to small caps" { "Uppercase to small caps-1"  } ['c2sc' ('latn' <'AVN ' 'EWE ' 'FLE ' 'ISM ' 'LEF ' 'LSM ' 'MOL ' 'NLD ' 'NSM ' 'PLK ' 'ROM ' 'SKS ' 'SSM ' 'WCI ' 'ZHP ' 'dflt' > ) ]
-Lookup: 3 0 0 "Variants of zero" { "Variants of zero-1"  } ['cv01' ('DFLT' <'dflt' > 'cyrl' <'BGR ' 'BOS ' 'CHU ' 'MKD ' 'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'AVN ' 'EWE ' 'FLE ' 'ISM ' 'LEF ' 'LSM ' 'MOL ' 'NLD ' 'NSM ' 'PLK ' 'ROM ' 'SKS ' 'SSM ' 'WCI ' 'ZHP ' 'dflt' > ) ]
-Lookup: 1 0 0 "r with serif" { "r with serif-1" ("serif") } ['cv02' ('latn' <'AVN ' 'EWE ' 'FLE ' 'ISM ' 'LEF ' 'LSM ' 'MOL ' 'NLD ' 'NSM ' 'PLK ' 'ROM ' 'SKS ' 'SSM ' 'WCI ' 'ZHP ' 'dflt' > ) ]
-Lookup: 3 0 0 "Eng variants" { "Eng variants-1"  } ['cv03' ('latn' <'AVN ' 'EWE ' 'FLE ' 'ISM ' 'LEF ' 'LSM ' 'MOL ' 'NLD ' 'NSM ' 'PLK ' 'ROM ' 'SKS ' 'SSM ' 'WCI ' 'ZHP ' 'dflt' > ) ]
-Lookup: 3 0 0 "Alternative dollar sign" { "Alternative dollar sign-1"  } ['cv04' ('DFLT' <'dflt' > 'cyrl' <'BGR ' 'BOS ' 'CHU ' 'MKD ' 'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'AVN ' 'EWE ' 'FLE ' 'ISM ' 'LEF ' 'LSM ' 'MOL ' 'NLD ' 'NSM ' 'PLK ' 'ROM ' 'SKS ' 'SSM ' 'WCI ' 'ZHP ' 'dflt' > ) ]
-Lookup: 3 0 0 "Ezh variants" { "Ezh variants-1"  } ['cv05' ('latn' <'AVN ' 'EWE ' 'FLE ' 'ISM ' 'LEF ' 'LSM ' 'MOL ' 'NLD ' 'NSM ' 'PLK ' 'ROM ' 'SKS ' 'SSM ' 'WCI ' 'ZHP ' 'dflt' > ) ]
-Lookup: 1 0 0 "Text forms of triangles" { "Text forms of triangles-1" ("text") } ['cv06' ('DFLT' <'dflt' > 'cyrl' <'BGR ' 'BOS ' 'CHU ' 'MKD ' 'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'AVN ' 'EWE ' 'FLE ' 'ISM ' 'LEF ' 'LSM ' 'MOL ' 'NLD ' 'NSM ' 'PLK ' 'ROM ' 'SKS ' 'SSM ' 'WCI ' 'ZHP ' 'dflt' > ) ]
+Lookup: 1 0 0 "Old style numerals" { "Old style numerals-1" ("oldstyle") } ['onum' ('DFLT' <'dflt' > 'cyrl' <'BGR ' 'BOS ' 'CHU ' 'MKD ' 'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'AVN ' 'AZE ' 'CRT ' 'EWE ' 'FLE ' 'GAG ' 'ISM ' 'KAZ ' 'LEF ' 'LSM ' 'MOL ' 'NLD ' 'NSM ' 'PLK ' 'ROM ' 'SKS ' 'SSM ' 'TAT ' 'TRK ' 'WCI ' 'ZHP ' 'dflt' > ) ]
+Lookup: 1 0 0 "Superscripts" { "Superscripts-1" ("superior") } ['sups' ('DFLT' <'dflt' > 'cyrl' <'BGR ' 'BOS ' 'CHU ' 'MKD ' 'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'AVN ' 'AZE ' 'CRT ' 'EWE ' 'FLE ' 'GAG ' 'ISM ' 'KAZ ' 'LEF ' 'LSM ' 'MOL ' 'NLD ' 'NSM ' 'PLK ' 'ROM ' 'SKS ' 'SSM ' 'TAT ' 'TRK ' 'WCI ' 'ZHP ' 'dflt' > ) ]
+Lookup: 1 0 0 "Subscripts" { "Subscripts-1" ("inferior") } ['subs' ('DFLT' <'dflt' > 'cyrl' <'BGR ' 'BOS ' 'CHU ' 'MKD ' 'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'AVN ' 'AZE ' 'CRT ' 'EWE ' 'FLE ' 'GAG ' 'ISM ' 'KAZ ' 'LEF ' 'LSM ' 'MOL ' 'NLD ' 'NSM ' 'PLK ' 'ROM ' 'SKS ' 'SSM ' 'TAT ' 'TRK ' 'WCI ' 'ZHP ' 'dflt' > ) ]
+Lookup: 1 0 0 "Lowercase to small caps" { "Lowercase to small caps-1"  } ['smcp' ('latn' <'AVN ' 'AZE ' 'CRT ' 'EWE ' 'FLE ' 'GAG ' 'ISM ' 'KAZ ' 'LEF ' 'LSM ' 'MOL ' 'NLD ' 'NSM ' 'PLK ' 'ROM ' 'SKS ' 'SSM ' 'TAT ' 'TRK ' 'WCI ' 'ZHP ' 'dflt' > ) ]
+Lookup: 1 0 0 "Lowercase i to small caps, regular" { "Lowercase i to small caps, regular-1"  } ['smcp' ('latn' <'AVN ' 'EWE ' 'FLE ' 'ISM ' 'LEF ' 'LSM ' 'MOL ' 'NLD ' 'NSM ' 'PLK ' 'ROM ' 'SKS ' 'SSM ' 'WCI ' 'ZHP ' 'dflt' > ) ]
+Lookup: 1 0 0 "Lowercase i to small caps, Turkish" { "Lowercase i to small caps, Turkish-1"  } ['smcp' ('latn' <'AZE ' 'CRT ' 'GAG ' 'KAZ ' 'TAT ' 'TRK ' > ) ]
+Lookup: 1 0 0 "Lowercase eng to small caps, regular" { "Lowercase eng to small caps, regular-1"  } ['smcp' ('latn' <'AVN ' 'AZE ' 'CRT ' 'EWE ' 'FLE ' 'GAG ' 'KAZ ' 'LEF ' 'MOL ' 'NLD ' 'PLK ' 'ROM ' 'TAT ' 'TRK ' 'WCI ' 'ZHP ' 'dflt' > ) ]
+Lookup: 1 0 0 "Lowercase eng to small caps, Sami" { "Lowercase eng to small caps, Sami-1"  } ['smcp' ('latn' <'ISM ' 'LSM ' 'NSM ' 'SKS ' 'SSM ' > ) ]
+Lookup: 1 0 0 "Uppercase to small caps" { "Uppercase to small caps-1"  } ['c2sc' ('latn' <'AVN ' 'AZE ' 'CRT ' 'EWE ' 'FLE ' 'GAG ' 'ISM ' 'KAZ ' 'LEF ' 'LSM ' 'MOL ' 'NLD ' 'NSM ' 'PLK ' 'ROM ' 'SKS ' 'SSM ' 'TAT ' 'TRK ' 'WCI ' 'ZHP ' 'dflt' > ) ]
+Lookup: 3 0 0 "Variants of zero" { "Variants of zero-1"  } ['cv01' ('DFLT' <'dflt' > 'cyrl' <'BGR ' 'BOS ' 'CHU ' 'MKD ' 'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'AVN ' 'AZE ' 'CRT ' 'EWE ' 'FLE ' 'GAG ' 'ISM ' 'KAZ ' 'LEF ' 'LSM ' 'MOL ' 'NLD ' 'NSM ' 'PLK ' 'ROM ' 'SKS ' 'SSM ' 'TAT ' 'TRK ' 'WCI ' 'ZHP ' 'dflt' > ) ]
+Lookup: 1 0 0 "r with serif" { "r with serif-1" ("serif") } ['cv02' ('latn' <'AVN ' 'AZE ' 'CRT ' 'EWE ' 'FLE ' 'GAG ' 'ISM ' 'KAZ ' 'LEF ' 'LSM ' 'MOL ' 'NLD ' 'NSM ' 'PLK ' 'ROM ' 'SKS ' 'SSM ' 'TAT ' 'TRK ' 'WCI ' 'ZHP ' 'dflt' > ) ]
+Lookup: 3 0 0 "Eng variants" { "Eng variants-1"  } ['cv03' ('latn' <'AVN ' 'AZE ' 'CRT ' 'EWE ' 'FLE ' 'GAG ' 'ISM ' 'KAZ ' 'LEF ' 'LSM ' 'MOL ' 'NLD ' 'NSM ' 'PLK ' 'ROM ' 'SKS ' 'SSM ' 'TAT ' 'TRK ' 'WCI ' 'ZHP ' 'dflt' > ) ]
+Lookup: 3 0 0 "Alternative dollar sign" { "Alternative dollar sign-1"  } ['cv04' ('DFLT' <'dflt' > 'cyrl' <'BGR ' 'BOS ' 'CHU ' 'MKD ' 'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'AVN ' 'AZE ' 'CRT ' 'EWE ' 'FLE ' 'GAG ' 'ISM ' 'KAZ ' 'LEF ' 'LSM ' 'MOL ' 'NLD ' 'NSM ' 'PLK ' 'ROM ' 'SKS ' 'SSM ' 'TAT ' 'TRK ' 'WCI ' 'ZHP ' 'dflt' > ) ]
+Lookup: 3 0 0 "Ezh variants" { "Ezh variants-1"  } ['cv05' ('latn' <'AVN ' 'AZE ' 'CRT ' 'EWE ' 'FLE ' 'GAG ' 'ISM ' 'KAZ ' 'LEF ' 'LSM ' 'MOL ' 'NLD ' 'NSM ' 'PLK ' 'ROM ' 'SKS ' 'SSM ' 'TAT ' 'TRK ' 'WCI ' 'ZHP ' 'dflt' > ) ]
+Lookup: 1 0 0 "Text forms of triangles" { "Text forms of triangles-1" ("text") } ['cv06' ('DFLT' <'dflt' > 'cyrl' <'BGR ' 'BOS ' 'CHU ' 'MKD ' 'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'AVN ' 'AZE ' 'CRT ' 'EWE ' 'FLE ' 'GAG ' 'ISM ' 'KAZ ' 'LEF ' 'LSM ' 'MOL ' 'NLD ' 'NSM ' 'PLK ' 'ROM ' 'SKS ' 'SSM ' 'TAT ' 'TRK ' 'WCI ' 'ZHP ' 'dflt' > ) ]
 Lookup: 1 0 0 "Variants of El with hook" { "Variants of El with hook-1"  } ['cv07' ('cyrl' <'BGR ' 'BOS ' 'CHU ' 'MKD ' 'SRB ' 'dflt' > ) ]
 Lookup: 3 0 0 "Qa variants" { "Qa variants-1"  } ['cv08' ('cyrl' <'BGR ' 'BOS ' 'CHU ' 'MKD ' 'SRB ' 'dflt' > ) ]
 Lookup: 3 0 0 "Che with hook" { "Che with hook-1"  } ['cv09' ('cyrl' <'BGR ' 'BOS ' 'CHU ' 'MKD ' 'SRB ' 'dflt' > ) ]
 Lookup: 3 0 0 "Ge with hook" { "Ge with hook-1"  } ['cv10' ('cyrl' <'BGR ' 'BOS ' 'CHU ' 'MKD ' 'SRB ' 'dflt' > ) ]
 Lookup: 1 0 0 "Ge with stroke and descender" { "Ge with stroke and descender-1"  } ['cv11' ('cyrl' <'BGR ' 'BOS ' 'CHU ' 'MKD ' 'SRB ' 'dflt' > ) ]
-Lookup: 1 0 0 "Alternative glyphs for control characters" { "Alternative glyphs for control characters-1"  } ['cv12' ('DFLT' <'dflt' > 'cyrl' <'BGR ' 'BOS ' 'CHU ' 'MKD ' 'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'AVN ' 'EWE ' 'FLE ' 'ISM ' 'LEF ' 'LSM ' 'MOL ' 'NLD ' 'NSM ' 'PLK ' 'ROM ' 'SKS ' 'SSM ' 'WCI ' 'ZHP ' 'dflt' > ) ]
-Lookup: 1 0 0 "German alternative umlaut" { "German alternative umlaut-1"  } ['ss01' ('latn' <'AVN ' 'EWE ' 'FLE ' 'ISM ' 'LEF ' 'LSM ' 'MOL ' 'NLD ' 'NSM ' 'PLK ' 'ROM ' 'SKS ' 'SSM ' 'WCI ' 'ZHP ' 'dflt' > ) ]
+Lookup: 1 0 0 "Alternative glyphs for control characters" { "Alternative glyphs for control characters-1"  } ['cv12' ('DFLT' <'dflt' > 'cyrl' <'BGR ' 'BOS ' 'CHU ' 'MKD ' 'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'AVN ' 'AZE ' 'CRT ' 'EWE ' 'FLE ' 'GAG ' 'ISM ' 'KAZ ' 'LEF ' 'LSM ' 'MOL ' 'NLD ' 'NSM ' 'PLK ' 'ROM ' 'SKS ' 'SSM ' 'TAT ' 'TRK ' 'WCI ' 'ZHP ' 'dflt' > ) ]
+Lookup: 1 0 0 "German alternative umlaut" { "German alternative umlaut-1"  } ['ss01' ('latn' <'AVN ' 'AZE ' 'CRT ' 'EWE ' 'FLE ' 'GAG ' 'ISM ' 'KAZ ' 'LEF ' 'LSM ' 'MOL ' 'NLD ' 'NSM ' 'PLK ' 'ROM ' 'SKS ' 'SSM ' 'TAT ' 'TRK ' 'WCI ' 'ZHP ' 'dflt' > ) ]
 Lookup: 1 0 0 "Polytonic Greek alternative circumflex" { "Polytonic Greek alternative circumflex-1" ("alt") } ['ss02' ('grek' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
-ContextSub2: glyph "Dutch accented IJ-1" 0 0 0 2
+ContextSub2: glyph "Dutch accented IJ-1" 0 0 0 3
  String: 8 Iacute J
- BString: 0 
- FString: 0 
+ BString: 0
+ FString: 0
  1
   SeqLookup: 1 "J with acute accent"
  String: 8 iacute j
- BString: 0 
- FString: 0 
+ BString: 0
+ FString: 0
+ 1
+  SeqLookup: 1 "J with acute accent"
+ String: 14 iacute.sc j.sc
+ BString: 0
+ FString: 0
  1
   SeqLookup: 1 "J with acute accent"
 EndFPST
@@ -121,7 +130,7 @@ Grid
  416.256 939.008 l 1049
 EndSplineSet
 TeXData: 1 0 0 629145 314572 209715 554697 1048576 209715 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 1114402 2690
+BeginChars: 1114472 2760
 
 StartChar: a
 Encoding: 97 97 0
@@ -642,7 +651,8 @@ SplineSet
  494 683 462 656 428 656 c 0
  394 656 371 683 377 717 c 0
 EndSplineSet
-Substitution2: "Lowercase to small caps-1" i.sc
+Substitution2: "Lowercase i to small caps, Turkish-1" Idotaccent.sc
+Substitution2: "Lowercase i to small caps, regular-1" i.sc
 EndChar
 
 StartChar: f
@@ -3399,6 +3409,7 @@ SplineSet
  351 473 l 1
  220 473 l 1
 EndSplineSet
+Substitution2: "Lowercase to small caps-1" i.sc
 EndChar
 
 StartChar: circumflex
@@ -3471,6 +3482,7 @@ LayerCount: 2
 Fore
 Refer: 3 115 N 1 0 0 1 0 0 2
 Refer: 143 711 S 1 0 0 1 0 0 2
+Substitution2: "Lowercase to small caps-1" scaron.sc
 EndChar
 
 StartChar: zcaron
@@ -3482,6 +3494,7 @@ LayerCount: 2
 Fore
 Refer: 69 122 N 1 0 0 1 0 0 2
 Refer: 143 711 S 1 0 0 1 0 0 2
+Substitution2: "Lowercase to small caps-1" zcaron.sc
 EndChar
 
 StartChar: periodcentered
@@ -4282,6 +4295,7 @@ LayerCount: 2
 Fore
 Refer: 50 83 N 1 0 0 1 0 0 2
 Refer: 191 -1 S 1 0 0 1 39.7437 146 2
+Substitution2: "Uppercase to small caps-1" scaron.sc
 EndChar
 
 StartChar: Zcaron
@@ -4293,6 +4307,7 @@ LayerCount: 2
 Fore
 Refer: 96 90 N 1 0 0 1 0 0 2
 Refer: 191 -1 S 1 0 0 1 33.7437 146 2
+Substitution2: "Uppercase to small caps-1" zcaron.sc
 EndChar
 
 StartChar: Ntilde
@@ -4446,6 +4461,7 @@ SplineSet
  407 417 391 389 382 337 c 0
  382 335 381 332 381 330 c 1
 EndSplineSet
+Substitution2: "Lowercase to small caps-1" oe.sc
 EndChar
 
 StartChar: acute.cap
@@ -4577,6 +4593,7 @@ LayerCount: 2
 Fore
 Refer: 5 111 N 1 0 0 1 0 0 2
 Refer: 198 713 S 1 0 0 1 0 0 2
+Substitution2: "Lowercase to small caps-1" omacron.sc
 EndChar
 
 StartChar: cedilla
@@ -4819,6 +4836,7 @@ SplineSet
  298 681 257 652 224 587 c 0
  212 565 187 510 165 385 c 0
 EndSplineSet
+Substitution2: "Uppercase to small caps-1" oe.sc
 EndChar
 
 StartChar: currency
@@ -4930,6 +4948,7 @@ LayerCount: 2
 Fore
 Refer: 71 65 S 1 0 0 1 0 0 2
 Refer: 214 731 S 1 0 0 1 74 0 2
+Substitution2: "Uppercase to small caps-1" aogonek.sc
 EndChar
 
 StartChar: Lcaron
@@ -4941,6 +4960,7 @@ LayerCount: 2
 Fore
 Refer: 52 76 N 1 0 0 1 0 0 2
 Refer: 56 8217 S 0.8 0 0 0.8 235.686 140 2
+Substitution2: "Uppercase to small caps-1" lcaron.sc
 EndChar
 
 StartChar: Sacute
@@ -4952,6 +4972,7 @@ LayerCount: 2
 Fore
 Refer: 50 83 N 1 0 0 1 0 0 2
 Refer: 194 -1 S 1 0 0 1 4.8621 141 2
+Substitution2: "Uppercase to small caps-1" sacute.sc
 Substitution2: "Polish kreska forms-1" Sacute.pl
 EndChar
 
@@ -4964,6 +4985,7 @@ LayerCount: 2
 Fore
 Refer: 50 83 N 1 0 0 1 0 0 2
 Refer: 201 184 N 1 0 0 1 -38 0 2
+Substitution2: "Uppercase to small caps-1" scedilla.sc
 Substitution2: "Romanian comma accent-1" Scommaaccent
 EndChar
 
@@ -4976,6 +4998,7 @@ LayerCount: 2
 Fore
 Refer: 59 84 N 1 0 0 1 0 0 2
 Refer: 191 -1 S 1 0 0 1 33.7437 146 2
+Substitution2: "Uppercase to small caps-1" tcaron.sc
 EndChar
 
 StartChar: Zacute
@@ -4987,6 +5010,7 @@ LayerCount: 2
 Fore
 Refer: 96 90 N 1 0 0 1 0 0 2
 Refer: 194 -1 S 1 0 0 1 4.8621 141 2
+Substitution2: "Uppercase to small caps-1" zacute.sc
 Substitution2: "Polish kreska forms-1" Zacute.pl
 EndChar
 
@@ -4999,6 +5023,7 @@ LayerCount: 2
 Fore
 Refer: 96 90 N 1 0 0 1 0 0 2
 Refer: 222 729 S 1 0 0 1 26.6254 151 2
+Substitution2: "Uppercase to small caps-1" zdot.sc
 EndChar
 
 StartChar: dotaccent
@@ -5026,6 +5051,7 @@ LayerCount: 2
 Fore
 Refer: 101 82 N 1 0 0 1 0 0 2
 Refer: 194 -1 S 1 0 0 1 4.8621 141 2
+Substitution2: "Uppercase to small caps-1" racute.sc
 EndChar
 
 StartChar: Abreve
@@ -5037,6 +5063,7 @@ LayerCount: 2
 Fore
 Refer: 71 65 N 1 0 0 1 0 0 2
 Refer: 241 728 S 1 0 0 1 17.9176 164 2
+Substitution2: "Uppercase to small caps-1" abreve.sc
 EndChar
 
 StartChar: Lacute
@@ -5048,6 +5075,7 @@ LayerCount: 2
 Fore
 Refer: 52 76 N 1 0 0 1 0 0 2
 Refer: 194 -1 S 1 0 0 1 4.8621 141 2
+Substitution2: "Uppercase to small caps-1" lacute.sc
 EndChar
 
 StartChar: Cacute
@@ -5059,6 +5087,7 @@ LayerCount: 2
 Fore
 Refer: 72 67 N 1 0 0 1 0 0 2
 Refer: 194 -1 N 1 0 0 1 29 141 2
+Substitution2: "Uppercase to small caps-1" cacute.sc
 Substitution2: "Polish kreska forms-1" Cacute.pl
 EndChar
 
@@ -5071,6 +5100,7 @@ LayerCount: 2
 Fore
 Refer: 72 67 N 1 0 0 1 0 0 2
 Refer: 191 -1 S 1 0 0 1 54 146 2
+Substitution2: "Uppercase to small caps-1" ccaron.sc
 EndChar
 
 StartChar: Eogonek
@@ -5082,6 +5112,7 @@ LayerCount: 2
 Fore
 Refer: 80 69 N 1 0 0 1 0 0 2
 Refer: 214 731 N 1 0 0 1 17 0 2
+Substitution2: "Uppercase to small caps-1" eogonek.sc
 EndChar
 
 StartChar: Ecaron
@@ -5093,6 +5124,7 @@ LayerCount: 2
 Fore
 Refer: 80 69 N 1 0 0 1 0 0 2
 Refer: 191 -1 S 1 0 0 1 33.7437 146 2
+Substitution2: "Uppercase to small caps-1" ecaron.sc
 EndChar
 
 StartChar: Dcaron
@@ -5104,6 +5136,7 @@ LayerCount: 2
 Fore
 Refer: 79 68 N 1 0 0 1 0 0 2
 Refer: 191 -1 S 1 0 0 1 2.74374 146 2
+Substitution2: "Uppercase to small caps-1" dcaron.sc
 EndChar
 
 StartChar: Dcroat
@@ -5114,6 +5147,7 @@ TeX: 80 0
 LayerCount: 2
 Fore
 Refer: 159 208 N 1 0 0 1 0 0 2
+Substitution2: "Uppercase to small caps-1" dcroat.sc
 EndChar
 
 StartChar: Nacute
@@ -5126,6 +5160,7 @@ Fore
 Refer: 46 78 N 1 0 0 1 0 0 2
 Refer: 194 -1 S 1 0 0 1 4.8621 141 2
 Substitution2: "Pinyin variant forms-1" Nacute.pinyin
+Substitution2: "Uppercase to small caps-1" nacute.sc
 Substitution2: "Polish kreska forms-1" Nacute.pl
 EndChar
 
@@ -5138,6 +5173,7 @@ LayerCount: 2
 Fore
 Refer: 46 78 N 1 0 0 1 0 0 2
 Refer: 191 -1 S 1 0 0 1 33.7437 146 2
+Substitution2: "Uppercase to small caps-1" ncaron.sc
 EndChar
 
 StartChar: Ohungarumlaut
@@ -5149,6 +5185,7 @@ LayerCount: 2
 Fore
 Refer: 42 79 N 1 0 0 1 0 0 2
 Refer: 270 -1 S 1 0 0 1 0 0 2
+Substitution2: "Uppercase to small caps-1" ohungarumlaut.sc
 EndChar
 
 StartChar: Rcaron
@@ -5160,6 +5197,7 @@ LayerCount: 2
 Fore
 Refer: 101 82 N 1 0 0 1 0 0 2
 Refer: 191 -1 S 1 0 0 1 33.7437 146 2
+Substitution2: "Uppercase to small caps-1" rcaron.sc
 EndChar
 
 StartChar: Uring
@@ -5171,6 +5209,7 @@ LayerCount: 2
 Fore
 Refer: 63 85 N 1 0 0 1 0 0 2
 Refer: 161 730 S 1 0 0 1 17.3356 121 2
+Substitution2: "Uppercase to small caps-1" uring.sc
 EndChar
 
 StartChar: Uhungarumlaut
@@ -5182,6 +5221,7 @@ LayerCount: 2
 Fore
 Refer: 63 85 N 1 0 0 1 0 0 2
 Refer: 270 -1 S 1 0 0 1 0 0 2
+Substitution2: "Uppercase to small caps-1" uhungarumlaut.sc
 EndChar
 
 StartChar: Tcedilla
@@ -5193,6 +5233,7 @@ LayerCount: 2
 Fore
 Refer: 59 84 N 1 0 0 1 0 0 2
 Refer: 201 184 S 1 0 0 1 -45 0 2
+Substitution2: "Uppercase to small caps-1" tcedilla.sc
 Substitution2: "Romanian comma accent-1" Tcommaaccent
 EndChar
 
@@ -5204,6 +5245,7 @@ LayerCount: 2
 Fore
 Refer: 0 97 N 1 0 0 1 0 0 2
 Refer: 214 731 N 1 0 0 1 14 0 2
+Substitution2: "Lowercase to small caps-1" aogonek.sc
 EndChar
 
 StartChar: hungarumlaut
@@ -5265,6 +5307,8 @@ SplineSet
  178 0 l 0
  91 0 l 0
 EndSplineSet
+Substitution2: "Lowercase eng to small caps, Sami-1" eng.var2.sc
+Substitution2: "Lowercase eng to small caps, regular-1" eng.sc
 EndChar
 
 StartChar: abreve
@@ -5275,6 +5319,7 @@ LayerCount: 2
 Fore
 Refer: 0 97 N 1 0 0 1 0 0 2
 Refer: 241 728 S 1 0 0 1 10 0 2
+Substitution2: "Lowercase to small caps-1" abreve.sc
 EndChar
 
 StartChar: ccaron
@@ -5285,6 +5330,7 @@ LayerCount: 2
 Fore
 Refer: 143 711 N 1 0 0 1 24 0 2
 Refer: 1 99 N 1 0 0 1 0 0 2
+Substitution2: "Lowercase to small caps-1" ccaron.sc
 EndChar
 
 StartChar: dcaron
@@ -5316,6 +5362,7 @@ SplineSet
  305 490 172 444 145 290 c 0
 EndSplineSet
 Refer: 56 8217 N 0.8 0 0 0.8 348 191 2
+Substitution2: "Lowercase to small caps-1" dcaron.sc
 EndChar
 
 StartChar: eogonek
@@ -5354,6 +5401,7 @@ SplineSet
  518 443 486 489 413 489 c 0
  340 489 232 444 209 315 c 1
 EndSplineSet
+Substitution2: "Lowercase to small caps-1" eogonek.sc
 EndChar
 
 StartChar: lcaron
@@ -5364,6 +5412,7 @@ LayerCount: 2
 Fore
 Refer: 7 108 N 1 0 0 1 -20 0 2
 Refer: 56 8217 S 0.8 0 0 0.8 306.678 191 2
+Substitution2: "Lowercase to small caps-1" lcaron.sc
 EndChar
 
 StartChar: lacute
@@ -5374,6 +5423,7 @@ LayerCount: 2
 Fore
 Refer: 194 -1 S 1 0 0 1 14.0311 193 2
 Refer: 7 108 N 1 0 0 1 0 0 2
+Substitution2: "Lowercase to small caps-1" lacute.sc
 EndChar
 
 StartChar: nacute
@@ -5385,6 +5435,7 @@ Fore
 Refer: 6 110 N 1 0 0 1 0 0 2
 Refer: 107 180 S 1 0 0 1 0 0 2
 Substitution2: "Pinyin variant forms-1" nacute.pinyin
+Substitution2: "Lowercase to small caps-1" nacute.sc
 Substitution2: "Polish kreska forms-1" nacute.pl
 EndChar
 
@@ -5396,6 +5447,7 @@ LayerCount: 2
 Fore
 Refer: 6 110 N 1 0 0 1 0 0 2
 Refer: 143 711 S 1 0 0 1 0 0 2
+Substitution2: "Lowercase to small caps-1" ncaron.sc
 EndChar
 
 StartChar: ohungarumlaut
@@ -5406,6 +5458,7 @@ LayerCount: 2
 Fore
 Refer: 5 111 N 1 0 0 1 0 0 2
 Refer: 240 733 S 1 0 0 1 0 0 2
+Substitution2: "Lowercase to small caps-1" ohungarumlaut.sc
 EndChar
 
 StartChar: rcaron
@@ -5416,6 +5469,7 @@ LayerCount: 2
 Fore
 Refer: 16 114 N 1 0 0 1 0 0 2
 Refer: 143 711 S 1 0 0 1 0 0 2
+Substitution2: "Lowercase to small caps-1" rcaron.sc
 Substitution2: "r with serif-1" rcaron.serif
 EndChar
 
@@ -5427,6 +5481,7 @@ LayerCount: 2
 Fore
 Refer: 3 115 N 1 0 0 1 0 0 2
 Refer: 107 180 S 1 0 0 1 0 0 2
+Substitution2: "Lowercase to small caps-1" sacute.sc
 Substitution2: "Polish kreska forms-1" sacute.pl
 EndChar
 
@@ -5438,6 +5493,7 @@ LayerCount: 2
 Fore
 Refer: 3 115 N 1 0 0 1 0 0 2
 Refer: 201 184 S 1 0 0 1 -31 0 2
+Substitution2: "Lowercase to small caps-1" scedilla.sc
 Substitution2: "Romanian comma accent-1" scommaaccent
 EndChar
 
@@ -5449,6 +5505,7 @@ LayerCount: 2
 Fore
 Refer: 8 116 N 1 0 0 1 0 0 2
 Refer: 201 184 N 1 0 0 1 20 0 2
+Substitution2: "Lowercase to small caps-1" tcedilla.sc
 Substitution2: "Romanian comma accent-1" tcommaaccent
 EndChar
 
@@ -5460,6 +5517,7 @@ LayerCount: 2
 Fore
 Refer: 15 117 N 1 0 0 1 0 0 2
 Refer: 161 730 S 1 0 0 1 0 0 2
+Substitution2: "Lowercase to small caps-1" uring.sc
 EndChar
 
 StartChar: uhungarumlaut
@@ -5470,6 +5528,7 @@ LayerCount: 2
 Fore
 Refer: 15 117 N 1 0 0 1 0 0 2
 Refer: 240 733 S 1 0 0 1 0 0 2
+Substitution2: "Lowercase to small caps-1" uhungarumlaut.sc
 EndChar
 
 StartChar: zdot
@@ -5480,6 +5539,7 @@ LayerCount: 2
 Fore
 Refer: 222 729 N 1 0 0 1 0 0 2
 Refer: 69 122 S 1 0 0 1 0 0 2
+Substitution2: "Lowercase to small caps-1" zdot.sc
 EndChar
 
 StartChar: dotlessj
@@ -5775,6 +5835,7 @@ SplineSet
  322 331 l 1
  224 299 l 1
 EndSplineSet
+Substitution2: "Lowercase to small caps-1" lslash.sc
 EndChar
 
 StartChar: Lslash
@@ -5803,6 +5864,7 @@ SplineSet
  161 362 l 1
  228 739 l 1
 EndSplineSet
+Substitution2: "Uppercase to small caps-1" lslash.sc
 EndChar
 
 StartChar: Eng
@@ -5836,6 +5898,7 @@ SplineSet
  158 0 l 0
  71 0 l 0
 EndSplineSet
+Substitution2: "Uppercase to small caps-1" eng.sc
 AlternateSubs2: "Eng variants-1" Eng.var1 Eng.var2
 Substitution2: "Sami variant of Eng-1" Eng.var2
 EndChar
@@ -5876,6 +5939,7 @@ SplineSet
  526 469 484 490 427 490 c 0
  370 490 216 444 189 290 c 0
 EndSplineSet
+Substitution2: "Lowercase to small caps-1" dcroat.sc
 EndChar
 
 StartChar: Gbreve
@@ -5886,6 +5950,7 @@ LayerCount: 2
 Fore
 Refer: 67 71 N 1 0 0 1 0 0 2
 Refer: 241 728 N 1 0 0 1 64 171 2
+Substitution2: "Uppercase to small caps-1" gbreve.sc
 EndChar
 
 StartChar: Idotaccent
@@ -5896,6 +5961,7 @@ LayerCount: 2
 Fore
 Refer: 4 73 N 1 0 0 1 0 0 2
 Refer: 222 729 S 1 0 0 1 8.38864 161 2
+Substitution2: "Uppercase to small caps-1" Idotaccent.sc
 EndChar
 
 StartChar: cacute
@@ -5906,6 +5972,7 @@ LayerCount: 2
 Fore
 Refer: 1 99 N 1 0 0 1 0 0 2
 Refer: 107 180 N 1 0 0 1 24 0 2
+Substitution2: "Lowercase to small caps-1" cacute.sc
 Substitution2: "Polish kreska forms-1" cacute.pl
 EndChar
 
@@ -5917,6 +5984,7 @@ LayerCount: 2
 Fore
 Refer: 9 101 N 1 0 0 1 0 0 2
 Refer: 143 711 S 1 0 0 1 0 0 2
+Substitution2: "Lowercase to small caps-1" ecaron.sc
 EndChar
 
 StartChar: gbreve
@@ -5927,6 +5995,7 @@ LayerCount: 2
 Fore
 Refer: 13 103 N 1 0 0 1 0 0 2
 Refer: 241 728 S 1 0 0 1 10 0 2
+Substitution2: "Lowercase to small caps-1" gbreve.sc
 EndChar
 
 StartChar: racute
@@ -5937,6 +6006,7 @@ LayerCount: 2
 Fore
 Refer: 16 114 N 1 0 0 1 0 0 2
 Refer: 107 180 S 1 0 0 1 0 0 2
+Substitution2: "Lowercase to small caps-1" racute.sc
 Substitution2: "r with serif-1" racute.serif
 EndChar
 
@@ -5948,6 +6018,7 @@ LayerCount: 2
 Fore
 Refer: 69 122 N 1 0 0 1 0 0 2
 Refer: 107 180 S 1 0 0 1 0 0 2
+Substitution2: "Lowercase to small caps-1" zacute.sc
 Substitution2: "Polish kreska forms-1" zacute.pl
 EndChar
 
@@ -5959,6 +6030,7 @@ LayerCount: 2
 Fore
 Refer: 8 116 N 1 0 0 1 -31 0 2
 Refer: 56 8217 S 0.8 0 0 0.8 323.908 232 2
+Substitution2: "Lowercase to small caps-1" tcaron.sc
 EndChar
 
 StartChar: bullet
@@ -9690,6 +9762,7 @@ SplineSet
  525 423 l 1
  552 577 l 1
 EndSplineSet
+Substitution2: "Uppercase to small caps-1" hbar.sc
 EndChar
 
 StartChar: Hcircumflex
@@ -9701,6 +9774,7 @@ LayerCount: 2
 Fore
 Refer: 12 72 N 1 0 0 1 0 0 2
 Refer: 190 -1 S 1 0 0 1 25 146 2
+Substitution2: "Uppercase to small caps-1" hcircumflex.sc
 EndChar
 
 StartChar: Jcircumflex
@@ -9712,6 +9786,7 @@ LayerCount: 2
 Fore
 Refer: 83 74 N 1 0 0 1 0 0 2
 Refer: 190 -1 N 1 0 0 1 49 146 2
+Substitution2: "Uppercase to small caps-1" jcircumflex.sc
 EndChar
 
 StartChar: hbar
@@ -9721,6 +9796,7 @@ Flags: MW
 LayerCount: 2
 Fore
 Refer: 455 1115 N 1 0 0 1 0 0 2
+Substitution2: "Lowercase to small caps-1" hbar.sc
 EndChar
 
 StartChar: hcircumflex
@@ -9732,6 +9808,7 @@ LayerCount: 2
 Fore
 Refer: 14 104 N 1 0 0 1 0 0 2
 Refer: 190 -1 N 1 0 0 1 25 146 2
+Substitution2: "Lowercase to small caps-1" hcircumflex.sc
 EndChar
 
 StartChar: jcircumflex
@@ -9743,6 +9820,7 @@ LayerCount: 2
 Fore
 Refer: 259 567 N 1 0 0 1 0 0 2
 Refer: 137 710 S 1 0 0 1 0 0 2
+Substitution2: "Lowercase to small caps-1" jcircumflex.sc
 EndChar
 
 StartChar: Cdotaccent
@@ -9754,6 +9832,7 @@ LayerCount: 2
 Fore
 Refer: 72 67 N 1 0 0 1 0 0 2
 Refer: 222 729 N 1 0 0 1 50 150 2
+Substitution2: "Uppercase to small caps-1" cdotaccent.sc
 EndChar
 
 StartChar: Ccircumflex
@@ -9765,6 +9844,7 @@ LayerCount: 2
 Fore
 Refer: 72 67 N 1 0 0 1 0 0 2
 Refer: 190 -1 N 1 0 0 1 49 146 2
+Substitution2: "Uppercase to small caps-1" ccircumflex.sc
 EndChar
 
 StartChar: Gdotaccent
@@ -9776,6 +9856,7 @@ LayerCount: 2
 Fore
 Refer: 67 71 N 1 0 0 1 0 0 2
 Refer: 222 729 N 1 0 0 1 50 150 2
+Substitution2: "Uppercase to small caps-1" gdotaccent.sc
 EndChar
 
 StartChar: Gcircumflex
@@ -9787,6 +9868,7 @@ LayerCount: 2
 Fore
 Refer: 67 71 N 1 0 0 1 0 0 2
 Refer: 190 -1 N 1 0 0 1 49 146 2
+Substitution2: "Uppercase to small caps-1" gcircumflex.sc
 EndChar
 
 StartChar: Ubreve
@@ -9798,6 +9880,7 @@ LayerCount: 2
 Fore
 Refer: 63 85 N 1 0 0 1 0 0 2
 Refer: 241 728 S 1 0 0 1 18 163 2
+Substitution2: "Uppercase to small caps-1" ubreve.sc
 EndChar
 
 StartChar: Scircumflex
@@ -9809,6 +9892,7 @@ LayerCount: 2
 Fore
 Refer: 50 83 N 1 0 0 1 0 0 2
 Refer: 190 -1 S 1 0 0 1 25 146 2
+Substitution2: "Uppercase to small caps-1" scircumflex.sc
 EndChar
 
 StartChar: cdotaccent
@@ -9820,6 +9904,7 @@ LayerCount: 2
 Fore
 Refer: 1 99 N 1 0 0 1 0 0 2
 Refer: 222 729 N 1 0 0 1 24 0 2
+Substitution2: "Lowercase to small caps-1" cdotaccent.sc
 EndChar
 
 StartChar: ccircumflex
@@ -9831,6 +9916,7 @@ LayerCount: 2
 Fore
 Refer: 1 99 N 1 0 0 1 0 0 2
 Refer: 137 710 N 1 0 0 1 24 0 2
+Substitution2: "Lowercase to small caps-1" ccircumflex.sc
 EndChar
 
 StartChar: gdotaccent
@@ -9842,6 +9928,7 @@ LayerCount: 2
 Fore
 Refer: 13 103 N 1 0 0 1 0 0 2
 Refer: 222 729 S 1 0 0 1 0 0 2
+Substitution2: "Lowercase to small caps-1" gdotaccent.sc
 EndChar
 
 StartChar: gcircumflex
@@ -9853,6 +9940,7 @@ LayerCount: 2
 Fore
 Refer: 13 103 N 1 0 0 1 0 0 2
 Refer: 137 710 S 1 0 0 1 0 0 2
+Substitution2: "Lowercase to small caps-1" gcircumflex.sc
 EndChar
 
 StartChar: ubreve
@@ -9864,6 +9952,7 @@ LayerCount: 2
 Fore
 Refer: 15 117 N 1 0 0 1 0 0 2
 Refer: 241 728 S 1 0 0 1 10 0 2
+Substitution2: "Lowercase to small caps-1" ubreve.sc
 EndChar
 
 StartChar: scircumflex
@@ -9875,6 +9964,7 @@ LayerCount: 2
 Fore
 Refer: 3 115 N 1 0 0 1 0 0 2
 Refer: 137 710 S 1 0 0 1 0 0 2
+Substitution2: "Lowercase to small caps-1" scircumflex.sc
 EndChar
 
 StartChar: Rcommaaccent
@@ -9886,6 +9976,7 @@ LayerCount: 2
 Fore
 Refer: 101 82 N 1 0 0 1 0 0 2
 Refer: 1056 -1 N 1 0 0 1 0 0 2
+Substitution2: "Uppercase to small caps-1" rcommaaccent.sc
 EndChar
 
 StartChar: Itilde
@@ -9897,6 +9988,7 @@ LayerCount: 2
 Fore
 Refer: 4 73 N 1 0 0 1 0 0 2
 Refer: 138 732 S 1 0 0 1 21 149 2
+Substitution2: "Uppercase to small caps-1" itilde.sc
 EndChar
 
 StartChar: Lcommaaccent
@@ -9908,6 +10000,7 @@ LayerCount: 2
 Fore
 Refer: 52 76 N 1 0 0 1 0 0 2
 Refer: 1056 -1 N 1 0 0 1 0 0 2
+Substitution2: "Uppercase to small caps-1" lcommaaccent.sc
 EndChar
 
 StartChar: Emacron
@@ -9919,6 +10012,7 @@ LayerCount: 2
 Fore
 Refer: 80 69 N 1 0 0 1 0 0 2
 Refer: 198 713 N 1 0 0 1 35 201 2
+Substitution2: "Uppercase to small caps-1" emacron.sc
 EndChar
 
 StartChar: Gcommaaccent
@@ -9930,6 +10024,7 @@ LayerCount: 2
 Fore
 Refer: 67 71 N 1 0 0 1 0 0 2
 Refer: 1056 -1 N 1 0 0 1 0 0 2
+Substitution2: "Uppercase to small caps-1" gcommaaccent.sc
 EndChar
 
 StartChar: Tbar
@@ -9957,6 +10052,7 @@ SplineSet
  164 666 l 1
  178 740 l 1
 EndSplineSet
+Substitution2: "Uppercase to small caps-1" tbar.sc
 EndChar
 
 StartChar: rcommaaccent
@@ -9968,6 +10064,7 @@ LayerCount: 2
 Fore
 Refer: 16 114 N 1 0 0 1 0 0 2
 Refer: 1056 -1 N 1 0 0 1 0 0 2
+Substitution2: "Lowercase to small caps-1" rcommaaccent.sc
 Substitution2: "r with serif-1" rcommaaccent.serif
 EndChar
 
@@ -9980,6 +10077,7 @@ LayerCount: 2
 Fore
 Refer: 136 305 N 1 0 0 1 0 0 2
 Refer: 138 732 S 1 0 0 1 11 0 2
+Substitution2: "Lowercase to small caps-1" itilde.sc
 EndChar
 
 StartChar: lcommaaccent
@@ -9991,6 +10089,7 @@ LayerCount: 2
 Fore
 Refer: 7 108 N 1 0 0 1 0 0 2
 Refer: 1056 -1 N 1 0 0 1 0 0 2
+Substitution2: "Lowercase to small caps-1" lcommaaccent.sc
 EndChar
 
 StartChar: emacron
@@ -10002,6 +10101,7 @@ LayerCount: 2
 Fore
 Refer: 9 101 N 1 0 0 1 0 0 2
 Refer: 198 713 S 1 0 0 1 0 0 2
+Substitution2: "Lowercase to small caps-1" emacron.sc
 EndChar
 
 StartChar: gcommaaccent
@@ -10013,6 +10113,7 @@ LayerCount: 2
 Fore
 Refer: 13 103 N 1 0 0 1 0 0 2
 Refer: 1056 -1 N -1 0 0 -1 723 594 2
+Substitution2: "Lowercase to small caps-1" gcommaaccent.sc
 EndChar
 
 StartChar: tbar
@@ -10052,6 +10153,7 @@ SplineSet
  319 542 l 1
  355 687 l 1
 EndSplineSet
+Substitution2: "Lowercase to small caps-1" tbar.sc
 EndChar
 
 StartChar: Amacron
@@ -10063,6 +10165,7 @@ LayerCount: 2
 Fore
 Refer: 71 65 N 1 0 0 1 0 0 2
 Refer: 198 713 S 1 0 0 1 35 201 2
+Substitution2: "Uppercase to small caps-1" amacron.sc
 EndChar
 
 StartChar: Iogonek
@@ -10074,6 +10177,7 @@ LayerCount: 2
 Fore
 Refer: 4 73 N 1 0 0 1 0 0 2
 Refer: 214 731 S 1 0 0 1 -143 0 2
+Substitution2: "Uppercase to small caps-1" iogonek.sc
 EndChar
 
 StartChar: Edotaccent
@@ -10085,6 +10189,7 @@ LayerCount: 2
 Fore
 Refer: 80 69 N 1 0 0 1 0 0 2
 Refer: 222 729 S 1 0 0 1 26 150 2
+Substitution2: "Uppercase to small caps-1" edotaccent.sc
 EndChar
 
 StartChar: Imacron
@@ -10096,6 +10201,7 @@ LayerCount: 2
 Fore
 Refer: 4 73 N 1 0 0 1 0 0 2
 Refer: 198 713 S 1 0 0 1 35 201 2
+Substitution2: "Uppercase to small caps-1" imacron.sc
 EndChar
 
 StartChar: Ncommaaccent
@@ -10107,6 +10213,7 @@ LayerCount: 2
 Fore
 Refer: 46 78 N 1 0 0 1 0 0 2
 Refer: 1056 -1 N 1 0 0 1 0 0 2
+Substitution2: "Uppercase to small caps-1" ncommaaccent.sc
 EndChar
 
 StartChar: Omacron
@@ -10118,6 +10225,7 @@ LayerCount: 2
 Fore
 Refer: 42 79 N 1 0 0 1 0 0 2
 Refer: 198 713 S 1 0 0 1 35 201 2
+Substitution2: "Uppercase to small caps-1" omacron.sc
 EndChar
 
 StartChar: Kcommaaccent
@@ -10129,6 +10237,7 @@ LayerCount: 2
 Fore
 Refer: 84 75 N 1 0 0 1 0 0 2
 Refer: 1056 -1 N 1 0 0 1 0 0 2
+Substitution2: "Uppercase to small caps-1" kcommaaccent.sc
 EndChar
 
 StartChar: Uogonek
@@ -10167,6 +10276,7 @@ SplineSet
  98 153 106 203 115 255 c 2
  200 739 l 1
 EndSplineSet
+Substitution2: "Uppercase to small caps-1" uogonek.sc
 EndChar
 
 StartChar: Utilde
@@ -10178,6 +10288,7 @@ LayerCount: 2
 Fore
 Refer: 63 85 N 1 0 0 1 0 0 2
 Refer: 138 732 S 1 0 0 1 21 149 2
+Substitution2: "Uppercase to small caps-1" utilde.sc
 EndChar
 
 StartChar: Umacron
@@ -10189,6 +10300,7 @@ LayerCount: 2
 Fore
 Refer: 63 85 N 1 0 0 1 0 0 2
 Refer: 198 713 S 1 0 0 1 35 201 2
+Substitution2: "Uppercase to small caps-1" umacron.sc
 EndChar
 
 StartChar: amacron
@@ -10200,6 +10312,7 @@ LayerCount: 2
 Fore
 Refer: 0 97 N 1 0 0 1 0 0 2
 Refer: 198 713 S 1 0 0 1 0 0 2
+Substitution2: "Lowercase to small caps-1" amacron.sc
 EndChar
 
 StartChar: iogonek
@@ -10211,6 +10324,7 @@ LayerCount: 2
 Fore
 Refer: 17 105 N 1 0 0 1 0 0 2
 Refer: 214 731 S 1 0 0 1 -143 0 2
+Substitution2: "Lowercase to small caps-1" iogonek.sc
 EndChar
 
 StartChar: edotaccent
@@ -10222,6 +10336,7 @@ LayerCount: 2
 Fore
 Refer: 9 101 N 1 0 0 1 0 0 2
 Refer: 222 729 S 1 0 0 1 0 0 2
+Substitution2: "Lowercase to small caps-1" edotaccent.sc
 EndChar
 
 StartChar: imacron
@@ -10233,6 +10348,7 @@ LayerCount: 2
 Fore
 Refer: 136 305 N 1 0 0 1 0 0 2
 Refer: 198 713 S 1 0 0 1 0 0 2
+Substitution2: "Lowercase to small caps-1" imacron.sc
 EndChar
 
 StartChar: ncommaaccent
@@ -10244,6 +10360,7 @@ LayerCount: 2
 Fore
 Refer: 6 110 N 1 0 0 1 0 0 2
 Refer: 1056 -1 N 1 0 0 1 0 0 2
+Substitution2: "Lowercase to small caps-1" ncommaaccent.sc
 EndChar
 
 StartChar: kcommaaccent
@@ -10255,6 +10372,7 @@ LayerCount: 2
 Fore
 Refer: 68 107 N 1 0 0 1 0 0 2
 Refer: 1056 -1 N 1 0 0 1 0 0 2
+Substitution2: "Lowercase to small caps-1" kcommaaccent.sc
 EndChar
 
 StartChar: uogonek
@@ -10266,6 +10384,7 @@ LayerCount: 2
 Fore
 Refer: 15 117 N 1 0 0 1 0 0 2
 Refer: 214 731 N 1 0 0 1 20 0 2
+Substitution2: "Lowercase to small caps-1" uogonek.sc
 EndChar
 
 StartChar: utilde
@@ -10277,6 +10396,7 @@ LayerCount: 2
 Fore
 Refer: 15 117 N 1 0 0 1 0 0 2
 Refer: 138 732 S 1 0 0 1 11 0 2
+Substitution2: "Lowercase to small caps-1" utilde.sc
 EndChar
 
 StartChar: umacron
@@ -10288,6 +10408,7 @@ LayerCount: 2
 Fore
 Refer: 15 117 N 1 0 0 1 0 0 2
 Refer: 198 713 S 1 0 0 1 0 0 2
+Substitution2: "Lowercase to small caps-1" umacron.sc
 EndChar
 
 StartChar: Ebreve
@@ -10299,6 +10420,7 @@ LayerCount: 2
 Fore
 Refer: 80 69 N 1 0 0 1 0 0 2
 Refer: 241 728 S 1 0 0 1 18 163 2
+Substitution2: "Uppercase to small caps-1" ebreve.sc
 EndChar
 
 StartChar: ebreve
@@ -10310,6 +10432,7 @@ LayerCount: 2
 Fore
 Refer: 9 101 N 1 0 0 1 0 0 2
 Refer: 241 728 S 1 0 0 1 10 0 2
+Substitution2: "Lowercase to small caps-1" ebreve.sc
 EndChar
 
 StartChar: Ibreve
@@ -10321,6 +10444,7 @@ LayerCount: 2
 Fore
 Refer: 4 73 N 1 0 0 1 0 0 2
 Refer: 241 728 S 1 0 0 1 18 163 2
+Substitution2: "Uppercase to small caps-1" ibreve.sc
 EndChar
 
 StartChar: ibreve
@@ -10332,6 +10456,7 @@ LayerCount: 2
 Fore
 Refer: 136 305 N 1 0 0 1 0 0 2
 Refer: 241 728 S 1 0 0 1 10 0 2
+Substitution2: "Lowercase to small caps-1" ibreve.sc
 EndChar
 
 StartChar: IJ
@@ -10367,6 +10492,7 @@ SplineSet
  295 -1 l 1
  31 -1 l 1
 EndSplineSet
+Substitution2: "Uppercase to small caps-1" ij.sc
 EndChar
 
 StartChar: ij
@@ -10412,6 +10538,7 @@ SplineSet
  673 683 641 656 607 656 c 0
  573 656 551 683 557 717 c 0
 EndSplineSet
+Substitution2: "Lowercase to small caps-1" ij.sc
 EndChar
 
 StartChar: Ldot
@@ -10423,6 +10550,7 @@ LayerCount: 2
 Fore
 Refer: 52 76 N 1 0 0 1 0 0 2
 Refer: 142 183 N 1 0 0 1 102 0 2
+Substitution2: "Uppercase to small caps-1" ldot.sc
 EndChar
 
 StartChar: ldot
@@ -10434,6 +10562,7 @@ LayerCount: 2
 Fore
 Refer: 7 108 N 1 0 0 1 -51 0 2
 Refer: 142 183 N 1 0 0 1 204 0 2
+Substitution2: "Lowercase to small caps-1" ldot.sc
 EndChar
 
 StartChar: napostrophe
@@ -10475,6 +10604,7 @@ LayerCount: 2
 Fore
 Refer: 42 79 N 1 0 0 1 0 0 2
 Refer: 241 728 S 1 0 0 1 18 163 2
+Substitution2: "Uppercase to small caps-1" obreve.sc
 EndChar
 
 StartChar: obreve
@@ -10486,6 +10616,7 @@ LayerCount: 2
 Fore
 Refer: 5 111 N 1 0 0 1 0 0 2
 Refer: 241 728 S 1 0 0 1 10 0 2
+Substitution2: "Lowercase to small caps-1" obreve.sc
 EndChar
 
 StartChar: Wcircumflex
@@ -10497,6 +10628,7 @@ LayerCount: 2
 Fore
 Refer: 106 87 N 1 0 0 1 0 0 2
 Refer: 190 -1 S 1 0 0 1 22 146 2
+Substitution2: "Uppercase to small caps-1" wcircumflex.sc
 EndChar
 
 StartChar: wcircumflex
@@ -10508,6 +10640,7 @@ LayerCount: 2
 Fore
 Refer: 55 119 N 1 0 0 1 0 0 2
 Refer: 137 710 S 1 0 0 1 0 0 2
+Substitution2: "Lowercase to small caps-1" wcircumflex.sc
 EndChar
 
 StartChar: Ycircumflex
@@ -10519,6 +10652,7 @@ LayerCount: 2
 Fore
 Refer: 94 89 N 1 0 0 1 0 0 2
 Refer: 190 -1 S 1 0 0 1 22 146 2
+Substitution2: "Uppercase to small caps-1" ycircumflex.sc
 EndChar
 
 StartChar: ycircumflex
@@ -10530,6 +10664,7 @@ LayerCount: 2
 Fore
 Refer: 23 121 N 1 0 0 1 0 0 2
 Refer: 137 710 S 1 0 0 1 0 0 2
+Substitution2: "Lowercase to small caps-1" ycircumflex.sc
 EndChar
 
 StartChar: slong
@@ -10554,6 +10689,7 @@ SplineSet
  254 -172 l 1
  172 -172 l 1
 EndSplineSet
+Substitution2: "Lowercase to small caps-1" s.sc
 EndChar
 
 StartChar: Aringacute
@@ -14001,6 +14137,7 @@ LayerCount: 2
 Fore
 Refer: 72 67 N 1 0 0 1 0 0 2
 Refer: 668 -1 N 1 0 0 1 49 141 2
+Substitution2: "Uppercase to small caps-1" cacute.pl.sc
 EndChar
 
 StartChar: cacute.pl
@@ -14012,6 +14149,7 @@ LayerCount: 2
 Fore
 Refer: 1 99 N 1 0 0 1 0 0 2
 Refer: 669 -1 N 1 0 0 1 24 0 2
+Substitution2: "Lowercase to small caps-1" cacute.pl.sc
 EndChar
 
 StartChar: Nacute.pl
@@ -14023,6 +14161,7 @@ LayerCount: 2
 Fore
 Refer: 46 78 N 1 0 0 1 0 0 2
 Refer: 668 -1 N 1 0 0 1 25 141 2
+Substitution2: "Uppercase to small caps-1" nacute.pl.sc
 EndChar
 
 StartChar: nacute.pl
@@ -14034,6 +14173,7 @@ LayerCount: 2
 Fore
 Refer: 6 110 N 1 0 0 1 0 0 2
 Refer: 669 -1 N 1 0 0 1 0 0 2
+Substitution2: "Lowercase to small caps-1" nacute.pl.sc
 EndChar
 
 StartChar: Oacute.pl
@@ -14045,6 +14185,7 @@ LayerCount: 2
 Fore
 Refer: 42 79 N 1 0 0 1 0 0 2
 Refer: 668 -1 N 1 0 0 1 25 141 2
+Substitution2: "Uppercase to small caps-1" oacute.pl.sc
 EndChar
 
 StartChar: oacute.pl
@@ -14056,6 +14197,7 @@ LayerCount: 2
 Fore
 Refer: 5 111 N 1 0 0 1 0 0 2
 Refer: 669 -1 N 1 0 0 1 0 0 2
+Substitution2: "Lowercase to small caps-1" oacute.pl.sc
 EndChar
 
 StartChar: Sacute.pl
@@ -14067,6 +14209,7 @@ LayerCount: 2
 Fore
 Refer: 50 83 N 1 0 0 1 0 0 2
 Refer: 668 -1 N 1 0 0 1 25 141 2
+Substitution2: "Uppercase to small caps-1" sacute.pl.sc
 EndChar
 
 StartChar: sacute.pl
@@ -14078,6 +14221,7 @@ LayerCount: 2
 Fore
 Refer: 3 115 N 1 0 0 1 0 0 2
 Refer: 669 -1 N 1 0 0 1 0 0 2
+Substitution2: "Lowercase to small caps-1" sacute.pl.sc
 EndChar
 
 StartChar: Zacute.pl
@@ -14089,6 +14233,7 @@ LayerCount: 2
 Fore
 Refer: 96 90 N 1 0 0 1 0 0 2
 Refer: 668 -1 N 1 0 0 1 25 141 2
+Substitution2: "Uppercase to small caps-1" zacute.pl.sc
 EndChar
 
 StartChar: zacute.pl
@@ -14100,6 +14245,7 @@ LayerCount: 2
 Fore
 Refer: 69 122 N 1 0 0 1 0 0 2
 Refer: 669 -1 N 1 0 0 1 0 0 2
+Substitution2: "Lowercase to small caps-1" zacute.pl.sc
 EndChar
 
 StartChar: Scommaaccent
@@ -26293,6 +26439,7 @@ SplineSet
  158 0 l 0
  71 0 l 0
 EndSplineSet
+Substitution2: "Uppercase to small caps-1" eng.var1.sc
 EndChar
 
 StartChar: Eng.var2
@@ -26324,6 +26471,7 @@ SplineSet
  150 0 l 1
  70 0 l 1
 EndSplineSet
+Substitution2: "Uppercase to small caps-1" eng.var2.sc
 EndChar
 
 StartChar: Rdotbelow
@@ -40856,6 +41004,7 @@ LayerCount: 2
 Fore
 Refer: 194 -1 S 1 0 0 1 115 141 2
 Refer: 83 74 N 1 0 0 1 0 0 2
+Substitution2: "Uppercase to small caps-1" jacute.sc
 Decomposition: "J+AwEA"
 EndChar
 
@@ -40868,6 +41017,7 @@ LayerCount: 2
 Fore
 Refer: 107 180 N 1 0 0 1 90 0 2
 Refer: 259 567 N 1 0 0 1 0 0 2
+Substitution2: "Lowercase to small caps-1" jacute.sc
 Decomposition: "j+AwEA"
 EndChar
 
@@ -54848,6 +54998,7 @@ SplineSet
  297 473 l 0
  310 542 l 0
 EndSplineSet
+Substitution2: "J with acute accent-1" jacute.sc
 EndChar
 
 StartChar: k.sc
@@ -55485,6 +55636,7 @@ LayerCount: 2
 Fore
 Refer: 1583 714 N 1 0 0 1 -1 -5 2
 Refer: 2646 -1 N 1 0 0 1 0 0 3
+Substitution2: "Polish kreska forms-1" oacute.pl.sc
 EndChar
 
 StartChar: ocircumflex.sc
@@ -55682,6 +55834,924 @@ LayerCount: 2
 Fore
 Refer: 139 168 N 1 0 0 1 -11 -54 2
 Refer: 2656 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: amacron.sc
+Encoding: 1114402 -1 2690
+Width: 613
+Flags: MW
+LayerCount: 2
+Fore
+Refer: 198 713 N 1 0 0 1 -24 -54 2
+Refer: 2632 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: abreve.sc
+Encoding: 1114403 -1 2691
+Width: 613
+Flags: MW
+LayerCount: 2
+Fore
+Refer: 241 728 N 1 0 0 1 -13 -5 2
+Refer: 2632 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: aogonek.sc
+Encoding: 1114404 -1 2692
+Width: 613
+Flags: MW
+LayerCount: 2
+Fore
+Refer: 214 731 N 1 0 0 1 70 6 2
+Refer: 2632 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: cacute.sc
+Encoding: 1114405 -1 2693
+Width: 613
+Flags: MW
+LayerCount: 2
+Fore
+Refer: 1583 714 N 1 0 0 1 28 -5 2
+Refer: 2634 -1 N 1 0 0 1 0 0 3
+Substitution2: "Polish kreska forms-1" cacute.pl.sc
+EndChar
+
+StartChar: ccircumflex.sc
+Encoding: 1114406 -1 2694
+Width: 613
+Flags: MW
+LayerCount: 2
+Fore
+Refer: 137 710 N 1 0 0 1 28 11 2
+Refer: 2634 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: cdotaccent.sc
+Encoding: 1114407 -1 2695
+Width: 613
+Flags: MW
+LayerCount: 2
+Fore
+Refer: 222 729 N 1 0 0 1 21 -41 2
+Refer: 2634 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: ccaron.sc
+Encoding: 1114408 -1 2696
+Width: 613
+Flags: MW
+LayerCount: 2
+Fore
+Refer: 143 711 N 1 0 0 1 26 1 2
+Refer: 2634 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: dcaron.sc
+Encoding: 1114409 -1 2697
+Width: 613
+Flags: MW
+LayerCount: 2
+Fore
+Refer: 143 711 N 1 0 0 1 -23 1 2
+Refer: 2635 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: dcroat.sc
+Encoding: 1114410 -1 2698
+Width: 613
+Flags: MW
+LayerCount: 2
+Fore
+Refer: 2674 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: emacron.sc
+Encoding: 1114411 -1 2699
+Width: 613
+Flags: MW
+LayerCount: 2
+Fore
+Refer: 198 713 N 1 0 0 1 -10 -56 2
+Refer: 2636 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: ebreve.sc
+Encoding: 1114412 -1 2700
+Width: 613
+Flags: MW
+LayerCount: 2
+Fore
+Refer: 241 728 N 1 0 0 1 1 -7 2
+Refer: 2636 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: edotaccent.sc
+Encoding: 1114413 -1 2701
+Width: 613
+Flags: MW
+LayerCount: 2
+Fore
+Refer: 222 729 N 1 0 0 1 -13 -41 2
+Refer: 2636 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: eogonek.sc
+Encoding: 1114414 -1 2702
+Width: 613
+Flags: MW
+LayerCount: 2
+Fore
+Refer: 214 731 N 1 0 0 1 18 7 2
+Refer: 2636 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: ecaron.sc
+Encoding: 1114415 -1 2703
+Width: 613
+Flags: MW
+LayerCount: 2
+Fore
+Refer: 143 711 S 1 0 0 1 -6 1 2
+Refer: 2636 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: gcircumflex.sc
+Encoding: 1114416 -1 2704
+Width: 613
+Flags: MW
+LayerCount: 2
+Fore
+Refer: 137 710 N 1 0 0 1 28 11 2
+Refer: 2638 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: gbreve.sc
+Encoding: 1114417 -1 2705
+Width: 613
+Flags: MW
+LayerCount: 2
+Fore
+Refer: 241 728 N 1 0 0 1 33 -7 2
+Refer: 2638 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: gdotaccent.sc
+Encoding: 1114418 -1 2706
+Width: 613
+Flags: MW
+LayerCount: 2
+Fore
+Refer: 222 729 N 1 0 0 1 19 -41 2
+Refer: 2638 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: gcommaaccent.sc
+Encoding: 1114419 -1 2707
+Width: 613
+Flags: MW
+LayerCount: 2
+Fore
+Refer: 2638 -1 N 1 0 0 1 0 0 3
+Refer: 1056 -1 N 1 0 0 1 32 0 2
+EndChar
+
+StartChar: hcircumflex.sc
+Encoding: 1114420 -1 2708
+Width: 613
+Flags: MW
+LayerCount: 2
+Fore
+Refer: 137 710 N 1 0 0 1 -3 11 2
+Refer: 2639 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: hbar.sc
+Encoding: 1114421 -1 2709
+Width: 613
+Flags: MW
+LayerCount: 2
+Fore
+SplineSet
+171 543 m 1
+ 263 543 l 1
+ 264 542 263 539 263 538 c 0
+ 262 531 254 531 252 521 c 2
+ 243 470 l 1
+ 533 470 l 1
+ 546 543 l 1
+ 635 543 l 1
+ 636 542 636 540 636 539 c 0
+ 635 532 626 532 624 523 c 2
+ 615 470 l 1
+ 665 470 l 1
+ 654 406 l 1
+ 604 406 l 1
+ 532 -1 l 1
+ 449 -1 l 1
+ 491 241 l 1
+ 202 241 l 1
+ 160 0 l 1
+ 75 0 l 1
+ 147 406 l 1
+ 103 406 l 1
+ 114 470 l 1
+ 158 470 l 1
+ 171 543 l 1
+522 406 m 1
+ 232 406 l 1
+ 215 312 l 1
+ 505 312 l 1
+ 522 406 l 1
+EndSplineSet
+EndChar
+
+StartChar: itilde.sc
+Encoding: 1114422 -1 2710
+Width: 613
+Flags: MW
+LayerCount: 2
+Fore
+Refer: 138 732 N 1 0 0 1 -25 -30 2
+Refer: 2640 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: imacron.sc
+Encoding: 1114423 -1 2711
+Width: 613
+Flags: MW
+LayerCount: 2
+Fore
+Refer: 198 713 N 1 0 0 1 -20 -56 2
+Refer: 2640 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: ibreve.sc
+Encoding: 1114424 -1 2712
+Width: 613
+Flags: MW
+LayerCount: 2
+Fore
+Refer: 241 728 N 1 0 0 1 -9 -7 2
+Refer: 2640 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: iogonek.sc
+Encoding: 1114425 -1 2713
+Width: 613
+Flags: MW
+LayerCount: 2
+Fore
+Refer: 214 731 N 1 0 0 1 -173 6 2
+Refer: 2640 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: Idotaccent.sc
+Encoding: 1114426 -1 2714
+Width: 613
+Flags: MW
+LayerCount: 2
+Fore
+Refer: 222 729 N 1 0 0 1 -27 -41 2
+Refer: 2640 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: ij.sc
+Encoding: 1114427 -1 2715
+Width: 613
+Flags: MW
+LayerCount: 2
+Fore
+SplineSet
+31 -1 m 1
+ 43 68 l 1
+ 122 68 l 1
+ 193 471 l 1
+ 122 471 l 1
+ 134 541 l 1
+ 693 541 l 1
+ 681 471 l 1
+ 608 471 l 1
+ 532 40 l 2
+ 525 2 520 -37 484 -75 c 0
+ 441 -120 372 -145 302 -145 c 0
+ 238 -145 179 -117 144 -67 c 1
+ 206 -28 l 1
+ 212 -31 208 -37 212 -41 c 0
+ 215 -43 255 -72 317 -72 c 0
+ 352 -72 387 -61 410 -40 c 0
+ 441 -14 447 19 452 49 c 2
+ 453 55 l 1
+ 526 471 l 1
+ 276 471 l 1
+ 205 67 l 1
+ 306 67 l 1
+ 294 -1 l 1
+ 31 -1 l 1
+EndSplineSet
+EndChar
+
+StartChar: jcircumflex.sc
+Encoding: 1114428 -1 2716
+Width: 613
+Flags: MW
+LayerCount: 2
+Fore
+Refer: 137 710 N 1 0 0 1 25 11 2
+Refer: 2641 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: kcommaaccent.sc
+Encoding: 1114429 -1 2717
+Width: 613
+Flags: MW
+LayerCount: 2
+Fore
+Refer: 2642 -1 N 1 0 0 1 0 0 3
+Refer: 1056 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: lacute.sc
+Encoding: 1114430 -1 2718
+Width: 613
+Flags: MW
+LayerCount: 2
+Fore
+Refer: 1583 714 N 1 0 0 1 -1 -5 2
+Refer: 2643 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: lcommaaccent.sc
+Encoding: 1114431 -1 2719
+Width: 613
+Flags: MW
+LayerCount: 2
+Fore
+Refer: 2643 -1 N 1 0 0 1 0 0 3
+Refer: 1056 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: lcaron.sc
+Encoding: 1114432 -1 2720
+Width: 613
+Flags: MW
+LayerCount: 2
+Fore
+Refer: 1461 700 N 0.8 0 0 0.8 184 -52 2
+Refer: 2643 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: ldot.sc
+Encoding: 1114433 -1 2721
+Width: 613
+Flags: MW
+LayerCount: 2
+Fore
+Refer: 142 183 N 1 0 0 1 204 0 2
+Refer: 2643 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: lslash.sc
+Encoding: 1114434 -1 2722
+Width: 613
+Flags: MW
+LayerCount: 2
+Fore
+SplineSet
+196 561 m 1
+ 293 561 l 1
+ 293 560 293 560 293 559 c 0
+ 291 548 279 546 277 533 c 2
+ 238 314 l 1
+ 444 361 l 2
+ 454 363 464 365 476 369 c 1
+ 463 296 l 1
+ 226 242 l 1
+ 196 71 l 1
+ 553 71 l 1
+ 540 -1 l 1
+ 97 -1 l 1
+ 138 231 l 1
+ 72 215 l 1
+ 81 269 l 1
+ 147 284 l 1
+ 196 561 l 1
+EndSplineSet
+EndChar
+
+StartChar: nacute.sc
+Encoding: 1114435 -1 2723
+Width: 613
+Flags: MW
+LayerCount: 2
+Fore
+Refer: 1583 714 N 1 0 0 1 -2 -5 2
+Refer: 2645 -1 N 1 0 0 1 0 0 3
+Substitution2: "Polish kreska forms-1" nacute.pl.sc
+EndChar
+
+StartChar: ncommaaccent.sc
+Encoding: 1114436 -1 2724
+Width: 613
+Flags: MW
+LayerCount: 2
+Fore
+Refer: 2645 -1 N 1 0 0 1 0 0 3
+Refer: 1056 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: ncaron.sc
+Encoding: 1114437 -1 2725
+Width: 613
+Flags: MW
+LayerCount: 2
+Fore
+Refer: 143 711 N 1 0 0 1 -4 1 2
+Refer: 2645 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: eng.sc
+Encoding: 1114438 -1 2726
+Width: 613
+Flags: MW
+LayerCount: 2
+Fore
+SplineSet
+71 0 m 0
+ 167 542 l 0
+ 254 542 l 0
+ 238 454 l 0
+ 290 513 370 554 448 554 c 0
+ 521 554 580 523 603 472 c 0
+ 619 438 614 403 608 369 c 0
+ 570 152 l 0
+ 565 122 557 92 533 62 c 0
+ 496 17 431 -9 362 -9 c 0
+ 325 -9 291 -1 262 16 c 0
+ 316 83 l 0
+ 322 80 322 77 326 75 c 0
+ 329 74 349 64 377 64 c 0
+ 411 64 443 76 462 99 c 0
+ 478 118 484 139 487 158 c 0
+ 522 359 l 0
+ 526 382 530 408 516 432 c 0
+ 501 461 464 479 419 479 c 0
+ 356 479 289 442 257 416 c 0
+ 230 393 224 371 219 344 c 0
+ 158 0 l 0
+ 71 0 l 0
+EndSplineSet
+AlternateSubs2: "Eng variants-1" eng.var1.sc eng.var2.sc
+Substitution2: "Sami variant of Eng-1" eng.var2.sc
+EndChar
+
+StartChar: omacron.sc
+Encoding: 1114439 -1 2727
+Width: 613
+Flags: MW
+LayerCount: 2
+Fore
+Refer: 198 713 N 1 0 0 1 -6 -56 2
+Refer: 2646 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: obreve.sc
+Encoding: 1114440 -1 2728
+Width: 613
+Flags: MW
+LayerCount: 2
+Fore
+Refer: 241 728 N 1 0 0 1 5 -7 2
+Refer: 2646 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: ohungarumlaut.sc
+Encoding: 1114441 -1 2729
+Width: 613
+Flags: MW
+LayerCount: 2
+Fore
+Refer: 240 733 N 1 0 0 1 -1 -5 2
+Refer: 2646 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: oe.sc
+Encoding: 1114442 -1 2730
+Width: 613
+Flags: MW
+LayerCount: 2
+Fore
+SplineSet
+400 510 m 0
+ 406 543 l 0
+ 681 543 l 0
+ 668 470 l 0
+ 467 470 l 0
+ 441 321 l 0
+ 611 321 l 0
+ 597 245 l 0
+ 427 245 l 0
+ 397 74 l 0
+ 595 74 l 0
+ 582 0 l 0
+ 309 0 l 0
+ 316 38 l 0
+ 287 10 249 -6 211 -6 c 0
+ 153 -6 87 23 67 105 c 0
+ 65 115 52 171 70 274 c 0
+ 83 347 101 410 143 465 c 0
+ 194 532 263 554 311 554 c 0
+ 348 554 379 538 400 510 c 0
+147 284 m 0
+ 143 261 129 177 152 122 c 0
+ 171 77 207 67 234 67 c 0
+ 276 67 314 92 331 127 c 0
+ 382 412 l 0
+ 375 439 352 485 299 485 c 0
+ 264 485 225 464 195 420 c 0
+ 184 405 162 369 147 284 c 0
+EndSplineSet
+EndChar
+
+StartChar: racute.sc
+Encoding: 1114443 -1 2731
+Width: 613
+Flags: MW
+LayerCount: 2
+Fore
+Refer: 1583 714 N 1 0 0 1 7 -5 2
+Refer: 2649 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: rcommaaccent.sc
+Encoding: 1114444 -1 2732
+Width: 613
+Flags: MW
+LayerCount: 2
+Fore
+Refer: 2649 -1 N 1 0 0 1 0 0 3
+Refer: 1056 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: rcaron.sc
+Encoding: 1114445 -1 2733
+Width: 613
+Flags: MW
+LayerCount: 2
+Fore
+Refer: 143 711 N 1 0 0 1 -6 1 2
+Refer: 2649 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: sacute.sc
+Encoding: 1114446 -1 2734
+Width: 613
+Flags: MW
+LayerCount: 2
+Fore
+Refer: 1583 714 N 1 0 0 1 9 -5 2
+Refer: 2650 -1 N 1 0 0 1 0 0 3
+Substitution2: "Polish kreska forms-1" sacute.pl.sc
+EndChar
+
+StartChar: scircumflex.sc
+Encoding: 1114447 -1 2735
+Width: 613
+Flags: MW
+LayerCount: 2
+Fore
+Refer: 137 710 N 1 0 0 1 10 11 2
+Refer: 2650 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: scedilla.sc
+Encoding: 1114448 -1 2736
+Width: 613
+Flags: MW
+LayerCount: 2
+Fore
+Refer: 201 184 N 1 0 0 1 -42 -2 2
+Refer: 2650 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: scaron.sc
+Encoding: 1114449 -1 2737
+Width: 613
+Flags: MW
+LayerCount: 2
+Fore
+Refer: 143 711 N 1 0 0 1 8 1 2
+Refer: 2650 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: tcedilla.sc
+Encoding: 1114450 -1 2738
+Width: 613
+Flags: MW
+LayerCount: 2
+Fore
+Refer: 201 184 N 1 0 0 1 -47 6 2
+Refer: 2651 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: tcaron.sc
+Encoding: 1114451 -1 2739
+Width: 613
+Flags: MW
+LayerCount: 2
+Fore
+Refer: 143 711 N 1 0 0 1 -12 1 2
+Refer: 2651 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: tbar.sc
+Encoding: 1114452 -1 2740
+Width: 613
+Flags: MW
+LayerCount: 2
+Fore
+SplineSet
+143 542 m 1
+ 654 542 l 1
+ 640 467 l 1
+ 422 467 l 1
+ 396 317 l 1
+ 564 317 l 1
+ 552 251 l 1
+ 384 251 l 1
+ 340 -1 l 1
+ 256 -1 l 1
+ 300 251 l 1
+ 145 251 l 1
+ 157 317 l 1
+ 312 317 l 1
+ 338 467 l 1
+ 129 467 l 1
+ 143 542 l 1
+EndSplineSet
+EndChar
+
+StartChar: utilde.sc
+Encoding: 1114453 -1 2741
+Width: 613
+Flags: MW
+LayerCount: 2
+Fore
+Refer: 138 732 N 1 0 0 1 -14 -30 2
+Refer: 2652 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: umacron.sc
+Encoding: 1114454 -1 2742
+Width: 613
+Flags: MW
+LayerCount: 2
+Fore
+Refer: 198 713 N 1 0 0 1 -8 -56 2
+Refer: 2652 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: ubreve.sc
+Encoding: 1114455 -1 2743
+Width: 613
+Flags: MW
+LayerCount: 2
+Fore
+Refer: 241 728 N 1 0 0 1 3 -7 2
+Refer: 2652 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uring.sc
+Encoding: 1114456 -1 2744
+Width: 613
+Flags: MW
+LayerCount: 2
+Fore
+Refer: 161 730 N 1 0 0 1 -5 2 2
+Refer: 2652 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uhungarumlaut.sc
+Encoding: 1114457 -1 2745
+Width: 613
+Flags: MW
+LayerCount: 2
+Fore
+Refer: 240 733 N 1 0 0 1 -3 -5 2
+Refer: 2652 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uogonek.sc
+Encoding: 1114458 -1 2746
+Width: 613
+Flags: MW
+LayerCount: 2
+Fore
+SplineSet
+168 560 m 1
+ 261 560 l 1
+ 262 559 262 557 262 556 c 0
+ 261 551 256 547 252 544 c 0
+ 247 540 246 537 245 533 c 2
+ 187 205 l 2
+ 182 178 179 152 191 126 c 0
+ 211 84 262 61 321 61 c 0
+ 379 61 438 84 472 125 c 0
+ 495 153 501 179 506 207 c 2
+ 568 560 l 1
+ 647 560 l 1
+ 584 206 l 2
+ 577 166 569 128 534 90 c 0
+ 520 74 505 61 486 50 c 0
+ 441 23 346 -36 335 -44 c 0
+ 326 -51 312 -61 310 -74 c 0
+ 308 -87 319 -99 341 -99 c 0
+ 348 -99 357 -98 370 -95 c 0
+ 389 -91 402 -86 411 -82 c 1
+ 403 -126 l 1
+ 376 -146 345 -153 316 -153 c 0
+ 255 -153 227 -129 232 -100 c 0
+ 237 -74 269 -43 327 -9 c 1
+ 320 -10 313 -9 306 -9 c 0
+ 219 -9 143 19 112 77 c 0
+ 92 116 96 154 103 193 c 2
+ 168 560 l 1
+EndSplineSet
+EndChar
+
+StartChar: wcircumflex.sc
+Encoding: 1114459 -1 2747
+Width: 613
+Flags: MW
+LayerCount: 2
+Fore
+Refer: 137 710 N 1 0 0 1 -2 11 2
+Refer: 2654 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: ycircumflex.sc
+Encoding: 1114460 -1 2748
+Width: 613
+Flags: MW
+LayerCount: 2
+Fore
+Refer: 137 710 N 1 0 0 1 -4 11 2
+Refer: 2656 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: zacute.sc
+Encoding: 1114461 -1 2749
+Width: 613
+Flags: MW
+LayerCount: 2
+Fore
+Refer: 1583 714 N 1 0 0 1 1 -5 2
+Refer: 2657 -1 N 1 0 0 1 0 0 3
+Substitution2: "Polish kreska forms-1" zacute.pl.sc
+EndChar
+
+StartChar: zdot.sc
+Encoding: 1114462 -1 2750
+Width: 613
+Flags: MW
+LayerCount: 2
+Fore
+Refer: 222 729 N 1 0 0 1 -7 -41 2
+Refer: 2657 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: zcaron.sc
+Encoding: 1114463 -1 2751
+Width: 613
+Flags: MW
+LayerCount: 2
+Fore
+Refer: 143 711 N 1 0 0 1 -1 1 2
+Refer: 2657 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: cacute.pl.sc
+Encoding: 1114464 -1 2752
+Width: 613
+Flags: MW
+LayerCount: 2
+Fore
+Refer: 2634 -1 N 1 0 0 1 0 0 3
+Refer: 669 -1 N 1 0 0 1 24 0 2
+EndChar
+
+StartChar: nacute.pl.sc
+Encoding: 1114465 -1 2753
+Width: 613
+Flags: MW
+LayerCount: 2
+Fore
+Refer: 2645 -1 N 1 0 0 1 0 0 3
+Refer: 669 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: oacute.pl.sc
+Encoding: 1114466 -1 2754
+Width: 613
+Flags: MW
+LayerCount: 2
+Fore
+Refer: 2646 -1 N 1 0 0 1 0 0 3
+Refer: 669 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: sacute.pl.sc
+Encoding: 1114467 -1 2755
+Width: 613
+Flags: MW
+LayerCount: 2
+Fore
+Refer: 2650 -1 N 1 0 0 1 0 0 3
+Refer: 669 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: zacute.pl.sc
+Encoding: 1114468 -1 2756
+Width: 613
+Flags: MW
+LayerCount: 2
+Fore
+Refer: 2657 -1 N 1 0 0 1 0 0 3
+Refer: 669 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: eng.var1.sc
+Encoding: 1114469 -1 2757
+Width: 613
+Flags: MW
+LayerCount: 2
+Fore
+SplineSet
+71 0 m 0
+ 167 542 l 0
+ 254 542 l 0
+ 238 453 l 0
+ 291 513 370 554 448 554 c 0
+ 521 554 580 523 603 472 c 0
+ 619 438 614 403 608 369 c 0
+ 545 9 l 0
+ 540 -21 532 -51 508 -81 c 0
+ 471 -126 406 -152 337 -152 c 0
+ 300 -152 266 -144 237 -127 c 0
+ 290 -62 l 0
+ 297 -64 297 -68 301 -70 c 0
+ 304 -71 324 -79 352 -79 c 0
+ 386 -79 418 -66 437 -43 c 0
+ 453 -24 459 -1 462 18 c 0
+ 522 356 l 0
+ 526 380 530 406 516 431 c 0
+ 501 460 464 479 419 479 c 0
+ 356 479 289 442 257 416 c 0
+ 230 393 224 371 219 344 c 0
+ 158 0 l 0
+ 71 0 l 0
+EndSplineSet
+EndChar
+
+StartChar: eng.var2.sc
+Encoding: 1114470 -1 2758
+Width: 613
+Flags: MW
+LayerCount: 2
+Fore
+SplineSet
+70 0 m 1
+ 166 542 l 1
+ 247 542 l 1
+ 487 146 l 1
+ 557 542 l 1
+ 645 542 l 1
+ 645 537 640 533 639 531 c 0
+ 635 527 634 525 633 519 c 2
+ 543 11 l 2
+ 538 -19 530 -50 506 -80 c 0
+ 469 -126 404 -152 335 -152 c 0
+ 298 -152 264 -143 235 -124 c 1
+ 288 -62 l 1
+ 295 -64 295 -68 299 -70 c 0
+ 302 -71 322 -79 350 -79 c 0
+ 384 -79 416 -67 435 -45 c 0
+ 451 -27 456 -5 459 13 c 2
+ 462 28 l 1
+ 226 432 l 1
+ 150 0 l 1
+ 70 0 l 1
+EndSplineSet
+EndChar
+
+StartChar: jacute.sc
+Encoding: 1114471 -1 2759
+Width: 613
+Flags: MW
+LayerCount: 2
+Fore
+Refer: 2641 -1 N 1 0 0 1 0 0 2
+Refer: 107 180 S 1 0 0 1 90 0 2
 EndChar
 EndChars
 EndSplineFont
