@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1161020814
-ModificationTime: 1742454723
+ModificationTime: 1742457406
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -125,7 +125,7 @@ Grid
  416.256 939.008 l 1049
 EndSplineSet
 TeXData: 1 0 0 629145 314572 209715 554697 1048576 209715 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 1114379 2667
+BeginChars: 1114411 2699
 
 StartChar: a
 Encoding: 97 97 0
@@ -2892,6 +2892,7 @@ SplineSet
  470 457 355 481 308 481 c 0
 EndSplineSet
 Validated: 1
+Substitution2: "Lowercase to small caps-1" thorn.sc
 EndChar
 
 StartChar: questiondown
@@ -3131,6 +3132,7 @@ Fore
 Refer: 107 180 S 1 0 0 1 0 0 2
 Refer: 0 97 N 1 0 0 1 0 0 2
 Validated: 1
+Substitution2: "Lowercase to small caps-1" aacute.sc
 Substitution2: "Pinyin variant forms-1" aacute.pinyin
 EndChar
 
@@ -3144,6 +3146,7 @@ Fore
 Refer: 130 715 N 1 0 0 1 0 0 2
 Refer: 0 97 N 1 0 0 1 0 0 2
 Validated: 1
+Substitution2: "Lowercase to small caps-1" agrave.sc
 Substitution2: "Pinyin variant forms-1" agrave.pinyin
 EndChar
 
@@ -3157,6 +3160,7 @@ Fore
 Refer: 137 710 N 1 0 0 1 8 0 2
 Refer: 0 97 N 1 0 0 1 0 0 2
 Validated: 1
+Substitution2: "Lowercase to small caps-1" acircumflex.sc
 EndChar
 
 StartChar: atilde
@@ -3169,6 +3173,7 @@ Fore
 Refer: 138 732 S 1 0 0 1 11 0 2
 Refer: 0 97 N 1 0 0 1 0 0 2
 Validated: 1
+Substitution2: "Lowercase to small caps-1" atilde.sc
 EndChar
 
 StartChar: adieresis
@@ -3181,6 +3186,7 @@ Fore
 Refer: 139 168 S 1 0 0 1 15 0 2
 Refer: 0 97 N 1 0 0 1 0 0 2
 Validated: 1
+Substitution2: "Lowercase to small caps-1" adieresis.sc
 EndChar
 
 StartChar: aring
@@ -3193,6 +3199,7 @@ Fore
 Refer: 161 730 S 1 0 0 1 0 0 2
 Refer: 0 97 N 1 0 0 1 0 0 2
 Validated: 1
+Substitution2: "Lowercase to small caps-1" aring.sc
 EndChar
 
 StartChar: egrave
@@ -3205,6 +3212,7 @@ Fore
 Refer: 130 715 N 1 0 0 1 0 0 2
 Refer: 9 101 N 1 0 0 1 0 0 2
 Validated: 1
+Substitution2: "Lowercase to small caps-1" egrave.sc
 EndChar
 
 StartChar: eacute
@@ -3217,6 +3225,7 @@ Fore
 Refer: 107 180 S 1 0 0 1 0 0 2
 Refer: 9 101 N 1 0 0 1 0 0 2
 Validated: 1
+Substitution2: "Lowercase to small caps-1" eacute.sc
 Substitution2: "Pinyin variant forms-1" eacute.pinyin
 EndChar
 
@@ -3230,6 +3239,7 @@ Fore
 Refer: 137 710 S 1 0 0 1 0 0 2
 Refer: 9 101 N 1 0 0 1 0 0 2
 Validated: 1
+Substitution2: "Lowercase to small caps-1" ecircumflex.sc
 EndChar
 
 StartChar: edieresis
@@ -3242,6 +3252,7 @@ Fore
 Refer: 139 168 S 1 0 0 1 2 0 2
 Refer: 9 101 N 1 0 0 1 0 0 2
 Validated: 1
+Substitution2: "Lowercase to small caps-1" edieresis.sc
 EndChar
 
 StartChar: ograve
@@ -3254,6 +3265,7 @@ Fore
 Refer: 130 715 N 1 0 0 1 0 0 2
 Refer: 5 111 N 1 0 0 1 0 0 2
 Validated: 1
+Substitution2: "Lowercase to small caps-1" ograve.sc
 EndChar
 
 StartChar: oacute
@@ -3266,6 +3278,7 @@ Fore
 Refer: 107 180 S 1 0 0 1 0 0 2
 Refer: 5 111 N 1 0 0 1 0 0 2
 Validated: 1
+Substitution2: "Lowercase to small caps-1" oacute.sc
 Substitution2: "Pinyin variant forms-1" oacute.pinyin
 Substitution2: "Polish kreska forms-1" oacute.pl
 EndChar
@@ -3280,6 +3293,7 @@ Fore
 Refer: 137 710 S 1 0 0 1 0 0 2
 Refer: 5 111 N 1 0 0 1 0 0 2
 Validated: 1
+Substitution2: "Lowercase to small caps-1" ocircumflex.sc
 EndChar
 
 StartChar: otilde
@@ -3292,6 +3306,7 @@ Fore
 Refer: 138 732 S 1 0 0 1 0 0 2
 Refer: 5 111 N 1 0 0 1 0 0 2
 Validated: 1
+Substitution2: "Lowercase to small caps-1" otilde.sc
 EndChar
 
 StartChar: odieresis
@@ -3304,6 +3319,7 @@ Fore
 Refer: 139 168 S 1 0 0 1 0 0 2
 Refer: 5 111 N 1 0 0 1 0 0 2
 Validated: 1
+Substitution2: "Lowercase to small caps-1" odieresis.sc
 EndChar
 
 StartChar: oslash
@@ -3339,6 +3355,7 @@ SplineSet
  470 333 452 385 426 420 c 1
 EndSplineSet
 Validated: 1
+Substitution2: "Lowercase to small caps-1" oslash.sc
 EndChar
 
 StartChar: ugrave
@@ -3351,6 +3368,7 @@ Fore
 Refer: 130 715 N 1 0 0 1 0 0 2
 Refer: 15 117 N 1 0 0 1 0 0 2
 Validated: 1
+Substitution2: "Lowercase to small caps-1" ugrave.sc
 EndChar
 
 StartChar: uacute
@@ -3363,6 +3381,7 @@ Fore
 Refer: 107 180 S 1 0 0 1 0 0 2
 Refer: 15 117 N 1 0 0 1 0 0 2
 Validated: 1
+Substitution2: "Lowercase to small caps-1" uacute.sc
 Substitution2: "Pinyin variant forms-1" uacute.pinyin
 EndChar
 
@@ -3376,6 +3395,7 @@ Fore
 Refer: 137 710 S 1 0 0 1 0 0 2
 Refer: 15 117 N 1 0 0 1 0 0 2
 Validated: 1
+Substitution2: "Lowercase to small caps-1" ucircumflex.sc
 EndChar
 
 StartChar: udieresis
@@ -3388,6 +3408,7 @@ Fore
 Refer: 139 168 S 1 0 0 1 0 0 2
 Refer: 15 117 N 1 0 0 1 0 0 2
 Validated: 1
+Substitution2: "Lowercase to small caps-1" udieresis.sc
 EndChar
 
 StartChar: yacute
@@ -3400,6 +3421,7 @@ Fore
 Refer: 107 180 S 1 0 0 1 0 0 2
 Refer: 23 121 S 1 0 0 1 0 0 2
 Validated: 1
+Substitution2: "Lowercase to small caps-1" yacute.sc
 EndChar
 
 StartChar: ydieresis
@@ -3412,6 +3434,7 @@ Fore
 Refer: 139 168 S 1 0 0 1 0 0 2
 Refer: 23 121 N 1 0 0 1 0 0 2
 Validated: 1
+Substitution2: "Lowercase to small caps-1" ydieresis.sc
 EndChar
 
 StartChar: gravemodifier
@@ -3441,6 +3464,7 @@ Fore
 Refer: 130 715 S 1 0 0 1 -51 0 2
 Refer: 136 305 N 1 0 0 1 0 0 2
 Validated: 1
+Substitution2: "Lowercase to small caps-1" igrave.sc
 EndChar
 
 StartChar: iacute
@@ -3453,6 +3477,7 @@ Fore
 Refer: 107 180 S 1 0 0 1 0 0 2
 Refer: 136 305 N 1 0 0 1 0 0 2
 Validated: 1
+Substitution2: "Lowercase to small caps-1" iacute.sc
 Substitution2: "Pinyin variant forms-1" iacute.pinyin
 EndChar
 
@@ -3466,6 +3491,7 @@ Fore
 Refer: 137 710 S 1 0 0 1 -14 0 2
 Refer: 136 305 N 1 0 0 1 0 0 2
 Validated: 1
+Substitution2: "Lowercase to small caps-1" icircumflex.sc
 EndChar
 
 StartChar: idieresis
@@ -3478,6 +3504,7 @@ Fore
 Refer: 139 168 S 1 0 0 1 -2 0 2
 Refer: 136 305 N 1 0 0 1 0 0 2
 Validated: 1
+Substitution2: "Lowercase to small caps-1" idieresis.sc
 EndChar
 
 StartChar: ntilde
@@ -3490,6 +3517,7 @@ Fore
 Refer: 138 732 S 1 0 0 1 -6 0 2
 Refer: 6 110 N 1 0 0 1 0 0 2
 Validated: 1
+Substitution2: "Lowercase to small caps-1" ntilde.sc
 EndChar
 
 StartChar: dotlessi
@@ -3659,6 +3687,7 @@ SplineSet
  76 0 l 4
 EndSplineSet
 Validated: 1
+Substitution2: "Lowercase to small caps-1" germandbls.sc
 EndChar
 
 StartChar: paragraph
@@ -4016,6 +4045,7 @@ SplineSet
  422 677 l 1
 EndSplineSet
 Validated: 1
+Substitution2: "Lowercase to small caps-1" eth.sc
 EndChar
 
 StartChar: Eth
@@ -4052,6 +4082,7 @@ SplineSet
  180 357 l 1
 EndSplineSet
 Validated: 1
+Substitution2: "Uppercase to small caps-1" eth.sc
 EndChar
 
 StartChar: Thorn
@@ -4087,6 +4118,7 @@ SplineSet
  164 522 l 0
 EndSplineSet
 Validated: 1
+Substitution2: "Uppercase to small caps-1" thorn.sc
 EndChar
 
 StartChar: ring
@@ -4121,6 +4153,7 @@ Fore
 Refer: 161 730 N 1 0 0 1 -19 121 2
 Refer: 71 65 N 1 0 0 1 0 0 2
 Validated: 5
+Substitution2: "Uppercase to small caps-1" aring.sc
 EndChar
 
 StartChar: Agrave
@@ -4133,6 +4166,7 @@ Fore
 Refer: 195 -1 S 1 0 0 1 -31 141 2
 Refer: 71 65 N 1 0 0 1 0 0 2
 Validated: 1
+Substitution2: "Uppercase to small caps-1" agrave.sc
 EndChar
 
 StartChar: Aacute
@@ -4145,6 +4179,7 @@ Fore
 Refer: 194 -1 S 1 0 0 1 -20 141 2
 Refer: 71 65 N 1 0 0 1 0 0 2
 Validated: 1
+Substitution2: "Uppercase to small caps-1" aacute.sc
 Substitution2: "Pinyin variant forms-1" Aacute.pinyin
 EndChar
 
@@ -4158,6 +4193,7 @@ Fore
 Refer: 190 -1 N 1 0 0 1 -14 146 2
 Refer: 71 65 N 1 0 0 1 0 0 2
 Validated: 1
+Substitution2: "Uppercase to small caps-1" acircumflex.sc
 EndChar
 
 StartChar: Atilde
@@ -4170,6 +4206,7 @@ Fore
 Refer: 138 732 S 1 0 0 1 -5 150 2
 Refer: 71 65 N 1 0 0 1 0 0 2
 Validated: 1
+Substitution2: "Uppercase to small caps-1" atilde.sc
 EndChar
 
 StartChar: Adieresis
@@ -4182,6 +4219,7 @@ Fore
 Refer: 139 168 S 1 0 0 1 -13 147 2
 Refer: 71 65 N 1 0 0 1 0 0 2
 Validated: 1
+Substitution2: "Uppercase to small caps-1" adieresis.sc
 Substitution2: "German alternative umlaut-1" Adieresis.alt
 EndChar
 
@@ -4195,6 +4233,7 @@ Fore
 Refer: 195 -1 S 1 0 0 1 -31 141 2
 Refer: 80 69 N 1 0 0 1 0 0 2
 Validated: 1
+Substitution2: "Uppercase to small caps-1" egrave.sc
 EndChar
 
 StartChar: Eacute
@@ -4207,6 +4246,7 @@ Fore
 Refer: 194 -1 S 1 0 0 1 0 141 2
 Refer: 80 69 N 1 0 0 1 0 0 2
 Validated: 1
+Substitution2: "Uppercase to small caps-1" eacute.sc
 Substitution2: "Pinyin variant forms-1" Eacute.pinyin
 EndChar
 
@@ -4220,6 +4260,7 @@ Fore
 Refer: 190 -1 S 1 0 0 1 -4 146 2
 Refer: 80 69 N 1 0 0 1 0 0 2
 Validated: 1
+Substitution2: "Uppercase to small caps-1" ecircumflex.sc
 EndChar
 
 StartChar: Edieresis
@@ -4232,6 +4273,7 @@ Fore
 Refer: 139 168 S 1 0 0 1 -5 147 2
 Refer: 80 69 N 1 0 0 1 0 0 2
 Validated: 1
+Substitution2: "Uppercase to small caps-1" edieresis.sc
 EndChar
 
 StartChar: Igrave
@@ -4244,6 +4286,7 @@ Fore
 Refer: 195 -1 S 1 0 0 1 -31 141 2
 Refer: 4 73 N 1 0 0 1 0 0 2
 Validated: 1
+Substitution2: "Uppercase to small caps-1" igrave.sc
 EndChar
 
 StartChar: Iacute
@@ -4256,6 +4299,7 @@ Fore
 Refer: 194 -1 S 1 0 0 1 0 141 2
 Refer: 4 73 N 1 0 0 1 0 0 2
 Validated: 1
+Substitution2: "Uppercase to small caps-1" iacute.sc
 Substitution2: "Pinyin variant forms-1" Iacute.pinyin
 EndChar
 
@@ -4269,6 +4313,7 @@ Fore
 Refer: 190 -1 S 1 0 0 1 -15 146 2
 Refer: 4 73 N 1 0 0 1 0 0 2
 Validated: 1
+Substitution2: "Uppercase to small caps-1" icircumflex.sc
 EndChar
 
 StartChar: Idieresis
@@ -4281,6 +4326,7 @@ Fore
 Refer: 139 168 S 1 0 0 1 -9 147 2
 Refer: 4 73 N 1 0 0 1 0 0 2
 Validated: 1
+Substitution2: "Uppercase to small caps-1" idieresis.sc
 EndChar
 
 StartChar: Ograve
@@ -4293,6 +4339,7 @@ Fore
 Refer: 195 -1 S 1 0 0 1 -31 141 2
 Refer: 42 79 N 1 0 0 1 0 0 2
 Validated: 1
+Substitution2: "Uppercase to small caps-1" ograve.sc
 EndChar
 
 StartChar: Oacute
@@ -4305,6 +4352,7 @@ Fore
 Refer: 194 -1 S 1 0 0 1 0 141 2
 Refer: 42 79 N 1 0 0 1 0 0 2
 Validated: 1
+Substitution2: "Uppercase to small caps-1" oacute.sc
 Substitution2: "Pinyin variant forms-1" Oacute.pinyin
 Substitution2: "Polish kreska forms-1" Oacute.pl
 EndChar
@@ -4319,6 +4367,7 @@ Fore
 Refer: 190 -1 S 1 0 0 1 -1 146 2
 Refer: 42 79 N 1 0 0 1 0 0 2
 Validated: 1
+Substitution2: "Uppercase to small caps-1" ocircumflex.sc
 EndChar
 
 StartChar: Otilde
@@ -4331,6 +4380,7 @@ Fore
 Refer: 138 732 S 1 0 0 1 0 150 2
 Refer: 42 79 N 1 0 0 1 0 0 2
 Validated: 1
+Substitution2: "Uppercase to small caps-1" otilde.sc
 EndChar
 
 StartChar: Odieresis
@@ -4343,6 +4393,7 @@ Fore
 Refer: 139 168 S 1 0 0 1 -5 147 2
 Refer: 42 79 N 1 0 0 1 0 0 2
 Validated: 1
+Substitution2: "Uppercase to small caps-1" odieresis.sc
 Substitution2: "German alternative umlaut-1" Odieresis.alt
 EndChar
 
@@ -4356,6 +4407,7 @@ Fore
 Refer: 195 -1 S 1 0 0 1 -31 141 2
 Refer: 63 85 N 1 0 0 1 0 0 2
 Validated: 1
+Substitution2: "Uppercase to small caps-1" ugrave.sc
 EndChar
 
 StartChar: Uacute
@@ -4368,6 +4420,7 @@ Fore
 Refer: 194 -1 S 1 0 0 1 0 141 2
 Refer: 63 85 N 1 0 0 1 0 0 2
 Validated: 1
+Substitution2: "Uppercase to small caps-1" uacute.sc
 Substitution2: "Pinyin variant forms-1" Uacute.pinyin
 EndChar
 
@@ -4381,6 +4434,7 @@ Fore
 Refer: 190 -1 S 1 0 0 1 -1 146 2
 Refer: 63 85 N 1 0 0 1 0 0 2
 Validated: 1
+Substitution2: "Uppercase to small caps-1" ucircumflex.sc
 EndChar
 
 StartChar: Udieresis
@@ -4393,6 +4447,7 @@ Fore
 Refer: 139 168 S 1 0 0 1 5 147 2
 Refer: 63 85 N 1 0 0 1 0 0 2
 Validated: 1
+Substitution2: "Uppercase to small caps-1" udieresis.sc
 Substitution2: "German alternative umlaut-1" Udieresis.alt
 EndChar
 
@@ -4406,6 +4461,7 @@ Fore
 Refer: 194 -1 S 1 0 0 1 0 141 2
 Refer: 94 89 N 1 0 0 1 0 0 2
 Validated: 1
+Substitution2: "Uppercase to small caps-1" yacute.sc
 EndChar
 
 StartChar: Scaron
@@ -4442,6 +4498,7 @@ Fore
 Refer: 138 732 S 1 0 0 1 0 150 2
 Refer: 46 78 N 1 0 0 1 0 0 2
 Validated: 1
+Substitution2: "Uppercase to small caps-1" ntilde.sc
 EndChar
 
 StartChar: Ydieresis
@@ -4454,6 +4511,7 @@ Fore
 Refer: 139 168 S 1 0 0 1 -5 147 2
 Refer: 94 89 N 1 0 0 1 0 0 2
 Validated: 1
+Substitution2: "Uppercase to small caps-1" ydieresis.sc
 EndChar
 
 StartChar: circumflex.cap
@@ -4539,6 +4597,7 @@ SplineSet
  345 331 l 0
 EndSplineSet
 Validated: 1
+Substitution2: "Lowercase to small caps-1" ae.sc
 EndChar
 
 StartChar: oe
@@ -4772,6 +4831,7 @@ Fore
 Refer: 201 184 N 1 0 0 1 0 0 2
 Refer: 1 99 N 1 0 0 1 0 0 2
 Validated: 5
+Substitution2: "Lowercase to small caps-1" ccedilla.sc
 EndChar
 
 StartChar: Ccedilla
@@ -4784,6 +4844,7 @@ Fore
 Refer: 201 184 S 1 0 0 1 0 0 2
 Refer: 72 67 N 1 0 0 1 0 0 2
 Validated: 5
+Substitution2: "Uppercase to small caps-1" ccedilla.sc
 EndChar
 
 StartChar: threesuperior
@@ -4880,7 +4941,7 @@ SplineSet
  486 420 483 491 458 553 c 2
  455 560 l 1
 EndSplineSet
-Validated: 1
+Substitution2: "Uppercase to small caps-1" oslash.sc
 EndChar
 
 StartChar: multiply
@@ -4940,6 +5001,7 @@ SplineSet
  309 667 l 0
 EndSplineSet
 Validated: 1
+Substitution2: "Uppercase to small caps-1" ae.sc
 EndChar
 
 StartChar: OE
@@ -26484,6 +26546,7 @@ SplineSet
  152 0 l 1
  65 0 l 1
 EndSplineSet
+Substitution2: "Uppercase to small caps-1" germandbls.sc
 EndChar
 
 StartChar: uni0226
@@ -55736,6 +55799,449 @@ SplineSet
  84 468 l 0
  84 542 l 0
 EndSplineSet
+EndChar
+
+StartChar: agrave.sc
+Encoding: 1114379 -1 2667
+Width: 613
+Flags: M
+LayerCount: 2
+Fore
+Refer: 130 715 N 1 0 0 1 -50 -3 2
+Refer: 2641 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: aacute.sc
+Encoding: 1114380 -1 2668
+Width: 613
+Flags: M
+LayerCount: 2
+Fore
+Refer: 1592 714 N 1 0 0 1 -18 -3 2
+Refer: 2641 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: acircumflex.sc
+Encoding: 1114381 -1 2669
+Width: 613
+Flags: M
+LayerCount: 2
+Fore
+Refer: 137 710 N 1 0 0 1 -20 13 2
+Refer: 2641 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: atilde.sc
+Encoding: 1114382 -1 2670
+Width: 613
+Flags: M
+LayerCount: 2
+Fore
+Refer: 138 732 N 1 0 0 1 -25 -28 2
+Refer: 2641 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: adieresis.sc
+Encoding: 1114383 -1 2671
+Width: 613
+Flags: M
+LayerCount: 2
+Fore
+Refer: 139 168 N 1 0 0 1 -15 -52 2
+Refer: 2641 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: aring.sc
+Encoding: 1114384 -1 2672
+Width: 613
+Flags: M
+LayerCount: 2
+Fore
+Refer: 161 730 N 1 0 0 1 -21 4 2
+Refer: 2641 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: ae.sc
+Encoding: 1114385 -1 2673
+Width: 613
+Flags: MW
+LayerCount: 2
+Fore
+SplineSet
+260 543 m 0
+ 587 543 l 0
+ 587 470 l 0
+ 381 470 l 0
+ 383 320 l 0
+ 556 320 l 0
+ 556 244 l 0
+ 384 244 l 0
+ 386 74 l 0
+ 584 74 l 0
+ 584 0 l 0
+ 311 0 l 0
+ 311 143 l 0
+ 159 143 l 0
+ 94 0 l 0
+ 15 0 l 0
+ 260 543 l 0
+311 470 m 0
+ 307 470 l 0
+ 190 211 l 0
+ 311 211 l 0
+ 311 470 l 0
+EndSplineSet
+EndChar
+
+StartChar: ccedilla.sc
+Encoding: 1114386 -1 2674
+Width: 613
+Flags: M
+LayerCount: 2
+Fore
+Refer: 201 184 N 1 0 0 1 -8 -2 2
+Refer: 2643 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: egrave.sc
+Encoding: 1114387 -1 2675
+Width: 613
+Flags: M
+LayerCount: 2
+Fore
+Refer: 130 715 N 1 0 0 1 -37 -5 2
+Refer: 2645 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: eacute.sc
+Encoding: 1114388 -1 2676
+Width: 613
+Flags: M
+LayerCount: 2
+Fore
+Refer: 1592 714 N 1 0 0 1 -4 -5 2
+Refer: 2645 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: ecircumflex.sc
+Encoding: 1114389 -1 2677
+Width: 613
+Flags: M
+LayerCount: 2
+Fore
+Refer: 137 710 N 1 0 0 1 -6 11 2
+Refer: 2645 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: edieresis.sc
+Encoding: 1114390 -1 2678
+Width: 613
+Flags: M
+LayerCount: 2
+Fore
+Refer: 139 168 N 1 0 0 1 -2 -54 2
+Refer: 2645 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: igrave.sc
+Encoding: 1114391 -1 2679
+Width: 613
+Flags: M
+LayerCount: 2
+Fore
+Refer: 130 715 N 1 0 0 1 -46 -5 2
+Refer: 2649 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: iacute.sc
+Encoding: 1114392 -1 2680
+Width: 613
+Flags: M
+LayerCount: 2
+Fore
+Refer: 1592 714 N 1 0 0 1 -13 -5 2
+Refer: 2649 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: icircumflex.sc
+Encoding: 1114393 -1 2681
+Width: 613
+Flags: M
+LayerCount: 2
+Fore
+Refer: 137 710 N 1 0 0 1 -16 11 2
+Refer: 2649 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: idieresis.sc
+Encoding: 1114394 -1 2682
+Width: 613
+Flags: M
+LayerCount: 2
+Fore
+Refer: 139 168 N 1 0 0 1 -10 -54 2
+Refer: 2649 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: eth.sc
+Encoding: 1114395 -1 2683
+Width: 613
+Flags: M
+LayerCount: 2
+Fore
+SplineSet
+103 542 m 1
+ 269 542 l 2
+ 334 542 385 538 436 510 c 0
+ 525 462 563 366 563 274 c 0
+ 563 158 503 55 389 16 c 0
+ 347 2 307 -1 255 -1 c 2
+ 103 -1 l 1
+ 103 252 l 1
+ 46 252 l 1
+ 46 321 l 1
+ 103 321 l 1
+ 103 542 l 1
+180 252 m 1
+ 180 68 l 1
+ 251 68 l 2
+ 293 68 333 68 375 88 c 0
+ 446 120 483 188 483 267 c 0
+ 483 323 466 384 421 425 c 0
+ 371 471 310 473 264 473 c 2
+ 180 473 l 1
+ 180 321 l 1
+ 304 321 l 1
+ 304 252 l 1
+ 180 252 l 1
+EndSplineSet
+EndChar
+
+StartChar: ntilde.sc
+Encoding: 1114396 -1 2684
+Width: 613
+Flags: MW
+LayerCount: 2
+Fore
+Refer: 138 732 N 1 0 0 1 -9 -30 2
+Refer: 2654 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: ograve.sc
+Encoding: 1114397 -1 2685
+Width: 613
+Flags: M
+LayerCount: 2
+Fore
+Refer: 130 715 N 1 0 0 1 -33 -5 2
+Refer: 2655 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: oacute.sc
+Encoding: 1114398 -1 2686
+Width: 613
+Flags: M
+LayerCount: 2
+Fore
+Refer: 1592 714 N 1 0 0 1 0 -5 2
+Refer: 2655 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: ocircumflex.sc
+Encoding: 1114399 -1 2687
+Width: 613
+Flags: M
+LayerCount: 2
+Fore
+Refer: 137 710 N 1 0 0 1 -2 11 2
+Refer: 2655 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: otilde.sc
+Encoding: 1114400 -1 2688
+Width: 613
+Flags: M
+LayerCount: 2
+Fore
+Refer: 138 732 N 1 0 0 1 -8 -30 2
+Refer: 2655 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: odieresis.sc
+Encoding: 1114401 -1 2689
+Width: 613
+Flags: M
+LayerCount: 2
+Fore
+Refer: 139 168 N 1 0 0 1 2 -54 2
+Refer: 2655 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: oslash.sc
+Encoding: 1114402 -1 2690
+Width: 613
+Flags: M
+LayerCount: 2
+Fore
+SplineSet
+308 476 m 0
+ 230 476 127 426 127 280 c 0
+ 127 218 143 173 169 138 c 1
+ 399 449 l 1
+ 373 463 341 476 308 476 c 0
+569 260 m 0
+ 569 214 564 149 525 93 c 0
+ 476 24 392 -8 312 -8 c 0
+ 268 -8 222 6 181 34 c 1
+ 115 -55 l 1
+ 58 -12 l 1
+ 126 80 l 1
+ 77 124 45 190 45 284 c 0
+ 45 489 201 554 311 554 c 0
+ 358 554 406 534 442 508 c 1
+ 503 590 l 1
+ 560 547 l 1
+ 497 461 l 1
+ 507 452 517 439 524 429 c 0
+ 564 373 569 309 569 260 c 0
+453 402 m 1
+ 225 93 l 1
+ 249 81 280 73 312 73 c 0
+ 362 73 419 92 453 140 c 0
+ 483 182 486 232 486 264 c 0
+ 486 306 483 354 458 394 c 2
+ 453 402 l 1
+EndSplineSet
+EndChar
+
+StartChar: ugrave.sc
+Encoding: 1114403 -1 2691
+Width: 613
+Flags: M
+LayerCount: 2
+Fore
+Refer: 130 715 N 1 0 0 1 -34 -5 2
+Refer: 2661 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uacute.sc
+Encoding: 1114404 -1 2692
+Width: 613
+Flags: M
+LayerCount: 2
+Fore
+Refer: 1592 714 N 1 0 0 1 -2 -5 2
+Refer: 2661 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: ucircumflex.sc
+Encoding: 1114405 -1 2693
+Width: 613
+Flags: M
+LayerCount: 2
+Fore
+Refer: 137 710 N 1 0 0 1 -4 11 2
+Refer: 2661 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: udieresis.sc
+Encoding: 1114406 -1 2694
+Width: 613
+Flags: M
+LayerCount: 2
+Fore
+Refer: 139 168 N 1 0 0 1 1 -54 2
+Refer: 2661 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: yacute.sc
+Encoding: 1114407 -1 2695
+Width: 613
+Flags: M
+LayerCount: 2
+Fore
+Refer: 1592 714 N 1 0 0 1 -4 -5 2
+Refer: 2665 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: thorn.sc
+Encoding: 1114408 -1 2696
+Width: 613
+Flags: M
+LayerCount: 2
+Fore
+SplineSet
+80 543 m 0
+ 173 543 l 0
+ 174 542 174 540 174 539 c 0
+ 174 534 170 531 167 528 c 0
+ 164 524 164 522 164 519 c 0
+ 164 441 l 0
+ 305 441 l 0
+ 353 441 399 441 445 422 c 0
+ 515 394 551 338 551 280 c 0
+ 551 222 515 167 447 140 c 0
+ 402 122 357 121 311 121 c 0
+ 164 121 l 0
+ 164 0 l 0
+ 80 0 l 0
+ 80 543 l 0
+164 363 m 0
+ 164 194 l 0
+ 314 194 l 0
+ 343 194 371 195 400 204 c 0
+ 443 218 466 247 466 277 c 0
+ 466 308 442 338 396 353 c 0
+ 366 363 336 363 305 363 c 0
+ 164 363 l 0
+EndSplineSet
+EndChar
+
+StartChar: germandbls.sc
+Encoding: 1114409 -1 2697
+Width: 613
+Flags: M
+LayerCount: 2
+Fore
+SplineSet
+65 0 m 1
+ 65 372 l 2
+ 65 407 67 440 95 473 c 0
+ 133 518 204 542 280 542 c 2
+ 365 542 l 2
+ 433 542 491 523 530 490 c 9
+ 365 294 l 1
+ 481 287 551 218 551 147 c 0
+ 551 117 541 92 522 62 c 0
+ 493 17 433 -9 364 -9 c 0
+ 327 -9 291 -1 259 16 c 0
+ 301 83 l 0
+ 308 80 309 77 313 75 c 0
+ 316 74 338 64 366 64 c 0
+ 400 64 429 76 445 99 c 0
+ 458 118 464 136 464 155 c 2
+ 464 166 l 2
+ 464 220 397 254 280 259 c 1
+ 280 291 l 1
+ 430 455 l 1
+ 410 463 385 468 358 468 c 2
+ 276 468 l 2
+ 231 468 194 454 171 426 c 0
+ 152 403 152 376 152 351 c 0
+ 152 348 152 347 152 344 c 2
+ 152 0 l 1
+ 65 0 l 1
+EndSplineSet
+EndChar
+
+StartChar: ydieresis.sc
+Encoding: 1114410 -1 2698
+Width: 613
+Flags: M
+LayerCount: 2
+Fore
+Refer: 139 168 N 1 0 0 1 -1 -54 2
+Refer: 2665 -1 N 1 0 0 1 0 0 3
 EndChar
 EndChars
 EndSplineFont

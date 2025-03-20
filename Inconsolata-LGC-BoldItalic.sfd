@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1161020814
-ModificationTime: 1742455531
+ModificationTime: 1742458753
 PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5
@@ -121,7 +121,7 @@ Grid
  416.256 939.008 l 1049
 EndSplineSet
 TeXData: 1 0 0 629145 314572 209715 554697 1048576 209715 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 1114370 2658
+BeginChars: 1114402 2690
 
 StartChar: a
 Encoding: 97 97 0
@@ -2786,6 +2786,7 @@ SplineSet
  369 92 475 112 501 260 c 0
  532 434 429 451 388 451 c 0
 EndSplineSet
+Substitution2: "Lowercase to small caps-1" thorn.sc
 EndChar
 
 StartChar: questiondown
@@ -3015,6 +3016,7 @@ LayerCount: 2
 Fore
 Refer: 0 97 N 1 0 0 1 0 0 2
 Refer: 107 180 S 1 0 0 1 0 0 2
+Substitution2: "Lowercase to small caps-1" aacute.sc
 Substitution2: "Pinyin variant forms-1" aacute.pinyin
 EndChar
 
@@ -3027,6 +3029,7 @@ LayerCount: 2
 Fore
 Refer: 0 97 N 1 0 0 1 0 0 2
 Refer: 130 715 S 1 0 0 1 0 0 2
+Substitution2: "Lowercase to small caps-1" agrave.sc
 EndChar
 
 StartChar: acircumflex
@@ -3038,6 +3041,7 @@ LayerCount: 2
 Fore
 Refer: 0 97 N 1 0 0 1 0 0 2
 Refer: 137 710 S 1 0 0 1 8 0 2
+Substitution2: "Lowercase to small caps-1" acircumflex.sc
 EndChar
 
 StartChar: atilde
@@ -3049,6 +3053,7 @@ LayerCount: 2
 Fore
 Refer: 0 97 N 1 0 0 1 0 0 2
 Refer: 138 732 S 1 0 0 1 11 0 2
+Substitution2: "Lowercase to small caps-1" atilde.sc
 EndChar
 
 StartChar: adieresis
@@ -3060,6 +3065,7 @@ LayerCount: 2
 Fore
 Refer: 0 97 N 1 0 0 1 0 0 2
 Refer: 139 168 S 1 0 0 1 15 0 2
+Substitution2: "Lowercase to small caps-1" adieresis.sc
 EndChar
 
 StartChar: aring
@@ -3071,6 +3077,7 @@ LayerCount: 2
 Fore
 Refer: 0 97 N 1 0 0 1 0 0 2
 Refer: 161 730 S 1 0 0 1 0 0 2
+Substitution2: "Lowercase to small caps-1" aring.sc
 EndChar
 
 StartChar: egrave
@@ -3082,6 +3089,7 @@ LayerCount: 2
 Fore
 Refer: 9 101 N 1 0 0 1 0 0 2
 Refer: 130 715 N 1 0 0 1 0 0 2
+Substitution2: "Lowercase to small caps-1" egrave.sc
 EndChar
 
 StartChar: eacute
@@ -3093,6 +3101,7 @@ LayerCount: 2
 Fore
 Refer: 9 101 N 1 0 0 1 0 0 2
 Refer: 107 180 S 1 0 0 1 0 0 2
+Substitution2: "Lowercase to small caps-1" eacute.sc
 Substitution2: "Pinyin variant forms-1" eacute.pinyin
 EndChar
 
@@ -3105,6 +3114,7 @@ LayerCount: 2
 Fore
 Refer: 9 101 N 1 0 0 1 0 0 2
 Refer: 137 710 S 1 0 0 1 0 0 2
+Substitution2: "Lowercase to small caps-1" ecircumflex.sc
 EndChar
 
 StartChar: edieresis
@@ -3116,6 +3126,7 @@ LayerCount: 2
 Fore
 Refer: 9 101 N 1 0 0 1 0 0 2
 Refer: 139 168 S 1 0 0 1 2 0 2
+Substitution2: "Lowercase to small caps-1" edieresis.sc
 EndChar
 
 StartChar: ograve
@@ -3127,6 +3138,7 @@ LayerCount: 2
 Fore
 Refer: 5 111 N 1 0 0 1 0 0 2
 Refer: 130 715 N 1 0 0 1 0 0 2
+Substitution2: "Lowercase to small caps-1" ograve.sc
 EndChar
 
 StartChar: oacute
@@ -3138,6 +3150,7 @@ LayerCount: 2
 Fore
 Refer: 5 111 N 1 0 0 1 0 0 2
 Refer: 107 180 S 1 0 0 1 0 0 2
+Substitution2: "Lowercase to small caps-1" oacute.sc
 Substitution2: "Pinyin variant forms-1" oacute.pinyin
 Substitution2: "Polish kreska forms-1" oacute.pl
 EndChar
@@ -3151,6 +3164,7 @@ LayerCount: 2
 Fore
 Refer: 5 111 N 1 0 0 1 0 0 2
 Refer: 137 710 S 1 0 0 1 0 0 2
+Substitution2: "Lowercase to small caps-1" ocircumflex.sc
 EndChar
 
 StartChar: otilde
@@ -3162,6 +3176,7 @@ LayerCount: 2
 Fore
 Refer: 5 111 N 1 0 0 1 0 0 2
 Refer: 138 732 S 1 0 0 1 0 0 2
+Substitution2: "Lowercase to small caps-1" otilde.sc
 EndChar
 
 StartChar: odieresis
@@ -3173,6 +3188,7 @@ LayerCount: 2
 Fore
 Refer: 5 111 N 1 0 0 1 0 0 2
 Refer: 139 168 S 1 0 0 1 0 0 2
+Substitution2: "Lowercase to small caps-1" odieresis.sc
 EndChar
 
 StartChar: oslash
@@ -3207,6 +3223,7 @@ SplineSet
  398 90 481 150 504 280 c 0
  513 333 508 369 502 393 c 1
 EndSplineSet
+Substitution2: "Lowercase to small caps-1" oslash.sc
 EndChar
 
 StartChar: ugrave
@@ -3218,6 +3235,7 @@ LayerCount: 2
 Fore
 Refer: 15 117 N 1 0 0 1 0 0 2
 Refer: 130 715 N 1 0 0 1 0 0 2
+Substitution2: "Lowercase to small caps-1" ugrave.sc
 EndChar
 
 StartChar: uacute
@@ -3229,6 +3247,7 @@ LayerCount: 2
 Fore
 Refer: 15 117 N 1 0 0 1 0 0 2
 Refer: 107 180 S 1 0 0 1 0 0 2
+Substitution2: "Lowercase to small caps-1" uacute.sc
 Substitution2: "Pinyin variant forms-1" uacute.pinyin
 EndChar
 
@@ -3241,6 +3260,7 @@ LayerCount: 2
 Fore
 Refer: 15 117 N 1 0 0 1 0 0 2
 Refer: 137 710 S 1 0 0 1 0 0 2
+Substitution2: "Lowercase to small caps-1" ucircumflex.sc
 EndChar
 
 StartChar: udieresis
@@ -3252,6 +3272,7 @@ LayerCount: 2
 Fore
 Refer: 15 117 N 1 0 0 1 0 0 2
 Refer: 139 168 S 1 0 0 1 0 0 2
+Substitution2: "Lowercase to small caps-1" udieresis.sc
 EndChar
 
 StartChar: yacute
@@ -3263,6 +3284,7 @@ LayerCount: 2
 Fore
 Refer: 23 121 S 1 0 0 1 0 0 2
 Refer: 107 180 S 1 0 0 1 0 0 2
+Substitution2: "Lowercase to small caps-1" yacute.sc
 EndChar
 
 StartChar: ydieresis
@@ -3274,6 +3296,7 @@ LayerCount: 2
 Fore
 Refer: 23 121 N 1 0 0 1 0 0 2
 Refer: 139 168 S 1 0 0 1 0 0 2
+Substitution2: "Lowercase to small caps-1" ydieresis.sc
 EndChar
 
 StartChar: gravemodifier
@@ -3301,6 +3324,7 @@ LayerCount: 2
 Fore
 Refer: 136 305 N 1 0 0 1 0 0 2
 Refer: 130 715 S 1 0 0 1 -51 0 2
+Substitution2: "Lowercase to small caps-1" igrave.sc
 EndChar
 
 StartChar: iacute
@@ -3312,6 +3336,7 @@ LayerCount: 2
 Fore
 Refer: 136 305 N 1 0 0 1 0 0 2
 Refer: 107 180 S 1 0 0 1 0 0 2
+Substitution2: "Lowercase to small caps-1" iacute.sc
 Substitution2: "Pinyin variant forms-1" iacute.pinyin
 EndChar
 
@@ -3324,6 +3349,7 @@ LayerCount: 2
 Fore
 Refer: 136 305 N 1 0 0 1 0 0 2
 Refer: 137 710 S 1 0 0 1 -14 0 2
+Substitution2: "Lowercase to small caps-1" icircumflex.sc
 EndChar
 
 StartChar: idieresis
@@ -3335,6 +3361,7 @@ LayerCount: 2
 Fore
 Refer: 136 305 N 1 0 0 1 0 0 2
 Refer: 139 168 S 1 0 0 1 -2 0 2
+Substitution2: "Lowercase to small caps-1" idieresis.sc
 EndChar
 
 StartChar: ntilde
@@ -3346,6 +3373,7 @@ LayerCount: 2
 Fore
 Refer: 6 110 N 1 0 0 1 0 0 2
 Refer: 138 732 S 1 0 0 1 -6 0 2
+Substitution2: "Lowercase to small caps-1" ntilde.sc
 EndChar
 
 StartChar: dotlessi
@@ -3509,6 +3537,7 @@ SplineSet
  172 0 l 1
  60 0 l 1
 EndSplineSet
+Substitution2: "Lowercase to small caps-1" germandbls.sc
 EndChar
 
 StartChar: paragraph
@@ -3852,6 +3881,7 @@ SplineSet
  664 680 l 1
  564 653 l 1
 EndSplineSet
+Substitution2: "Lowercase to small caps-1" eth.sc
 EndChar
 
 StartChar: Eth
@@ -3887,6 +3917,7 @@ SplineSet
  379 342 l 1
  256 342 l 1
 EndSplineSet
+Substitution2: "Uppercase to small caps-1" eth.sc
 EndChar
 
 StartChar: Thorn
@@ -3921,6 +3952,7 @@ SplineSet
  451 506 425 507 394 507 c 0
  268 507 l 1
 EndSplineSet
+Substitution2: "Uppercase to small caps-1" thorn.sc
 EndChar
 
 StartChar: ring
@@ -3953,6 +3985,7 @@ LayerCount: 2
 Fore
 Refer: 71 65 N 1 0 0 1 0 0 2
 Refer: 161 730 N 1 0 0 1 2.33556 121 2
+Substitution2: "Uppercase to small caps-1" aring.sc
 EndChar
 
 StartChar: Agrave
@@ -3964,6 +3997,7 @@ LayerCount: 2
 Fore
 Refer: 71 65 N 1 0 0 1 0 0 2
 Refer: 195 -1 S 1 0 0 1 -6.1379 141 2
+Substitution2: "Uppercase to small caps-1" agrave.sc
 EndChar
 
 StartChar: Aacute
@@ -3975,6 +4009,7 @@ LayerCount: 2
 Fore
 Refer: 71 65 N 1 0 0 1 0 0 2
 Refer: 194 -1 S 1 0 0 1 4.8621 141 2
+Substitution2: "Uppercase to small caps-1" aacute.sc
 Substitution2: "Pinyin variant forms-1" Aacute.pinyin
 EndChar
 
@@ -3987,6 +4022,7 @@ LayerCount: 2
 Fore
 Refer: 71 65 N 1 0 0 1 0 0 2
 Refer: 190 -1 N 1 0 0 1 11.7437 146 2
+Substitution2: "Uppercase to small caps-1" acircumflex.sc
 EndChar
 
 StartChar: Atilde
@@ -3998,6 +4034,7 @@ LayerCount: 2
 Fore
 Refer: 71 65 N 1 0 0 1 0 0 2
 Refer: 138 732 S 1 0 0 1 21.449 150 2
+Substitution2: "Uppercase to small caps-1" atilde.sc
 EndChar
 
 StartChar: Adieresis
@@ -4009,6 +4046,7 @@ LayerCount: 2
 Fore
 Refer: 71 65 N 1 0 0 1 0 0 2
 Refer: 139 168 S 1 0 0 1 12.9201 147 2
+Substitution2: "Uppercase to small caps-1" adieresis.sc
 Substitution2: "German alternative umlaut-1" Adieresis.alt
 EndChar
 
@@ -4021,6 +4059,7 @@ LayerCount: 2
 Fore
 Refer: 80 69 N 1 0 0 1 0 0 2
 Refer: 195 -1 S 1 0 0 1 -6.1379 141 2
+Substitution2: "Uppercase to small caps-1" egrave.sc
 EndChar
 
 StartChar: Eacute
@@ -4032,6 +4071,7 @@ LayerCount: 2
 Fore
 Refer: 80 69 N 1 0 0 1 0 0 2
 Refer: 194 -1 S 1 0 0 1 24.8621 141 2
+Substitution2: "Uppercase to small caps-1" eacute.sc
 Substitution2: "Pinyin variant forms-1" Eacute.pinyin
 EndChar
 
@@ -4044,6 +4084,7 @@ LayerCount: 2
 Fore
 Refer: 80 69 N 1 0 0 1 0 0 2
 Refer: 190 -1 S 1 0 0 1 21.7437 146 2
+Substitution2: "Uppercase to small caps-1" ecircumflex.sc
 EndChar
 
 StartChar: Edieresis
@@ -4055,6 +4096,7 @@ LayerCount: 2
 Fore
 Refer: 80 69 N 1 0 0 1 0 0 2
 Refer: 139 168 S 1 0 0 1 20.9201 147 2
+Substitution2: "Uppercase to small caps-1" edieresis.sc
 EndChar
 
 StartChar: Igrave
@@ -4066,6 +4108,7 @@ LayerCount: 2
 Fore
 Refer: 4 73 N 1 0 0 1 0 0 2
 Refer: 195 -1 S 1 0 0 1 -6.1379 141 2
+Substitution2: "Uppercase to small caps-1" igrave.sc
 EndChar
 
 StartChar: Iacute
@@ -4077,6 +4120,7 @@ LayerCount: 2
 Fore
 Refer: 4 73 N 1 0 0 1 0 0 2
 Refer: 194 -1 S 1 0 0 1 24.8621 141 2
+Substitution2: "Uppercase to small caps-1" iacute.sc
 Substitution2: "Pinyin variant forms-1" Iacute.pinyin
 EndChar
 
@@ -4089,6 +4133,7 @@ LayerCount: 2
 Fore
 Refer: 4 73 N 1 0 0 1 0 0 2
 Refer: 190 -1 S 1 0 0 1 10.7437 146 2
+Substitution2: "Uppercase to small caps-1" icircumflex.sc
 EndChar
 
 StartChar: Idieresis
@@ -4100,6 +4145,7 @@ LayerCount: 2
 Fore
 Refer: 4 73 N 1 0 0 1 0 0 2
 Refer: 139 168 S 1 0 0 1 16.9201 147 2
+Substitution2: "Uppercase to small caps-1" idieresis.sc
 EndChar
 
 StartChar: Ograve
@@ -4111,6 +4157,7 @@ LayerCount: 2
 Fore
 Refer: 42 79 N 1 0 0 1 0 0 2
 Refer: 195 -1 S 1 0 0 1 -6.1379 141 2
+Substitution2: "Uppercase to small caps-1" ograve.sc
 EndChar
 
 StartChar: Oacute
@@ -4122,6 +4169,7 @@ LayerCount: 2
 Fore
 Refer: 42 79 N 1 0 0 1 0 0 2
 Refer: 194 -1 S 1 0 0 1 24.8621 141 2
+Substitution2: "Uppercase to small caps-1" oacute.sc
 Substitution2: "Pinyin variant forms-1" Oacute.pinyin
 Substitution2: "Polish kreska forms-1" Oacute.pl
 EndChar
@@ -4135,6 +4183,7 @@ LayerCount: 2
 Fore
 Refer: 42 79 N 1 0 0 1 0 0 2
 Refer: 190 -1 S 1 0 0 1 24.7437 146 2
+Substitution2: "Uppercase to small caps-1" ocircumflex.sc
 EndChar
 
 StartChar: Otilde
@@ -4146,6 +4195,7 @@ LayerCount: 2
 Fore
 Refer: 42 79 N 1 0 0 1 0 0 2
 Refer: 138 732 S 1 0 0 1 26.449 150 2
+Substitution2: "Uppercase to small caps-1" otilde.sc
 EndChar
 
 StartChar: Odieresis
@@ -4157,6 +4207,7 @@ LayerCount: 2
 Fore
 Refer: 42 79 N 1 0 0 1 0 0 2
 Refer: 139 168 S 1 0 0 1 20.9201 147 2
+Substitution2: "Uppercase to small caps-1" odieresis.sc
 Substitution2: "German alternative umlaut-1" Odieresis.alt
 EndChar
 
@@ -4169,6 +4220,7 @@ LayerCount: 2
 Fore
 Refer: 63 85 N 1 0 0 1 0 0 2
 Refer: 195 -1 S 1 0 0 1 -6.1379 141 2
+Substitution2: "Uppercase to small caps-1" ugrave.sc
 EndChar
 
 StartChar: Uacute
@@ -4180,6 +4232,7 @@ LayerCount: 2
 Fore
 Refer: 63 85 N 1 0 0 1 0 0 2
 Refer: 194 -1 S 1 0 0 1 24.8621 141 2
+Substitution2: "Uppercase to small caps-1" uacute.sc
 Substitution2: "Pinyin variant forms-1" Uacute.pinyin
 EndChar
 
@@ -4192,6 +4245,7 @@ LayerCount: 2
 Fore
 Refer: 63 85 N 1 0 0 1 0 0 2
 Refer: 190 -1 S 1 0 0 1 24.7437 146 2
+Substitution2: "Uppercase to small caps-1" ucircumflex.sc
 EndChar
 
 StartChar: Udieresis
@@ -4203,6 +4257,7 @@ LayerCount: 2
 Fore
 Refer: 63 85 N 1 0 0 1 0 0 2
 Refer: 139 168 S 1 0 0 1 30.9201 147 2
+Substitution2: "Uppercase to small caps-1" udieresis.sc
 Substitution2: "German alternative umlaut-1" Udieresis.alt
 EndChar
 
@@ -4215,6 +4270,7 @@ LayerCount: 2
 Fore
 Refer: 94 89 N 1 0 0 1 0 0 2
 Refer: 194 -1 S 1 0 0 1 24.8621 141 2
+Substitution2: "Uppercase to small caps-1" yacute.sc
 EndChar
 
 StartChar: Scaron
@@ -4248,6 +4304,7 @@ LayerCount: 2
 Fore
 Refer: 46 78 N 1 0 0 1 0 0 2
 Refer: 138 732 S 1 0 0 1 26.449 150 2
+Substitution2: "Uppercase to small caps-1" ntilde.sc
 EndChar
 
 StartChar: Ydieresis
@@ -4259,6 +4316,7 @@ LayerCount: 2
 Fore
 Refer: 94 89 N 1 0 0 1 0 0 2
 Refer: 139 168 S 1 0 0 1 21 147 2
+Substitution2: "Uppercase to small caps-1" ydieresis.sc
 EndChar
 
 StartChar: circumflex.cap
@@ -4341,6 +4399,7 @@ SplineSet
  436 403 430 386 426 365 c 0
  425 359 423 352 422 347 c 1
 EndSplineSet
+Substitution2: "Lowercase to small caps-1" ae.sc
 EndChar
 
 StartChar: oe
@@ -4555,6 +4614,7 @@ LayerCount: 2
 Fore
 Refer: 1 99 N 1 0 0 1 0 0 2
 Refer: 201 184 N 1 0 0 1 0 0 2
+Substitution2: "Lowercase to small caps-1" ccedilla.sc
 EndChar
 
 StartChar: Ccedilla
@@ -4566,6 +4626,7 @@ LayerCount: 2
 Fore
 Refer: 72 67 N 1 0 0 1 0 0 2
 Refer: 201 184 S 1 0 0 1 0 0 2
+Substitution2: "Uppercase to small caps-1" ccedilla.sc
 EndChar
 
 StartChar: threesuperior
@@ -4660,6 +4721,7 @@ SplineSet
  546 425 553 470 549 520 c 2
  548 524 l 1
 EndSplineSet
+Substitution2: "Uppercase to small caps-1" oslash.sc
 EndChar
 
 StartChar: multiply
@@ -4717,6 +4779,7 @@ SplineSet
  344 285 l 1
  406 636 l 5
 EndSplineSet
+Substitution2: "Uppercase to small caps-1" ae.sc
 EndChar
 
 StartChar: OE
@@ -25895,6 +25958,7 @@ SplineSet
  167 0 l 1
  50 0 l 25
 EndSplineSet
+Substitution2: "Uppercase to small caps-1" germandbls.sc
 EndChar
 
 StartChar: uni0226
@@ -55146,6 +55210,449 @@ SplineSet
  146 437 l 1
  165 542 l 1
 EndSplineSet
+EndChar
+
+StartChar: agrave.sc
+Encoding: 1114370 -1 2658
+Width: 613
+Flags: MW
+LayerCount: 2
+Fore
+Refer: 130 715 N 1 0 0 1 -41 33 2
+Refer: 2632 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: aacute.sc
+Encoding: 1114371 -1 2659
+Width: 613
+Flags: MW
+LayerCount: 2
+Fore
+Refer: 1583 714 N 1 0 0 1 -16 33 2
+Refer: 2632 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: acircumflex.sc
+Encoding: 1114372 -1 2660
+Width: 613
+Flags: MW
+LayerCount: 2
+Fore
+Refer: 137 710 N 1 0 0 1 -11 50 2
+Refer: 2632 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: atilde.sc
+Encoding: 1114373 -1 2661
+Width: 613
+Flags: MW
+LayerCount: 2
+Fore
+Refer: 138 732 N 1 0 0 1 -29 -28 2
+Refer: 2632 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: adieresis.sc
+Encoding: 1114374 -1 2662
+Width: 613
+Flags: MW
+LayerCount: 2
+Fore
+Refer: 139 168 N 1 0 0 1 -17 -19 2
+Refer: 2632 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: aring.sc
+Encoding: 1114375 -1 2663
+Width: 613
+Flags: MW
+LayerCount: 2
+Fore
+Refer: 161 730 N 1 0 0 1 -19 10 2
+Refer: 2632 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: ae.sc
+Encoding: 1114376 -1 2664
+Width: 613
+Flags: MW
+LayerCount: 2
+Fore
+SplineSet
+333 543 m 1
+ 696 543 l 1
+ 677 439 l 1
+ 471 439 l 1
+ 455 335 l 1
+ 628 335 l 1
+ 609 229 l 1
+ 437 229 l 1
+ 417 104 l 1
+ 615 104 l 1
+ 597 0 l 1
+ 294 0 l 1
+ 317 129 l 1
+ 189 129 l 1
+ 102 0 l 1
+ -6 0 l 1
+ 333 543 l 1
+377 471 m 5
+ 386 471 l 1
+ 233 229 l 1
+ 334 229 l 1
+ 377 471 l 5
+EndSplineSet
+EndChar
+
+StartChar: ccedilla.sc
+Encoding: 1114377 -1 2665
+Width: 613
+Flags: MW
+LayerCount: 2
+Fore
+Refer: 201 184 N 1 0 0 1 -8 -2 2
+Refer: 2634 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: egrave.sc
+Encoding: 1114378 -1 2666
+Width: 613
+Flags: MW
+LayerCount: 2
+Fore
+Refer: 130 715 N 1 0 0 1 -28 31 2
+Refer: 2636 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: eacute.sc
+Encoding: 1114379 -1 2667
+Width: 613
+Flags: MW
+LayerCount: 2
+Fore
+Refer: 1583 714 N 1 0 0 1 -3 31 2
+Refer: 2636 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: ecircumflex.sc
+Encoding: 1114380 -1 2668
+Width: 613
+Flags: MW
+LayerCount: 2
+Fore
+Refer: 137 710 N 1 0 0 1 1 48 2
+Refer: 2636 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: edieresis.sc
+Encoding: 1114381 -1 2669
+Width: 613
+Flags: MW
+LayerCount: 2
+Fore
+Refer: 139 168 N 1 0 0 1 -4 -21 2
+Refer: 2636 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: igrave.sc
+Encoding: 1114382 -1 2670
+Width: 613
+Flags: MW
+LayerCount: 2
+Fore
+Refer: 130 715 N 1 0 0 1 -37 31 2
+Refer: 2640 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: iacute.sc
+Encoding: 1114383 -1 2671
+Width: 613
+Flags: MW
+LayerCount: 2
+Fore
+Refer: 1583 714 N 1 0 0 1 -12 31 2
+Refer: 2640 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: icircumflex.sc
+Encoding: 1114384 -1 2672
+Width: 613
+Flags: MW
+LayerCount: 2
+Fore
+Refer: 137 710 N 1 0 0 1 -8 48 2
+Refer: 2640 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: idieresis.sc
+Encoding: 1114385 -1 2673
+Width: 613
+Flags: MW
+LayerCount: 2
+Fore
+Refer: 139 168 N 1 0 0 1 -13 -21 2
+Refer: 2640 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: eth.sc
+Encoding: 1114386 -1 2674
+Width: 613
+Flags: MW
+LayerCount: 2
+Fore
+SplineSet
+184 542 m 1
+ 365 542 l 2
+ 430 542 485 536 533 497 c 1
+ 620 449 642 356 626 268 c 0
+ 607 158 528 54 399 15 c 0
+ 352 1 308 -1 255 -1 c 2
+ 88 -1 l 1
+ 130 237 l 1
+ 73 237 l 1
+ 90 336 l 1
+ 147 336 l 1
+ 184 542 l 1
+238 237 m 1
+ 213 98 l 1
+ 268 98 l 2
+ 310 98 345 99 386 115 c 0
+ 455 142 503 198 515 267 c 0
+ 524 316 515 369 479 403 c 0
+ 440 441 388 442 342 442 c 2
+ 274 442 l 1
+ 255 336 l 1
+ 378 336 l 1
+ 361 237 l 1
+ 238 237 l 1
+EndSplineSet
+EndChar
+
+StartChar: ntilde.sc
+Encoding: 1114387 -1 2675
+Width: 613
+Flags: MW
+LayerCount: 2
+Fore
+Refer: 138 732 N 1 0 0 1 -14 -30 2
+Refer: 2645 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: ograve.sc
+Encoding: 1114388 -1 2676
+Width: 613
+Flags: MW
+LayerCount: 2
+Fore
+Refer: 130 715 N 1 0 0 1 -24 31 2
+Refer: 2646 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: oacute.sc
+Encoding: 1114389 -1 2677
+Width: 613
+Flags: MW
+LayerCount: 2
+Fore
+Refer: 1583 714 N 1 0 0 1 1 31 2
+Refer: 2646 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: ocircumflex.sc
+Encoding: 1114390 -1 2678
+Width: 613
+Flags: MW
+LayerCount: 2
+Fore
+Refer: 137 710 N 1 0 0 1 5 48 2
+Refer: 2646 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: otilde.sc
+Encoding: 1114391 -1 2679
+Width: 613
+Flags: MW
+LayerCount: 2
+Fore
+Refer: 138 732 N 1 0 0 1 -12 -30 2
+Refer: 2646 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: odieresis.sc
+Encoding: 1114392 -1 2680
+Width: 613
+Flags: MW
+LayerCount: 2
+Fore
+Refer: 139 168 N 1 0 0 1 0 -21 2
+Refer: 2646 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: oslash.sc
+Encoding: 1114393 -1 2681
+Width: 613
+Flags: MW
+LayerCount: 2
+Fore
+SplineSet
+386 442 m 0
+ 319 442 214 406 190 270 c 0
+ 182 223 187 188 195 165 c 1
+ 446 431 l 1
+ 433 437 412 442 386 442 c 0
+630 254 m 0
+ 622 210 606 147 555 92 c 0
+ 492 23 397 -8 311 -8 c 0
+ 269 -8 225 5 193 27 c 1
+ 111 -59 l 1
+ 43 4 l 1
+ 126 93 l 1
+ 82 141 66 203 81 289 c 0
+ 116 487 289 551 408 551 c 0
+ 453 551 494 538 526 516 c 1
+ 601 595 l 1
+ 673 534 l 1
+ 591 448 l 1
+ 600 438 607 427 612 419 c 0
+ 644 364 638 300 630 254 c 0
+520 372 m 1
+ 274 113 l 1
+ 283 109 304 103 330 103 c 0
+ 374 103 429 119 468 161 c 0
+ 503 199 514 245 519 275 c 0
+ 525 308 530 348 522 367 c 2
+ 520 372 l 1
+EndSplineSet
+EndChar
+
+StartChar: ugrave.sc
+Encoding: 1114394 -1 2682
+Width: 613
+Flags: MW
+LayerCount: 2
+Fore
+Refer: 130 715 N 1 0 0 1 -26 31 2
+Refer: 2652 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uacute.sc
+Encoding: 1114395 -1 2683
+Width: 613
+Flags: MW
+LayerCount: 2
+Fore
+Refer: 1583 714 N 1 0 0 1 -1 31 2
+Refer: 2652 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: ucircumflex.sc
+Encoding: 1114396 -1 2684
+Width: 613
+Flags: MW
+LayerCount: 2
+Fore
+Refer: 137 710 N 1 0 0 1 3 48 2
+Refer: 2652 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: udieresis.sc
+Encoding: 1114397 -1 2685
+Width: 613
+Flags: MW
+LayerCount: 2
+Fore
+Refer: 139 168 N 1 0 0 1 -2 -21 2
+Refer: 2652 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: yacute.sc
+Encoding: 1114398 -1 2686
+Width: 613
+Flags: MW
+LayerCount: 2
+Fore
+Refer: 1583 714 N 1 0 0 1 -2 31 2
+Refer: 2656 -1 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: thorn.sc
+Encoding: 1114399 -1 2687
+Width: 613
+Flags: MW
+LayerCount: 2
+Fore
+SplineSet
+161 543 m 1
+ 280 543 l 1
+ 282 539 283 534 282 528 c 4
+ 280 518 271 513 270 512 c 0
+ 268 511 270 512 269 509 c 0
+ 257 444 l 1
+ 383 444 l 0
+ 431 444 481 443 527 423 c 0
+ 598 393 625 332 614 271 c 0
+ 603 209 555 151 476 122 c 0
+ 424 103 375 102 329 102 c 0
+ 197 102 l 1
+ 179 0 l 1
+ 65 0 l 1
+ 161 543 l 1
+240 347 m 1
+ 215 205 l 1
+ 350 205 l 0
+ 379 205 405 206 431 214 c 0
+ 470 226 494 248 499 274 c 0
+ 504 300 487 326 449 338 c 0
+ 423 346 397 347 366 347 c 0
+ 240 347 l 1
+EndSplineSet
+EndChar
+
+StartChar: germandbls.sc
+Encoding: 1114400 -1 2688
+Width: 613
+Flags: MW
+LayerCount: 2
+Fore
+SplineSet
+50 0 m 25
+ 115 368 l 2
+ 121 402 129 437 165 471 c 0
+ 214 518 296 542 376 542 c 2
+ 461 542 l 2
+ 525 542 582 526 630 458 c 1
+ 443 299 l 1
+ 551 285 604 218 592 150 c 0
+ 587 120 572 95 547 65 c 0
+ 507 18 436 -9 362 -9 c 0
+ 300 -9 268 11 244 26 c 1
+ 315 116 l 1
+ 327 113 334 105 340 102 c 0
+ 345 100 362 94 383 94 c 0
+ 411 94 435 103 452 121 c 0
+ 467 137 475 152 478 167 c 2
+ 480 176 l 2
+ 488 220 434 247 309 251 c 1
+ 316 291 l 1
+ 485 432 l 1
+ 471 436 453 438 435 438 c 2
+ 353 438 l 2
+ 313 438 279 427 255 404 c 0
+ 237 387 232 366 228 345 c 0
+ 228 343 227 341 227 339 c 2
+ 167 0 l 1
+ 50 0 l 25
+EndSplineSet
+EndChar
+
+StartChar: ydieresis.sc
+Encoding: 1114401 -1 2689
+Width: 613
+Flags: MW
+LayerCount: 2
+Fore
+Refer: 139 168 N 1 0 0 1 -3 -21 2
+Refer: 2656 -1 N 1 0 0 1 0 0 3
 EndChar
 EndChars
 EndSplineFont
