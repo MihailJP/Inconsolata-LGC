@@ -54921,7 +54921,7 @@ EndChar
 
 StartChar: n.sc
 Encoding: 1114357 -1 2645
-Width: 612
+Width: 613
 Flags: MW
 LayerCount: 2
 Fore
@@ -55459,7 +55459,7 @@ EndChar
 
 StartChar: ntilde.sc
 Encoding: 1114387 -1 2675
-Width: 612
+Width: 613
 Flags: MW
 LayerCount: 2
 Fore
