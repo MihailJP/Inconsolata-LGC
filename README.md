@@ -152,6 +152,13 @@ zero.
 2. dotted zero
 3. zero with long slash
 
+### `smcp` and `c2sc`: small caps ###
+![Small caps](doc/small_caps.png)
+
+Although small caps are hardly used for coding or terminal console, in case
+you need them retaining character width. Small letters are converted to small
+caps through `smcp` feature, and capital letters are through `c2sc`.
+
 ### `cv02`: _r_ with serif ###
 ![Differences between regular and alternative r](doc/r_with_serif.png)
 
