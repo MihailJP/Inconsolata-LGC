@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1161020814
-ModificationTime: 1742480018
+ModificationTime: 1742482309
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -80,18 +80,18 @@ MarkAttachClasses: 1
 DEI: 91125
 ContextSub2: glyph "Dutch accented IJ-1" 0 0 0 3
  String: 8 Iacute J
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  1
   SeqLookup: 1 "J with acute accent"
  String: 8 iacute j
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  1
   SeqLookup: 1 "J with acute accent"
  String: 14 iacute.sc j.sc
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  1
   SeqLookup: 1 "J with acute accent"
 EndFPST
@@ -55958,7 +55958,7 @@ Width: 613
 Flags: M
 LayerCount: 2
 Fore
-Refer: 130 715 N 1 0 0 1 -50 -3 2
+Refer: 130 715 N 1 0 0 1 -50 0 2
 Refer: 2641 -1 N 1 0 0 1 0 0 3
 EndChar
 
@@ -55968,7 +55968,7 @@ Width: 613
 Flags: M
 LayerCount: 2
 Fore
-Refer: 1592 714 N 1 0 0 1 -18 -3 2
+Refer: 107 180 N 1 0 0 1 -18 0 2
 Refer: 2641 -1 N 1 0 0 1 0 0 3
 EndChar
 
@@ -55978,7 +55978,7 @@ Width: 613
 Flags: M
 LayerCount: 2
 Fore
-Refer: 137 710 N 1 0 0 1 -20 13 2
+Refer: 137 710 N 1 0 0 1 -20 0 2
 Refer: 2641 -1 N 1 0 0 1 0 0 3
 EndChar
 
@@ -55988,7 +55988,7 @@ Width: 613
 Flags: M
 LayerCount: 2
 Fore
-Refer: 138 732 N 1 0 0 1 -25 -28 2
+Refer: 138 732 N 1 0 0 1 -25 0 2
 Refer: 2641 -1 N 1 0 0 1 0 0 3
 EndChar
 
@@ -55998,7 +55998,7 @@ Width: 613
 Flags: M
 LayerCount: 2
 Fore
-Refer: 139 168 N 1 0 0 1 -15 -52 2
+Refer: 139 168 N 1 0 0 1 -15 0 2
 Refer: 2641 -1 N 1 0 0 1 0 0 3
 EndChar
 
@@ -56008,7 +56008,7 @@ Width: 613
 Flags: M
 LayerCount: 2
 Fore
-Refer: 161 730 N 1 0 0 1 -21 4 2
+Refer: 161 730 N 1 0 0 1 -21 0 2
 Refer: 2641 -1 N 1 0 0 1 0 0 3
 EndChar
 
@@ -56060,7 +56060,7 @@ Width: 613
 Flags: M
 LayerCount: 2
 Fore
-Refer: 130 715 N 1 0 0 1 -37 -5 2
+Refer: 130 715 N 1 0 0 1 -37 0 2
 Refer: 2645 -1 N 1 0 0 1 0 0 3
 EndChar
 
@@ -56070,7 +56070,7 @@ Width: 613
 Flags: M
 LayerCount: 2
 Fore
-Refer: 1592 714 N 1 0 0 1 -4 -5 2
+Refer: 107 180 N 1 0 0 1 -4 0 2
 Refer: 2645 -1 N 1 0 0 1 0 0 3
 EndChar
 
@@ -56080,7 +56080,7 @@ Width: 613
 Flags: M
 LayerCount: 2
 Fore
-Refer: 137 710 N 1 0 0 1 -6 11 2
+Refer: 137 710 N 1 0 0 1 -6 0 2
 Refer: 2645 -1 N 1 0 0 1 0 0 3
 EndChar
 
@@ -56090,7 +56090,7 @@ Width: 613
 Flags: M
 LayerCount: 2
 Fore
-Refer: 139 168 N 1 0 0 1 -2 -54 2
+Refer: 139 168 N 1 0 0 1 -2 0 2
 Refer: 2645 -1 N 1 0 0 1 0 0 3
 EndChar
 
@@ -56100,7 +56100,7 @@ Width: 613
 Flags: M
 LayerCount: 2
 Fore
-Refer: 130 715 N 1 0 0 1 -46 -5 2
+Refer: 130 715 N 1 0 0 1 -46 0 2
 Refer: 2649 -1 N 1 0 0 1 0 0 3
 EndChar
 
@@ -56110,7 +56110,7 @@ Width: 613
 Flags: M
 LayerCount: 2
 Fore
-Refer: 1592 714 N 1 0 0 1 -13 -5 2
+Refer: 107 180 N 1 0 0 1 -13 0 2
 Refer: 2649 -1 N 1 0 0 1 0 0 3
 EndChar
 
@@ -56120,7 +56120,7 @@ Width: 613
 Flags: M
 LayerCount: 2
 Fore
-Refer: 137 710 N 1 0 0 1 -16 11 2
+Refer: 137 710 N 1 0 0 1 -16 0 2
 Refer: 2649 -1 N 1 0 0 1 0 0 3
 EndChar
 
@@ -56130,7 +56130,7 @@ Width: 613
 Flags: M
 LayerCount: 2
 Fore
-Refer: 139 168 N 1 0 0 1 -10 -54 2
+Refer: 139 168 N 1 0 0 1 -10 0 2
 Refer: 2649 -1 N 1 0 0 1 0 0 3
 EndChar
 
@@ -56174,7 +56174,7 @@ Width: 613
 Flags: MW
 LayerCount: 2
 Fore
-Refer: 138 732 N 1 0 0 1 -9 -30 2
+Refer: 138 732 N 1 0 0 1 -9 0 2
 Refer: 2654 -1 N 1 0 0 1 0 0 3
 EndChar
 
@@ -56184,7 +56184,7 @@ Width: 613
 Flags: M
 LayerCount: 2
 Fore
-Refer: 130 715 N 1 0 0 1 -33 -5 2
+Refer: 130 715 N 1 0 0 1 -33 0 2
 Refer: 2655 -1 N 1 0 0 1 0 0 3
 EndChar
 
@@ -56194,7 +56194,7 @@ Width: 613
 Flags: M
 LayerCount: 2
 Fore
-Refer: 1592 714 N 1 0 0 1 0 -5 2
+Refer: 107 180 N 1 0 0 1 0 0 2
 Refer: 2655 -1 N 1 0 0 1 0 0 3
 Substitution2: "Polish kreska forms-1" oacute.pl.sc
 EndChar
@@ -56205,7 +56205,7 @@ Width: 613
 Flags: M
 LayerCount: 2
 Fore
-Refer: 137 710 N 1 0 0 1 -2 11 2
+Refer: 137 710 N 1 0 0 1 -2 0 2
 Refer: 2655 -1 N 1 0 0 1 0 0 3
 EndChar
 
@@ -56215,7 +56215,7 @@ Width: 613
 Flags: M
 LayerCount: 2
 Fore
-Refer: 138 732 N 1 0 0 1 -8 -30 2
+Refer: 138 732 N 1 0 0 1 -8 0 2
 Refer: 2655 -1 N 1 0 0 1 0 0 3
 EndChar
 
@@ -56225,7 +56225,7 @@ Width: 613
 Flags: M
 LayerCount: 2
 Fore
-Refer: 139 168 N 1 0 0 1 2 -54 2
+Refer: 139 168 N 1 0 0 1 2 0 2
 Refer: 2655 -1 N 1 0 0 1 0 0 3
 EndChar
 
@@ -56272,7 +56272,7 @@ Width: 613
 Flags: M
 LayerCount: 2
 Fore
-Refer: 130 715 N 1 0 0 1 -34 -5 2
+Refer: 130 715 N 1 0 0 1 -34 0 2
 Refer: 2661 -1 N 1 0 0 1 0 0 3
 EndChar
 
@@ -56282,7 +56282,7 @@ Width: 613
 Flags: M
 LayerCount: 2
 Fore
-Refer: 1592 714 N 1 0 0 1 -2 -5 2
+Refer: 107 180 N 1 0 0 1 -2 0 2
 Refer: 2661 -1 N 1 0 0 1 0 0 3
 EndChar
 
@@ -56292,7 +56292,7 @@ Width: 613
 Flags: M
 LayerCount: 2
 Fore
-Refer: 137 710 N 1 0 0 1 -4 11 2
+Refer: 137 710 N 1 0 0 1 -4 0 2
 Refer: 2661 -1 N 1 0 0 1 0 0 3
 EndChar
 
@@ -56302,7 +56302,7 @@ Width: 613
 Flags: M
 LayerCount: 2
 Fore
-Refer: 139 168 N 1 0 0 1 1 -54 2
+Refer: 139 168 N 1 0 0 1 1 0 2
 Refer: 2661 -1 N 1 0 0 1 0 0 3
 EndChar
 
@@ -56312,7 +56312,7 @@ Width: 613
 Flags: M
 LayerCount: 2
 Fore
-Refer: 1592 714 N 1 0 0 1 -4 -5 2
+Refer: 107 180 N 1 0 0 1 -4 0 2
 Refer: 2665 -1 N 1 0 0 1 0 0 3
 EndChar
 
@@ -56392,7 +56392,7 @@ Width: 613
 Flags: M
 LayerCount: 2
 Fore
-Refer: 139 168 N 1 0 0 1 -1 -54 2
+Refer: 139 168 N 1 0 0 1 -1 0 2
 Refer: 2665 -1 N 1 0 0 1 0 0 3
 EndChar
 
@@ -56402,7 +56402,7 @@ Width: 613
 Flags: M
 LayerCount: 2
 Fore
-Refer: 198 713 N 1 0 0 1 -14 -54 2
+Refer: 198 713 N 1 0 0 1 -14 0 2
 Refer: 2641 -1 N 1 0 0 1 0 0 3
 EndChar
 
@@ -56412,7 +56412,7 @@ Width: 613
 Flags: M
 LayerCount: 2
 Fore
-Refer: 241 728 N 1 0 0 1 -12 -5 2
+Refer: 241 728 N 1 0 0 1 -12 0 2
 Refer: 2641 -1 N 1 0 0 1 0 0 3
 EndChar
 
@@ -56432,7 +56432,7 @@ Width: 613
 Flags: M
 LayerCount: 2
 Fore
-Refer: 1592 714 N 1 0 0 1 29 -5 2
+Refer: 107 180 N 1 0 0 1 29 0 2
 Refer: 2643 -1 N 1 0 0 1 0 0 3
 Substitution2: "Polish kreska forms-1" cacute.pl.sc
 EndChar
@@ -56443,7 +56443,7 @@ Width: 613
 Flags: M
 LayerCount: 2
 Fore
-Refer: 137 710 N 1 0 0 1 26 11 2
+Refer: 137 710 N 1 0 0 1 26 0 2
 Refer: 2643 -1 N 1 0 0 1 0 0 3
 EndChar
 
@@ -56453,7 +56453,7 @@ Width: 613
 Flags: M
 LayerCount: 2
 Fore
-Refer: 222 729 N 1 0 0 1 28 -41 2
+Refer: 222 729 N 1 0 0 1 28 0 2
 Refer: 2643 -1 N 1 0 0 1 0 0 3
 EndChar
 
@@ -56463,7 +56463,7 @@ Width: 613
 Flags: M
 LayerCount: 2
 Fore
-Refer: 143 711 N 1 0 0 1 26 1 2
+Refer: 143 711 N 1 0 0 1 26 0 2
 Refer: 2643 -1 N 1 0 0 1 0 0 3
 EndChar
 
@@ -56473,7 +56473,7 @@ Width: 613
 Flags: M
 LayerCount: 2
 Fore
-Refer: 143 711 N 1 0 0 1 -23 1 2
+Refer: 143 711 N 1 0 0 1 -23 0 2
 Refer: 2644 -1 N 1 0 0 1 0 0 2
 EndChar
 
@@ -56492,7 +56492,7 @@ Width: 613
 Flags: M
 LayerCount: 2
 Fore
-Refer: 198 713 N 1 0 0 1 -0 -56 2
+Refer: 198 713 N 1 0 0 1 -0 0 2
 Refer: 2645 -1 N 1 0 0 1 0 0 3
 EndChar
 
@@ -56502,7 +56502,7 @@ Width: 613
 Flags: M
 LayerCount: 2
 Fore
-Refer: 241 728 N 1 0 0 1 2 -7 2
+Refer: 241 728 N 1 0 0 1 2 0 2
 Refer: 2645 -1 N 1 0 0 1 0 0 3
 EndChar
 
@@ -56512,7 +56512,7 @@ Width: 613
 Flags: M
 LayerCount: 2
 Fore
-Refer: 222 729 N 1 0 0 1 -6 -41 2
+Refer: 222 729 N 1 0 0 1 -6 0 2
 Refer: 2645 -1 N 1 0 0 1 0 0 3
 EndChar
 
@@ -56542,7 +56542,7 @@ Width: 613
 Flags: M
 LayerCount: 2
 Fore
-Refer: 137 710 N 1 0 0 1 26 11 2
+Refer: 137 710 N 1 0 0 1 26 0 2
 Refer: 2647 -1 N 1 0 0 1 0 0 3
 EndChar
 
@@ -56552,7 +56552,7 @@ Width: 613
 Flags: M
 LayerCount: 2
 Fore
-Refer: 241 728 N 1 0 0 1 34 -7 2
+Refer: 241 728 N 1 0 0 1 34 0 2
 Refer: 2647 -1 N 1 0 0 1 0 0 3
 EndChar
 
@@ -56562,7 +56562,7 @@ Width: 613
 Flags: M
 LayerCount: 2
 Fore
-Refer: 222 729 N 1 0 0 1 26 -41 2
+Refer: 222 729 N 1 0 0 1 26 0 2
 Refer: 2647 -1 N 1 0 0 1 0 0 3
 EndChar
 
@@ -56582,7 +56582,7 @@ Width: 613
 Flags: M
 LayerCount: 2
 Fore
-Refer: 137 710 N 1 0 0 1 -5 11 2
+Refer: 137 710 N 1 0 0 1 -5 0 2
 Refer: 2648 -1 N 1 0 0 1 0 0 3
 EndChar
 
@@ -56632,7 +56632,7 @@ Width: 613
 Flags: M
 LayerCount: 2
 Fore
-Refer: 138 732 N 1 0 0 1 -20 -30 2
+Refer: 138 732 N 1 0 0 1 -20 0 2
 Refer: 2649 -1 N 1 0 0 1 0 0 3
 EndChar
 
@@ -56642,7 +56642,7 @@ Width: 613
 Flags: M
 LayerCount: 2
 Fore
-Refer: 198 713 N 1 0 0 1 -10 -56 2
+Refer: 198 713 N 1 0 0 1 -10 0 2
 Refer: 2649 -1 N 1 0 0 1 0 0 3
 EndChar
 
@@ -56652,7 +56652,7 @@ Width: 613
 Flags: M
 LayerCount: 2
 Fore
-Refer: 241 728 N 1 0 0 1 -8 -7 2
+Refer: 241 728 N 1 0 0 1 -8 0 2
 Refer: 2649 -1 N 1 0 0 1 0 0 3
 EndChar
 
@@ -56672,7 +56672,7 @@ Width: 613
 Flags: M
 LayerCount: 2
 Fore
-Refer: 222 729 N 1 0 0 1 -20 -41 2
+Refer: 222 729 N 1 0 0 1 -20 0 2
 Refer: 2649 -1 N 1 0 0 1 0 0 2
 EndChar
 
@@ -56717,7 +56717,7 @@ Width: 613
 Flags: M
 LayerCount: 2
 Fore
-Refer: 137 710 N 1 0 0 1 23 11 2
+Refer: 137 710 N 1 0 0 1 23 0 2
 Refer: 2650 -1 N 1 0 0 1 0 0 3
 EndChar
 
@@ -56737,7 +56737,7 @@ Width: 613
 Flags: M
 LayerCount: 2
 Fore
-Refer: 1592 714 N 1 0 0 1 0 -5 2
+Refer: 107 180 N 1 0 0 1 0 0 2
 Refer: 2652 -1 N 1 0 0 1 0 0 3
 EndChar
 
@@ -56805,7 +56805,7 @@ Width: 613
 Flags: M
 LayerCount: 2
 Fore
-Refer: 1592 714 N 1 0 0 1 -1 -5 2
+Refer: 107 180 N 1 0 0 1 -1 0 2
 Refer: 2654 -1 N 1 0 0 1 0 0 3
 Substitution2: "Polish kreska forms-1" nacute.pl.sc
 EndChar
@@ -56826,7 +56826,7 @@ Width: 613
 Flags: M
 LayerCount: 2
 Fore
-Refer: 143 711 N 1 0 0 1 -4 1 2
+Refer: 143 711 N 1 0 0 1 -4 0 2
 Refer: 2654 -1 N 1 0 0 1 0 0 3
 EndChar
 
@@ -56871,7 +56871,7 @@ Width: 613
 Flags: M
 LayerCount: 2
 Fore
-Refer: 198 713 N 1 0 0 1 4 -56 2
+Refer: 198 713 N 1 0 0 1 4 0 2
 Refer: 2655 -1 N 1 0 0 1 0 0 3
 EndChar
 
@@ -56881,7 +56881,7 @@ Width: 613
 Flags: M
 LayerCount: 2
 Fore
-Refer: 241 728 N 1 0 0 1 6 -7 2
+Refer: 241 728 N 1 0 0 1 6 0 2
 Refer: 2655 -1 N 1 0 0 1 0 0 3
 EndChar
 
@@ -56891,7 +56891,7 @@ Width: 613
 Flags: M
 LayerCount: 2
 Fore
-Refer: 240 733 N 1 0 0 1 0 -5 2
+Refer: 240 733 N 1 0 0 1 0 0 2
 Refer: 2655 -1 N 1 0 0 1 0 0 3
 EndChar
 
@@ -56939,7 +56939,7 @@ Width: 613
 Flags: M
 LayerCount: 2
 Fore
-Refer: 1592 714 N 1 0 0 1 8 -5 2
+Refer: 107 180 N 1 0 0 1 8 0 2
 Refer: 2658 -1 N 1 0 0 1 0 0 3
 EndChar
 
@@ -56959,7 +56959,7 @@ Width: 613
 Flags: M
 LayerCount: 2
 Fore
-Refer: 143 711 N 1 0 0 1 -6 1 2
+Refer: 143 711 N 1 0 0 1 -6 0 2
 Refer: 2658 -1 N 1 0 0 1 0 0 3
 EndChar
 
@@ -56969,7 +56969,7 @@ Width: 613
 Flags: M
 LayerCount: 2
 Fore
-Refer: 1592 714 N 1 0 0 1 10 -5 2
+Refer: 107 180 N 1 0 0 1 10 0 2
 Refer: 2659 -1 N 1 0 0 1 0 0 3
 Substitution2: "Polish kreska forms-1" sacute.pl.sc
 EndChar
@@ -56980,7 +56980,7 @@ Width: 613
 Flags: M
 LayerCount: 2
 Fore
-Refer: 137 710 N 1 0 0 1 8 11 2
+Refer: 137 710 N 1 0 0 1 8 0 2
 Refer: 2659 -1 N 1 0 0 1 0 0 3
 EndChar
 
@@ -57000,7 +57000,7 @@ Width: 613
 Flags: M
 LayerCount: 2
 Fore
-Refer: 143 711 N 1 0 0 1 8 1 2
+Refer: 143 711 N 1 0 0 1 8 0 2
 Refer: 2659 -1 N 1 0 0 1 0 0 3
 EndChar
 
@@ -57020,7 +57020,7 @@ Width: 613
 Flags: M
 LayerCount: 2
 Fore
-Refer: 143 711 N 1 0 0 1 -12 1 2
+Refer: 143 711 N 1 0 0 1 -12 0 2
 Refer: 2660 -1 N 1 0 0 1 0 0 2
 EndChar
 
@@ -57057,7 +57057,7 @@ Width: 613
 Flags: M
 LayerCount: 2
 Fore
-Refer: 138 732 N 1 0 0 1 -9 -30 2
+Refer: 138 732 N 1 0 0 1 -9 0 2
 Refer: 2661 -1 N 1 0 0 1 0 0 3
 EndChar
 
@@ -57067,7 +57067,7 @@ Width: 613
 Flags: M
 LayerCount: 2
 Fore
-Refer: 198 713 N 1 0 0 1 2 -56 2
+Refer: 198 713 N 1 0 0 1 2 0 2
 Refer: 2661 -1 N 1 0 0 1 0 0 3
 EndChar
 
@@ -57077,7 +57077,7 @@ Width: 613
 Flags: M
 LayerCount: 2
 Fore
-Refer: 241 728 N 1 0 0 1 4 -7 2
+Refer: 241 728 N 1 0 0 1 4 0 2
 Refer: 2661 -1 N 1 0 0 1 0 0 3
 EndChar
 
@@ -57087,7 +57087,7 @@ Width: 613
 Flags: M
 LayerCount: 2
 Fore
-Refer: 161 730 N 1 0 0 1 -5 2 2
+Refer: 161 730 N 1 0 0 1 -5 0 2
 Refer: 2661 -1 N 1 0 0 1 0 0 3
 EndChar
 
@@ -57097,7 +57097,7 @@ Width: 613
 Flags: M
 LayerCount: 2
 Fore
-Refer: 240 733 N 1 0 0 1 -2 -5 2
+Refer: 240 733 N 1 0 0 1 -2 0 2
 Refer: 2661 -1 N 1 0 0 1 0 0 3
 EndChar
 
@@ -57145,7 +57145,7 @@ Width: 613
 Flags: M
 LayerCount: 2
 Fore
-Refer: 137 710 N 1 0 0 1 -4 11 2
+Refer: 137 710 N 1 0 0 1 -4 0 2
 Refer: 2663 -1 N 1 0 0 1 0 0 3
 EndChar
 
@@ -57155,7 +57155,7 @@ Width: 613
 Flags: M
 LayerCount: 2
 Fore
-Refer: 137 710 N 1 0 0 1 -6 11 2
+Refer: 137 710 N 1 0 0 1 -6 0 2
 Refer: 2665 -1 N 1 0 0 1 0 0 3
 EndChar
 
@@ -57165,7 +57165,7 @@ Width: 613
 Flags: M
 LayerCount: 2
 Fore
-Refer: 1592 714 N 1 0 0 1 2 -5 2
+Refer: 107 180 N 1 0 0 1 2 0 2
 Refer: 2666 -1 N 1 0 0 1 0 0 3
 Substitution2: "Polish kreska forms-1" zacute.pl.sc
 EndChar
@@ -57176,7 +57176,7 @@ Width: 613
 Flags: M
 LayerCount: 2
 Fore
-Refer: 222 729 N 1 0 0 1 0 -41 2
+Refer: 222 729 N 1 0 0 1 0 0 2
 Refer: 2666 -1 N 1 0 0 1 0 0 3
 EndChar
 
@@ -57186,7 +57186,7 @@ Width: 613
 Flags: M
 LayerCount: 2
 Fore
-Refer: 143 711 N 1 0 0 1 -1 1 2
+Refer: 143 711 N 1 0 0 1 -1 0 2
 Refer: 2666 -1 N 1 0 0 1 0 0 3
 EndChar
 

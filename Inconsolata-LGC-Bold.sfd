@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1161020814
-ModificationTime: 1742480138
+ModificationTime: 1742482458
 PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5
@@ -80,18 +80,18 @@ MarkAttachClasses: 1
 DEI: 91125
 ContextSub2: glyph "Dutch accented IJ-1" 0 0 0 3
  String: 8 Iacute J
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  1
   SeqLookup: 1 "J with acute accent"
  String: 8 iacute j
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  1
   SeqLookup: 1 "J with acute accent"
  String: 14 iacute.sc j.sc
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  1
   SeqLookup: 1 "J with acute accent"
 EndFPST
@@ -55405,60 +55405,60 @@ EndChar
 StartChar: agrave.sc
 Encoding: 1114379 -1 2667
 Width: 613
-Flags: M
+Flags: MW
 LayerCount: 2
 Fore
-Refer: 130 715 N 1 0 0 1 -46.5 33 2
+Refer: 130 715 N 1 0 0 1 -50 0 2
 Refer: 2641 -1 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: aacute.sc
 Encoding: 1114380 -1 2668
 Width: 613
-Flags: M
+Flags: MW
 LayerCount: 2
 Fore
-Refer: 1592 714 N 1 0 0 1 -22 33 2
+Refer: 107 180 N 1 0 0 1 -18 0 2
 Refer: 2641 -1 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: acircumflex.sc
 Encoding: 1114381 -1 2669
 Width: 613
-Flags: M
+Flags: MW
 LayerCount: 2
 Fore
-Refer: 137 710 N 1 0 0 1 -20 50 2
+Refer: 137 710 N 1 0 0 1 -20 0 2
 Refer: 2641 -1 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: atilde.sc
 Encoding: 1114382 -1 2670
 Width: 613
-Flags: M
+Flags: MW
 LayerCount: 2
 Fore
-Refer: 138 732 N 1 0 0 1 -24 -28 2
+Refer: 138 732 N 1 0 0 1 -25 0 2
 Refer: 2641 -1 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: adieresis.sc
 Encoding: 1114383 -1 2671
 Width: 613
-Flags: M
+Flags: MW
 LayerCount: 2
 Fore
-Refer: 139 168 N 1 0 0 1 -14 -19 2
+Refer: 139 168 N 1 0 0 1 -15 0 2
 Refer: 2641 -1 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: aring.sc
 Encoding: 1114384 -1 2672
 Width: 613
-Flags: M
+Flags: MW
 LayerCount: 2
 Fore
-Refer: 161 730 N 1 0 0 1 -21 10 2
+Refer: 161 730 N 1 0 0 1 -21 0 2
 Refer: 2641 -1 N 1 0 0 1 0 0 3
 EndChar
 
@@ -55497,7 +55497,7 @@ EndChar
 StartChar: ccedilla.sc
 Encoding: 1114386 -1 2674
 Width: 613
-Flags: M
+Flags: MW
 LayerCount: 2
 Fore
 Refer: 201 184 N 1 0 0 1 -8 -2 2
@@ -55507,80 +55507,80 @@ EndChar
 StartChar: egrave.sc
 Encoding: 1114387 -1 2675
 Width: 613
-Flags: M
+Flags: MW
 LayerCount: 2
 Fore
-Refer: 130 715 N 1 0 0 1 -33 31 2
+Refer: 130 715 N 1 0 0 1 -37 0 2
 Refer: 2645 -1 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: eacute.sc
 Encoding: 1114388 -1 2676
 Width: 613
-Flags: M
+Flags: MW
 LayerCount: 2
 Fore
-Refer: 1592 714 N 1 0 0 1 -8 31 2
+Refer: 107 180 N 1 0 0 1 -4 0 2
 Refer: 2645 -1 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: ecircumflex.sc
 Encoding: 1114389 -1 2677
 Width: 613
-Flags: M
+Flags: MW
 LayerCount: 2
 Fore
-Refer: 137 710 N 1 0 0 1 -7 48 2
+Refer: 137 710 N 1 0 0 1 -6 0 2
 Refer: 2645 -1 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: edieresis.sc
 Encoding: 1114390 -1 2678
 Width: 613
-Flags: M
+Flags: MW
 LayerCount: 2
 Fore
-Refer: 139 168 N 1 0 0 1 0 -21 2
+Refer: 139 168 N 1 0 0 1 -2 0 2
 Refer: 2645 -1 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: igrave.sc
 Encoding: 1114391 -1 2679
 Width: 613
-Flags: M
+Flags: MW
 LayerCount: 2
 Fore
-Refer: 130 715 N 1 0 0 1 -42 31 2
+Refer: 130 715 N 1 0 0 1 -46 0 2
 Refer: 2649 -1 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: iacute.sc
 Encoding: 1114392 -1 2680
 Width: 613
-Flags: M
+Flags: MW
 LayerCount: 2
 Fore
-Refer: 1592 714 N 1 0 0 1 -17 31 2
+Refer: 107 180 N 1 0 0 1 -13 0 2
 Refer: 2649 -1 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: icircumflex.sc
 Encoding: 1114393 -1 2681
 Width: 613
-Flags: M
+Flags: MW
 LayerCount: 2
 Fore
-Refer: 137 710 N 1 0 0 1 -16 48 2
+Refer: 137 710 N 1 0 0 1 -16 0 2
 Refer: 2649 -1 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: idieresis.sc
 Encoding: 1114394 -1 2682
 Width: 613
-Flags: M
+Flags: MW
 LayerCount: 2
 Fore
-Refer: 139 168 N 1 0 0 1 -9 -21 2
+Refer: 139 168 N 1 0 0 1 -10 0 2
 Refer: 2649 -1 N 1 0 0 1 0 0 3
 EndChar
 
@@ -55621,30 +55621,30 @@ EndChar
 StartChar: ntilde.sc
 Encoding: 1114396 -1 2684
 Width: 613
-Flags: M
+Flags: MW
 LayerCount: 2
 Fore
-Refer: 138 732 N 1 0 0 1 -9 -30 2
+Refer: 138 732 N 1 0 0 1 -9 0 2
 Refer: 2654 -1 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: ograve.sc
 Encoding: 1114397 -1 2685
 Width: 613
-Flags: M
+Flags: MW
 LayerCount: 2
 Fore
-Refer: 130 715 N 1 0 0 1 -29 31 2
+Refer: 130 715 N 1 0 0 1 -33 0 2
 Refer: 2655 -1 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: oacute.sc
 Encoding: 1114398 -1 2686
 Width: 613
-Flags: M
+Flags: MW
 LayerCount: 2
 Fore
-Refer: 1592 714 N 1 0 0 1 -4 31 2
+Refer: 107 180 N 1 0 0 1 0 0 2
 Refer: 2655 -1 N 1 0 0 1 0 0 3
 Substitution2: "Polish kreska forms-1" oacute.pl.sc
 EndChar
@@ -55652,30 +55652,30 @@ EndChar
 StartChar: ocircumflex.sc
 Encoding: 1114399 -1 2687
 Width: 613
-Flags: M
+Flags: MW
 LayerCount: 2
 Fore
-Refer: 137 710 N 1 0 0 1 -3 48 2
+Refer: 137 710 N 1 0 0 1 -2 0 2
 Refer: 2655 -1 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: otilde.sc
 Encoding: 1114400 -1 2688
 Width: 613
-Flags: M
+Flags: MW
 LayerCount: 2
 Fore
-Refer: 138 732 N 1 0 0 1 -7 -30 2
+Refer: 138 732 N 1 0 0 1 -8 0 2
 Refer: 2655 -1 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: odieresis.sc
 Encoding: 1114401 -1 2689
 Width: 613
-Flags: M
+Flags: MW
 LayerCount: 2
 Fore
-Refer: 139 168 N 1 0 0 1 4 -21 2
+Refer: 139 168 N 1 0 0 1 2 0 2
 Refer: 2655 -1 N 1 0 0 1 0 0 3
 EndChar
 
@@ -55719,50 +55719,50 @@ EndChar
 StartChar: ugrave.sc
 Encoding: 1114403 -1 2691
 Width: 613
-Flags: M
+Flags: MW
 LayerCount: 2
 Fore
-Refer: 130 715 N 1 0 0 1 -31 31 2
+Refer: 130 715 N 1 0 0 1 -34 0 2
 Refer: 2661 -1 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: uacute.sc
 Encoding: 1114404 -1 2692
 Width: 613
-Flags: M
+Flags: MW
 LayerCount: 2
 Fore
-Refer: 1592 714 N 1 0 0 1 -6 31 2
+Refer: 107 180 N 1 0 0 1 -2 0 2
 Refer: 2661 -1 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: ucircumflex.sc
 Encoding: 1114405 -1 2693
 Width: 613
-Flags: M
+Flags: MW
 LayerCount: 2
 Fore
-Refer: 137 710 N 1 0 0 1 -5 48 2
+Refer: 137 710 N 1 0 0 1 -4 0 2
 Refer: 2661 -1 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: udieresis.sc
 Encoding: 1114406 -1 2694
 Width: 613
-Flags: M
+Flags: MW
 LayerCount: 2
 Fore
-Refer: 139 168 N 1 0 0 1 2 -21 2
+Refer: 139 168 N 1 0 0 1 1 0 2
 Refer: 2661 -1 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: yacute.sc
 Encoding: 1114407 -1 2695
 Width: 613
-Flags: M
+Flags: MW
 LayerCount: 2
 Fore
-Refer: 1592 714 N 1 0 0 1 -7 31 2
+Refer: 107 180 N 1 0 0 1 -4 0 2
 Refer: 2665 -1 N 1 0 0 1 0 0 3
 EndChar
 
@@ -55839,10 +55839,10 @@ EndChar
 StartChar: ydieresis.sc
 Encoding: 1114410 -1 2698
 Width: 613
-Flags: M
+Flags: MW
 LayerCount: 2
 Fore
-Refer: 139 168 N 1 0 0 1 1 -21 2
+Refer: 139 168 N 1 0 0 1 -1 0 2
 Refer: 2665 -1 N 1 0 0 1 0 0 3
 EndChar
 
@@ -55852,7 +55852,7 @@ Width: 613
 Flags: MW
 LayerCount: 2
 Fore
-Refer: 198 713 N 1 0 0 1 -13.5 -23 2
+Refer: 198 713 N 1 0 0 1 -14 0 2
 Refer: 2641 -1 N 1 0 0 1 0 0 3
 EndChar
 
@@ -55862,7 +55862,7 @@ Width: 613
 Flags: MW
 LayerCount: 2
 Fore
-Refer: 241 728 N 1 0 0 1 -11.5 11 2
+Refer: 241 728 N 1 0 0 1 -12 0 2
 Refer: 2641 -1 N 1 0 0 1 0 0 3
 EndChar
 
@@ -55873,7 +55873,7 @@ Flags: MW
 LayerCount: 2
 Fore
 Refer: 214 731 N 1 0 0 1 69 6 2
-Refer: 2641 -1 N 1 0 0 1 0 0 2
+Refer: 2641 -1 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: cacute.sc
@@ -55882,7 +55882,7 @@ Width: 613
 Flags: MW
 LayerCount: 2
 Fore
-Refer: 1592 714 N 1 0 0 1 25 31 2
+Refer: 107 180 N 1 0 0 1 29 0 2
 Refer: 2643 -1 N 1 0 0 1 0 0 3
 Substitution2: "Polish kreska forms-1" cacute.pl.sc
 EndChar
@@ -55893,7 +55893,7 @@ Width: 613
 Flags: MW
 LayerCount: 2
 Fore
-Refer: 137 710 N 1 0 0 1 26 48 2
+Refer: 137 710 N 1 0 0 1 26 0 2
 Refer: 2643 -1 N 1 0 0 1 0 0 3
 EndChar
 
@@ -55903,7 +55903,7 @@ Width: 613
 Flags: MW
 LayerCount: 2
 Fore
-Refer: 222 729 N 1 0 0 1 28 -11 2
+Refer: 222 729 N 1 0 0 1 28 0 2
 Refer: 2643 -1 N 1 0 0 1 0 0 3
 EndChar
 
@@ -55913,7 +55913,7 @@ Width: 613
 Flags: MW
 LayerCount: 2
 Fore
-Refer: 143 711 N 1 0 0 1 27 1 2
+Refer: 143 711 N 1 0 0 1 26 0 2
 Refer: 2643 -1 N 1 0 0 1 0 0 3
 EndChar
 
@@ -55923,7 +55923,7 @@ Width: 613
 Flags: MW
 LayerCount: 2
 Fore
-Refer: 143 711 N 1 0 0 1 -23 1 2
+Refer: 143 711 N 1 0 0 1 -23 0 2
 Refer: 2644 -1 N 1 0 0 1 0 0 2
 EndChar
 
@@ -55942,7 +55942,7 @@ Width: 613
 Flags: MW
 LayerCount: 2
 Fore
-Refer: 198 713 N 1 0 0 1 0 -25 2
+Refer: 198 713 N 1 0 0 1 0 0 2
 Refer: 2645 -1 N 1 0 0 1 0 0 3
 EndChar
 
@@ -55952,7 +55952,7 @@ Width: 613
 Flags: MW
 LayerCount: 2
 Fore
-Refer: 241 728 N 1 0 0 1 2 9 2
+Refer: 241 728 N 1 0 0 1 2 0 2
 Refer: 2645 -1 N 1 0 0 1 0 0 3
 EndChar
 
@@ -55962,7 +55962,7 @@ Width: 613
 Flags: MW
 LayerCount: 2
 Fore
-Refer: 222 729 N 1 0 0 1 -5 -11 2
+Refer: 222 729 N 1 0 0 1 -6 0 2
 Refer: 2645 -1 N 1 0 0 1 0 0 3
 EndChar
 
@@ -55992,7 +55992,7 @@ Width: 613
 Flags: MW
 LayerCount: 2
 Fore
-Refer: 137 710 N 1 0 0 1 25 48 2
+Refer: 137 710 N 1 0 0 1 26 0 2
 Refer: 2647 -1 N 1 0 0 1 0 0 3
 EndChar
 
@@ -56002,7 +56002,7 @@ Width: 613
 Flags: MW
 LayerCount: 2
 Fore
-Refer: 241 728 N 1 0 0 1 34 9 2
+Refer: 241 728 N 1 0 0 1 34 0 2
 Refer: 2647 -1 N 1 0 0 1 0 0 3
 EndChar
 
@@ -56012,7 +56012,7 @@ Width: 613
 Flags: MW
 LayerCount: 2
 Fore
-Refer: 222 729 N 1 0 0 1 27 -11 2
+Refer: 222 729 N 1 0 0 1 26 0 2
 Refer: 2647 -1 N 1 0 0 1 0 0 3
 EndChar
 
@@ -56032,7 +56032,7 @@ Width: 613
 Flags: MW
 LayerCount: 2
 Fore
-Refer: 137 710 N 1 0 0 1 -6 48 2
+Refer: 137 710 N 1 0 0 1 -5 0 2
 Refer: 2648 -1 N 1 0 0 1 0 0 3
 EndChar
 
@@ -56079,30 +56079,30 @@ EndChar
 StartChar: itilde.sc
 Encoding: 1114431 -1 2719
 Width: 613
-Flags: M
+Flags: MW
 LayerCount: 2
 Fore
-Refer: 138 732 N 1 0 0 1 -20 -30 2
+Refer: 138 732 N 1 0 0 1 -20 0 2
 Refer: 2649 -1 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: imacron.sc
 Encoding: 1114432 -1 2720
 Width: 613
-Flags: M
+Flags: MW
 LayerCount: 2
 Fore
-Refer: 198 713 N 1 0 0 1 -9 -25 2
+Refer: 198 713 N 1 0 0 1 -10 0 2
 Refer: 2649 -1 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: ibreve.sc
 Encoding: 1114433 -1 2721
 Width: 613
-Flags: M
+Flags: MW
 LayerCount: 2
 Fore
-Refer: 241 728 N 1 0 0 1 -7 9 2
+Refer: 241 728 N 1 0 0 1 -8 0 2
 Refer: 2649 -1 N 1 0 0 1 0 0 3
 EndChar
 
@@ -56112,7 +56112,7 @@ Width: 613
 Flags: M
 LayerCount: 2
 Fore
-Refer: 214 731 N 1 0 0 1 -181 5.96667 2
+Refer: 214 731 N 1 0 0 1 -181 6 2
 Refer: 2649 -1 N 1 0 0 1 0 0 3
 EndChar
 
@@ -56122,7 +56122,7 @@ Width: 613
 Flags: MW
 LayerCount: 2
 Fore
-Refer: 222 729 N 1 0 0 1 -20 -11 2
+Refer: 222 729 N 1 0 0 1 -20 0 2
 Refer: 2649 -1 N 1 0 0 1 0 0 2
 EndChar
 
@@ -56164,10 +56164,10 @@ EndChar
 StartChar: jcircumflex.sc
 Encoding: 1114437 -1 2725
 Width: 613
-Flags: M
+Flags: MW
 LayerCount: 2
 Fore
-Refer: 137 710 N 1 0 0 1 23 48 2
+Refer: 137 710 N 1 0 0 1 23 0 2
 Refer: 2650 -1 N 1 0 0 1 0 0 3
 EndChar
 
@@ -56184,10 +56184,10 @@ EndChar
 StartChar: lacute.sc
 Encoding: 1114439 -1 2727
 Width: 613
-Flags: M
+Flags: MW
 LayerCount: 2
 Fore
-Refer: 1592 714 N 1 0 0 1 0 31 2
+Refer: 107 180 N 1 0 0 1 0 0 2
 Refer: 2652 -1 N 1 0 0 1 0 0 3
 EndChar
 
@@ -56252,10 +56252,10 @@ EndChar
 StartChar: nacute.sc
 Encoding: 1114444 -1 2732
 Width: 613
-Flags: M
+Flags: MW
 LayerCount: 2
 Fore
-Refer: 1592 714 N 1 0 0 1 -5.64866 31 2
+Refer: 107 180 N 1 0 0 1 -1 0 2
 Refer: 2654 -1 N 1 0 0 1 0 0 3
 Substitution2: "Polish kreska forms-1" nacute.pl.sc
 EndChar
@@ -56273,10 +56273,10 @@ EndChar
 StartChar: ncaron.sc
 Encoding: 1114446 -1 2734
 Width: 613
-Flags: M
+Flags: MW
 LayerCount: 2
 Fore
-Refer: 143 711 N 1 0 0 1 -3.64866 1 2
+Refer: 143 711 N 1 0 0 1 -4 0 2
 Refer: 2654 -1 N 1 0 0 1 0 0 3
 EndChar
 
@@ -56318,30 +56318,30 @@ EndChar
 StartChar: omacron.sc
 Encoding: 1114448 -1 2736
 Width: 613
-Flags: M
+Flags: MW
 LayerCount: 2
 Fore
-Refer: 198 713 N 1 0 0 1 4 -25 2
+Refer: 198 713 N 1 0 0 1 4 0 2
 Refer: 2655 -1 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: obreve.sc
 Encoding: 1114449 -1 2737
 Width: 613
-Flags: M
+Flags: MW
 LayerCount: 2
 Fore
-Refer: 241 728 N 1 0 0 1 6 9 2
+Refer: 241 728 N 1 0 0 1 6 0 2
 Refer: 2655 -1 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: ohungarumlaut.sc
 Encoding: 1114450 -1 2738
 Width: 613
-Flags: M
+Flags: MW
 LayerCount: 2
 Fore
-Refer: 240 733 N 1 0 0 1 -4 31 2
+Refer: 240 733 N 1 0 0 1 0 0 2
 Refer: 2655 -1 N 1 0 0 1 0 0 3
 EndChar
 
@@ -56386,10 +56386,10 @@ EndChar
 StartChar: racute.sc
 Encoding: 1114452 -1 2740
 Width: 613
-Flags: M
+Flags: MW
 LayerCount: 2
 Fore
-Refer: 1592 714 N 1 0 0 1 8.5 31 2
+Refer: 107 180 N 1 0 0 1 8 0 2
 Refer: 2658 -1 N 1 0 0 1 0 0 3
 EndChar
 
@@ -56406,20 +56406,20 @@ EndChar
 StartChar: rcaron.sc
 Encoding: 1114454 -1 2742
 Width: 613
-Flags: M
+Flags: MW
 LayerCount: 2
 Fore
-Refer: 143 711 N 1 0 0 1 10.5 1 2
+Refer: 143 711 N 1 0 0 1 -6 0 2
 Refer: 2658 -1 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: sacute.sc
 Encoding: 1114455 -1 2743
 Width: 613
-Flags: M
+Flags: MW
 LayerCount: 2
 Fore
-Refer: 1592 714 N 1 0 0 1 6 31 2
+Refer: 107 180 N 1 0 0 1 10 0 2
 Refer: 2659 -1 N 1 0 0 1 0 0 3
 Substitution2: "Polish kreska forms-1" sacute.pl.sc
 EndChar
@@ -56427,10 +56427,10 @@ EndChar
 StartChar: scircumflex.sc
 Encoding: 1114456 -1 2744
 Width: 613
-Flags: M
+Flags: MW
 LayerCount: 2
 Fore
-Refer: 137 710 N 1 0 0 1 7 48 2
+Refer: 137 710 N 1 0 0 1 8 0 2
 Refer: 2659 -1 N 1 0 0 1 0 0 3
 EndChar
 
@@ -56447,10 +56447,10 @@ EndChar
 StartChar: scaron.sc
 Encoding: 1114458 -1 2746
 Width: 613
-Flags: M
+Flags: MW
 LayerCount: 2
 Fore
-Refer: 143 711 N 1 0 0 1 8 1 2
+Refer: 143 711 N 1 0 0 1 8 0 2
 Refer: 2659 -1 N 1 0 0 1 0 0 3
 EndChar
 
@@ -56470,7 +56470,7 @@ Width: 613
 Flags: MW
 LayerCount: 2
 Fore
-Refer: 143 711 N 1 0 0 1 -12 1 2
+Refer: 143 711 N 1 0 0 1 -12 0 2
 Refer: 2660 -1 N 1 0 0 1 0 0 2
 EndChar
 
@@ -56504,50 +56504,50 @@ EndChar
 StartChar: utilde.sc
 Encoding: 1114462 -1 2750
 Width: 613
-Flags: M
+Flags: MW
 LayerCount: 2
 Fore
-Refer: 138 732 N 1 0 0 1 -9 -30 2
+Refer: 138 732 N 1 0 0 1 -9 0 2
 Refer: 2661 -1 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: umacron.sc
 Encoding: 1114463 -1 2751
 Width: 613
-Flags: M
+Flags: MW
 LayerCount: 2
 Fore
-Refer: 198 713 N 1 0 0 1 2 -25 2
+Refer: 198 713 N 1 0 0 1 2 0 2
 Refer: 2661 -1 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: ubreve.sc
 Encoding: 1114464 -1 2752
 Width: 613
-Flags: M
+Flags: MW
 LayerCount: 2
 Fore
-Refer: 241 728 N 1 0 0 1 4 9 2
+Refer: 241 728 N 1 0 0 1 4 0 2
 Refer: 2661 -1 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: uring.sc
 Encoding: 1114465 -1 2753
 Width: 613
-Flags: M
+Flags: MW
 LayerCount: 2
 Fore
-Refer: 161 730 N 1 0 0 1 -5.5 8 2
+Refer: 161 730 N 1 0 0 1 -5 0 2
 Refer: 2661 -1 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: uhungarumlaut.sc
 Encoding: 1114466 -1 2754
 Width: 613
-Flags: M
+Flags: MW
 LayerCount: 2
 Fore
-Refer: 240 733 N 1 0 0 1 -6 31 2
+Refer: 240 733 N 1 0 0 1 -2 0 2
 Refer: 2661 -1 N 1 0 0 1 0 0 3
 EndChar
 
@@ -56592,30 +56592,30 @@ EndChar
 StartChar: wcircumflex.sc
 Encoding: 1114468 -1 2756
 Width: 613
-Flags: M
+Flags: MW
 LayerCount: 2
 Fore
-Refer: 137 710 N 1 0 0 1 -4 48 2
+Refer: 137 710 N 1 0 0 1 -4 0 2
 Refer: 2663 -1 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: ycircumflex.sc
 Encoding: 1114469 -1 2757
 Width: 613
-Flags: M
+Flags: MW
 LayerCount: 2
 Fore
-Refer: 137 710 N 1 0 0 1 -6 48 2
+Refer: 137 710 N 1 0 0 1 -6 0 2
 Refer: 2665 -1 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: zacute.sc
 Encoding: 1114470 -1 2758
 Width: 613
-Flags: M
+Flags: MW
 LayerCount: 2
 Fore
-Refer: 1592 714 N 1 0 0 1 -2.5 31 2
+Refer: 107 180 N 1 0 0 1 2 0 2
 Refer: 2666 -1 N 1 0 0 1 0 0 3
 Substitution2: "Polish kreska forms-1" zacute.pl.sc
 EndChar
@@ -56623,20 +56623,20 @@ EndChar
 StartChar: zdot.sc
 Encoding: 1114471 -1 2759
 Width: 613
-Flags: M
+Flags: MW
 LayerCount: 2
 Fore
-Refer: 222 729 N 1 0 0 1 0.5 -11 2
+Refer: 222 729 N 1 0 0 1 0 0 2
 Refer: 2666 -1 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: zcaron.sc
 Encoding: 1114472 -1 2760
 Width: 613
-Flags: M
+Flags: MW
 LayerCount: 2
 Fore
-Refer: 143 711 N 1 0 0 1 -0.5 1 2
+Refer: 143 711 N 1 0 0 1 -1 0 2
 Refer: 2666 -1 N 1 0 0 1 0 0 3
 EndChar
 
