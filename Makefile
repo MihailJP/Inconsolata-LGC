@@ -48,7 +48,7 @@ Inconsolata-LGC-BoldItalic.mk: Inconsolata-LGC.mk
 .sfd.ufo:
 	for i in $?;do fontforge -lang=ff -c "Open(\"$$i\");Generate(\"$@\");Close()";done
 	grep "^Version: " Inconsolata-LGC.sfd | sed -e "s/^Version: //"
-	sed -i~ -e "/<key>openTypeNameVersion<\/key>/ { n; s/<string>.*<\/string>/<string>$$(grep "^Version: " $< | sed -e "s/^Version: //")<\/string>/; }" $@/fontinfo.plist
+	sed -i~ -e "/<key>openTypeNameVersion<\/key>/ { n; s/<string>.*<\/string>/<string>$$(grep "^Version: " $< | sed -e "s/^Version: //")<\/string><key>postscriptIsFixedPitch<\/key><true\/>/; }" $@/fontinfo.plist
 
 .PHONY: ttf otf ttc woff woff2 variable
 ttf: ${FONTS}
