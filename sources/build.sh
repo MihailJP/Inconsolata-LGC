@@ -1,6 +1,7 @@
 #!/bin/sh
 
-rm -rf ../build/*
+rm -rf ../build
+mkdir ../build
 for i in *.sfd; do
         python3 <<EOS
 import fontforge
@@ -67,3 +68,4 @@ for i in ../sources/*.sfd; do
 done
 
 popd
+rm -rf ../build
