@@ -1,9 +1,4 @@
 ChangeLog
-*.otf
-*.ttf
-*.ttc
-*.woff
-*.woff2
 *-Romanian*.sfd
 *-Polish*.sfd
 *-Bulgarian*.sfd
@@ -27,3 +22,5 @@ InconsolataLGC-Variable/
 *.tar.gz
 *.tar.bz2
 *.zip
+build/
+!build/.keep
