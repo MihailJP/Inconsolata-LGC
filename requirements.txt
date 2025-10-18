@@ -1,1 +1,3 @@
 fontforge
+fontmake
+fonttools
