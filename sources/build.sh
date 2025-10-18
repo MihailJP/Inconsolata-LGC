@@ -49,4 +49,21 @@ done
 fontmake -m Inconsolata-LGC.designspace -o variable --output-path ../fonts/variable/Inconsolata-LGC\[wght\].ttf
 fontmake -m Inconsolata-LGC-Italic.designspace -o variable --output-path ../fonts/variable/Inconsolata-LGC-Italic\[wght\].ttf
 
+for i in ../sources/*.sfd; do
+	for j in ro pl bg mkd liv smi zhp ewe cv; do
+		../scripts/regional.rb $j < $i > $(basename $i .sfd)-$j.sfd
+	done
+
+	../scripts/makettc.py ../fonts/ttc/$(basename $i .sfd).ttc $i \
+		$(basename $i .sfd)-ro.sfd \
+		$(basename $i .sfd)-pl.sfd \
+		$(basename $i .sfd)-bg.sfd \
+		$(basename $i .sfd)-mkd.sfd \
+		$(basename $i .sfd)-liv.sfd \
+		$(basename $i .sfd)-smi.sfd \
+		$(basename $i .sfd)-zhp.sfd \
+		$(basename $i .sfd)-ewe.sfd \
+		$(basename $i .sfd)-cv.sfd
+done
+
 popd
