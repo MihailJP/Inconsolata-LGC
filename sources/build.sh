@@ -1,5 +1,6 @@
 #!/bin/sh
 
+startdir="$PWD"
 rm -rf ../build
 for j in ../fonts/*; do
 	for i in $j/*; do
@@ -26,7 +27,7 @@ done
 ../scripts/interpolate.py ../build/Inconsolata-LGC-Maximum.sfd Inconsolata-LGC.sfd Inconsolata-LGC-Bold.sfd 2.5 || exit $?
 ../scripts/interpolate.py ../build/Inconsolata-LGC-MaximumItalic.sfd Inconsolata-LGC-Italic.sfd Inconsolata-LGC-BoldItalic.sfd 2.5 || exit $?
 
-pushd ../build
+cd ../build
 
 for i in *.sfd; do
         fontforge -lang=py -script <<EOS || exit $?
@@ -67,5 +68,5 @@ for i in ../sources/*.sfd; do
 		|| exit $?
 done
 
-popd
+cd "$startdir"
 rm -rf ../build
