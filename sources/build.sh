@@ -41,6 +41,10 @@ done
 for i in *.ufo; do
 	srcdir=.
 	stat ${i%ufo}sfd > /dev/null || srcdir=../sources
+	echo $i
+	echo $srcdir
+	echo ${i%ufo}sfd
+	echo $srcdir/${i%ufo}sfd
 	../scripts/ufo-workaround.py $i $srcdir/${i%ufo}sfd || exit $?
 done
 
