@@ -1,9 +1,15 @@
 #!/bin/sh
 
 rm -rf ../build
+for j in ../fonts/*; do
+	for i in $j/*; do
+		rm -rf $i
+	done
+done
 mkdir ../build
+
 for i in *.sfd; do
-        python3 <<EOS
+        fontforge -lang=py -script <<EOS || exit $?
 import fontforge
 font = fontforge.open("$i")
 font.generate("../build/${i%sfd}ufo")
@@ -15,15 +21,15 @@ font.close()
 EOS
 done
 
-../scripts/interpolate.py ../build/Inconsolata-LGC-Minimum.sfd Inconsolata-LGC.sfd Inconsolata-LGC-Bold.sfd -1.6
-../scripts/interpolate.py ../build/Inconsolata-LGC-MinimumItalic.sfd Inconsolata-LGC-Italic.sfd Inconsolata-LGC-BoldItalic.sfd -1.6
-../scripts/interpolate.py ../build/Inconsolata-LGC-Maximum.sfd Inconsolata-LGC.sfd Inconsolata-LGC-Bold.sfd 2.5
-../scripts/interpolate.py ../build/Inconsolata-LGC-MaximumItalic.sfd Inconsolata-LGC-Italic.sfd Inconsolata-LGC-BoldItalic.sfd 2.5
+../scripts/interpolate.py ../build/Inconsolata-LGC-Minimum.sfd Inconsolata-LGC.sfd Inconsolata-LGC-Bold.sfd -1.6 || exit $?
+../scripts/interpolate.py ../build/Inconsolata-LGC-MinimumItalic.sfd Inconsolata-LGC-Italic.sfd Inconsolata-LGC-BoldItalic.sfd -1.6 || exit $?
+../scripts/interpolate.py ../build/Inconsolata-LGC-Maximum.sfd Inconsolata-LGC.sfd Inconsolata-LGC-Bold.sfd 2.5 || exit $?
+../scripts/interpolate.py ../build/Inconsolata-LGC-MaximumItalic.sfd Inconsolata-LGC-Italic.sfd Inconsolata-LGC-BoldItalic.sfd 2.5 || exit $?
 
 pushd ../build
 
 for i in *.sfd; do
-        python3 <<EOS
+        fontforge -lang=py -script <<EOS || exit $?
 import fontforge
 font = fontforge.open("$i")
 font.generate("../build/${i%sfd}ufo")
@@ -44,15 +50,15 @@ s/<string>.*<\/string>/\<string>$(grep "^Version: " $srcdir/${i%ufo}sfd | sed -e
 EOS
 done
 
-../scripts/make_designspace.py Inconsolata-LGC.designspace Inconsolata-LGC.ufo Inconsolata-LGC-Bold.ufo Inconsolata-LGC-Minimum.ufo Inconsolata-LGC-Maximum.ufo
-../scripts/make_designspace.py Inconsolata-LGC-Italic.designspace Inconsolata-LGC-Italic.ufo Inconsolata-LGC-BoldItalic.ufo Inconsolata-LGC-MinimumItalic.ufo Inconsolata-LGC-MaximumItalic.ufo
+../scripts/make_designspace.py Inconsolata-LGC.designspace Inconsolata-LGC.ufo Inconsolata-LGC-Bold.ufo Inconsolata-LGC-Minimum.ufo Inconsolata-LGC-Maximum.ufo || exit $?
+../scripts/make_designspace.py Inconsolata-LGC-Italic.designspace Inconsolata-LGC-Italic.ufo Inconsolata-LGC-BoldItalic.ufo Inconsolata-LGC-MinimumItalic.ufo Inconsolata-LGC-MaximumItalic.ufo || exit $?
 
-fontmake -m Inconsolata-LGC.designspace -o variable --output-path ../fonts/variable/Inconsolata-LGC\[wght\].ttf
-fontmake -m Inconsolata-LGC-Italic.designspace -o variable --output-path ../fonts/variable/Inconsolata-LGC-Italic\[wght\].ttf
+fontmake -m Inconsolata-LGC.designspace -o variable --output-path ../fonts/variable/Inconsolata-LGC\[wght\].ttf || exit $?
+fontmake -m Inconsolata-LGC-Italic.designspace -o variable --output-path ../fonts/variable/Inconsolata-LGC-Italic\[wght\].ttf || exit $?
 
 for i in ../sources/*.sfd; do
 	for j in ro pl bg mkd liv smi zhp ewe cv; do
-		../scripts/regional.rb $j < $i > $(basename $i .sfd)-$j.sfd
+		../scripts/regional.rb $j < $i > $(basename $i .sfd)-$j.sfd || exit $?
 	done
 
 	../scripts/makettc.py ../fonts/ttc/$(basename $i .sfd).ttc $i \
@@ -64,7 +70,8 @@ for i in ../sources/*.sfd; do
 		$(basename $i .sfd)-smi.sfd \
 		$(basename $i .sfd)-zhp.sfd \
 		$(basename $i .sfd)-ewe.sfd \
-		$(basename $i .sfd)-cv.sfd
+		$(basename $i .sfd)-cv.sfd \
+		|| exit $?
 done
 
 popd
