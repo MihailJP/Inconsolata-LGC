@@ -1,3 +1,2 @@
-fontforge
 fontmake
 fonttools
