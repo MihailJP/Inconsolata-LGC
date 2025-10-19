@@ -38,16 +38,9 @@ EOS
 done
 
 for i in *.ufo; do
-srcdir=.
-stat ${i%ufo}sfd > /dev/null || srcdir=../sources
-sed -i~ -f - <<EOS $i/fontinfo.plist
-/<key>openTypeNameVersion<\/key>/ {
-n
-s/<string>.*<\/string>/\<string>$(grep "^Version: " $srcdir/${i%ufo}sfd | sed -e "s/^Version: //")<\/string>\n\
-    <key>postscriptIsFixedPitch<\/key>\n\
-    <true\/>/
-}
-EOS
+	srcdir=.
+	stat ${i%ufo}sfd > /dev/null || srcdir=../sources
+	../scripts/ufo-workaround.py $i $srcdir/${i%ufo}sfd || exit $?
 done
 
 ../scripts/make_designspace.py Inconsolata-LGC.designspace Inconsolata-LGC.ufo Inconsolata-LGC-Bold.ufo Inconsolata-LGC-Minimum.ufo Inconsolata-LGC-Maximum.ufo || exit $?
