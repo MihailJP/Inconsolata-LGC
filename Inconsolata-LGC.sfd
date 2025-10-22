@@ -119,6 +119,21 @@ PUSHB_1
 SCANTYPE
 EndTTInstrs
 LangName: 1033
+OtfFeatName: 'cv01' 1033 "Variants of zero" "" "0" 3 "plain zero (without slash)" "dotted zero" "zero with long slash" ""
+OtfFeatName: 'cv02' 1033 "r with serif" "" "r+AVUBVwFZ" 0 ""
+OtfFeatName: 'cv03' 1033 "Variants of Eng" "" "+AUoA" 2 "enlarged lowercase n" "uppercase N" ""
+OtfFeatName: 'cv04' 1033 "Alternative dollar signs" "" "$" 2 "middle-empty" "double-struck" ""
+OtfFeatName: 'cv05' 1033 "Variants of Ezh" "" "+AbcB7gAA" 2 "without descender" "reversed Sigma" ""
+OtfFeatName: 'cv06' 1033 "Text form triangles" "" "+JeIl4yXkJeUA" 0 ""
+OtfFeatName: 'cv07' 1033 "Variants of El with hook" "" "+BRIFEwAA" 0 ""
+OtfFeatName: 'cv08' 1033 "Variants of uppercase Qa" "" "+BRoA" 2 "enlarged lowercase" "reversed P" ""
+OtfFeatName: 'cv09' 1033 "Che with hook" "" "+BLYEtwAA" 2 "lengthened stem" "attached hook" ""
+OtfFeatName: 'cv10' 1033 "Ge with hook" "" "+BPYE9wAA" 2 "lengthened stem" "attached hook" ""
+OtfFeatName: 'cv11' 1033 "Ge with stroke and descender" "" "+BPoE+wAA" 0 ""
+OtfFeatName: 'cv12' 1033 "Alternative glyphs for control pictures" "" "+JAAkASQCJAMkBCQFJAYkByQIJAkkCiQLJAwkDSQOJA8kECQRJBIkEyQUJBUkFiQXJBgkGSQaJBskHCQdJB4kHyQgJCEA" 0 ""
+OtfFeatName: 'cv13' 1033 "G with stroke" "" "+AeQB5QAA" 0 ""
+OtfFeatName: 'cv14' 1033 "Koalib casing at signs" "" "+JLYk0AAA" 0 ""
+OtfFeatName: 'cv15' 1033 "Closed Latin OU" "" "+AiICIwAA" 0 ""
 OtfFeatName: 'ss01' 1033 "German alternative umlaut"
 OtfFeatName: 'ss02' 1033 "Polytonic Greek alternative circumflex"
 OtfFeatName: 'ss03' 1033 "Pedantic"

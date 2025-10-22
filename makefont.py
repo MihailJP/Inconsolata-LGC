@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 import fontforge, re
-from sys import argv
+from sys import argv, stderr
 from pathlib import Path
 from tempfile import TemporaryDirectory
 from subprocess import run
@@ -10,6 +10,14 @@ import fontforge_refsel
 fontforge.hooks = {}  # disable hooks for this script
 
 font = fontforge.open(argv[2])
+
+try:
+	font.style_set_names = font.style_set_names
+except ValueError:  # 20251009 or earlier versions
+	stderr.write('Names of character variations are not supported in this version.\n')
+	stderr.write('Such entries have been removed.\n')
+	font.style_set_names = tuple(n for n in font.style_set_names if n[1].startswith('ss'))
+
 if 'Hinted' in argv[1]:
 	fontforge_refsel.selectGlyphsWithDistortedRefs(font)
 	font.unlinkReferences()
@@ -76,7 +84,7 @@ if argv[1].endswith(".ufo"): # workaround
 		fontFeature = re.sub(r"\bfeature\b", "feature aalt {{\n{0}}} aalt;\n\nfeature".format(featureInstructions), fontFeature, count=1)
 
 	# Check nonexistent glyphs
-	nonexistentGlyphs = set(m[0] for m in re.finditer(r'\\[\w\.]+\b', fontFeature)) - set('\\' + g for g in glyphnames)
+	nonexistentGlyphs = set(m[0] for m in re.finditer(r'\\[^\W\d][\w\.]*\b', re.sub(r'".*?"', '', fontFeature))) - set('\\' + g for g in glyphnames)
 	for glyph in sorted(nonexistentGlyphs):
 		fontFeature = re.sub(glyph.replace("\\", "\\\\") + r'\b(?!\.)', '', fontFeature)
 
