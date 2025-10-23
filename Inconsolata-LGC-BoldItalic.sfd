@@ -87,18 +87,18 @@ EndFPST
 LangName: 1033 "" "" "Bold Italic"
 OtfFeatName: 'ss02' 1033 "Polytonic Greek alternative circumflex"
 OtfFeatName: 'ss01' 1033 "German alternative umlaut"
-OtfFeatName: 'cv01' 1033 "Variants of zero"
-OtfFeatName: 'cv02' 1033 "r with serif"
-OtfFeatName: 'cv03' 1033 "Variants of Eng"
-OtfFeatName: 'cv04' 1033 "Alternative dollar signs"
-OtfFeatName: 'cv05' 1033 "Variants of Ezh"
-OtfFeatName: 'cv06' 1033 "Text form triangles"
-OtfFeatName: 'cv07' 1033 "Variants of El with hook"
-OtfFeatName: 'cv08' 1033 "Variants of uppercase Qa"
-OtfFeatName: 'cv09' 1033 "Che with hook"
-OtfFeatName: 'cv10' 1033 "Ge with hook"
-OtfFeatName: 'cv11' 1033 "Ge with stroke and descender"
-OtfFeatName: 'cv12' 1033 "Alternative glyphs for control pictures"
+OtfFeatName: 'cv01' 1033 "Variants of zero" "" "" 0
+OtfFeatName: 'cv02' 1033 "r with serif" "" "" 0
+OtfFeatName: 'cv03' 1033 "Variants of Eng" "" "" 0
+OtfFeatName: 'cv04' 1033 "Alternative dollar signs" "" "" 0
+OtfFeatName: 'cv05' 1033 "Variants of Ezh" "" "" 0
+OtfFeatName: 'cv06' 1033 "Text form triangles" "" "" 0
+OtfFeatName: 'cv07' 1033 "Variants of El with hook" "" "" 0
+OtfFeatName: 'cv08' 1033 "Variants of uppercase Qa" "" "" 0
+OtfFeatName: 'cv09' 1033 "Che with hook" "" "" 0
+OtfFeatName: 'cv10' 1033 "Ge with hook" "" "" 0
+OtfFeatName: 'cv11' 1033 "Ge with stroke and descender" "" "" 0
+OtfFeatName: 'cv12' 1033 "Alternative glyphs for control pictures" "" "" 0
 Encoding: UnicodeFull
 Compacted: 1
 UnicodeInterp: none
