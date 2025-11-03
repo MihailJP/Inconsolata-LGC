@@ -15,9 +15,9 @@ import fontforge
 font = fontforge.open("$i")
 font.generate("../build/${i%sfd}ufo")
 font.buildOrReplaceAALTFeatures()
-font.generate("../fonts/ttf/${i%sfd}ttf")
-font.generate("../fonts/otf/${i%sfd}otf")
-font.generate("../fonts/webfonts/${i%sfd}woff2")
+font.generate("../fonts/ttf/${i%sfd}ttf", flags=("opentype", "no-mac-names"))
+font.generate("../fonts/otf/${i%sfd}otf", flags=("opentype", "no-mac-names"))
+font.generate("../fonts/webfonts/${i%sfd}woff2", flags=("opentype", "no-mac-names"))
 font.close()
 EOS
 done
