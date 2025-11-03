@@ -44,9 +44,9 @@ Inconsolata-LGC-BoldItalic.mk: Inconsolata-LGC.mk
 	sed -E -e 's/\.(sfd|ttc)/-BoldItalic.\1/g' $< > $@
 
 .sfd.ttf .sfd.otf .sfd.woff .sfd.woff2:
-	for i in $?;do fontforge -lang=py -c "font=fontforge.open(\"$$i\"); font.buildOrReplaceAALTFeatures(); font.generate(\"$@\"); font.close()";done
+	for i in $?;do fontforge -lang=py -c "font=fontforge.open('$$i'); font.buildOrReplaceAALTFeatures(); font.generate('$@', flags=('no-mac-names','opentype')); font.close()";done
 .sfd.ufo:
-	for i in $?;do fontforge -lang=ff -c "Open(\"$$i\");Generate(\"$@\");Close()";done
+	for i in $?;do fontforge -lang=ff -c "Open('$$i');Generate('$@');Close()";done
 	grep "^Version: " Inconsolata-LGC.sfd | sed -e "s/^Version: //"
 	sed -i~ -e "/<key>openTypeNameVersion<\/key>/ { n; s/<string>.*<\/string>/<string>$$(grep "^Version: " $< | sed -e "s/^Version: //")<\/string><key>postscriptIsFixedPitch<\/key><true\/>/; }" $@/fontinfo.plist
 
