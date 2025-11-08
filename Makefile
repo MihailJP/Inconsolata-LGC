@@ -47,8 +47,9 @@ Inconsolata-LGC-BoldItalic.mk: Inconsolata-LGC.mk
 	for i in $?;do fontforge -lang=py -c "font=fontforge.open('$$i'); font.buildOrReplaceAALTFeatures(); font.generate('$@', flags=('no-mac-names','opentype')); font.close()";done
 .sfd.ufo:
 	for i in $?;do fontforge -lang=py -c "font=fontforge.open('$$i'); font.generate('$@', flags=('no-mac-names','opentype')); font.close()";done
-	grep "^Version: " Inconsolata-LGC.sfd | sed -e "s/^Version: //"
-	sed -i~ -e "/<key>openTypeNameVersion<\/key>/ { n; s/<string>.*<\/string>/<string>$$(grep "^Version: " $< | sed -e "s/^Version: //")<\/string><key>postscriptIsFixedPitch<\/key><true\/>/; }" $@/fontinfo.plist
+	sed -i~ \
+	-e "/<key>openTypeNameVersion<\/key>/ { n; s/<string>.*<\/string>/<string>$$(grep "^Version: " $< | sed -e "s/^Version: //")<\/string><key>postscriptIsFixedPitch<\/key><true\/>/; }" \
+	-e "/<key>styleMapFamilyName<\/key>/ { n; s/ Italic//; s/ Bold//; }" $@/fontinfo.plist
 
 .PHONY: ttf otf ttc woff woff2 variable
 ttf: ${FONTS}
