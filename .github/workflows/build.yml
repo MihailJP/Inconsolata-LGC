@@ -35,26 +35,38 @@ jobs:
       with:
         name: variable
         path: InconsolataLGC-Variable/**
-#  check:
-#    name: Check
-#    needs: build
-#    runs-on: ubuntu-latest
-#    steps:
-#    - name: Set up Python
-#      uses: actions/setup-python@v6
-#      with:
-#        python-version: ">=3.8"
-#    - name: Install Python Fontbakery
-#      run: |
-#        python3 -m venv venv
-#        source venv/bin/activate
-#        pip3 install shaperglot glyphsets fontbakery
-#    - name: Download the Artifact
-#      uses: actions/download-artifact@v4
-#    - name: Run Fontbakery
-#      run: |
-#        source venv/bin/activate
-#        fontbakery check-universal \
-#          -x opentype/STAT/ital_axis \
-#          -x smart_dropout \
-#          artifact/ttf/*.ttf
+  check:
+    name: Check
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+    - name: Set up Python
+      uses: actions/setup-python@v6
+      with:
+        python-version: ">=3.8"
+    - name: Install Python Fontbakery
+      run: |
+        python3 -m venv venv
+        source venv/bin/activate
+        pip3 install shaperglot glyphsets fontbakery
+    - name: Download the Artifact
+      uses: actions/download-artifact@v4
+    - name: Check Static Fonts
+      run: |
+        source venv/bin/activate
+        fontbakery check-universal \
+          -x opentype/STAT/ital_axis \
+          -x smart_dropout \
+          -x family/win_ascent_and_descent \
+          -x nested_components \
+          -x os2_metrics_match_hhea \
+          ttf/*.ttf
+    - name: Check Variable Fonts
+      run: |
+        source venv/bin/activate
+        fontbakery check-universal \
+          -x smart_dropout \
+          -x family/win_ascent_and_descent \
+          -x nested_components \
+          -x os2_metrics_match_hhea \
+          variable/*.ttf
