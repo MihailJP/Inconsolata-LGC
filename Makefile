@@ -43,14 +43,8 @@ Inconsolata-LGC-Italic.mk: Inconsolata-LGC.mk
 Inconsolata-LGC-BoldItalic.mk: Inconsolata-LGC.mk
 	sed -E -e 's/\.(sfd|ttc)/-BoldItalic.\1/g' $< > $@
 
-.sfd.ttf .sfd.otf .sfd.woff .sfd.woff2:
-	for i in $?;do fontforge -lang=py -c "font=fontforge.open('$$i'); font.buildOrReplaceAALTFeatures(); font.generate('$@', flags=('no-mac-names','opentype')); font.close()";done
-.sfd.ufo:
-	for i in $?;do fontforge -lang=py -c "font=fontforge.open('$$i'); font.generate('$@', flags=('no-mac-names','opentype')); font.close()";done
-	sed -i~ \
-	-e "/<key>openTypeNameVersion<\/key>/ { n; s/\$$/<key>postscriptIsFixedPitch<\/key><true\/>/; }" \
-	-e "/<key>styleMapFamilyName<\/key>/ { n; s/ Italic//; s/ Bold//; }" \
-	$@/fontinfo.plist
+.sfd.ttf .sfd.otf .sfd.woff .sfd.woff2 .sfd.ufo:
+	for i in $?; do ./makefont.py $@ $$i; done
 
 .PHONY: ttf otf ttc woff woff2 variable
 ttf: ${FONTS}
@@ -134,6 +128,7 @@ ChangeLog: .git # GIT
 .PHONY: clean
 clean:
 	-rm -f ${FONTS} ${OTFONTS} ${TTCFONTS} ${WOFFFONTS} ${WOFF2FONTS} ${VARFONTS} ChangeLog
+	-rm -f ${FONTS:.ttf=-Intermediate.sfd}
 	-rm -f ${FONTS:.ttf=-Romanian.sfd} ${FONTS:.ttf=-Polish.sfd} ${FONTS:.ttf=-Bulgarian.sfd} ${FONTS:.ttf=-Yugoslav.sfd}
 	-rm -f ${FONTS:.ttf=-Livonian.sfd} ${FONTS:.ttf=-Sami.sfd} ${FONTS:.ttf=-Pinyin.sfd} ${FONTS:.ttf=-African.sfd}
 	-rm -f ${FONTS:.ttf=-Chuvash.sfd}

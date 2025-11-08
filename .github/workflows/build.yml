@@ -13,7 +13,7 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v6
       with:
-        python-version: ">=3.8"
+        python-version: ">=3.9"
     - name: Install Python dependencies
       run: |
         python3 -m venv venv
@@ -43,7 +43,7 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v6
       with:
-        python-version: ">=3.8"
+        python-version: ">=3.9"
     - name: Install Python Fontbakery
       run: |
         python3 -m venv venv
@@ -58,7 +58,6 @@ jobs:
           -x opentype/STAT/ital_axis \
           -x smart_dropout \
           -x family/win_ascent_and_descent \
-          -x nested_components \
           -x os2_metrics_match_hhea \
           ttf/*.ttf
     - name: Check Variable Fonts
@@ -67,6 +66,5 @@ jobs:
         fontbakery check-universal \
           -x smart_dropout \
           -x family/win_ascent_and_descent \
-          -x nested_components \
           -x os2_metrics_match_hhea \
           variable/*.ttf
