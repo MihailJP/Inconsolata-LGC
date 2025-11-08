@@ -102,8 +102,12 @@ for weight in weightList:
 	i1.styleName = " ".join(styleNameList)
 	if i1.styleName == "":
 		i1.styleName = "Regular"
-	i1.name = i1.familyName + " " + i1.styleName
-	i1.postscriptFontName = (i1.familyName + "-" + i1.styleName).replace(" ", "")
+	if weight[0] == 400 and not isItalic:
+		i1.name = i1.familyName
+		i1.postScriptFontName = i1.familyName.replace(" ", "")
+	else:
+		i1.name = i1.familyName + " " + i1.styleName
+		i1.postScriptFontName = (i1.familyName + "-" + i1.styleName).replace(" ", "")
 	i1.styleMapFamilyName = i1.familyName
 	if weight[0] == 400:
 		i1.styleMapStyleName = "italic" if isItalic else "regular"
@@ -111,7 +115,7 @@ for weight in weightList:
 		i1.styleMapStyleName = "bold italic" if isItalic else "bold"
 	else:
 		i1.styleMapStyleName = None
-	i1.path = i1.postscriptFontName + ".ufo"
+	i1.path = i1.postScriptFontName + ".ufo"
 	i1.designLocation = dict(Weight=weight[0], Italic=italicValue)
 	doc.addInstance(i1)
 
