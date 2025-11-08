@@ -1,0 +1,60 @@
+#name: Build and check fonts
+name: Build fonts
+
+on: [push, pull_request, workflow_dispatch]
+
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+    - name: Check out the repository
+      uses: actions/checkout@v4
+    - name: Set up Python
+      uses: actions/setup-python@v6
+      with:
+        python-version: ">=3.8"
+    - name: Install Python dependencies
+      run: |
+        python3 -m venv venv
+        source venv/bin/activate
+        pip3 install afdko fonttools fontmake
+    - name: Install other dependencies
+      run: sudo apt install fontforge
+    - name: Build
+      run: source venv/bin/activate; make
+    - name: Make distributable
+      run: make dist
+    - name: Upload a Static TTF Artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: ttf
+        path: InconsolataLGC/**
+    - name: Upload a Variable TTF Artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: variable
+        path: InconsolataLGC-Variable/**
+#  check:
+#    name: Check
+#    needs: build
+#    runs-on: ubuntu-latest
+#    steps:
+#    - name: Set up Python
+#      uses: actions/setup-python@v6
+#      with:
+#        python-version: ">=3.8"
+#    - name: Install Python Fontbakery
+#      run: |
+#        python3 -m venv venv
+#        source venv/bin/activate
+#        pip3 install shaperglot glyphsets fontbakery
+#    - name: Download the Artifact
+#      uses: actions/download-artifact@v4
+#    - name: Run Fontbakery
+#      run: |
+#        source venv/bin/activate
+#        fontbakery check-universal \
+#          -x opentype/STAT/ital_axis \
+#          -x smart_dropout \
+#          artifact/ttf/*.ttf
