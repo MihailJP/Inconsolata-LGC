@@ -4,6 +4,7 @@ ChangeLog
 *.ttc
 *.woff
 *.woff2
+*-Intermediate*.sfd
 *-Romanian*.sfd
 *-Polish*.sfd
 *-Bulgarian*.sfd
