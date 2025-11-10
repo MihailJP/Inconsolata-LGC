@@ -27,6 +27,9 @@ decomposeNestedRefs(font)
 if not argv[1].endswith(".ufo"):
 	font.buildOrReplaceAALTFeatures()
 
+if argv[1].endswith(".otf"):
+	font.em = 1000
+
 if argv[1].endswith(".sfd"):
 	font.save(argv[1])
 else:
