@@ -72,10 +72,18 @@ Inconsolata-LGC.designspace: Inconsolata-LGC.ufo Inconsolata-LGC-Bold.ufo Incons
 Inconsolata-LGC-Italic.designspace: Inconsolata-LGC-Italic.ufo Inconsolata-LGC-BoldItalic.ufo Inconsolata-LGC-MinimumItalic.ufo Inconsolata-LGC-MaximumItalic.ufo
 	./make_designspace.py $@ $^
 
-Inconsolata-LGC-Variable.ttf: Inconsolata-LGC.designspace
+.INTERMEDIATE: ${VARFONTS:.ttf=.raw.ttf}
+Inconsolata-LGC-Variable.raw.ttf: Inconsolata-LGC.designspace
 	fontmake -m $< -o variable --output-path $@
-Inconsolata-LGC-Variable-Italic.ttf: Inconsolata-LGC-Italic.designspace
+Inconsolata-LGC-Variable-Italic.raw.ttf: Inconsolata-LGC-Italic.designspace
 	fontmake -m $< -o variable --output-path $@
+
+.INTERMEDIATE: prep.ttx
+prep.ttx: Inconsolata-LGC.ttf
+	ttx -o $@ -tprep $<
+
+${VARFONTS}: %.ttf: %.raw.ttf prep.ttx
+	ttx -o $@ -m $^
 
 InconsolataLGC.tar.xz: ${FONTS} ${DOCUMENTS}
 	${TTFPKGCMD}; tar cfvJ $@ $*
@@ -128,11 +136,13 @@ ChangeLog: .git # GIT
 .PHONY: clean
 clean:
 	-rm -f ${FONTS} ${OTFONTS} ${TTCFONTS} ${WOFFFONTS} ${WOFF2FONTS} ${VARFONTS} ChangeLog
+	-rm -f ${VARFONTS:.ttf=.raw.ttf}
 	-rm -f ${FONTS:.ttf=-Intermediate.sfd}
 	-rm -f ${FONTS:.ttf=-Romanian.sfd} ${FONTS:.ttf=-Polish.sfd} ${FONTS:.ttf=-Bulgarian.sfd} ${FONTS:.ttf=-Yugoslav.sfd}
 	-rm -f ${FONTS:.ttf=-Livonian.sfd} ${FONTS:.ttf=-Sami.sfd} ${FONTS:.ttf=-Pinyin.sfd} ${FONTS:.ttf=-African.sfd}
 	-rm -f ${FONTS:.ttf=-Chuvash.sfd}
 	-rm -f Inconsolata-LGC-Bold.mk Inconsolata-LGC-Italic.mk Inconsolata-LGC-BoldItalic.mk
+	-rm -f prep.ttx
 	-rm -rf ${UFOS} ${EXTRAPOLATES} ${DESIGNSPACES}
 	-rm -rf ${PKGS} ${PKGS:.tar.xz=} ${PKGS:.tar.xz=.tar.bz2} \
 	${PKGS:.tar.xz=.tar.gz} ${PKGS:.tar.xz=.zip}

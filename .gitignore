@@ -17,6 +17,7 @@ ChangeLog
 Inconsolata-LGC-*.mk
 *.ufo
 *.designspace
+*.ttx
 Inconsolata-LGC-Minimum*
 Inconsolata-LGC-Maximum*
 InconsolataLGC/

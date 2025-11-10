@@ -84,6 +84,14 @@ ContextSub2: glyph "Dutch accented IJ-1" 0 0 0 2
  1
   SeqLookup: 1 "J with acute accent"
 EndFPST
+TtTable: prep
+PUSHW_1
+ 511
+SCANCTRL
+PUSHB_1
+ 4
+SCANTYPE
+EndTTInstrs
 LangName: 1033 "" "" "Bold Italic"
 OtfFeatName: 'ss02' 1033 "Polytonic Greek alternative circumflex"
 OtfFeatName: 'ss01' 1033 "German alternative umlaut"
