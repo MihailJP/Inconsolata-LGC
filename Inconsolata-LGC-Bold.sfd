@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1161020814
-ModificationTime: 1762738224
+ModificationTime: 1762739822
 PfmFamily: 49
 TTFWeight: 700
 TTFWidth: 5
@@ -41,6 +41,7 @@ HheadAscent: 1098
 HheadAOffset: 0
 HheadDescent: -210
 HheadDOffset: 0
+OS2FamilyClass: 2048
 OS2Vendor: 'PfEd'
 Lookup: 1 0 0 "Polish kreska forms" { "Polish kreska forms-1" ("pl") } ['locl' ('latn' <'PLK ' > ) ]
 Lookup: 1 0 0 "Romanian comma accent" { "Romanian comma accent-1"  } ['locl' ('latn' <'MOL ' 'ROM ' > ) ]
