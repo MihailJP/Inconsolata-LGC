@@ -58,7 +58,7 @@ if isItalic:
 	]
 else:
 	a2.axisLabels = [
-		AxisLabelDescriptor(name = "Roman", userValue = 0, elidable = True)
+		AxisLabelDescriptor(name = "Roman", userValue = 0, elidable = True, linkedUserValue = 1)
 	]
 
 doc.addAxis(a1)
