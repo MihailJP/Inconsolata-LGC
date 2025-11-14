@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1161020814
-ModificationTime: 1763105158
+ModificationTime: 1763132732
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 5
@@ -52866,14 +52866,8 @@ VWidth: 1046
 Flags: MW
 LayerCount: 2
 Fore
-SplineSet
-356 278 m 25
- 563 278 l 25
- 563 -134 l 25
- 356 -134 l 25
- 356 278 l 25
-EndSplineSet
 Refer: 2577 117796 N 1 0 0 1 0 0 2
+Refer: 2581 117800 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: u1CC2D
@@ -52883,15 +52877,9 @@ VWidth: 1046
 Flags: MW
 LayerCount: 2
 Fore
-SplineSet
-356 278 m 25
- 563 278 l 25
- 563 -134 l 25
- 356 -134 l 25
- 356 278 l 25
-EndSplineSet
 Refer: 2574 117793 N 1 0 0 1 0 0 2
 Refer: 2577 117796 N 1 0 0 1 0 0 2
+Refer: 2581 117800 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: u1CC2E
@@ -52901,15 +52889,9 @@ VWidth: 1046
 Flags: MW
 LayerCount: 2
 Fore
-SplineSet
-356 278 m 25
- 563 278 l 25
- 563 -134 l 25
- 356 -134 l 25
- 356 278 l 25
-EndSplineSet
 Refer: 2575 117794 N 1 0 0 1 0 0 2
 Refer: 2577 117796 N 1 0 0 1 0 0 2
+Refer: 2581 117800 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: u1CC2F
@@ -52919,16 +52901,10 @@ VWidth: 1046
 Flags: MW
 LayerCount: 2
 Fore
-SplineSet
-356 278 m 25
- 563 278 l 25
- 563 -134 l 25
- 356 -134 l 25
- 356 278 l 25
-EndSplineSet
 Refer: 2574 117793 N 1 0 0 1 0 0 2
 Refer: 2575 117794 N 1 0 0 1 0 0 2
 Refer: 2577 117796 N 1 0 0 1 0 0 2
+Refer: 2581 117800 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: u1CCD6
