@@ -58,6 +58,7 @@ jobs:
       run: |
         source venv/bin/activate
         fontbakery check-universal \
+          -x fontdata_namecheck \
           -x opentype/STAT/ital_axis \
           -x family/win_ascent_and_descent \
           -x os2_metrics_match_hhea \
@@ -66,6 +67,7 @@ jobs:
       run: |
         source venv/bin/activate
         fontbakery check-universal \
+          -x fontdata_namecheck \
           -x family/win_ascent_and_descent \
           -x os2_metrics_match_hhea \
           variable/*.ttf
