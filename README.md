@@ -268,16 +268,11 @@ bump for such weight.
 
 Build-time dependencies
 -----------------------
-* [FontForge](https://fontforge.org/) with both Python and classic scripting
-  feature enabled
-* For TTC, also:
-  * [Adobe Font Development Kit for OpenType][1] to build TTC
+* [FontForge](https://fontforge.org/) with Python scripting feature enabled
 * For variable font, also:
   * [fonttools](https://github.com/fonttools/fonttools)
   * [fontmake](https://github.com/googlefonts/fontmake)
 
-[1]: https://github.com/adobe-type-tools/afdko
-
 License
 -------
-Inconsolata LGC is licensed under [SIL OFL](LICENSE).
+Inconsolata LGC is licensed under [SIL Open Fone License](OFL.txt).
