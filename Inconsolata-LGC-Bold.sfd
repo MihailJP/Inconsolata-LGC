@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1161020814
-ModificationTime: 1763132780
+ModificationTime: 1763219253
 PfmFamily: 49
 TTFWeight: 700
 TTFWidth: 5
@@ -11747,8 +11747,8 @@ VWidth: 1046
 Flags: MW
 LayerCount: 2
 Fore
-Refer: 590 9472 N 1 0 0 1 0 -102 2
 Refer: 590 9472 S 1 0 0 1 0 102 2
+Refer: 590 9472 N 1 0 0 1 0 -102 2
 EndChar
 
 StartChar: vertdblbar
@@ -29798,47 +29798,30 @@ EndChar
 StartChar: won
 Encoding: 8361 8361 1521
 Width: 613
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
 SplineSet
-13 739 m 1
- 121 739 l 1
- 170 429 l 1
- 226 429 l 1
- 294 685 l 1
- 344 685 l 1
- 412 429 l 1
- 464 429 l 1
- 506 739 l 1
- 607 739 l 1
- 556 429 l 1
+15 331 m 1
+ 15 429 l 1
  598 429 l 1
  598 331 l 1
- 540 331 l 1
+ 15 331 l 1
+13 739 m 1
+ 121 739 l 1
+ 191 298 l 1
+ 294 685 l 1
+ 344 685 l 1
+ 447 300 l 1
+ 506 739 l 1
+ 607 739 l 1
  485 -5 l 1
  427 -5 l 1
- 340 331 l 1
- 284 331 l 1
+ 312 438 l 1
  195 -5 l 1
  136 -5 l 1
- 80 331 l 1
- 15 331 l 1
- 15 429 l 1
- 64 429 l 1
  13 739 l 1
-314 429 m 1
- 312 438 l 1
- 310 429 l 1
- 314 429 l 1
-186 331 m 1
- 191 298 l 1
- 200 331 l 1
- 186 331 l 1
-439 331 m 1
- 447 300 l 1
- 451 331 l 1
- 439 331 l 1
 EndSplineSet
 EndChar
 
@@ -30892,16 +30875,16 @@ SplineSet
  464 338 l 1
  464 230 l 1
  155 230 l 1
-155 194 m 1
+155 -40 m 1
+ 155 194 l 1
  464 194 l 1
  464 -40 l 1
  155 -40 l 1
- 155 194 l 1
-255 94 m 1
- 255 60 l 1
+255 60 m 1
  364 60 l 1
  364 94 l 1
  255 94 l 1
+ 255 60 l 1
 255 330 m 1
  364 330 l 1
  364 438 l 1
