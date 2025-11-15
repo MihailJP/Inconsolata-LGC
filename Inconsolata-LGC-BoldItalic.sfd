@@ -2490,6 +2490,7 @@ EndChar
 StartChar: cent
 Encoding: 162 162 91
 Width: 613
+UnlinkRmOvrlpSave: 1
 Flags: MW
 TeX: 101 0
 LayerCount: 2
@@ -3569,6 +3570,7 @@ EndChar
 StartChar: registered
 Encoding: 174 174 148
 Width: 613
+UnlinkRmOvrlpSave: 1
 Flags: MW
 TeX: 117 0
 LayerCount: 2
@@ -4668,6 +4670,7 @@ EndChar
 StartChar: AE
 Encoding: 198 198 208
 Width: 613
+UnlinkRmOvrlpSave: 1
 Flags: MW
 TeX: 67 0
 LayerCount: 2
@@ -10333,6 +10336,7 @@ EndChar
 StartChar: napostrophe
 Encoding: 329 329 525
 Width: 613
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -10695,6 +10699,7 @@ EndChar
 StartChar: perthousand
 Encoding: 8240 8240 553
 Width: 613
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -10893,6 +10898,7 @@ StartChar: peseta
 Encoding: 8359 8359 561
 Width: 613
 VWidth: 1046
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -11813,6 +11819,7 @@ EndChar
 StartChar: dnrtdblform
 Encoding: 9554 9554 608
 Width: 613
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -11880,6 +11887,7 @@ EndChar
 StartChar: dnleftdblform
 Encoding: 9557 9557 611
 Width: 613
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -11947,6 +11955,7 @@ EndChar
 StartChar: uprtdblform
 Encoding: 9560 9560 614
 Width: 613
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -12014,6 +12023,7 @@ EndChar
 StartChar: upleftdblform
 Encoding: 9563 9563 617
 Width: 613
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -12530,6 +12540,7 @@ EndChar
 StartChar: shade
 Encoding: 9618 9618 638
 Width: 613
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -16480,6 +16491,7 @@ StartChar: uni259A
 Encoding: 9626 9626 794
 Width: 613
 VWidth: 1046
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -16536,6 +16548,7 @@ StartChar: uni259E
 Encoding: 9630 9630 797
 Width: 613
 VWidth: 1046
+UnlinkRmOvrlpSave: 1
 Flags: M
 LayerCount: 2
 Fore
@@ -17729,6 +17742,7 @@ EndChar
 StartChar: celsius
 Encoding: 8451 8451 854
 Width: 613
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -18001,6 +18015,7 @@ StartChar: lessoverequal
 Encoding: 8806 8806 869
 Width: 613
 VWidth: 1046
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -18030,6 +18045,7 @@ StartChar: greateroverequal
 Encoding: 8807 8807 870
 Width: 613
 VWidth: 1046
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -18384,6 +18400,7 @@ EndChar
 StartChar: musicsharpsign
 Encoding: 9839 9839 886
 Width: 613
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -18464,6 +18481,7 @@ EndChar
 StartChar: null
 Encoding: 9216 9216 889
 Width: 613
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -18515,6 +18533,7 @@ EndChar
 StartChar: startofhead
 Encoding: 9217 9217 890
 Width: 613
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -18578,6 +18597,7 @@ EndChar
 StartChar: starttext
 Encoding: 9218 9218 891
 Width: 613
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -18725,6 +18745,7 @@ EndChar
 StartChar: enquiry
 Encoding: 9221 9221 894
 Width: 613
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -18783,6 +18804,7 @@ EndChar
 StartChar: acknowledge
 Encoding: 9222 9222 895
 Width: 613
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -18896,6 +18918,7 @@ EndChar
 StartChar: backspace
 Encoding: 9224 9224 897
 Width: 613
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -18954,6 +18977,7 @@ EndChar
 StartChar: horiztab
 Encoding: 9225 9225 898
 Width: 613
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -18991,6 +19015,7 @@ EndChar
 StartChar: linefeed
 Encoding: 9226 9226 899
 Width: 613
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -19083,6 +19108,7 @@ EndChar
 StartChar: carriagereturn
 Encoding: 9229 9229 902
 Width: 613
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -19128,6 +19154,7 @@ EndChar
 StartChar: shiftout
 Encoding: 9230 9230 903
 Width: 613
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -19174,6 +19201,7 @@ EndChar
 StartChar: shiftin
 Encoding: 9231 9231 904
 Width: 613
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -19219,6 +19247,7 @@ EndChar
 StartChar: datalinkescape
 Encoding: 9232 9232 905
 Width: 613
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -19268,6 +19297,7 @@ EndChar
 StartChar: devcon1
 Encoding: 9233 9233 906
 Width: 613
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -19317,6 +19347,7 @@ EndChar
 StartChar: devcon2
 Encoding: 9234 9234 907
 Width: 613
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -19374,6 +19405,7 @@ EndChar
 StartChar: devcon3
 Encoding: 9235 9235 908
 Width: 613
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -19434,6 +19466,7 @@ EndChar
 StartChar: devcon4
 Encoding: 9236 9236 909
 Width: 613
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -19491,6 +19524,7 @@ EndChar
 StartChar: negacknowledge
 Encoding: 9237 9237 910
 Width: 613
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -19544,6 +19578,7 @@ EndChar
 StartChar: synch
 Encoding: 9238 9238 911
 Width: 613
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -19658,6 +19693,7 @@ EndChar
 StartChar: cancel
 Encoding: 9240 9240 913
 Width: 613
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -19747,6 +19783,7 @@ EndChar
 StartChar: substitute
 Encoding: 9242 9242 915
 Width: 613
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -19823,6 +19860,7 @@ EndChar
 StartChar: escape
 Encoding: 9243 9243 916
 Width: 613
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -19882,6 +19920,7 @@ EndChar
 StartChar: fileseparator
 Encoding: 9244 9244 917
 Width: 613
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -19925,6 +19964,7 @@ EndChar
 StartChar: groupseparator
 Encoding: 9245 9245 918
 Width: 613
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -19975,6 +20015,7 @@ EndChar
 StartChar: recordseparator
 Encoding: 9246 9246 919
 Width: 613
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -20027,6 +20068,7 @@ EndChar
 StartChar: unitseparator
 Encoding: 9247 9247 920
 Width: 613
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -20077,6 +20119,7 @@ EndChar
 StartChar: spaceliteral
 Encoding: 9248 9248 921
 Width: 613
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -20211,6 +20254,7 @@ EndChar
 StartChar: newline
 Encoding: 9252 9252 924
 Width: 613
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -20297,6 +20341,7 @@ EndChar
 StartChar: Ohorn
 Encoding: 416 416 927
 Width: 613
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -20330,6 +20375,7 @@ EndChar
 StartChar: ohorn
 Encoding: 417 417 928
 Width: 613
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -20359,6 +20405,7 @@ EndChar
 StartChar: Uhorn
 Encoding: 431 431 929
 Width: 613
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -20396,6 +20443,7 @@ EndChar
 StartChar: uhorn
 Encoding: 432 432 930
 Width: 613
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -21921,6 +21969,7 @@ StartChar: zhe.bg
 Encoding: 1114148 -1 1049
 Width: 613
 VWidth: 1046
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -22583,6 +22632,7 @@ StartChar: Kavertbar
 Encoding: 1180 1180 1073
 Width: 613
 VWidth: 1046
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -22976,6 +23026,7 @@ EndChar
 StartChar: Ohook
 Encoding: 1192 1192 1085
 Width: 613
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -25956,6 +26007,7 @@ EndChar
 StartChar: gstroke
 Encoding: 485 485 1264
 Width: 613
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -28121,6 +28173,7 @@ EndChar
 StartChar: yusbig
 Encoding: 1131 1131 1459
 Width: 613
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -29563,6 +29616,7 @@ EndChar
 StartChar: colonmonetary
 Encoding: 8353 8353 1510
 Width: 613
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -29803,6 +29857,7 @@ EndChar
 StartChar: uni20B1
 Encoding: 8369 8369 1516
 Width: 613
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -29881,6 +29936,7 @@ EndChar
 StartChar: uni20B4
 Encoding: 8372 8372 1518
 Width: 613
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -30131,6 +30187,7 @@ EndChar
 StartChar: dollar.var2
 Encoding: 1114219 -1 1525
 Width: 613
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -31507,6 +31564,7 @@ EndChar
 StartChar: Rbb
 Encoding: 8477 8477 1591
 Width: 613
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -31797,6 +31855,7 @@ EndChar
 StartChar: Fourroman
 Encoding: 8547 8547 1603
 Width: 613
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -31862,6 +31921,7 @@ EndChar
 StartChar: Sixroman
 Encoding: 8549 8549 1605
 Width: 613
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -31901,6 +31961,7 @@ EndChar
 StartChar: Sevenroman
 Encoding: 8550 8550 1606
 Width: 613
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -31953,6 +32014,7 @@ EndChar
 StartChar: Eightroman
 Encoding: 8551 8551 1607
 Width: 613
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -32018,6 +32080,7 @@ EndChar
 StartChar: Nineroman
 Encoding: 8552 8552 1608
 Width: 613
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -32109,6 +32172,7 @@ EndChar
 StartChar: Elevenroman
 Encoding: 8554 8554 1610
 Width: 613
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -32161,6 +32225,7 @@ EndChar
 StartChar: Twelveroman
 Encoding: 8555 8555 1611
 Width: 613
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -33280,6 +33345,7 @@ StartChar: zero.longslash
 Encoding: 1114250 -1 1692
 AltUni2: 002205.00fe00.0
 Width: 613
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -33308,6 +33374,7 @@ EndChar
 StartChar: zerosuperior.longslash
 Encoding: 1114251 -1 1693
 Width: 613
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -33333,6 +33400,7 @@ EndChar
 StartChar: zero.oldstyle.longslash
 Encoding: 1114252 -1 1694
 Width: 613
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -33374,6 +33442,7 @@ EndChar
 StartChar: zero.longslash.smallnarrow
 Encoding: 1114254 -1 1696
 Width: 613
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -33828,6 +33897,7 @@ EndChar
 StartChar: threeroman
 Encoding: 8562 8562 1730
 Width: 613
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -33945,6 +34015,7 @@ EndChar
 StartChar: sixroman
 Encoding: 8565 8565 1733
 Width: 613
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -33986,6 +34057,7 @@ EndChar
 StartChar: sevenroman
 Encoding: 8566 8566 1734
 Width: 613
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -34046,6 +34118,7 @@ EndChar
 StartChar: eightroman
 Encoding: 8567 8567 1735
 Width: 613
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -34125,6 +34198,7 @@ EndChar
 StartChar: nineroman
 Encoding: 8568 8568 1736
 Width: 613
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -34176,6 +34250,7 @@ EndChar
 StartChar: elevenroman
 Encoding: 8570 8570 1738
 Width: 613
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -34218,6 +34293,7 @@ EndChar
 StartChar: twelveroman
 Encoding: 8571 8571 1739
 Width: 613
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -34396,6 +34472,7 @@ StartChar: u1FB05
 Encoding: 129797 129797 1749
 Width: 613
 VWidth: 1046
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -34450,6 +34527,7 @@ StartChar: u1FB08
 Encoding: 129800 129800 1752
 Width: 613
 VWidth: 1046
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -34667,6 +34745,7 @@ StartChar: u1FB14
 Encoding: 129812 129812 1764
 Width: 613
 VWidth: 1046
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -34705,6 +34784,7 @@ StartChar: u1FB16
 Encoding: 129814 129814 1766
 Width: 613
 VWidth: 1046
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -34725,6 +34805,7 @@ StartChar: u1FB17
 Encoding: 129815 129815 1767
 Width: 613
 VWidth: 1046
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -34749,6 +34830,7 @@ StartChar: u1FB18
 Encoding: 129816 129816 1768
 Width: 613
 VWidth: 1046
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -34769,6 +34851,7 @@ StartChar: u1FB19
 Encoding: 129817 129817 1769
 Width: 613
 VWidth: 1046
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -34947,6 +35030,7 @@ StartChar: u1FB22
 Encoding: 129826 129826 1778
 Width: 613
 VWidth: 1046
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -34967,6 +35051,7 @@ StartChar: u1FB23
 Encoding: 129827 129827 1779
 Width: 613
 VWidth: 1046
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -34987,6 +35072,7 @@ StartChar: u1FB24
 Encoding: 129828 129828 1780
 Width: 613
 VWidth: 1046
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -35011,6 +35097,7 @@ StartChar: u1FB25
 Encoding: 129829 129829 1781
 Width: 613
 VWidth: 1046
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -35050,6 +35137,7 @@ StartChar: u1FB27
 Encoding: 129831 129831 1783
 Width: 613
 VWidth: 1046
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -35279,6 +35367,7 @@ StartChar: u1FB33
 Encoding: 129843 129843 1795
 Width: 613
 VWidth: 1046
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -35339,6 +35428,7 @@ StartChar: u1FB36
 Encoding: 129846 129846 1798
 Width: 613
 VWidth: 1046
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -36811,6 +36901,7 @@ StartChar: u1FB9A
 Encoding: 129946 129946 1888
 Width: 613
 VWidth: 1046
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -36830,6 +36921,7 @@ StartChar: u1FB9B
 Encoding: 129947 129947 1889
 Width: 613
 VWidth: 1046
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -37264,6 +37356,7 @@ StartChar: uni235F
 Encoding: 9055 9055 1912
 Width: 613
 VWidth: 1046
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -40895,6 +40988,7 @@ EndChar
 StartChar: powerlineLN
 Encoding: 57505 57505 2159
 Width: 613
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -41030,6 +41124,7 @@ EndChar
 StartChar: powerlineCN
 Encoding: 57507 57507 2165
 Width: 613
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -41681,6 +41776,7 @@ StartChar: uni2427
 Encoding: 9255 9255 2190
 Width: 613
 VWidth: 1046
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -41757,6 +41853,7 @@ StartChar: uni2428
 Encoding: 9256 9256 2191
 Width: 613
 VWidth: 1046
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -41853,6 +41950,7 @@ StartChar: uni2429
 Encoding: 9257 9257 2192
 Width: 613
 VWidth: 1046
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -41944,6 +42042,7 @@ StartChar: u1FB95
 Encoding: 129941 129941 2193
 Width: 613
 VWidth: 1046
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -41995,6 +42094,7 @@ StartChar: u1FB96
 Encoding: 129942 129942 2194
 Width: 613
 VWidth: 1046
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -42584,6 +42684,7 @@ StartChar: u1CD01
 Encoding: 118017 118017 2229
 Width: 613
 VWidth: 1046
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -42638,6 +42739,7 @@ StartChar: u1CD04
 Encoding: 118020 118020 2232
 Width: 613
 VWidth: 1046
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -42823,6 +42925,7 @@ StartChar: u1CD0E
 Encoding: 118030 118030 2242
 Width: 613
 VWidth: 1046
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -42862,6 +42965,7 @@ StartChar: u1CD10
 Encoding: 118032 118032 2244
 Width: 613
 VWidth: 1046
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -42882,6 +42986,7 @@ StartChar: u1CD11
 Encoding: 118033 118033 2245
 Width: 613
 VWidth: 1046
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -42907,6 +43012,7 @@ StartChar: u1CD12
 Encoding: 118034 118034 2246
 Width: 613
 VWidth: 1046
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -42927,6 +43033,7 @@ StartChar: u1CD13
 Encoding: 118035 118035 2247
 Width: 613
 VWidth: 1046
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -43104,6 +43211,7 @@ StartChar: u1CD1C
 Encoding: 118044 118044 2256
 Width: 613
 VWidth: 1046
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -43124,6 +43232,7 @@ StartChar: u1CD1D
 Encoding: 118045 118045 2257
 Width: 613
 VWidth: 1046
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -43144,6 +43253,7 @@ StartChar: u1CD1E
 Encoding: 118046 118046 2258
 Width: 613
 VWidth: 1046
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -43169,6 +43279,7 @@ StartChar: u1CD1F
 Encoding: 118047 118047 2259
 Width: 613
 VWidth: 1046
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -43191,6 +43302,7 @@ StartChar: u1CD20
 Encoding: 118048 118048 2260
 Width: 613
 VWidth: 1046
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -43437,6 +43549,7 @@ StartChar: u1CD2D
 Encoding: 118061 118061 2273
 Width: 613
 VWidth: 1046
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -43498,6 +43611,7 @@ StartChar: u1CD30
 Encoding: 118064 118064 2276
 Width: 613
 VWidth: 1046
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -43716,6 +43830,7 @@ StartChar: u1CD3B
 Encoding: 118075 118075 2287
 Width: 613
 VWidth: 1046
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -43786,6 +43901,7 @@ StartChar: u1CD3E
 Encoding: 118078 118078 2290
 Width: 613
 VWidth: 1046
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -44023,6 +44139,7 @@ StartChar: u1CD49
 Encoding: 118089 118089 2301
 Width: 613
 VWidth: 1046
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -44062,6 +44179,7 @@ StartChar: u1CD4B
 Encoding: 118091 118091 2303
 Width: 613
 VWidth: 1046
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -44083,6 +44201,7 @@ StartChar: u1CD4C
 Encoding: 118092 118092 2304
 Width: 613
 VWidth: 1046
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -44109,6 +44228,7 @@ StartChar: u1CD4D
 Encoding: 118093 118093 2305
 Width: 613
 VWidth: 1046
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -44190,6 +44310,7 @@ StartChar: u1CD51
 Encoding: 118097 118097 2309
 Width: 613
 VWidth: 1046
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -44210,6 +44331,7 @@ StartChar: u1CD52
 Encoding: 118098 118098 2310
 Width: 613
 VWidth: 1046
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -44235,6 +44357,7 @@ StartChar: u1CD53
 Encoding: 118099 118099 2311
 Width: 613
 VWidth: 1046
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -44260,6 +44383,7 @@ StartChar: u1CD54
 Encoding: 118100 118100 2312
 Width: 613
 VWidth: 1046
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -44285,6 +44409,7 @@ StartChar: u1CD55
 Encoding: 118101 118101 2313
 Width: 613
 VWidth: 1046
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -44310,6 +44435,7 @@ StartChar: u1CD56
 Encoding: 118102 118102 2314
 Width: 613
 VWidth: 1046
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -44335,6 +44461,7 @@ StartChar: u1CD57
 Encoding: 118103 118103 2315
 Width: 613
 VWidth: 1046
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -44365,6 +44492,7 @@ StartChar: u1CD58
 Encoding: 118104 118104 2316
 Width: 613
 VWidth: 1046
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -44392,6 +44520,7 @@ StartChar: u1CD59
 Encoding: 118105 118105 2317
 Width: 613
 VWidth: 1046
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -44412,6 +44541,7 @@ StartChar: u1CD5A
 Encoding: 118106 118106 2318
 Width: 613
 VWidth: 1046
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -44437,6 +44567,7 @@ StartChar: u1CD5B
 Encoding: 118107 118107 2319
 Width: 613
 VWidth: 1046
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -44457,6 +44588,7 @@ StartChar: u1CD5C
 Encoding: 118108 118108 2320
 Width: 613
 VWidth: 1046
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -44479,6 +44611,7 @@ StartChar: u1CD5D
 Encoding: 118109 118109 2321
 Width: 613
 VWidth: 1046
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -44501,6 +44634,7 @@ StartChar: u1CD5E
 Encoding: 118110 118110 2322
 Width: 613
 VWidth: 1046
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -44525,6 +44659,7 @@ StartChar: u1CD5F
 Encoding: 118111 118111 2323
 Width: 613
 VWidth: 1046
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -44549,6 +44684,7 @@ StartChar: u1CD60
 Encoding: 118112 118112 2324
 Width: 613
 VWidth: 1046
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -44698,6 +44834,7 @@ StartChar: u1CD67
 Encoding: 118119 118119 2331
 Width: 613
 VWidth: 1046
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -44765,6 +44902,7 @@ StartChar: u1CD6A
 Encoding: 118122 118122 2334
 Width: 613
 VWidth: 1046
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -45013,6 +45151,7 @@ StartChar: u1CD76
 Encoding: 118134 118134 2346
 Width: 613
 VWidth: 1046
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -45083,6 +45222,7 @@ StartChar: u1CD79
 Encoding: 118137 118137 2349
 Width: 613
 VWidth: 1046
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -45241,6 +45381,7 @@ StartChar: u1CD80
 Encoding: 118144 118144 2356
 Width: 613
 VWidth: 1046
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -45261,6 +45402,7 @@ StartChar: u1CD81
 Encoding: 118145 118145 2357
 Width: 613
 VWidth: 1046
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -45286,6 +45428,7 @@ StartChar: u1CD82
 Encoding: 118146 118146 2358
 Width: 613
 VWidth: 1046
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -45311,6 +45454,7 @@ StartChar: u1CD83
 Encoding: 118147 118147 2359
 Width: 613
 VWidth: 1046
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -45336,6 +45480,7 @@ StartChar: u1CD84
 Encoding: 118148 118148 2360
 Width: 613
 VWidth: 1046
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -45356,6 +45501,7 @@ StartChar: u1CD85
 Encoding: 118149 118149 2361
 Width: 613
 VWidth: 1046
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -45376,6 +45522,7 @@ StartChar: u1CD86
 Encoding: 118150 118150 2362
 Width: 613
 VWidth: 1046
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -45401,6 +45548,7 @@ StartChar: u1CD87
 Encoding: 118151 118151 2363
 Width: 613
 VWidth: 1046
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -45423,6 +45571,7 @@ StartChar: u1CD88
 Encoding: 118152 118152 2364
 Width: 613
 VWidth: 1046
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -45448,6 +45597,7 @@ StartChar: u1CD89
 Encoding: 118153 118153 2365
 Width: 613
 VWidth: 1046
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -45478,6 +45628,7 @@ StartChar: u1CD8A
 Encoding: 118154 118154 2366
 Width: 613
 VWidth: 1046
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -45503,6 +45654,7 @@ StartChar: u1CD8B
 Encoding: 118155 118155 2367
 Width: 613
 VWidth: 1046
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -45530,6 +45682,7 @@ StartChar: u1CD8C
 Encoding: 118156 118156 2368
 Width: 613
 VWidth: 1046
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -45552,6 +45705,7 @@ StartChar: u1CD8D
 Encoding: 118157 118157 2369
 Width: 613
 VWidth: 1046
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -45576,6 +45730,7 @@ StartChar: u1CD8E
 Encoding: 118158 118158 2370
 Width: 613
 VWidth: 1046
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -45600,6 +45755,7 @@ StartChar: u1CD8F
 Encoding: 118159 118159 2371
 Width: 613
 VWidth: 1046
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -45685,6 +45841,7 @@ StartChar: u1CD93
 Encoding: 118163 118163 2375
 Width: 613
 VWidth: 1046
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -45706,6 +45863,7 @@ StartChar: u1CD94
 Encoding: 118164 118164 2376
 Width: 613
 VWidth: 1046
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -45732,6 +45890,7 @@ StartChar: u1CD95
 Encoding: 118165 118165 2377
 Width: 613
 VWidth: 1046
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -45771,6 +45930,7 @@ StartChar: u1CD97
 Encoding: 118167 118167 2379
 Width: 613
 VWidth: 1046
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -45995,6 +46155,7 @@ StartChar: u1CDA2
 Encoding: 118178 118178 2390
 Width: 613
 VWidth: 1046
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -46062,6 +46223,7 @@ StartChar: u1CDA5
 Encoding: 118181 118181 2393
 Width: 613
 VWidth: 1046
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -46310,6 +46472,7 @@ StartChar: u1CDB1
 Encoding: 118193 118193 2405
 Width: 613
 VWidth: 1046
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -46380,6 +46543,7 @@ StartChar: u1CDB4
 Encoding: 118196 118196 2408
 Width: 613
 VWidth: 1046
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -46661,6 +46825,7 @@ StartChar: u1CDC1
 Encoding: 118209 118209 2421
 Width: 613
 VWidth: 1046
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -46704,6 +46869,7 @@ StartChar: u1CDC3
 Encoding: 118211 118211 2423
 Width: 613
 VWidth: 1046
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -46727,6 +46893,7 @@ StartChar: u1CDC4
 Encoding: 118212 118212 2424
 Width: 613
 VWidth: 1046
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -46755,6 +46922,7 @@ StartChar: u1CDC5
 Encoding: 118213 118213 2425
 Width: 613
 VWidth: 1046
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -46778,6 +46946,7 @@ StartChar: u1CDC6
 Encoding: 118214 118214 2426
 Width: 613
 VWidth: 1046
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -46974,6 +47143,7 @@ StartChar: u1CDCF
 Encoding: 118223 118223 2435
 Width: 613
 VWidth: 1046
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -46997,6 +47167,7 @@ StartChar: u1CDD0
 Encoding: 118224 118224 2436
 Width: 613
 VWidth: 1046
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -47020,6 +47191,7 @@ StartChar: u1CDD1
 Encoding: 118225 118225 2437
 Width: 613
 VWidth: 1046
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -47048,6 +47220,7 @@ StartChar: u1CDD2
 Encoding: 118226 118226 2438
 Width: 613
 VWidth: 1046
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -47091,6 +47264,7 @@ StartChar: u1CDD4
 Encoding: 118228 118228 2440
 Width: 613
 VWidth: 1046
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -47317,6 +47491,7 @@ StartChar: u1CDDF
 Encoding: 118239 118239 2451
 Width: 613
 VWidth: 1046
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -47378,6 +47553,7 @@ StartChar: u1CDE2
 Encoding: 118242 118242 2454
 Width: 613
 VWidth: 1046
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -48746,6 +48922,7 @@ StartChar: u1FB8C
 Encoding: 129932 129932 2551
 Width: 613
 VWidth: 1046
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -49005,6 +49182,7 @@ StartChar: u1FB8D
 Encoding: 129933 129933 2552
 Width: 613
 VWidth: 1046
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -49264,6 +49442,7 @@ StartChar: u1FB8E
 Encoding: 129934 129934 2553
 Width: 613
 VWidth: 1046
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -49521,6 +49700,7 @@ StartChar: u1FB8F
 Encoding: 129935 129935 2554
 Width: 613
 VWidth: 1046
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -49782,6 +49962,7 @@ StartChar: u1FB90
 Encoding: 129936 129936 2555
 Width: 613
 VWidth: 1046
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -50208,6 +50389,7 @@ StartChar: u1FB91
 Encoding: 129937 129937 2556
 Width: 613
 VWidth: 1046
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -50430,6 +50612,7 @@ StartChar: u1FB92
 Encoding: 129938 129938 2557
 Width: 613
 VWidth: 1046
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -50648,6 +50831,7 @@ StartChar: u1FB94
 Encoding: 129940 129940 2558
 Width: 613
 VWidth: 1046
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -50984,6 +51168,7 @@ StartChar: u1FB9C
 Encoding: 129948 129948 2561
 Width: 613
 VWidth: 1046
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -51273,6 +51458,7 @@ StartChar: u1FB9D
 Encoding: 129949 129949 2562
 Width: 613
 VWidth: 1046
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -51561,6 +51747,7 @@ StartChar: u1FB9E
 Encoding: 129950 129950 2563
 Width: 613
 VWidth: 1046
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -51852,6 +52039,7 @@ StartChar: u1FB9F
 Encoding: 129951 129951 2564
 Width: 613
 VWidth: 1046
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -52333,6 +52521,7 @@ EndChar
 StartChar: u1CCD6
 Encoding: 117974 117974 2580
 Width: 613
+UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -60162,6 +60351,7 @@ EndChar
 StartChar: psilivaria.narrow1
 Encoding: 1114402 -1 3043
 Width: 613
+UnlinkRmOvrlpSave: 1
 Flags: W
 LayerCount: 2
 Fore
@@ -60189,6 +60379,7 @@ EndChar
 StartChar: psilivaria.narrow2
 Encoding: 1114403 -1 3044
 Width: 613
+UnlinkRmOvrlpSave: 1
 Flags: W
 LayerCount: 2
 Fore
@@ -60216,6 +60407,7 @@ EndChar
 StartChar: psilivaria.narrow3
 Encoding: 1114404 -1 3045
 Width: 613
+UnlinkRmOvrlpSave: 1
 Flags: W
 LayerCount: 2
 Fore
@@ -60243,6 +60435,7 @@ EndChar
 StartChar: psilivaria.narrow4
 Encoding: 1114405 -1 3046
 Width: 613
+UnlinkRmOvrlpSave: 1
 Flags: W
 LayerCount: 2
 Fore
@@ -60270,6 +60463,7 @@ EndChar
 StartChar: psilivaria.narrow5
 Encoding: 1114406 -1 3047
 Width: 613
+UnlinkRmOvrlpSave: 1
 Flags: W
 LayerCount: 2
 Fore
@@ -60297,6 +60491,7 @@ EndChar
 StartChar: dasiavaria.narrow1
 Encoding: 1114407 -1 3048
 Width: 613
+UnlinkRmOvrlpSave: 1
 Flags: W
 LayerCount: 2
 Fore
@@ -60324,6 +60519,7 @@ EndChar
 StartChar: dasiavaria.narrow2
 Encoding: 1114408 -1 3049
 Width: 613
+UnlinkRmOvrlpSave: 1
 Flags: W
 LayerCount: 2
 Fore
@@ -60351,6 +60547,7 @@ EndChar
 StartChar: dasiavaria.narrow3
 Encoding: 1114409 -1 3050
 Width: 613
+UnlinkRmOvrlpSave: 1
 Flags: W
 LayerCount: 2
 Fore
@@ -60378,6 +60575,7 @@ EndChar
 StartChar: dasiavaria.narrow4
 Encoding: 1114410 -1 3051
 Width: 613
+UnlinkRmOvrlpSave: 1
 Flags: W
 LayerCount: 2
 Fore
@@ -60405,6 +60603,7 @@ EndChar
 StartChar: dasiavaria.narrow5
 Encoding: 1114411 -1 3052
 Width: 613
+UnlinkRmOvrlpSave: 1
 Flags: W
 LayerCount: 2
 Fore
@@ -60459,6 +60658,7 @@ EndChar
 StartChar: psilioxia.narrow2
 Encoding: 1114413 -1 3054
 Width: 613
+UnlinkRmOvrlpSave: 1
 Flags: W
 LayerCount: 2
 Fore
@@ -60486,6 +60686,7 @@ EndChar
 StartChar: psilioxia.narrow3
 Encoding: 1114414 -1 3055
 Width: 613
+UnlinkRmOvrlpSave: 1
 Flags: W
 LayerCount: 2
 Fore
@@ -60513,6 +60714,7 @@ EndChar
 StartChar: psilioxia.narrow4
 Encoding: 1114415 -1 3056
 Width: 613
+UnlinkRmOvrlpSave: 1
 Flags: W
 LayerCount: 2
 Fore
@@ -60540,6 +60742,7 @@ EndChar
 StartChar: psilioxia.narrow5
 Encoding: 1114416 -1 3057
 Width: 613
+UnlinkRmOvrlpSave: 1
 Flags: W
 LayerCount: 2
 Fore
@@ -60567,6 +60770,7 @@ EndChar
 StartChar: dasiaoxia.narrow1
 Encoding: 1114417 -1 3058
 Width: 613
+UnlinkRmOvrlpSave: 1
 Flags: W
 LayerCount: 2
 Fore
@@ -60594,6 +60798,7 @@ EndChar
 StartChar: dasiaoxia.narrow2
 Encoding: 1114418 -1 3059
 Width: 613
+UnlinkRmOvrlpSave: 1
 Flags: W
 LayerCount: 2
 Fore
@@ -60621,6 +60826,7 @@ EndChar
 StartChar: dasiaoxia.narrow3
 Encoding: 1114419 -1 3060
 Width: 613
+UnlinkRmOvrlpSave: 1
 Flags: W
 LayerCount: 2
 Fore
@@ -60648,6 +60854,7 @@ EndChar
 StartChar: dasiaoxia.narrow4
 Encoding: 1114420 -1 3061
 Width: 613
+UnlinkRmOvrlpSave: 1
 Flags: W
 LayerCount: 2
 Fore
@@ -60675,6 +60882,7 @@ EndChar
 StartChar: dasiaoxia.narrow5
 Encoding: 1114421 -1 3062
 Width: 613
+UnlinkRmOvrlpSave: 1
 Flags: W
 LayerCount: 2
 Fore
@@ -61024,6 +61232,7 @@ EndChar
 StartChar: psiliperispomeni.alt.narrow2
 Encoding: 1114433 -1 3074
 Width: 613
+UnlinkRmOvrlpSave: 1
 Flags: W
 LayerCount: 2
 Fore
@@ -61056,6 +61265,7 @@ EndChar
 StartChar: psiliperispomeni.alt.narrow3
 Encoding: 1114434 -1 3075
 Width: 613
+UnlinkRmOvrlpSave: 1
 Flags: W
 LayerCount: 2
 Fore
@@ -61088,6 +61298,7 @@ EndChar
 StartChar: psiliperispomeni.alt.narrow4
 Encoding: 1114435 -1 3076
 Width: 613
+UnlinkRmOvrlpSave: 1
 Flags: W
 LayerCount: 2
 Fore
@@ -61120,6 +61331,7 @@ EndChar
 StartChar: psiliperispomeni.alt.narrow5
 Encoding: 1114436 -1 3077
 Width: 613
+UnlinkRmOvrlpSave: 1
 Flags: W
 LayerCount: 2
 Fore
@@ -61152,6 +61364,7 @@ EndChar
 StartChar: dasiaperispomeni.alt.narrow1
 Encoding: 1114437 -1 3078
 Width: 613
+UnlinkRmOvrlpSave: 1
 Flags: W
 LayerCount: 2
 Fore
@@ -61184,6 +61397,7 @@ EndChar
 StartChar: dasiaperispomeni.alt.narrow2
 Encoding: 1114438 -1 3079
 Width: 613
+UnlinkRmOvrlpSave: 1
 Flags: W
 LayerCount: 2
 Fore
@@ -61216,6 +61430,7 @@ EndChar
 StartChar: dasiaperispomeni.alt.narrow3
 Encoding: 1114439 -1 3080
 Width: 613
+UnlinkRmOvrlpSave: 1
 Flags: W
 LayerCount: 2
 Fore
@@ -61248,6 +61463,7 @@ EndChar
 StartChar: dasiaperispomeni.alt.narrow4
 Encoding: 1114440 -1 3081
 Width: 613
+UnlinkRmOvrlpSave: 1
 Flags: W
 LayerCount: 2
 Fore
@@ -61280,6 +61496,7 @@ EndChar
 StartChar: dasiaperispomeni.alt.narrow5
 Encoding: 1114441 -1 3082
 Width: 613
+UnlinkRmOvrlpSave: 1
 Flags: W
 LayerCount: 2
 Fore

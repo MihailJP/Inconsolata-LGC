@@ -24,7 +24,10 @@ def decomposeNestedRefs(font):
 
 font = fontforge.open(argv[2])
 decomposeNestedRefs(font)
-if not argv[1].endswith(".ufo"):
+if argv[1].endswith(".ufo"):
+	for glyph in font.glyphs():
+		glyph.unlinkRmOvrlpSave = False
+else:
 	font.buildOrReplaceAALTFeatures()
 
 if argv[1].endswith(".otf"):
