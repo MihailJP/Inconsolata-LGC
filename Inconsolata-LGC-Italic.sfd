@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1161020814
-ModificationTime: 1763218973
+ModificationTime: 1763302831
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 5
@@ -41093,17 +41093,15 @@ EndChar
 StartChar: powerlineCN
 Encoding: 57507 57507 2165
 Width: 613
-UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
 SplineSet
 331 742 m 0
- 340 742 422 752 447 646 c 1
+ 377 742 428 729 447 646 c 1
  381 617 l 1
- 372 624 367 626 369 640 c 0
- 370 644 370 644 370 644 c 0
- 370 643 371 642 370 644 c 0
+ 372 624 367 626 369 640 c 2
+ 370 644 l 1
  362 665 341 678 318 678 c 0
  278 678 229 641 214 556 c 0
  199 470 236 430 278 430 c 0
@@ -41118,8 +41116,8 @@ SplineSet
  514 138 l 1
  555 370 l 1
  629 370 l 1
- 629 350 630 354 622 342 c 0
- 619 338 622 341 622 340 c 0
+ 630 362 630 357 630 355 c 0
+ 629 349 623 343 622 340 c 2
  562 0 l 1
  504 0 l 1
  410 247 l 1
