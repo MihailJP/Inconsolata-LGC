@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1161020814
-ModificationTime: 1763480446
+ModificationTime: 1763481130
 PfmFamily: 49
 TTFWeight: 700
 TTFWidth: 5
@@ -18481,7 +18481,6 @@ EndChar
 StartChar: null
 Encoding: 9216 9216 889
 Width: 613
-UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -18494,7 +18493,6 @@ EndChar
 StartChar: startofhead
 Encoding: 9217 9217 890
 Width: 613
-UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -18507,7 +18505,6 @@ EndChar
 StartChar: starttext
 Encoding: 9218 9218 891
 Width: 613
-UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -18544,7 +18541,6 @@ EndChar
 StartChar: enquiry
 Encoding: 9221 9221 894
 Width: 613
-UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -18557,7 +18553,6 @@ EndChar
 StartChar: acknowledge
 Encoding: 9222 9222 895
 Width: 613
-UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -18582,7 +18577,6 @@ EndChar
 StartChar: backspace
 Encoding: 9224 9224 897
 Width: 613
-UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -18594,7 +18588,6 @@ EndChar
 StartChar: horiztab
 Encoding: 9225 9225 898
 Width: 613
-UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -18606,7 +18599,6 @@ EndChar
 StartChar: linefeed
 Encoding: 9226 9226 899
 Width: 613
-UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -18640,7 +18632,6 @@ EndChar
 StartChar: carriagereturn
 Encoding: 9229 9229 902
 Width: 613
-UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -18652,7 +18643,6 @@ EndChar
 StartChar: shiftout
 Encoding: 9230 9230 903
 Width: 613
-UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -18664,7 +18654,6 @@ EndChar
 StartChar: shiftin
 Encoding: 9231 9231 904
 Width: 613
-UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -18676,7 +18665,6 @@ EndChar
 StartChar: datalinkescape
 Encoding: 9232 9232 905
 Width: 613
-UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -18689,7 +18677,6 @@ EndChar
 StartChar: devcon1
 Encoding: 9233 9233 906
 Width: 613
-UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -18702,7 +18689,6 @@ EndChar
 StartChar: devcon2
 Encoding: 9234 9234 907
 Width: 613
-UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -18715,7 +18701,6 @@ EndChar
 StartChar: devcon3
 Encoding: 9235 9235 908
 Width: 613
-UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -18728,7 +18713,6 @@ EndChar
 StartChar: devcon4
 Encoding: 9236 9236 909
 Width: 613
-UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -18741,7 +18725,6 @@ EndChar
 StartChar: negacknowledge
 Encoding: 9237 9237 910
 Width: 613
-UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -18754,7 +18737,6 @@ EndChar
 StartChar: synch
 Encoding: 9238 9238 911
 Width: 613
-UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -18779,7 +18761,6 @@ EndChar
 StartChar: cancel
 Encoding: 9240 9240 913
 Width: 613
-UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -18803,7 +18784,6 @@ EndChar
 StartChar: substitute
 Encoding: 9242 9242 915
 Width: 613
-UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -18816,7 +18796,6 @@ EndChar
 StartChar: escape
 Encoding: 9243 9243 916
 Width: 613
-UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -18829,7 +18808,6 @@ EndChar
 StartChar: fileseparator
 Encoding: 9244 9244 917
 Width: 613
-UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -18841,7 +18819,6 @@ EndChar
 StartChar: groupseparator
 Encoding: 9245 9245 918
 Width: 613
-UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -18853,7 +18830,6 @@ EndChar
 StartChar: recordseparator
 Encoding: 9246 9246 919
 Width: 613
-UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -18865,7 +18841,6 @@ EndChar
 StartChar: unitseparator
 Encoding: 9247 9247 920
 Width: 613
-UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -18877,7 +18852,6 @@ EndChar
 StartChar: spaceliteral
 Encoding: 9248 9248 921
 Width: 613
-UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -18936,7 +18910,6 @@ EndChar
 StartChar: newline
 Encoding: 9252 9252 924
 Width: 613
-UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
@@ -60410,6 +60383,7 @@ EndChar
 StartChar: H.small
 Encoding: 1114453 -1 3094
 Width: 613
+UnlinkRmOvrlpSave: 1
 Flags: W
 LayerCount: 2
 Fore
@@ -60529,6 +60503,7 @@ EndChar
 StartChar: N.small
 Encoding: 1114458 -1 3099
 Width: 613
+UnlinkRmOvrlpSave: 1
 Flags: W
 LayerCount: 2
 Fore
@@ -60665,6 +60640,7 @@ EndChar
 StartChar: S.small
 Encoding: 1114463 -1 3104
 Width: 613
+UnlinkRmOvrlpSave: 1
 Flags: W
 LayerCount: 2
 Fore
@@ -60722,9 +60698,9 @@ SplineSet
 77 296 m 1
  135 296 l 1
  137 286 139 286 138 282 c 0
- 137 274 130 268 130 268 c 0
- 130 268 131 271 131 270 c 0
- 102 107 l 0
+ 137 278 133 271 131 269 c 0
+ 130 268 130 268 130 266 c 2
+ 102 107 l 1
  100 94 99 82 102 72 c 0
  107 56 123 48 142 48 c 0
  160 48 180 56 192 72 c 0
