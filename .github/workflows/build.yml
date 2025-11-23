@@ -56,13 +56,9 @@ jobs:
         source venv/bin/activate
         fontbakery check-universal \
           -x opentype/STAT/ital_axis \
-          -x family/win_ascent_and_descent \
-          -x os2_metrics_match_hhea \
           ttf/*.ttf
     - name: Check Variable Fonts
       run: |
         source venv/bin/activate
         fontbakery check-universal \
-          -x family/win_ascent_and_descent \
-          -x os2_metrics_match_hhea \
           variable/*.ttf

@@ -5,7 +5,7 @@ FamilyName: Inconsolata LGC
 Weight: Regular
 Copyright: Original Roman version created by Raph Levien using his own tools and FontForge. Copyright 2006 Raph Levien. Hellenisation of the Roman font, by Dimosthenis Kaponis, using FontForge. Hellenic glyphs Copyright 2010-2012 Dimosthenis Kaponis. Released under the SIL Open Font License, http://scripts.sil.org/OFL.\n\nCyrillic glyphs added by MihailJP, using FontForge. Cyrillic glyphs Copyright 2012 MihailJP. Released under the SIL Open Font License, http://scripts.sil.org/OFL.\n\nSome glyphs modified by Greg Omelaenko, using FontForge.
 UComments: "2005-8-26: Created."
-Version: 1.210
+Version: 2.000 Beta
 ItalicAngle: 0
 UnderlinePosition: -101
 UnderlineWidth: 50
@@ -19,28 +19,30 @@ XUID: [1021 77 1780377399 11264577]
 FSType: 0
 OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
-OS2_UseTypoMetrics: 0
+OS2_UseTypoMetrics: 1
 CreationTime: 1161020814
 ModificationTime: 1763480527
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 5
-LineGap: 205
+LineGap: 0
 VLineGap: 0
 Panose: 2 11 6 9 3 0 3 0 0 0
-OS2TypoAscent: 840
+OS2TypoAscent: 939
 OS2TypoAOffset: 0
-OS2TypoDescent: -184
+OS2TypoDescent: -198
 OS2TypoDOffset: 0
 OS2TypoLinegap: 0
-OS2WinAscent: 1098
+OS2WinAscent: 1128
 OS2WinAOffset: 0
-OS2WinDescent: 210
+OS2WinDescent: 283
 OS2WinDOffset: 0
-HheadAscent: 1098
+HheadAscent: 939
 HheadAOffset: 0
-HheadDescent: -210
+HheadDescent: -198
 HheadDOffset: 0
+OS2CapHeight: 740
+OS2XHeight: 543
 OS2FamilyClass: 2048
 OS2Vendor: 'PfEd'
 Lookup: 1 0 0 "Polish kreska forms" { "Polish kreska forms-1" ("pl") } ['locl' ('latn' <'PLK ' > ) ]
