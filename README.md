@@ -84,6 +84,7 @@ In Sami languages, uppercase Eng should use that derived from uppercase N.
 Default glyph in this font is that from lowercase n.
 This feature is not activated for Kildin Sami since it is usually written
 in Cyrillic.
+This feature will be active despite Southern Sami does not use _Eng_.
 
 For legacy apps, use **Inconsolata LGC Sami** in the TTC.
 
