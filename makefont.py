@@ -44,6 +44,8 @@ if argv[1].endswith(".ufo"): # workaround
 	# Read
 	with open(Path(argv[1], "fontinfo.plist")) as font:
 		fontInfo = font.read()
+	with open(Path(argv[1], "features.fea")) as font:
+		fontFeature = font.read()
 
 	# Workaround for postscriptIsFixedPitch
 	if fontInfo.find("<key>postscriptIsFixedPitch</key>") >= 0:
@@ -55,6 +57,16 @@ if argv[1].endswith(".ufo"): # workaround
 	if fontInfo.find("<key>styleMapFamilyName</key>") >= 0:
 		fontInfo = re.sub(r"(?<=<key>styleMapFamilyName</key>)(\s*<string>.*?)( Bold)?( Italic)?</string>", r"\1</string>", fontInfo)
 
+	# Add `aalt` feature
+	features = re.findall(r"\bfeature\s+(\w{1,4})\s+\{", fontFeature)
+	if features:
+		featureInstructions = ""
+		for feature in features:
+			featureInstructions += "  feature {0};\n".format(feature)
+		fontFeature = re.sub(r"\bfeature\b", "feature aalt {{\n{0}}} aalt;\n\nfeature".format(featureInstructions), fontFeature, count=1)
+
 	# Write
 	with open(Path(argv[1], "fontinfo.plist"), "w") as font:
 		font.write(fontInfo)
+	with open(Path(argv[1], "features.fea"), "w") as font:
+		font.write(fontFeature)
