@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1161020814
-ModificationTime: 1763481004
+ModificationTime: 1763952475
 PfmFamily: 49
 TTFWeight: 700
 TTFWidth: 5
@@ -57,6 +57,8 @@ Lookup: 1 0 0 "J with acute accent" { "J with acute accent-1"  } []
 Lookup: 1 0 0 "Old style numerals" { "Old style numerals-1" ("oldstyle") } ['onum' ('DFLT' <'dflt' > 'cyrl' <'BGR ' 'BOS ' 'CHU ' 'MKD ' 'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'AVN ' 'EWE ' 'FLE ' 'ISM ' 'LEF ' 'LIV ' 'LSM ' 'MOL ' 'NLD ' 'NSM ' 'PLK ' 'ROM ' 'SJE ' 'SJU ' 'SKS ' 'SSM ' 'WCI ' 'ZHP ' 'dflt' > ) ]
 Lookup: 1 0 0 "Superscripts" { "Superscripts-1" ("superior") } ['sups' ('DFLT' <'dflt' > 'cyrl' <'BGR ' 'BOS ' 'CHU ' 'MKD ' 'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'AVN ' 'EWE ' 'FLE ' 'ISM ' 'LEF ' 'LIV ' 'LSM ' 'MOL ' 'NLD ' 'NSM ' 'PLK ' 'ROM ' 'SJE ' 'SJU ' 'SKS ' 'SSM ' 'WCI ' 'ZHP ' 'dflt' > ) ]
 Lookup: 1 0 0 "Subscripts" { "Subscripts-1" ("inferior") } ['subs' ('DFLT' <'dflt' > 'cyrl' <'BGR ' 'BOS ' 'CHU ' 'MKD ' 'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'AVN ' 'EWE ' 'FLE ' 'ISM ' 'LEF ' 'LIV ' 'LSM ' 'MOL ' 'NLD ' 'NSM ' 'PLK ' 'ROM ' 'SJE ' 'SJU ' 'SKS ' 'SSM ' 'WCI ' 'ZHP ' 'dflt' > ) ]
+Lookup: 6 0 0 "Contextual colon" { "Contextual colon-1"  } ['calt' ('DFLT' <'dflt' > 'cyrl' <'MKD ' 'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'MOL ' 'ROM ' 'dflt' > ) ]
+Lookup: 1 0 0 "Raised colon" { "Raised colon-1"  } []
 Lookup: 3 0 0 "Variants of zero" { "Variants of zero-1"  } ['cv01' ('DFLT' <'dflt' > 'cyrl' <'BGR ' 'BOS ' 'CHU ' 'MKD ' 'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'AVN ' 'EWE ' 'FLE ' 'ISM ' 'LEF ' 'LIV ' 'LSM ' 'MOL ' 'NLD ' 'NSM ' 'PLK ' 'ROM ' 'SJE ' 'SJU ' 'SKS ' 'SSM ' 'WCI ' 'ZHP ' 'dflt' > ) ]
 Lookup: 1 0 0 "r with serif" { "r with serif-1" ("serif") } ['cv02' ('latn' <'AVN ' 'EWE ' 'FLE ' 'ISM ' 'LEF ' 'LIV ' 'LSM ' 'MOL ' 'NLD ' 'NSM ' 'PLK ' 'ROM ' 'SJE ' 'SJU ' 'SKS ' 'SSM ' 'WCI ' 'ZHP ' 'dflt' > ) ]
 Lookup: 3 0 0 "Eng variants" { "Eng variants-1"  } ['cv03' ('latn' <'AVN ' 'EWE ' 'FLE ' 'ISM ' 'LEF ' 'LIV ' 'LSM ' 'MOL ' 'NLD ' 'NSM ' 'PLK ' 'ROM ' 'SJE ' 'SJU ' 'SKS ' 'SSM ' 'WCI ' 'ZHP ' 'dflt' > ) ]
@@ -73,6 +75,14 @@ Lookup: 1 0 0 "German alternative umlaut" { "German alternative umlaut-1"  } ['s
 Lookup: 1 0 0 "Polytonic Greek alternative circumflex" { "Polytonic Greek alternative circumflex-1" ("alt") } ['ss02' ('grek' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
+ChainSub2: coverage "Contextual colon-1" 0 0 0 1
+ 1 1 1
+  Coverage: 5 colon
+  BCoverage: 49 zero one two three four five six seven eight nine
+  FCoverage: 49 zero one two three four five six seven eight nine
+ 1
+  SeqLookup: 0 "Raised colon"
+EndFPST
 ContextSub2: glyph "Dutch accented IJ-1" 0 0 0 2
  String: 8 Iacute J
  BString: 0 
@@ -128,7 +138,7 @@ Grid
  416.256 939.008 l 1049
 EndSplineSet
 TeXData: 1 0 0 629145 314572 209715 554697 1048576 209715 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 1114482 3123
+BeginChars: 1114483 3124
 
 StartChar: a
 Encoding: 97 97 0
@@ -864,6 +874,7 @@ LayerCount: 2
 Fore
 Refer: 24 46 S 1 0 0 1 0 379 2
 Refer: 24 46 S 1 0 0 1 0 0 2
+Substitution2: "Raised colon-1" colon.raised
 EndChar
 
 StartChar: semicolon
@@ -60894,6 +60905,16 @@ SplineSet
  144 123 l 1
  144 202 l 1
 EndSplineSet
+EndChar
+
+StartChar: colon.raised
+Encoding: 1114482 -1 3123
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 24 46 S 1 0 0 1 0 504 2
+Refer: 24 46 S 1 0 0 1 0 125 2
 EndChar
 EndChars
 EndSplineFont
