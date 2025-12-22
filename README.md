@@ -73,17 +73,18 @@ Delta-like _be_ also applies in Roman (non-italic) fonts.
 For legacy apps, use **Inconsolata LGC Yugoslav** in the TTC.
 
 ### Livonian comma accent ###
-Livonian alphabet has D and T with comma below, not with cedilla. However,
-since there is not an OpenType language system tag, `locl` feature is not
-available for Livonian.
+Livonian alphabet has D and T with comma below, not with cedilla.
+Language system tag for Livonian language is added as `LIV ` in OpenType
+1.9.1; maybe not all systems support this yet.
 
-Use **Inconsolata LGC Livonian** in the TTC.
+For legacy apps, use **Inconsolata LGC Livonian** in the TTC.
 
 ### Sami _Eng_ ###
 In Sami languages, uppercase Eng should use that derived from uppercase N.
 Default glyph in this font is that from lowercase n.
 This feature is not activated for Kildin Sami since it is usually written
 in Cyrillic.
+This feature will be active despite Southern Sami does not use _Eng_.
 
 For legacy apps, use **Inconsolata LGC Sami** in the TTC.
 
