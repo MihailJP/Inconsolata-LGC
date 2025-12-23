@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1161020814
-ModificationTime: 1763952351
+ModificationTime: 1766499466
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 5
@@ -57,8 +57,7 @@ Lookup: 1 0 0 "J with acute accent" { "J with acute accent-1"  } []
 Lookup: 1 0 0 "Old style numerals" { "Old style numerals-1" ("oldstyle") } ['onum' ('DFLT' <'dflt' > 'cyrl' <'BGR ' 'BOS ' 'CHU ' 'MKD ' 'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'AVN ' 'EWE ' 'FLE ' 'ISM ' 'LEF ' 'LIV ' 'LSM ' 'MOL ' 'NLD ' 'NSM ' 'PLK ' 'ROM ' 'SJE ' 'SJU ' 'SKS ' 'SSM ' 'WCI ' 'ZHP ' 'dflt' > ) ]
 Lookup: 1 0 0 "Superscripts" { "Superscripts-1" ("superior") } ['sups' ('DFLT' <'dflt' > 'cyrl' <'BGR ' 'BOS ' 'CHU ' 'MKD ' 'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'AVN ' 'EWE ' 'FLE ' 'ISM ' 'LEF ' 'LIV ' 'LSM ' 'MOL ' 'NLD ' 'NSM ' 'PLK ' 'ROM ' 'SJE ' 'SJU ' 'SKS ' 'SSM ' 'WCI ' 'ZHP ' 'dflt' > ) ]
 Lookup: 1 0 0 "Subscripts" { "Subscripts-1" ("inferior") } ['subs' ('DFLT' <'dflt' > 'cyrl' <'BGR ' 'BOS ' 'CHU ' 'MKD ' 'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'AVN ' 'EWE ' 'FLE ' 'ISM ' 'LEF ' 'LIV ' 'LSM ' 'MOL ' 'NLD ' 'NSM ' 'PLK ' 'ROM ' 'SJE ' 'SJU ' 'SKS ' 'SSM ' 'WCI ' 'ZHP ' 'dflt' > ) ]
-Lookup: 6 0 0 "Contextual colon" { "Contextual colon-1"  } ['calt' ('DFLT' <'dflt' > 'cyrl' <'MKD ' 'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'MOL ' 'ROM ' 'dflt' > ) ]
-Lookup: 1 0 0 "Raised colon" { "Raised colon-1"  } []
+Lookup: 1 0 0 "Forms for uppercase" { "Forms for uppercase-1" ("case") } ['case' ('DFLT' <'dflt' > 'brai' <'dflt' > 'cyrl' <'BGR ' 'BOS ' 'CHU ' 'MKD ' 'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'AVN ' 'EWE ' 'FLE ' 'ISM ' 'LEF ' 'LIV ' 'LSM ' 'MOL ' 'NLD ' 'NSM ' 'PLK ' 'ROM ' 'SJE ' 'SJU ' 'SKS ' 'SSM ' 'WCI ' 'ZHP ' 'dflt' > ) ]
 Lookup: 3 0 0 "Variants of zero" { "Variants of zero-1"  } ['cv01' ('DFLT' <'dflt' > 'cyrl' <'BGR ' 'BOS ' 'CHU ' 'MKD ' 'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'AVN ' 'EWE ' 'FLE ' 'ISM ' 'LEF ' 'LIV ' 'LSM ' 'MOL ' 'NLD ' 'NSM ' 'PLK ' 'ROM ' 'SJE ' 'SJU ' 'SKS ' 'SSM ' 'WCI ' 'ZHP ' 'dflt' > ) ]
 Lookup: 1 0 0 "r with serif" { "r with serif-1" ("serif") } ['cv02' ('latn' <'AVN ' 'EWE ' 'FLE ' 'ISM ' 'LEF ' 'LIV ' 'LSM ' 'MOL ' 'NLD ' 'NSM ' 'PLK ' 'ROM ' 'SJE ' 'SJU ' 'SKS ' 'SSM ' 'WCI ' 'ZHP ' 'dflt' > ) ]
 Lookup: 3 0 0 "Eng variants" { "Eng variants-1"  } ['cv03' ('latn' <'AVN ' 'EWE ' 'FLE ' 'ISM ' 'LEF ' 'LIV ' 'LSM ' 'MOL ' 'NLD ' 'NSM ' 'PLK ' 'ROM ' 'SJE ' 'SJU ' 'SKS ' 'SSM ' 'WCI ' 'ZHP ' 'dflt' > ) ]
@@ -75,14 +74,6 @@ Lookup: 1 0 0 "German alternative umlaut" { "German alternative umlaut-1"  } ['s
 Lookup: 1 0 0 "Polytonic Greek alternative circumflex" { "Polytonic Greek alternative circumflex-1" ("alt") } ['ss02' ('grek' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
-ChainSub2: coverage "Contextual colon-1" 0 0 0 1
- 1 1 1
-  Coverage: 5 colon
-  BCoverage: 49 zero one two three four five six seven eight nine
-  FCoverage: 49 zero one two three four five six seven eight nine
- 1
-  SeqLookup: 0 "Raised colon"
-EndFPST
 ContextSub2: glyph "Dutch accented IJ-1" 0 0 0 2
  String: 8 Iacute J
  BString: 0 
@@ -142,7 +133,7 @@ Grid
  416.256 939.008 l 1049
 EndSplineSet
 TeXData: 1 0 0 629145 314572 209715 554697 1048576 209715 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 1114483 3124
+BeginChars: 1114489 3130
 
 StartChar: a
 Encoding: 97 97 0
@@ -904,7 +895,7 @@ Fore
 Refer: 24 46 S 1 0 0 1 0 379 2
 Refer: 24 46 S 1 0 0 1 0 0 2
 Validated: 1
-Substitution2: "Raised colon-1" colon.raised
+Substitution2: "Forms for uppercase-1" colon.case
 EndChar
 
 StartChar: semicolon
@@ -1157,20 +1148,20 @@ SplineSet
  310 753 375 756 432 756 c 0
  441 756 450 756 459 756 c 0
  495 756 l 0
- 495 688 l 0
- 454 688 l 0
- 437 688 421 689 407 689 c 0
- 378 689 356 686 334 673 c 0
- 288 644 286 587 286 562 c 0
- 286 534 290 508 290 479 c 0
- 290 451 286 416 270 384 c 0
- 253 348 223 319 186 304 c 0
- 231 289 287 244 287 120 c 0
- 287 83 283 51 283 20 c 0
- 283 -21 289 -72 332 -102 c 0
- 359 -120 389 -122 427 -122 c 0
- 434 -122 442 -122 450 -122 c 0
- 494 -122 l 0
+ 495 688 l 4
+ 454 688 l 4
+ 437 688 421 689 407 689 c 4
+ 378 689 356 686 334 673 c 4
+ 288 644 286 587 286 562 c 4
+ 286 534 290 508 290 479 c 4
+ 290 451 286 416 270 384 c 4
+ 253 348 223 319 186 304 c 4
+ 231 289 287 244 287 120 c 4
+ 287 83 283 51 283 20 c 4
+ 283 -21 289 -72 332 -102 c 4
+ 359 -120 389 -122 427 -122 c 4
+ 434 -122 442 -122 450 -122 c 4
+ 494 -122 l 4
  494 -188 l 0
  451 -188 l 0
  439 -188 426 -188 414 -188 c 0
@@ -1182,7 +1173,7 @@ SplineSet
  73 270 l 0
  73 337 l 0
 EndSplineSet
-Validated: 33
+Substitution2: "Forms for uppercase-1" braceleft.case
 EndChar
 
 StartChar: braceright
@@ -1228,6 +1219,7 @@ SplineSet
  542 337 l 0
 EndSplineSet
 Validated: 33
+Substitution2: "Forms for uppercase-1" braceright.case
 EndChar
 
 StartChar: asterisk
@@ -2158,17 +2150,17 @@ TeX: 100 0
 LayerCount: 2
 Fore
 SplineSet
-166 795 m 0
- 505 795 l 0
- 505 724 l 0
- 242 724 l 0
- 242 -38 l 0
- 506 -38 l 0
- 506 -105 l 0
- 166 -105 l 0
- 166 795 l 0
+166 759 m 0
+ 505 759 l 0
+ 505 688 l 0
+ 242 688 l 0
+ 242 -121 l 0
+ 506 -121 l 0
+ 506 -188 l 0
+ 166 -188 l 0
+ 166 759 l 0
 EndSplineSet
-Validated: 1
+Substitution2: "Forms for uppercase-1" bracketleft.case
 EndChar
 
 StartChar: bracketright
@@ -2179,17 +2171,17 @@ TeX: 100 0
 LayerCount: 2
 Fore
 SplineSet
-449 795 m 0
- 449 -105 l 0
- 109 -105 l 0
- 109 -38 l 0
- 373 -38 l 0
- 373 724 l 0
- 110 724 l 0
- 110 795 l 0
- 449 795 l 0
+449 756 m 0
+ 449 -188 l 0
+ 109 -188 l 0
+ 109 -121 l 0
+ 373 -121 l 0
+ 373 685 l 0
+ 110 685 l 0
+ 110 756 l 0
+ 449 756 l 0
 EndSplineSet
-Validated: 1
+Substitution2: "Forms for uppercase-1" bracketright.case
 EndChar
 
 StartChar: parenleft
@@ -2212,6 +2204,7 @@ SplineSet
  175 524 291 710 475 791 c 4
 EndSplineSet
 Validated: 1
+Substitution2: "Forms for uppercase-1" parenleft.case
 EndChar
 
 StartChar: parenright
@@ -2231,6 +2224,7 @@ SplineSet
  358 470 259 633 102 716 c 0
 EndSplineSet
 Validated: 1
+Substitution2: "Forms for uppercase-1" parenright.case
 EndChar
 
 StartChar: three
@@ -61427,7 +61421,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: colon.raised
+StartChar: colon.case
 Encoding: 1114482 -1 3123
 Width: 613
 Flags: W
@@ -61435,6 +61429,167 @@ LayerCount: 2
 Fore
 Refer: 24 46 S 1 0 0 1 0 504 2
 Refer: 24 46 S 1 0 0 1 0 125 2
+EndChar
+
+StartChar: parenleft.case
+Encoding: 1114483 -1 3124
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+475 806 m 0
+ 511 732 l 0
+ 507 730 503 730 501 730 c 0
+ 496 730 493 732 489 732 c 0
+ 484 732 481 730 478 728 c 0
+ 339 653 257 516 257 362 c 0
+ 257 195 353 35 515 -51 c 0
+ 476 -115 l 0
+ 288 -23 175 158 175 358 c 0
+ 175 559 291 731 475 806 c 0
+EndSplineSet
+EndChar
+
+StartChar: parenright.case
+Encoding: 1114484 -1 3125
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+102 731 m 0
+ 125 806 l 0
+ 318 724 442 545 442 350 c 0
+ 442 153 316 -30 119 -117 c 0
+ 96 -44 l 0
+ 256 34 358 183 358 347 c 0
+ 358 508 259 655 102 731 c 0
+EndSplineSet
+EndChar
+
+StartChar: bracketleft.case
+Encoding: 1114485 -1 3126
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+166 795 m 0
+ 505 795 l 0
+ 505 724 l 0
+ 242 724 l 0
+ 242 -38 l 0
+ 506 -38 l 0
+ 506 -105 l 0
+ 166 -105 l 0
+ 166 795 l 0
+EndSplineSet
+EndChar
+
+StartChar: bracketright.case
+Encoding: 1114486 -1 3127
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+449 795 m 0
+ 449 -105 l 0
+ 109 -105 l 0
+ 109 -38 l 0
+ 373 -38 l 0
+ 373 724 l 0
+ 110 724 l 0
+ 110 795 l 0
+ 449 795 l 0
+EndSplineSet
+EndChar
+
+StartChar: braceleft.case
+Encoding: 1114487 -1 3128
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+73 398 m 0
+ 96 398 l 0
+ 118 398 149 397 176 423 c 0
+ 204 452 207 489 207 517 c 0
+ 207 545 204 570 204 598 c 0
+ 204 641 210 704 262 750 c 0
+ 310 792 375 795 432 795 c 0
+ 441 795 450 795 459 795 c 0
+ 495 795 l 0
+ 495 725 l 0
+ 454 725 l 0
+ 437 725 421 726 407 726 c 0
+ 378 726 356 724 334 712 c 0
+ 288 684 286 631 286 607 c 0
+ 286 580 290 557 290 529 c 0
+ 290 502 286 470 270 439 c 0
+ 253 405 223 378 186 364 c 0
+ 231 350 287 308 287 191 c 0
+ 287 156 283 126 283 96 c 0
+ 283 57 289 10 332 -19 c 0
+ 359 -36 389 -37 427 -37 c 0
+ 434 -37 442 -37 450 -37 c 0
+ 494 -37 l 0
+ 494 -105 l 0
+ 451 -105 l 0
+ 439 -105 426 -105 414 -105 c 0
+ 357 -105 307 -103 265 -72 c 0
+ 203 -26 199 51 199 92 c 0
+ 199 136 204 171 204 206 c 0
+ 204 255 196 287 172 309 c 0
+ 147 332 117 331 97 331 c 0
+ 73 331 l 0
+ 73 398 l 0
+EndSplineSet
+EndChar
+
+StartChar: braceright.case
+Encoding: 1114488 -1 3129
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+542 398 m 0
+ 542 331 l 0
+ 517 331 l 0
+ 497 331 467 332 442 309 c 0
+ 418 287 411 255 411 206 c 0
+ 411 171 416 136 416 92 c 0
+ 416 51 411 -26 349 -72 c 0
+ 307 -103 258 -105 201 -105 c 0
+ 189 -105 176 -105 164 -105 c 0
+ 121 -105 l 0
+ 121 -37 l 0
+ 165 -37 l 0
+ 173 -37 180 -37 187 -37 c 0
+ 225 -37 256 -36 283 -19 c 0
+ 326 10 332 57 332 96 c 0
+ 332 126 328 156 328 191 c 0
+ 328 308 383 350 428 364 c 0
+ 391 378 361 405 344 439 c 0
+ 328 470 325 502 325 529 c 0
+ 325 557 329 580 329 607 c 0
+ 329 631 327 684 281 712 c 0
+ 259 724 237 726 208 726 c 0
+ 194 726 178 725 161 725 c 0
+ 120 725 l 0
+ 120 795 l 0
+ 156 795 l 0
+ 165 795 173 795 182 795 c 0
+ 239 795 304 792 352 750 c 0
+ 404 704 411 641 411 598 c 0
+ 411 570 408 545 408 517 c 0
+ 408 489 410 452 438 423 c 0
+ 465 397 496 398 518 398 c 0
+ 542 398 l 0
+EndSplineSet
 EndChar
 EndChars
 EndSplineFont

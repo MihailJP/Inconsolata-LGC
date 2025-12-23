@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1161020814
-ModificationTime: 1763952746
+ModificationTime: 1766505026
 PfmFamily: 49
 TTFWeight: 700
 TTFWidth: 5
@@ -57,8 +57,7 @@ Lookup: 1 0 0 "J with acute accent" { "J with acute accent-1"  } []
 Lookup: 1 0 0 "Old style numerals" { "Old style numerals-1" ("oldstyle") } ['onum' ('DFLT' <'dflt' > 'cyrl' <'BGR ' 'BOS ' 'CHU ' 'MKD ' 'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'AVN ' 'EWE ' 'FLE ' 'ISM ' 'LEF ' 'LIV ' 'LSM ' 'MOL ' 'NLD ' 'NSM ' 'PLK ' 'ROM ' 'SJE ' 'SJU ' 'SKS ' 'SSM ' 'WCI ' 'ZHP ' 'dflt' > ) ]
 Lookup: 1 0 0 "Superscripts" { "Superscripts-1" ("superior") } ['sups' ('DFLT' <'dflt' > 'cyrl' <'BGR ' 'BOS ' 'CHU ' 'MKD ' 'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'AVN ' 'EWE ' 'FLE ' 'ISM ' 'LEF ' 'LIV ' 'LSM ' 'MOL ' 'NLD ' 'NSM ' 'PLK ' 'ROM ' 'SJE ' 'SJU ' 'SKS ' 'SSM ' 'WCI ' 'ZHP ' 'dflt' > ) ]
 Lookup: 1 0 0 "Subscripts" { "Subscripts-1" ("inferior") } ['subs' ('DFLT' <'dflt' > 'cyrl' <'BGR ' 'BOS ' 'CHU ' 'MKD ' 'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'AVN ' 'EWE ' 'FLE ' 'ISM ' 'LEF ' 'LIV ' 'LSM ' 'MOL ' 'NLD ' 'NSM ' 'PLK ' 'ROM ' 'SJE ' 'SJU ' 'SKS ' 'SSM ' 'WCI ' 'ZHP ' 'dflt' > ) ]
-Lookup: 6 0 0 "Contextual colon" { "Contextual colon-1"  } ['calt' ('DFLT' <'dflt' > 'cyrl' <'MKD ' 'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'MOL ' 'ROM ' 'dflt' > ) ]
-Lookup: 1 0 0 "Raised colon" { "Raised colon-1"  } []
+Lookup: 1 0 0 "Forms for uppercase" { "Forms for uppercase-1" ("case") } ['case' ('DFLT' <'dflt' > 'brai' <'dflt' > 'cyrl' <'BGR ' 'BOS ' 'CHU ' 'MKD ' 'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'AVN ' 'EWE ' 'FLE ' 'ISM ' 'LEF ' 'LIV ' 'LSM ' 'MOL ' 'NLD ' 'NSM ' 'PLK ' 'ROM ' 'SJE ' 'SJU ' 'SKS ' 'SSM ' 'WCI ' 'ZHP ' 'dflt' > ) ]
 Lookup: 3 0 0 "Variants of zero" { "Variants of zero-1"  } ['cv01' ('DFLT' <'dflt' > 'cyrl' <'BGR ' 'BOS ' 'CHU ' 'MKD ' 'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'AVN ' 'EWE ' 'FLE ' 'ISM ' 'LEF ' 'LIV ' 'LSM ' 'MOL ' 'NLD ' 'NSM ' 'PLK ' 'ROM ' 'SJE ' 'SJU ' 'SKS ' 'SSM ' 'WCI ' 'ZHP ' 'dflt' > ) ]
 Lookup: 1 0 0 "r with serif" { "r with serif-1" ("serif") } ['cv02' ('latn' <'AVN ' 'EWE ' 'FLE ' 'ISM ' 'LEF ' 'LIV ' 'LSM ' 'MOL ' 'NLD ' 'NSM ' 'PLK ' 'ROM ' 'SJE ' 'SJU ' 'SKS ' 'SSM ' 'WCI ' 'ZHP ' 'dflt' > ) ]
 Lookup: 3 0 0 "Eng variants" { "Eng variants-1"  } ['cv03' ('latn' <'AVN ' 'EWE ' 'FLE ' 'ISM ' 'LEF ' 'LIV ' 'LSM ' 'MOL ' 'NLD ' 'NSM ' 'PLK ' 'ROM ' 'SJE ' 'SJU ' 'SKS ' 'SSM ' 'WCI ' 'ZHP ' 'dflt' > ) ]
@@ -75,14 +74,6 @@ Lookup: 1 0 0 "German alternative umlaut" { "German alternative umlaut-1"  } ['s
 Lookup: 1 0 0 "Polytonic Greek alternative circumflex" { "Polytonic Greek alternative circumflex-1" ("alt") } ['ss02' ('grek' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
-ChainSub2: coverage "Contextual colon-1" 0 0 0 1
- 1 1 1
-  Coverage: 5 colon
-  BCoverage: 49 zero one two three four five six seven eight nine
-  FCoverage: 49 zero one two three four five six seven eight nine
- 1
-  SeqLookup: 0 "Raised colon"
-EndFPST
 ContextSub2: glyph "Dutch accented IJ-1" 0 0 0 2
  String: 8 Iacute J
  BString: 0 
@@ -138,7 +129,7 @@ Grid
  416.256 939.008 l 1049
 EndSplineSet
 TeXData: 1 0 0 629145 314572 209715 554697 1048576 209715 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 1114474 3115
+BeginChars: 1114480 3121
 
 StartChar: a
 Encoding: 97 97 0
@@ -869,7 +860,7 @@ LayerCount: 2
 Fore
 Refer: 24 46 S 1 0 0 1 0 0 2
 Refer: 24 46 S 1 0 0 1 67 379 2
-Substitution2: "Raised colon-1" colon.raised
+Substitution2: "Forms for uppercase-1" colon.case
 EndChar
 
 StartChar: semicolon
@@ -1136,6 +1127,7 @@ SplineSet
  102 255 l 1
  119 352 l 1
 EndSplineSet
+Substitution2: "Forms for uppercase-1" braceleft.case
 EndChar
 
 StartChar: braceright
@@ -1180,6 +1172,7 @@ SplineSet
  533 351 558 352 580 352 c 0
  619 352 l 1
 EndSplineSet
+Substitution2: "Forms for uppercase-1" braceright.case
 EndChar
 
 StartChar: asterisk
@@ -2081,16 +2074,17 @@ TeX: 100 0
 LayerCount: 2
 Fore
 SplineSet
-291 795 m 1
- 660 795 l 1
- 642 693 l 1
- 379 693 l 1
- 256 -7 l 1
- 520 -7 l 1
- 502 -105 l 1
- 132 -105 l 1
- 291 795 l 1
+284 756 m 1
+ 653 756 l 1
+ 635 654 l 1
+ 372 654 l 1
+ 238 -106 l 1
+ 502 -106 l 1
+ 485 -204 l 1
+ 115 -204 l 1
+ 284 756 l 1
 EndSplineSet
+Substitution2: "Forms for uppercase-1" bracketleft.case
 EndChar
 
 StartChar: bracketright
@@ -2101,16 +2095,17 @@ TeX: 100 0
 LayerCount: 2
 Fore
 SplineSet
-604 795 m 1
- 445 -105 l 1
- 74 -105 l 1
- 92 -7 l 1
- 356 -7 l 1
- 479 693 l 1
- 216 693 l 1
- 234 795 l 1
- 604 795 l 1
+597 756 m 1
+ 428 -204 l 1
+ 57 -204 l 1
+ 74 -106 l 1
+ 338 -106 l 1
+ 472 654 l 1
+ 209 654 l 1
+ 227 756 l 1
+ 597 756 l 1
 EndSplineSet
+Substitution2: "Forms for uppercase-1" bracketright.case
 EndChar
 
 StartChar: parenleft
@@ -2132,6 +2127,7 @@ SplineSet
  311 -130 163 24 213 306 c 0
  242 468 338 674 622 795 c 1
 EndSplineSet
+Substitution2: "Forms for uppercase-1" parenleft.case
 EndChar
 
 StartChar: parenright
@@ -2150,6 +2146,7 @@ SplineSet
  290 0 371 160 395 294 c 0
  417 416 399 580 207 696 c 1
 EndSplineSet
+Substitution2: "Forms for uppercase-1" parenright.case
 EndChar
 
 StartChar: three
@@ -60874,7 +60871,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: colon.raised
+StartChar: colon.case
 Encoding: 1114473 -1 3114
 Width: 613
 Flags: W
@@ -60882,6 +60879,167 @@ LayerCount: 2
 Fore
 Refer: 24 46 S 1 0 0 1 22 125 2
 Refer: 24 46 S 1 0 0 1 89 504 2
+EndChar
+
+StartChar: parenleft.case
+Encoding: 1114474 -1 3115
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+624 806 m 1
+ 656 710 l 1
+ 636 701 636 701 625 701 c 0
+ 617 701 614 702 613 702 c 0
+ 613 702 612 702 610 701 c 0
+ 464 633 362 506 337 362 c 0
+ 315 235 351 68 531 -27 c 1
+ 462 -115 l 1
+ 327 -42 177 100 222 358 c 0
+ 248 506 341 695 624 806 c 1
+EndSplineSet
+EndChar
+
+StartChar: parenright.case
+Encoding: 1114475 -1 3116
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+209 707 m 1
+ 257 806 l 1
+ 480 703 551 523 520 349 c 0
+ 493 195 390 10 88 -118 c 1
+ 74 -20 l 1
+ 304 83 383 227 404 347 c 0
+ 423 457 403 603 209 707 c 1
+EndSplineSet
+EndChar
+
+StartChar: bracketleft.case
+Encoding: 1114476 -1 3117
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+291 795 m 5
+ 660 795 l 5
+ 642 693 l 5
+ 379 693 l 5
+ 256 -7 l 5
+ 520 -7 l 5
+ 502 -105 l 5
+ 132 -105 l 5
+ 291 795 l 5
+EndSplineSet
+EndChar
+
+StartChar: bracketright.case
+Encoding: 1114477 -1 3118
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+604 795 m 5
+ 445 -105 l 5
+ 74 -105 l 5
+ 92 -7 l 5
+ 356 -7 l 5
+ 479 693 l 5
+ 216 693 l 5
+ 234 795 l 5
+ 604 795 l 5
+EndSplineSet
+EndChar
+
+StartChar: braceleft.case
+Encoding: 1114478 -1 3119
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+131 418 m 1
+ 170 418 l 0
+ 192 418 217 418 242 438 c 0
+ 270 461 278 493 282 518 c 0
+ 286 543 288 568 293 595 c 0
+ 300 636 319 700 384 748 c 0
+ 445 792 515 795 572 795 c 8
+ 587 795 596 795 611 795 c 17
+ 650 795 l 1
+ 633 696 l 1
+ 577 696 l 0
+ 559 696 544 697 530 697 c 0
+ 502 697 483 695 463 685 c 0
+ 421 663 411 622 407 599 c 0
+ 403 576 403 552 398 525 c 0
+ 393 499 384 465 361 434 c 0
+ 342 408 316 386 286 370 c 1
+ 325 346 354 296 337 201 c 0
+ 331 166 322 136 317 109 c 0
+ 310 72 310 31 342 8 c 0
+ 362 -6 388 -7 426 -7 c 8
+ 438 -7 446 -7 458 -7 c 17
+ 508 -7 l 1
+ 490 -105 l 1
+ 440 -105 l 9
+ 422 -105 413 -105 395 -105 c 16
+ 338 -105 285 -103 244 -69 c 1
+ 184 -19 194 64 201 104 c 0
+ 209 148 220 183 226 216 c 0
+ 234 263 231 288 215 305 c 0
+ 198 323 175 323 154 323 c 0
+ 114 323 l 1
+ 131 418 l 1
+EndSplineSet
+EndChar
+
+StartChar: braceright.case
+Encoding: 1114479 -1 3120
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+631 418 m 1
+ 614 323 l 1
+ 574 323 l 0
+ 553 323 530 323 507 305 c 4
+ 485 288 472 263 464 216 c 0
+ 458 183 457 148 449 104 c 0
+ 442 64 425 -19 347 -69 c 0
+ 295 -103 239 -105 182 -105 c 8
+ 165 -105 155 -105 138 -105 c 17
+ 86 -105 l 1
+ 104 -7 l 1
+ 157 -7 l 9
+ 168 -7 175 -7 186 -7 c 16
+ 224 -7 251 -6 275 8 c 0
+ 315 31 328 72 335 109 c 0
+ 340 136 341 166 347 201 c 0
+ 364 297 413 347 459 370 c 1
+ 434 387 416 408 407 434 c 0
+ 394 465 397 499 402 525 c 0
+ 407 552 415 576 419 599 c 0
+ 423 622 427 663 393 685 c 0
+ 377 695 359 697 331 697 c 0
+ 317 697 302 696 284 696 c 0
+ 227 696 l 1
+ 244 795 l 1
+ 291 795 l 9
+ 303 795 310 795 322 795 c 16
+ 379 795 450 792 495 748 c 0
+ 544 700 538 636 531 595 c 0
+ 526 568 518 543 514 518 c 0
+ 510 493 506 460 526 438 c 0
+ 544 417 570 418 592 418 c 0
+ 631 418 l 1
+EndSplineSet
 EndChar
 EndChars
 EndSplineFont
