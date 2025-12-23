@@ -85,6 +85,25 @@ prep.ttx: Inconsolata-LGC.ttf
 ${VARFONTS}: %.ttf: %.raw.ttf prep.ttx
 	ttx -o $@ -m $^
 
+.PHONY: check
+check: check-static check-variable
+
+.PHONY: check-static
+check-static: ${FONTS}
+	fontbakery check-universal \
+	-x fontdata_namecheck \
+	-x opentype/STAT/ital_axis \
+	-x family/win_ascent_and_descent \
+	-x os2_metrics_match_hhea \
+	$^
+.PHONY: check-variable
+check-variable: ${VARFONTS}
+	fontbakery check-universal \
+	-x fontdata_namecheck \
+	-x family/win_ascent_and_descent \
+	-x os2_metrics_match_hhea \
+	$^
+
 InconsolataLGC.tar.xz: ${FONTS} ${DOCUMENTS}
 	${TTFPKGCMD}; tar cfvJ $@ $*
 InconsolataLGC.tar.gz: ${FONTS} ${DOCUMENTS}
