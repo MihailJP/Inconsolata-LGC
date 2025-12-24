@@ -23,7 +23,7 @@ jobs:
       run: |
         sudo apt update
         sudo apt upgrade
-        sudo apt install fontforge
+        sudo apt install fontforge ttfautohint
     - name: Build
       run: source venv/bin/activate; make
     - name: Make distributable
@@ -33,6 +33,11 @@ jobs:
       with:
         name: ttf
         path: InconsolataLGC/**
+    - name: Upload a Hinted TTF Artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: hinted
+        path: InconsolataLGC-Hinted/**
     - name: Upload a Variable TTF Artifact
       uses: actions/upload-artifact@v4
       with:
@@ -63,6 +68,15 @@ jobs:
           -x family/win_ascent_and_descent \
           -x os2_metrics_match_hhea \
           ttf/*.ttf
+    - name: Check Hinted Fonts
+      run: |
+        source venv/bin/activate
+        fontbakery check-universal \
+          -x fontdata_namecheck \
+          -x opentype/STAT/ital_axis \
+          -x family/win_ascent_and_descent \
+          -x os2_metrics_match_hhea \
+          hinted/*.ttf
     - name: Check Variable Fonts
       run: |
         source venv/bin/activate

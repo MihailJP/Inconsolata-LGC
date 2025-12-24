@@ -273,6 +273,8 @@ Build-time dependencies
 * For variable font, also:
   * [fonttools](https://github.com/fonttools/fonttools)
   * [fontmake](https://github.com/googlefonts/fontmake)
+* For hinted font, also:
+  * [ttfautohint](https://freetype.org/ttfautohint/)
 
 License
 -------

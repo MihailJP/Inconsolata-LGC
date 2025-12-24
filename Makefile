@@ -9,6 +9,7 @@ EXTRAPOLATES=Inconsolata-LGC-Minimum.sfd \
              Inconsolata-LGC-MinimumItalic.sfd \
              Inconsolata-LGC-MaximumItalic.sfd
 CSS=Inconsolata-LGC.css
+HINTEDTTFONTS=${FONTS:.ttf=-Hinted.ttf}
 OTFONTS=${FONTS:.ttf=.otf}
 TTCFONTS=${FONTS:.ttf=.ttc}
 WOFFFONTS=${FONTS:.ttf=.woff}
@@ -17,17 +18,19 @@ UFOS=${FONTS:.ttf=.ufo} ${EXTRAPOLATES:.sfd=.ufo}
 DESIGNSPACES=Inconsolata-LGC.designspace Inconsolata-LGC-Italic.designspace
 DOC_ASSET_DIR=doc
 DOCUMENTS=README.md ChangeLog OFL.txt $(wildcard ${DOC_ASSET_DIR}/*.png)
-PKGS=InconsolataLGC.tar.xz InconsolataLGC-OT.tar.xz InconsolataLGC-WOFF2.tar.xz InconsolataLGC-TTC.tar.xz InconsolataLGC-Variable.tar.xz
+PKGS=InconsolataLGC.tar.xz InconsolataLGC-Hinted.tar.xz InconsolataLGC-OT.tar.xz \
+     InconsolataLGC-WOFF2.tar.xz InconsolataLGC-TTC.tar.xz InconsolataLGC-Variable.tar.xz
 VARFONTS=Inconsolata-LGC-Variable.ttf \
          Inconsolata-LGC-Variable-Italic.ttf
 TTFPKGCMD=rm -rf $*; mkdir $*; rsync -R ${FONTS} ${DOCUMENTS} $*
+HINTEDTTFPKGCMD=rm -rf $*; mkdir $*; rsync -R ${HINTEDTTFONTS} ${DOCUMENTS} $*
 OTFPKGCMD=rm -rf $*; mkdir $*; rsync -R ${OTFONTS} ${DOCUMENTS} $*
 WOFF2PKGCMD=rm -rf $*; mkdir $*; rsync -R ${WOFF2FONTS} ${CSS} ${DOCUMENTS} $*
 TTCPKGCMD=rm -rf $*; mkdir $*; rsync -R ${TTCFONTS} ${DOCUMENTS} $*
 VTTFPKGCMD=rm -rf $*; mkdir $*; rsync -R ${VARFONTS} ${DOCUMENTS} $*
 
 .PHONY: all
-all: ttf otf ttc woff2 variable
+all: ttf hintedttf otf ttc woff2 variable
 
 .SUFFIXES: .sfd .ttf .otf .woff .woff2 .ufo
 
@@ -46,8 +49,14 @@ Inconsolata-LGC-BoldItalic.mk: Inconsolata-LGC.mk
 .sfd.ttf .sfd.otf .sfd.woff .sfd.woff2 .sfd.ufo:
 	for i in $?; do ./makefont.py $@ $$i; done
 
-.PHONY: ttf otf ttc woff woff2 variable
+%-Hinted-raw.ttf: %.sfd
+	./makefont.py $@ $<
+%-Hinted.ttf: %-Hinted-raw.ttf
+	ttfautohint $< $@
+
+.PHONY: ttf otf ttc woff woff2 variable hintedttf
 ttf: ${FONTS}
+hintedttf: ${HINTEDTTFONTS}
 otf: ${OTFONTS}
 ttc: ${TTCFONTS}
 woff: ${WOFFFONTS}
@@ -86,10 +95,18 @@ ${VARFONTS}: %.ttf: %.raw.ttf prep.ttx
 	ttx -o $@ -m $^
 
 .PHONY: check
-check: check-static check-variable
+check: check-static check-hinted check-variable
 
 .PHONY: check-static
 check-static: ${FONTS}
+	fontbakery check-universal \
+	-x fontdata_namecheck \
+	-x opentype/STAT/ital_axis \
+	-x family/win_ascent_and_descent \
+	-x os2_metrics_match_hhea \
+	$^
+.PHONY: check-hinted
+check-hinted: ${HINTEDTTFONTS}
 	fontbakery check-universal \
 	-x fontdata_namecheck \
 	-x opentype/STAT/ital_axis \
@@ -112,6 +129,15 @@ InconsolataLGC.tar.bz2: ${FONTS} ${DOCUMENTS}
 	${TTFPKGCMD}; tar cfvj $@ $*
 InconsolataLGC.zip: ${FONTS} ${DOCUMENTS}
 	${TTFPKGCMD}; zip -9r $@ $*
+
+InconsolataLGC-Hinted.tar.xz: ${HINTEDTTFONTS} ${DOCUMENTS}
+	${HINTEDTTFPKGCMD}; tar cfvJ $@ $*
+InconsolataLGC-Hinted.tar.gz: ${HINTEDTTFONTS} ${DOCUMENTS}
+	${HINTEDTTFPKGCMD}; tar cfvz $@ $*
+InconsolataLGC-Hinted.tar.bz2: ${HINTEDTTFONTS} ${DOCUMENTS}
+	${HINTEDTTFPKGCMD}; tar cfvj $@ $*
+InconsolataLGC-Hinted.zip: ${HINTEDTTFONTS} ${DOCUMENTS}
+	${HINTEDTTFPKGCMD}; zip -9r $@ $*
 
 InconsolataLGC-OT.tar.xz: ${OTFONTS} ${DOCUMENTS}
 	${OTFPKGCMD}; tar cfvJ $@ $*
@@ -154,7 +180,7 @@ ChangeLog: .git # GIT
 
 .PHONY: clean
 clean:
-	-rm -f ${FONTS} ${OTFONTS} ${TTCFONTS} ${WOFFFONTS} ${WOFF2FONTS} ${VARFONTS} ChangeLog
+	-rm -f ${FONTS} ${HINTEDTTFONTS} ${OTFONTS} ${TTCFONTS} ${WOFFFONTS} ${WOFF2FONTS} ${VARFONTS} ChangeLog
 	-rm -f ${VARFONTS:.ttf=.raw.ttf}
 	-rm -f ${FONTS:.ttf=-Intermediate.sfd}
 	-rm -f ${FONTS:.ttf=-Romanian.sfd} ${FONTS:.ttf=-Polish.sfd} ${FONTS:.ttf=-Bulgarian.sfd} ${FONTS:.ttf=-Yugoslav.sfd}

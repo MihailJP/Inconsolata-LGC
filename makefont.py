@@ -22,8 +22,18 @@ def decomposeNestedRefs(font):
 		if not nestedRefsFound:
 			break
 
+def decomposeDistortedRefs(font):
+	for glyph in font.glyphs():
+		for ref in glyph.references:
+			(srcglyph, matrix, _) = ref
+			if matrix[:4] != (1, 0, 0, 1):
+				print("Glyph " + glyph.glyphname + " has a transformed reference to " + srcglyph)
+				glyph.unlinkRmOvrlpSave = True
+
 font = fontforge.open(argv[2])
 decomposeNestedRefs(font)
+if 'Hinted' in argv[1]:
+	decomposeDistortedRefs(font)
 if argv[1].endswith(".ufo"):
 	for glyph in font.glyphs():
 		glyph.unlinkRmOvrlpSave = False
