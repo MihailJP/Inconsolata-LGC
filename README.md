@@ -248,6 +248,13 @@ Greek circumflex (_perispomeni_) looks like either tilde or inverted breve.
 Inconsolata defaults to inverted breve form; tilde form is used when `ss02`
 is activated.
 
+### `case`: Case-sensitive forms ###
+![Regular and all-caps variants](doc/capital_forms.png)
+
+Some punctuation marks can be justified for all-caps texts.
+Since this is a discretionary feature, this will not be active unless there
+is not an instruction to do so.
+
 
 Variable font
 -------------
