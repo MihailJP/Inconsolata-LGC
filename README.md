@@ -248,6 +248,11 @@ Greek circumflex (_perispomeni_) looks like either tilde or inverted breve.
 Inconsolata defaults to inverted breve form; tilde form is used when `ss02`
 is activated.
 
+### `calt`: Contextual alternates ###
+![Raised colon](doc/raised_colon.png)
+
+Currently there is only raised colon used as in 12:00.
+
 ### `case`: Case-sensitive forms ###
 ![Regular and all-caps variants](doc/capital_forms.png)
 
