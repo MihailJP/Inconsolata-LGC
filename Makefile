@@ -51,8 +51,8 @@ Inconsolata-LGC-BoldItalic.mk: Inconsolata-LGC.mk
 
 %-Hinted-raw.ttf: %.sfd
 	./makefont.py $@ $<
-%-Hinted.ttf: %-Hinted-raw.ttf
-	ttfautohint $< $@
+%-Hinted.ttf: %-Hinted-raw.ttf Inconsolata-LGC.ttf
+	ttfautohint -R Inconsolata-LGC.ttf $< $@
 
 .PHONY: ttf otf ttc woff woff2 variable hintedttf
 ttf: ${FONTS}
