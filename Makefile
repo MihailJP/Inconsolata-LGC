@@ -102,23 +102,17 @@ check-static: ${FONTS}
 	fontbakery check-universal \
 	-x fontdata_namecheck \
 	-x opentype/STAT/ital_axis \
-	-x family/win_ascent_and_descent \
-	-x os2_metrics_match_hhea \
 	$^
 .PHONY: check-hinted
 check-hinted: ${HINTEDTTFONTS}
 	fontbakery check-universal \
 	-x fontdata_namecheck \
 	-x opentype/STAT/ital_axis \
-	-x family/win_ascent_and_descent \
-	-x os2_metrics_match_hhea \
 	$^
 .PHONY: check-variable
 check-variable: ${VARFONTS}
 	fontbakery check-universal \
 	-x fontdata_namecheck \
-	-x family/win_ascent_and_descent \
-	-x os2_metrics_match_hhea \
 	$^
 
 InconsolataLGC.tar.xz: ${FONTS} ${DOCUMENTS}
