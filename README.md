@@ -282,6 +282,7 @@ bump for such weight.
 Build-time dependencies
 -----------------------
 * [FontForge](https://fontforge.org/) with Python scripting feature enabled
+  * [fontforge-ref-sel-util](https://pypi.org/project/fontforge-ref-sel-util/) plugin
 * For variable font, also:
   * [fonttools](https://github.com/fonttools/fonttools)
   * [fontmake](https://github.com/googlefonts/fontmake)

@@ -3,42 +3,21 @@
 import fontforge, psMat, re
 from sys import argv
 from pathlib import Path
-
-def decomposeNestedRefs(font):
-	while True:
-		nestedRefsFound = False
-		for glyph in font.glyphs():
-			decomposedRef = []
-			for ref in glyph.references:
-				(srcglyph, matrix, _) = ref
-				if len(font[srcglyph].references) > 0:
-					print("Glyph " + glyph.glyphname + " has a nested reference to " + srcglyph)
-					for srcref in font[srcglyph].references:
-						decomposedRef += [(srcref[0], psMat.compose(srcref[1], matrix), False)]
-					nestedRefsFound = True
-				else:
-					decomposedRef += [ref]
-			glyph.references = tuple(decomposedRef)
-		if not nestedRefsFound:
-			break
-
-def decomposeDistortedRefs(font):
-	for glyph in font.glyphs():
-		for ref in glyph.references:
-			(srcglyph, matrix, _) = ref
-			if matrix[:4] != (1, 0, 0, 1):
-				print("Glyph " + glyph.glyphname + " has a transformed reference to " + srcglyph)
-				glyph.unlinkRmOvrlpSave = True
+import fontforge_refsel
 
 font = fontforge.open(argv[2])
-decomposeNestedRefs(font)
 if 'Hinted' in argv[1]:
-	decomposeDistortedRefs(font)
+	fontforge_refsel.selectGlyphsWithDistortedRefs(font)
+	font.unlinkReferences()
+fontforge_refsel.decomposeNestedRefs(font, True)
 if argv[1].endswith(".ufo"):
 	for glyph in font.glyphs():
 		glyph.unlinkRmOvrlpSave = False
 else:
 	font.buildOrReplaceAALTFeatures()
+
+for glyph in fontforge_refsel.unusedGlyphs(font):
+	font.removeGlyph(glyph)
 
 if argv[1].endswith(".otf"):
 	font.em = 1000

@@ -16,6 +16,7 @@ jobs:
         python-version: ">=3.9"
     - name: Install Python dependencies
       run: |
+        sudo pip3 install fontforge-ref-sel-util
         python3 -m venv venv
         source venv/bin/activate
         pip3 install afdko fonttools fontmake
