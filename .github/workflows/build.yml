@@ -21,6 +21,7 @@ jobs:
         pip3 install afdko fonttools fontmake
     - name: Install other dependencies
       run: |
+        sudo apt remove firefox
         sudo apt update
         sudo apt upgrade
         sudo apt install fontforge ttfautohint
@@ -63,6 +64,7 @@ jobs:
       run: |
         source venv/bin/activate
         fontbakery check-universal \
+          --full-lists \
           -x fontdata_namecheck \
           -x opentype/STAT/ital_axis \
           ttf/*.ttf
@@ -70,6 +72,7 @@ jobs:
       run: |
         source venv/bin/activate
         fontbakery check-universal \
+          --full-lists \
           -x fontdata_namecheck \
           -x opentype/STAT/ital_axis \
           hinted/*.ttf
@@ -77,5 +80,6 @@ jobs:
       run: |
         source venv/bin/activate
         fontbakery check-universal \
+          --full-lists \
           -x fontdata_namecheck \
           variable/*.ttf
