@@ -16,7 +16,7 @@ if argv[1].endswith(".ufo"):
 else:
 	font.buildOrReplaceAALTFeatures()
 
-for glyph in fontforge_refsel.unusedGlyphs(font):
+for glyph in sorted(fontforge_refsel.unusedGlyphs(font)):
 	font.removeGlyph(glyph)
 
 if argv[1].endswith(".otf"):
