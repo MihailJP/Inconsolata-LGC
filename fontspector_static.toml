@@ -1,0 +1,8 @@
+exclude_checks = [
+    'opentype/STAT/ital_axis',
+]
+
+[[overrides]]  # Fontbakery workaround
+code = 'namecheck-service'
+status = 'SKIP'
+reason = 'Skip if this external service is offline'

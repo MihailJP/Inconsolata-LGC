@@ -1,0 +1,6 @@
+exclude_checks = [
+    'opentype/STAT/ital_axis',
+]
+
+[overrides.fontdata_namecheck]  # Fontbakery workaround
+namecheck-service = 'SKIP'

@@ -1,0 +1,2 @@
+[overrides.fontdata_namecheck]  # Fontbakery workaround
+namecheck-service = 'SKIP'

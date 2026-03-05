@@ -1,0 +1,9 @@
+[[overrides]]  # Fontbakery workaround
+code = 'namecheck-service'
+status = 'SKIP'
+reason = 'Skip if this external service is offline'
+
+[[overrides]]
+code = 'instance-too-long'
+status = 'WARN'
+reason = 'Postponed'

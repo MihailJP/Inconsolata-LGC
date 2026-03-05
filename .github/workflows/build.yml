@@ -50,37 +50,31 @@ jobs:
     needs: build
     runs-on: ubuntu-latest
     steps:
-    - name: Set up Python
-      uses: actions/setup-python@v6
+    - name: Get Fontspector configuration file
+      uses: actions/checkout@v4
       with:
-        python-version: ">=3.9"
-    - name: Install Python Fontbakery
-      run: |
-        python3 -m venv venv
-        source venv/bin/activate
-        pip3 install shaperglot glyphsets fontbakery
+        sparse-checkout: |
+          fontspector_static.toml
+          fontspector_variable.toml
+        sparse-checkout-cone-mode: false
+    - name: Install fontspector
+      uses: fonttools/setup-fontspector@main
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     - name: Download the Artifact
       uses: actions/download-artifact@v4
     - name: Check Static Fonts
       run: |
-        source venv/bin/activate
-        fontbakery check-universal \
-          --full-lists \
-          -x fontdata_namecheck \
-          -x opentype/STAT/ital_axis \
+        fontspector --full-lists \
+          --configuration fontspector_static.toml \
           ttf/*.ttf
     - name: Check Hinted Fonts
       run: |
-        source venv/bin/activate
-        fontbakery check-universal \
-          --full-lists \
-          -x fontdata_namecheck \
-          -x opentype/STAT/ital_axis \
+        fontspector --full-lists \
+          --configuration fontspector_static.toml \
           hinted/*.ttf
     - name: Check Variable Fonts
       run: |
-        source venv/bin/activate
-        fontbakery check-universal \
-          --full-lists \
-          -x fontdata_namecheck \
+        fontspector --full-lists \
+          --configuration fontspector_variable.toml \
           variable/*.ttf

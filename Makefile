@@ -99,21 +99,25 @@ check: check-static check-hinted check-variable
 
 .PHONY: check-static
 check-static: ${FONTS}
-	fontbakery check-universal \
-	-x fontdata_namecheck \
-	-x opentype/STAT/ital_axis \
-	$^
+	if command -v fontspector; then \
+	fontspector --configuration fontspector_static.toml $^; \
+	else \
+	fontbakery check-universal --configuration fontbakery_static.toml $^; \
+	fi
 .PHONY: check-hinted
 check-hinted: ${HINTEDTTFONTS}
-	fontbakery check-universal \
-	-x fontdata_namecheck \
-	-x opentype/STAT/ital_axis \
-	$^
+	if command -v fontspector; then \
+	fontspector --configuration fontspector_static.toml $^; \
+	else \
+	fontbakery check-universal --configuration fontbakery_static.toml $^; \
+	fi
 .PHONY: check-variable
 check-variable: ${VARFONTS}
-	fontbakery check-universal \
-	-x fontdata_namecheck \
-	$^
+	if command -v fontspector; then \
+	fontspector --configuration fontspector_variable.toml $^; \
+	else \
+	fontbakery check-universal --configuration fontbakery_variable.toml $^; \
+	fi
 
 InconsolataLGC.tar.xz: ${FONTS} ${DOCUMENTS}
 	${TTFPKGCMD}; tar cfvJ $@ $*
