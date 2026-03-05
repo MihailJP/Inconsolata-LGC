@@ -38,4 +38,6 @@ font.os2_supxsize = font1.os2_supxsize
 font.os2_supyoff = font1.os2_supyoff
 font.os2_supysize = font1.os2_supysize
 
+font.importLookups(font1, font1.gsub_lookups)
+
 font.save(argv[1])
