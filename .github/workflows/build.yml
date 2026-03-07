@@ -65,16 +65,16 @@ jobs:
       uses: actions/download-artifact@v4
     - name: Check Static Fonts
       run: |
-        fontspector --full-lists \
+        fontspector -l info --full-lists \
           --configuration fontspector_static.toml \
           ttf/*.ttf
     - name: Check Hinted Fonts
       run: |
-        fontspector --full-lists \
+        fontspector -l info --full-lists \
           --configuration fontspector_static.toml \
           hinted/*.ttf
     - name: Check Variable Fonts
       run: |
-        fontspector --full-lists \
+        fontspector -l info --full-lists \
           --configuration fontspector_variable.toml \
           variable/*.ttf
