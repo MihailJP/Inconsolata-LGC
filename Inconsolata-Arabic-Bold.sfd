@@ -4,7 +4,7 @@ FullName: Inconsolata LGC Bold
 FamilyName: Inconsolata LGC
 Weight: Bold
 Copyright: Original Roman version created by Raph Levien using his own tools and FontForge. Copyright 2006 Raph Levien. Hellenisation of the Roman font, by Dimosthenis Kaponis, using FontForge. Hellenic glyphs Copyright 2010-2012 Dimosthenis Kaponis. Released under the SIL Open Font License, http://scripts.sil.org/OFL.\n\nCyrillic glyphs added by MihailJP, using FontForge. Cyrillic glyphs Copyright 2012 MihailJP. Released under the SIL Open Font License, http://scripts.sil.org/OFL.\n\nEmboldened by MihailJP.\n\nSome glyphs modified by Greg Omelaenko, using FontForge.\n\nArabic glyphs are derived from public domain part of DejaVu Sans Mono.
-UComments: "2005-8-26: Created."
+UComments: "2005-8-26: Created.+AAoACgAA-Interpolate 0.45"
 Version: 2.001
 ItalicAngle: 0
 UnderlinePosition: -101
@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1161020814
-ModificationTime: 1774266799
+ModificationTime: 1774275756
 PfmFamily: 49
 TTFWeight: 700
 TTFWidth: 5
@@ -197,31 +197,31 @@ StartChar: uniFE80
 Encoding: 65152 65152 3
 Width: 613
 Flags: W
-AnchorPoint: "rtl-below" 348 -6 basechar 0
-AnchorPoint: "rtl-above" 319 578 basechar 0
+AnchorPoint: "rtl-above" 325 578 basechar 0
+AnchorPoint: "rtl-below" 320 -3 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-215 14 m 25
+215 29 m 25
  215 130 l 17
- 231 132 249 137 268 143 c 0
- 284 149 301 156 318 162 c 1
- 283 170 257 187 238 212 c 16
- 217 241 206 272 206 304 c 0
- 206 329 209 358 216 390 c 8
- 221 415 245 441 286 468 c 0
- 314 486 349 495 392 495 c 0
+ 231 132 252 137 275 145 c 0
+ 295 152 313 159 330 168 c 1
+ 288 176 259 193 241 218 c 16
+ 222 246 213 274 212 304 c 0
+ 213 327 216 353 223 381 c 8
+ 231 414 253 442 290 466 c 0
+ 321 485 355 494 392 495 c 0
  428 495 461 491 492 484 c 9
- 492 368 l 17
- 459 379 431 383 408 382 c 0
- 384 381 367 377 358 369 c 24
- 343 356 336 335 336 306 c 0
- 336 267 361 242 410 230 c 16
+ 492 381 l 17
+ 459 392 431 396 408 395 c 0
+ 388 395 371 391 358 382 c 24
+ 334 367 322 342 322 309 c 0
+ 322 270 351 244 410 230 c 16
  429 225 448 225 468 230 c 0
  492 237 513 246 532 258 c 9
- 532 136 l 25
- 502 116 453 93 385 66 c 0
- 308 37 251 19 215 14 c 25
+ 532 152 l 25
+ 502 132 453 109 385 82 c 0
+ 308 52 251 34 215 29 c 25
 EndSplineSet
 Colour: ffff
 EndChar
@@ -233,7 +233,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 166 1575 N 1 0 0 1 0 0 2
-Refer: 151 -1 N 1 0 0 1 -2 235 2
+Refer: 151 -1 N 1 0 0 1 -2 230 2
 EndChar
 
 StartChar: uniFE82
@@ -250,18 +250,18 @@ StartChar: uniFE83
 Encoding: 65155 65155 6
 Width: 613
 Flags: W
-AnchorPoint: "rtl-above" 303 1112 basechar 0
+AnchorPoint: "rtl-above" 304 1096 basechar 0
 LayerCount: 2
 Fore
 Refer: 166 1575 N 1 0 0 1 0 0 2
-Refer: 152 -1 N 1 0 0 1 -2 226 2
+Refer: 152 -1 N 1 0 0 1 -2 209 2
 EndChar
 
 StartChar: uniFE84
 Encoding: 65156 65156 7
 Width: 613
 Flags: W
-AnchorPoint: "rtl-above" 299 1124 basechar 0
+AnchorPoint: "rtl-above" 298 1131 basechar 0
 LayerCount: 2
 Fore
 Refer: 152 -1 N 1 0 0 1 18 225 2
@@ -272,21 +272,21 @@ StartChar: uniFE85
 Encoding: 65157 65157 8
 Width: 613
 Flags: W
-AnchorPoint: "rtl-above" 315 710 basechar 0
+AnchorPoint: "rtl-above" 339 680 basechar 0
 LayerCount: 2
 Fore
 Refer: 193 1608 N 1 0 0 1 0 0 2
-Refer: 152 -1 N 1 0 0 1 48 -191 2
+Refer: 152 -1 N 1 0 0 1 48 -210 2
 EndChar
 
 StartChar: uniFE86
 Encoding: 65158 65158 9
 Width: 613
 Flags: W
-AnchorPoint: "rtl-above" 269 702 basechar 0
+AnchorPoint: "rtl-above" 285 687 basechar 0
 LayerCount: 2
 Fore
-Refer: 152 -1 N 1 0 0 1 -4 -207 2
+Refer: 152 -1 N 1 0 0 1 11 -217 2
 Refer: 113 65262 N 1 0 0 1 0 0 2
 EndChar
 
@@ -294,43 +294,41 @@ StartChar: uniFE87
 Encoding: 65159 65159 10
 Width: 613
 Flags: W
-AnchorPoint: "rtl-below" 308 -310 basechar 0
-AnchorPoint: "rtl-above" 303 848 basechar 0
+AnchorPoint: "rtl-below" 306 -289 basechar 0
 LayerCount: 2
 Fore
 Refer: 166 1575 N 1 0 0 1 0 0 2
-Refer: 153 -1 N 1 0 0 1 -2 -36 2
+Refer: 153 -1 N 1 0 0 1 -2 -16 2
 EndChar
 
 StartChar: uniFE88
 Encoding: 65160 65160 11
 Width: 613
 Flags: W
-AnchorPoint: "rtl-below" 358 -286 basechar 0
+AnchorPoint: "rtl-below" 357 -280 basechar 0
 LayerCount: 2
 Fore
+Refer: 153 -1 N 1 0 0 1 23 0 2
 Refer: 17 65166 N 1 0 0 1 0 0 2
-Refer: 153 -1 N 1 0 0 1 41 0 2
 EndChar
 
 StartChar: uniFE89
 Encoding: 65161 65161 12
 Width: 613
 Flags: W
-AnchorPoint: "rtl-below" 286 -218 basechar 0
-AnchorPoint: "rtl-above" 151 688 basechar 0
+AnchorPoint: "rtl-above" 193 642 basechar 0
+AnchorPoint: "rtl-below" 256 77 basechar 0
 LayerCount: 2
 Fore
 Refer: 194 1609 N 1 0 0 1 0 0 2
-Refer: 152 -1 N 1 0 0 1 -127 -216 2
+Refer: 152 -1 N 1 0 0 1 -97 -246 2
 EndChar
 
 StartChar: uniFE8A
 Encoding: 65162 65162 13
 Width: 613
 Flags: W
-AnchorPoint: "rtl-below" 172 -216 basechar 0
-AnchorPoint: "rtl-above" 111 530 basechar 0
+AnchorPoint: "rtl-above" 127 517 basechar 0
 LayerCount: 2
 Fore
 Refer: 152 -1 N 1 0 0 1 -144 -396 2
@@ -341,8 +339,8 @@ StartChar: uniFE8B
 Encoding: 65163 65163 14
 Width: 613
 Flags: W
-AnchorPoint: "rtl-below" 264 -40 basechar 0
-AnchorPoint: "rtl-above" 282 691 basechar 0
+AnchorPoint: "rtl-above" 279 689 basechar 0
+AnchorPoint: "rtl-below" 265 -53 basechar 0
 LayerCount: 2
 Fore
 Refer: 152 -1 N 1 0 0 1 -11 -200 2
@@ -353,8 +351,8 @@ StartChar: uniFE8C
 Encoding: 65164 65164 15
 Width: 613
 Flags: W
-AnchorPoint: "rtl-below" 300 -48 basechar 0
-AnchorPoint: "rtl-above" 261 694 basechar 0
+AnchorPoint: "rtl-above" 276 692 basechar 0
+AnchorPoint: "rtl-below" 302 -68 basechar 0
 LayerCount: 2
 Fore
 Refer: 152 -1 N 1 0 0 1 0 -200 2
@@ -365,16 +363,16 @@ StartChar: uniFE8D
 Encoding: 65165 65165 16
 Width: 613
 Flags: W
-AnchorPoint: "rtl-below" 306 -38 basechar 0
-AnchorPoint: "rtl-above" 303 848 basechar 0
+AnchorPoint: "rtl-above" 305 850 basechar 0
+AnchorPoint: "rtl-below" 305 -39 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-233 778 m 1
- 379 778 l 1
- 379 0 l 1
- 233 0 l 1
- 233 778 l 1
+248 778 m 1
+ 364 778 l 1
+ 364 0 l 1
+ 248 0 l 1
+ 248 778 l 1
 EndSplineSet
 Colour: ffff
 EndChar
@@ -383,22 +381,22 @@ StartChar: uniFE8E
 Encoding: 65166 65166 17
 Width: 613
 Flags: W
-AnchorPoint: "rtl-below" 334 -74 basechar 0
-AnchorPoint: "rtl-above" 333 858 basechar 0
+AnchorPoint: "rtl-above" 312 872 basechar 0
+AnchorPoint: "rtl-below" 338 -80 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-268 206 m 2
- 268 778 l 1
- 410 778 l 1
- 410 212 l 2
- 410 177 418 151 435 135 c 0
- 450 120 487 113 547 113 c 2
- 625 113 l 1
+281 195 m 2
+ 281 778 l 1
+ 396 778 l 1
+ 396 201 l 2
+ 396 166 404 140 421 123 c 0
+ 436 108 473 101 533 101 c 2
+ 625 101 l 1
  625 0 l 1
  493 0 l 2
- 398 0 338 15 311 46 c 0
- 282 79 268 133 268 206 c 2
+ 407 0 352 15 325 46 c 0
+ 296 80 281 130 281 195 c 2
 EndSplineSet
 Colour: ffff
 EndChar
@@ -407,11 +405,11 @@ StartChar: uniFE8F
 Encoding: 65167 65167 18
 Width: 613
 Flags: W
-AnchorPoint: "rtl-below" 300 -204 basechar 0
-AnchorPoint: "rtl-above" 297 426 basechar 0
+AnchorPoint: "rtl-above" 301 402 basechar 0
+AnchorPoint: "rtl-below" 303 -195 basechar 0
 LayerCount: 2
 Fore
-Refer: 157 -1 N 1 0 0 1 250 -176 2
+Refer: 157 -1 N 1 0 0 1 265 -165 2
 Refer: 128 -1 N 1 0 0 1 0 0 2
 EndChar
 
@@ -419,8 +417,8 @@ StartChar: uniFE90
 Encoding: 65168 65168 19
 Width: 613
 Flags: W
-AnchorPoint: "rtl-below" 280 -204 basechar 0
-AnchorPoint: "rtl-above" 267 456 basechar 0
+AnchorPoint: "rtl-above" 264 410 basechar 0
+AnchorPoint: "rtl-below" 273 -204 basechar 0
 LayerCount: 2
 Fore
 Refer: 157 -1 N 1 0 0 1 232 -175 2
@@ -431,35 +429,35 @@ StartChar: uniFE91
 Encoding: 65169 65169 20
 Width: 613
 Flags: W
-AnchorPoint: "rtl-below" 290 -218 basechar 0
-AnchorPoint: "rtl-above" 275 474 basechar 0
+AnchorPoint: "rtl-above" 267 480 basechar 0
+AnchorPoint: "rtl-below" 289 -200 basechar 0
 LayerCount: 2
 Fore
 Refer: 130 64488 N 1 0 0 1 0 0 2
-Refer: 157 -1 N 1 0 0 1 242 -190 2
+Refer: 157 -1 N 1 0 0 1 248 -168 2
 EndChar
 
 StartChar: uniFE92
 Encoding: 65170 65170 21
 Width: 613
 Flags: W
-AnchorPoint: "rtl-below" 307 -240 basechar 0
-AnchorPoint: "rtl-above" 277 506 basechar 0
+AnchorPoint: "rtl-above" 290 482 basechar 0
+AnchorPoint: "rtl-below" 302 -210 basechar 0
 LayerCount: 2
 Fore
 Refer: 131 64489 N 1 0 0 1 0 0 2
-Refer: 157 -1 N 1 0 0 1 252 -200 2
+Refer: 157 -1 N 1 0 0 1 260 -172 2
 EndChar
 
 StartChar: uniFE93
 Encoding: 65171 65171 22
 Width: 613
 Flags: W
-AnchorPoint: "rtl-below" 284 -84 basechar 0
-AnchorPoint: "rtl-above" 229 646 basechar 0
+AnchorPoint: "rtl-above" 258 616 basechar 0
+AnchorPoint: "rtl-below" 281 -82 basechar 0
 LayerCount: 2
 Fore
-Refer: 158 -1 N 1 0 0 1 120 450 2
+Refer: 158 -1 N 1 0 0 1 154 450 2
 Refer: 192 1607 N 1 0 0 1 0 0 2
 EndChar
 
@@ -467,11 +465,11 @@ StartChar: uniFE94
 Encoding: 65172 65172 23
 Width: 613
 Flags: W
-AnchorPoint: "rtl-below" 244 -40 basechar 0
-AnchorPoint: "rtl-above" 244 701 basechar 0
+AnchorPoint: "rtl-above" 275 656 basechar 0
+AnchorPoint: "rtl-below" 279 -52 basechar 0
 LayerCount: 2
 Fore
-Refer: 158 -1 N 1 0 0 1 133 524 2
+Refer: 158 -1 N 1 0 0 1 184 483 2
 Refer: 109 65258 N 1 0 0 1 0 0 2
 EndChar
 
@@ -479,11 +477,11 @@ StartChar: uniFE95
 Encoding: 65173 65173 24
 Width: 613
 Flags: W
-AnchorPoint: "rtl-below" 298 -68 basechar 0
-AnchorPoint: "rtl-above" 267 542 basechar 0
+AnchorPoint: "rtl-above" 294 513 basechar 0
+AnchorPoint: "rtl-below" 306 -77 basechar 0
 LayerCount: 2
 Fore
-Refer: 158 -1 N 1 0 0 1 160 325 2
+Refer: 158 -1 N 1 0 0 1 193 325 2
 Refer: 128 -1 N 1 0 0 1 0 0 2
 EndChar
 
@@ -491,11 +489,11 @@ StartChar: uniFE96
 Encoding: 65174 65174 25
 Width: 613
 Flags: W
-AnchorPoint: "rtl-below" 282 -74 basechar 0
-AnchorPoint: "rtl-above" 275 538 basechar 0
+AnchorPoint: "rtl-above" 277 529 basechar 0
+AnchorPoint: "rtl-below" 290 -73 basechar 0
 LayerCount: 2
 Fore
-Refer: 158 -1 N 1 0 0 1 166 325 2
+Refer: 158 -1 N 1 0 0 1 188 325 2
 Refer: 129 -1 N 1 0 0 1 0 0 2
 EndChar
 
@@ -503,11 +501,11 @@ StartChar: uniFE97
 Encoding: 65175 65175 26
 Width: 613
 Flags: W
-AnchorPoint: "rtl-below" 270 -80 basechar 0
-AnchorPoint: "rtl-above" 261 632 basechar 0
+AnchorPoint: "rtl-above" 269 620 basechar 0
+AnchorPoint: "rtl-below" 278 -70 basechar 0
 LayerCount: 2
 Fore
-Refer: 158 -1 N 1 0 0 1 154 425 2
+Refer: 158 -1 N 1 0 0 1 180 425 2
 Refer: 130 64488 N 1 0 0 1 0 0 2
 EndChar
 
@@ -515,11 +513,11 @@ StartChar: uniFE98
 Encoding: 65176 65176 27
 Width: 613
 Flags: W
-AnchorPoint: "rtl-below" 270 -80 basechar 0
-AnchorPoint: "rtl-above" 261 624 basechar 0
+AnchorPoint: "rtl-above" 270 624 basechar 0
+AnchorPoint: "rtl-below" 285 -72 basechar 0
 LayerCount: 2
 Fore
-Refer: 158 -1 N 1 0 0 1 159 425 2
+Refer: 158 -1 N 1 0 0 1 183 425 2
 Refer: 131 64489 N 1 0 0 1 0 0 2
 EndChar
 
@@ -527,11 +525,11 @@ StartChar: uniFE99
 Encoding: 65177 65177 28
 Width: 613
 Flags: W
-AnchorPoint: "rtl-below" 298 -68 basechar 0
-AnchorPoint: "rtl-above" 247 674 basechar 0
+AnchorPoint: "rtl-above" 261 629 basechar 0
+AnchorPoint: "rtl-below" 306 -77 basechar 0
 LayerCount: 2
 Fore
-Refer: 159 -1 N 1 0 0 1 160 325 2
+Refer: 159 -1 N 1 0 0 1 188 325 2
 Refer: 128 -1 N 1 0 0 1 0 0 2
 EndChar
 
@@ -539,11 +537,11 @@ StartChar: uniFE9A
 Encoding: 65178 65178 29
 Width: 613
 Flags: W
-AnchorPoint: "rtl-below" 270 -80 basechar 0
-AnchorPoint: "rtl-above" 239 690 basechar 0
+AnchorPoint: "rtl-above" 259 662 basechar 0
+AnchorPoint: "rtl-below" 281 -71 basechar 0
 LayerCount: 2
 Fore
-Refer: 159 -1 N 1 0 0 1 152 325 2
+Refer: 159 -1 N 1 0 0 1 185 325 2
 Refer: 129 -1 N 1 0 0 1 0 0 2
 EndChar
 
@@ -551,32 +549,32 @@ StartChar: uniFE9B
 Encoding: 65179 65179 30
 Width: 613
 Flags: W
-AnchorPoint: "rtl-below" 270 -80 basechar 0
-AnchorPoint: "rtl-above" 239 774 basechar 0
+AnchorPoint: "rtl-above" 256 728 basechar 0
+AnchorPoint: "rtl-below" 281 -72 basechar 0
 LayerCount: 2
 Fore
 Refer: 130 64488 N 1 0 0 1 0 0 2
-Refer: 159 -1 N 1 0 0 1 153 425 2
+Refer: 159 -1 N 1 0 0 1 182 425 2
 EndChar
 
 StartChar: uniFE9C
 Encoding: 65180 65180 31
 Width: 613
 Flags: W
-AnchorPoint: "rtl-below" 270 -80 basechar 0
-AnchorPoint: "rtl-above" 245 768 basechar 0
+AnchorPoint: "rtl-above" 259 724 basechar 0
+AnchorPoint: "rtl-below" 284 -74 basechar 0
 LayerCount: 2
 Fore
 Refer: 131 64489 N 1 0 0 1 0 0 2
-Refer: 159 -1 N 1 0 0 1 156 406 2
+Refer: 159 -1 N 1 0 0 1 184 406 2
 EndChar
 
 StartChar: uniFE9D
 Encoding: 65181 65181 32
 Width: 613
 Flags: W
-AnchorPoint: "rtl-below" 284 -300 basechar 0
-AnchorPoint: "rtl-above" 209 566 basechar 0
+AnchorPoint: "rtl-above" 230 570 basechar 0
+AnchorPoint: "rtl-below" 266 -290 basechar 0
 LayerCount: 2
 Fore
 Refer: 157 -1 N 1 0 0 1 330 6 2
@@ -587,11 +585,11 @@ StartChar: uniFE9E
 Encoding: 65182 65182 33
 Width: 613
 Flags: W
-AnchorPoint: "rtl-below" 248 -280 basechar 0
-AnchorPoint: "rtl-above" 231 582 basechar 0
+AnchorPoint: "rtl-above" 232 578 basechar 0
+AnchorPoint: "rtl-below" 251 -298 basechar 0
 LayerCount: 2
 Fore
-Refer: 157 -1 N 1 0 0 1 274 -25 2
+Refer: 157 -1 N 1 0 0 1 294 -25 2
 Refer: 37 65186 N 1 0 0 1 0 0 2
 EndChar
 
@@ -599,8 +597,8 @@ StartChar: uniFE9F
 Encoding: 65183 65183 34
 Width: 613
 Flags: W
-AnchorPoint: "rtl-below" 260 -190 basechar 0
-AnchorPoint: "rtl-above" 155 598 basechar 0
+AnchorPoint: "rtl-above" 171 572 basechar 0
+AnchorPoint: "rtl-below" 259 -189 basechar 0
 LayerCount: 2
 Fore
 Refer: 157 -1 N 1 0 0 1 260 -150 2
@@ -611,8 +609,8 @@ StartChar: uniFEA0
 Encoding: 65184 65184 35
 Width: 613
 Flags: W
-AnchorPoint: "rtl-below" 262 -198 basechar 0
-AnchorPoint: "rtl-above" 159 592 basechar 0
+AnchorPoint: "rtl-above" 167 561 basechar 0
+AnchorPoint: "rtl-below" 261 -200 basechar 0
 LayerCount: 2
 Fore
 Refer: 157 -1 N 1 0 0 1 260 -150 2
@@ -623,29 +621,29 @@ StartChar: uniFEA1
 Encoding: 65185 65185 36
 Width: 613
 Flags: W
-AnchorPoint: "rtl-below" 304 -294 basechar 0
-AnchorPoint: "rtl-above" 209 566 basechar 0
+AnchorPoint: "rtl-above" 235 563 basechar 0
+AnchorPoint: "rtl-below" 280 -286 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-42 424 m 1
- 134 445 213 456 278 455 c 0
- 375 455 457 446 522 428 c 1
+42 413 m 1
+ 134 434 213 445 278 444 c 0
+ 375 444 457 435 522 417 c 1
  522 331 l 1
- 433 335 357 311 296 260 c 0
- 223 198 186 121 186 30 c 0
- 186 -27 207 -71 248 -102 c 0
- 283 -129 331 -142 394 -142 c 0
- 462 -142 529 -123 596 -86 c 1
+ 428 336 347 309 280 253 c 0
+ 206 190 169 117 169 30 c 0
+ 169 -20 185 -61 217 -93 c 0
+ 256 -135 315 -156 394 -156 c 0
+ 460 -156 527 -137 596 -98 c 1
  596 -200 l 1
  545 -233 479 -249 396 -250 c 0
- 267 -251 174 -218 118 -153 c 0
- 74 -102 52 -40 52 34 c 0
- 52 118 76 193 124 260 c 0
- 140 283 171 311 216 346 c 1
- 203 347 183 346 157 342 c 0
+ 271 -251 181 -218 125 -153 c 0
+ 81 -102 59 -40 59 34 c 0
+ 59 119 88 197 149 268 c 0
+ 174 296 209 323 255 349 c 1
+ 231 351 198 348 157 342 c 0
  112 335 73 325 42 312 c 1
- 42 424 l 1
+ 42 413 l 1
 EndSplineSet
 Colour: ffff
 EndChar
@@ -654,39 +652,39 @@ StartChar: uniFEA2
 Encoding: 65186 65186 37
 Width: 613
 Flags: W
-AnchorPoint: "rtl-below" 248 -280 basechar 0
-AnchorPoint: "rtl-above" 225 582 basechar 0
+AnchorPoint: "rtl-above" 226 592 basechar 0
+AnchorPoint: "rtl-below" 251 -298 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-614 112 m 6
- 634 112 l 1
+614 101 m 2
+ 634 101 l 1
  634 0 l 1
  610 0 l 2
- 555 0 505 21 459 62 c 0
- 424 95 396 135 376 180 c 0
- 363 212 355 251 352 296 c 1
- 339 295 320 283 296 260 c 0
- 223 192 186 115 186 30 c 0
- 186 -27 207 -71 248 -102 c 0
- 283 -129 331 -142 394 -142 c 0
- 462 -142 529 -123 596 -86 c 1
+ 562 0 516 23 473 69 c 0
+ 442 102 416 144 396 193 c 0
+ 389 211 379 245 364 298 c 1
+ 337 293 309 278 280 253 c 0
+ 206 189 169 114 169 30 c 0
+ 169 -22 185 -62 217 -93 c 0
+ 256 -135 315 -156 394 -156 c 0
+ 460 -156 527 -137 596 -98 c 1
  596 -200 l 1
  545 -233 479 -249 396 -250 c 0
- 267 -251 174 -218 118 -153 c 0
- 74 -102 52 -40 52 34 c 0
- 52 118 76 193 124 260 c 0
- 140 283 171 311 216 346 c 1
- 203 347 183 346 157 342 c 0
- 110 335 72 325 42 312 c 1
- 42 424 l 1
- 134 445 213 456 278 455 c 0
- 375 455 457 446 522 428 c 1
+ 271 -251 181 -218 125 -153 c 0
+ 81 -102 59 -40 59 34 c 0
+ 59 119 88 197 149 268 c 0
+ 174 296 209 323 255 349 c 1
+ 231 351 198 348 157 342 c 0
+ 111 335 73 325 42 312 c 1
+ 42 413 l 1
+ 134 434 213 445 278 444 c 0
+ 375 444 457 435 522 417 c 1
  522 331 l 1
- 499 333 481 333 468 330 c 1
- 465 317 463 303 463 288 c 0
- 463 249 481 209 518 168 c 0
- 550 131 582 112 614 112 c 6
+ 492 331 471 330 459 327 c 1
+ 458 321 465 290 465 283 c 1
+ 474 236 494 195 524 159 c 0
+ 554 120 584 101 614 101 c 2
 EndSplineSet
 Colour: ffff
 EndChar
@@ -695,30 +693,30 @@ StartChar: uniFEA3
 Encoding: 65187 65187 38
 Width: 613
 Flags: W
-AnchorPoint: "rtl-below" 170 -58 basechar 0
-AnchorPoint: "rtl-above" 155 570 basechar 0
+AnchorPoint: "rtl-above" 152 578 basechar 0
+AnchorPoint: "rtl-below" 162 -60 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-418 270 m 1
- 403 274 374 281 330 292 c 0
- 311 296 267 301 198 308 c 0
- 170 311 129 311 76 308 c 1
- 76 430 l 1
- 100 433 125 434 150 434 c 0
- 206 434 262 428 317 416 c 0
- 397 399 477 373 556 339 c 1
- 556 218 l 1
- 540 207 511 193 468 176 c 0
- 449 168 416 145 368 106 c 0
- 333 78 287 53 228 30 c 0
- 175 10 116 0 52 0 c 2
+421 270 m 1
+ 399 276 369 284 330 293 c 0
+ 306 299 262 304 198 310 c 0
+ 170 313 129 313 76 310 c 1
+ 76 416 l 1
+ 100 419 125 420 150 420 c 0
+ 205 420 261 414 317 402 c 0
+ 400 385 480 359 556 326 c 1
+ 556 229 l 1
+ 535 220 506 206 471 189 c 0
+ 432 167 395 143 360 113 c 0
+ 318 77 277 51 237 36 c 0
+ 173 12 111 0 52 0 c 2
  -12 0 l 1
- -12 112 l 1
- 38 112 l 2
- 78 112 131 125 198 152 c 0
- 239 168 275 187 306 208 c 0
- 326 221 363 242 418 270 c 1
+ -12 101 l 1
+ 38 101 l 2
+ 98 101 154 114 208 139 c 0
+ 246 157 282 180 317 209 c 0
+ 344 230 378 251 421 270 c 1
 EndSplineSet
 Colour: ffff
 EndChar
@@ -727,37 +725,37 @@ StartChar: uniFEA4
 Encoding: 65188 65188 39
 Width: 613
 Flags: W
-AnchorPoint: "rtl-below" 156 -76 basechar 0
-AnchorPoint: "rtl-above" 153 576 basechar 0
+AnchorPoint: "rtl-above" 173 577 basechar 0
+AnchorPoint: "rtl-below" 163 -74 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-416 142 m 1
- 407 134 391 122 368 106 c 0
- 325 75 279 50 228 30 c 0
- 176 10 117 0 52 0 c 2
+412 152 m 1
+ 395 140 378 127 360 113 c 0
+ 314 75 274 50 237 36 c 0
+ 173 12 112 0 52 0 c 2
  -12 0 l 1
- -12 112 l 1
- 38 112 l 2
- 78 112 131 125 198 152 c 0
- 239 168 275 187 306 208 c 0
- 326 221 363 242 418 270 c 1
- 403 274 374 281 330 292 c 0
- 311 296 267 301 198 308 c 0
- 170 311 129 311 76 308 c 1
- 76 430 l 1
- 100 433 125 434 150 434 c 0
- 203 435 259 429 317 416 c 0
- 397 399 477 373 556 339 c 1
- 556 218 l 1
- 544 211 529 204 510 196 c 1
- 518 183 527 170 537 158 c 0
- 564 127 587 112 606 112 c 2
- 636 112 l 1
+ -12 101 l 1
+ 38 101 l 2
+ 98 101 154 114 208 139 c 0
+ 246 157 282 180 317 209 c 0
+ 344 230 378 251 421 270 c 1
+ 399 276 369 284 330 293 c 0
+ 306 299 262 304 198 310 c 0
+ 170 313 129 313 76 310 c 1
+ 76 416 l 1
+ 100 419 125 420 150 420 c 0
+ 204 420 260 414 317 402 c 0
+ 400 385 480 359 556 326 c 1
+ 556 229 l 1
+ 539 222 519 214 497 203 c 1
+ 510 183 522 167 532 155 c 0
+ 563 119 588 101 606 101 c 2
+ 636 101 l 1
  636 0 l 1
  596 0 l 2
- 543 0 496 27 456 82 c 0
- 436 109 423 129 416 142 c 1
+ 544 0 498 27 457 83 c 0
+ 441 106 426 129 412 152 c 1
 EndSplineSet
 Colour: ffff
 EndChar
@@ -766,8 +764,8 @@ StartChar: uniFEA5
 Encoding: 65189 65189 40
 Width: 613
 Flags: W
-AnchorPoint: "rtl-below" 308 -296 basechar 0
-AnchorPoint: "rtl-above" 231 710 basechar 0
+AnchorPoint: "rtl-above" 245 691 basechar 0
+AnchorPoint: "rtl-below" 295 -294 basechar 0
 LayerCount: 2
 Fore
 Refer: 157 -1 N 1 0 0 1 229 525 2
@@ -778,8 +776,8 @@ StartChar: uniFEA6
 Encoding: 65190 65190 41
 Width: 613
 Flags: W
-AnchorPoint: "rtl-below" 248 -280 basechar 0
-AnchorPoint: "rtl-above" 239 752 basechar 0
+AnchorPoint: "rtl-above" 236 716 basechar 0
+AnchorPoint: "rtl-below" 251 -298 basechar 0
 LayerCount: 2
 Fore
 Refer: 157 -1 N 1 0 0 1 236 525 2
@@ -790,11 +788,11 @@ StartChar: uniFEA7
 Encoding: 65191 65191 42
 Width: 613
 Flags: W
-AnchorPoint: "rtl-below" 168 -68 basechar 0
-AnchorPoint: "rtl-above" 151 736 basechar 0
+AnchorPoint: "rtl-above" 146 674 basechar 0
+AnchorPoint: "rtl-below" 179 -66 basechar 0
 LayerCount: 2
 Fore
-Refer: 157 -1 N 1 0 0 1 206 511 2
+Refer: 157 -1 N 1 0 0 1 237 491 2
 Refer: 38 65187 N 1 0 0 1 0 0 2
 EndChar
 
@@ -802,8 +800,8 @@ StartChar: uniFEA8
 Encoding: 65192 65192 43
 Width: 613
 Flags: W
-AnchorPoint: "rtl-below" 144 -74 basechar 0
-AnchorPoint: "rtl-above" 199 674 basechar 0
+AnchorPoint: "rtl-above" 165 645 basechar 0
+AnchorPoint: "rtl-below" 153 -78 basechar 0
 LayerCount: 2
 Fore
 Refer: 157 -1 N 1 0 0 1 262 475 2
@@ -814,26 +812,26 @@ StartChar: uniFEA9
 Encoding: 65193 65193 44
 Width: 613
 Flags: W
-AnchorPoint: "rtl-below" 298 -68 basechar 0
-AnchorPoint: "rtl-above" 209 566 basechar 0
+AnchorPoint: "rtl-above" 221 557 basechar 0
+AnchorPoint: "rtl-below" 276 -67 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-296 106 m 0
- 355 123 389 149 400 186 c 0
- 403 195 404 207 404 220 c 0
- 404 251 394 283 374 318 c 0
- 351 357 311 406 254 467 c 1
- 418 467 l 1
- 454 432 484 392 507 348 c 0
- 534 297 548 254 548 219 c 0
- 548 154 532 102 500 61 c 0
- 469 20 406 -5 311 -16 c 0
- 292 -19 268 -20 241 -19 c 0
+296 90 m 0
+ 355 107 389 133 400 170 c 0
+ 403 179 404 191 404 204 c 0
+ 404 235 394 267 374 302 c 0
+ 350 342 310 390 254 450 c 1
+ 390 450 l 1
+ 426 415 457 376 480 332 c 0
+ 507 281 520 237 520 202 c 0
+ 520 155 510 116 490 84 c 0
+ 461 30 402 -4 311 -16 c 0
+ 294 -19 270 -20 241 -19 c 0
  190 -19 148 -13 114 0 c 1
- 114 122 l 1
- 153 108 194 101 238 101 c 0
- 265 102 285 103 296 106 c 0
+ 114 106 l 1
+ 153 92 194 84 238 84 c 0
+ 265 85 285 87 296 90 c 0
 EndSplineSet
 Colour: ffff
 EndChar
@@ -842,31 +840,31 @@ StartChar: uniFEAA
 Encoding: 65194 65194 45
 Width: 613
 Flags: W
-AnchorPoint: "rtl-below" 252 -82 basechar 0
-AnchorPoint: "rtl-above" 249 606 basechar 0
+AnchorPoint: "rtl-above" 253 605 basechar 0
+AnchorPoint: "rtl-below" 268 -82 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-548 219 m 0
- 548 198 541 145 581 121 c 0
- 590 116 599 112 610 112 c 2
- 624 112 l 1
+520 202 m 0
+ 520 180 525 143 558 117 c 0
+ 570 107 587 101 610 101 c 2
+ 624 101 l 1
  624 0 l 1
  583 0 l 2
- 558 0 530 20 500 61 c 1
- 469 20 406 -5 311 -16 c 0
- 292 -19 268 -20 241 -19 c 0
+ 545 0 510 21 479 63 c 1
+ 448 21 392 -5 311 -16 c 0
+ 294 -19 270 -20 241 -19 c 0
  190 -19 148 -13 114 0 c 1
- 114 122 l 1
- 153 108 194 101 238 101 c 0
- 265 102 285 103 296 106 c 0
- 353 121 388 148 400 186 c 0
- 403 195 404 207 404 220 c 0
- 404 251 394 283 374 318 c 0
- 351 357 311 406 254 467 c 1
- 418 467 l 1
- 454 432 484 392 507 348 c 0
- 533 301 548 258 548 219 c 0
+ 114 106 l 1
+ 153 92 194 84 238 84 c 0
+ 265 85 285 87 296 90 c 0
+ 353 105 388 132 400 170 c 0
+ 403 179 404 191 404 204 c 0
+ 404 235 394 267 374 302 c 0
+ 351 341 311 389 254 450 c 1
+ 390 450 l 1
+ 426 415 457 376 480 332 c 0
+ 507 284 520 240 520 202 c 0
 EndSplineSet
 Colour: ffff
 EndChar
@@ -875,11 +873,11 @@ StartChar: uniFEAB
 Encoding: 65195 65195 46
 Width: 613
 Flags: W
-AnchorPoint: "rtl-below" 298 -68 basechar 0
-AnchorPoint: "rtl-above" 267 740 basechar 0
+AnchorPoint: "rtl-above" 242 704 basechar 0
+AnchorPoint: "rtl-below" 276 -62 basechar 0
 LayerCount: 2
 Fore
-Refer: 157 -1 N 1 0 0 1 270 561 2
+Refer: 157 -1 N 1 0 0 1 270 548 2
 Refer: 174 1583 N 1 0 0 1 0 0 2
 EndChar
 
@@ -887,11 +885,11 @@ StartChar: uniFEAC
 Encoding: 65196 65196 47
 Width: 613
 Flags: W
-AnchorPoint: "rtl-below" 252 -82 basechar 0
-AnchorPoint: "rtl-above" 285 774 basechar 0
+AnchorPoint: "rtl-above" 273 727 basechar 0
+AnchorPoint: "rtl-below" 268 -82 basechar 0
 LayerCount: 2
 Fore
-Refer: 157 -1 N 1 0 0 1 280 563 2
+Refer: 157 -1 N 1 0 0 1 272 542 2
 Refer: 45 65194 N 1 0 0 1 0 0 2
 EndChar
 
@@ -899,22 +897,22 @@ StartChar: uniFEAD
 Encoding: 65197 65197 48
 Width: 613
 Flags: W
-AnchorPoint: "rtl-below" 277 -274 basechar 0
-AnchorPoint: "rtl-above" 235 488 basechar 0
+AnchorPoint: "rtl-above" 247 430 basechar 0
+AnchorPoint: "rtl-below" 278 -273 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-432 77 m 0
- 435 96 436 118 436 142 c 0
- 436 184 427 228 410 273 c 1
- 552 273 l 1
- 569 234 577 192 577 148 c 0
- 577 124 576 100 573 76 c 0
- 561 -27 491 -113 362 -180 c 0
- 277 -228 147 -252 -28 -252 c 1
- -28 -130 l 1
- 123 -130 233 -109 304 -66 c 0
- 381 -19 424 28 432 77 c 0
+441 77 m 0
+ 445 96 446 118 446 142 c 0
+ 446 184 437 228 419 273 c 1
+ 534 273 l 1
+ 551 234 559 192 559 148 c 0
+ 559 122 558 98 555 76 c 0
+ 542 -31 477 -116 358 -178 c 0
+ 270 -226 141 -250 -28 -252 c 1
+ -28 -146 l 1
+ 121 -146 232 -125 304 -82 c 0
+ 385 -34 431 18 441 77 c 0
 EndSplineSet
 Colour: ffff
 EndChar
@@ -923,27 +921,27 @@ StartChar: uniFEAE
 Encoding: 65198 65198 49
 Width: 613
 Flags: W
-AnchorPoint: "rtl-below" 230 -264 basechar 0
-AnchorPoint: "rtl-above" 117 524 basechar 0
+AnchorPoint: "rtl-above" 171 451 basechar 0
+AnchorPoint: "rtl-below" 211 -278 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-356 275 m 5
- 498 275 l 1
- 506 258 511 241 514 224 c 0
- 521 185 530 155 543 135 c 0
- 553 120 570 112 594 112 c 2
- 624 112 l 1
+365 275 m 1
+ 480 275 l 1
+ 489 247 494 226 496 213 c 0
+ 501 176 513 146 532 123 c 0
+ 544 108 565 101 594 101 c 2
+ 624 101 l 1
  624 0 l 1
  567 0 l 2
- 530 0 508 4 502 11 c 1
- 473 -62 408 -125 308 -178 c 0
- 219 -226 89 -250 -82 -250 c 1
- -82 -128 l 1
- 69 -128 179 -107 250 -64 c 0
- 327 -17 370 30 378 79 c 0
- 381 98 382 120 382 144 c 0
- 382 186 373 230 356 275 c 5
+ 527 0 500 7 488 22 c 1
+ 464 -56 403 -123 304 -176 c 0
+ 212 -226 83 -250 -82 -250 c 1
+ -82 -144 l 1
+ 67 -144 178 -123 250 -80 c 0
+ 331 -32 377 21 387 79 c 0
+ 391 98 392 120 392 144 c 0
+ 392 186 383 230 365 275 c 1
 EndSplineSet
 Colour: ffff
 EndChar
@@ -952,11 +950,11 @@ StartChar: uniFEAF
 Encoding: 65199 65199 50
 Width: 613
 Flags: W
-AnchorPoint: "rtl-below" 276 -264 basechar 0
-AnchorPoint: "rtl-above" 241 584 basechar 0
+AnchorPoint: "rtl-above" 220 553 basechar 0
+AnchorPoint: "rtl-below" 277 -265 basechar 0
 LayerCount: 2
 Fore
-Refer: 157 -1 N 1 0 0 1 424 380 2
+Refer: 157 -1 N 1 0 0 1 425 391 2
 Refer: 176 1585 N 1 0 0 1 0 0 2
 EndChar
 
@@ -964,11 +962,11 @@ StartChar: uniFEB0
 Encoding: 65200 65200 51
 Width: 613
 Flags: W
-AnchorPoint: "rtl-below" 230 -264 basechar 0
-AnchorPoint: "rtl-above" 181 614 basechar 0
+AnchorPoint: "rtl-above" 166 595 basechar 0
+AnchorPoint: "rtl-below" 216 -278 basechar 0
 LayerCount: 2
 Fore
-Refer: 157 -1 N 1 0 0 1 364 398 2
+Refer: 157 -1 N 1 0 0 1 371 399 2
 Refer: 49 65198 N 1 0 0 1 0 0 2
 EndChar
 
@@ -976,48 +974,48 @@ StartChar: uniFEB1
 Encoding: 65201 65201 52
 Width: 613
 Flags: W
-AnchorPoint: "rtl-below" 292 -246 basechar 0
-AnchorPoint: "rtl-above" 279 482 basechar 0
+AnchorPoint: "rtl-above" 291 494 basechar 0
+AnchorPoint: "rtl-below" 300 -231 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-234 14 m 1
- 233 -15 228 -54 219 -101 c 0
- 210 -142 196 -175 176 -200 c 0
- 152 -231 115 -246 66 -246 c 0
- 22 -246 -17 -229 -50 -196 c 0
- -83 -164 -100 -109 -100 -32 c 0
- -100 40 -91 100 -74 149 c 1
- 40 149 l 1
- 24 78 17 17 19 -32 c 0
- 20 -72 27 -102 39 -122 c 0
- 46 -134 55 -140 66 -140 c 128
- 77 -140 89 -131 102 -112 c 0
- 111 -100 118 -79 122 -48 c 0
- 127 -12 130 34 130 90 c 0
- 130 119 127 150 122 183 c 2
- 101 300 l 1
- 100 300 139 300 218 300 c 1
- 228 222 l 2
- 231 193 237 163 246 132 c 0
- 253 109 262 98 275 98 c 128
- 288 98 297 116 304 152 c 0
- 309 176 312 225 311 300 c 1
- 428 300 l 1
- 428 231 433 174 444 130 c 0
- 451 105 459 92 470 92 c 0
- 486 92 494 137 494 228 c 2
- 494 375 l 1
- 614 375 l 1
- 614 204 l 2
- 614 127 603 71 581 36 c 0
- 570 19 556 7 538 0 c 0
- 514 -9 491 -14 470 -14 c 0
- 445 -14 425 -6 410 11 c 0
- 389 34 376 56 372 76 c 1
- 371 60 363 41 348 18 c 0
- 336 -1 311 -10 274 -9 c 0
- 257 -8 243 -1 234 14 c 1
+213 23 m 1
+ 211 -21 206 -63 196 -101 c 0
+ 185 -141 170 -174 150 -200 c 0
+ 126 -231 92 -246 50 -246 c 0
+ 13 -246 -24 -229 -57 -196 c 0
+ -93 -160 -110 -106 -107 -32 c 0
+ -103 43 -92 103 -73 149 c 1
+ 24 149 l 1
+ 1 76 -10 15 -8 -32 c 0
+ -6 -81 1 -115 12 -132 c 0
+ 24 -148 37 -157 50 -156 c 0
+ 65 -156 79 -146 94 -124 c 0
+ 104 -109 113 -83 120 -47 c 0
+ 127 -11 130 35 129 90 c 0
+ 129 120 126 151 121 183 c 2
+ 100 300 l 1
+ 100 300 161 300 197 300 c 1
+ 207 222 l 2
+ 211 183 217 153 225 132 c 0
+ 237 107 249 95 262 94 c 0
+ 276 93 290 112 301 152 c 0
+ 310 182 314 231 314 300 c 1
+ 412 300 l 1
+ 411 239 416 186 428 140 c 0
+ 437 107 447 90 460 90 c 0
+ 486 90 500 136 500 228 c 2
+ 500 375 l 1
+ 599 375 l 1
+ 599 204 l 2
+ 599 140 588 87 567 43 c 0
+ 556 21 539 3 515 -6 c 0
+ 500 -12 481 -14 457 -14 c 0
+ 434 -14 416 -8 405 4 c 0
+ 384 27 370 54 363 86 c 1
+ 357 59 344 36 325 15 c 0
+ 310 -1 288 -9 258 -9 c 0
+ 242 -9 226 1 213 23 c 1
 EndSplineSet
 Substitution2: "Forms before tail fragment-1" uniFEB1.alt
 Colour: ffff
@@ -1027,53 +1025,53 @@ StartChar: uniFEB2
 Encoding: 65202 65202 53
 Width: 613
 Flags: W
-AnchorPoint: "rtl-below" 206 -262 basechar 0
-AnchorPoint: "rtl-above" 227 476 basechar 0
+AnchorPoint: "rtl-above" 228 476 basechar 0
+AnchorPoint: "rtl-below" 186 -254 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-436 -14 m 28
- 411 -14 391 -6 376 11 c 0
- 355 34 342 56 338 76 c 1
- 337 60 329 41 314 18 c 0
- 302 -1 277 -10 240 -9 c 0
- 223 -8 209 -1 200 14 c 1
- 199 -15 194 -54 185 -101 c 0
- 176 -142 162 -175 142 -200 c 0
- 118 -231 81 -246 32 -246 c 0
- -12 -246 -51 -229 -84 -196 c 0
- -117 -164 -134 -109 -134 -32 c 0
- -134 40 -125 100 -108 149 c 1
- 6 149 l 1
- -10 78 -17 17 -15 -32 c 0
- -14 -72 -7 -102 5 -122 c 0
- 12 -134 21 -140 32 -140 c 0
- 41 -140 53 -131 68 -112 c 0
- 77 -100 84 -79 88 -48 c 0
- 93 -12 96 34 96 90 c 0
- 96 119 93 150 88 183 c 2
- 67 300 l 1
- 66 300 105 300 184 300 c 1
- 194 222 l 2
- 197 193 203 163 212 132 c 0
- 219 109 228 98 241 98 c 128
- 254 98 263 116 270 152 c 0
- 275 176 278 225 277 300 c 1
- 394 300 l 1
- 394 231 399 174 410 130 c 0
- 417 105 425 92 436 92 c 0
- 452 92 460 137 460 228 c 2
- 460 375 l 1
- 580 375 l 1
- 580 374 580 374 580 224 c 2
- 580 169 587 135 602 121 c 0
- 607 115 614 112 622 112 c 2
- 626 112 l 1
- 626 0 l 1
- 595 0 l 2
- 578 0 562 12 547 36 c 1
- 536 19 522 7 504 0 c 0
- 480 -9 457 -14 436 -14 c 28
+421 -14 m 24
+ 398 -14 381 -8 369 4 c 0
+ 348 27 334 54 327 86 c 1
+ 321 59 308 36 289 15 c 0
+ 274 -1 251 -9 221 -9 c 0
+ 205 -9 190 1 177 23 c 1
+ 175 -21 170 -63 160 -101 c 0
+ 149 -141 134 -174 113 -200 c 0
+ 89 -231 55 -246 13 -246 c 0
+ -24 -246 -60 -229 -93 -196 c 0
+ -129 -160 -146 -106 -143 -32 c 0
+ -139 43 -128 103 -109 149 c 1
+ -13 149 l 1
+ -36 76 -47 15 -45 -32 c 0
+ -43 -81 -35 -115 -24 -132 c 0
+ -13 -148 -1 -157 13 -156 c 0
+ 26 -156 42 -146 58 -124 c 0
+ 69 -109 78 -83 84 -47 c 0
+ 91 -11 94 35 94 90 c 0
+ 94 120 91 151 85 183 c 2
+ 84 183 71 257 64 300 c 1
+ 64 300 125 300 161 300 c 1
+ 170 222 l 2
+ 174 183 181 153 189 132 c 0
+ 201 107 213 95 226 94 c 0
+ 241 93 253 112 264 152 c 0
+ 273 182 278 231 278 300 c 1
+ 375 300 l 1
+ 374 239 380 186 392 140 c 0
+ 401 107 411 90 424 90 c 0
+ 450 90 463 136 463 228 c 2
+ 463 375 l 1
+ 562 375 l 1
+ 562 375 562 281 562 213 c 2
+ 562 162 570 130 584 117 c 0
+ 594 106 606 101 621 101 c 2
+ 625 101 l 1
+ 625 0 l 1
+ 594 0 l 2
+ 568 0 546 15 528 43 c 1
+ 517 18 502 1 481 -6 c 0
+ 464 -12 444 -14 421 -14 c 24
 EndSplineSet
 Substitution2: "Forms before tail fragment-1" uniFEB2.alt
 Colour: ffff
@@ -1083,42 +1081,42 @@ StartChar: uniFEB3
 Encoding: 65203 65203 54
 Width: 613
 Flags: W
-AnchorPoint: "rtl-below" 186 -74 basechar 0
-AnchorPoint: "rtl-above" 252 488 basechar 0
+AnchorPoint: "rtl-above" 267 492 basechar 0
+AnchorPoint: "rtl-below" 165 -74 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-275 98 m 16
- 288 98 297 116 304 152 c 0
- 309 176 312 225 311 300 c 1
- 428 300 l 1
- 428 231 433 174 444 130 c 0
- 451 105 459 92 470 92 c 0
- 486 92 494 137 494 228 c 2
- 494 375 l 1
- 614 375 l 1
- 614 204 l 2
- 614 127 603 71 581 36 c 0
- 570 19 556 7 538 0 c 0
- 514 -9 491 -14 470 -14 c 0
- 445 -14 425 -6 410 11 c 0
- 389 34 376 56 372 76 c 1
- 371 60 363 41 348 18 c 0
- 336 -1 311 -10 274 -9 c 24
- 233 -8 205 -1 190 12 c 0
- 165 33 151 51 148 66 c 1
- 143 49 128 33 103 18 c 0
+256 94 m 16
+ 274 94 290 112 300 150 c 0
+ 309 180 313 228 313 298 c 1
+ 410 298 l 1
+ 409 237 415 184 427 138 c 0
+ 436 105 446 88 459 88 c 0
+ 485 88 498 134 498 226 c 2
+ 498 373 l 1
+ 598 373 l 1
+ 598 202 l 2
+ 598 138 587 85 566 41 c 0
+ 555 18 538 2 514 -7 c 0
+ 499 -13 480 -16 456 -16 c 0
+ 433 -16 415 -11 404 2 c 0
+ 383 25 369 53 362 85 c 1
+ 356 58 343 34 324 13 c 0
+ 309 -3 286 -11 256 -11 c 0
+ 228 -11 204 -1 182 16 c 0
+ 162 32 152 50 148 68 c 1
+ 142 50 127 33 103 18 c 0
  83 6 56 0 23 0 c 2
  -12 0 l 1
- -12 112 l 1
- 9 112 l 2
- 30 112 47 118 59 130 c 0
- 82 154 94 179 94 204 c 2
- 94 300 l 1
- 214 300 l 1
- 214 222 l 2
- 214 193 217 165 224 140 c 0
- 231 112 248 98 275 98 c 16
+ -12 101 l 1
+ 9 101 l 2
+ 32 101 50 107 62 119 c 0
+ 85 143 97 171 97 204 c 2
+ 97 300 l 1
+ 196 300 l 1
+ 196 222 l 2
+ 196 194 200 165 208 136 c 0
+ 215 108 231 94 256 94 c 16
 EndSplineSet
 Colour: ffff
 EndChar
@@ -1127,47 +1125,47 @@ StartChar: uniFEB4
 Encoding: 65204 65204 55
 Width: 613
 Flags: W
-AnchorPoint: "rtl-below" 172 -74 basechar 0
-AnchorPoint: "rtl-above" 219 479 basechar 0
+AnchorPoint: "rtl-above" 235 481 basechar 0
+AnchorPoint: "rtl-below" 151 -76 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-386 300 m 1
- 386 231 391 174 402 130 c 0
- 409 105 417 92 428 92 c 0
- 444 92 452 137 452 228 c 2
- 452 375 l 1
- 572 375 l 1
- 572 374 572 374 572 224 c 2
- 572 169 579 135 594 121 c 0
- 599 115 606 112 614 112 c 2
- 626 112 l 1
- 626 0 l 1
- 587 0 l 2
- 570 0 554 12 539 36 c 1
- 528 19 514 7 496 0 c 0
- 472 -9 449 -14 428 -14 c 24
- 403 -14 383 -6 368 11 c 0
- 347 34 334 56 330 76 c 1
- 329 60 321 41 306 18 c 0
- 294 -1 269 -10 232 -9 c 24
- 191 -8 163 -1 148 12 c 0
- 123 33 109 51 106 66 c 1
- 94 41 84 25 77 18 c 0
- 62 6 42 0 15 0 c 2
+371 298 m 1
+ 371 237 376 183 387 138 c 0
+ 395 105 406 88 421 88 c 0
+ 446 88 460 134 460 226 c 2
+ 460 373 l 1
+ 559 373 l 1
+ 559 373 559 279 559 211 c 2
+ 559 160 566 129 580 116 c 0
+ 590 105 601 99 611 99 c 2
+ 625 99 l 1
+ 625 -2 l 1
+ 590 -2 l 2
+ 564 -2 543 13 525 41 c 1
+ 510 17 494 1 475 -7 c 0
+ 460 -13 441 -16 418 -16 c 0
+ 392 -16 371 -6 354 15 c 0
+ 337 35 326 59 322 85 c 1
+ 316 58 303 34 284 13 c 0
+ 269 -3 248 -11 222 -11 c 0
+ 191 -11 169 -2 156 14 c 0
+ 138 34 126 52 120 68 c 1
+ 111 46 98 29 82 18 c 0
+ 65 6 44 0 19 0 c 2
  -12 0 l 1
- -12 112 l 1
- 2 112 l 2
- 11 112 22 118 33 130 c 0
- 46 143 52 168 52 204 c 2
- 52 300 l 1
- 172 300 l 1
- 172 222 l 2
- 172 193 175 165 182 140 c 0
- 189 112 206 98 233 98 c 16
- 246 98 255 116 262 152 c 0
- 267 175 270 224 269 300 c 1
- 386 300 l 1
+ -12 101 l 1
+ 6 101 l 2
+ 21 101 33 107 43 119 c 0
+ 60 138 70 166 70 204 c 2
+ 70 300 l 1
+ 168 300 l 1
+ 168 222 l 2
+ 168 194 172 165 180 136 c 0
+ 187 108 201 94 222 94 c 16
+ 237 94 249 112 260 150 c 0
+ 269 180 273 228 273 298 c 1
+ 371 298 l 1
 EndSplineSet
 Colour: ffff
 EndChar
@@ -1176,11 +1174,11 @@ StartChar: uniFEB5
 Encoding: 65205 65205 56
 Width: 613
 Flags: W
-AnchorPoint: "rtl-below" 294 -244 basechar 0
-AnchorPoint: "rtl-above" 221 772 basechar 0
+AnchorPoint: "rtl-above" 229 731 basechar 0
+AnchorPoint: "rtl-below" 316 -214 basechar 0
 LayerCount: 2
 Fore
-Refer: 159 -1 N 1 0 0 1 132 400 2
+Refer: 159 -1 N 1 0 0 1 157 400 2
 Refer: 178 1587 N 1 0 0 1 0 0 2
 Substitution2: "Forms before tail fragment-1" uniFEB5.alt
 EndChar
@@ -1189,8 +1187,8 @@ StartChar: uniFEB6
 Encoding: 65206 65206 57
 Width: 613
 Flags: W
-AnchorPoint: "rtl-below" 206 -260 basechar 0
-AnchorPoint: "rtl-above" 147 776 basechar 0
+AnchorPoint: "rtl-above" 115 717 basechar 0
+AnchorPoint: "rtl-below" 164 -251 basechar 0
 LayerCount: 2
 Fore
 Refer: 159 -1 N 1 0 0 1 118 400 2
@@ -1202,11 +1200,11 @@ StartChar: uniFEB7
 Encoding: 65207 65207 58
 Width: 613
 Flags: W
-AnchorPoint: "rtl-below" 186 -74 basechar 0
-AnchorPoint: "rtl-above" 153 776 basechar 0
+AnchorPoint: "rtl-above" 151 721 basechar 0
+AnchorPoint: "rtl-below" 165 -74 basechar 0
 LayerCount: 2
 Fore
-Refer: 159 -1 N 1 0 0 1 141 400 2
+Refer: 159 -1 N 1 0 0 1 175 400 2
 Refer: 54 65203 N 1 0 0 1 0 0 2
 EndChar
 
@@ -1214,11 +1212,11 @@ StartChar: uniFEB8
 Encoding: 65208 65208 59
 Width: 613
 Flags: W
-AnchorPoint: "rtl-below" 158 -74 basechar 0
-AnchorPoint: "rtl-above" 149 780 basechar 0
+AnchorPoint: "rtl-above" 140 720 basechar 0
+AnchorPoint: "rtl-below" 152 -74 basechar 0
 LayerCount: 2
 Fore
-Refer: 159 -1 N 1 0 0 1 99 400 2
+Refer: 159 -1 N 1 0 0 1 138 400 2
 Refer: 55 65204 N 1 0 0 1 0 0 2
 EndChar
 
@@ -1226,46 +1224,46 @@ StartChar: uniFEB9
 Encoding: 65209 65209 60
 Width: 613
 Flags: W
-AnchorPoint: "rtl-below" 298 -242 basechar 0
-AnchorPoint: "rtl-above" 193 472 basechar 0
+AnchorPoint: "rtl-above" 174 474 basechar 0
+AnchorPoint: "rtl-below" 355 -189 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-304 112 m 1
- 368 112 l 2
- 399 112 419 115 429 122 c 0
- 450 137 460 150 460 162 c 0
- 460 173 456 183 449 194 c 0
- 442 203 430 208 413 207 c 0
- 390 206 367 193 344 166 c 0
- 325 143 312 125 304 112 c 1
-205 180 m 1
- 228 209 250 235 271 258 c 0
- 315 305 363 327 416 326 c 0
- 486 325 535 307 562 274 c 0
- 591 237 606 201 606 168 c 0
- 606 103 579 54 524 22 c 0
- 499 7 453 0 387 0 c 2
+296 101 m 1
+ 360 101 l 2
+ 400 101 429 107 447 118 c 0
+ 476 137 490 156 490 174 c 0
+ 490 187 484 199 474 211 c 0
+ 464 221 449 226 430 226 c 0
+ 406 226 380 210 351 178 c 0
+ 329 153 310 127 296 101 c 1
+214 161 m 1
+ 238 198 260 227 278 248 c 0
+ 324 302 372 327 424 327 c 0
+ 487 327 533 311 562 281 c 0
+ 591 250 606 215 606 178 c 0
+ 606 114 576 65 518 31 c 0
+ 483 11 440 0 387 0 c 2
  278 0 l 2
  266 0 251 5 233 15 c 0
  218 24 211 31 211 36 c 1
- 210 8 204 -30 195 -78 c 0
- 188 -114 167 -155 132 -200 c 0
- 108 -231 71 -246 21 -246 c 0
- -23 -246 -62 -229 -95 -196 c 0
- -128 -164 -144 -109 -144 -32 c 0
- -144 40 -135 100 -118 149 c 1
- -4 149 l 1
- -20 78 -27 17 -26 -32 c 0
- -25 -72 -18 -102 -6 -122 c 0
- 2 -134 11 -140 22 -140 c 0
- 34 -140 47 -131 60 -112 c 0
- 69 -101 77 -80 84 -48 c 0
- 95 -1 97 45 92 90 c 0
- 88 121 83 152 78 183 c 2
- 73 225 l 1
- 190 225 l 1
- 196 212 201 197 205 180 c 1
+ 211 -9 204 -54 191 -99 c 0
+ 180 -139 160 -174 135 -202 c 0
+ 106 -232 73 -246 37 -246 c 0
+ -6 -246 -45 -230 -76 -199 c 0
+ -113 -161 -132 -106 -132 -34 c 0
+ -132 33 -119 93 -93 146 c 1
+ 6 146 l 1
+ -20 77 -33 17 -33 -34 c 0
+ -33 -78 -23 -111 -7 -129 c 0
+ 6 -142 20 -148 36 -147 c 0
+ 54 -146 69 -136 81 -117 c 0
+ 97 -93 107 -61 110 -22 c 0
+ 115 18 115 54 111 86 c 0
+ 103 139 97 179 92 206 c 1
+ 137 225 l 1
+ 137 222 190 216 193 206 c 1
+ 197 193 205 178 214 161 c 1
 EndSplineSet
 Substitution2: "Forms before tail fragment-1" uniFEB9.alt
 Colour: ffff
@@ -1275,53 +1273,53 @@ StartChar: uniFEBA
 Encoding: 65210 65210 61
 Width: 613
 Flags: W
-AnchorPoint: "rtl-below" 362 -64 basechar 0
-AnchorPoint: "rtl-above" 149 438 basechar 0
+AnchorPoint: "rtl-above" 126 425 basechar 0
+AnchorPoint: "rtl-below" 251 -165 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-277 112 m 1
- 341 112 l 2
- 372 112 392 115 402 122 c 0
- 423 137 433 150 433 162 c 0
- 433 173 429 183 422 194 c 0
- 415 203 403 208 386 207 c 0
- 363 206 340 193 317 166 c 0
- 298 143 285 125 277 112 c 1
-579 168 m 0
- 580 155 579 145 576 140 c 1
- 581 132 586 126 591 122 c 0
- 600 115 607 112 612 112 c 2
- 628 112 l 1
- 628 0 l 1
- 602 0 l 2
- 585 0 563 9 538 28 c 2
- 522 40 l 1
- 491 6 416 0 360 0 c 2
- 251 0 l 2
- 239 0 224 5 206 15 c 0
- 191 24 184 31 184 36 c 1
- 183 8 177 -30 168 -78 c 0
- 161 -114 140 -155 105 -200 c 0
- 81 -231 44 -246 -6 -246 c 0
- -50 -246 -89 -229 -122 -196 c 0
- -155 -164 -172 -109 -172 -32 c 0
- -172 40 -163 100 -145 149 c 1
- -146 149 -108 149 -32 149 c 1
- -48 78 -55 17 -52 -32 c 0
- -51 -72 -44 -102 -32 -122 c 0
- -25 -134 -17 -140 -6 -140 c 0
- 6 -140 19 -130 34 -112 c 0
- 56 -86 68 -7 68 37 c 0
- 68 55 66 72 64 90 c 0
- 56 154 51 193 46 225 c 1
- 163 225 l 1
- 165 221 167 217 168 213 c 0
- 172 203 175 192 178 180 c 1
- 201 209 223 235 244 258 c 0
- 288 305 336 327 389 326 c 0
- 459 325 508 307 535 274 c 0
- 564 237 579 201 579 168 c 0
+263 101 m 1
+ 328 101 l 2
+ 368 101 396 107 414 118 c 0
+ 443 137 457 156 457 174 c 0
+ 457 187 451 199 441 211 c 0
+ 431 221 417 226 398 226 c 0
+ 375 226 349 210 319 178 c 0
+ 297 153 278 127 263 101 c 1
+573 178 m 0
+ 573 163 570 147 563 132 c 1
+ 568 127 573 123 578 118 c 0
+ 590 107 601 101 608 101 c 2
+ 626 101 l 1
+ 626 0 l 1
+ 598 0 l 2
+ 581 0 557 12 527 38 c 2
+ 512 51 l 1
+ 467 14 404 0 354 0 c 2
+ 246 0 l 2
+ 233 0 217 5 200 15 c 0
+ 185 24 178 31 178 36 c 1
+ 178 -9 171 -54 158 -99 c 0
+ 146 -139 128 -174 103 -202 c 0
+ 73 -232 40 -246 4 -246 c 0
+ -39 -246 -77 -230 -108 -199 c 0
+ -146 -162 -165 -107 -165 -34 c 0
+ -165 33 -152 93 -125 146 c 1
+ -125 146 -61 146 -27 146 c 1
+ -53 77 -66 17 -65 -34 c 0
+ -65 -78 -55 -111 -39 -129 c 0
+ -27 -142 -13 -148 3 -147 c 0
+ 21 -146 36 -136 49 -117 c 0
+ 70 -86 82 -28 82 17 c 0
+ 82 44 81 66 78 86 c 0
+ 68 154 62 197 57 225 c 1
+ 157 225 l 1
+ 158 220 159 212 162 200 c 0
+ 166 188 173 176 181 161 c 1
+ 205 198 227 227 245 248 c 0
+ 292 302 341 327 392 327 c 0
+ 455 327 501 311 530 281 c 0
+ 559 249 573 214 573 178 c 0
 EndSplineSet
 Colour: ffff
 EndChar
@@ -1330,39 +1328,39 @@ StartChar: uniFEBB
 Encoding: 65211 65211 62
 Width: 613
 Flags: W
-AnchorPoint: "rtl-below" 202 -56 basechar 0
-AnchorPoint: "rtl-above" 189 458 basechar 0
+AnchorPoint: "rtl-above" 209 459 basechar 0
+AnchorPoint: "rtl-below" 172 -66 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-304 112 m 1
- 368 112 l 2
- 399 112 419 115 429 122 c 0
- 450 137 460 150 460 162 c 0
- 460 173 456 183 449 194 c 0
- 442 203 430 208 413 207 c 0
- 390 206 367 193 344 166 c 0
- 325 143 312 125 304 112 c 1
-278 0 m 2
- 220 0 184 3 169 8 c 0
- 148 15 132 24 120 36 c 1
- 96 8 51 0 16 0 c 2
- -18 0 l 1
- -18 112 l 1
- 3 112 l 2
- 16 112 30 119 43 132 c 0
- 59 148 67 172 67 204 c 2
- 67 261 l 1
- 66 261 106 261 186 261 c 1
- 186 222 l 2
- 186 196 189 180 196 173 c 1
- 220 205 245 233 271 258 c 0
- 320 305 369 327 416 326 c 0
- 486 325 535 307 562 274 c 0
- 591 237 606 201 606 168 c 0
- 606 103 579 54 524 22 c 0
- 499 7 453 0 387 0 c 2
- 278 0 l 2
+296 101 m 1
+ 361 101 l 2
+ 401 101 429 107 447 118 c 0
+ 476 137 490 156 490 174 c 0
+ 490 187 484 199 474 211 c 0
+ 464 221 450 226 431 226 c 0
+ 408 226 382 210 352 178 c 0
+ 330 153 311 127 296 101 c 1
+279 0 m 2
+ 239 0 209 5 188 15 c 0
+ 167 25 150 38 137 54 c 1
+ 107 16 69 0 36 0 c 2
+ -15 0 l 1
+ -15 101 l 1
+ 16 101 l 2
+ 30 101 44 108 56 122 c 0
+ 75 144 84 171 84 204 c 2
+ 84 261 l 1
+ 84 261 152 261 188 261 c 1
+ 188 222 l 2
+ 188 193 196 173 210 158 c 1
+ 235 196 258 226 278 248 c 0
+ 327 302 376 327 425 327 c 0
+ 488 327 534 311 563 281 c 0
+ 592 250 606 215 606 178 c 0
+ 606 114 576 65 518 31 c 0
+ 484 11 441 0 388 0 c 2
+ 279 0 l 2
 EndSplineSet
 Colour: ffff
 EndChar
@@ -1371,46 +1369,46 @@ StartChar: uniFEBC
 Encoding: 65212 65212 63
 Width: 613
 Flags: W
-AnchorPoint: "rtl-below" 174 -62 basechar 0
-AnchorPoint: "rtl-above" 159 474 basechar 0
+AnchorPoint: "rtl-above" 174 462 basechar 0
+AnchorPoint: "rtl-below" 160 -69 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-285 112 m 1
- 350 112 l 2
- 381 112 401 115 410 122 c 0
- 431 137 442 150 442 162 c 0
- 442 173 438 183 430 194 c 0
- 423 203 411 208 394 207 c 24
- 371 206 349 193 326 166 c 0
- 307 143 294 125 285 112 c 1
-260 0 m 2
- 206 0 170 3 151 8 c 0
- 124 15 108 21 102 28 c 1
- 82 3 50 0 16 0 c 2
- -18 0 l 1
- -18 112 l 1
- 3 112 l 2
- 16 112 27 118 34 130 c 0
- 43 146 48 171 48 204 c 2
- 48 261 l 1
- 168 261 l 1
- 168 222 l 2
- 168 196 171 180 178 173 c 1
- 201 205 225 233 252 258 c 0
- 301 305 350 327 398 326 c 24
- 467 325 516 307 543 274 c 0
- 572 237 587 201 587 168 c 0
- 587 155 586 145 584 140 c 1
- 588 131 592 125 597 122 c 0
- 604 115 609 112 612 112 c 2
- 630 112 l 1
- 630 0 l 1
- 605 0 l 2
- 582 0 561 9 544 26 c 2
- 530 40 l 1
- 492 8 440 0 369 0 c 2
- 260 0 l 2
+267 101 m 1
+ 332 101 l 2
+ 372 101 401 107 418 118 c 0
+ 447 137 461 156 461 174 c 0
+ 461 187 455 199 444 211 c 0
+ 434 221 420 226 401 226 c 0
+ 378 226 353 210 323 178 c 0
+ 301 153 282 127 267 101 c 1
+250 0 m 2
+ 212 0 182 5 159 15 c 0
+ 135 25 118 37 108 51 c 1
+ 80 14 51 0 23 0 c 2
+ -15 0 l 1
+ -15 101 l 1
+ 2 101 l 2
+ 14 101 26 108 36 122 c 0
+ 48 139 55 166 55 204 c 2
+ 55 261 l 1
+ 159 261 l 1
+ 159 222 l 2
+ 159 195 165 174 181 158 c 1
+ 205 196 228 226 249 248 c 0
+ 298 302 347 327 396 327 c 0
+ 458 327 504 311 533 281 c 0
+ 562 250 577 215 577 178 c 0
+ 577 163 573 147 567 132 c 1
+ 572 126 576 122 581 118 c 0
+ 592 107 602 101 608 101 c 2
+ 607 101 620 101 627 101 c 1
+ 627 0 l 1
+ 600 0 l 2
+ 580 0 556 13 530 38 c 2
+ 516 51 l 1
+ 468 15 416 0 359 0 c 2
+ 250 0 l 2
 EndSplineSet
 Substitution2: "Forms before tail fragment-1" uniFEBC.alt
 Colour: ffff
@@ -1420,11 +1418,11 @@ StartChar: uniFEBD
 Encoding: 65213 65213 64
 Width: 613
 Flags: W
-AnchorPoint: "rtl-below" 286 -244 basechar 0
-AnchorPoint: "rtl-above" 187 568 basechar 0
+AnchorPoint: "rtl-above" 168 557 basechar 0
+AnchorPoint: "rtl-below" 348 -198 basechar 0
 LayerCount: 2
 Fore
-Refer: 157 -1 N 1 0 0 1 116 348 2
+Refer: 157 -1 N 1 0 0 1 145 348 2
 Refer: 180 1589 N 1 0 0 1 0 0 2
 Substitution2: "Forms before tail fragment-1" uniFEBD.alt
 EndChar
@@ -1433,8 +1431,8 @@ StartChar: uniFEBE
 Encoding: 65214 65214 65
 Width: 613
 Flags: W
-AnchorPoint: "rtl-below" 350 -62 basechar 0
-AnchorPoint: "rtl-above" 129 552 basechar 0
+AnchorPoint: "rtl-above" 114 554 basechar 0
+AnchorPoint: "rtl-below" 236 -162 basechar 0
 LayerCount: 2
 Fore
 Refer: 157 -1 N 1 0 0 1 130 335 2
@@ -1446,11 +1444,11 @@ StartChar: uniFEBF
 Encoding: 65215 65215 66
 Width: 613
 Flags: W
-AnchorPoint: "rtl-below" 174 -60 basechar 0
-AnchorPoint: "rtl-above" 141 586 basechar 0
+AnchorPoint: "rtl-above" 143 568 basechar 0
+AnchorPoint: "rtl-below" 160 -68 basechar 0
 LayerCount: 2
 Fore
-Refer: 157 -1 N 1 0 0 1 144 368 2
+Refer: 157 -1 N 1 0 0 1 159 368 2
 Refer: 62 65211 N 1 0 0 1 0 0 2
 EndChar
 
@@ -1458,11 +1456,11 @@ StartChar: uniFEC0
 Encoding: 65216 65216 67
 Width: 613
 Flags: W
-AnchorPoint: "rtl-below" 174 -60 basechar 0
-AnchorPoint: "rtl-above" 115 584 basechar 0
+AnchorPoint: "rtl-above" 109 576 basechar 0
+AnchorPoint: "rtl-below" 149 -68 basechar 0
 LayerCount: 2
 Fore
-Refer: 157 -1 N 1 0 0 1 116 361 2
+Refer: 157 -1 N 1 0 0 1 137 361 2
 Refer: 63 65212 N 1 0 0 1 0 0 2
 EndChar
 
@@ -1470,33 +1468,33 @@ StartChar: uniFEC1
 Encoding: 65217 65217 68
 Width: 613
 Flags: W
-AnchorPoint: "rtl-below" 190 -52 basechar 0
-AnchorPoint: "rtl-above" 149 866 basechar 0
+AnchorPoint: "rtl-above" 130 863 basechar 0
+AnchorPoint: "rtl-below" 178 -63 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-298 112 m 1
- 363 112 l 2
- 389 112 409 117 424 128 c 0
- 444 143 454 157 454 172 c 0
- 454 183 451 193 444 203 c 0
- 437 212 425 217 408 217 c 0
- 383 217 360 202 339 172 c 0
- 315 136 301 116 298 112 c 1
-382 0 m 2
- 112 0 l 1
+286 101 m 1
+ 350 101 l 2
+ 388 101 417 108 437 121 c 0
+ 465 140 479 160 479 179 c 0
+ 479 192 474 203 464 215 c 0
+ 454 225 439 231 420 231 c 0
+ 396 231 369 214 341 180 c 0
+ 316 150 298 123 286 101 c 1
+378 0 m 2
+ 114 0 l 1
  3 0 l 1
- 3 112 l 1
- 112 112 l 1
- 112 778 l 1
- 258 778 l 1
- 258 246 l 1
- 275 268 293 286 312 300 c 0
- 342 321 375 332 411 332 c 0
- 474 332 523 315 556 280 c 0
- 585 249 600 214 600 174 c 0
- 600 119 569 74 508 38 c 0
- 467 13 425 0 382 0 c 2
+ 3 101 l 1
+ 114 101 l 1
+ 114 778 l 1
+ 230 778 l 1
+ 230 190 l 1
+ 252 224 272 249 289 266 c 0
+ 329 308 371 330 415 330 c 0
+ 475 330 521 314 552 283 c 0
+ 581 255 596 221 596 181 c 0
+ 596 122 565 74 504 38 c 0
+ 463 13 421 0 378 0 c 2
 EndSplineSet
 Colour: ffff
 EndChar
@@ -1505,39 +1503,39 @@ StartChar: uniFEC2
 Encoding: 65218 65218 69
 Width: 613
 Flags: W
-AnchorPoint: "rtl-below" 158 -58 basechar 0
-AnchorPoint: "rtl-above" 85 870 basechar 0
+AnchorPoint: "rtl-above" 90 874 basechar 0
+AnchorPoint: "rtl-below" 129 -67 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-266 112 m 1
- 331 112 l 2
- 357 112 377 117 392 128 c 0
- 412 143 422 157 422 172 c 0
- 422 183 419 193 412 203 c 0
- 405 212 393 217 376 217 c 0
- 351 217 328 202 307 172 c 0
- 283 136 269 116 266 112 c 1
-568 174 m 0
- 568 154 567 141 565 136 c 1
- 575 120 587 112 602 112 c 2
- 625 112 l 1
- 625 0 l 1
- 571 0 l 2
- 547 0 524 13 501 40 c 2
- 493 49 l 1
- 454 16 407 0 350 0 c 2
- 80 0 l 1
- -2 0 l 1
- -2 112 l 1
- 80 112 l 1
- 80 778 l 1
- 226 778 l 1
- 226 246 l 1
- 243 268 261 286 280 300 c 0
- 310 321 343 332 379 332 c 0
- 441 332 489 315 524 280 c 0
- 553 251 568 215 568 174 c 0
+262 101 m 1
+ 326 101 l 2
+ 364 101 392 108 412 121 c 0
+ 440 140 455 160 455 179 c 0
+ 455 192 450 203 440 215 c 0
+ 430 225 415 231 396 231 c 0
+ 372 231 345 214 317 180 c 0
+ 292 150 274 123 262 101 c 1
+571 181 m 0
+ 571 163 567 145 558 130 c 1
+ 574 110 588 101 602 101 c 2
+ 624 101 l 1
+ 624 0 l 1
+ 585 0 l 2
+ 557 0 530 13 504 40 c 2
+ 492 51 l 1
+ 452 17 406 0 353 0 c 2
+ 89 0 l 1
+ 4 0 l 1
+ 4 101 l 1
+ 89 101 l 1
+ 89 778 l 1
+ 206 778 l 1
+ 206 190 l 1
+ 228 224 248 249 265 266 c 0
+ 305 308 348 330 391 330 c 0
+ 450 330 495 314 527 283 c 0
+ 556 255 571 221 571 181 c 0
 EndSplineSet
 Colour: ffff
 EndChar
@@ -1546,33 +1544,33 @@ StartChar: uniFEC3
 Encoding: 65219 65219 70
 Width: 613
 Flags: W
-AnchorPoint: "rtl-below" 174 -60 basechar 0
-AnchorPoint: "rtl-above" 110 890 basechar 0
+AnchorPoint: "rtl-above" 112 883 basechar 0
+AnchorPoint: "rtl-below" 143 -68 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-298 112 m 1
- 363 112 l 2
- 389 112 409 117 424 128 c 0
- 444 143 454 157 454 172 c 0
- 454 183 451 193 444 203 c 0
- 437 212 425 217 408 217 c 0
- 383 217 360 202 339 172 c 0
- 315 136 301 116 298 112 c 1
-382 0 m 2
- 112 0 l 1
- -26 0 l 1
- -26 112 l 1
- 112 112 l 1
- 112 778 l 1
- 258 778 l 1
- 258 246 l 1
- 275 268 293 286 312 300 c 0
- 342 321 375 332 411 332 c 0
- 474 332 523 315 556 280 c 0
- 585 249 600 214 600 174 c 0
- 600 119 569 74 508 38 c 0
- 467 13 425 0 382 0 c 2
+286 101 m 1
+ 350 101 l 2
+ 388 101 417 108 437 121 c 0
+ 465 140 479 160 479 179 c 0
+ 479 192 474 203 464 215 c 0
+ 454 225 439 231 420 231 c 0
+ 396 231 369 214 341 180 c 0
+ 316 150 298 123 286 101 c 1
+378 0 m 2
+ 114 0 l 1
+ -18 0 l 1
+ -18 101 l 1
+ 114 101 l 1
+ 114 778 l 1
+ 230 778 l 1
+ 230 190 l 1
+ 252 224 272 249 289 266 c 0
+ 329 308 371 330 415 330 c 0
+ 475 330 521 314 552 283 c 0
+ 581 255 596 221 596 181 c 0
+ 596 122 565 74 504 38 c 0
+ 463 13 421 0 378 0 c 2
 EndSplineSet
 Colour: ffff
 EndChar
@@ -1581,39 +1579,39 @@ StartChar: uniFEC4
 Encoding: 65220 65220 71
 Width: 613
 Flags: W
-AnchorPoint: "rtl-below" 156 -60 basechar 0
-AnchorPoint: "rtl-above" 81 884 basechar 0
+AnchorPoint: "rtl-above" 88 883 basechar 0
+AnchorPoint: "rtl-below" 126 -67 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-266 112 m 1
- 331 112 l 2
- 357 112 377 117 392 128 c 0
- 412 143 422 157 422 172 c 0
- 422 183 419 193 412 203 c 0
- 405 212 393 217 376 217 c 0
- 351 217 328 202 307 172 c 0
- 283 136 269 116 266 112 c 1
-568 174 m 0
- 568 151 567 139 565 136 c 1
- 575 120 587 112 602 112 c 2
- 625 112 l 1
- 625 0 l 1
- 571 0 l 2
- 547 0 524 13 501 40 c 2
- 493 49 l 1
- 454 16 407 0 350 0 c 2
- 80 0 l 1
- -20 0 l 1
- -20 112 l 1
- 80 112 l 1
- 80 778 l 1
- 226 778 l 1
- 226 246 l 1
- 243 268 261 286 280 300 c 4
- 310 321 343 332 379 332 c 0
- 444 332 492 315 524 280 c 0
- 553 248 568 213 568 174 c 0
+262 101 m 1
+ 326 101 l 2
+ 364 101 392 108 412 121 c 0
+ 440 140 455 160 455 179 c 0
+ 455 192 450 203 440 215 c 0
+ 430 225 415 231 396 231 c 0
+ 372 231 345 214 317 180 c 0
+ 292 150 274 123 262 101 c 1
+571 181 m 0
+ 571 161 567 145 558 130 c 1
+ 574 110 588 101 602 101 c 2
+ 624 101 l 1
+ 624 0 l 1
+ 585 0 l 2
+ 557 0 530 13 504 40 c 2
+ 492 51 l 1
+ 452 17 406 0 353 0 c 2
+ 89 0 l 1
+ -16 0 l 1
+ -16 101 l 1
+ 89 101 l 1
+ 89 778 l 1
+ 206 778 l 1
+ 206 190 l 1
+ 228 224 248 249 265 266 c 0
+ 305 308 348 330 391 330 c 0
+ 452 330 497 314 527 283 c 0
+ 556 254 571 220 571 181 c 0
 EndSplineSet
 Colour: ffff
 EndChar
@@ -1622,11 +1620,11 @@ StartChar: uniFEC5
 Encoding: 65221 65221 72
 Width: 613
 Flags: W
-AnchorPoint: "rtl-below" 190 -52 basechar 0
-AnchorPoint: "rtl-above" 151 860 basechar 0
+AnchorPoint: "rtl-above" 132 868 basechar 0
+AnchorPoint: "rtl-below" 184 -61 basechar 0
 LayerCount: 2
 Fore
-Refer: 157 -1 N 1 0 0 1 331 422 2
+Refer: 157 -1 N 1 0 0 1 314 407 2
 Refer: 182 1591 N 1 0 0 1 0 0 2
 EndChar
 
@@ -1634,11 +1632,11 @@ StartChar: uniFEC6
 Encoding: 65222 65222 73
 Width: 613
 Flags: W
-AnchorPoint: "rtl-below" 150 -58 basechar 0
-AnchorPoint: "rtl-above" 83 860 basechar 0
+AnchorPoint: "rtl-above" 93 872 basechar 0
+AnchorPoint: "rtl-below" 124 -68 basechar 0
 LayerCount: 2
 Fore
-Refer: 157 -1 N 1 0 0 1 290 408 2
+Refer: 157 -1 N 1 0 0 1 290 395 2
 Refer: 69 65218 N 1 0 0 1 0 0 2
 EndChar
 
@@ -1646,11 +1644,11 @@ StartChar: uniFEC7
 Encoding: 65223 65223 74
 Width: 613
 Flags: W
-AnchorPoint: "rtl-below" 174 -60 basechar 0
-AnchorPoint: "rtl-above" 112 872 basechar 0
+AnchorPoint: "rtl-above" 115 879 basechar 0
+AnchorPoint: "rtl-below" 143 -68 basechar 0
 LayerCount: 2
 Fore
-Refer: 157 -1 N 1 0 0 1 322 411 2
+Refer: 157 -1 N 1 0 0 1 304 396 2
 Refer: 70 65219 N 1 0 0 1 0 0 2
 EndChar
 
@@ -1658,11 +1656,11 @@ StartChar: uniFEC8
 Encoding: 65224 65224 75
 Width: 613
 Flags: W
-AnchorPoint: "rtl-below" 144 -60 basechar 0
-AnchorPoint: "rtl-above" 81 860 basechar 0
+AnchorPoint: "rtl-above" 90 871 basechar 0
+AnchorPoint: "rtl-below" 124 -68 basechar 0
 LayerCount: 2
 Fore
-Refer: 157 -1 N 1 0 0 1 290 406 2
+Refer: 157 -1 N 1 0 0 1 290 394 2
 Refer: 71 65220 N 1 0 0 1 0 0 2
 EndChar
 
@@ -1670,35 +1668,35 @@ StartChar: uniFEC9
 Encoding: 65225 65225 76
 Width: 613
 Flags: W
-AnchorPoint: "rtl-below" 270 -292 basechar 0
-AnchorPoint: "rtl-above" 217 650 basechar 0
+AnchorPoint: "rtl-above" 210 656 basechar 0
+AnchorPoint: "rtl-below" 301 -286 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-194 -55 m 0
- 237 -110 294 -138 365 -138 c 0
- 452 -138 531 -118 602 -78 c 1
+181 -73 m 0
+ 222 -127 290 -154 384 -154 c 0
+ 459 -154 531 -134 602 -94 c 1
  602 -200 l 1
- 552 -233 474 -250 367 -250 c 0
- 233 -250 138 -219 83 -156 c 0
- 50 -119 34 -67 34 0 c 0
- 34 69 49 121 78 154 c 0
- 138 224 l 1
- 126 224 110 236 90 260 c 128
- 70 284 60 311 60 340 c 0
- 60 395 82 439 126 472 c 0
- 195 525 285 555 394 562 c 1
- 394 454 l 1
- 327 447 276 430 239 402 c 0
- 216 384 204 367 204 350 c 0
- 204 326 209 311 218 306 c 0
- 231 298 245 294 262 294 c 0
- 277 294 290 297 302 304 c 0
- 349 327 417 342 508 349 c 1
- 508 348 508 348 508 238 c 1
- 411 229 326 200 254 151 c 0
- 201 115 174 65 174 0 c 0
- 174 -19 181 -38 194 -55 c 0
+ 553 -233 480 -250 386 -250 c 0
+ 249 -250 153 -219 97 -156 c 0
+ 64 -119 48 -67 48 0 c 0
+ 47 64 62 112 91 146 c 0
+ 111 170 156 216 171 220 c 1
+ 156 221 140 230 122 246 c 0
+ 97 267 84 296 84 333 c 0
+ 84 396 113 446 170 484 c 0
+ 224 522 299 542 394 546 c 1
+ 394 545 394 497 394 451 c 1
+ 328 448 277 434 239 410 c 0
+ 212 393 197 370 197 343 c 0
+ 197 318 204 303 217 296 c 0
+ 231 288 246 284 262 284 c 0
+ 276 284 289 288 302 294 c 0
+ 352 317 420 332 508 341 c 1
+ 508 341 508 290 508 240 c 1
+ 414 231 330 202 254 153 c 0
+ 192 113 161 61 161 -2 c 0
+ 161 -32 168 -56 181 -73 c 0
 EndSplineSet
 Colour: ffff
 EndChar
@@ -1707,44 +1705,44 @@ StartChar: uniFECA
 Encoding: 65226 65226 77
 Width: 613
 Flags: W
-AnchorPoint: "rtl-below" 250 -278 basechar 0
-AnchorPoint: "rtl-above" 259 500 basechar 0
+AnchorPoint: "rtl-above" 232 530 basechar 0
+AnchorPoint: "rtl-below" 215 -277 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-40 0 m 0
- 40 86 112 136 156 166 c 1
- 143 175 127 191 110 214 c 0
- 90 239 80 260 80 279 c 0
- 80 293 84 309 91 328 c 0
- 98 348 120 367 157 384 c 0
- 188 399 227 406 272 406 c 0
- 325 406 366 399 395 384 c 0
- 428 367 448 349 455 330 c 0
- 460 317 462 300 462 279 c 0
- 462 263 450 243 427 220 c 0
- 410 203 384 183 349 162 c 1
- 375 144 399 131 422 123 c 0
- 442 116 475 113 520 113 c 2
- 632 113 l 1
+58 0 m 0
+ 58 78 108 133 162 172 c 1
+ 145 185 128 203 113 227 c 0
+ 99 249 92 265 92 279 c 0
+ 93 291 95 305 100 321 c 0
+ 106 340 127 358 163 375 c 0
+ 193 390 230 397 272 397 c 0
+ 318 397 356 390 385 375 c 0
+ 418 358 438 340 445 322 c 0
+ 449 309 451 295 451 279 c 0
+ 451 260 440 241 417 220 c 0
+ 388 195 360 175 334 162 c 1
+ 358 142 383 127 409 117 c 0
+ 436 107 473 101 520 101 c 2
+ 632 101 l 1
  632 0 l 1
  528 0 l 2
- 415 0 319 31 239 93 c 1
- 202 67 183 36 183 0 c 0
- 182 -25 190 -49 206 -72 c 0
- 234 -112 303 -132 412 -132 c 0
- 476 -132 543 -113 614 -74 c 1
+ 417 0 322 35 240 105 c 1
+ 195 70 171 34 171 -2 c 0
+ 171 -33 178 -60 193 -81 c 0
+ 225 -128 299 -152 412 -152 c 0
+ 476 -152 543 -133 614 -93 c 1
  614 -200 l 1
  563 -233 497 -249 414 -250 c 0
- 261 -251 156 -219 100 -152 c 0
- 59 -104 39 -53 40 0 c 0
-272 288 m 0
- 265 288 259 287 254 286 c 0
- 241 281 234 275 234 269 c 0
- 234 261 242 248 260 228 c 1
- 297 246 313 258 313 273 c 0
- 313 278 305 282 290 286 c 0
- 285 287 279 288 272 288 c 0
+ 266 -251 166 -219 112 -154 c 0
+ 75 -110 58 -59 58 0 c 0
+271 294 m 0
+ 263 294 255 293 248 291 c 0
+ 233 287 226 280 226 271 c 0
+ 226 260 236 246 257 225 c 1
+ 298 244 317 258 318 273 c 0
+ 319 281 312 287 296 291 c 0
+ 288 293 279 294 271 294 c 0
 EndSplineSet
 Colour: ffff
 EndChar
@@ -1753,30 +1751,30 @@ StartChar: uniFECB
 Encoding: 65227 65227 78
 Width: 613
 Flags: W
-AnchorPoint: "rtl-below" 174 -44 basechar 0
-AnchorPoint: "rtl-above" 219 676 basechar 0
+AnchorPoint: "rtl-above" 222 677 basechar 0
+AnchorPoint: "rtl-below" 209 -50 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-28 112 m 2
- 79 112 134 126 194 154 c 1
- 173 158 148 173 121 198 c 0
- 84 231 66 272 66 320 c 0
- 66 411 104 474 180 510 c 0
- 233 535 304 551 392 558 c 1
- 392 439 l 1
- 326 431 274 416 237 394 c 0
- 212 379 200 360 200 337 c 0
- 200 312 215 285 244 258 c 0
- 263 241 293 232 336 232 c 0
- 353 232 375 237 400 248 c 2
- 506 293 l 1
- 506 160 l 1
- 296 62 l 2
- 208 21 120 0 32 0 c 2
+28 101 m 2
+ 80 101 139 115 203 145 c 1
+ 180 151 157 166 135 188 c 0
+ 102 221 86 262 86 309 c 0
+ 86 398 121 462 193 501 c 0
+ 239 526 306 540 392 544 c 1
+ 392 543 392 490 392 444 c 1
+ 322 440 270 428 236 405 c 0
+ 208 386 194 359 194 325 c 0
+ 194 290 207 261 232 240 c 0
+ 256 220 283 210 315 210 c 0
+ 333 210 355 215 379 226 c 2
+ 506 281 l 1
+ 506 171 l 1
+ 296 73 l 2
+ 192 24 104 0 32 0 c 2
  -12 0 l 1
- -12 112 l 1
- 28 112 l 2
+ -12 101 l 1
+ 28 101 l 2
 EndSplineSet
 Colour: ffff
 EndChar
@@ -1785,41 +1783,41 @@ StartChar: uniFECC
 Encoding: 65228 65228 79
 Width: 613
 Flags: W
-AnchorPoint: "rtl-below" 302 -46 basechar 0
 AnchorPoint: "rtl-above" 306 578 basechar 0
+AnchorPoint: "rtl-below" 301 -53 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-305 66 m 1
- 251 22 207 0 172 0 c 2
+306 80 m 1
+ 246 27 190 0 137 0 c 2
  -12 0 l 1
- -12 112 l 1
- 97 112 l 2
- 126 113 152 119 175 128 c 0
- 189 134 201 140 213 149 c 1
- 184 178 159 207 136 237 c 0
- 125 250 120 264 120 279 c 0
- 120 303 126 323 138 338 c 0
- 152 357 173 372 202 384 c 0
- 237 399 272 406 306 406 c 0
- 341 406 375 399 410 384 c 0
- 442 369 463 355 474 340 c 0
- 486 323 492 303 492 279 c 0
- 492 262 487 248 476 237 c 0
- 448 206 422 177 397 152 c 1
- 409 142 422 134 437 128 c 4
- 459 119 485 114 515 112 c 2
- 514 112 551 112 624 112 c 1
+ -12 101 l 1
+ 97 101 l 2
+ 130 101 158 108 180 119 c 0
+ 197 128 211 139 224 150 c 1
+ 193 178 167 207 144 237 c 0
+ 134 250 129 264 129 279 c 0
+ 129 296 132 311 140 325 c 0
+ 149 343 170 360 202 375 c 0
+ 234 390 269 397 306 397 c 0
+ 344 397 378 390 410 375 c 0
+ 443 359 464 343 472 326 c 0
+ 480 311 483 296 483 279 c 0
+ 483 263 478 249 468 237 c 0
+ 442 205 415 176 387 151 c 1
+ 398 140 413 130 432 119 c 0
+ 453 108 481 102 515 101 c 2
+ 514 101 551 101 624 101 c 1
  624 0 l 1
- 440 0 l 2
- 405 0 360 22 305 66 c 1
-306 288 m 0
- 293 288 283 287 278 285 c 0
- 270 280 266 275 266 268 c 0
- 266 263 279 247 306 222 c 1
- 333 247 346 263 346 268 c 0
- 346 276 342 282 334 285 c 0
- 327 287 318 288 306 288 c 0
+ 475 0 l 2
+ 422 0 366 27 306 80 c 1
+306 294 m 0
+ 295 294 286 292 278 290 c 0
+ 266 286 259 280 259 271 c 0
+ 259 264 275 245 306 216 c 1
+ 337 245 353 264 353 271 c 0
+ 353 281 346 286 334 290 c 0
+ 325 292 316 294 306 294 c 0
 EndSplineSet
 Colour: ffff
 EndChar
@@ -1828,11 +1826,11 @@ StartChar: uniFECD
 Encoding: 65229 65229 80
 Width: 613
 Flags: W
-AnchorPoint: "rtl-below" 270 -292 basechar 0
-AnchorPoint: "rtl-above" 183 774 basechar 0
+AnchorPoint: "rtl-above" 186 767 basechar 0
+AnchorPoint: "rtl-below" 299 -285 basechar 0
 LayerCount: 2
 Fore
-Refer: 157 -1 N 1 0 0 1 156 605 2
+Refer: 157 -1 N 1 0 0 1 175 602 2
 Refer: 184 1593 N 1 0 0 1 0 0 2
 EndChar
 
@@ -1840,11 +1838,11 @@ StartChar: uniFECE
 Encoding: 65230 65230 81
 Width: 613
 Flags: W
-AnchorPoint: "rtl-below" 250 -278 basechar 0
 AnchorPoint: "rtl-above" 234 696 basechar 0
+AnchorPoint: "rtl-below" 215 -277 basechar 0
 LayerCount: 2
 Fore
-Refer: 157 -1 N 1 0 0 1 212 475 2
+Refer: 157 -1 N 1 0 0 1 225 475 2
 Refer: 77 65226 N 1 0 0 1 0 0 2
 EndChar
 
@@ -1852,8 +1850,8 @@ StartChar: uniFECF
 Encoding: 65231 65231 82
 Width: 613
 Flags: W
-AnchorPoint: "rtl-below" 174 -44 basechar 0
-AnchorPoint: "rtl-above" 159 776 basechar 0
+AnchorPoint: "rtl-above" 176 792 basechar 0
+AnchorPoint: "rtl-below" 188 -46 basechar 0
 LayerCount: 2
 Fore
 Refer: 157 -1 N 1 0 0 1 188 600 2
@@ -1864,11 +1862,11 @@ StartChar: uniFED0
 Encoding: 65232 65232 83
 Width: 613
 Flags: W
-AnchorPoint: "rtl-below" 302 -48 basechar 0
 AnchorPoint: "rtl-above" 306 670 basechar 0
+AnchorPoint: "rtl-below" 301 -48 basechar 0
 LayerCount: 2
 Fore
-Refer: 157 -1 N 1 0 0 1 254 475 2
+Refer: 157 -1 N 1 0 0 1 263 475 2
 Refer: 79 65228 N 1 0 0 1 0 0 2
 EndChar
 
@@ -1876,11 +1874,11 @@ StartChar: uniFED1
 Encoding: 65233 65233 84
 Width: 613
 Flags: W
-AnchorPoint: "rtl-below" 250 -112 basechar 0
-AnchorPoint: "rtl-above" 311 700 basechar 0
+AnchorPoint: "rtl-above" 349 703 basechar 0
+AnchorPoint: "rtl-below" 269 -102 basechar 0
 LayerCount: 2
 Fore
-Refer: 157 -1 N 1 0 0 1 368 521 2
+Refer: 157 -1 N 1 0 0 1 376 531 2
 Refer: 132 -1 N 1 0 0 1 0 0 2
 EndChar
 
@@ -1888,11 +1886,11 @@ StartChar: uniFED2
 Encoding: 65234 65234 85
 Width: 613
 Flags: W
-AnchorPoint: "rtl-below" 252 -90 basechar 0
-AnchorPoint: "rtl-above" 282 640 basechar 0
+AnchorPoint: "rtl-above" 335 638 basechar 0
+AnchorPoint: "rtl-below" 281 -106 basechar 0
 LayerCount: 2
 Fore
-Refer: 157 -1 N 1 0 0 1 368 480 2
+Refer: 157 -1 N 1 0 0 1 374 477 2
 Refer: 133 -1 N 1 0 0 1 0 0 2
 EndChar
 
@@ -1900,11 +1898,11 @@ StartChar: uniFED3
 Encoding: 65235 65235 86
 Width: 613
 Flags: W
-AnchorPoint: "rtl-below" 208 -54 basechar 0
-AnchorPoint: "rtl-above" 189 776 basechar 0
+AnchorPoint: "rtl-above" 202 752 basechar 0
+AnchorPoint: "rtl-below" 206 -63 basechar 0
 LayerCount: 2
 Fore
-Refer: 157 -1 N 1 0 0 1 188 585 2
+Refer: 157 -1 N 1 0 0 1 201 580 2
 Refer: 136 -1 N 1 0 0 1 0 0 2
 EndChar
 
@@ -1912,11 +1910,11 @@ StartChar: uniFED4
 Encoding: 65236 65236 87
 Width: 613
 Flags: W
-AnchorPoint: "rtl-below" 298 -50 basechar 0
-AnchorPoint: "rtl-above" 249 690 basechar 0
+AnchorPoint: "rtl-above" 281 672 basechar 0
+AnchorPoint: "rtl-below" 303 -58 basechar 0
 LayerCount: 2
 Fore
-Refer: 157 -1 N 1 0 0 1 246 500 2
+Refer: 157 -1 N 1 0 0 1 261 500 2
 Refer: 137 -1 N 1 0 0 1 0 0 2
 EndChar
 
@@ -1924,11 +1922,11 @@ StartChar: uniFED5
 Encoding: 65237 65237 88
 Width: 613
 Flags: W
-AnchorPoint: "rtl-below" 288 -248 basechar 0
-AnchorPoint: "rtl-above" 257 778 basechar 0
+AnchorPoint: "rtl-above" 298 770 basechar 0
+AnchorPoint: "rtl-below" 280 -234 basechar 0
 LayerCount: 2
 Fore
-Refer: 158 -1 N 1 0 0 1 258 600 2
+Refer: 158 -1 N 1 0 0 1 280 586 2
 Refer: 134 -1 N 1 0 0 1 0 0 2
 EndChar
 
@@ -1936,11 +1934,11 @@ StartChar: uniFED6
 Encoding: 65238 65238 89
 Width: 613
 Flags: W
-AnchorPoint: "rtl-below" 280 -278 basechar 0
-AnchorPoint: "rtl-above" 294 630 basechar 0
+AnchorPoint: "rtl-above" 298 623 basechar 0
+AnchorPoint: "rtl-below" 257 -286 basechar 0
 LayerCount: 2
 Fore
-Refer: 158 -1 N 1 0 0 1 241 453 2
+Refer: 158 -1 N 1 0 0 1 271 445 2
 Refer: 135 -1 N 1 0 0 1 0 0 2
 EndChar
 
@@ -1948,71 +1946,71 @@ StartChar: uniFED7
 Encoding: 65239 65239 90
 Width: 613
 Flags: W
-AnchorPoint: "rtl-below" 198 -38 basechar 0
-AnchorPoint: "rtl-above" 164 746 basechar 0
+AnchorPoint: "rtl-above" 156 731 basechar 0
+AnchorPoint: "rtl-below" 174 -49 basechar 0
 LayerCount: 2
 Fore
 Refer: 136 -1 N 1 0 0 1 0 0 2
-Refer: 158 -1 N 1 0 0 1 105 575 2
+Refer: 158 -1 N 1 0 0 1 130 575 2
 EndChar
 
 StartChar: uniFED8
 Encoding: 65240 65240 91
 Width: 613
 Flags: W
-AnchorPoint: "rtl-below" 302 -52 basechar 0
-AnchorPoint: "rtl-above" 272 693 basechar 0
+AnchorPoint: "rtl-above" 291 679 basechar 0
+AnchorPoint: "rtl-below" 305 -59 basechar 0
 LayerCount: 2
 Fore
 Refer: 137 -1 N 1 0 0 1 0 0 2
-Refer: 158 -1 N 1 0 0 1 163 500 2
+Refer: 158 -1 N 1 0 0 1 185 500 2
 EndChar
 
 StartChar: uniFED9
 Encoding: 65241 65241 92
 Width: 613
 Flags: W
-AnchorPoint: "rtl-below" 260 -96 basechar 0
-AnchorPoint: "rtl-above" 241 772 basechar 0
+AnchorPoint: "rtl-above" 244 756 basechar 0
+AnchorPoint: "rtl-below" 256 -86 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-316 569 m 1
+316 559 m 1
  316 509 l 1
- 289 508 271 505 260 500 c 0
- 237 491 226 480 225 468 c 0
- 225 464 230 458 239 450 c 0
- 244 445 254 442 268 441 c 0
- 316 436 340 411 340 367 c 0
- 340 330 322 303 287 286 c 0
- 258 273 227 266 194 266 c 0
- 171 266 151 268 132 271 c 1
+ 291 508 272 505 260 500 c 0
+ 235 490 222 479 222 468 c 0
+ 222 461 226 454 232 448 c 0
+ 236 443 248 439 267 436 c 0
+ 308 431 328 411 328 375 c 0
+ 328 338 312 311 280 296 c 0
+ 252 283 224 277 194 277 c 0
+ 171 277 151 279 132 282 c 1
  132 335 l 1
  155 332 174 330 189 330 c 0
- 212 330 232 334 248 343 c 0
- 259 348 264 355 264 364 c 0
- 264 375 256 382 240 385 c 0
- 211 391 190 399 178 410 c 0
- 159 429 149 449 149 472 c 0
- 149 506 165 531 196 546 c 0
- 224 559 264 566 316 569 c 1
-440 140 m 0
- 457 165 466 221 466 306 c 2
- 466 778 l 1
- 606 778 l 1
- 606 306 l 2
- 606 173 591 91 562 61 c 0
- 518 15 485 -12 464 -20 c 0
- 413 -37 351 -46 278 -47 c 0
- 219 -47 163 -38 110 -20 c 0
- 38 5 2 55 2 130 c 0
+ 211 330 230 334 248 343 c 0
+ 264 350 272 358 272 368 c 0
+ 272 380 261 388 239 392 c 0
+ 212 397 194 406 186 416 c 0
+ 171 433 163 450 164 469 c 0
+ 165 499 179 521 207 535 c 0
+ 235 549 271 557 316 559 c 1
+458 140 m 0
+ 475 162 484 217 484 306 c 2
+ 484 778 l 1
+ 597 778 l 1
+ 597 306 l 2
+ 597 180 582 102 553 71 c 0
+ 510 26 477 -1 455 -9 c 0
+ 403 -27 344 -37 278 -37 c 0
+ 220 -38 164 -28 110 -9 c 0
+ 38 16 2 63 2 130 c 0
  2 155 5 177 10 194 c 1
- 146 194 l 1
- 141 173 139 156 140 143 c 0
- 141 117 163 95 207 78 c 0
- 230 69 253 64 276 65 c 0
- 321 65 358 74 385 92 c 0
- 412 109 430 125 440 140 c 0
+ 122 194 l 1
+ 117 174 115 157 115 143 c 0
+ 116 114 140 92 188 76 c 0
+ 220 65 250 60 276 60 c 0
+ 320 60 354 67 377 80 c 0
+ 411 97 438 117 458 140 c 0
 EndSplineSet
 Colour: ffff
 EndChar
@@ -2021,52 +2019,52 @@ StartChar: uniFEDA
 Encoding: 65242 65242 93
 Width: 613
 Flags: W
-AnchorPoint: "rtl-below" 212 -90 basechar 0
-AnchorPoint: "rtl-above" 212 776 basechar 0
+AnchorPoint: "rtl-above" 226 772 basechar 0
+AnchorPoint: "rtl-below" 225 -89 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-262 569 m 1
- 262 509 l 1
- 235 508 217 505 206 500 c 0
- 183 491 172 480 171 468 c 0
- 171 464 176 458 185 450 c 0
- 190 445 200 442 214 441 c 0
- 262 436 286 411 286 367 c 0
- 286 330 268 303 233 286 c 0
- 204 273 173 266 140 266 c 0
- 117 266 97 268 78 271 c 1
- 78 335 l 1
- 101 332 120 330 135 330 c 0
- 158 330 178 334 194 343 c 0
- 205 348 210 355 210 364 c 0
- 210 375 202 382 186 385 c 0
- 157 391 136 399 124 410 c 0
- 105 429 95 449 95 472 c 0
- 95 506 111 531 142 546 c 0
- 170 559 210 566 262 569 c 1
-552 778 m 1
- 552 192 l 2
- 552 171 560 152 576 135 c 0
- 591 120 600 113 604 113 c 2
- 634 113 l 1
- 634 0 l 1
- 577 0 l 2
- 548 0 520 14 495 42 c 1
- 470 14 441 -7 410 -20 c 0
- 367 -37 305 -46 224 -47 c 0
- 165 -47 109 -38 56 -20 c 0
- -16 5 -52 55 -52 130 c 0
- -52 155 -49 177 -44 194 c 1
- 92 194 l 1
- 87 173 85 156 86 143 c 0
- 87 117 109 95 153 78 c 0
- 176 69 199 64 222 65 c 0
- 267 65 304 74 331 92 c 0
- 358 109 376 125 386 140 c 0
- 403 165 412 221 412 306 c 2
- 412 778 l 1
- 552 778 l 1
+263 559 m 1
+ 263 509 l 1
+ 237 508 219 505 207 500 c 0
+ 182 490 169 479 169 468 c 0
+ 169 461 173 454 180 448 c 0
+ 184 443 196 439 215 436 c 0
+ 255 431 275 411 275 375 c 0
+ 275 338 259 311 227 296 c 0
+ 199 283 170 277 141 277 c 0
+ 119 277 99 279 80 282 c 1
+ 80 335 l 1
+ 103 332 122 330 137 330 c 0
+ 158 330 177 334 195 343 c 0
+ 211 350 219 358 219 368 c 0
+ 219 380 209 388 187 392 c 0
+ 160 397 142 406 133 416 c 0
+ 119 433 112 450 112 469 c 0
+ 113 499 126 521 154 535 c 0
+ 182 549 218 557 263 559 c 1
+539 778 m 1
+ 539 192 l 2
+ 539 163 547 140 563 123 c 0
+ 578 108 588 101 595 101 c 2
+ 594 101 614 101 628 101 c 1
+ 628 0 l 1
+ 568 0 l 2
+ 540 0 509 18 477 53 c 1
+ 449 26 420 5 392 -9 c 0
+ 353 -26 299 -36 226 -37 c 0
+ 168 -38 112 -28 58 -9 c 0
+ -15 16 -51 63 -51 130 c 0
+ -51 155 -48 177 -43 194 c 1
+ 69 194 l 1
+ 65 174 63 157 63 143 c 0
+ 63 114 87 92 135 76 c 0
+ 167 65 197 60 223 60 c 0
+ 265 60 302 68 332 83 c 0
+ 359 97 381 116 399 140 c 0
+ 416 164 425 219 425 306 c 2
+ 425 778 l 1
+ 539 778 l 1
 EndSplineSet
 Colour: ffff
 EndChar
@@ -2075,32 +2073,32 @@ StartChar: uniFEDB
 Encoding: 65243 65243 94
 Width: 613
 Flags: W
-AnchorPoint: "rtl-below" 176 -72 basechar 0
-AnchorPoint: "rtl-above" 152 776 basechar 0
+AnchorPoint: "rtl-above" 206 767 basechar 0
+AnchorPoint: "rtl-below" 138 -68 basechar 0
 LayerCount: 2
 Fore
 SplineSet
 199 0 m 2
  -12 0 l 1
- -12 112 l 1
- 189 112 l 2
- 240 112 273 127 286 158 c 0
- 291 170 294 182 294 194 c 0
- 294 207 285 225 266 248 c 2
- 138 405 l 2
- 100 452 81 487 81 510 c 0
- 81 520 83 531 86 544 c 0
- 95 580 120 606 159 623 c 2
+ -12 101 l 1
+ 189 101 l 2
+ 239 101 272 117 286 150 c 0
+ 291 162 294 174 294 186 c 0
+ 294 204 285 225 266 248 c 2
+ 124 423 l 2
+ 98 455 84 484 84 509 c 0
+ 84 518 85 530 89 543 c 0
+ 99 581 123 607 159 623 c 2
  160 623 284 675 532 778 c 1
- 532 644 l 1
- 278 542 l 2
- 255 533 241 524 236 514 c 0
- 234 510 233 506 234 502 c 0
- 235 490 248 469 273 440 c 2
- 384 308 l 2
- 418 268 435 227 435 184 c 0
- 435 147 425 111 404 78 c 0
- 373 26 304 0 199 0 c 2
+ 532 667 l 1
+ 254 552 l 2
+ 230 542 216 532 210 520 c 0
+ 208 516 207 511 207 505 c 0
+ 207 494 216 478 233 458 c 2
+ 359 308 l 2
+ 393 267 410 226 410 184 c 0
+ 410 147 400 111 379 78 c 0
+ 348 26 287 0 199 0 c 2
 EndSplineSet
 Colour: ffff
 EndChar
@@ -2109,39 +2107,39 @@ StartChar: uniFEDC
 Encoding: 65244 65244 95
 Width: 613
 Flags: W
-AnchorPoint: "rtl-below" 188 -64 basechar 0
-AnchorPoint: "rtl-above" 154 776 basechar 0
+AnchorPoint: "rtl-above" 212 777 basechar 0
+AnchorPoint: "rtl-below" 128 -74 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-208 0 m 2
- -17 0 l 1
- -17 112 l 1
- 198 112 l 2
- 249 112 281 127 294 158 c 0
- 299 170 302 182 302 194 c 0
- 302 207 293 225 276 248 c 2
- 147 405 l 2
- 109 452 90 487 90 510 c 0
- 90 520 92 531 95 544 c 0
- 104 580 129 606 168 623 c 2
- 540 778 l 1
- 540 644 l 1
- 288 542 l 2
- 264 533 250 524 245 513 c 0
- 243 510 243 506 243 502 c 0
- 244 490 257 469 282 440 c 2
- 530 141 l 2
- 537 132 547 126 560 121 c 0
- 575 116 591 113 610 113 c 2
- 633 113 l 1
- 633 0 l 1
- 592 0 l 2
- 565 0 541 2 520 6 c 0
- 484 13 457 25 440 44 c 2
- 406 82 l 0
- 394 65 l 0
- 365 22 303 0 208 0 c 2
+206 0 m 2
+ -14 0 l 1
+ -14 101 l 1
+ 196 101 l 2
+ 246 101 278 117 292 150 c 0
+ 297 162 300 174 300 186 c 0
+ 300 204 292 225 274 248 c 2
+ 130 423 l 2
+ 104 455 91 484 91 509 c 0
+ 91 518 93 530 96 543 c 0
+ 106 581 129 607 166 623 c 2
+ 538 778 l 1
+ 538 667 l 1
+ 261 552 l 2
+ 238 542 222 532 216 520 c 0
+ 214 516 214 511 214 505 c 0
+ 214 494 223 478 240 458 c 2
+ 512 129 l 2
+ 519 120 529 114 542 109 c 0
+ 557 104 574 101 594 101 c 2
+ 629 101 l 1
+ 629 0 l 1
+ 574 0 l 2
+ 550 0 527 3 507 9 c 0
+ 472 20 448 34 434 50 c 2
+ 392 100 l 1
+ 388 92 379 77 376 72 c 0
+ 345 24 289 0 206 0 c 2
 EndSplineSet
 Colour: ffff
 EndChar
@@ -2150,28 +2148,28 @@ StartChar: uniFEDD
 Encoding: 65245 65245 96
 Width: 613
 Flags: W
-AnchorPoint: "rtl-below" 236 -212 basechar 0
-AnchorPoint: "rtl-above" 285 782 basechar 0
+AnchorPoint: "rtl-above" 378 828 basechar 0
+AnchorPoint: "rtl-below" 251 -202 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-420 36 m 0
- 431 71 436 130 436 213 c 2
- 436 778 l 1
- 580 778 l 1
- 580 213 l 2
- 580 122 571 46 554 -15 c 0
- 538 -73 505 -117 454 -148 c 0
- 414 -172 355 -184 278 -185 c 0
- 194 -186 134 -173 98 -148 c 0
- 33 -103 -1 -41 -2 38 c 0
- -2 83 4 121 16 152 c 1
- 166 152 l 1
- 150 113 142 75 142 38 c 0
- 142 3 158 -23 190 -40 c 0
- 218 -55 247 -62 278 -62 c 0
- 314 -62 343 -54 366 -39 c 0
- 393 -22 411 3 420 36 c 0
+431 36 m 0
+ 442 62 447 121 447 213 c 2
+ 447 778 l 1
+ 562 778 l 1
+ 562 213 l 2
+ 562 101 553 24 536 -17 c 0
+ 509 -72 475 -110 434 -133 c 0
+ 388 -157 333 -169 269 -169 c 0
+ 213 -169 166 -160 128 -141 c 0
+ 54 -105 17 -45 17 38 c 0
+ 17 83 25 121 42 152 c 1
+ 160 152 l 1
+ 141 113 131 75 131 38 c 0
+ 131 0 154 -30 199 -50 c 0
+ 219 -60 242 -64 269 -64 c 0
+ 304 -64 334 -58 360 -45 c 0
+ 390 -30 414 -3 431 36 c 0
 EndSplineSet
 Colour: ffff
 EndChar
@@ -2180,34 +2178,34 @@ StartChar: uniFEDE
 Encoding: 65246 65246 97
 Width: 613
 Flags: W
-AnchorPoint: "rtl-below" 254 -232 basechar 0
-AnchorPoint: "rtl-above" 189 776 basechar 0
+AnchorPoint: "rtl-above" 209 776 basechar 0
+AnchorPoint: "rtl-below" 253 -219 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-542 778 m 1
- 542 192 l 2
- 542 167 551 147 568 134 c 0
- 587 119 601 112 611 112 c 2
- 635 112 l 1
- 635 0 l 1
- 636 0 619 0 584 0 c 2
- 559 0 539 9 526 28 c 1
- 521 -5 514 -32 503 -55 c 24
- 486 -94 456 -124 416 -148 c 128
- 376 -172 317 -184 240 -185 c 0
- 156 -186 96 -173 60 -148 c 0
- -7 -101 -40 -39 -40 38 c 0
- -40 83 -34 121 -22 152 c 1
- 129 152 l 1
- 113 113 105 75 105 38 c 0
- 105 3 121 -23 153 -40 c 0
- 180 -55 209 -62 240 -62 c 0
- 276 -62 306 -54 329 -39 c 0
- 356 -22 374 3 383 36 c 0
- 393 71 398 130 398 213 c 2
- 398 778 l 1
- 542 778 l 1
+529 778 m 1
+ 529 192 l 2
+ 530 162 539 138 555 123 c 0
+ 572 108 586 101 598 101 c 2
+ 597 101 615 101 629 101 c 1
+ 629 0 l 1
+ 629 0 587 0 571 0 c 2
+ 549 0 528 9 507 27 c 1
+ 502 -5 493 -31 479 -53 c 0
+ 452 -94 418 -123 376 -143 c 0
+ 341 -160 294 -169 237 -169 c 0
+ 181 -169 133 -160 95 -141 c 0
+ 20 -104 -16 -44 -16 38 c 0
+ -17 83 -8 121 9 152 c 1
+ 127 152 l 1
+ 108 113 99 75 99 38 c 0
+ 99 0 121 -30 166 -50 c 0
+ 186 -60 210 -64 237 -64 c 0
+ 272 -64 302 -58 328 -45 c 0
+ 358 -30 382 -3 399 36 c 0
+ 409 62 414 121 414 213 c 2
+ 414 778 l 1
+ 529 778 l 1
 EndSplineSet
 Colour: ffff
 EndChar
@@ -2216,22 +2214,22 @@ StartChar: uniFEDF
 Encoding: 65247 65247 98
 Width: 613
 Flags: W
-AnchorPoint: "rtl-below" 260 -66 basechar 0
-AnchorPoint: "rtl-above" 189 776 basechar 0
+AnchorPoint: "rtl-above" 246 799 basechar 0
+AnchorPoint: "rtl-below" 284 -63 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-523 206 m 2
- 523 133 509 79 480 46 c 0
- 453 15 386 0 279 0 c 2
+509 195 m 2
+ 509 130 495 80 466 46 c 0
+ 439 15 377 0 279 0 c 2
  -12 0 l 1
- -12 112 l 1
- 225 112 l 2
- 298 112 341 119 356 134 c 0
- 372 150 380 176 380 212 c 2
- 380 778 l 1
- 523 778 l 1
- 523 206 l 2
+ -12 101 l 1
+ 239 101 l 2
+ 312 101 355 108 370 123 c 0
+ 386 139 394 165 394 201 c 2
+ 394 778 l 1
+ 509 778 l 1
+ 509 195 l 2
 EndSplineSet
 Colour: ffff
 EndChar
@@ -2240,27 +2238,27 @@ StartChar: uniFEE0
 Encoding: 65248 65248 99
 Width: 613
 Flags: W
-AnchorPoint: "rtl-below" 300 -72 basechar 0
-AnchorPoint: "rtl-above" 232 853 basechar 0
+AnchorPoint: "rtl-above" 273 858 basechar 0
+AnchorPoint: "rtl-below" 304 -71 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-301 36 m 1
- 280 12 232 0 156 0 c 2
+304 40 m 1
+ 281 13 227 0 143 0 c 2
  -12 0 l 1
- -12 112 l 1
- 102 112 l 2
- 155 112 189 119 204 134 c 0
- 220 151 228 177 229 212 c 2
- 229 778 l 1
- 374 778 l 1
- 374 212 l 2
- 374 176 382 150 398 134 c 0
- 413 119 447 112 502 112 c 2
- 624 112 l 1
+ -12 101 l 1
+ 104 101 l 2
+ 168 101 207 108 222 123 c 0
+ 238 139 246 165 246 201 c 2
+ 246 778 l 1
+ 362 778 l 1
+ 362 201 l 2
+ 362 166 369 140 386 123 c 0
+ 401 108 440 101 505 101 c 2
+ 624 101 l 1
  624 0 l 1
- 448 0 l 2
- 373 0 324 12 301 36 c 1
+ 466 0 l 2
+ 383 0 329 13 304 40 c 1
 EndSplineSet
 Colour: ffff
 EndChar
@@ -2269,38 +2267,38 @@ StartChar: uniFEE1
 Encoding: 65249 65249 100
 Width: 613
 Flags: W
-AnchorPoint: "rtl-below" 388 -70 basechar 0
-AnchorPoint: "rtl-above" 275 454 basechar 0
+AnchorPoint: "rtl-above" 305 497 basechar 0
+AnchorPoint: "rtl-below" 346 -78 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-324 148 m 1
- 380 134 l 0
- 396 134 407 138 412 145 c 0
- 425 164 431 176 430 183 c 0
- 429 196 428 203 427 205 c 0
- 426 213 420 221 410 230 c 0
- 399 239 386 244 370 244 c 0
- 353 244 341 237 334 224 c 0
- 324 205 319 191 319 182 c 0
- 319 177 321 165 324 148 c 1
-238 46 m 0
- 209 59 190 60 181 52 c 128
- 172 44 168 27 168 0 c 2
- 168 -246 l 1
- 28 -246 l 1
- 28 0 l 2
- 28 67 48 117 88 150 c 0
- 109 169 140 178 180 178 c 1
- 179 192 179 202 179 207 c 0
- 179 258 200 300 242 334 c 0
- 267 355 308 366 365 366 c 0
- 397 366 429 359 462 346 c 0
- 524 322 560 281 570 222 c 0
- 573 207 574 191 574 172 c 0
- 574 115 553 71 512 42 c 0
- 480 19 442 8 399 8 c 0
- 353 7 299 19 238 46 c 0
+310 148 m 1
+ 333 140 375 130 389 130 c 0
+ 404 130 416 133 422 141 c 0
+ 437 160 444 176 444 190 c 0
+ 444 200 443 207 441 212 c 0
+ 437 232 428 245 412 252 c 0
+ 400 258 385 262 370 262 c 0
+ 351 262 338 256 330 245 c 0
+ 313 224 305 206 305 189 c 0
+ 305 180 307 165 310 148 c 1
+238 64 m 0
+ 216 75 196 70 178 52 c 0
+ 170 43 166 26 165 0 c 2
+ 165 -246 l 1
+ 47 -246 l 1
+ 47 0 l 2
+ 47 62 67 109 107 143 c 0
+ 128 162 156 172 191 171 c 1
+ 191 189 191 193 191 206 c 0
+ 191 256 215 301 263 341 c 0
+ 288 362 322 373 365 373 c 0
+ 393 373 422 366 452 354 c 0
+ 513 328 549 286 558 229 c 0
+ 561 214 562 198 562 179 c 0
+ 562 126 544 87 507 62 c 0
+ 471 37 434 24 399 24 c 0
+ 346 24 292 37 238 64 c 0
 EndSplineSet
 Colour: ffff
 EndChar
@@ -2309,44 +2307,44 @@ StartChar: uniFEE2
 Encoding: 65250 65250 101
 Width: 613
 Flags: W
-AnchorPoint: "rtl-below" 338 -88 basechar 0
-AnchorPoint: "rtl-above" 262 463 basechar 0
+AnchorPoint: "rtl-above" 291 456 basechar 0
+AnchorPoint: "rtl-below" 339 -135 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-294 120 m 1
- 350 106 l 0
- 366 106 377 110 382 118 c 0
- 395 137 401 149 400 156 c 0
- 399 169 398 177 397 178 c 0
- 396 186 390 194 380 202 c 0
- 369 211 356 216 340 216 c 0
- 323 216 311 209 304 196 c 0
- 294 176 289 162 289 154 c 0
- 289 149 291 137 294 120 c 1
-496 26 m 1
- 491 21 486 17 482 14 c 24
- 445 -9 408 -20 369 -20 c 0
- 324 -21 270 -8 208 19 c 0
- 179 32 160 34 151 25 c 128
- 142 16 138 -1 138 -28 c 2
- 138 -246 l 1
- -2 -246 l 1
- -2 -28 l 2
- -2 39 18 89 58 123 c 0
- 79 141 110 150 150 150 c 1
- 149 165 149 175 149 180 c 0
- 149 231 170 273 212 306 c 0
- 237 327 278 338 335 338 c 0
- 367 338 399 331 432 318 c 0
- 494 293 530 252 540 195 c 0
- 540 192 541 175 544 144 c 0
- 545 129 555 120 572 117 c 0
- 585 114 598 112 609 112 c 2
- 608 112 613 112 624 112 c 1
+275 100 m 1
+ 298 92 341 82 355 82 c 0
+ 370 82 382 87 388 94 c 0
+ 403 113 410 129 410 143 c 0
+ 410 153 409 161 407 165 c 0
+ 403 185 393 198 377 204 c 0
+ 365 210 351 214 336 214 c 0
+ 317 214 304 208 296 197 c 0
+ 279 175 270 157 270 141 c 0
+ 270 132 272 117 275 100 c 1
+487 26 m 1
+ 482 21 477 18 473 15 c 0
+ 432 -10 396 -23 365 -23 c 0
+ 306 -23 252 -10 204 16 c 0
+ 184 26 165 23 148 5 c 0
+ 140 -4 136 -21 136 -48 c 2
+ 136 -246 l 1
+ 18 -246 l 1
+ 18 -48 l 2
+ 18 14 38 61 78 96 c 0
+ 99 115 126 124 157 124 c 1
+ 157 142 156 146 156 159 c 0
+ 156 209 180 254 228 293 c 0
+ 253 314 288 325 331 325 c 0
+ 359 325 387 318 417 306 c 0
+ 476 282 512 240 524 182 c 0
+ 527 169 532 152 541 129 c 0
+ 546 117 556 110 571 106 c 0
+ 583 103 596 101 609 101 c 2
+ 608 101 613 101 624 101 c 1
  624 0 l 1
  582 0 l 2
- 535 0 507 9 496 26 c 1
+ 530 0 498 9 487 26 c 1
 EndSplineSet
 Colour: ffff
 EndChar
@@ -2355,35 +2353,35 @@ StartChar: uniFEE3
 Encoding: 65251 65251 102
 Width: 613
 Flags: W
-AnchorPoint: "rtl-below" 260 -92 basechar 0
-AnchorPoint: "rtl-above" 249 446 basechar 0
+AnchorPoint: "rtl-above" 267 448 basechar 0
+AnchorPoint: "rtl-below" 276 -106 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-468 10 m 0
- 436 -13 398 -24 354 -24 c 0
- 281 -24 227 -6 193 30 c 1
- 152 0 61 0 28 0 c 2
- -17 0 l 1
- -17 112 l 1
- 28 112 l 2
- 84 107 119 128 134 175 c 0
- 143 228 165 270 198 302 c 0
- 219 323 260 334 320 334 c 0
- 352 334 385 327 418 314 c 0
- 481 290 517 249 526 191 c 0
- 529 176 530 159 530 140 c 0
- 530 83 509 39 468 10 c 0
-280 116 m 1
- 296 109 315 105 336 102 c 0
- 352 102 363 106 368 113 c 0
- 381 132 387 144 386 151 c 0
- 385 164 383 171 382 173 c 0
- 381 181 375 189 366 198 c 0
- 355 207 342 212 326 212 c 0
- 309 212 297 205 290 192 c 0
- 279 173 274 159 274 150 c 0
- 274 145 276 133 280 116 c 1
+448 19 m 0
+ 416 -9 378 -24 332 -25 c 0
+ 260 -26 206 -7 170 27 c 1
+ 140 5 84 0 50 0 c 2
+ -14 0 l 1
+ -14 101 l 1
+ 38 101 l 2
+ 81 99 117 122 125 162 c 0
+ 133 219 157 262 197 291 c 0
+ 223 311 259 321 303 321 c 0
+ 330 321 357 315 385 304 c 0
+ 448 278 483 237 491 180 c 0
+ 493 167 494 152 494 136 c 0
+ 494 84 479 45 448 19 c 0
+237 107 m 1
+ 256 91 284 84 323 82 c 0
+ 339 82 350 86 355 92 c 0
+ 370 110 377 126 377 142 c 0
+ 377 152 375 159 374 163 c 0
+ 370 183 359 195 345 202 c 0
+ 333 208 320 212 306 212 c 0
+ 289 212 275 206 264 195 c 0
+ 250 180 242 163 239 141 c 0
+ 237 132 237 121 237 107 c 1
 EndSplineSet
 Colour: ffff
 EndChar
@@ -2392,39 +2390,39 @@ StartChar: uniFEE4
 Encoding: 65252 65252 103
 Width: 613
 Flags: W
-AnchorPoint: "rtl-below" 230 -96 basechar 0
-AnchorPoint: "rtl-above" 229 453 basechar 0
+AnchorPoint: "rtl-above" 266 465 basechar 0
+AnchorPoint: "rtl-below" 267 -103 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-454 16 m 1
- 410 -11 368 -24 329 -24 c 0
- 256 -24 203 -6 168 30 c 1
- 140 7 66 0 28 0 c 2
- -17 0 l 1
- -17 112 l 1
- 28 112 l 2
- 72 112 99 133 109 175 c 0
- 124 233 145 275 172 302 c 0
- 193 323 234 334 295 334 c 0
- 327 334 359 327 392 314 c 0
- 454 289 490 248 500 191 c 24
- 504 167 513 146 528 128 c 0
- 536 117 551 112 574 112 c 2
- 624 112 l 1
+448 22 m 1
+ 411 -9 370 -25 327 -25 c 0
+ 255 -25 202 -7 166 27 c 1
+ 142 8 93 0 57 0 c 2
+ -14 0 l 1
+ -14 101 l 1
+ 44 101 l 2
+ 82 101 115 124 121 162 c 0
+ 132 221 155 264 192 291 c 0
+ 218 311 254 321 298 321 c 0
+ 326 321 353 315 380 304 c 0
+ 443 277 478 236 486 180 c 0
+ 488 161 498 141 514 121 c 0
+ 525 107 544 101 574 101 c 2
+ 624 101 l 1
  624 0 l 1
  547 0 l 2
- 492 0 461 5 454 16 c 1
-254 116 m 1
- 270 109 289 105 310 102 c 0
- 326 102 337 106 342 113 c 0
- 355 132 361 144 360 151 c 0
- 359 164 358 171 357 173 c 0
- 356 181 350 189 340 198 c 0
- 329 207 316 212 300 212 c 0
- 283 212 271 205 264 192 c 0
- 254 173 249 159 249 150 c 0
- 249 145 251 133 254 116 c 1
+ 490 0 457 8 448 22 c 1
+231 107 m 1
+ 250 91 279 84 318 82 c 0
+ 334 82 345 86 350 92 c 0
+ 365 110 372 126 372 142 c 0
+ 372 152 371 159 370 163 c 0
+ 366 183 355 195 340 202 c 0
+ 328 208 315 212 301 212 c 0
+ 284 212 269 206 258 195 c 0
+ 245 181 238 163 234 141 c 0
+ 232 132 231 121 231 107 c 1
 EndSplineSet
 Colour: ffff
 EndChar
@@ -2433,11 +2431,11 @@ StartChar: uniFEE5
 Encoding: 65253 65253 104
 Width: 613
 Flags: W
-AnchorPoint: "rtl-below" 300 -198 basechar 0
-AnchorPoint: "rtl-above" 231 574 basechar 0
+AnchorPoint: "rtl-above" 241 570 basechar 0
+AnchorPoint: "rtl-below" 296 -205 basechar 0
 LayerCount: 2
 Fore
-Refer: 157 -1 N 1 0 0 1 227 363 2
+Refer: 157 -1 N 1 0 0 1 237 360 2
 Refer: 138 64414 N 1 0 0 1 0 0 2
 EndChar
 
@@ -2445,11 +2443,11 @@ StartChar: uniFEE6
 Encoding: 65254 65254 105
 Width: 613
 Flags: W
-AnchorPoint: "rtl-below" 234 -288 basechar 0
-AnchorPoint: "rtl-above" 192 506 basechar 0
+AnchorPoint: "rtl-above" 193 461 basechar 0
+AnchorPoint: "rtl-below" 228 -287 basechar 0
 LayerCount: 2
 Fore
-Refer: 157 -1 N 1 0 0 1 168 278 2
+Refer: 157 -1 N 1 0 0 1 179 272 2
 Refer: 139 64415 N 1 0 0 1 0 0 2
 EndChar
 
@@ -2457,53 +2455,53 @@ StartChar: uniFEE7
 Encoding: 65255 65255 106
 Width: 613
 Flags: W
-AnchorPoint: "rtl-below" 204 -44 basechar 0
-AnchorPoint: "rtl-above" 246 660 basechar 0
+AnchorPoint: "rtl-above" 259 609 basechar 0
+AnchorPoint: "rtl-below" 249 -55 basechar 0
 LayerCount: 2
 Fore
 Refer: 130 64488 N 1 0 0 1 0 0 2
-Refer: 157 -1 N 1 0 0 1 244 425 2
+Refer: 157 -1 N 1 0 0 1 255 425 2
 EndChar
 
 StartChar: uniFEE8
 Encoding: 65256 65256 107
 Width: 613
 Flags: W
-AnchorPoint: "rtl-below" 300 -56 basechar 0
-AnchorPoint: "rtl-above" 292 640 basechar 0
+AnchorPoint: "rtl-above" 281 602 basechar 0
+AnchorPoint: "rtl-below" 296 -62 basechar 0
 LayerCount: 2
 Fore
 Refer: 131 64489 N 1 0 0 1 0 0 2
-Refer: 157 -1 N 1 0 0 1 248 425 2
+Refer: 157 -1 N 1 0 0 1 258 425 2
 EndChar
 
 StartChar: uniFEE9
 Encoding: 65257 65257 108
 Width: 613
 Flags: W
-AnchorPoint: "rtl-below" 298 -66 basechar 0
-AnchorPoint: "rtl-above" 233 476 basechar 0
+AnchorPoint: "rtl-above" 240 491 basechar 0
+AnchorPoint: "rtl-below" 289 -89 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-274 244 m 0
- 259 244 247 234 240 213 c 0
- 234 198 231 175 231 146 c 0
- 231 127 237 113 250 102 c 128
- 263 91 277 86 290 86 c 0
- 311 86 333 93 355 106 c 0
- 373 117 382 132 382 152 c 0
- 382 171 374 187 358 202 c 0
- 329 230 301 244 274 244 c 0
+267 262 m 0
+ 248 263 234 250 225 225 c 0
+ 217 206 213 178 213 142 c 0
+ 213 118 221 100 237 87 c 0
+ 253 74 271 67 287 67 c 0
+ 313 67 340 76 367 92 c 0
+ 389 105 400 125 400 149 c 0
+ 400 171 390 192 370 211 c 0
+ 334 246 300 263 267 262 c 0
 243 367 m 0
- 326 367 397 340 458 287 c 0
- 505 246 528 200 528 151 c 0
- 528 84 503 38 454 11 c 0
- 405 -16 347 -29 281 -29 c 0
- 234 -30 197 -24 170 -12 c 0
- 114 13 86 65 86 145 c 0
- 86 204 92 247 104 274 c 0
- 132 335 178 366 243 367 c 0
+ 317 367 383 340 444 287 c 0
+ 491 246 515 200 515 151 c 0
+ 515 85 490 39 441 13 c 0
+ 389 -15 335 -28 281 -29 c 0
+ 242 -30 209 -24 182 -12 c 0
+ 126 13 98 65 99 145 c 0
+ 100 204 105 247 117 274 c 0
+ 145 335 187 366 243 367 c 0
 EndSplineSet
 Colour: ffff
 EndChar
@@ -2512,34 +2510,34 @@ StartChar: uniFEEA
 Encoding: 65258 65258 109
 Width: 613
 Flags: W
-AnchorPoint: "rtl-below" 208 -32 basechar 0
-AnchorPoint: "rtl-above" 209 568 basechar 0
+AnchorPoint: "rtl-above" 248 500 basechar 0
+AnchorPoint: "rtl-below" 256 -54 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-330 180 m 1
- 325 195 320 210 316 226 c 0
- 312 243 308 268 304 301 c 1
- 270 298 243 287 223 270 c 0
- 187 239 169 215 170 198 c 0
- 171 171 192 157 232 157 c 0
- 263 157 295 165 330 180 c 1
-296 405 m 1
- 295 418 293 432 292 446 c 1
- 432 446 l 1
- 433 378 438 317 449 264 c 0
- 458 223 471 189 490 162 c 0
- 513 129 539 112 568 112 c 2
- 624 112 l 1
+360 159 m 1
+ 355 173 350 188 346 204 c 0
+ 342 221 338 246 334 280 c 1
+ 297 276 266 264 242 244 c 0
+ 205 214 187 189 188 170 c 0
+ 188 151 206 138 240 133 c 0
+ 270 128 311 137 360 159 c 1
+326 366 m 1
+ 325 379 324 393 323 407 c 1
+ 436 407 l 1
+ 436 346 442 287 454 231 c 0
+ 462 194 474 163 493 136 c 0
+ 509 113 535 101 568 101 c 2
+ 624 101 l 1
  624 0 l 1
- 508 0 l 2
- 471 0 447 9 434 26 c 0
- 434 26 434 26 396 77 c 1
- 350 52 301 40 249 40 c 0
- 241 40 222 43 192 48 c 0
- 91 65 41 110 41 182 c 0
- 42 251 83 312 166 364 c 0
- 202 387 245 400 296 405 c 1
+ 526 0 l 2
+ 493 0 467 9 448 26 c 0
+ 440 32 432 40 408 73 c 1
+ 361 49 313 37 261 37 c 0
+ 247 37 228 40 204 45 c 0
+ 124 61 85 100 84 160 c 0
+ 84 222 121 277 196 324 c 0
+ 232 347 275 361 326 366 c 1
 EndSplineSet
 Colour: ffff
 EndChar
@@ -2548,47 +2546,47 @@ StartChar: uniFEEB
 Encoding: 65259 65259 110
 Width: 613
 Flags: W
-AnchorPoint: "rtl-below" 178 -70 basechar 0
-AnchorPoint: "rtl-above" 183 608 basechar 0
+AnchorPoint: "rtl-above" 200 582 basechar 0
+AnchorPoint: "rtl-below" 198 -91 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-220 162 m 1
- 229 171 238 184 244 198 c 0
- 250 213 254 229 254 246 c 0
- 254 255 251 268 246 284 c 0
- 242 297 235 303 226 303 c 0
- 215 304 207 299 202 288 c 0
- 195 273 191 261 191 252 c 0
- 190 242 191 231 194 219 c 0
- 198 201 207 182 220 162 c 1
-60 112 m 2
- 74 112 87 113 100 114 c 1
- 89 137 80 160 75 184 c 0
- 69 211 66 235 66 256 c 0
- 66 279 73 304 87 331 c 0
- 100 354 117 373 140 386 c 1
- 127 390 116 393 109 394 c 1
- 109 510 l 1
- 212 490 302 446 379 379 c 0
- 457 310 507 237 528 160 c 0
- 533 143 536 124 536 105 c 0
- 536 67 526 36 505 13 c 0
- 472 -25 420 -44 351 -44 c 0
- 292 -44 246 -26 188 8 c 1
- 160 3 123 0 76 0 c 2
+219 147 m 1
+ 230 156 241 170 250 188 c 0
+ 260 208 265 227 265 246 c 0
+ 265 258 262 272 257 286 c 0
+ 251 301 240 309 226 309 c 0
+ 210 309 198 303 191 290 c 0
+ 184 275 180 263 180 252 c 0
+ 179 242 180 231 183 219 c 0
+ 189 189 201 165 219 147 c 1
+60 101 m 2
+ 76 101 93 102 114 105 c 1
+ 101 135 92 161 87 184 c 0
+ 80 211 77 235 77 256 c 0
+ 77 282 84 308 99 335 c 0
+ 114 362 134 379 158 383 c 1
+ 144 392 127 398 109 401 c 1
+ 109 503 l 1
+ 195 481 276 440 351 377 c 0
+ 434 307 486 234 506 160 c 0
+ 511 143 514 124 514 105 c 0
+ 514 69 506 39 489 18 c 0
+ 460 -20 415 -38 351 -38 c 0
+ 300 -38 253 -20 199 15 c 1
+ 164 6 124 0 76 0 c 2
  -12 0 l 1
- -12 112 l 1
- 60 112 l 2
-372 226 m 1
- 372 214 371 203 370 192 c 0
- 365 158 352 125 326 94 c 0
- 320 87 314 80 307 74 c 1
- 318 69 331 66 347 66 c 0
- 384 66 405 77 410 99 c 0
- 413 109 414 119 413 130 c 0
- 412 139 407 157 396 184 c 0
- 391 197 383 211 372 226 c 1
+ -12 101 l 1
+ 60 101 l 2
+359 241 m 1
+ 361 229 360 217 360 205 c 0
+ 358 164 343 127 313 92 c 0
+ 308 87 303 81 297 74 c 1
+ 311 63 326 57 342 57 c 0
+ 382 57 405 68 410 91 c 0
+ 413 102 414 111 413 122 c 0
+ 412 137 407 158 396 184 c 0
+ 389 202 377 221 359 241 c 1
 EndSplineSet
 Colour: ffff
 EndChar
@@ -2597,42 +2595,42 @@ StartChar: uniFEEC
 Encoding: 65260 65260 111
 Width: 613
 Flags: W
-AnchorPoint: "rtl-below" 202 -280 basechar 0
-AnchorPoint: "rtl-above" 207 484 basechar 0
+AnchorPoint: "rtl-above" 228 437 basechar 0
+AnchorPoint: "rtl-below" 235 -279 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-252 112 m 1
- 262 112 l 2
- 283 112 305 125 328 152 c 0
- 351 177 362 201 362 222 c 0
- 362 257 353 274 334 273 c 0
- 315 273 294 251 271 207 c 0
- 258 182 252 151 252 112 c 1
-118 112 m 1
- 121 170 140 248 204 326 c 0
- 236 363 280 382 336 382 c 0
- 396 382 439 366 464 334 c 0
- 487 306 498 269 498 222 c 0
- 498 187 483 151 452 112 c 1
- 624 112 l 1
+245 101 m 1
+ 255 101 l 2
+ 272 101 294 114 322 140 c 0
+ 354 168 370 191 370 210 c 0
+ 370 246 358 264 334 264 c 0
+ 312 263 288 241 264 195 c 0
+ 251 171 245 140 245 101 c 1
+134 101 m 1
+ 137 176 159 247 211 305 c 0
+ 246 341 287 360 336 360 c 0
+ 388 360 426 344 450 311 c 0
+ 469 286 478 253 478 211 c 0
+ 478 175 456 138 412 101 c 1
+ 624 101 l 1
  624 0 l 1
- 452 0 l 1
- 483 -39 498 -75 498 -110 c 0
- 498 -157 487 -194 464 -222 c 0
- 439 -254 396 -270 336 -270 c 0
- 280 -270 236 -251 204 -214 c 0
- 164 -166 123 -94 118 0 c 1
+ 412 0 l 1
+ 456 -37 478 -74 478 -110 c 0
+ 478 -152 469 -185 450 -210 c 0
+ 427 -243 389 -259 336 -259 c 0
+ 287 -259 246 -240 211 -204 c 0
+ 169 -159 138 -91 134 0 c 1
  -12 0 l 1
- -12 112 l 1
- 118 112 l 1
-252 0 m 1
- 252 -39 258 -70 271 -94 c 0
- 294 -138 315 -160 334 -160 c 0
- 353 -160 362 -143 362 -109 c 0
- 362 -88 351 -65 328 -40 c 0
- 304 -13 282 0 262 0 c 2
- 252 0 l 1
+ -12 101 l 1
+ 134 101 l 1
+245 0 m 1
+ 245 -39 251 -70 264 -94 c 0
+ 288 -140 312 -162 334 -163 c 0
+ 358 -163 370 -145 370 -109 c 0
+ 370 -90 354 -67 322 -39 c 0
+ 294 -13 271 0 255 0 c 2
+ 245 0 l 1
 EndSplineSet
 Colour: ffff
 EndChar
@@ -2641,33 +2639,33 @@ StartChar: uniFEED
 Encoding: 65261 65261 112
 Width: 613
 Flags: W
-AnchorPoint: "rtl-below" 284 -270 basechar 0
-AnchorPoint: "rtl-above" 313 456 basechar 0
+AnchorPoint: "rtl-above" 312 468 basechar 0
+AnchorPoint: "rtl-below" 290 -272 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-380 211 m 0
- 362 212 349 206 340 194 c 0
- 332 183 328 172 328 159 c 0
- 328 145 341 133 366 124 c 0
- 386 116 413 112 446 112 c 1
- 446 156 436 185 416 198 c 0
- 404 206 392 210 380 211 c 0
-584 92 m 0
- 584 -3 555 -81 498 -142 c 0
- 471 -170 441 -192 408 -207 c 0
- 345 -236 221 -250 36 -250 c 1
- 36 -128 l 1
- 191 -128 287 -118 324 -98 c 0
- 387 -63 425 -30 438 2 c 1
- 421 2 394 3 357 6 c 0
- 308 10 269 21 239 40 c 0
- 200 64 181 103 181 158 c 0
- 180 241 215 297 286 326 c 0
- 305 334 332 338 369 338 c 0
- 431 338 474 329 498 312 c 0
- 540 281 566 238 575 181 c 0
- 581 147 584 117 584 92 c 0
+372 219 m 0
+ 352 219 337 212 325 196 c 0
+ 317 185 313 174 313 161 c 0
+ 312 144 323 130 344 118 c 0
+ 362 107 396 102 446 101 c 1
+ 446 154 434 190 409 207 c 0
+ 396 215 384 219 372 219 c 0
+558 92 m 0
+ 558 -5 529 -83 472 -142 c 0
+ 452 -163 417 -185 367 -207 c 0
+ 304 -236 194 -250 36 -250 c 1
+ 36 -144 l 1
+ 174 -144 266 -133 312 -110 c 0
+ 382 -75 423 -38 438 2 c 1
+ 409 3 382 4 357 6 c 0
+ 309 12 275 23 252 40 c 0
+ 213 69 194 108 194 158 c 0
+ 194 235 228 288 299 318 c 0
+ 318 326 341 330 369 330 c 0
+ 413 331 448 321 472 304 c 0
+ 515 273 541 233 549 181 c 0
+ 555 147 558 117 558 92 c 0
 EndSplineSet
 Colour: ffff
 EndChar
@@ -2676,38 +2674,38 @@ StartChar: uniFEEE
 Encoding: 65262 65262 113
 Width: 613
 Flags: W
-AnchorPoint: "rtl-below" 202 -280 basechar 0
-AnchorPoint: "rtl-above" 217 446 basechar 0
+AnchorPoint: "rtl-above" 254 423 basechar 0
+AnchorPoint: "rtl-below" 232 -280 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-408 112 m 1
- 408 128 407 142 404 154 c 0
- 399 175 391 190 378 198 c 0
- 366 206 354 210 342 211 c 0
- 324 212 311 206 302 194 c 0
- 294 183 290 172 290 159 c 0
- 290 145 303 133 328 124 c 0
- 348 116 375 112 408 112 c 1
-545 112 m 1
- 544 112 571 112 624 112 c 1
+410 101 m 1
+ 410 122 408 140 404 156 c 0
+ 397 180 387 197 373 207 c 0
+ 361 215 350 219 338 219 c 0
+ 324 219 315 217 306 209 c 0
+ 290 199 280 185 278 169 c 0
+ 275 149 285 131 308 118 c 0
+ 326 107 360 102 410 101 c 1
+521 101 m 1
+ 521 101 600 101 624 101 c 1
  624 0 l 1
- 536 0 l 1
- 523 -55 497 -102 460 -142 c 0
- 433 -170 403 -192 370 -207 c 0
- 307 -236 183 -250 -2 -250 c 1
- -2 -128 l 1
- 153 -128 249 -118 286 -98 c 0
- 349 -63 387 -30 400 2 c 1
- 383 2 356 3 319 6 c 0
- 270 10 231 21 201 40 c 0
- 162 64 143 103 143 158 c 0
- 143 180 145 200 150 218 c 0
- 163 268 196 304 248 326 c 0
- 267 334 294 338 331 338 c 0
- 393 338 436 329 460 312 c 0
- 502 283 528 239 537 181 c 0
- 541 155 544 132 545 112 c 1
+ 512 0 l 1
+ 502 -53 476 -100 436 -142 c 0
+ 408 -170 378 -192 344 -207 c 0
+ 280 -236 173 -250 23 -250 c 1
+ 23 -144 l 1
+ 159 -144 247 -133 288 -110 c 0
+ 347 -77 385 -39 402 2 c 1
+ 373 3 346 4 321 6 c 0
+ 273 12 239 23 216 40 c 0
+ 179 67 160 106 158 155 c 0
+ 157 171 159 187 163 206 c 0
+ 174 257 207 294 263 318 c 0
+ 283 326 307 330 335 330 c 0
+ 379 329 413 320 436 304 c 0
+ 479 274 505 233 513 181 c 0
+ 518 154 520 128 521 101 c 1
 EndSplineSet
 Colour: ffff
 EndChar
@@ -2716,40 +2714,40 @@ StartChar: uniFEEF
 Encoding: 65263 65263 114
 Width: 613
 Flags: W
-AnchorPoint: "rtl-below" 274 -210 basechar 0
-AnchorPoint: "rtl-above" 273 522 basechar 0
+AnchorPoint: "rtl-above" 310 533 basechar 0
+AnchorPoint: "rtl-below" 281 -186 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-588 -24 m 24
- 553 -74 519 -109 484 -129 c 0
- 429 -160 354 -175 258 -175 c 0
- 192 -175 139 -165 98 -145 c 0
- 31 -112 -2 -43 -2 61 c 0
- -2 100 9 138 30 176 c 1
- 171 176 l 1
- 149 132 138 94 139 61 c 0
- 140 8 155 -23 184 -30 c 0
- 209 -37 236 -40 264 -40 c 0
- 311 -40 349 -34 378 -22 c 0
- 406 -11 427 4 442 23 c 0
- 459 45 468 65 469 82 c 0
- 469 98 466 110 461 118 c 0
- 450 136 426 148 390 153 c 0
- 314 164 276 210 277 290 c 0
- 278 349 298 389 338 412 c 0
- 373 432 409 442 448 442 c 0
- 524 442 571 426 588 393 c 0
- 605 358 614 321 614 282 c 1
- 480 282 l 1
- 480 302 478 314 473 319 c 0
- 462 331 450 337 438 336 c 0
- 430 336 421 332 412 323 c 0
- 403 313 398 303 398 293 c 0
- 398 268 419 251 460 243 c 0
- 524 230 570 201 598 154 c 0
- 609 135 614 110 614 78 c 0
- 614 37 605 3 588 -24 c 24
+578 -8 m 0
+ 538 -66 490 -104 433 -122 c 0
+ 376 -143 318 -152 258 -152 c 0
+ 205 -152 162 -145 130 -132 c 0
+ 46 -98 5 -34 5 61 c 0
+ 5 100 16 138 37 176 c 1
+ 151 176 l 1
+ 130 132 119 94 119 61 c 0
+ 119 10 141 -22 184 -33 c 0
+ 209 -40 236 -43 264 -43 c 0
+ 307 -44 345 -37 378 -25 c 0
+ 410 -13 436 3 454 26 c 0
+ 473 50 482 68 482 82 c 0
+ 483 98 478 111 471 122 c 0
+ 459 139 433 155 393 168 c 0
+ 341 181 315 218 316 278 c 0
+ 316 332 334 370 370 391 c 0
+ 400 409 432 418 467 418 c 0
+ 528 418 566 404 584 376 c 0
+ 601 348 611 313 614 270 c 1
+ 503 270 l 1
+ 503 290 501 303 495 310 c 0
+ 485 321 474 327 461 326 c 0
+ 454 325 445 322 437 314 c 0
+ 426 304 421 292 421 277 c 0
+ 421 259 442 243 484 231 c 0
+ 530 220 564 194 586 154 c 0
+ 597 135 602 110 602 78 c 0
+ 602 46 594 17 578 -8 c 0
 EndSplineSet
 Colour: ffff
 EndChar
@@ -2758,43 +2756,42 @@ StartChar: uniFEF0
 Encoding: 65264 65264 115
 Width: 613
 Flags: W
-AnchorPoint: "rtl-below" 212 -214 basechar 0
-AnchorPoint: "rtl-above" 227 362 basechar 0
+AnchorPoint: "rtl-above" 217 322 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-370 18 m 128
- 370 26 367 33 361 38 c 24
- 355 43 346 52 334 64 c 0
- 318 80 310 105 310 138 c 0
- 310 173 318 202 334 224 c 0
- 350 245 371 261 397 270 c 0
- 412 275 435 278 467 277 c 0
- 496 277 521 269 542 252 c 0
- 566 233 582 208 590 178 c 0
- 599 134 609 112 618 112 c 2
- 624 112 l 1
+377 22 m 0
+ 376 34 374 43 370 47 c 0
+ 363 56 354 65 344 75 c 0
+ 329 91 322 112 322 138 c 0
+ 323 168 330 193 344 211 c 0
+ 365 237 389 254 417 261 c 0
+ 429 264 446 266 469 266 c 0
+ 495 266 516 259 534 244 c 0
+ 552 229 565 210 572 184 c 0
+ 588 129 602 101 612 101 c 2
+ 611 101 617 101 624 101 c 1
  624 0 l 1
  607 0 l 2
- 550 0 514 29 499 86 c 0
- 484 142 469 169 452 168 c 0
- 448 168 444 166 440 161 c 0
- 435 155 433 149 433 143 c 0
- 433 139 440 130 454 116 c 0
- 479 91 492 60 492 24 c 0
- 492 -25 482 -59 461 -79 c 0
- 436 -102 405 -123 368 -140 c 0
- 316 -164 264 -176 212 -176 c 0
- 171 -176 126 -170 78 -158 c 0
- 3 -139 -37 -84 -42 9 c 0
- -43 40 -38 78 -26 124 c 1
- 114 124 l 1
- 105 97 100 65 100 26 c 0
- 100 -11 119 -33 156 -40 c 0
- 176 -44 195 -46 212 -46 c 0
- 231 -46 257 -43 291 -36 c 0
- 305 -33 322 -25 342 -12 c 0
- 361 0 370 10 370 18 c 128
+ 558 0 524 29 505 86 c 0
+ 487 141 471 168 458 168 c 0
+ 450 168 444 165 439 160 c 0
+ 433 154 430 148 430 139 c 0
+ 430 137 437 126 451 107 c 0
+ 472 80 483 52 483 25 c 0
+ 483 -12 471 -43 447 -67 c 0
+ 417 -98 377 -120 327 -132 c 0
+ 278 -147 235 -154 198 -154 c 0
+ 158 -154 113 -148 64 -136 c 0
+ -12 -117 -52 -69 -56 9 c 0
+ -58 40 -53 78 -41 124 c 1
+ 71 124 l 1
+ 62 97 58 65 58 26 c 0
+ 58 -10 80 -32 122 -40 c 0
+ 144 -44 168 -46 197 -46 c 0
+ 229 -46 258 -43 284 -37 c 0
+ 314 -29 335 -21 348 -12 c 0
+ 367 2 377 13 377 22 c 0
 EndSplineSet
 Colour: ffff
 EndChar
@@ -2803,11 +2800,11 @@ StartChar: uniFEF1
 Encoding: 65265 65265 116
 Width: 613
 Flags: W
-AnchorPoint: "rtl-below" 256 -370 basechar 0
-AnchorPoint: "rtl-above" 251 530 basechar 0
+AnchorPoint: "rtl-above" 294 533 basechar 0
+AnchorPoint: "rtl-below" 272 -316 basechar 0
 LayerCount: 2
 Fore
-Refer: 158 -1 N 1 0 0 1 140 -330 2
+Refer: 158 -1 N 1 0 0 1 165 -286 2
 Refer: 194 1609 N 1 0 0 1 0 0 2
 EndChar
 
@@ -2815,23 +2812,23 @@ StartChar: uniFEF2
 Encoding: 65266 65266 117
 Width: 613
 Flags: W
-AnchorPoint: "rtl-below" 178 -374 basechar 0
-AnchorPoint: "rtl-above" 197 394 basechar 0
+AnchorPoint: "rtl-above" 189 344 basechar 0
+AnchorPoint: "rtl-below" 190 -328 basechar 0
 LayerCount: 2
 Fore
 Refer: 115 65264 N 1 0 0 1 0 0 2
-Refer: 158 -1 N 1 0 0 1 86 -334 2
+Refer: 158 -1 N 1 0 0 1 92 -288 2
 EndChar
 
 StartChar: uniFEF3
 Encoding: 65267 65267 118
 Width: 613
 Flags: W
-AnchorPoint: "rtl-below" 260 -214 basechar 0
-AnchorPoint: "rtl-above" 285 466 basechar 0
+AnchorPoint: "rtl-above" 279 441 basechar 0
+AnchorPoint: "rtl-below" 273 -199 basechar 0
 LayerCount: 2
 Fore
-Refer: 158 -1 N 1 0 0 1 153 -180 2
+Refer: 158 -1 N 1 0 0 1 175 -164 2
 Refer: 130 64488 N 1 0 0 1 0 0 2
 EndChar
 
@@ -2839,11 +2836,11 @@ StartChar: uniFEF4
 Encoding: 65268 65268 119
 Width: 613
 Flags: W
-AnchorPoint: "rtl-below" 298 -226 basechar 0
-AnchorPoint: "rtl-above" 297 472 basechar 0
+AnchorPoint: "rtl-above" 282 446 basechar 0
+AnchorPoint: "rtl-below" 296 -206 basechar 0
 LayerCount: 2
 Fore
-Refer: 158 -1 N 1 0 0 1 160 -182 2
+Refer: 158 -1 N 1 0 0 1 183 -164 2
 Refer: 131 64489 N 1 0 0 1 0 0 2
 EndChar
 
@@ -2851,10 +2848,10 @@ StartChar: uniFEF5
 Encoding: 65269 65269 120
 Width: 613
 Flags: W
-AnchorPoint: "Ligature rtl-below" 494 40 baselig 0
 AnchorPoint: "Ligature rtl-above" 460 820 baselig 0
-AnchorPoint: "Ligature rtl-below" 412 -30 baselig 1
-AnchorPoint: "Ligature rtl-above" 64 939 baselig 1
+AnchorPoint: "Ligature rtl-above" 68 930 baselig 1
+AnchorPoint: "Ligature rtl-below" 494 40 baselig 0
+AnchorPoint: "Ligature rtl-below" 430 6 baselig 1
 LayerCount: 2
 Fore
 Refer: 151 -1 N 1 0 0 1 -183 150 2
@@ -2866,13 +2863,13 @@ StartChar: uniFEF6
 Encoding: 65270 65270 121
 Width: 613
 Flags: W
-AnchorPoint: "Ligature rtl-below" 442 -38 baselig 0
 AnchorPoint: "Ligature rtl-above" 460 820 baselig 0
-AnchorPoint: "Ligature rtl-below" 354 -56 baselig 1
-AnchorPoint: "Ligature rtl-above" 70 931 baselig 1
+AnchorPoint: "Ligature rtl-above" 56 919 baselig 1
+AnchorPoint: "Ligature rtl-below" 422 -26 baselig 0
+AnchorPoint: "Ligature rtl-below" 346 -35 baselig 1
 LayerCount: 2
 Fore
-Refer: 151 -1 N 1 0 0 1 -188 150 2
+Refer: 151 -1 N 1 0 0 1 -209 150 2
 Refer: 127 65276 N 1 0 0 1 0 0 2
 Ligature2: "Lam-Alef ligature-1" uniFEE0 uniFE82
 EndChar
@@ -2881,13 +2878,13 @@ StartChar: uniFEF7
 Encoding: 65271 65271 122
 Width: 613
 Flags: W
-AnchorPoint: "Ligature rtl-below" 494 40 baselig 0
 AnchorPoint: "Ligature rtl-above" 460 820 baselig 0
-AnchorPoint: "Ligature rtl-below" 412 -30 baselig 1
-AnchorPoint: "Ligature rtl-above" 48 1021 baselig 1
+AnchorPoint: "Ligature rtl-above" 63 1020 baselig 1
+AnchorPoint: "Ligature rtl-below" 494 40 baselig 0
+AnchorPoint: "Ligature rtl-below" 430 6 baselig 1
 LayerCount: 2
 Fore
-Refer: 152 -1 N 1 0 0 1 -227 150 2
+Refer: 152 -1 N 1 0 0 1 -203 150 2
 Refer: 126 65275 N 1 0 0 1 0 0 2
 Ligature2: "Lam-Alef ligature-1" uniFEDF uniFE84
 EndChar
@@ -2896,10 +2893,10 @@ StartChar: uniFEF8
 Encoding: 65272 65272 123
 Width: 613
 Flags: W
-AnchorPoint: "Ligature rtl-below" 412 -30 baselig 0
-AnchorPoint: "Ligature rtl-above" 460 820 baselig 0
-AnchorPoint: "Ligature rtl-below" 332 -46 baselig 1
-AnchorPoint: "Ligature rtl-above" 34 1039 baselig 1
+AnchorPoint: "Ligature rtl-above" 440 821 baselig 0
+AnchorPoint: "Ligature rtl-above" 26 1029 baselig 1
+AnchorPoint: "Ligature rtl-below" 412 -46 baselig 0
+AnchorPoint: "Ligature rtl-below" 311 -55 baselig 1
 LayerCount: 2
 Fore
 Refer: 152 -1 N 1 0 0 1 -240 150 2
@@ -2911,13 +2908,13 @@ StartChar: uniFEF9
 Encoding: 65273 65273 124
 Width: 613
 Flags: W
-AnchorPoint: "Ligature rtl-below" 444 -16 baselig 0
 AnchorPoint: "Ligature rtl-above" 460 820 baselig 0
-AnchorPoint: "Ligature rtl-below" 158 -320 baselig 1
 AnchorPoint: "Ligature rtl-above" 110 751 baselig 1
+AnchorPoint: "Ligature rtl-below" 456 5 baselig 0
+AnchorPoint: "Ligature rtl-below" 149 -295 baselig 1
 LayerCount: 2
 Fore
-Refer: 153 -1 N 1 0 0 1 -158 -28 2
+Refer: 153 -1 N 1 0 0 1 -158 -13 2
 Refer: 126 65275 N 1 0 0 1 0 0 2
 Ligature2: "Lam-Alef ligature-1" uniFEDF uniFE88
 EndChar
@@ -2926,13 +2923,13 @@ StartChar: uniFEFA
 Encoding: 65274 65274 125
 Width: 613
 Flags: W
-AnchorPoint: "Ligature rtl-below" 392 -44 baselig 0
 AnchorPoint: "Ligature rtl-above" 460 820 baselig 0
-AnchorPoint: "Ligature rtl-below" 152 -340 baselig 1
 AnchorPoint: "Ligature rtl-above" 110 751 baselig 1
+AnchorPoint: "Ligature rtl-below" 410 -64 baselig 0
+AnchorPoint: "Ligature rtl-below" 141 -304 baselig 1
 LayerCount: 2
 Fore
-Refer: 153 -1 N 1 0 0 1 -158 -41 2
+Refer: 153 -1 N 1 0 0 1 -158 -18 2
 Refer: 127 65276 N 1 0 0 1 0 0 2
 Ligature2: "Lam-Alef ligature-1" uniFEE0 uniFE88
 EndChar
@@ -2942,28 +2939,28 @@ Encoding: 65275 65275 126
 Width: 613
 Flags: W
 AnchorPoint: "Ligature rtl-above" 110 751 baselig 1
-AnchorPoint: "Ligature rtl-below" 412 -30 baselig 1
 AnchorPoint: "Ligature rtl-above" 460 820 baselig 0
+AnchorPoint: "Ligature rtl-below" 430 6 baselig 1
 AnchorPoint: "Ligature rtl-below" 494 40 baselig 0
 LayerCount: 2
 Fore
 SplineSet
-552 417 m 2
- 552 312 531 226 488 158 c 24
- 468 126 445 97 418 72 c 0
- 360 17 290 -10 208 -10 c 0
+537 417 m 2
+ 538 315 515 229 470 158 c 24
+ 451 128 429 100 403 76 c 0
+ 339 18 274 -10 208 -10 c 0
  173 -10 143 -5 118 6 c 9
- 118 128 l 1
- 150 117 180 112 208 112 c 0
- 246 112 277 125 301 152 c 1
- 52 705 l 1
- 194 705 l 1
- 194 704 257 565 384 286 c 1
- 390 298 394 312 398 328 c 4
- 405 357 407 393 407 435 c 2
- 407 778 l 1
- 408 778 408 778 552 778 c 1
- 552 417 l 2
+ 118 112 l 1
+ 150 101 180 96 208 96 c 0
+ 245 96 282 115 318 155 c 1
+ 72 705 l 1
+ 185 705 l 1
+ 185 705 252 555 387 253 c 1
+ 395 267 401 281 407 298 c 1
+ 417 336 420 382 421 435 c 2
+ 421 778 l 1
+ 421 778 472 778 537 778 c 1
+ 537 417 l 2
 EndSplineSet
 LCarets2: 1 0
 Ligature2: "Lam-Alef ligature-1" uniFEDF uniFE8E
@@ -2974,35 +2971,35 @@ StartChar: uniFEFC
 Encoding: 65276 65276 127
 Width: 613
 Flags: W
-AnchorPoint: "Ligature rtl-below" 438 -56 baselig 0
-AnchorPoint: "Ligature rtl-above" 460 820 baselig 0
-AnchorPoint: "Ligature rtl-below" 356 -64 baselig 1
-AnchorPoint: "Ligature rtl-above" 110 751 baselig 1
+AnchorPoint: "Ligature rtl-above" 442 820 baselig 0
+AnchorPoint: "Ligature rtl-above" 92 751 baselig 1
+AnchorPoint: "Ligature rtl-below" 340 -50 baselig 0
+AnchorPoint: "Ligature rtl-below" 375 -20 baselig 1
 LayerCount: 2
 Fore
 SplineSet
-434 88 m 1
- 417 70 399 53 379 40 c 0
- 330 7 273 -9 208 -10 c 0
- 173 -10 143 -5 118 6 c 1
- 118 128 l 1
- 150 117 180 112 208 112 c 0
- 246 112 277 125 301 152 c 1
- 52 705 l 1
- 194 705 l 1
- 194 704 257 565 384 286 c 1
- 391 300 396 317 400 337 c 0
- 405 365 407 397 407 435 c 2
- 407 778 l 1
- 408 778 408 778 552 778 c 1
- 552 303 l 2
- 552 212 557 168 565 145 c 0
- 575 118 583 112 597 112 c 2
- 624 112 l 1
+423 126 m 1
+ 404 101 384 79 362 62 c 0
+ 303 14 244 -10 185 -10 c 0
+ 150 -10 120 -5 95 6 c 1
+ 95 112 l 1
+ 127 101 157 96 185 96 c 0
+ 222 96 259 115 295 155 c 1
+ 49 705 l 1
+ 162 705 l 1
+ 162 705 229 555 364 253 c 1
+ 372 268 379 284 385 302 c 1
+ 394 339 397 384 398 435 c 2
+ 398 778 l 1
+ 398 778 449 778 514 778 c 1
+ 514 301 l 2
+ 514 228 519 185 529 159 c 0
+ 545 118 562 101 583 101 c 2
+ 624 101 l 1
  624 0 l 1
  560 0 l 2
- 515 0 480 17 454 53 c 0
- 447 63 440 75 434 88 c 1
+ 507 0 466 30 436 91 c 0
+ 430 103 426 114 423 126 c 1
 EndSplineSet
 LCarets2: 1 0
 Ligature2: "Lam-Alef ligature-1" uniFEE0 uniFE8E
@@ -3016,21 +3013,21 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-602 270 m 1
- 607 240 609 206 609 168 c 0
- 609 121 579 74 518 26 c 0
- 481 -3 408 -18 300 -18 c 0
- 219 -18 152 -9 100 8 c 0
- 41 28 12 79 12 160 c 0
- 12 188 16 219 24 253 c 1
- 162 253 l 1
- 153 216 148 185 148 160 c 0
- 148 136 165 116 200 100 c 0
- 217 92 250 88 297 88 c 0
- 338 88 377 99 414 122 c 0
- 453 146 472 173 472 202 c 0
- 472 231 469 254 464 270 c 1
- 602 270 l 1
+593 270 m 1
+ 600 243 603 209 603 168 c 0
+ 603 124 574 81 516 37 c 0
+ 472 4 400 -14 300 -14 c 0
+ 222 -14 157 -4 106 14 c 0
+ 50 34 23 82 23 160 c 0
+ 23 184 29 215 40 253 c 1
+ 153 253 l 1
+ 141 211 135 180 135 160 c 0
+ 135 129 153 108 190 95 c 0
+ 216 86 252 82 297 82 c 0
+ 350 82 394 94 430 116 c 0
+ 470 141 491 170 491 202 c 0
+ 491 227 487 250 480 270 c 1
+ 593 270 l 1
 EndSplineSet
 Colour: ffff
 EndChar
@@ -3042,29 +3039,29 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-300 -10 m 0
- 228 -10 172 -3 133 10 c 0
- 66 33 32 83 32 160 c 0
- 32 193 37 224 47 253 c 1
- 188 253 l 1
- 179 226 174 199 174 170 c 0
- 174 149 191 131 226 116 c 0
- 239 111 262 108 295 108 c 0
- 312 108 333 112 358 119 c 0
- 387 127 407 137 419 150 c 0
- 433 165 440 185 440 212 c 0
- 440 241 437 260 432 270 c 1
+284 -10 m 0
+ 218 -10 163 -2 121 14 c 0
+ 62 36 32 85 32 160 c 0
+ 32 186 38 217 50 253 c 1
+ 164 253 l 1
+ 152 216 146 186 146 164 c 0
+ 146 135 165 114 202 102 c 0
+ 225 95 256 92 294 92 c 0
+ 314 92 343 98 378 112 c 0
+ 407 122 428 135 442 151 c 0
+ 459 170 466 189 466 212 c 0
+ 466 237 463 256 455 270 c 1
  565 270 l 1
  571 245 574 217 574 188 c 0
- 574 168 578 149 586 132 c 0
- 592 119 599 112 608 112 c 2
- 624 112 l 1
+ 574 161 578 138 586 121 c 0
+ 593 108 600 101 608 101 c 2
+ 624 101 l 1
  624 0 l 1
  587 0 l 2
- 565 0 548 5 537 14 c 0
- 518 29 508 41 506 52 c 1
- 494 39 468 26 429 12 c 0
- 390 -3 347 -10 300 -10 c 0
+ 568 0 552 6 538 18 c 0
+ 521 32 511 48 506 68 c 1
+ 485 47 456 30 421 15 c 0
+ 382 -2 336 -10 284 -10 c 0
 EndSplineSet
 Colour: ffff
 EndChar
@@ -3076,17 +3073,17 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-327 43 m 0
- 302 14 225 0 94 0 c 2
- -20 0 l 1
- -20 112 l 1
- 67 112 l 2
- 145 112 191 119 206 134 c 0
- 222 150 230 176 231 212 c 2
- 231 300 l 1
- 373 300 l 1
- 373 212 l 2
- 373 136 358 80 327 43 c 0
+313 43 m 0
+ 289 14 216 0 94 0 c 2
+ -16 0 l 1
+ -16 101 l 1
+ 67 101 l 2
+ 154 101 205 108 220 123 c 0
+ 236 139 245 165 245 201 c 2
+ 245 300 l 1
+ 359 300 l 1
+ 359 201 l 2
+ 359 132 344 80 313 43 c 0
 EndSplineSet
 Colour: ffff
 EndChar
@@ -3098,22 +3095,22 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-301 36 m 1
- 280 12 232 0 156 0 c 2
- -18 0 l 1
- -18 112 l 1
- 102 112 l 2
- 155 112 189 119 204 134 c 0
- 220 150 228 176 229 212 c 2
- 229 320 l 1
- 374 320 l 1
- 374 212 l 2
- 374 176 382 150 398 134 c 0
- 413 119 447 112 502 112 c 2
- 630 112 l 1
- 630 0 l 1
+301 40 m 1
+ 278 13 230 0 156 0 c 2
+ -15 0 l 1
+ -15 101 l 1
+ 116 101 l 2
+ 170 101 204 108 219 123 c 0
+ 235 139 243 165 243 201 c 2
+ 243 309 l 1
+ 359 309 l 1
+ 359 201 l 2
+ 359 166 367 140 384 123 c 0
+ 399 108 433 101 488 101 c 2
+ 627 101 l 1
+ 627 0 l 1
  448 0 l 2
- 373 0 324 12 301 36 c 1
+ 375 0 326 13 301 40 c 1
 EndSplineSet
 Colour: ffff
 EndChar
@@ -3122,43 +3119,41 @@ StartChar: uni06A1.isol
 Encoding: 1114114 -1 132
 Width: 613
 Flags: W
-AnchorPoint: "rtl-below" 226 -104 basechar 0
-AnchorPoint: "rtl-above" 271 544 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-474 246 m 0
- 481 256 484 267 484 280 c 0
- 484 295 477 308 462 320 c 0
- 451 328 439 332 424 332 c 0
- 404 332 389 325 378 310 c 0
- 370 300 366 290 367 280 c 0
- 368 257 374 242 386 234 c 0
- 398 226 411 222 426 222 c 0
- 447 222 463 230 474 246 c 0
-552 28 m 0
- 527 -3 474 -28 394 -46 c 0
- 334 -59 277 -66 222 -66 c 0
- 171 -66 125 -59 84 -46 c 0
- -8 -15 -54 52 -55 157 c 0
- -55 203 -49 241 -38 272 c 1
- 106 272 l 1
- 94 241 88 202 88 157 c 0
- 88 114 108 86 148 71 c 0
- 177 60 202 54 222 54 c 0
- 265 54 305 58 344 66 c 0
- 377 73 403 83 422 96 c 0
- 439 109 450 119 454 126 c 1
- 443 121 427 118 405 118 c 0
- 356 118 317 130 286 154 c 0
- 245 186 224 225 224 270 c 0
- 224 303 227 327 232 340 c 0
- 247 379 274 407 314 424 c 0
- 351 441 387 449 420 449 c 0
- 452 449 483 442 512 429 c 0
- 537 418 566 389 597 344 c 0
- 608 327 614 295 614 248 c 0
- 614 153 593 79 552 28 c 0
+468 232 m 0
+ 478 245 484 260 484 280 c 0
+ 484 297 475 313 456 328 c 0
+ 446 337 433 341 418 340 c 0
+ 400 340 384 333 372 319 c 0
+ 361 307 356 294 356 280 c 0
+ 356 255 363 237 379 227 c 0
+ 392 218 405 214 420 214 c 0
+ 443 214 459 220 468 232 c 0
+540 32 m 0
+ 510 3 461 -20 394 -35 c 0
+ 334 -48 277 -55 222 -55 c 0
+ 169 -55 123 -48 84 -35 c 0
+ -2 -5 -45 59 -46 157 c 0
+ -47 203 -41 241 -29 272 c 1
+ 86 272 l 1
+ 74 241 68 202 68 157 c 0
+ 68 111 88 81 128 66 c 0
+ 157 55 189 48 222 48 c 0
+ 265 48 302 53 335 60 c 0
+ 385 72 418 84 435 95 c 0
+ 454 108 469 126 478 148 c 1
+ 462 132 437 124 405 124 c 0
+ 359 124 322 135 294 158 c 0
+ 257 188 239 226 239 270 c 0
+ 239 293 241 313 245 328 c 0
+ 256 372 284 405 329 425 c 0
+ 361 439 391 446 420 446 c 0
+ 451 446 479 439 504 424 c 0
+ 533 406 559 376 581 337 c 0
+ 590 320 595 288 595 242 c 0
+ 595 140 577 70 540 32 c 0
 EndSplineSet
 Colour: ffff
 EndChar
@@ -3170,41 +3165,41 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-440 13 m 1
- 431 5 405 -5 362 -17 c 0
- 290 -38 235 -48 197 -48 c 0
- 132 -48 77 -39 33 -21 c 0
- -50 13 -91 72 -91 157 c 0
- -92 202 -87 240 -76 272 c 1
- 58 272 l 1
- 47 229 42 191 41 157 c 0
- 41 122 60 96 99 81 c 0
- 123 72 157 67 200 66 c 0
- 229 66 269 76 320 96 c 1
- 304 104 285 122 263 151 c 0
- 234 186 220 218 220 247 c 0
- 220 284 223 310 230 324 c 0
- 245 355 272 379 312 398 c 0
- 346 414 382 422 421 421 c 0
- 472 421 511 413 538 396 c 0
- 575 374 596 357 602 346 c 0
- 615 323 622 286 622 237 c 0
- 622 194 607 153 577 113 c 1
- 581 113 581 113 585 113 c 2
- 584 113 597 113 624 113 c 1
+440 16 m 1
+ 425 6 396 -4 355 -16 c 0
+ 289 -36 237 -46 197 -47 c 0
+ 142 -47 94 -39 54 -24 c 0
+ -37 11 -82 71 -83 157 c 0
+ -83 203 -75 241 -59 272 c 1
+ 52 272 l 1
+ 35 236 26 197 26 157 c 0
+ 26 119 50 88 99 69 c 0
+ 123 60 157 55 200 55 c 0
+ 233 55 276 65 327 84 c 1
+ 314 93 298 107 283 128 c 0
+ 255 166 241 202 241 235 c 0
+ 241 259 243 278 247 289 c 0
+ 258 332 289 363 342 385 c 0
+ 368 397 394 402 421 402 c 0
+ 459 402 491 394 518 377 c 0
+ 560 351 585 322 590 290 c 0
+ 596 273 600 251 600 223 c 0
+ 600 179 586 138 558 101 c 1
+ 562 101 562 101 566 101 c 2
+ 566 101 612 101 624 101 c 1
  624 0 l 1
  548 0 l 2
- 503 0 467 4 440 13 c 1
-440 148 m 1
- 469 169 484 197 483 230 c 0
- 482 241 481 252 480 261 c 0
- 479 273 472 283 461 291 c 0
- 450 300 437 304 424 304 c 0
- 416 304 408 302 401 298 c 0
- 382 289 371 277 366 263 c 0
- 364 256 363 250 363 244 c 0
- 364 230 367 217 374 206 c 0
- 390 179 412 160 440 148 c 1
+ 508 0 472 5 440 16 c 1
+440 128 m 1
+ 472 149 488 177 488 212 c 0
+ 488 221 487 231 485 240 c 0
+ 482 259 472 272 458 283 c 0
+ 447 292 434 296 421 296 c 0
+ 413 296 405 294 398 290 c 0
+ 378 282 366 268 360 251 c 0
+ 358 244 358 238 358 233 c 0
+ 359 218 364 203 374 186 c 0
+ 390 160 412 140 440 128 c 1
 EndSplineSet
 Colour: ffff
 EndChar
@@ -3216,37 +3211,37 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-434 276 m 0
- 447 285 454 303 455 328 c 0
- 455 340 450 353 439 366 c 0
- 428 379 413 385 396 385 c 0
- 381 385 369 380 360 369 c 0
- 349 357 344 343 343 328 c 0
- 343 308 347 294 356 285 c 0
- 371 271 385 264 398 264 c 128
- 411 264 423 268 434 276 c 0
-259 -98 m 0
- 326 -98 378 -72 413 -21 c 0
- 460 47 483 106 483 156 c 1
- 471 145 439 139 388 139 c 0
- 344 139 305 151 270 174 c 0
- 221 207 196 255 196 318 c 0
- 196 337 197 353 200 366 c 0
- 215 435 252 483 311 510 c 0
- 338 523 369 529 402 529 c 0
- 456 529 497 517 524 493 c 0
- 556 465 579 434 593 400 c 128
- 607 366 614 310 614 232 c 0
- 614 152 607 86 592 35 c 0
- 565 -50 528 -115 480 -162 c 0
- 429 -211 359 -236 270 -236 c 0
- 197 -236 133 -217 79 -178 c 128
- 25 -139 -2 -74 -2 18 c 0
- -2 89 6 146 22 188 c 1
- 164 188 l 1
- 147 124 138 77 137 46 c 0
- 137 5 146 -27 164 -52 c 0
- 187 -83 218 -98 259 -98 c 0
+441 272 m 0
+ 454 284 461 303 462 328 c 0
+ 462 344 453 361 436 376 c 0
+ 425 386 412 391 396 391 c 0
+ 380 391 365 385 354 372 c 0
+ 342 359 336 344 336 328 c 0
+ 336 304 343 287 357 276 c 0
+ 371 265 385 260 398 260 c 0
+ 417 260 432 264 441 272 c 0
+240 -98 m 0
+ 309 -97 360 -77 394 -35 c 0
+ 452 35 481 109 481 188 c 1
+ 464 169 433 159 388 159 c 0
+ 344 159 308 171 278 194 c 0
+ 238 225 217 266 217 318 c 0
+ 217 335 218 351 221 366 c 0
+ 233 424 265 465 319 490 c 0
+ 345 502 373 509 402 509 c 0
+ 444 509 477 499 500 479 c 0
+ 534 450 557 417 570 380 c 0
+ 582 346 589 296 589 232 c 0
+ 589 150 581 84 566 35 c 0
+ 543 -36 507 -94 455 -139 c 0
+ 397 -188 327 -213 245 -213 c 0
+ 174 -213 114 -187 64 -134 c 0
+ 26 -97 7 -46 7 18 c 0
+ 7 83 18 145 40 203 c 1
+ 154 203 l 1
+ 130 140 119 88 118 46 c 0
+ 118 14 124 -11 135 -29 c 0
+ 161 -75 196 -98 240 -98 c 0
 EndSplineSet
 Colour: ffff
 EndChar
@@ -3259,42 +3254,42 @@ LayerCount: 2
 Fore
 SplineSet
 452 5 m 1
- 423 8 399 11 378 14 c 0
- 322 24 278 47 246 82 c 0
- 211 121 194 161 194 200 c 0
- 194 231 202 264 218 299 c 0
- 226 317 246 335 278 354 c 0
- 313 375 353 386 398 386 c 0
- 446 386 476 383 488 378 c 0
- 524 359 548 334 559 302 c 0
- 570 269 577 205 580 112 c 1
- 589 111 595 111 596 112 c 2
- 624 112 l 1
+ 427 7 406 10 388 14 c 0
+ 341 25 305 43 280 66 c 0
+ 237 103 216 148 216 200 c 0
+ 216 225 220 248 228 269 c 0
+ 239 307 266 336 307 357 c 0
+ 330 370 360 377 396 377 c 0
+ 438 377 466 372 482 360 c 0
+ 516 335 541 302 555 261 c 0
+ 564 235 569 182 572 101 c 1
+ 583 101 585 101 587 101 c 2
+ 624 101 l 1
  624 0 l 1
- 593 0 l 1
- 569 0 l 1
- 564 -40 554 -74 537 -102 c 0
- 506 -151 465 -189 414 -214 c 0
- 370 -235 305 -246 220 -246 c 0
- 113 -246 44 -214 14 -150 c 0
- -3 -114 -12 -70 -12 -18 c 0
- -12 22 -6 65 6 112 c 1
- 144 112 l 1
- 130 56 123 11 123 -22 c 0
- 123 -49 131 -76 148 -101 c 0
- 163 -124 195 -136 243 -136 c 0
- 285 -136 322 -126 353 -106 c 0
- 393 -81 426 -44 452 5 c 1
-464 120 m 1
- 465 156 463 186 458 210 c 0
- 454 229 446 242 434 250 c 0
- 423 258 411 262 400 262 c 0
- 388 262 379 260 372 256 c 0
- 356 249 347 241 344 234 c 0
- 339 221 336 208 336 196 c 0
- 336 183 344 169 360 156 c 24
- 370 147 387 139 410 131 c 24
- 432 123 450 119 464 120 c 1
+ 585 0 l 1
+ 561 0 l 1
+ 553 -33 538 -67 517 -99 c 0
+ 484 -148 443 -186 394 -211 c 0
+ 346 -235 288 -247 220 -246 c 0
+ 117 -245 50 -213 19 -150 c 0
+ -1 -108 -12 -64 -12 -18 c 0
+ -12 30 -3 73 14 112 c 1
+ 126 112 l 1
+ 108 67 99 23 99 -20 c 0
+ 99 -45 105 -70 118 -93 c 0
+ 135 -127 173 -144 230 -144 c 0
+ 269 -144 307 -134 342 -114 c 0
+ 389 -88 425 -48 452 5 c 1
+470 110 m 1
+ 471 149 468 181 461 208 c 0
+ 455 230 447 246 433 256 c 0
+ 422 265 409 269 397 269 c 0
+ 386 269 377 267 370 263 c 0
+ 353 255 342 244 337 230 c 0
+ 333 218 330 207 330 197 c 0
+ 330 180 339 164 357 150 c 0
+ 375 135 400 125 428 118 c 0
+ 447 113 461 110 470 110 c 1
 EndSplineSet
 Colour: ffff
 EndChar
@@ -3306,34 +3301,34 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-278 292 m 0
- 286 301 290 313 290 328 c 0
- 290 340 283 351 270 360 c 0
- 263 365 256 368 248 368 c 0
- 238 368 229 364 220 355 c 0
- 212 346 208 336 208 327 c 0
- 208 311 213 299 224 292 c 0
- 232 287 240 284 249 284 c 0
- 263 284 273 287 278 292 c 0
--12 112 m 1
- 108 112 l 2
- 187 112 235 117 254 128 c 0
- 278 141 292 151 296 156 c 0
- 309 171 312 183 306 194 c 1
- 298 182 275 176 238 176 c 0
- 180 176 137 187 110 210 c 0
- 77 237 61 273 61 318 c 0
- 61 333 62 349 65 366 c 0
- 74 415 103 451 152 474 c 0
- 178 486 212 492 253 492 c 0
- 297 492 332 484 358 468 c 0
- 378 455 397 435 414 406 c 0
- 430 380 438 348 438 310 c 0
- 438 225 427 158 404 110 c 0
- 388 75 345 45 276 20 c 0
+288 279 m 0
+ 299 291 305 308 305 328 c 0
+ 305 344 296 360 278 373 c 0
+ 269 380 258 383 247 383 c 0
+ 233 383 221 377 210 365 c 0
+ 199 354 193 341 193 328 c 0
+ 193 306 200 289 215 279 c 0
+ 226 272 237 269 249 269 c 0
+ 269 269 281 272 288 279 c 0
+-12 101 m 1
+ 108 101 l 2
+ 159 101 202 106 239 115 c 0
+ 265 123 283 137 296 156 c 0
+ 308 172 313 186 313 200 c 1
+ 298 184 272 176 238 176 c 0
+ 188 175 149 187 123 210 c 0
+ 91 238 75 274 75 318 c 0
+ 75 334 76 350 79 366 c 0
+ 87 415 116 451 165 474 c 0
+ 191 486 221 492 253 492 c 0
+ 289 492 319 484 343 468 c 0
+ 370 449 391 424 407 392 c 0
+ 419 371 425 338 425 296 c 0
+ 425 220 413 158 388 110 c 0
+ 368 70 330 40 276 20 c 0
  240 7 197 0 148 0 c 2
  -12 0 l 1
- -12 112 l 1
+ -12 101 l 1
 EndSplineSet
 Colour: ffff
 EndChar
@@ -3345,38 +3340,38 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-392 408 m 0
- 441 391 472 367 484 338 c 0
- 493 317 497 284 496 240 c 0
- 495 221 492 201 485 180 c 0
- 480 165 463 146 434 122 c 1
- 448 115 474 112 512 112 c 2
- 624 112 l 1
+371 393 m 0
+ 427 371 460 339 470 298 c 0
+ 476 279 477 257 477 229 c 0
+ 477 207 473 187 466 168 c 0
+ 459 149 446 130 426 110 c 1
+ 439 104 468 101 512 101 c 2
+ 624 101 l 1
  624 0 l 1
  467 0 l 2
  422 0 368 9 306 28 c 1
  245 9 191 0 146 0 c 2
  -12 0 l 1
- -12 112 l 1
- 101 112 l 2
- 140 112 166 115 178 120 c 1
- 157 128 140 148 127 180 c 0
- 120 195 117 215 117 240 c 0
- 116 283 123 316 138 340 c 0
- 159 375 185 397 214 406 c 0
- 242 414 273 418 307 418 c 0
- 344 418 372 415 392 408 c 0
-306 305 m 0
- 295 304 287 302 282 298 c 0
- 274 291 268 284 264 277 c 0
- 257 264 254 253 254 244 c 0
- 254 232 258 221 266 212 c 0
- 280 195 293 184 306 178 c 1
- 317 186 329 197 342 212 c 0
- 350 221 354 232 354 244 c 128
- 354 256 352 267 348 278 c 0
- 344 287 337 294 326 300 c 0
- 321 303 314 305 306 305 c 0
+ -12 101 l 1
+ 101 101 l 2
+ 145 101 174 104 187 109 c 1
+ 172 120 158 139 146 168 c 0
+ 139 183 136 204 136 229 c 0
+ 136 257 139 279 147 299 c 0
+ 161 341 192 372 239 392 c 0
+ 257 398 279 402 306 402 c 0
+ 334 402 356 399 371 393 c 0
+306 300 m 0
+ 298 300 292 297 286 294 c 0
+ 272 285 262 273 256 261 c 0
+ 251 251 249 242 249 233 c 0
+ 249 219 253 205 261 192 c 0
+ 273 172 288 159 306 152 c 1
+ 322 159 338 172 350 192 c 0
+ 358 205 362 219 362 233 c 0
+ 362 243 359 253 356 262 c 0
+ 350 275 339 286 324 295 c 0
+ 318 298 312 300 306 300 c 0
 EndSplineSet
 Colour: ffff
 EndChar
@@ -3388,23 +3383,23 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-598 128 m 0
- 598 57 584 -4 556 -54 c 0
- 536 -89 501 -119 450 -142 c 0
- 417 -158 363 -166 290 -166 c 0
- 235 -166 186 -155 142 -134 c 0
- 53 -91 8 -26 8 63 c 0
- 8 120 16 179 32 240 c 1
- 176 240 l 1
- 163 193 157 141 156 82 c 0
- 155 38 176 4 218 -20 c 0
- 243 -35 267 -42 290 -42 c 0
- 325 -42 349 -39 363 -32 c 0
- 401 -15 426 11 438 46 c 0
- 449 79 455 112 455 144 c 0
- 455 244 447 311 432 344 c 1
- 578 344 l 1
- 591 291 598 219 598 128 c 0
+588 128 m 0
+ 588 61 573 2 542 -51 c 0
+ 520 -88 485 -118 436 -139 c 0
+ 395 -157 346 -166 290 -166 c 0
+ 234 -166 184 -155 142 -134 c 0
+ 59 -93 17 -27 17 63 c 0
+ 18 121 26 177 43 230 c 1
+ 158 230 l 1
+ 142 177 134 124 134 72 c 0
+ 134 20 158 -19 206 -42 c 0
+ 228 -53 255 -58 290 -58 c 0
+ 321 -58 345 -55 363 -48 c 0
+ 408 -31 440 0 456 46 c 0
+ 468 79 473 112 473 144 c 0
+ 473 235 463 301 443 344 c 1
+ 559 344 l 1
+ 578 291 588 219 588 128 c 0
 EndSplineSet
 Colour: ffff
 EndChar
@@ -3416,29 +3411,29 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-504 -136 m 0
- 484 -171 449 -201 398 -224 c 0
- 365 -240 311 -248 238 -248 c 0
- 183 -248 134 -237 90 -216 c 0
- 1 -173 -44 -107 -44 -19 c 0
- -44 38 -36 97 -20 158 c 1
- 124 158 l 1
- 111 111 105 59 104 0 c 0
- 103 -44 124 -78 166 -102 c 0
- 191 -117 215 -124 238 -124 c 0
- 273 -124 297 -121 311 -114 c 0
- 349 -97 374 -71 386 -36 c 0
- 397 -3 403 30 403 62 c 0
- 403 162 395 229 380 262 c 1
- 526 262 l 1
- 530 251 534 227 538 188 c 0
- 541 169 549 149 564 128 c 0
- 571 117 583 112 599 112 c 2
- 625 112 l 1
+492 -134 m 0
+ 470 -171 435 -201 386 -222 c 0
+ 345 -240 296 -249 240 -249 c 0
+ 184 -249 134 -238 92 -217 c 0
+ 8 -176 -33 -111 -33 -21 c 0
+ -33 36 -24 92 -7 146 c 1
+ 108 146 l 1
+ 92 92 84 40 84 -12 c 0
+ 84 -65 108 -103 156 -126 c 0
+ 178 -137 206 -142 240 -142 c 0
+ 271 -142 295 -139 313 -132 c 0
+ 359 -115 390 -83 406 -37 c 0
+ 417 -5 422 29 422 65 c 0
+ 422 144 409 210 384 262 c 1
+ 501 262 l 1
+ 506 248 512 224 520 191 c 0
+ 527 167 537 146 550 126 c 0
+ 560 110 576 101 599 101 c 2
+ 625 101 l 1
  625 0 l 1
  578 0 l 2
- 557 0 545 3 544 8 c 1
- 540 -47 527 -95 504 -136 c 0
+ 553 0 538 6 535 17 c 1
+ 532 -39 518 -90 492 -134 c 0
 EndSplineSet
 Colour: ffff
 EndChar
@@ -3447,42 +3442,42 @@ StartChar: uniFEB1.alt
 Encoding: 1114120 -1 140
 Width: 613
 Flags: W
-AnchorPoint: "rtl-below" 292 -246 basechar 0
-AnchorPoint: "rtl-above" 279 482 basechar 0
+AnchorPoint: "rtl-above" 291 494 basechar 0
+AnchorPoint: "rtl-below" 300 -231 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-234 14 m 1
- 233 -15 228 -54 219 -101 c 0
- 210 -142 196 -175 176 -200 c 0
- 152 -231 49 -246 0 -246 c 1
- 0 -140 l 1
- 28 -140 88 -130 102 -112 c 0
- 111 -100 118 -79 122 -48 c 0
- 127 -12 130 34 130 90 c 0
- 130 119 127 150 122 183 c 2
- 101 300 l 1
- 101 300 139 300 218 300 c 1
- 228 222 l 2
- 231 193 237 163 246 132 c 0
- 253 109 262 98 275 98 c 0
- 288 98 297 116 304 152 c 0
- 309 176 312 225 311 300 c 1
- 428 300 l 1
- 428 231 433 174 444 130 c 0
- 451 105 459 92 470 92 c 0
- 486 92 494 137 494 228 c 2
- 494 375 l 1
- 614 375 l 1
- 614 204 l 2
- 614 127 603 71 581 36 c 0
- 570 19 556 7 538 0 c 0
- 514 -9 491 -14 470 -14 c 0
- 445 -14 425 -6 410 11 c 0
- 389 34 376 56 372 76 c 1
- 371 60 363 41 348 18 c 0
- 336 -1 311 -10 274 -9 c 0
- 257 -8 243 -1 234 14 c 1
+213 23 m 1
+ 211 -21 206 -63 196 -101 c 0
+ 185 -141 170 -174 150 -200 c 0
+ 126 -231 42 -246 0 -246 c 1
+ 0 -156 l 1
+ 22 -156 79 -146 94 -124 c 0
+ 104 -109 113 -83 120 -47 c 0
+ 127 -11 130 35 129 90 c 0
+ 129 120 126 151 121 183 c 2
+ 100 300 l 1
+ 100 300 161 300 197 300 c 1
+ 207 222 l 2
+ 211 183 217 153 225 132 c 0
+ 237 107 249 95 262 94 c 0
+ 276 93 290 112 301 152 c 0
+ 310 182 314 231 314 300 c 1
+ 412 300 l 1
+ 411 239 416 186 428 140 c 0
+ 437 107 447 90 460 90 c 0
+ 486 90 500 136 500 228 c 2
+ 500 375 l 1
+ 599 375 l 1
+ 599 204 l 2
+ 599 140 588 87 567 43 c 0
+ 556 21 539 3 515 -6 c 0
+ 500 -12 481 -14 457 -14 c 0
+ 434 -14 416 -8 405 4 c 0
+ 384 27 370 54 363 86 c 1
+ 357 59 344 36 325 15 c 0
+ 310 -1 288 -9 258 -9 c 0
+ 242 -9 226 1 213 23 c 1
 EndSplineSet
 Colour: ffff
 EndChar
@@ -3491,47 +3486,47 @@ StartChar: uniFEB2.alt
 Encoding: 1114121 -1 141
 Width: 613
 Flags: W
-AnchorPoint: "rtl-below" 206 -262 basechar 0
-AnchorPoint: "rtl-above" 227 476 basechar 0
+AnchorPoint: "rtl-above" 228 476 basechar 0
+AnchorPoint: "rtl-below" 186 -254 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-436 -14 m 0
- 411 -14 391 -6 376 11 c 0
- 355 34 342 56 338 76 c 1
- 337 60 329 41 314 18 c 0
- 302 -1 277 -10 240 -9 c 0
- 223 -8 209 -1 200 14 c 1
- 199 -15 194 -54 185 -101 c 0
- 176 -142 162 -175 142 -200 c 0
- 118 -231 49 -246 0 -246 c 1
- 0 -140 l 1
- 21 -140 53 -131 68 -112 c 0
- 77 -100 84 -79 88 -48 c 0
- 93 -12 96 34 96 90 c 0
- 96 119 93 150 88 183 c 2
- 67 300 l 1
- 67 300 105 300 184 300 c 1
- 194 222 l 2
- 197 193 203 163 212 132 c 0
- 219 109 228 98 241 98 c 0
- 254 98 263 116 270 152 c 0
- 275 176 278 225 277 300 c 1
- 394 300 l 1
- 394 231 399 174 410 130 c 0
- 417 105 425 92 436 92 c 0
- 452 92 460 137 460 228 c 2
- 460 375 l 1
- 580 375 l 1
- 580 374 580 374 580 224 c 0
- 580 169 587 135 602 121 c 0
- 607 115 614 112 622 112 c 2
- 626 112 l 1
- 626 0 l 1
- 595 0 l 2
- 578 0 562 12 547 36 c 1
- 536 19 522 7 504 0 c 0
- 480 -9 457 -14 436 -14 c 0
+421 -14 m 0
+ 398 -14 381 -8 369 4 c 0
+ 348 27 334 54 327 86 c 1
+ 321 59 308 36 289 15 c 0
+ 274 -1 251 -9 221 -9 c 0
+ 205 -9 190 1 177 23 c 1
+ 175 -21 170 -63 160 -101 c 0
+ 149 -141 134 -174 113 -200 c 0
+ 89 -231 42 -246 0 -246 c 1
+ 0 -156 l 1
+ 19 -156 42 -146 58 -124 c 0
+ 69 -109 78 -83 84 -47 c 0
+ 91 -11 94 35 94 90 c 0
+ 94 120 91 151 85 183 c 1
+ 84 183 71 257 64 300 c 1
+ 64 300 125 300 161 300 c 1
+ 170 222 l 2
+ 174 183 181 153 189 132 c 0
+ 201 107 213 95 226 94 c 0
+ 241 93 253 112 264 152 c 0
+ 273 182 278 231 278 300 c 1
+ 375 300 l 1
+ 374 239 380 186 392 140 c 0
+ 401 107 411 90 424 90 c 0
+ 450 90 463 136 463 228 c 2
+ 463 375 l 1
+ 562 375 l 1
+ 562 375 562 281 562 213 c 1
+ 562 162 570 130 584 117 c 0
+ 594 106 606 101 621 101 c 2
+ 625 101 l 1
+ 625 0 l 1
+ 594 0 l 2
+ 568 0 546 15 528 43 c 1
+ 517 18 502 1 481 -6 c 0
+ 464 -12 444 -14 421 -14 c 0
 EndSplineSet
 Colour: ffff
 EndChar
@@ -3540,11 +3535,11 @@ StartChar: uniFEB5.alt
 Encoding: 1114122 -1 142
 Width: 613
 Flags: W
-AnchorPoint: "rtl-above" 221 772 basechar 0
-AnchorPoint: "rtl-below" 294 -244 basechar 0
+AnchorPoint: "rtl-above" 229 731 basechar 0
+AnchorPoint: "rtl-below" 316 -214 basechar 0
 LayerCount: 2
 Fore
-Refer: 159 -1 S 1 0 0 1 132 400 2
+Refer: 159 -1 N 1 0 0 1 157 400 2
 Refer: 140 -1 N 1 0 0 1 0 0 2
 EndChar
 
@@ -3552,11 +3547,11 @@ StartChar: uniFEB6.alt
 Encoding: 1114123 -1 143
 Width: 613
 Flags: W
-AnchorPoint: "rtl-above" 147 776 basechar 0
-AnchorPoint: "rtl-below" 206 -260 basechar 0
+AnchorPoint: "rtl-above" 115 717 basechar 0
+AnchorPoint: "rtl-below" 164 -251 basechar 0
 LayerCount: 2
 Fore
-Refer: 159 -1 S 1 0 0 1 118 400 2
+Refer: 159 -1 N 1 0 0 1 118 400 2
 Refer: 141 -1 N 1 0 0 1 0 0 2
 EndChar
 
@@ -3596,40 +3591,40 @@ StartChar: uniFEB9.alt
 Encoding: 1114125 -1 145
 Width: 613
 Flags: W
-AnchorPoint: "rtl-below" 298 -242 basechar 0
-AnchorPoint: "rtl-above" 193 472 basechar 0
+AnchorPoint: "rtl-above" 174 474 basechar 0
+AnchorPoint: "rtl-below" 355 -189 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-205 180 m 1
- 228 209 250 235 271 258 c 0
- 315 305 363 327 416 326 c 0
- 486 325 535 307 562 274 c 0
- 591 237 606 201 606 168 c 0
- 606 103 579 54 524 22 c 0
- 499 7 453 0 387 0 c 2
+214 161 m 1
+ 238 198 260 227 278 248 c 0
+ 324 302 372 327 424 327 c 0
+ 487 327 533 311 562 281 c 0
+ 591 250 606 215 606 178 c 0
+ 606 114 576 65 518 31 c 0
+ 483 11 440 0 387 0 c 2
  278 0 l 2
  266 0 251 5 233 15 c 0
  218 24 211 31 211 36 c 1
- 210 8 204 -30 195 -78 c 0
- 188 -114 167 -155 132 -200 c 0
- 108 -231 50 -246 0 -246 c 1
- 0 -140 l 1
- 12 -140 45 -130 60 -112 c 0
- 69 -101 77 -80 84 -48 c 0
- 95 -1 97 45 92 90 c 0
- 88 121 83 152 78 183 c 2
- 73 225 l 1
- 190 225 l 1
- 196 212 201 197 205 180 c 1
-304 112 m 1
- 368 112 l 2
- 399 112 419 115 429 122 c 0
- 450 137 460 150 460 162 c 0
- 460 173 456 183 449 194 c 0
- 442 203 430 208 413 207 c 0
- 390 206 367 193 344 166 c 0
- 325 143 312 125 304 112 c 1
+ 211 -9 204 -54 191 -99 c 0
+ 180 -139 160 -174 135 -202 c 0
+ 106 -232 36 -246 0 -246 c 1
+ 0 -147 l 1
+ 18 -146 68 -136 81 -117 c 0
+ 97 -93 107 -61 110 -22 c 0
+ 115 18 115 54 111 86 c 0
+ 103 139 97 179 92 206 c 1
+ 137 225 l 1
+ 137 222 190 216 193 206 c 1
+ 197 193 205 178 214 161 c 1
+296 101 m 1
+ 360 101 l 2
+ 400 101 429 107 447 118 c 0
+ 476 137 490 156 490 174 c 0
+ 490 187 484 199 474 211 c 0
+ 464 221 449 226 430 226 c 0
+ 406 226 380 210 351 178 c 0
+ 329 153 310 127 296 101 c 1
 EndSplineSet
 Colour: ffff
 EndChar
@@ -3638,47 +3633,47 @@ StartChar: uniFEBC.alt
 Encoding: 1114126 -1 146
 Width: 613
 Flags: W
-AnchorPoint: "rtl-below" 362 -64 basechar 0
-AnchorPoint: "rtl-above" 149 438 basechar 0
+AnchorPoint: "rtl-above" 126 425 basechar 0
+AnchorPoint: "rtl-below" 251 -165 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-579 168 m 0
- 580 155 579 145 576 140 c 1
- 581 132 586 126 591 122 c 0
- 600 115 607 112 612 112 c 2
- 628 112 l 1
- 628 0 l 1
- 602 0 l 2
- 585 0 563 9 538 28 c 2
- 522 40 l 1
- 491 6 416 0 360 0 c 2
- 251 0 l 2
- 239 0 224 5 206 15 c 0
- 191 24 184 31 184 36 c 1
- 183 8 177 -30 168 -78 c 0
- 161 -114 140 -155 105 -200 c 0
- 81 -231 50 -246 0 -246 c 1
- 0 -140 l 1
- 12 -140 19 -130 34 -112 c 0
- 56 -86 68 -7 68 37 c 0
- 68 55 66 72 64 90 c 0
- 56 154 51 193 46 225 c 1
- 163 225 l 1
- 165 221 167 217 168 213 c 0
- 172 203 175 192 178 180 c 1
- 201 209 223 235 244 258 c 0
- 288 305 336 327 389 326 c 0
- 459 325 508 307 535 274 c 0
- 564 237 579 201 579 168 c 0
-277 112 m 1
- 341 112 l 2
- 372 112 392 115 402 122 c 0
- 423 137 433 150 433 162 c 0
- 433 173 429 183 422 194 c 0
- 415 203 403 208 386 207 c 0
- 363 206 340 193 317 166 c 0
- 298 143 285 125 277 112 c 1
+573 178 m 0
+ 573 163 570 147 563 132 c 1
+ 568 127 573 123 578 118 c 0
+ 590 107 601 101 608 101 c 2
+ 626 101 l 1
+ 626 0 l 1
+ 598 0 l 2
+ 581 0 557 12 527 38 c 2
+ 512 51 l 1
+ 467 14 404 0 354 0 c 2
+ 246 0 l 2
+ 233 0 217 5 200 15 c 0
+ 185 24 178 31 178 36 c 1
+ 178 -9 171 -54 158 -99 c 0
+ 146 -139 128 -174 103 -202 c 0
+ 73 -232 36 -246 0 -246 c 1
+ 0 -147 l 1
+ 18 -146 36 -136 49 -117 c 0
+ 70 -86 82 -28 82 17 c 0
+ 82 44 81 66 78 86 c 0
+ 68 154 62 197 57 225 c 1
+ 157 225 l 1
+ 158 220 159 212 162 200 c 0
+ 166 188 173 176 181 161 c 1
+ 205 198 227 227 245 248 c 0
+ 292 302 341 327 392 327 c 0
+ 455 327 501 311 530 281 c 0
+ 559 249 573 214 573 178 c 0
+263 101 m 1
+ 328 101 l 2
+ 368 101 396 107 414 118 c 0
+ 443 137 457 156 457 174 c 0
+ 457 187 451 199 441 211 c 0
+ 431 221 417 226 398 226 c 0
+ 375 226 349 210 319 178 c 0
+ 297 153 278 127 263 101 c 1
 EndSplineSet
 Colour: ffff
 EndChar
@@ -3687,24 +3682,24 @@ StartChar: uniFEBD.alt
 Encoding: 1114127 -1 147
 Width: 613
 Flags: W
-AnchorPoint: "rtl-above" 187 568 basechar 0
-AnchorPoint: "rtl-below" 286 -244 basechar 0
+AnchorPoint: "rtl-above" 168 557 basechar 0
+AnchorPoint: "rtl-below" 348 -198 basechar 0
 LayerCount: 2
 Fore
 Refer: 145 -1 N 1 0 0 1 0 0 2
-Refer: 157 -1 S 1 0 0 1 116 348 2
+Refer: 157 -1 S 1 0 0 1 145 348 2
 EndChar
 
 StartChar: uniFEBE.alt
 Encoding: 1114128 -1 148
 Width: 613
 Flags: W
-AnchorPoint: "rtl-above" 129 552 basechar 0
-AnchorPoint: "rtl-below" 350 -62 basechar 0
+AnchorPoint: "rtl-above" 114 554 basechar 0
+AnchorPoint: "rtl-below" 236 -162 basechar 0
 LayerCount: 2
 Fore
 Refer: 146 -1 N 1 0 0 1 0 0 2
-Refer: 157 -1 S 1 0 0 1 130 335 2
+Refer: 157 -1 N 1 0 0 1 130 335 2
 EndChar
 
 StartChar: uniFE73
@@ -3715,13 +3710,13 @@ LayerCount: 2
 Fore
 SplineSet
 613 -246 m 1
- 569 -246 530 -229 497 -196 c 0
- 464 -164 447 -109 447 -32 c 0
- 447 40 456 100 473 149 c 1
+ 576 -246 540 -229 507 -196 c 0
+ 471 -160 454 -106 457 -32 c 0
+ 461 43 472 103 491 149 c 1
  587 149 l 1
- 571 78 564 17 566 -32 c 0
- 567 -72 574 -102 586 -122 c 0
- 593 -134 602 -140 613 -140 c 1
+ 564 76 553 15 555 -32 c 0
+ 557 -81 565 -115 576 -132 c 0
+ 587 -148 599 -157 613 -156 c 1
  613 -246 l 1
 EndSplineSet
 Colour: ffff
@@ -3734,22 +3729,22 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-220 706 m 25
- 262 720 l 17
- 251 725 241 734 232 747 c 16
- 220 763 214 779 214 796 c 0
- 214 827 220 847 235 866 c 0
- 250 886 295 897 317 897 c 0
- 341 897 364 893 385 882 c 9
- 385 821 l 17
- 365 831 343 836 320 836 c 0
- 311 836 303 833 298 828 c 24
- 290 821 286 811 287 797 c 0
- 287 778 302 760 332 744 c 17
- 395 759 l 9
- 395 758 395 758 395 694 c 25
- 220 644 l 25
- 220 706 l 25
+220 711 m 25
+ 261 722 l 17
+ 248 728 238 738 231 750 c 16
+ 223 764 218 778 218 794 c 0
+ 219 825 227 847 243 864 c 0
+ 260 881 294 890 321 890 c 0
+ 343 889 363 885 383 874 c 9
+ 383 819 l 17
+ 365 830 344 834 322 835 c 0
+ 306 835 295 833 290 827 c 24
+ 281 818 277 808 277 797 c 0
+ 277 775 292 757 323 745 c 17
+ 329 743 371 751 393 756 c 9
+ 393 756 393 729 393 700 c 25
+ 220 656 l 25
+ 220 711 l 25
 EndSplineSet
 Colour: ffff
 EndChar
@@ -3758,24 +3753,24 @@ StartChar: madda
 Encoding: 1114129 -1 151
 Width: 613
 Flags: W
-AnchorPoint: "rtl-above" 307 528 mark 0
-AnchorPoint: "Ligature rtl-above" 307 528 mark 0
+AnchorPoint: "rtl-above" 303 548 mark 0
+AnchorPoint: "Ligature rtl-above" 303 548 mark 0
 LayerCount: 2
 Fore
 SplineSet
-110 694 m 25
- 206 750 l 25
- 227 730 258 714 299 701 c 0
- 313 696 329 694 347 694 c 0
- 364 694 381 697 397 702 c 0
- 441 715 476 735 502 761 c 25
- 502 661 l 17
- 483 644 450 629 404 614 c 0
- 382 607 362 604 344 604 c 0
- 339 604 320 607 289 612 c 0
- 255 617 228 631 209 653 c 25
- 110 594 l 25
- 110 694 l 25
+119 679 m 25
+ 119 678 177 715 206 738 c 25
+ 235 714 264 697 295 687 c 0
+ 309 683 325 681 343 681 c 0
+ 361 681 378 684 393 689 c 0
+ 433 702 465 722 493 747 c 25
+ 493 668 l 17
+ 468 649 437 634 400 622 c 0
+ 378 614 358 611 340 611 c 0
+ 332 611 313 613 285 619 c 0
+ 256 625 230 638 209 661 c 25
+ 119 600 l 25
+ 119 679 l 25
 EndSplineSet
 Colour: ffff
 EndChar
@@ -3784,9 +3779,9 @@ StartChar: hamzaabove
 Encoding: 1114130 -1 152
 Width: 613
 Flags: W
-AnchorPoint: "rtl-above-mark" 307 875 basemark 0
-AnchorPoint: "rtl-above" 307 549 mark 0
-AnchorPoint: "Ligature rtl-above" 307 549 mark 0
+AnchorPoint: "rtl-above" 303 558 mark 0
+AnchorPoint: "Ligature rtl-above" 303 558 mark 0
+AnchorPoint: "rtl-above-mark" 305 878 basemark 0
 LayerCount: 2
 Fore
 Refer: 150 1652 N 1 0 0 1 0 -58 2
@@ -3796,12 +3791,12 @@ StartChar: hamzabelow
 Encoding: 1114131 -1 153
 Width: 613
 Flags: W
-AnchorPoint: "rtl-below-mark" 307 -310 basemark 0
-AnchorPoint: "rtl-below" 307 0 mark 0
-AnchorPoint: "Ligature rtl-below" 307 0 mark 0
+AnchorPoint: "rtl-below" 306 0 mark 0
+AnchorPoint: "Ligature rtl-below" 306 0 mark 0
+AnchorPoint: "rtl-below-mark" 309 -288 basemark 0
 LayerCount: 2
 Fore
-Refer: 150 1652 N 1 0 0 1 0 -945 2
+Refer: 150 1652 N 1 0 0 1 0 -928 2
 EndChar
 
 StartChar: uniFBB2
@@ -3907,11 +3902,11 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
--2 112 m 1
- 110 112 l 1
- 110 0 l 1
+-2 92 m 1
+ 90 92 l 1
+ 90 0 l 1
  -2 0 l 1
- -2 112 l 1
+ -2 92 l 1
 EndSplineSet
 Colour: ffff
 EndChar
@@ -3923,16 +3918,16 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-173 112 m 1
- 174 112 174 112 286 112 c 1
- 286 0 l 1
- 173 0 l 1
- 173 112 l 1
--2 112 m 1
- 110 112 l 1
- 110 0 l 1
+146 92 m 1
+ 146 92 188 92 238 92 c 1
+ 238 0 l 1
+ 146 0 l 1
+ 146 92 l 1
+-2 92 m 1
+ 90 92 l 1
+ 90 0 l 1
  -2 0 l 1
- -2 112 l 1
+ -2 92 l 1
 EndSplineSet
 Colour: ffff
 EndChar
@@ -3944,21 +3939,21 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-86 288 m 1
- 198 288 l 1
- 198 175 l 1
- 86 175 l 1
- 86 288 l 1
-173 112 m 1
- 174 112 174 112 286 112 c 1
- 286 0 l 1
- 173 0 l 1
- 173 112 l 1
--2 112 m 1
- 110 112 l 1
- 110 0 l 1
+72 240 m 1
+ 164 240 l 1
+ 164 148 l 1
+ 72 148 l 1
+ 72 240 l 1
+146 92 m 1
+ 146 92 188 92 238 92 c 1
+ 238 0 l 1
+ 146 0 l 1
+ 146 92 l 1
+-2 92 m 1
+ 90 92 l 1
+ 90 0 l 1
  -2 0 l 1
- -2 112 l 1
+ -2 92 l 1
 EndSplineSet
 Colour: ffff
 EndChar
@@ -4502,16 +4497,16 @@ StartChar: tatweelarabic
 Encoding: 1600 1600 199
 Width: 613
 Flags: W
-AnchorPoint: "rtl-below" 298 -66 basechar 0
-AnchorPoint: "rtl-above" 303 454 basechar 0
+AnchorPoint: "rtl-above" 300 509 basechar 0
+AnchorPoint: "rtl-below" 300 -67 basechar 0
 LayerCount: 2
 Fore
 SplineSet
--18 0 m 1
- -18 112 l 1
- 630 112 l 1
- 630 0 l 1
- -18 0 l 1
+-15 0 m 1
+ -15 101 l 1
+ 627 101 l 1
+ 627 0 l 1
+ -15 0 l 1
 EndSplineSet
 Colour: ffff
 EndChar
