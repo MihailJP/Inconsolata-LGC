@@ -2,10 +2,13 @@
 
 from sys import argv
 import fontforge
-from math import fma
 
 def linear(a: float, b: float, p: float):
-    return fma(b - a, p, a)
+    try:
+        from math import fma  # 3.13 or later
+        return fma(b - a, p, a)
+    except ImportError:
+        return (b - a) * p + a
 
 font1 = fontforge.open(argv[2])
 interpolation = float(argv[4])
