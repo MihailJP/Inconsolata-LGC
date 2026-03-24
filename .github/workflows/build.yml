@@ -45,6 +45,16 @@ jobs:
       with:
         name: variable
         path: InconsolataLGC-Variable/**
+    - name: Upload an EX Static TTF Artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: exttf
+        path: InconsolataEX/**
+    - name: Upload a Hinted EX TTF Artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: hinted-ex
+        path: InconsolataEX-Hinted/**
   check:
     name: Check
     needs: build
@@ -78,3 +88,13 @@ jobs:
         fontspector -l info --full-lists \
           --configuration fontspector_variable.toml \
           variable/*.ttf
+    - name: Check EX Static Fonts
+      run: |
+        fontspector -l info --full-lists \
+          --configuration fontspector_static.toml \
+          exttf/*.ttf
+    - name: Check Hinted EX Fonts
+      run: |
+        fontspector -l info --full-lists \
+          --configuration fontspector_static.toml \
+          hinted-ex/*.ttf
