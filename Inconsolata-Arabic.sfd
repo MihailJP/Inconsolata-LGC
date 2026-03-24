@@ -86,8 +86,8 @@ PUSHB_1
 SCANTYPE
 EndTTInstrs
 LangName: 1033
-OtfFeatName: 'ss01' 1033 "German alternative umlaut"
 OtfFeatName: 'ss02' 1033 "Polytonic Greek alternative circumflex"
+OtfFeatName: 'ss01' 1033 "German alternative umlaut"
 Encoding: UnicodeFull
 Compacted: 1
 UnicodeInterp: none
@@ -3734,8 +3734,8 @@ EndSplineSet
 Colour: ffff
 EndChar
 
-StartChar: uni0674
-Encoding: 1652 1652 150
+StartChar: smallhamza
+Encoding: 1652 -1 150
 Width: 613
 Flags: W
 LayerCount: 2
@@ -3796,7 +3796,7 @@ AnchorPoint: "Ligature rtl-above" 299 567 mark 0
 AnchorPoint: "rtl-above-mark" 304 881 basemark 0
 LayerCount: 2
 Fore
-Refer: 150 1652 N 1 0 0 1 0 -58 2
+Refer: 150 -1 N 1 0 0 1 0 -58 2
 EndChar
 
 StartChar: hamzabelow
@@ -3808,7 +3808,7 @@ AnchorPoint: "Ligature rtl-below" 306 0 mark 0
 AnchorPoint: "rtl-below-mark" 310 -264 basemark 0
 LayerCount: 2
 Fore
-Refer: 150 1652 N 1 0 0 1 0 -910 2
+Refer: 150 -1 N 1 0 0 1 0 -910 2
 EndChar
 
 StartChar: uniFBB2
