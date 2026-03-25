@@ -45,37 +45,29 @@ OS2CapHeight: 740
 OS2XHeight: 543
 OS2FamilyClass: 2048
 OS2Vendor: 'PfEd'
-Lookup: 1 0 0 "Initial forms" { "Initial forms-1"  } ['init' ('DFLT' <'dflt' > 'arab' <'dflt' > ) ]
-Lookup: 1 0 0 "Medial forms" { "Medial forms-1"  } ['medi' ('DFLT' <'dflt' > 'arab' <'dflt' > ) ]
-Lookup: 1 0 0 "Final forms" { "Final forms-1"  } ['fina' ('DFLT' <'dflt' > 'arab' <'dflt' > ) ]
-Lookup: 1 0 0 "Isolated forms" { "Isolated forms-1"  } ['isol' ('DFLT' <'dflt' > 'arab' <'dflt' > ) ]
-Lookup: 4 8 1 "Lam-Alef ligature" { "Lam-Alef ligature-1"  } ['rlig' ('DFLT' <'dflt' > 'arab' <'dflt' > ) ]
-Lookup: 5 8 0 "Legacy wide seen and sad" { "Legacy wide seen and sad-1"  } ['calt' ('DFLT' <'dflt' > 'arab' <'dflt' > ) ]
-Lookup: 1 0 0 "Forms before tail fragment" { "Forms before tail fragment-1" ("alt") } []
-Lookup: 262 1 0 "Arabic below-base mark-to-mark positioning" { "Arabic below-base mark-to-mark positioning"  } ['mkmk' ('arab' <'dflt' > ) ]
-Lookup: 262 1 0 "Arabic above-base mark-to-mark positioning" { "Arabic above-base mark-to-mark positioning"  } ['mkmk' ('arab' <'dflt' > ) ]
-Lookup: 261 1 0 "Arabic below-base mark-to-ligature positioning" { "Arabic below-base mark-to-ligature positioning"  } ['mark' ('arab' <'dflt' > ) ]
-Lookup: 260 1 0 "Arabic below-base mark positioning" { "Arabic below-base mark positioning"  } ['mark' ('arab' <'dflt' > ) ]
-Lookup: 261 1 0 "Arabic above-base mark-to-ligature positioning" { "Arabic above-base mark-to-ligature positioning"  } ['mark' ('arab' <'dflt' > ) ]
-Lookup: 260 1 0 "Arabic above-base mark positioning" { "Arabic above-base mark positioning"  } ['mark' ('arab' <'dflt' > ) ]
+Lookup: 1 1 0 "Initial forms" { "Initial forms-1"  } ['init' ('DFLT' <'dflt' > 'arab' <'dflt' > ) ]
+Lookup: 1 1 0 "Medial forms" { "Medial forms-1"  } ['medi' ('DFLT' <'dflt' > 'arab' <'dflt' > ) ]
+Lookup: 1 1 0 "Final forms" { "Final forms-1"  } ['fina' ('DFLT' <'dflt' > 'arab' <'dflt' > ) ]
+Lookup: 1 1 0 "Isolated forms" { "Isolated forms-1"  } ['isol' ('DFLT' <'dflt' > 'arab' <'dflt' > ) ]
+Lookup: 4 9 1 "Lam-Alef ligature" { "Lam-Alef ligature-1"  } ['rlig' ('DFLT' <'dflt' > 'arab' <'dflt' > ) ]
+Lookup: 6 9 0 "Legacy wide seen and sad" { "Legacy wide seen and sad-1"  } ['calt' ('DFLT' <'dflt' > 'arab' <'dflt' > ) ]
+Lookup: 1 1 0 "Forms before tail fragment" { "Forms before tail fragment-1" ("alt") } []
+Lookup: 262 1 0 "Arabic mark-to-mark positioning" { "Arabic mark-to-mark positioning"  } ['mkmk' ('arab' <'dflt' > ) ]
+Lookup: 261 1 0 "Arabic mark-to-ligature positioning" { "Arabic mark-to-ligature positioning"  } ['mark' ('arab' <'dflt' > ) ]
+Lookup: 260 1 0 "Arabic mark positioning" { "Arabic mark positioning"  } ['mark' ('arab' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
-ContextSub2: class "Legacy wide seen and sad-1" 3 3 3 1
-  Class: 7 uniFE73
+ChainSub2: class "Legacy wide seen and sad-1" 2 0 2 1
   Class: 63 uniFEB1 uniFEB2 uniFEB5 uniFEB6 uniFEB9 uniFEBA uniFEBD uniFEBE
-  BClass: 7 uniFE73
-  BClass: 63 uniFEB1 uniFEB2 uniFEB5 uniFEB6 uniFEB9 uniFEBA uniFEBD uniFEBE
   FClass: 7 uniFE73
-  FClass: 63 uniFEB1 uniFEB2 uniFEB5 uniFEB6 uniFEB9 uniFEBA uniFEBD uniFEBE
- 2 0 0
-  ClsList: 2 1
+ 1 0 1
+  ClsList: 1
   BClsList:
-  FClsList:
+  FClsList: 1
  1
   SeqLookup: 0 "Forms before tail fragment"
-  ClassNames: "All_Others" "tailfragment" "seensad"
-  BClassNames: "All_Others" "tailfragment" "seensad"
-  FClassNames: "All_Others" "tailfragment" "seensad"
+  ClassNames: "All_Others" "seensad"
+  FClassNames: "All_Others" "tailfragment"
 EndFPST
 TtTable: prep
 PUSHW_1
@@ -86,8 +78,8 @@ PUSHB_1
 SCANTYPE
 EndTTInstrs
 LangName: 1033
-OtfFeatName: 'ss01' 1033 "German alternative umlaut"
 OtfFeatName: 'ss02' 1033 "Polytonic Greek alternative circumflex"
+OtfFeatName: 'ss01' 1033 "German alternative umlaut"
 Encoding: UnicodeFull
 Compacted: 1
 UnicodeInterp: none
@@ -128,7 +120,7 @@ Grid
  416.256 939.008 l 1049
 EndSplineSet
 TeXData: 1 0 0 629145 314572 209715 554697 1048576 209715 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-AnchorClass2: "rtl-above-mark" "Arabic above-base mark-to-mark positioning" "rtl-below-mark" "Arabic below-base mark-to-mark positioning" "rtl-above" "Arabic above-base mark positioning" "Ligature rtl-above" "Arabic above-base mark-to-ligature positioning" "rtl-below" "Arabic below-base mark positioning" "Ligature rtl-below" "Arabic below-base mark-to-ligature positioning"
+AnchorClass2: "rtl-above-mark" "Arabic mark-to-mark positioning" "rtl-below-mark" "Arabic mark-to-mark positioning" "rtl-above" "Arabic mark positioning" "Ligature rtl-above" "Arabic mark-to-ligature positioning" "rtl-below" "Arabic mark positioning" "Ligature rtl-below" "Arabic mark-to-ligature positioning"
 BeginChars: 1114135 200
 
 StartChar: comma
@@ -3737,6 +3729,7 @@ EndChar
 StartChar: smallhamza
 Encoding: 1652 -1 150
 Width: 613
+GlyphClass: 1
 Flags: W
 LayerCount: 2
 Fore
@@ -3764,6 +3757,7 @@ EndChar
 StartChar: madda
 Encoding: 1114129 -1 151
 Width: 613
+GlyphClass: 1
 Flags: W
 AnchorPoint: "rtl-above" 299 571 mark 0
 AnchorPoint: "Ligature rtl-above" 299 571 mark 0
@@ -3790,6 +3784,7 @@ EndChar
 StartChar: hamzaabove
 Encoding: 1114130 -1 152
 Width: 613
+GlyphClass: 1
 Flags: W
 AnchorPoint: "rtl-above" 299 567 mark 0
 AnchorPoint: "Ligature rtl-above" 299 567 mark 0
@@ -3802,6 +3797,7 @@ EndChar
 StartChar: hamzabelow
 Encoding: 1114131 -1 153
 Width: 613
+GlyphClass: 1
 Flags: W
 AnchorPoint: "rtl-below" 306 0 mark 0
 AnchorPoint: "Ligature rtl-below" 306 0 mark 0
@@ -3910,6 +3906,7 @@ EndChar
 StartChar: arabic_dot
 Encoding: 1114132 -1 157
 Width: 613
+GlyphClass: 1
 Flags: W
 LayerCount: 2
 Fore
@@ -3926,6 +3923,7 @@ EndChar
 StartChar: arabic_2dots
 Encoding: 1114133 -1 158
 Width: 613
+GlyphClass: 1
 Flags: W
 LayerCount: 2
 Fore
@@ -3947,6 +3945,7 @@ EndChar
 StartChar: arabic_3dots
 Encoding: 1114134 -1 159
 Width: 613
+GlyphClass: 1
 Flags: W
 LayerCount: 2
 Fore
