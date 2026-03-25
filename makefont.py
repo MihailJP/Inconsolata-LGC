@@ -3,6 +3,8 @@
 import fontforge, re
 from sys import argv
 from pathlib import Path
+from tempfile import TemporaryDirectory
+from subprocess import run
 import fontforge_refsel
 
 fontforge.hooks = {}  # disable hooks for this script
@@ -25,10 +27,26 @@ for glyph in sorted(fontforge_refsel.unusedGlyphs(font)):
 if argv[1].endswith(".otf"):
 	font.em = 1000
 
+widthCount = len(set(glyph.width for glyph in font.glyphs()))
+
+assert not argv[1].endswith(".ttc")
+
 if argv[1].endswith(".sfd"):
 	font.save(argv[1])
-else:
+elif argv[1].endswith(".ufo") or widthCount == 1:
 	font.generate(argv[1], flags=('no-mac-names','opentype','no-FFTM-table'))
+else:
+	with TemporaryDirectory() as tmpdir:
+		tmpFont = Path(tmpdir, 'tmp.ttf')
+		ttxFile = Path(tmpdir, 'tmp.ttx')
+		font.generate(str(tmpFont), flags=('no-mac-names','opentype','no-FFTM-table'))
+		run(['ttx', '-o', str(ttxFile), '-t', 'post', str(tmpFont)], check=True)
+		with open(ttxFile) as ttx:
+			ttxData = ttx.read()
+		ttxData = re.sub(r'(?<=<isFixedPitch value=")0(?=")', r"1", ttxData)
+		with open(ttxFile, "w") as ttx:
+			ttx.write(ttxData)
+		run(['ttx', '-o', argv[1], '-m', str(tmpFont), str(ttxFile)], check=True)
 
 font.close()
 
