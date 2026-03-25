@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1161020814
-ModificationTime: 1774275667
+ModificationTime: 1774454017
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 5
@@ -86,8 +86,8 @@ PUSHB_1
 SCANTYPE
 EndTTInstrs
 LangName: 1033
-OtfFeatName: 'ss02' 1033 "Polytonic Greek alternative circumflex"
 OtfFeatName: 'ss01' 1033 "German alternative umlaut"
+OtfFeatName: 'ss02' 1033 "Polytonic Greek alternative circumflex"
 Encoding: UnicodeFull
 Compacted: 1
 UnicodeInterp: none
@@ -1327,6 +1327,7 @@ SplineSet
  450 328 494 315 524 288 c 0
  553 262 566 230 566 190 c 0
 EndSplineSet
+Substitution2: "Forms before tail fragment-1" uniFEBA.alt
 Colour: ffff
 EndChar
 
@@ -1416,7 +1417,6 @@ SplineSet
  440 22 388 0 347 0 c 2
  238 0 l 2
 EndSplineSet
-Substitution2: "Forms before tail fragment-1" uniFEBC.alt
 Colour: ffff
 EndChar
 
@@ -3641,7 +3641,7 @@ EndSplineSet
 Colour: ffff
 EndChar
 
-StartChar: uniFEBC.alt
+StartChar: uniFEBA.alt
 Encoding: 1114126 -1 146
 Width: 613
 Flags: W

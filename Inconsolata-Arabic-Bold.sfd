@@ -86,8 +86,8 @@ PUSHB_1
 SCANTYPE
 EndTTInstrs
 LangName: 1033
-OtfFeatName: 'ss02' 1033 "Polytonic Greek alternative circumflex"
 OtfFeatName: 'ss01' 1033 "German alternative umlaut"
+OtfFeatName: 'ss02' 1033 "Polytonic Greek alternative circumflex"
 Encoding: UnicodeFull
 Compacted: 1
 UnicodeInterp: none
@@ -1321,6 +1321,7 @@ SplineSet
  455 327 501 311 530 281 c 0
  559 249 573 214 573 178 c 0
 EndSplineSet
+Substitution2: "Forms before tail fragment-1" uniFEBA.alt
 Colour: ffff
 EndChar
 
@@ -1410,7 +1411,6 @@ SplineSet
  468 15 416 0 359 0 c 2
  250 0 l 2
 EndSplineSet
-Substitution2: "Forms before tail fragment-1" uniFEBC.alt
 Colour: ffff
 EndChar
 
@@ -3629,7 +3629,7 @@ EndSplineSet
 Colour: ffff
 EndChar
 
-StartChar: uniFEBC.alt
+StartChar: uniFEBA.alt
 Encoding: 1114126 -1 146
 Width: 613
 Flags: W
