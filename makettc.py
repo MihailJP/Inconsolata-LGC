@@ -1,5 +1,7 @@
 #!/usr/bin/env fontforge
+import fontforge
 from sys import argv
+fontforge.hooks = {}  # disable hooks for this script
 font = fontforge.open(argv[2])
 fonts = [fontforge.open(filename) for filename in argv[3:len(argv)]]
 font.generate(argv[1], flags=('opentype','no-mac-names')) # workaround

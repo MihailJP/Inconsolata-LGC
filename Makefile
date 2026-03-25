@@ -250,7 +250,7 @@ ChangeLog: .git # GIT
 .PHONY: clean
 clean:
 	-rm -f ${FONTS} ${HINTEDTTFONTS} ${OTFONTS} ${TTCFONTS} ${WOFFFONTS} ${WOFF2FONTS} ${VARFONTS} ChangeLog
-	-rm -f ${VARFONTS:.ttf=.raw.ttf}
+	-rm -f ${VARFONTS:.ttf=.raw.ttf} ${TTCFONTS:.ttc=.raw.ttc}
 	-rm -f ${EXFONTS:.ttf=.sfd} ${EXFONTS} ${HINTEDEXTTFONTS} ${EXOTFONTS} ${EXWOFFFONTS} ${EXWOFF2FONTS} ${EXCSS}
 	-rm -f ${FONTS:.ttf=-Intermediate.sfd}
 	-rm -f ${FONTS:.ttf=-Romanian.sfd} ${FONTS:.ttf=-Polish.sfd} ${FONTS:.ttf=-Bulgarian.sfd} ${FONTS:.ttf=-Yugoslav.sfd}
