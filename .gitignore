@@ -15,6 +15,7 @@ ChangeLog
 *-African*.sfd
 *-Chuvash*.sfd
 Inconsolata-LGC-*.mk
+!Inconsolata-LGC-Variable.mk
 *.ufo
 *.designspace
 *.ttx

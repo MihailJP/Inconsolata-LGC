@@ -9,9 +9,13 @@ EXTRAPOLATES=Inconsolata-LGC-Minimum.sfd \
              Inconsolata-LGC-MinimumItalic.sfd \
              Inconsolata-LGC-MaximumItalic.sfd
 EXFONTS=Inconsolata-EX.ttf \
-      Inconsolata-EX-Bold.ttf \
-      Inconsolata-EX-Italic.ttf \
-      Inconsolata-EX-BoldItalic.ttf
+        Inconsolata-EX-Bold.ttf \
+        Inconsolata-EX-Italic.ttf \
+        Inconsolata-EX-BoldItalic.ttf
+EXEXTRAPOLATES=Inconsolata-EX-Minimum.sfd \
+             Inconsolata-EX-Maximum.sfd \
+             Inconsolata-EX-MinimumItalic.sfd \
+             Inconsolata-EX-MaximumItalic.sfd
 CSS=Inconsolata-LGC.css
 EXCSS=Inconsolata-EX.css
 HINTEDTTFONTS=${FONTS:.ttf=-Hinted.ttf}
@@ -24,15 +28,19 @@ EXOTFONTS=${EXFONTS:.ttf=.otf}
 EXWOFFFONTS=${EXFONTS:.ttf=.woff}
 EXWOFF2FONTS=${EXFONTS:.ttf=.woff2}
 UFOS=${FONTS:.ttf=.ufo} ${EXTRAPOLATES:.sfd=.ufo}
+EXUFOS=${EXFONTS:.ttf=.ufo} ${EXEXTRAPOLATES:.sfd=.ufo}
 DESIGNSPACES=Inconsolata-LGC.designspace Inconsolata-LGC-Italic.designspace
+EXDESIGNSPACES=Inconsolata-EX.designspace Inconsolata-EX-Italic.designspace
 DOC_ASSET_DIR=doc
 DOCUMENTS=README.md ChangeLog OFL.txt $(wildcard ${DOC_ASSET_DIR}/*.png)
 PKGS=InconsolataLGC.tar.xz InconsolataLGC-Hinted.tar.xz InconsolataLGC-OT.tar.xz \
      InconsolataLGC-WOFF2.tar.xz InconsolataLGC-TTC.tar.xz InconsolataLGC-Variable.tar.xz \
 	 InconsolataEX.tar.xz InconsolataEX-Hinted.tar.xz InconsolataEX-OT.tar.xz \
-	 InconsolataEX-WOFF2.tar.xz
+	 InconsolataEX-WOFF2.tar.xz InconsolataEX-Variable.tar.xz
 VARFONTS=Inconsolata-LGC-Variable.ttf \
          Inconsolata-LGC-Variable-Italic.ttf
+EXVARFONTS=Inconsolata-EX-Variable.ttf \
+           Inconsolata-EX-Variable-Italic.ttf
 TTFPKGCMD=rm -rf $*; mkdir $*; rsync -R ${FONTS} ${DOCUMENTS} $*
 HINTEDTTFPKGCMD=rm -rf $*; mkdir $*; rsync -R ${HINTEDTTFONTS} ${DOCUMENTS} $*
 OTFPKGCMD=rm -rf $*; mkdir $*; rsync -R ${OTFONTS} ${DOCUMENTS} $*
@@ -44,9 +52,10 @@ EXTTFPKGCMD=rm -rf $*; mkdir $*; rsync -R ${EXFONTS} ${DOCUMENTS} $*
 HINTEDEXTTFPKGCMD=rm -rf $*; mkdir $*; rsync -R ${HINTEDEXTTFONTS} ${DOCUMENTS} $*
 EXOTFPKGCMD=rm -rf $*; mkdir $*; rsync -R ${EXOTFONTS} ${DOCUMENTS} $*
 EXWOFF2PKGCMD=rm -rf $*; mkdir $*; rsync -R ${EXWOFF2FONTS} ${EXCSS} ${DOCUMENTS} $*
+EXVTTFPKGCMD=rm -rf $*; mkdir $*; rsync -R ${EXVARFONTS} ${DOCUMENTS} $*
 
 .PHONY: all
-all: ttf hintedttf otf ttc woff2 variable
+all: ttf hintedttf otf ttc woff2 variable exttf hintedexttf exotf exwoff2 exvariable
 
 .SUFFIXES: .sfd .ttf .otf .woff .woff2 .ufo
 
@@ -79,12 +88,13 @@ woff: ${WOFFFONTS}
 woff2: ${WOFF2FONTS}
 variable: ${VARFONTS}
 
-.PHONY: exttf exotf exwoff exwoff2 hintedexttf
+.PHONY: exttf exotf exwoff exwoff2 exvariable hintedexttf
 exttf: ${EXFONTS}
 hintedexttf: ${HINTEDEXTTFONTS}
 exotf: ${EXOTFONTS}
 exwoff: ${EXWOFFFONTS}
 exwoff2: ${EXWOFF2FONTS}
+exvariable: ${EXVARFONTS}
 
 .SUFFIXES: .tar.xz .tar.gz .tar.bz2 .zip
 .PHONY: dist
@@ -99,31 +109,18 @@ Inconsolata-EX-Bold.sfd: Inconsolata-LGC-Bold.sfd Inconsolata-Arabic-Bold.sfd
 Inconsolata-EX-BoldItalic.sfd: Inconsolata-LGC-BoldItalic.sfd Inconsolata-Arabic-Bold.sfd
 	./makeexsfd.py $@ $^
 
-Inconsolata-LGC-Minimum.sfd: Inconsolata-LGC.sfd Inconsolata-LGC-Bold.sfd
-	./interpolate.py $@ $^ -1.6
-Inconsolata-LGC-MinimumItalic.sfd: Inconsolata-LGC-Italic.sfd Inconsolata-LGC-BoldItalic.sfd
-	./interpolate.py $@ $^ -1.6
-Inconsolata-LGC-Maximum.sfd: Inconsolata-LGC.sfd Inconsolata-LGC-Bold.sfd
-	./interpolate.py $@ $^ 2.5
-Inconsolata-LGC-MaximumItalic.sfd: Inconsolata-LGC-Italic.sfd Inconsolata-LGC-BoldItalic.sfd
-	./interpolate.py $@ $^ 2.5
+.INTERMEDIATE: ${VARFONTS:.ttf=.raw.ttf} ${EXVARFONTS:.ttf=.raw.ttf}
+include Inconsolata-LGC-Variable.mk
+include Inconsolata-EX-Variable.mk
 
-Inconsolata-LGC.designspace: Inconsolata-LGC.ufo Inconsolata-LGC-Bold.ufo Inconsolata-LGC-Minimum.ufo Inconsolata-LGC-Maximum.ufo
-	./make_designspace.py $@ $^
-Inconsolata-LGC-Italic.designspace: Inconsolata-LGC-Italic.ufo Inconsolata-LGC-BoldItalic.ufo Inconsolata-LGC-MinimumItalic.ufo Inconsolata-LGC-MaximumItalic.ufo
-	./make_designspace.py $@ $^
-
-.INTERMEDIATE: ${VARFONTS:.ttf=.raw.ttf}
-Inconsolata-LGC-Variable.raw.ttf: Inconsolata-LGC.designspace
-	fontmake -m $< -o variable --output-path $@
-Inconsolata-LGC-Variable-Italic.raw.ttf: Inconsolata-LGC-Italic.designspace
-	fontmake -m $< -o variable --output-path $@
+Inconsolata-EX-Variable.mk: Inconsolata-LGC-Variable.mk
+	sed -E -e 's/-LGC/-EX/g' $< > $@
 
 .INTERMEDIATE: prep.ttx
 prep.ttx: Inconsolata-LGC.ttf
 	ttx -o $@ -tprep $<
 
-${VARFONTS}: %.ttf: %.raw.ttf prep.ttx
+${VARFONTS} ${EXVARFONTS}: %.ttf: %.raw.ttf prep.ttx
 	ttx -o $@ -m $^
 
 Inconsolata-EX.css: Inconsolata-LGC.css
@@ -152,6 +149,9 @@ check-ex-static: fontspector_static.toml ${EXFONTS}
 	${CHECKCMD}
 .PHONY: check-ex-hinted
 check-ex-hinted: fontspector_static.toml ${HINTEDEXTTFONTS}
+	${CHECKCMD}
+.PHONY: check-ex-variable
+check-ex-variable: fontspector_variable.toml ${EXVARFONTS}
 	${CHECKCMD}
 
 InconsolataLGC.tar.xz: ${FONTS} ${DOCUMENTS}
@@ -244,6 +244,15 @@ InconsolataEX-WOFF2.tar.bz2: ${EXWOFF2FONTS} ${EXCSS} ${DOCUMENTS}
 InconsolataEX-WOFF2.zip: ${EXWOFF2FONTS} ${EXCSS} ${DOCUMENTS}
 	${EXWOFF2PKGCMD}; zip -9r $@ $*
 
+InconsolataEX-Variable.tar.xz: ${EXVARFONTS} ${DOCUMENTS}
+	${EXVTTFPKGCMD}; tar cfvJ $@ $*
+InconsolataEX-Variable.tar.gz: ${EXVARFONTS} ${DOCUMENTS}
+	${EXVTTFPKGCMD}; tar cfvz $@ $*
+InconsolataEX-Variable.tar.bz2: ${EXVARFONTS} ${DOCUMENTS}
+	${EXVTTFPKGCMD}; tar cfvj $@ $*
+InconsolataEX-Variable.zip: ${EXVARFONTS} ${DOCUMENTS}
+	${EXVTTFPKGCMD}; zip -9r $@ $*
+
 ChangeLog: .git # GIT
 	./mkchglog.rb > $@ # GIT
 
@@ -251,13 +260,15 @@ ChangeLog: .git # GIT
 clean:
 	-rm -f ${FONTS} ${HINTEDTTFONTS} ${OTFONTS} ${TTCFONTS} ${WOFFFONTS} ${WOFF2FONTS} ${VARFONTS} ChangeLog
 	-rm -f ${VARFONTS:.ttf=.raw.ttf} ${TTCFONTS:.ttc=.raw.ttc}
-	-rm -f ${EXFONTS:.ttf=.sfd} ${EXFONTS} ${HINTEDEXTTFONTS} ${EXOTFONTS} ${EXWOFFFONTS} ${EXWOFF2FONTS} ${EXCSS}
+	-rm -f ${EXFONTS:.ttf=.sfd} ${EXFONTS} ${HINTEDEXTTFONTS} ${EXOTFONTS} ${EXWOFFFONTS} ${EXWOFF2FONTS} ${EXVARFONTS} ${EXCSS}
 	-rm -f ${FONTS:.ttf=-Intermediate.sfd}
 	-rm -f ${FONTS:.ttf=-Romanian.sfd} ${FONTS:.ttf=-Polish.sfd} ${FONTS:.ttf=-Bulgarian.sfd} ${FONTS:.ttf=-Yugoslav.sfd}
 	-rm -f ${FONTS:.ttf=-Livonian.sfd} ${FONTS:.ttf=-Sami.sfd} ${FONTS:.ttf=-Pinyin.sfd} ${FONTS:.ttf=-African.sfd}
 	-rm -f ${FONTS:.ttf=-Chuvash.sfd}
 	-rm -f Inconsolata-LGC-Bold.mk Inconsolata-LGC-Italic.mk Inconsolata-LGC-BoldItalic.mk
+	-rm -f Inconsolata-EX-Variable.mk
 	-rm -f prep.ttx
 	-rm -rf ${UFOS} ${EXTRAPOLATES} ${DESIGNSPACES}
+	-rm -rf ${EXUFOS} ${EXEXTRAPOLATES} ${EXDESIGNSPACES}
 	-rm -rf ${PKGS} ${PKGS:.tar.xz=} ${PKGS:.tar.xz=.tar.bz2} \
 	${PKGS:.tar.xz=.tar.gz} ${PKGS:.tar.xz=.zip}

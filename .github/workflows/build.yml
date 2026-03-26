@@ -55,6 +55,11 @@ jobs:
       with:
         name: hinted-ex
         path: InconsolataEX-Hinted/**
+    - name: Upload an EX Variable TTF Artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: exvariable
+        path: InconsolataEX-Variable/**
   check:
     name: Check
     needs: build
@@ -98,3 +103,8 @@ jobs:
         fontspector -l info --full-lists \
           --configuration fontspector_static.toml \
           hinted-ex/*.ttf
+    - name: Check EX Variable Fonts
+      run: |
+        fontspector -l info --full-lists \
+          --configuration fontspector_variable.toml \
+          exvariable/*.ttf
