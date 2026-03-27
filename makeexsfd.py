@@ -28,6 +28,7 @@ font.fontname = font.fontname.replace('LGC', 'EX')
 font.familyname = font.familyname.replace('LGC', 'EX')
 font.fullname = font.fullname.replace('LGC', 'EX')
 font.copyright += '\n\nArabic glyphs are derived from public domain part of DejaVu Sans Mono.'
+font.os2_winascent = 1255
 font.os2_windescent = 290
 if font.italicangle != 0:
     font2.selection.all()
