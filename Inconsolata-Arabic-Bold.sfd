@@ -4720,8 +4720,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 195 1600 N 1 0 0 1 0 0 2
-Refer: 206 65148 N 1 0 0 1 0 0 2
-Refer: 200 65142 N 1 0 0 1 2 356 2
+Refer: 212 64608 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uniFCF3
@@ -4731,8 +4730,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 195 1600 N 1 0 0 1 0 0 2
-Refer: 206 65148 N 1 0 0 1 0 0 2
-Refer: 202 65144 N 1 0 0 1 2 356 2
+Refer: 213 64609 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uniFCF4
@@ -4742,8 +4740,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 195 1600 N 1 0 0 1 0 0 2
-Refer: 206 65148 N 1 0 0 1 2 356 2
-Refer: 204 65146 N 1 0 0 1 0 860 2
+Refer: 214 64610 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: fathatanarabic

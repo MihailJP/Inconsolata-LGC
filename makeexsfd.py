@@ -17,7 +17,7 @@ def removeUnusedAnchorClass(font: fontforge.font):
     for subtable in (s for s in subtables if not font.getLookupSubtableAnchorClasses(s)):
         print(subtable)
         font.removeLookupSubtable(subtable)
-    for lookup in font.gpos_lookups:
+    for lookup in (lu for lu in font.gpos_lookups if not font.getLookupSubtables(lu)):
         font.removeLookup(lookup)
 
 font = fontforge.open(argv[2])
