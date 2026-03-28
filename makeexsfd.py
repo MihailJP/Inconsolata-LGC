@@ -1,7 +1,7 @@
 #!/usr/bin/env fontforge
 
 import fontforge
-from psMat import skew
+from psMat import skew, translate, scale
 from math import radians
 from sys import argv
 
@@ -20,6 +20,20 @@ def removeUnusedAnchorClass(font: fontforge.font):
     for lookup in (lu for lu in font.gpos_lookups if not font.getLookupSubtables(lu)):
         font.removeLookup(lookup)
 
+def add_dottedcircle(font: fontforge.font):
+    from math import radians, sin, cos
+    top, bottom = 554, -14
+    centerX = 613 / 2
+    centerY = (top + bottom) / 2
+    dotRadius = 40 if 'Bold' in font.weight else 30
+    radius = top - centerY - dotRadius
+    font.createChar(0x25cc, 'dottedcircle')
+    font['dottedcircle'].width = 613
+    circle = fontforge.unitShape(0).transform(scale(dotRadius))
+    for deg in range(0, 360, 30):
+        font['dottedcircle'].layers[1] += circle.dup().transform(translate(radius * cos(radians(deg)) + centerX, radius * sin(radians(deg)) + centerY))
+    font['dottedcircle'].round()
+
 font = fontforge.open(argv[2])
 font2 = fontforge.open(argv[3])
 font.encoding = 'Original'
@@ -34,6 +48,8 @@ if font.italicangle != 0:
     font2.selection.all()
     font2.transform(skew(radians(-font.italicangle)), ('noWidth', 'round', 'simplePos'))
 removeUnusedAnchorClass(font2)
+add_dottedcircle(font)
+add_dottedcircle(font2)
 font.mergeFonts(argv[3])
 font.encoding = 'UnicodeFull'
 font.save(argv[1])
