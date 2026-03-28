@@ -122,6 +122,9 @@ removeUnusedAnchorClass(font2)
 add_dottedcircle(font)
 add_dottedcircle(font2)
 font.mergeFonts(argv[3])
+font.save(argv[1])
+font.close()  # workaround
+font = fontforge.open(argv[1])
 font.encoding = 'UnicodeFull'
 mark_dottedcircle(font)
 font.save(argv[1])
