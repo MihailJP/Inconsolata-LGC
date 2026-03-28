@@ -87,10 +87,12 @@ def diacritics(font: fontforge.font):
         font.createChar(targetuni, targetname)
         font[targetname].width = 0
         font[targetname].addReference(sourcename, translate(-613, 0))
+        font[targetname].glyphclass = 'mark'
         if capsourcename:
             font.createChar(-1, targetname + '.cap')
             font[targetname + '.cap'].width = 0
             font[targetname + '.cap'].addReference(capsourcename, translate(-613, 0))
+            font[targetname + '.cap'].glyphclass = 'mark'
 
     # Precomposed forms
     customDecomp = {
@@ -117,8 +119,10 @@ def diacritics(font: fontforge.font):
                 components = tuple(font[font.findEncodingSlot(c)].glyphname for c in decomp)
                 if glyph.glyphname not in proscribedDecomp or all([components != p for p in proscribedDecomp[glyph.glyphname]]):
                     glyph.addPosSub('Precomposed forms-1', components)
+                    glyph.glyphclass = 'baseglyph'
     for glyph in customDecomp:
         font[glyph].addPosSub('Precomposed forms-1', customDecomp[glyph])
+        font[glyph].glyphclass = 'baseglyph'
 
 font = fontforge.open(argv[2])
 font2 = fontforge.open(argv[3])
