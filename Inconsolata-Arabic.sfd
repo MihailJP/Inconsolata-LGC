@@ -53,12 +53,12 @@ Lookup: 4 9 1 "Lam-Alef ligature" { "Lam-Alef ligature-1"  } ['rlig' ('DFLT' <'d
 Lookup: 6 9 0 "Legacy wide seen and sad" { "Legacy wide seen and sad-1"  } ['calt' ('DFLT' <'dflt' > 'arab' <'dflt' > ) ]
 Lookup: 1 1 0 "Forms before tail fragment" { "Forms before tail fragment-1" ("alt") } []
 Lookup: 4 1 0 "Composed marks" { "Composed marks-1"  } ['ccmp' ('DFLT' <'dflt' > 'arab' <'dflt' > ) ]
-Lookup: 261 1 0 "Arabic below-base mark-to-ligature positioning" { "Arabic below-base mark-to-ligature positioning"  } ['mark' ('arab' <'dflt' > ) ]
-Lookup: 260 1 0 "Arabic below-base mark positioning" { "Arabic below-base mark positioning"  } ['mark' ('arab' <'dflt' > ) ]
-Lookup: 261 1 0 "Arabic above-base mark-to-ligature positioning" { "Arabic above-base mark-to-ligature positioning"  } ['mark' ('arab' <'dflt' > ) ]
-Lookup: 260 1 0 "Arabic above-base mark positioning" { "Arabic above-base mark positioning"  } ['mark' ('arab' <'dflt' > ) ]
-Lookup: 262 1 0 "Arabic below-base mark-to-mark positioning" { "Arabic below-base mark-to-mark positioning"  } ['mkmk' ('arab' <'dflt' > ) ]
-Lookup: 262 1 0 "Arabic above-base mark-to-mark positioning" { "Arabic above-base mark-to-mark positioning"  } ['mkmk' ('arab' <'dflt' > ) ]
+Lookup: 261 1 0 "Arabic below-base mark-to-ligature positioning" { "Arabic below-base mark-to-ligature positioning"  } ['mark' ('DFLT' <'dflt' > 'arab' <'dflt' > ) ]
+Lookup: 260 1 0 "Arabic below-base mark positioning" { "Arabic below-base mark positioning"  } ['mark' ('DFLT' <'dflt' > 'arab' <'dflt' > ) ]
+Lookup: 261 1 0 "Arabic above-base mark-to-ligature positioning" { "Arabic above-base mark-to-ligature positioning"  } ['mark' ('DFLT' <'dflt' > 'arab' <'dflt' > ) ]
+Lookup: 260 1 0 "Arabic above-base mark positioning" { "Arabic above-base mark positioning"  } ['mark' ('DFLT' <'dflt' > 'arab' <'dflt' > ) ]
+Lookup: 262 1 0 "Arabic below-base mark-to-mark positioning" { "Arabic below-base mark-to-mark positioning"  } ['mkmk' ('DFLT' <'dflt' > 'arab' <'dflt' > ) ]
+Lookup: 262 1 0 "Arabic above-base mark-to-mark positioning" { "Arabic above-base mark-to-mark positioning"  } ['mkmk' ('DFLT' <'dflt' > 'arab' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
 ChainSub2: class "Legacy wide seen and sad-1" 2 0 2 1

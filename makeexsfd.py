@@ -4,10 +4,44 @@ import fontforge
 from psMat import skew, translate, scale
 from math import radians
 from sys import argv
+from typing import Union, Iterable
 
-def removeUnusedAnchorClass(font: fontforge.font):
+type LangTuple = tuple[tuple[str, tuple[str, ...]], ...]
+type LangDict = dict[str, set[str]]
+
+def langDictToLangTuple(langdict: LangDict) -> LangTuple:
+    return tuple((scr, tuple(sorted(lang)))for scr, lang in langdict.items())
+
+def langTupleToLangDict(langtuple: LangTuple) -> LangDict:
+    langdict: LangDict = {}
+    for script, languages in langtuple:
+        langdict.setdefault(script, set())
+        langdict[script] |= set(languages)
+    return langdict
+
+def mergeLangDict(langdict1: LangDict, langdict2: LangDict) -> LangDict:
+    langdict: LangDict = {}
+    for script in sorted(set(list(langdict1.keys()) + list(langdict2.keys()))):
+        langdict[script] = langdict1.get(script, set()) | langdict2.get(script, set())
+    return langdict
+
+def getLangDict(font: fontforge.font, lookup: Union[str, Iterable[str], None] = None) -> LangDict:
+    if isinstance(lookup, str):
+        lookups = [lookup]
+    elif lookup is None:
+        lookups = (font.gsub_lookups + font.gpos_lookups)
+    else:
+        lookups = lookup
+    scripts = sum([list(font.getLookupInfo(lu)[2][0][1]) for lu in lookups if font.getLookupInfo(lu)[2]], [])
+    return langTupleToLangDict(scripts)
+
+def allAnchors(font: fontforge.font) -> tuple[list[str], list[str]]:
     subtables = sum([list(font.getLookupSubtables(a)) for a in font.gpos_lookups], [])
     anchors = sum([list(font.getLookupSubtableAnchorClasses(s)) for s in subtables], [])
+    return (anchors, subtables)
+
+def removeUnusedAnchorClass(font: fontforge.font):
+    anchors, subtables = allAnchors(font)
     for anchor in anchors:
         mark = any(len([a for a in glyph.anchorPoints if a[0] == anchor and a[1] == 'mark' and glyph.unicode >= 0 and glyph.width == 0]) for glyph in font.glyphs())
         base = any(len([a for a in glyph.anchorPoints if a[0] == anchor and a[1] != 'mark' and glyph.unicode >= 0]) for glyph in font.glyphs())
@@ -34,6 +68,43 @@ def add_dottedcircle(font: fontforge.font):
         font['dottedcircle'].layers[1] += circle.dup().transform(translate(radius * cos(radians(deg)) + centerX, radius * sin(radians(deg)) + centerY))
     font['dottedcircle'].round()
 
+    font.createChar(-1, 'invalidbase')
+    font['invalidbase'].width = 613
+    font['invalidbase'].addReference('dottedcircle')
+
+def mark_dottedcircle(font: fontforge.font):
+    font.addLookup('Append dotted circle', 'gsub_multiple', None, (('ccmp', langDictToLangTuple(getLangDict(font))),), font.gsub_lookups[-1])
+    font.addLookupSubtable('Append dotted circle', 'Append dotted circle-1')
+    font.addLookup('Remove dotted circle', 'gsub_ligature', None, (), 'Append dotted circle')
+    font.addLookupSubtable('Remove dotted circle', 'Remove dotted circle-1')
+    for glyph in [g for g in font.glyphs() if g.width == 0]:
+        glyph.addPosSub('Append dotted circle-1', ('invalidbase', glyph.glyphname))
+        glyph.addPosSub('Remove dotted circle-1', ('invalidbase', glyph.glyphname))
+    anchors, _ = allAnchors(font)
+
+    lookupOrder = 'Append dotted circle'
+    for anchor in anchors:
+        lookup = font.getLookupOfSubtable(font.getSubtableOfAnchor(anchor))
+        lang = getLangDict(font, lookup)
+        font.addLookup('Activate anchor ' + anchor, 'gsub_contextchain', font.getLookupInfo(lookup)[1], (('ccmp', langDictToLangTuple(getLangDict(font))),), lookupOrder)
+        mark = sum([[glyph.glyphname for a in glyph.anchorPoints if a[0] == anchor and a[1] == 'mark' and glyph.width == 0] for glyph in font.glyphs()], [])
+        base = sum([[glyph.glyphname for a in glyph.anchorPoints if a[0] == anchor and a[1] != 'mark'] for glyph in font.glyphs()], [])
+        additionalMark = []
+        additionalBase = ['space', 'nonbreakingspace', 'dottedcircle']
+        if 'arab' in lang:
+            additionalBase.append('tatweelarabic')
+        additionalBase = [g for g in additionalBase if g in font]
+        lookupName = 'Activate anchor ' + anchor
+        font.addContextualSubtable(
+            lookupName,
+            lookupName + '-1',
+            'class',
+            '1 | 1 @<Remove dotted circle> 2 |',
+            bclasses=((), tuple(sorted(set(base + additionalBase)))),
+            mclasses=((), 'invalidbase', tuple(sorted(set(mark + additionalMark)))),
+        )
+        lookupOrder = lookupName
+
 font = fontforge.open(argv[2])
 font2 = fontforge.open(argv[3])
 font.encoding = 'Original'
@@ -52,4 +123,5 @@ add_dottedcircle(font)
 add_dottedcircle(font2)
 font.mergeFonts(argv[3])
 font.encoding = 'UnicodeFull'
+mark_dottedcircle(font)
 font.save(argv[1])
