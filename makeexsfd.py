@@ -9,8 +9,8 @@ def removeUnusedAnchorClass(font: fontforge.font):
     subtables = sum([list(font.getLookupSubtables(a)) for a in font.gpos_lookups], [])
     anchors = sum([list(font.getLookupSubtableAnchorClasses(s)) for s in subtables], [])
     for anchor in anchors:
-        mark = any(len([a for a in glyph.anchorPoints if a[0] == anchor and a[1] == 'mark' and glyph.width == 0]) for glyph in font.glyphs())
-        base = any(len([a for a in glyph.anchorPoints if a[0] == anchor and a[1] != 'mark']) for glyph in font.glyphs())
+        mark = any(len([a for a in glyph.anchorPoints if a[0] == anchor and a[1] == 'mark' and glyph.unicode >= 0 and glyph.width == 0]) for glyph in font.glyphs())
+        base = any(len([a for a in glyph.anchorPoints if a[0] == anchor and a[1] != 'mark' and glyph.unicode >= 0]) for glyph in font.glyphs())
         print([anchor, mark, base])
         if not all([mark, base]):
             font.removeAnchorClass(anchor)
