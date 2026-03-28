@@ -27,6 +27,7 @@ for glyph in sorted(fontforge_refsel.unusedGlyphs(font)):
 if argv[1].endswith(".otf"):
 	font.em = 1000
 
+glyphnames = [n for n in font]
 widthCount = len(set(glyph.width for glyph in font.glyphs()))
 
 assert not argv[1].endswith(".ttc")
@@ -73,6 +74,11 @@ if argv[1].endswith(".ufo"): # workaround
 		for feature in gsubtags:
 			featureInstructions += "  feature {0};\n".format(feature)
 		fontFeature = re.sub(r"\bfeature\b", "feature aalt {{\n{0}}} aalt;\n\nfeature".format(featureInstructions), fontFeature, count=1)
+
+	# Check nonexistent glyphs
+	nonexistentGlyphs = set(m[0] for m in re.finditer(r'\\[\w\.]+\b', fontFeature)) - set('\\' + g for g in glyphnames)
+	for glyph in sorted(nonexistentGlyphs):
+		fontFeature = re.sub(glyph.replace("\\", "\\\\") + r'\b(?!\.)', '', fontFeature)
 
 	# Write
 	with open(Path(argv[1], "fontinfo.plist"), "w") as font:
