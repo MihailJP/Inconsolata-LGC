@@ -1,7 +1,7 @@
 #!/usr/bin/env fontforge
 
 import fontforge
-from psMat import skew, translate
+from psMat import skew, translate, scale
 from math import radians
 from sys import argv
 from typing import Optional
@@ -39,7 +39,22 @@ def decomposition(glyph: fontforge.glyph) -> list:
         else:
             return []
 
+def add_dottedcircle(font: fontforge.font):
+    from math import radians, sin, cos
+    top, bottom = 554, -14
+    centerX = 613 / 2
+    centerY = (top + bottom) / 2
+    dotRadius = 40 if 'Bold' in font.weight else 30
+    radius = top - centerY - dotRadius
+    font.createChar(0x25cc, 'dottedcircle')
+    font['dottedcircle'].width = 613
+    circle = fontforge.unitShape(0).transform(scale(dotRadius))
+    for deg in range(0, 360, 30):
+        font['dottedcircle'].layers[1] += circle.dup().transform(translate(radius * cos(radians(deg)) + centerX, radius * sin(radians(deg)) + centerY))
+    font['dottedcircle'].round()
+
 def diacritics(font: fontforge.font):
+    add_dottedcircle(font)
     diacriticdata = [
         ('gravemodifier', 'grave.cap', 0x300, 'gravecomb'),
         ('acute', 'acute.cap', 0x301, 'acutecomb'),
