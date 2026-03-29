@@ -105,6 +105,14 @@ def mark_dottedcircle(font: fontforge.font):
         )
         lookupOrder = lookupName
 
+        if font.getLookupInfo(lookup)[0] == 'gpos_mark2base':
+            markCoordinates = sum([[a[2:4] for a in font[g].anchorPoints if a[0] == anchor] for g in mark], [])
+            averagex = sum([p[0] for p in markCoordinates], 0.0) / len(markCoordinates)
+            averagey = sum([p[1] for p in markCoordinates], 0.0) / len(markCoordinates)
+            for g in ['dottedcircle', 'invalidbase']:
+                font[g].addAnchorPoint(anchor, 'base', averagex, averagey)
+                font[g].round()
+
 font = fontforge.open(argv[2])
 font2 = fontforge.open(argv[3])
 font.encoding = 'Original'
