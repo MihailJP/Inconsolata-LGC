@@ -123,7 +123,9 @@ def lgcBaseAnchors(font: fontforge.font):
         belowPos = []
         for composedGlyph, _ in composedGlyphs:
             accentType = ''
-            if font[composedGlyph].boundingBox()[3] > font[glyph].boundingBox()[3]:  # above
+            if glyph == 'ydotbelow':
+                pass
+            elif font[composedGlyph].boundingBox()[3] > font[glyph].boundingBox()[3]:  # above
                 accentType = 'above'
             elif font[composedGlyph].boundingBox()[1] < font[glyph].boundingBox()[1]:  # below
                 accentType = 'below'
