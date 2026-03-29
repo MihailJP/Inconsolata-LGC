@@ -5,6 +5,7 @@ from psMat import skew, translate, scale
 from math import radians
 from sys import argv
 from typing import Optional, Union, Iterable
+from copy import deepcopy
 
 type LangTuple = tuple[tuple[str, tuple[str, ...]], ...]
 type LangDict = dict[str, set[str]]
@@ -202,6 +203,21 @@ def mark_dottedcircle(font: fontforge.font):
                 font[g].addAnchorPoint(anchor, 'base', averagex, averagey)
                 font[g].round()
 
+def fixAllLang(font: fontforge.font, oldAllLang: LangDict, newAllLang: LangDict):
+    for lookup in (font.gsub_lookups + font.gpos_lookups):
+        newTags = []
+        _, _, tags = font.getLookupInfo(lookup)
+        for tag, lang in tags:
+            langDict = langTupleToLangDict(lang)
+            newLangDict = deepcopy(langDict)
+            if tag != 'locl':
+                for scr, lng in langDict.items():
+                    if scr in oldAllLang and scr in newAllLang and lng == oldAllLang[scr]:
+                        print([lookup, tag, scr])
+                        newLangDict[scr] = deepcopy(newAllLang[scr])
+            newTags.append((tag, langDictToLangTuple(newLangDict)))
+        font.lookupSetFeatureList(lookup, tuple(newTags))
+
 font = fontforge.open(argv[2])
 font2 = fontforge.open(argv[3])
 font.encoding = 'Original'
@@ -217,10 +233,13 @@ if font.italicangle != 0:
     font2.transform(skew(radians(-font.italicangle)), ('noWidth', 'round', 'simplePos'))
 removeUnusedAnchorClass(font2)
 diacritics(font)
+oldAllLang = getLangDict(font)
 font.mergeFonts(argv[3])
 font.save(argv[1])
 font.close()  # workaround
 font = fontforge.open(argv[1])
 font.encoding = 'UnicodeFull'
+newAllLang = getLangDict(font)
+fixAllLang(font, oldAllLang, newAllLang)
 mark_dottedcircle(font)
 font.save(argv[1])
