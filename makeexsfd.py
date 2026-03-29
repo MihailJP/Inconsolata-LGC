@@ -2,7 +2,7 @@
 
 import fontforge
 from psMat import skew, translate, scale
-from math import radians
+from math import radians, tan
 from sys import argv
 from typing import Optional, Union, Iterable
 from copy import deepcopy
@@ -91,19 +91,123 @@ def add_dottedcircle(font: fontforge.font):
     font['invalidbase'].width = 613
     font['invalidbase'].addReference('dottedcircle')
 
+dotlessforms = [
+    ('i', 'dotlessi'),
+    ('j', 'dotlessj'),
+    ('icyril', 'dotlessi'),
+    ('je', 'dotlessj'),
+]
+
 def add_dotlessforms(font: fontforge.font):
-    dotlessforms = [
-        ('i', 'dotlessi'),
-        ('j', 'dotlessj'),
-        ('icyril', 'dotlessi'),
-        ('je', 'dotlessj'),
-    ]
     font.addLookup('Dotless forms', 'gsub_ligature', None, ())
     font.addLookupSubtable('Dotless forms', 'Dotless forms-1')
     for dotted, dotless in dotlessforms:
         font[dotted].addPosSub('Dotless forms-1', dotless)
 
+def anchorCoord(font: fontforge.font, x: float, y: float) -> tuple[float, float]:
+    return (x - y * tan(radians(font.italicangle)), y)
+
 def lgcBaseAnchors(font: fontforge.font):
+    composed: dict[str, list[tuple[str, list[str]]]] = {}
+    for glyph in font.glyphs():
+        if decomp := decomposition(glyph):
+            decomp = [(font[font.findEncodingSlot(uni)].glyphname if font.findEncodingSlot(uni) >= 0 else None) for uni in decomp]
+            if decomp[0]:
+                marks = [g for g in decomp[1:] if g and font[g].width == 0]
+                if marks:
+                    composed.setdefault(decomp[0], [])
+                    composed[decomp[0]].append((glyph.glyphname, marks))
+    positions: dict[str, list[list[tuple[float, float]]]] = {}
+    for glyph, composedGlyphs in composed.items():  # base glyphs
+        abovePos = []
+        belowPos = []
+        for composedGlyph, _ in composedGlyphs:
+            accentType = ''
+            if font[composedGlyph].boundingBox()[3] > font[glyph].boundingBox()[3]:  # above
+                accentType = 'above'
+            elif font[composedGlyph].boundingBox()[1] < font[glyph].boundingBox()[1]:  # below
+                accentType = 'below'
+            glyphnames = [glyph]
+            if glyph in [g[0] for g in dotlessforms]:
+                glyphnames += [g[1] for g in dotlessforms if g[0] == glyph]
+            if accentType and [r for r in font[composedGlyph].references if r[0] in glyphnames] and len(font[composedGlyph].references) == 2:
+                mark, mat, _ = [r for r in font[composedGlyph].references if r[0] not in glyphnames][0]
+                if mat[:4] == (1, 0, 0, 1):
+                    if accentType == 'above':
+                        abovePos.append(tuple(mat[4:]))
+                    elif accentType == 'below' and mark != 'ogonek':
+                        belowPos.append(tuple(mat[4:]))
+        if abovePos or belowPos:
+            positions.setdefault(glyph, [[], []])
+            if glyph in [g[0] for g in dotlessforms]:
+                for dotlessglyph in [g[1] for g in dotlessforms if g[0] == glyph]:
+                    positions.setdefault(dotlessglyph, [[], []])
+                    positions[dotlessglyph][0] += abovePos
+                    positions[dotlessglyph][1] += belowPos
+            else:
+                positions[glyph][0] += abovePos
+            positions[glyph][1] += belowPos
+    while True:  # alias
+        added = False
+        for glyph in font.glyphs():
+            if glyph.foreground.isEmpty() and len(glyph.references) == 1 and glyph.glyphname not in positions and glyph.references[0][0] in positions and glyph.references[0][1] == (1, 0, 0, 1, 0, 0):
+                positions[glyph.glyphname] = positions[glyph.references[0][0]]
+                added = True
+        if not added:
+            break
+    while True:  # pre-composed
+        added = False
+        for glyph, composedGlyphs in composed.items():
+            if glyph in positions:
+                for composedGlyph, _ in composedGlyphs:
+                    if composedGlyph not in positions:
+                        above = bool(font[composedGlyph].boundingBox()[3] > font[glyph].boundingBox()[3])
+                        below = bool(font[composedGlyph].boundingBox()[1] < font[glyph].boundingBox()[1])
+                        positions[composedGlyph] = [[] if above else positions[glyph][0], [] if below else positions[glyph][1]]
+                        added = True
+        if not added:
+            break
+    for glyph, pos in positions.items():  # add anchors
+        abovePos, belowPos = [((sum([p[0] for p in q]) / len(q), sum([p[1] for p in q]) / len(q)) if len(q) else None) for q in pos]
+        if abovePos:
+            x, y = anchorCoord(font, 306, 554)
+            xx, yy = abovePos
+            font[glyph].addAnchorPoint('LGC-accent-above', 'base', x + xx, y + yy)
+        if belowPos:
+            x, y = anchorCoord(font, 306, 0)
+            xx, yy = belowPos
+            font[glyph].addAnchorPoint('LGC-accent-below', 'base', x + xx, y + yy)
+ 
+diacriticdata = [
+    ('gravemodifier', 'grave.cap', 0x300, 'gravecomb'),
+    ('acute', 'acute.cap', 0x301, 'acutecomb'),
+    ('circumflex', 'circumflex.cap', 0x302, 'circumflexcomb'),
+    ('tilde', None, 0x303, 'tildecomb'),
+    ('macronmodifier', None, 0x304, 'macroncomb'),
+    ('breve', None, 0x306, 'brevecomb'),
+    ('dotaccent', None, 0x307, 'dotaccentcmb'),
+    ('dieresis', None, 0x308, 'dieresiscmb'),
+    ('hookabove', 'hookabove.cap', 0x309, 'hookabovecomb'),
+    ('ring', None, 0x30a, 'ringcmb'),
+    ('hungarumlaut', 'hungarumlaut.cap', 0x30b, 'hungarumlautcmb'),
+    ('caron', 'caron.cap', 0x30c, 'caroncomb'),
+    ('verticallinemod', None, 0x30d, 'verticallineabovecmb'),
+    ('dblgrave', 'dblgrave.cap', 0x30f, 'dblgravecmb'),
+    ('invertedbreve', None, 0x311, 'breveinvertedcmb'),
+    ('dotsub', None, 0x323, 'dotbelowcomb'),
+    ('uni02F3', None, 0x325, 'ringbelowcmb'),
+    ('commaaccent', None, 0x326, 'commasubnosp'),
+    ('cedilla', None, 0x327, 'cedillacmb'),
+    ('ogonek', None, 0x328, 'ogonekcmb'),
+    ('verticallinelowmod', None, 0x329, 'verticallinebelowcmb'),
+    ('uniA788', None, 0x32d, 'circumflexbelowcmb'),
+    ('uni02F7', None, 0x330, 'tildebelowcmb'),
+    ('macronsub', None, 0x331, 'macronbelowcmb'),
+    ('uni02BF', None, 0x351, 'uni0351'),
+    ('uni02BE', None, 0x357, 'uni0357'),
+]
+
+def addLgcAnchorClasses(font: fontforge.font):
     allLGC = dict((scr, lng) for scr, lng in getLangDict(font).items() if scr in ['latn', 'grec', 'cyrl'])
     font.addLookup('Accent above', 'gpos_mark2base', None, (('mark', langDictToLangTuple(allLGC)),))
     font.addLookupSubtable('Accent above', 'Accent above-1')
@@ -111,67 +215,9 @@ def lgcBaseAnchors(font: fontforge.font):
     font.addLookup('Accent below', 'gpos_mark2base', None, (('mark', langDictToLangTuple(allLGC)),))
     font.addLookupSubtable('Accent below', 'Accent below-1')
     font.addAnchorClass('Accent below-1', 'LGC-accent-below')
-    bases = [
-        ([
-            'a', 'e', 'm', 'n', 'o', 'r', 's', 'u', 'v', 'w', 'x', 'z',
-            'dotlessi',
-        ], (306, 554), (306, 0)),
-        ([
-            'c',
-        ], (306 + 24, 554), (306 + 24, 0)),
-        # ([
-        #     'g', 'p', 'q', 'y',
-        #     'dotlessj',
-        # ], (306, 554), (0, 0)),
-        # ([
-        #     'b', 'd', 'f', 'h', 'k', 'l', 't',
-        # ], (0, 0), (306, 0)),
-        # ([
-        # ], (0, 0), (0, 0)),
-        # ([
-        #     'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M',
-        #     'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z',
-        # ], (0, 0), (0, 0)),
-    ]
-    for glyphs, abovePos, belowPos in bases:
-        for glyph in glyphs:
-            if abovePos:
-                font[glyph].addAnchorPoint('LGC-accent-above', 'base', *abovePos)
-            if belowPos:
-                font[glyph].addAnchorPoint('LGC-accent-below', 'base', *belowPos)
- 
-def diacriticdata():
-    return [
-        ('gravemodifier', 'grave.cap', 0x300, 'gravecomb'),
-        ('acute', 'acute.cap', 0x301, 'acutecomb'),
-        ('circumflex', 'circumflex.cap', 0x302, 'circumflexcomb'),
-        ('tilde', None, 0x303, 'tildecomb'),
-        ('macronmodifier', None, 0x304, 'macroncomb'),
-        ('breve', None, 0x306, 'brevecomb'),
-        ('dotaccent', None, 0x307, 'dotaccentcmb'),
-        ('dieresis', None, 0x308, 'dieresiscmb'),
-        ('hookabove', 'hookabove.cap', 0x309, 'hookabovecomb'),
-        ('ring', None, 0x30a, 'ringcmb'),
-        ('hungarumlaut', 'hungarumlaut.cap', 0x30b, 'hungarumlautcmb'),
-        ('caron', 'caron.cap', 0x30c, 'caroncomb'),
-        ('verticallinemod', None, 0x30d, 'verticallineabovecmb'),
-        ('dblgrave', 'dblgrave.cap', 0x30f, 'dblgravecmb'),
-        ('invertedbreve', None, 0x311, 'breveinvertedcmb'),
-        ('dotsub', None, 0x323, 'dotbelowcomb'),
-        ('uni02F3', None, 0x325, 'ringbelowcmb'),
-        ('commaaccent', None, 0x326, 'commasubnosp'),
-        ('cedilla', None, 0x327, 'cedillacmb'),
-        ('ogonek', None, 0x328, 'ogonekcmb'),
-        ('verticallinelowmod', None, 0x329, 'verticallinebelowcmb'),
-        ('uniA788', None, 0x32d, 'circumflexbelowcmb'),
-        ('uni02F7', None, 0x330, 'tildebelowcmb'),
-        ('macronsub', None, 0x331, 'macronbelowcmb'),
-        ('uni02BF', None, 0x351, 'uni0351'),
-        ('uni02BE', None, 0x357, 'uni0357'),
-    ]
 
 def lgcMarkAnchors(font: fontforge.font):
-    for sourcename, capsourcename, targetuni, targetname in diacriticdata():
+    for sourcename, capsourcename, targetuni, targetname in diacriticdata:
         font.createChar(targetuni, targetname)
         font[targetname].width = 0
         font[targetname].addReference(sourcename, translate(-613, 0))
@@ -183,7 +229,7 @@ def lgcMarkAnchors(font: fontforge.font):
         else:
             anchor = 'LGC-accent-above'
             y = 554
-        font[targetname].addAnchorPoint(anchor, 'mark', -307, y)
+        font[targetname].addAnchorPoint(anchor, 'mark', *anchorCoord(font, -307, y))
         if capsourcename:
             font.createChar(-1, targetname + '.cap')
             font[targetname + '.cap'].width = 0
@@ -216,7 +262,7 @@ def precomposedForms(font: fontforge.font):
     font.addLookupSubtable('Precomposed forms', 'Precomposed forms-1')
     for glyph in font.glyphs():
         if (decomp := decomposition(glyph)) and all([font.findEncodingSlot(c) >= 0 for c in decomp]):
-            if len(decomp) == 2 and decomp[1] in (c[2] for c in diacriticdata()):
+            if len(decomp) == 2 and decomp[1] in (c[2] for c in diacriticdata):
                 components = tuple(font[font.findEncodingSlot(c)].glyphname for c in decomp)
                 if glyph.glyphname not in proscribedDecomp or all([components != p for p in proscribedDecomp[glyph.glyphname]]):
                     glyph.addPosSub('Precomposed forms-1', components)
@@ -228,8 +274,9 @@ def precomposedForms(font: fontforge.font):
 def diacritics(font: fontforge.font):
     add_dottedcircle(font)
     add_dotlessforms(font)
-    lgcBaseAnchors(font)
+    addLgcAnchorClasses(font)
     lgcMarkAnchors(font)
+    lgcBaseAnchors(font)
     precomposedForms(font)
 
 def mark_dottedcircle(font: fontforge.font):
@@ -266,7 +313,7 @@ def mark_dottedcircle(font: fontforge.font):
         lookupOrder = lookupName
 
         if font.getLookupInfo(lookup)[0] == 'gpos_mark2base':
-            markCoordinates = sum([[a[2:4] for a in font[g].anchorPoints if a[0] == anchor] for g in mark], [])
+            markCoordinates = sum([[(a[2] + (613 if (lambda bb: abs(bb[0]) > abs(bb[2]))(font[g].boundingBox()) else 0), a[3]) for a in font[g].anchorPoints if a[0] == anchor] for g in mark], [])
             averagex = sum([p[0] for p in markCoordinates], 0.0) / len(markCoordinates)
             averagey = sum([p[1] for p in markCoordinates], 0.0) / len(markCoordinates)
             for g in ['dottedcircle', 'invalidbase']:
