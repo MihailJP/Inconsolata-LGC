@@ -147,6 +147,11 @@ def diacritics(font: fontforge.font):
     proscribedDecomp = {
         # Duplicate
         'tonos': [('space', 'acutecomb')],
+        # Caron
+        'dcaron': [('d', 'caroncomb')],
+        'Lcaron': [('L', 'caroncomb')],
+        'lcaron': [('l', 'caroncomb')],
+        'tcaron': [('t', 'caroncomb')],
     }
     all_lang = font.getLookupInfo('Variants of zero')[2][0][1]
     font.addLookup('Precomposed forms', 'gsub_ligature', None, (('ccmp', all_lang),))
