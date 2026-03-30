@@ -103,6 +103,7 @@ def add_dotlessforms(font: fontforge.font):
     font.addLookupSubtable('Dotless forms', 'Dotless forms-1')
     for dotted, dotless in dotlessforms:
         font[dotted].addPosSub('Dotless forms-1', dotless)
+        font[dotted].glyphclass = 'baseglyph'
 
 def anchorCoord(font: fontforge.font, x: float, y: float) -> tuple[float, float]:
     return (x - y * tan(radians(font.italicangle)), y)
