@@ -232,7 +232,7 @@ def lgcMarkAnchors(font: fontforge.font):
     def addChar(font: fontforge.font, sourcename: str, targetuni: int, targetname: str):
         font.createChar(targetuni, targetname)
         font[targetname].width = 0
-        font[targetname].addReference(sourcename, translate(-613, 0))
+        font[targetname].addReference(sourcename, translate(*anchorCoord(font, -613, -123 if font[sourcename].boundingBox()[1] >= 700 else 0)))
         font[targetname].glyphclass = 'mark'
         _, _, _, top = font[sourcename].boundingBox()
         if top < 100:
