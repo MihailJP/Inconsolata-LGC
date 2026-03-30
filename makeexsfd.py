@@ -119,8 +119,15 @@ def lgcBaseAnchors(font: fontforge.font):
                     composed.setdefault(decomp[0], [])
                     composed[decomp[0]].append((glyph.glyphname, marks))
     positions: dict[str, list[list[tuple[float, float]]]] = {}
-    excludeBase = ['ydotbelow', 'psili', 'dasia']
-    excludeComposed = ['ydotbelow']
+    excludeBase = [
+        'ydotbelow',
+        'dieresis', 'psili', 'dasia',
+        'uni2373', 'uni2375', 'uni2377', 'uni2378', 'uni237A',
+    ]
+    excludeComposed = [
+        'ydotbelow',
+        'dcaron', 'Lcaron', 'lcaron', 'tcaron',
+    ]
     for glyph, composedGlyphs in composed.items():  # base glyphs
         abovePos = []
         belowPos = []
