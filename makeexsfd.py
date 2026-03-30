@@ -91,7 +91,7 @@ def add_dottedcircle(font: fontforge.font):
     font['invalidbase'].width = 613
     font['invalidbase'].addReference('dottedcircle')
 
-dotlessforms = [
+dotlessforms: list[tuple[str, str]] = [
     ('i', 'dotlessi'),
     ('j', 'dotlessj'),
     ('icyril', 'dotlessi'),
@@ -183,7 +183,7 @@ def lgcBaseAnchors(font: fontforge.font):
             xx, yy = belowPos
             font[glyph].addAnchorPoint('LGC-accent-below', 'base', x + xx, y + yy)
  
-diacriticdata = [
+diacriticdata: list[tuple[str, Optional[str], int, str]] = [
     ('gravemodifier', 'grave.cap', 0x300, 'gravecomb'),
     ('acute', 'acute.cap', 0x301, 'acutecomb'),
     ('circumflex', 'circumflex.cap', 0x302, 'circumflexcomb'),
@@ -222,7 +222,7 @@ def addLgcAnchorClasses(font: fontforge.font):
     font.addAnchorClass('Accent below-1', 'LGC-accent-below')
 
 def lgcMarkAnchors(font: fontforge.font):
-    for sourcename, capsourcename, targetuni, targetname in diacriticdata:
+    def addChar(font: fontforge.font, sourcename: str, targetuni: int, targetname: str):
         font.createChar(targetuni, targetname)
         font[targetname].width = 0
         font[targetname].addReference(sourcename, translate(-613, 0))
@@ -235,11 +235,11 @@ def lgcMarkAnchors(font: fontforge.font):
             anchor = 'LGC-accent-above'
             y = 554
         font[targetname].addAnchorPoint(anchor, 'mark', *anchorCoord(font, -307, y))
+
+    for sourcename, capsourcename, targetuni, targetname in diacriticdata:
+        addChar(font, sourcename, targetuni, targetname)
         if capsourcename:
-            font.createChar(-1, targetname + '.cap')
-            font[targetname + '.cap'].width = 0
-            font[targetname + '.cap'].addReference(capsourcename, translate(-613, 0))
-            font[targetname + '.cap'].glyphclass = 'mark'
+            addChar(font, capsourcename, -1, targetname + '.cap')
 
 def precomposedForms(font: fontforge.font):
     customDecomp = {
@@ -276,6 +276,23 @@ def precomposedForms(font: fontforge.font):
         font[glyph].addPosSub('Precomposed forms-1', customDecomp[glyph])
         font[glyph].glyphclass = 'baseglyph'
 
+def uppercaseForms(font: fontforge.font):
+    mark = sum([[glyph.glyphname for a in glyph.anchorPoints if a[0] == 'LGC-accent-above' and a[1] == 'mark' and glyph.width == 0] for glyph in font.glyphs() if (glyph.glyphname + '.cap') in font], [])
+    base = sum([[glyph.glyphname for a in glyph.anchorPoints if a[0] == 'LGC-accent-above' and a[1] != 'mark' and glyph.boundingBox()[3] >= 660] for glyph in font.glyphs()], [])
+    font.addLookup('Forms for tall base glyphs', 'gsub_single', None, (), font.gsub_lookups[-1])
+    font.addLookupSubtable('Forms for tall base glyphs', 'Forms for tall base glyphs-1')
+    font.addLookup('Accents for tall base glyphs', 'gsub_contextchain', None, (('calt', langDictToLangTuple(getLangDict(font))),), font.gsub_lookups[-1])
+    font.addContextualSubtable(
+        'Accents for tall base glyphs',
+        'Accents for tall base glyphs-1',
+        'class',
+        '1 | 1 @<Forms for tall base glyphs> |',
+        bclasses=((), tuple(base)),
+        mclasses=((), tuple(mark)),
+    )
+    for glyph in mark:
+        font[glyph].addPosSub('Forms for tall base glyphs-1', glyph + '.cap')
+
 def diacritics(font: fontforge.font):
     add_dottedcircle(font)
     add_dotlessforms(font)
@@ -283,6 +300,7 @@ def diacritics(font: fontforge.font):
     lgcMarkAnchors(font)
     lgcBaseAnchors(font)
     precomposedForms(font)
+    uppercaseForms(font)
 
 def mark_dottedcircle(font: fontforge.font):
     font.addLookup('Append dotted circle', 'gsub_multiple', None, (('ccmp', langDictToLangTuple(getLangDict(font))),), font.gsub_lookups[-1])
