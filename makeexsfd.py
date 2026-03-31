@@ -6,6 +6,7 @@ from math import radians, tan
 from sys import argv
 from typing import Optional, Union, Iterable
 from copy import deepcopy
+import re
 
 type LangTuple = tuple[tuple[str, tuple[str, ...]], ...]
 type LangDict = dict[str, set[str]]
@@ -61,13 +62,13 @@ def decomposition(glyph: fontforge.glyph) -> list:
             return int(hexText, 16)
         except ValueError:
             return None
-    from unicodedata import decomposition
+    from unicodedata import decomposition as unidecomp
     if glyph.user_decomp:
         return [ord(c) for c in glyph.user_decomp]
     elif glyph.unicode < 0:
         return []
     else:
-        decomp = [toDec(c) for c in decomposition(chr(glyph.unicode)).split() if toDec(c) is not None]
+        decomp = [toDec(c) for c in unidecomp(chr(glyph.unicode)).split() if toDec(c) is not None]
         if len(decomp) >= 2:
             return decomp
         else:
@@ -108,7 +109,25 @@ def add_dotlessforms(font: fontforge.font):
 def anchorCoord(font: fontforge.font, x: float, y: float) -> tuple[float, float]:
     return (x - y * tan(radians(font.italicangle)), y)
 
+lgcRange = [
+    range(0x0041, 0x005b),
+    range(0x0061, 0x007b),
+    range(0x00c0, 0x0530),
+    range(0x1c80, 0x1c90),
+    range(0x1e00, 0x1f00),
+]
+
 def lgcBaseAnchors(font: fontforge.font):
+    def trunkGlyph(glyph: fontforge.glyph) -> Optional[fontforge.glyph]:
+        trunkname = re.sub(r'\.(serif|bg|mkd|ewe|var\d?|pinyin|alt)+$', '', glyph.glyphname)
+        if trunkname == 'fscript':
+            trunkname = 'florin'
+        if trunkname not in glyph.font or trunkname == glyph.glyphname:
+            trunkname = None
+        if trunkname:
+            return font[trunkname]
+        else:
+            return None
     composed: dict[str, list[tuple[str, list[str]]]] = {}
     for glyph in font.glyphs():
         if decomp := decomposition(glyph):
@@ -159,6 +178,27 @@ def lgcBaseAnchors(font: fontforge.font):
             else:
                 positions[glyph][0] += abovePos
             positions[glyph][1] += belowPos
+    for glyph in font.glyphs():
+        from unicodedata import category
+        trunk = trunkGlyph(glyph) or glyph
+        if any(glyph.unicode in r for r in lgcRange) or any(trunk and (trunk.unicode in r) for r in lgcRange):
+            if ((not (len(glyph.references) == 1 and glyph.references[0][1] == (1, 0, 0, 1, 0, 0)))) or (trunk is not glyph):
+                decomp = decomposition(trunk)
+                cat = category(chr(trunk.unicode))
+                if cat in ['Lu', 'Ll'] and not decomp:
+                    positions.setdefault(glyph.glyphname, [[], []])
+                    if (not positions[glyph.glyphname][0]) and all(g[0] != glyph.glyphname for g in dotlessforms):
+                        if glyph.boundingBox()[3] >= 700:
+                            positions[glyph.glyphname][0].append((0, 151))
+                        elif glyph.boundingBox()[3] >= 600:
+                            positions[glyph.glyphname][0].append((0, 110))
+                        else:
+                            positions[glyph.glyphname][0].append((0, 0))
+                    if (not positions[glyph.glyphname][1]):
+                        if glyph.boundingBox()[1] <= -100:
+                            positions[glyph.glyphname][1].append((0, -195))
+                        else:
+                            positions[glyph.glyphname][1].append((0, 0))
     while True:  # alias
         added = False
         for glyph in font.glyphs():
