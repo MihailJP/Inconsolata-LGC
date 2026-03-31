@@ -128,7 +128,13 @@ def lgcBaseAnchors(font: fontforge.font):
             return font[trunkname]
         else:
             return None
-    composed: dict[str, list[tuple[str, list[str]]]] = {}
+    type ComposedDict = dict[str, list[tuple[str, list[str]]]]
+    composed: ComposedDict = {}
+    def addComposedVariant(composed: ComposedDict, glyph: fontforge.glyph):
+        if '.' in glyph.glyphname:
+            suffix, stem = tuple(n[::-1] for n in glyph.glyphname[::-1].split('.', 1))
+            if stem in composed:
+                composed[glyph.glyphname] = [(d[0] + '.' + suffix, d[1]) for d in composed[stem] if d[0] + '.' + suffix in glyph.font]
     for glyph in font.glyphs():
         if decomp := decomposition(glyph):
             decomp = [(font[font.findEncodingSlot(uni)].glyphname if font.findEncodingSlot(uni) >= 0 else None) for uni in decomp]
@@ -137,6 +143,9 @@ def lgcBaseAnchors(font: fontforge.font):
                 if marks:
                     composed.setdefault(decomp[0], [])
                     composed[decomp[0]].append((glyph.glyphname, marks))
+    addComposedVariant(composed, font['r.serif'])
+    if 'ii.bg' in font:
+        addComposedVariant(composed, font['ii.bg'])
     positions: dict[str, list[list[tuple[float, float]]]] = {}
     excludeBase = [
         'ydotbelow',
