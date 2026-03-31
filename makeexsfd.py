@@ -144,7 +144,7 @@ def lgcBaseAnchors(font: fontforge.font):
         'uni2373', 'uni2375', 'uni2377', 'uni2378', 'uni237A',
     ]
     excludeComposed = [
-        'ydotbelow',
+        'gcommaaccent', 'ydotbelow',
         'dcaron', 'Lcaron', 'lcaron', 'tcaron',
     ]
     for glyph, composedGlyphs in composed.items():  # base glyphs
@@ -299,6 +299,16 @@ def precomposedForms(font: fontforge.font):
         'ecircumflexdotbelow': ('ecircumflex', 'dotbelowcomb'),
         'Ocircumflexdotbelow': ('Ocircumflex', 'dotbelowcomb'),
         'ocircumflexdotbelow': ('ocircumflex', 'dotbelowcomb'),
+        # Comma accent
+        'Gcommaaccent': ('G', 'commasubnosp'),
+        'Kcommaaccent': ('K', 'commasubnosp'),
+        'Lcommaaccent': ('L', 'commasubnosp'),
+        'Ncommaaccent': ('N', 'commasubnosp'),
+        'Rcommaaccent': ('R', 'commasubnosp'),
+        'kcommaaccent': ('k', 'commasubnosp'),
+        'lcommaaccent': ('l', 'commasubnosp'),
+        'ncommaaccent': ('n', 'commasubnosp'),
+        'rcommaaccent': ('r', 'commasubnosp'),
     }
     proscribedDecomp = {
         # Duplicate
@@ -308,6 +318,17 @@ def precomposedForms(font: fontforge.font):
         'Lcaron': [('L', 'caroncomb')],
         'lcaron': [('l', 'caroncomb')],
         'tcaron': [('t', 'caroncomb')],
+        # Comma accent
+        'Gcommaaccent': [('G', 'cedillacmb')],
+        'Kcommaaccent': [('K', 'cedillacmb')],
+        'Lcommaaccent': [('L', 'cedillacmb')],
+        'Ncommaaccent': [('N', 'cedillacmb')],
+        'Rcommaaccent': [('R', 'cedillacmb')],
+        'gcommaaccent': [('g', 'cedillacmb')],
+        'kcommaaccent': [('k', 'cedillacmb')],
+        'lcommaaccent': [('l', 'cedillacmb')],
+        'ncommaaccent': [('n', 'cedillacmb')],
+        'rcommaaccent': [('r', 'cedillacmb')],
     }
     all_lang = font.getLookupInfo('Variants of zero')[2][0][1]
     font.addLookup('Precomposed forms', 'gsub_ligature', None, (('ccmp', all_lang),))
