@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1161020814
-ModificationTime: 1775227154
+ModificationTime: 1775229400
 PfmFamily: 49
 TTFWeight: 700
 TTFWidth: 5
@@ -82,8 +82,8 @@ PUSHB_1
 SCANTYPE
 EndTTInstrs
 LangName: 1033
-OtfFeatName: 'ss01' 1033 "German alternative umlaut"
 OtfFeatName: 'ss02' 1033 "Polytonic Greek alternative circumflex"
+OtfFeatName: 'ss01' 1033 "German alternative umlaut"
 Encoding: UnicodeFull
 Compacted: 1
 UnicodeInterp: none
@@ -2796,6 +2796,7 @@ StartChar: uniFEF0
 Encoding: 65264 65264 115
 Width: 613
 Flags: W
+AnchorPoint: "rtl-below" 212 -214 basechar 0
 AnchorPoint: "rtl-above" 217 322 basechar 0
 LayerCount: 2
 Fore
