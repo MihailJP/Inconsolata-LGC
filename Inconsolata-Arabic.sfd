@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1161020814
-ModificationTime: 1775231154
+ModificationTime: 1775235485
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 5
@@ -125,7 +125,7 @@ Grid
 EndSplineSet
 TeXData: 1 0 0 629145 314572 209715 554697 1048576 209715 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "rtl-above-mark" "Arabic above-base mark-to-mark positioning" "rtl-below-mark" "Arabic below-base mark-to-mark positioning" "rtl-above" "Arabic above-base mark positioning" "Ligature rtl-above" "Arabic above-base mark-to-ligature positioning" "rtl-below" "Arabic below-base mark positioning" "Ligature rtl-below" "Arabic below-base mark-to-ligature positioning"
-BeginChars: 1114140 231
+BeginChars: 1114140 241
 
 StartChar: comma
 Encoding: 44 44 0
@@ -4942,6 +4942,263 @@ LayerCount: 2
 Fore
 Refer: 214 64610 N 1 0 0 1 0 0 2
 Ligature2: "Composed marks-1" shaddaarabic kasraarabic
+EndChar
+
+StartChar: zeroarabic
+Encoding: 1632 1632 231
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+255 345 m 1
+ 357 345 l 1
+ 357 230 l 1
+ 255 230 l 1
+ 255 345 l 1
+EndSplineSet
+Colour: ffff
+EndChar
+
+StartChar: onearabic
+Encoding: 1633 1633 232
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+409 0 m 9
+ 327 0 l 17
+ 327 143 321 249 308 318 c 0
+ 292 409 257 517 204 642 c 9
+ 294 642 l 17
+ 335 543 368 435 393 318 c 0
+ 404 269 409 163 409 0 c 9
+EndSplineSet
+Colour: ffff
+EndChar
+
+StartChar: twoarabic
+Encoding: 1634 1634 233
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+239 429 m 1
+ 248 392 257 355 266 318 c 0
+ 277 273 282 167 282 0 c 9
+ 200 0 l 17
+ 200 137 194 243 181 318 c 0
+ 166 410 131 518 77 642 c 25
+ 170 642 l 17
+ 193 590 204 563 205 562 c 0
+ 233 510 279 485 341 485 c 0
+ 382 485 412 510 430 560 c 24
+ 441 588 447 615 450 642 c 9
+ 532 642 l 17
+ 529 602 521 565 507 528 c 24
+ 475 442 421 398 342 398 c 0
+ 305 398 270 408 239 429 c 1
+EndSplineSet
+Colour: ffff
+EndChar
+
+StartChar: threearabic
+Encoding: 1635 1635 234
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+240 405 m 1
+ 249 373 255 346 260 322 c 0
+ 269 279 274 171 274 0 c 9
+ 191 0 l 17
+ 191 149 186 257 174 322 c 0
+ 159 410 124 516 70 642 c 25
+ 163 642 l 17
+ 178 606 192 567 206 524 c 24
+ 213 504 225 494 241 496 c 0
+ 266 500 279 512 282 534 c 24
+ 284 551 285 587 285 642 c 9
+ 371 642 l 17
+ 371 567 373 526 378 518 c 24
+ 385 506 396 501 412 500 c 0
+ 432 499 444 505 449 520 c 24
+ 454 534 456 575 456 642 c 9
+ 541 642 l 17
+ 541 543 534 484 520 463 c 24
+ 497 427 460 409 409 409 c 0
+ 368 409 342 419 332 439 c 1
+ 314 422 296 412 280 409 c 0
+ 264 405 251 404 240 405 c 1
+EndSplineSet
+Colour: ffff
+EndChar
+
+StartChar: fourarabic
+Encoding: 1636 1636 235
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+430 649 m 17
+ 430 569 l 1
+ 389 563 351 551 315 533 c 0
+ 270 510 247 488 247 467 c 0
+ 247 455 263 440 294 421 c 0
+ 322 404 348 395 374 394 c 9
+ 374 316 l 1
+ 347 318 310 305 262 280 c 24
+ 223 259 203 230 203 189 c 0
+ 203 162 212 137 229 116 c 24
+ 249 91 271 78 297 78 c 0
+ 329 78 360 82 388 89 c 0
+ 431 100 467 113 496 128 c 9
+ 496 34 l 1
+ 472 22 439 11 398 2 c 0
+ 365 -6 331 -10 297 -10 c 0
+ 250 -10 208 11 171 52 c 24
+ 138 89 121 135 121 189 c 0
+ 121 235 140 280 177 323 c 0
+ 198 347 223 362 253 369 c 1
+ 227 381 207 395 193 410 c 0
+ 174 429 165 448 165 467 c 0
+ 165 516 202 562 277 605 c 0
+ 312 625 363 640 430 649 c 17
+EndSplineSet
+Colour: ffff
+EndChar
+
+StartChar: fivearabic
+Encoding: 1637 1637 236
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+307 561 m 24
+ 285 561 259 526 230 454 c 24
+ 203 390 190 330 189 275 c 0
+ 187 208 199 154 223 114 c 24
+ 235 93 263 83 306 83 c 0
+ 349 83 377 93 389 114 c 24
+ 414 154 426 208 424 275 c 0
+ 422 330 409 390 383 454 c 24
+ 354 526 329 561 307 561 c 24
+306 652 m 24
+ 366 652 418 594 462 478 c 0
+ 492 399 506 331 506 275 c 0
+ 506 172 493 101 466 62 c 24
+ 433 15 381 -8 307 -8 c 24
+ 233 -8 179 15 146 62 c 24
+ 120 100 106 171 106 275 c 0
+ 106 332 122 400 152 478 c 0
+ 197 594 248 652 306 652 c 24
+EndSplineSet
+Colour: ffff
+EndChar
+
+StartChar: sixarabic
+Encoding: 1638 1638 237
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+449 642 m 17
+ 449 548 455 442 467 324 c 0
+ 476 235 497 128 531 0 c 9
+ 531 0 531 0 440 0 c 17
+ 412 105 393 213 382 324 c 0
+ 373 420 367 494 366 546 c 9
+ 332 536 292 532 248 532 c 0
+ 193 532 138 540 82 557 c 25
+ 82 557 82 556 82 642 c 25
+ 143 625 198 618 248 618 c 0
+ 314 618 381 625 449 642 c 17
+EndSplineSet
+Colour: ffff
+EndChar
+
+StartChar: sevenarabic
+Encoding: 1639 1639 238
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+264 0 m 17
+ 259 80 240 171 207 276 c 0
+ 151 452 103 574 64 642 c 25
+ 154 642 l 17
+ 208 535 250 429 281 320 c 0
+ 298 261 306 231 306 230 c 1
+ 306 230 314 260 331 320 c 0
+ 362 429 404 535 458 642 c 9
+ 548 642 l 17
+ 494 546 446 425 406 276 c 0
+ 376 169 357 77 348 0 c 9
+ 264 0 l 17
+EndSplineSet
+Colour: ffff
+EndChar
+
+StartChar: eightarabic
+Encoding: 1640 1640 239
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+264 642 m 9
+ 348 642 l 17
+ 358 561 378 469 406 366 c 0
+ 447 216 494 95 548 0 c 17
+ 458 0 l 1
+ 404 107 362 214 331 323 c 0
+ 314 382 306 412 306 413 c 1
+ 306 413 298 383 281 323 c 0
+ 250 214 208 107 154 0 c 9
+ 64 0 l 17
+ 104 69 151 190 207 366 c 0
+ 241 475 260 567 264 642 c 9
+EndSplineSet
+Colour: ffff
+EndChar
+
+StartChar: ninearabic
+Encoding: 1641 1641 240
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+383 294 m 1
+ 312 295 266 299 247 304 c 0
+ 195 318 158 335 135 356 c 24
+ 100 389 83 425 82 465 c 0
+ 80 511 95 550 127 583 c 24
+ 169 626 214 648 262 648 c 0
+ 309 647 347 634 378 608 c 0
+ 425 565 451 516 454 460 c 0
+ 456 412 460 363 467 313 c 0
+ 478 213 499 108 528 0 c 9
+ 439 0 l 17
+ 407 141 388 239 383 294 c 1
+376 381 m 1
+ 376 391 375 404 372 424 c 0
+ 367 460 361 489 350 511 c 0
+ 331 544 303 561 265 562 c 0
+ 238 563 214 553 193 534 c 24
+ 172 515 163 493 164 468 c 24
+ 164 450 174 431 195 412 c 24
+ 206 401 225 394 252 390 c 16
+ 280 386 321 383 376 381 c 1
+EndSplineSet
+Colour: ffff
 EndChar
 EndChars
 EndSplineFont
