@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1161020814
-ModificationTime: 1775314793
+ModificationTime: 1775318889
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 5
@@ -83,8 +83,8 @@ PUSHB_1
 SCANTYPE
 EndTTInstrs
 LangName: 1033
-OtfFeatName: 'ss01' 1033 "German alternative umlaut"
 OtfFeatName: 'ss02' 1033 "Polytonic Greek alternative circumflex"
+OtfFeatName: 'ss01' 1033 "German alternative umlaut"
 Encoding: UnicodeBmp
 Compacted: 1
 UnicodeInterp: none
@@ -6200,20 +6200,54 @@ StartChar: uniFBAE
 Encoding: 64430 64430 303
 Width: 613
 Flags: W
+AnchorPoint: "rtl-above" 108 388 basechar 0
+AnchorPoint: "rtl-below" 255 -200 basechar 0
 LayerCount: 2
 Fore
-Refer: 114 65263 N 1 0 0 1 0 0 2
-Colour: ffff00
+SplineSet
+12 0 m 0
+ 12 162 230 91 230 260 c 0
+ 230 309 246 346 276 367 c 0
+ 300 384 327 391 358 391 c 0
+ 402 391 433 380 451 357 c 0
+ 468 337 479 304 485 257 c 1
+ 399 257 l 1
+ 399 277 396 291 390 301 c 0
+ 381 312 370 316 357 315 c 0
+ 350 314 344 312 336 305 c 0
+ 324 295 317 280 317 260 c 0
+ 317 52 96 93 96 0 c 0
+ 96 -30 183 -46 264 -46 c 2
+ 613 -46 l 25
+ 613 -128 l 25
+ 258 -128 l 2
+ 102 -128 12 -81 12 0 c 0
+EndSplineSet
+Colour: ffff
 EndChar
 
 StartChar: uniFBAF
 Encoding: 64431 64431 304
 Width: 613
 Flags: W
+AnchorPoint: "rtl-below" 200 -200 basechar 0
+AnchorPoint: "rtl-above" 203 321 basechar 0
 LayerCount: 2
 Fore
-Refer: 115 65264 N 1 0 0 1 0 0 2
-Colour: ffff00
+SplineSet
+11 2 m 0
+ 11 37 38 89 104 89 c 2
+ 624 89 l 1
+ 624 0 l 1
+ 104 0 l 2
+ 101 0 97 0 97 -1 c 1
+ 102 -24 139 -46 194 -46 c 2
+ 613 -46 l 1
+ 613 -128 l 1
+ 194 -128 l 2
+ 90 -128 11 -62 11 2 c 0
+EndSplineSet
+Colour: ffff
 EndChar
 
 StartChar: uni0615
@@ -6337,12 +6371,13 @@ StartChar: yehbarreearabic
 Encoding: 1746 1746 312
 Width: 613
 Flags: W
+AnchorPoint: "rtl-below" 255 -200 basechar 0
+AnchorPoint: "rtl-above" 108 388 basechar 0
 LayerCount: 2
 Fore
 Refer: 303 64430 N 1 0 0 1 0 0 2
 Substitution2: "Isolated forms-1" uniFBAE
 Substitution2: "Final forms-1" uniFBAF
-Colour: ffff00
 EndChar
 
 StartChar: fourpersian.urdu
