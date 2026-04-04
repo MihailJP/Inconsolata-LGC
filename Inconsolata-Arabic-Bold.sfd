@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1161020814
-ModificationTime: 1775267110
+ModificationTime: 1775276882
 PfmFamily: 49
 TTFWeight: 700
 TTFWidth: 5
@@ -82,8 +82,8 @@ PUSHB_1
 SCANTYPE
 EndTTInstrs
 LangName: 1033
-OtfFeatName: 'ss02' 1033 "Polytonic Greek alternative circumflex"
 OtfFeatName: 'ss01' 1033 "German alternative umlaut"
+OtfFeatName: 'ss02' 1033 "Polytonic Greek alternative circumflex"
 Encoding: UnicodeBmp
 Compacted: 1
 UnicodeInterp: none
@@ -5327,8 +5327,10 @@ SplineSet
  343 410 335 436 335 460 c 0
  335 484 340 503 348 516 c 0
  363 542 385 565 412 586 c 2
- 411 586 502 656 684 798 c 1
+ 412 586 437 606 619 748 c 1
  684 668 l 1
+ 682 658 680 655 674 650 c 0
+ 657 636 655 644 653 643 c 2
  487 508 l 2
  465 490 455 476 455 464 c 0
  455 445 460 429 471 417 c 2
@@ -5338,10 +5340,10 @@ SplineSet
  526 20 489 -6 442 -28 c 0
  408 -43 353 -52 278 -52 c 0
  241 -52 204 -47 168 -36 c 0
- 58 -3 3 60 3 154 c 0
- 2 204 12 243 30 269 c 1
- 30 269 81 269 142 269 c 1
- 125 238 116 199 116 154 c 0
+ 58 -3 5 60 3 154 c 0
+ 2 204 13 261 48 287 c 1
+ 130 242 l 1
+ 123 219 116 199 116 154 c 0
  116 115 143 85 199 62 c 0
  221 53 245 48 273 48 c 0
 EndSplineSet
@@ -5363,9 +5365,9 @@ SplineSet
  337 -43 283 -52 206 -52 c 0
  169 -52 132 -47 96 -36 c 0
  -13 -3 -69 60 -69 154 c 0
- -69 204 -60 243 -42 269 c 1
- -42 269 9 269 70 269 c 1
- 52 238 43 199 43 154 c 0
+ -69 204 -60 262 -23 288 c 1
+ 57 242 l 1
+ 51 222 43 199 43 154 c 0
  43 115 71 85 127 62 c 0
  149 53 173 48 201 48 c 0
  249 48 288 55 319 70 c 0
@@ -5375,11 +5377,13 @@ SplineSet
  326 380 l 2
  308 414 296 444 296 463 c 0
  296 488 300 506 308 518 c 0
- 327 547 348 570 370 586 c 2
- 642 798 l 1
+ 327 547 349 569 370 586 c 2
+ 580 750 l 1
  642 674 l 1
+ 640 664 638 661 632 656 c 0
+ 615 642 613 650 611 649 c 2
  444 514 l 2
- 423 496 413 480 413 464 c 0
+ 423 497 413 480 413 464 c 0
  413 446 417 429 425 414 c 2
  578 133 l 2
  590 112 603 101 617 101 c 2
@@ -5603,23 +5607,9 @@ Width: 613
 Flags: W
 LayerCount: 2
 Fore
-SplineSet
-72 -148 m 1
- 72 -148 72 -105 72 -55 c 1
- 164 -55 l 1
- 164 -148 l 1
- 72 -148 l 1
-146 0 m 1
- 146 92 l 1
- 146 92 188 92 238 92 c 1
- 238 0 l 1
- 146 0 l 1
--2 0 m 1
- -2 92 l 1
- 90 92 l 1
- 90 0 l 1
- -2 0 l 1
-EndSplineSet
+Refer: 153 -1 N 1 0 0 1 74 -147 2
+Refer: 153 -1 N 1 0 0 1 148 0 2
+Refer: 153 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: arabic_gaf_bar
@@ -5629,12 +5619,13 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-346 857 m 25
- -2 586 l 25
- -2 586 -2 636 -2 694 c 25
- 346 964 l 25
- 346 857 l 25
+346 857 m 1
+ -2 586 l 1
+ -54 654 l 9
+ 294 924 l 25
+ 346 857 l 1
 EndSplineSet
+Colour: ffff
 EndChar
 
 StartChar: arabic_gaf_bar_a
@@ -5644,12 +5635,13 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-460 846 m 25
- -2 644 l 25
- -2 750 l 25
- -2 750 291 877 460 951 c 25
- 460 846 l 25
+460 846 m 1
+ -2 644 l 1
+ -41 733 l 25
+ 421 934 l 9
+ 460 846 l 1
 EndSplineSet
+Colour: ffff
 EndChar
 
 StartChar: zeropersian
