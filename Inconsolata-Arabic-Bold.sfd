@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1161020814
-ModificationTime: 1775313596
+ModificationTime: 1775315320
 PfmFamily: 49
 TTFWeight: 700
 TTFWidth: 5
@@ -3431,6 +3431,8 @@ StartChar: uniFB9E
 Encoding: 64414 64414 138
 Width: 613
 Flags: W
+AnchorPoint: "rtl-below" 296 -205 basechar 0
+AnchorPoint: "rtl-above" 241 360 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -3461,6 +3463,8 @@ StartChar: uniFB9F
 Encoding: 64415 64415 139
 Width: 613
 Flags: W
+AnchorPoint: "rtl-below" 228 -287 basechar 0
+AnchorPoint: "rtl-above" 193 260 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -5924,20 +5928,24 @@ StartChar: uniFB88
 Encoding: 64392 64392 291
 Width: 613
 Flags: W
+AnchorPoint: "rtl-above" 122 789 basechar 0
+AnchorPoint: "rtl-below" 276 -67 basechar 0
 LayerCount: 2
 Fore
+Refer: 305 -1 N 1 0 0 1 -17 -125 2
 Refer: 44 65193 N 1 0 0 1 0 0 2
-Colour: ffff00
 EndChar
 
 StartChar: uniFB89
 Encoding: 64393 64393 292
 Width: 613
 Flags: W
+AnchorPoint: "rtl-above" 171 835 basechar 0
+AnchorPoint: "rtl-below" 268 -82 basechar 0
 LayerCount: 2
 Fore
+Refer: 305 -1 N 1 0 0 1 -24 -111 2
 Refer: 45 65194 N 1 0 0 1 0 0 2
-Colour: ffff00
 EndChar
 
 StartChar: uniFB8C
@@ -5968,10 +5976,11 @@ StartChar: uniFBA6
 Encoding: 64422 64422 295
 Width: 613
 Flags: W
+AnchorPoint: "rtl-below" 284 -108 basechar 0
+AnchorPoint: "rtl-above" 248 504 basechar 0
 LayerCount: 2
 Fore
 Refer: 108 65257 N 1 0 0 1 0 0 2
-Colour: ffff00
 EndChar
 
 StartChar: uniFBA7
@@ -6286,12 +6295,13 @@ StartChar: ddalarabic
 Encoding: 1672 1672 307
 Width: 613
 Flags: W
+AnchorPoint: "rtl-below" 276 -67 basechar 0
+AnchorPoint: "rtl-above" 122 789 basechar 0
 LayerCount: 2
 Fore
 Refer: 291 64392 N 1 0 0 1 0 0 2
 Substitution2: "Isolated forms-1" uniFB88
 Substitution2: "Final forms-1" uniFB89
-Colour: ffff00
 EndChar
 
 StartChar: rreharabic
@@ -6311,6 +6321,8 @@ StartChar: noonghunnaarabic
 Encoding: 1722 1722 309
 Width: 613
 Flags: W
+AnchorPoint: "rtl-above" 241 360 basechar 0
+AnchorPoint: "rtl-below" 296 -205 basechar 0
 LayerCount: 2
 Fore
 Refer: 138 64414 N 1 0 0 1 0 0 2
@@ -6318,13 +6330,14 @@ Substitution2: "Medial forms-1" uniFBE9
 Substitution2: "Initial forms-1" uniFBE8
 Substitution2: "Isolated forms-1" uniFB9E
 Substitution2: "Final forms-1" uniFB9F
-Colour: ffff00
 EndChar
 
 StartChar: hehaltonearabic
 Encoding: 1729 1729 310
 Width: 613
 Flags: W
+AnchorPoint: "rtl-below" 284 -108 basechar 0
+AnchorPoint: "rtl-above" 248 504 basechar 0
 LayerCount: 2
 Fore
 Refer: 295 64422 N 1 0 0 1 0 0 2
@@ -6332,7 +6345,6 @@ Substitution2: "Isolated forms-1" uniFBA6
 Substitution2: "Final forms-1" uniFBA7
 Substitution2: "Medial forms-1" uniFBA9
 Substitution2: "Initial forms-1" uniFBA8
-Colour: ffff00
 EndChar
 
 StartChar: uni06BE
