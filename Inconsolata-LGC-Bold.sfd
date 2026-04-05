@@ -5,7 +5,7 @@ FamilyName: Inconsolata LGC
 Weight: Bold
 Copyright: Original Roman version created by Raph Levien using his own tools and FontForge. Copyright 2006 Raph Levien. Hellenisation of the Roman font, by Dimosthenis Kaponis, using FontForge. Hellenic glyphs Copyright 2010-2012 Dimosthenis Kaponis. Released under the SIL Open Font License, http://scripts.sil.org/OFL.\n\nCyrillic glyphs added by MihailJP, using FontForge. Cyrillic glyphs Copyright 2012 MihailJP. Released under the SIL Open Font License, http://scripts.sil.org/OFL.\n\nEmboldened by MihailJP.\n\nSome glyphs modified by Greg Omelaenko, using FontForge.
 UComments: "2005-8-26: Created."
-Version: 2.001
+Version: 2.002
 ItalicAngle: 0
 UnderlinePosition: -101
 UnderlineWidth: 50
@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1161020814
-ModificationTime: 1772285865
+ModificationTime: 1775373178
 PfmFamily: 49
 TTFWeight: 700
 TTFWidth: 5
@@ -113,6 +113,10 @@ Encoding: UnicodeFull
 Compacted: 1
 UnicodeInterp: none
 NameList: Adobe Glyph List
+DisplaySize: -48
+AntiAlias: 1
+FitToEm: 0
+WinInfo: 0 32 8
 BeginPrivate: 6
 BlueValues 31 [-14 0 542 555 739 748 767 796]
 OtherBlues 11 [-206 -198]
@@ -141,7 +145,7 @@ Grid
  416.256 939.008 l 1049
 EndSplineSet
 TeXData: 1 0 0 629145 314572 209715 554697 1048576 209715 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 1114491 3132
+BeginChars: 1114498 3139
 
 StartChar: a
 Encoding: 97 97 0
@@ -61147,6 +61151,124 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 99 191 S 1 0 0 1 0 190 2
+EndChar
+
+StartChar: IJacute
+Encoding: 1114491 -1 3132
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+Refer: 194 -1 N 1 0 0 1 192 141 2
+Refer: 194 -1 N 1 0 0 1 -134 141 2
+Refer: 515 306 N 1 0 0 1 0 0 2
+Decomposition: "+ATIDAQAA"
+EndChar
+
+StartChar: ij.dotless
+Encoding: 1114492 -1 3133
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+15 0 m 1
+ 15 99 l 1
+ 144 99 l 1
+ 144 442 l 1
+ 23 442 l 1
+ 23 543 l 1
+ 549 543 l 1
+ 549 47 l 2
+ 549 2 548 -43 523 -90 c 0
+ 483 -168 401 -207 319 -207 c 0
+ 249 -207 169 -170 134 -116 c 1
+ 206 -20 l 1
+ 232 -40 222 -42 232 -56 c 0
+ 235 -60 267 -102 325 -102 c 0
+ 365 -102 402 -81 420 -43 c 0
+ 432 -19 432 5 432 32 c 2
+ 432 441 l 1
+ 261 441 l 1
+ 261 99 l 1
+ 364 99 l 1
+ 364 0 l 1
+ 15 0 l 1
+EndSplineSet
+EndChar
+
+StartChar: ijacute
+Encoding: 1114493 -1 3134
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+Refer: 107 180 N 1 0 0 1 177 0 2
+Refer: 107 180 N 1 0 0 1 -109 0 2
+Refer: 3133 -1 N 1 0 0 1 0 0 2
+Decomposition: "+ATMDAQAA"
+EndChar
+
+StartChar: iogonek.dotless
+Encoding: 1114494 -1 3135
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+Refer: 214 731 S 1 0 0 1 -143 0 2
+Refer: 136 305 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: ibar.dotless
+Encoding: 1114495 -1 3136
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+121 543 m 1
+ 369 543 l 1
+ 369 343 l 1
+ 489 343 l 1
+ 489 246 l 1
+ 369 246 l 1
+ 369 99 l 1
+ 496 99 l 1
+ 496 0 l 1
+ 114 0 l 1
+ 114 99 l 1
+ 252 99 l 1
+ 252 246 l 1
+ 121 246 l 1
+ 121 343 l 1
+ 252 343 l 1
+ 252 442 l 1
+ 121 442 l 1
+ 121 543 l 1
+EndSplineSet
+EndChar
+
+StartChar: itildebelow.dotless
+Encoding: 1114496 -1 3137
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 136 305 N 1 0 0 1 0 0 2
+Refer: 1424 759 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: idotbelow.dotless
+Encoding: 1114497 -1 3138
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 136 305 N 1 0 0 1 0 0 2
+Refer: 1310 -1 S 1 0 0 1 0 0 2
 EndChar
 EndChars
 EndSplineFont
