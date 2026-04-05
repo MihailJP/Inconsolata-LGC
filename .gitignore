@@ -28,6 +28,11 @@ InconsolataLGC-OT/
 InconsolataLGC-WOFF2/
 InconsolataLGC-TTC/
 InconsolataLGC-Variable/
+InconsolataEX/
+InconsolataEX-Hinted/
+InconsolataEX-OT/
+InconsolataEX-WOFF2/
+InconsolataEX-Variable/
 *.tar.xz
 *.tar.gz
 *.tar.bz2
