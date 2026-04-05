@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1161020814
-ModificationTime: 1775318889
+ModificationTime: 1775360377
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 5
@@ -83,8 +83,8 @@ PUSHB_1
 SCANTYPE
 EndTTInstrs
 LangName: 1033
-OtfFeatName: 'ss02' 1033 "Polytonic Greek alternative circumflex"
 OtfFeatName: 'ss01' 1033 "German alternative umlaut"
+OtfFeatName: 'ss02' 1033 "Polytonic Greek alternative circumflex"
 Encoding: UnicodeBmp
 Compacted: 1
 UnicodeInterp: none
@@ -6230,22 +6230,22 @@ StartChar: uniFBAF
 Encoding: 64431 64431 304
 Width: 613
 Flags: W
-AnchorPoint: "rtl-below" 200 -200 basechar 0
+AnchorPoint: "rtl-below" 200 -282 basechar 0
 AnchorPoint: "rtl-above" 203 321 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-11 2 m 0
- 11 37 38 89 104 89 c 2
+11 -84 m 3
+ 11 63.0544116985 159.744 89 279 89 c 2
  624 89 l 1
  624 0 l 1
- 104 0 l 2
- 101 0 97 0 97 -1 c 1
- 102 -24 139 -46 194 -46 c 2
- 613 -46 l 1
- 613 -128 l 1
- 194 -128 l 2
- 90 -128 11 -62 11 2 c 0
+ 300 0 l 2
+ 208 0 97 -13.9767473296 97 -100 c 3
+ 97 -138.118237105 139 -172 194 -172 c 2
+ 613 -172 l 1
+ 613 -250 l 1
+ 194 -250 l 2
+ 72.0244 -250 11 -172.005681635 11 -84 c 3
 EndSplineSet
 Colour: ffff
 EndChar
