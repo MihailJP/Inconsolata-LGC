@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1161020814
-ModificationTime: 1775367289
+ModificationTime: 1775370932
 PfmFamily: 49
 TTFWeight: 700
 TTFWidth: 5
@@ -122,7 +122,7 @@ Grid
 EndSplineSet
 TeXData: 1 0 0 629145 314572 209715 554697 1048576 209715 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "rtl-above-mark" "Arabic above-base mark-to-mark positioning" "rtl-below-mark" "Arabic below-base mark-to-mark positioning" "rtl-above" "Arabic above-base mark positioning" "Ligature rtl-above" "Arabic above-base mark-to-ligature positioning" "rtl-below" "Arabic below-base mark positioning" "Ligature rtl-below" "Arabic below-base mark-to-ligature positioning"
-BeginChars: 65571 316
+BeginChars: 65573 326
 
 StartChar: comma
 Encoding: 44 44 0
@@ -5987,6 +5987,8 @@ StartChar: uniFBA7
 Encoding: 64423 64423 296
 Width: 613
 Flags: W
+AnchorPoint: "rtl-below" 256 -54 basechar 0
+AnchorPoint: "rtl-above" 248 500 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -6008,6 +6010,7 @@ SplineSet
  161 149 148 62 143 -131 c 1
  31 -112 l 1
 EndSplineSet
+Colour: ffff
 EndChar
 
 StartChar: uniFBA8
@@ -6026,6 +6029,8 @@ StartChar: uniFBA9
 Encoding: 64425 64425 298
 Width: 613
 Flags: W
+AnchorPoint: "rtl-below" 235 -279 basechar 0
+AnchorPoint: "rtl-above" 228 437 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -6046,6 +6051,7 @@ SplineSet
  179 -206 174 -140 174 -88 c 0
  174 -44 177 0 184 43 c 1
 EndSplineSet
+Colour: ffff
 EndChar
 
 StartChar: uniFBAA
@@ -6506,6 +6512,130 @@ SplineSet
  264 219 243 160 219 101 c 1
 EndSplineSet
 Colour: ffff
+EndChar
+
+StartChar: uniFBA4
+Encoding: 64420 64420 316
+Width: 613
+Flags: W
+AnchorPoint: "rtl-above" 218 731 basechar 0
+AnchorPoint: "rtl-below" 281 -82 basechar 0
+LayerCount: 2
+Fore
+Refer: 151 -1 N 1 0 0 1 -73 -159 2
+Refer: 188 1607 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: uniFBA5
+Encoding: 64421 64421 317
+Width: 613
+Flags: W
+AnchorPoint: "rtl-above" 248 764 basechar 0
+AnchorPoint: "rtl-below" 279 -52 basechar 0
+LayerCount: 2
+Fore
+Refer: 151 -1 N 1 0 0 1 -43 -126 2
+Refer: 109 65258 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: uni06C2
+Encoding: 1730 1730 318
+Width: 613
+Flags: W
+AnchorPoint: "rtl-above" 218 731 basechar 0
+AnchorPoint: "rtl-below" 281 -82 basechar 0
+LayerCount: 2
+Fore
+Refer: 151 -1 N 1 0 0 1 -73 -159 2
+Refer: 188 1607 N 1 0 0 1 0 0 2
+Substitution2: "Final forms-1" uni06C2.fina
+EndChar
+
+StartChar: uni06C2.fina
+Encoding: 65571 -1 319
+Width: 613
+Flags: W
+AnchorPoint: "rtl-above" 248 764 basechar 0
+AnchorPoint: "rtl-below" 256 -54 basechar 0
+LayerCount: 2
+Fore
+Refer: 151 -1 N 1 0 0 1 -43 -126 2
+Refer: 296 64423 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: uni06C3
+Encoding: 1731 1731 320
+Width: 613
+Flags: W
+AnchorPoint: "rtl-above" 258 616 basechar 0
+AnchorPoint: "rtl-below" 281 -82 basechar 0
+LayerCount: 2
+Fore
+Refer: 154 -1 N 1 0 0 1 154 450 2
+Refer: 188 1607 N 1 0 0 1 0 0 2
+Substitution2: "Final forms-1" uni06C3.fina
+EndChar
+
+StartChar: uni06C3.fina
+Encoding: 65572 -1 321
+Width: 613
+Flags: W
+AnchorPoint: "rtl-below" 279 -52 basechar 0
+AnchorPoint: "rtl-above" 275 656 basechar 0
+LayerCount: 2
+Fore
+Refer: 154 -1 N 1 0 0 1 184 483 2
+Refer: 296 64423 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: uniFBB0
+Encoding: 64432 64432 322
+Width: 613
+Flags: W
+AnchorPoint: "rtl-below" 275 -200 basechar 0
+AnchorPoint: "rtl-above" 110 642 basechar 0
+LayerCount: 2
+Fore
+Refer: 151 -1 N 1 0 0 1 -180 -246 2
+Refer: 303 64430 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: uniFBB1
+Encoding: 64433 64433 323
+Width: 613
+Flags: W
+AnchorPoint: "rtl-below" 208 -282 basechar 0
+AnchorPoint: "rtl-above" 127 517 basechar 0
+LayerCount: 2
+Fore
+Refer: 151 -1 N 1 0 0 1 -144 -396 2
+Refer: 304 64431 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: uni06C0
+Encoding: 1728 1728 324
+Width: 613
+Flags: W
+AnchorPoint: "rtl-below" 281 -82 basechar 0
+AnchorPoint: "rtl-above" 218 731 basechar 0
+LayerCount: 2
+Fore
+Refer: 316 64420 N 1 0 0 1 0 0 2
+Substitution2: "Isolated forms-1" uniFBA4
+Substitution2: "Final forms-1" uniFBA5
+EndChar
+
+StartChar: uni06D3
+Encoding: 1747 1747 325
+Width: 613
+Flags: W
+AnchorPoint: "rtl-above" 110 642 basechar 0
+AnchorPoint: "rtl-below" 275 -200 basechar 0
+LayerCount: 2
+Fore
+Refer: 322 64432 N 1 0 0 1 0 0 2
+Substitution2: "Isolated forms-1" uniFBB0
+Substitution2: "Final forms-1" uniFBB1
 EndChar
 EndChars
 EndSplineFont
