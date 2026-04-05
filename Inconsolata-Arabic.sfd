@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1161020814
-ModificationTime: 1775364741
+ModificationTime: 1775367297
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 5
@@ -83,8 +83,8 @@ PUSHB_1
 SCANTYPE
 EndTTInstrs
 LangName: 1033
-OtfFeatName: 'ss02' 1033 "Polytonic Greek alternative circumflex"
 OtfFeatName: 'ss01' 1033 "German alternative umlaut"
+OtfFeatName: 'ss02' 1033 "Polytonic Greek alternative circumflex"
 Encoding: UnicodeBmp
 Compacted: 1
 UnicodeInterp: none
@@ -6421,8 +6421,32 @@ Width: 613
 Flags: W
 LayerCount: 2
 Fore
-Refer: 276 1780 N 1 0 0 1 0 0 2
-Colour: ffff00
+SplineSet
+542 555 m 1
+ 525 563 472 580 448 580 c 0
+ 441 580 417 581 410 563 c 0
+ 404 550 402 537 402 516 c 0
+ 402 464 408 441 413 386 c 1
+ 320 378 l 1
+ 310 461 l 0
+ 310 467 309 481 299 504 c 0
+ 283 541 264 588 223 588 c 3
+ 162 588 149 570 149 534 c 0
+ 149 514 155 503 169 465 c 0
+ 183 415 197 359 206 318 c 0
+ 217 269 222 163 222 0 c 1
+ 140 0 l 1
+ 140 143 134 249 121 318 c 0
+ 109 388 95 432 78 477 c 0
+ 70 499 65 520 65 538 c 0
+ 65 617 109 656 223 656 c 0
+ 250 656 290 647 330 609 c 1
+ 354 644 411 656 448 656 c 0
+ 462 656 485 654 525 640 c 0
+ 552 631 572 622 573 621 c 1
+ 542 555 l 1
+EndSplineSet
+Colour: ffff
 EndChar
 
 StartChar: sixpersian.urdu
@@ -6431,8 +6455,7 @@ Width: 613
 Flags: W
 LayerCount: 2
 Fore
-Refer: 278 1782 N 1 0 0 1 0 0 2
-Colour: ffff00
+Refer: 237 1638 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: sevenpersian.urdu
@@ -6441,8 +6464,19 @@ Width: 613
 Flags: W
 LayerCount: 2
 Fore
-Refer: 279 1783 N 1 0 0 1 0 0 2
-Colour: ffff00
+SplineSet
+196 89 m 1
+ 548 89 l 1
+ 548 0 l 1
+ 154 0 l 1
+ 99 66 l 1
+ 122 121 152 190 207 366 c 0
+ 241 475 260 567 264 642 c 1
+ 348 642 l 1
+ 347 569 322 466 281 323 c 0
+ 259 244 230 166 196 89 c 1
+EndSplineSet
+Colour: ffff
 EndChar
 EndChars
 EndSplineFont
