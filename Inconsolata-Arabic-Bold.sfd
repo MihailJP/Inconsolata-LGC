@@ -471,7 +471,7 @@ AnchorPoint: "rtl-below" 281 -82 basechar 0
 LayerCount: 2
 Fore
 Refer: 154 -1 N 1 0 0 1 154 450 2
-Refer: 188 1607 N 1 0 0 1 0 0 2
+Refer: 108 65257 N 1 0 0 1 0 0 2
 Colour: ffff
 EndChar
 
@@ -6583,7 +6583,7 @@ AnchorPoint: "rtl-below" 281 -82 basechar 0
 LayerCount: 2
 Fore
 Refer: 151 -1 N 1 0 0 1 -73 -159 2
-Refer: 188 1607 N 1 0 0 1 0 0 2
+Refer: 108 65257 N 1 0 0 1 0 0 2
 Colour: ffff
 EndChar
 
@@ -6609,7 +6609,7 @@ AnchorPoint: "rtl-below" 281 -82 basechar 0
 LayerCount: 2
 Fore
 Refer: 151 -1 N 1 0 0 1 -73 -159 2
-Refer: 188 1607 N 1 0 0 1 0 0 2
+Refer: 108 65257 N 1 0 0 1 0 0 2
 Substitution2: "Final forms-1" uni06C2.fina
 Colour: ffff
 EndChar
@@ -6636,7 +6636,7 @@ AnchorPoint: "rtl-below" 281 -82 basechar 0
 LayerCount: 2
 Fore
 Refer: 154 -1 N 1 0 0 1 154 450 2
-Refer: 188 1607 N 1 0 0 1 0 0 2
+Refer: 108 65257 N 1 0 0 1 0 0 2
 Substitution2: "Final forms-1" uni06C3.fina
 Colour: ffff
 EndChar

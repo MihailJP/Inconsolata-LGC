@@ -83,8 +83,8 @@ PUSHB_1
 SCANTYPE
 EndTTInstrs
 LangName: 1033
-OtfFeatName: 'ss01' 1033 "German alternative umlaut"
 OtfFeatName: 'ss02' 1033 "Polytonic Greek alternative circumflex"
+OtfFeatName: 'ss01' 1033 "German alternative umlaut"
 Encoding: UnicodeBmp
 Compacted: 1
 UnicodeInterp: none
@@ -477,7 +477,7 @@ AnchorPoint: "rtl-below" 277 -79 basechar 0
 LayerCount: 2
 Fore
 Refer: 154 -1 N 1 0 0 1 191 450 2
-Refer: 188 1607 N 1 0 0 1 0 0 2
+Refer: 108 65257 N 1 0 0 1 0 0 2
 Colour: ffff
 EndChar
 
@@ -6486,10 +6486,10 @@ AnchorPoint: "rtl-above" 248 504 basechar 0
 LayerCount: 2
 Fore
 Refer: 295 64422 N 1 0 0 1 0 0 2
-Substitution2: "Isolated forms-1" uniFBA6
-Substitution2: "Final forms-1" uniFBA7
-Substitution2: "Medial forms-1" uniFBA9
 Substitution2: "Initial forms-1" uniFBA8
+Substitution2: "Medial forms-1" uniFBA9
+Substitution2: "Final forms-1" uniFBA7
+Substitution2: "Isolated forms-1" uniFBA6
 Colour: ffff
 EndChar
 
@@ -6648,7 +6648,7 @@ AnchorPoint: "rtl-below" 277 -79 basechar 0
 LayerCount: 2
 Fore
 Refer: 154 -1 N 1 0 0 1 191 450 2
-Refer: 188 1607 N 1 0 0 1 0 0 2
+Refer: 108 65257 N 1 0 0 1 0 0 2
 Substitution2: "Final forms-1" uni06C3.fina
 Colour: ffff
 EndChar
@@ -6701,6 +6701,7 @@ AnchorPoint: "rtl-below" 280 -114 basechar 0
 LayerCount: 2
 Fore
 Refer: 316 64420 N 1 0 0 1 0 0 2
+Substitution2: "Isolated forms-1" uniFBA4
 Substitution2: "Final forms-1" uniFBA5
 Colour: ffff
 EndChar
@@ -6714,6 +6715,7 @@ AnchorPoint: "rtl-above" 150 591 basechar 0
 LayerCount: 2
 Fore
 Refer: 322 64432 N 1 0 0 1 0 0 2
+Substitution2: "Isolated forms-1" uniFBB0
 Substitution2: "Final forms-1" uniFBB1
 Colour: ffff
 EndChar
