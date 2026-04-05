@@ -83,8 +83,8 @@ PUSHB_1
 SCANTYPE
 EndTTInstrs
 LangName: 1033
-OtfFeatName: 'ss02' 1033 "Polytonic Greek alternative circumflex"
 OtfFeatName: 'ss01' 1033 "German alternative umlaut"
+OtfFeatName: 'ss02' 1033 "Polytonic Greek alternative circumflex"
 Encoding: UnicodeBmp
 Compacted: 1
 UnicodeInterp: none
@@ -228,7 +228,6 @@ SplineSet
  521 157 453.172746433 125.560810299 385 99 c 0
  308 69 253 52 221 47 c 1
 EndSplineSet
-Colour: ffff
 EndChar
 
 StartChar: uniFE81
@@ -239,6 +238,7 @@ LayerCount: 2
 Fore
 Refer: 162 1575 N 1 0 0 1 0 0 2
 Refer: 150 -1 N 1 0 0 1 -2 224 2
+Colour: ffff
 EndChar
 
 StartChar: uniFE82
@@ -249,6 +249,7 @@ LayerCount: 2
 Fore
 Refer: 150 -1 N 1 0 0 1 -2 225 2
 Refer: 17 65166 N 1 0 0 1 0 0 2
+Colour: ffff
 EndChar
 
 StartChar: uniFE83
@@ -260,6 +261,7 @@ LayerCount: 2
 Fore
 Refer: 162 1575 N 1 0 0 1 0 0 2
 Refer: 151 -1 N 1 0 0 1 -2 190 2
+Colour: ffff
 EndChar
 
 StartChar: uniFE84
@@ -271,6 +273,7 @@ LayerCount: 2
 Fore
 Refer: 151 -1 N 1 0 0 1 18 225 2
 Refer: 17 65166 N 1 0 0 1 0 0 2
+Colour: ffff
 EndChar
 
 StartChar: uniFE85
@@ -282,6 +285,7 @@ LayerCount: 2
 Fore
 Refer: 189 1608 N 1 0 0 1 0 0 2
 Refer: 151 -1 N 1 0 0 1 48 -230 2
+Colour: ffff
 EndChar
 
 StartChar: uniFE86
@@ -293,6 +297,7 @@ LayerCount: 2
 Fore
 Refer: 151 -1 N 1 0 0 1 27 -228 2
 Refer: 113 65262 N 1 0 0 1 0 0 2
+Colour: ffff
 EndChar
 
 StartChar: uniFE87
@@ -304,6 +309,7 @@ LayerCount: 2
 Fore
 Refer: 162 1575 N 1 0 0 1 0 0 2
 Refer: 152 -1 N 1 0 0 1 -2 5 2
+Colour: ffff
 EndChar
 
 StartChar: uniFE88
@@ -315,6 +321,7 @@ LayerCount: 2
 Fore
 Refer: 152 -1 N 1 0 0 1 47 0 2
 Refer: 17 65166 N 1 0 0 1 0 0 2
+Colour: ffff
 EndChar
 
 StartChar: uniFE89
@@ -326,6 +333,7 @@ LayerCount: 2
 Fore
 Refer: 190 1609 N 1 0 0 1 0 0 2
 Refer: 151 -1 N 1 0 0 1 -65 -278 2
+Colour: ffff
 EndChar
 
 StartChar: uniFE8A
@@ -337,6 +345,7 @@ LayerCount: 2
 Fore
 Refer: 151 -1 N 1 0 0 1 -144 -396 2
 Refer: 115 65264 N 1 0 0 1 0 0 2
+Colour: ffff
 EndChar
 
 StartChar: uniFE8B
@@ -349,6 +358,7 @@ LayerCount: 2
 Fore
 Refer: 151 -1 N 1 0 0 1 -11 -200 2
 Refer: 130 64488 N 1 0 0 1 0 0 2
+Colour: ffff
 EndChar
 
 StartChar: uniFE8C
@@ -361,6 +371,7 @@ LayerCount: 2
 Fore
 Refer: 151 -1 N 1 0 0 1 0 -200 2
 Refer: 131 64489 N 1 0 0 1 0 0 2
+Colour: ffff
 EndChar
 
 StartChar: uniFE8D
@@ -380,7 +391,6 @@ SplineSet
  355 776 355 775 355 773 c 0
  355 764 348 764 348 752 c 2
 EndSplineSet
-Colour: ffff
 EndChar
 
 StartChar: uniFE8E
@@ -404,7 +414,6 @@ SplineSet
  418 0 367 15 340 46 c 0
  311 80 296 126 296 183 c 2
 EndSplineSet
-Colour: ffff
 EndChar
 
 StartChar: uniFE8F
@@ -417,6 +426,7 @@ LayerCount: 2
 Fore
 Refer: 153 -1 N 1 0 0 1 282 -153 2
 Refer: 128 -1 N 1 0 0 1 0 0 2
+Colour: ffff
 EndChar
 
 StartChar: uniFE90
@@ -429,6 +439,7 @@ LayerCount: 2
 Fore
 Refer: 153 -1 N 1 0 0 1 232 -175 2
 Refer: 129 -1 N 1 0 0 1 0 0 2
+Colour: ffff
 EndChar
 
 StartChar: uniFE91
@@ -441,6 +452,7 @@ LayerCount: 2
 Fore
 Refer: 130 64488 N 1 0 0 1 0 0 2
 Refer: 153 -1 N 1 0 0 1 254 -144 2
+Colour: ffff
 EndChar
 
 StartChar: uniFE92
@@ -453,6 +465,7 @@ LayerCount: 2
 Fore
 Refer: 131 64489 N 1 0 0 1 0 0 2
 Refer: 153 -1 N 1 0 0 1 268 -142 2
+Colour: ffff
 EndChar
 
 StartChar: uniFE93
@@ -465,6 +478,7 @@ LayerCount: 2
 Fore
 Refer: 154 -1 N 1 0 0 1 191 450 2
 Refer: 188 1607 N 1 0 0 1 0 0 2
+Colour: ffff
 EndChar
 
 StartChar: uniFE94
@@ -477,6 +491,7 @@ LayerCount: 2
 Fore
 Refer: 154 -1 N 1 0 0 1 239 439 2
 Refer: 109 65258 N 1 0 0 1 0 0 2
+Colour: ffff
 EndChar
 
 StartChar: uniFE95
@@ -489,6 +504,7 @@ LayerCount: 2
 Fore
 Refer: 154 -1 N 1 0 0 1 229 325 2
 Refer: 128 -1 N 1 0 0 1 0 0 2
+Colour: ffff
 EndChar
 
 StartChar: uniFE96
@@ -501,6 +517,7 @@ LayerCount: 2
 Fore
 Refer: 154 -1 N 1 0 0 1 212 325 2
 Refer: 129 -1 N 1 0 0 1 0 0 2
+Colour: ffff
 EndChar
 
 StartChar: uniFE97
@@ -513,6 +530,7 @@ LayerCount: 2
 Fore
 Refer: 154 -1 N 1 0 0 1 209 425 2
 Refer: 130 64488 N 1 0 0 1 0 0 2
+Colour: ffff
 EndChar
 
 StartChar: uniFE98
@@ -525,6 +543,7 @@ LayerCount: 2
 Fore
 Refer: 154 -1 N 1 0 0 1 208 425 2
 Refer: 131 64489 N 1 0 0 1 0 0 2
+Colour: ffff
 EndChar
 
 StartChar: uniFE99
@@ -537,6 +556,7 @@ LayerCount: 2
 Fore
 Refer: 155 -1 N 1 0 0 1 218 325 2
 Refer: 128 -1 N 1 0 0 1 0 0 2
+Colour: ffff
 EndChar
 
 StartChar: uniFE9A
@@ -549,6 +569,7 @@ LayerCount: 2
 Fore
 Refer: 155 -1 N 1 0 0 1 221 325 2
 Refer: 129 -1 N 1 0 0 1 0 0 2
+Colour: ffff
 EndChar
 
 StartChar: uniFE9B
@@ -561,6 +582,7 @@ LayerCount: 2
 Fore
 Refer: 130 64488 N 1 0 0 1 0 0 2
 Refer: 155 -1 N 1 0 0 1 214 425 2
+Colour: ffff
 EndChar
 
 StartChar: uniFE9C
@@ -573,6 +595,7 @@ LayerCount: 2
 Fore
 Refer: 131 64489 N 1 0 0 1 0 0 2
 Refer: 155 -1 N 1 0 0 1 214 406 2
+Colour: ffff
 EndChar
 
 StartChar: uniFE9D
@@ -585,6 +608,7 @@ LayerCount: 2
 Fore
 Refer: 153 -1 N 1 0 0 1 330 6 2
 Refer: 168 1581 N 1 0 0 1 0 0 2
+Colour: ffff
 EndChar
 
 StartChar: uniFE9E
@@ -597,6 +621,7 @@ LayerCount: 2
 Fore
 Refer: 153 -1 N 1 0 0 1 315 -25 2
 Refer: 37 65186 N 1 0 0 1 0 0 2
+Colour: ffff
 EndChar
 
 StartChar: uniFE9F
@@ -609,6 +634,7 @@ LayerCount: 2
 Fore
 Refer: 153 -1 N 1 0 0 1 260 -150 2
 Refer: 38 65187 N 1 0 0 1 0 0 2
+Colour: ffff
 EndChar
 
 StartChar: uniFEA0
@@ -621,6 +647,7 @@ LayerCount: 2
 Fore
 Refer: 153 -1 N 1 0 0 1 260 -150 2
 Refer: 39 65188 N 1 0 0 1 0 0 2
+Colour: ffff
 EndChar
 
 StartChar: uniFEA1
@@ -653,7 +680,6 @@ SplineSet
  262 354 214 351 157 342 c 0
  112 335 97 331 78 325 c 0
 EndSplineSet
-Colour: ffff
 EndChar
 
 StartChar: uniFEA2
@@ -696,7 +722,6 @@ SplineSet
  486 223 508 181 530 150 c 0
  559 110 587 89 614 89 c 2
 EndSplineSet
-Colour: ffff
 EndChar
 
 StartChar: uniFEA3
@@ -730,7 +755,6 @@ SplineSet
  253 143 289 173 329 210 c 0
  363 240 395 260 425 270 c 1
 EndSplineSet
-Colour: ffff
 EndChar
 
 StartChar: uniFEA4
@@ -771,7 +795,6 @@ SplineSet
  545 0 499 28 458 84 c 0
  446 102 429 128 408 163 c 1
 EndSplineSet
-Colour: ffff
 EndChar
 
 StartChar: uniFEA5
@@ -784,6 +807,7 @@ LayerCount: 2
 Fore
 Refer: 153 -1 N 1 0 0 1 229 525 2
 Refer: 168 1581 N 1 0 0 1 0 0 2
+Colour: ffff
 EndChar
 
 StartChar: uniFEA6
@@ -796,6 +820,7 @@ LayerCount: 2
 Fore
 Refer: 153 -1 N 1 0 0 1 236 525 2
 Refer: 37 65186 N 1 0 0 1 0 0 2
+Colour: ffff
 EndChar
 
 StartChar: uniFEA7
@@ -808,6 +833,7 @@ LayerCount: 2
 Fore
 Refer: 153 -1 N 1 0 0 1 270 470 2
 Refer: 38 65187 N 1 0 0 1 0 0 2
+Colour: ffff
 EndChar
 
 StartChar: uniFEA8
@@ -820,6 +846,7 @@ LayerCount: 2
 Fore
 Refer: 153 -1 N 1 0 0 1 262 475 2
 Refer: 39 65188 N 1 0 0 1 0 0 2
+Colour: ffff
 EndChar
 
 StartChar: uniFEA9
@@ -849,7 +876,6 @@ SplineSet
  153 74 194 66 238 66 c 0
  265 67 285 69 296 72 c 0
 EndSplineSet
-Colour: ffff
 EndChar
 
 StartChar: uniFEAA
@@ -882,7 +908,6 @@ SplineSet
  381 419 426 357 450 314 c 0
  477 265 490 221 490 184 c 0
 EndSplineSet
-Colour: ffff
 EndChar
 
 StartChar: uniFEAB
@@ -895,6 +920,7 @@ LayerCount: 2
 Fore
 Refer: 153 -1 N 1 0 0 1 270 533 2
 Refer: 170 1583 N 1 0 0 1 0 0 2
+Colour: ffff
 EndChar
 
 StartChar: uniFEAC
@@ -907,6 +933,7 @@ LayerCount: 2
 Fore
 Refer: 153 -1 N 1 0 0 1 264 519 2
 Refer: 45 65194 N 1 0 0 1 0 0 2
+Colour: ffff
 EndChar
 
 StartChar: uniFEAD
@@ -932,7 +959,6 @@ SplineSet
  120 -164 231 -143 304 -100 c 0
  390 -51 439 7 450 77 c 0
 EndSplineSet
-Colour: ffff
 EndChar
 
 StartChar: uniFEAE
@@ -961,7 +987,6 @@ SplineSet
  400 98 403 120 403 144 c 0
  403 186 397 214 382 259 c 1
 EndSplineSet
-Colour: ffff
 EndChar
 
 StartChar: uniFEAF
@@ -974,6 +999,7 @@ LayerCount: 2
 Fore
 Refer: 153 -1 N 1 0 0 1 426 403 2
 Refer: 172 1585 N 1 0 0 1 0 0 2
+Colour: ffff
 EndChar
 
 StartChar: uniFEB0
@@ -986,6 +1012,7 @@ LayerCount: 2
 Fore
 Refer: 153 -1 N 1 0 0 1 378 400 2
 Refer: 49 65198 N 1 0 0 1 0 0 2
+Colour: ffff
 EndChar
 
 StartChar: uniFEB1
@@ -1038,7 +1065,6 @@ SplineSet
  224 -10 207 3 190 32 c 1
 EndSplineSet
 Substitution2: "Forms before tail fragment-1" uniFEB1.alt
-Colour: ffff
 EndChar
 
 StartChar: uniFEB2
@@ -1094,7 +1120,6 @@ SplineSet
  447 -14 430 -14 404 -14 c 24
 EndSplineSet
 Substitution2: "Forms before tail fragment-1" uniFEB2.alt
-Colour: ffff
 EndChar
 
 StartChar: uniFEB3
@@ -1140,7 +1165,6 @@ SplineSet
  177 195 182 165 191 131 c 0
  198 103 212 89 236 89 c 0
 EndSplineSet
-Colour: ffff
 EndChar
 
 StartChar: uniFEB4
@@ -1189,7 +1213,6 @@ SplineSet
  270 184 277 234 277 297 c 1
  354 297 l 1
 EndSplineSet
-Colour: ffff
 EndChar
 
 StartChar: uniFEB5
@@ -1203,6 +1226,7 @@ Fore
 Refer: 155 -1 N 1 0 0 1 185 400 2
 Refer: 174 1587 N 1 0 0 1 0 0 2
 Substitution2: "Forms before tail fragment-1" uniFEB5.alt
+Colour: ffff
 EndChar
 
 StartChar: uniFEB6
@@ -1216,6 +1240,7 @@ Fore
 Refer: 155 -1 N 1 0 0 1 118 400 2
 Refer: 53 65202 N 1 0 0 1 0 0 2
 Substitution2: "Forms before tail fragment-1" uniFEB6.alt
+Colour: ffff
 EndChar
 
 StartChar: uniFEB7
@@ -1228,6 +1253,7 @@ LayerCount: 2
 Fore
 Refer: 155 -1 N 1 0 0 1 212 400 2
 Refer: 54 65203 N 1 0 0 1 0 0 2
+Colour: ffff
 EndChar
 
 StartChar: uniFEB8
@@ -1240,6 +1266,7 @@ LayerCount: 2
 Fore
 Refer: 155 -1 N 1 0 0 1 180 400 2
 Refer: 55 65204 N 1 0 0 1 0 0 2
+Colour: ffff
 EndChar
 
 StartChar: uniFEB9
@@ -1288,7 +1315,6 @@ SplineSet
  200 172 209 157 223 140 c 1
 EndSplineSet
 Substitution2: "Forms before tail fragment-1" uniFEB9.alt
-Colour: ffff
 EndChar
 
 StartChar: uniFEBA
@@ -1344,7 +1370,6 @@ SplineSet
  553 262 566 230 566 190 c 0
 EndSplineSet
 Substitution2: "Forms before tail fragment-1" uniFEBA.alt
-Colour: ffff
 EndChar
 
 StartChar: uniFEBB
@@ -1385,7 +1410,6 @@ SplineSet
  467 14 426 0 388 0 c 2
  279 0 l 2
 EndSplineSet
-Colour: ffff
 EndChar
 
 StartChar: uniFEBC
@@ -1433,7 +1457,6 @@ SplineSet
  440 22 388 0 347 0 c 2
  238 0 l 2
 EndSplineSet
-Colour: ffff
 EndChar
 
 StartChar: uniFEBD
@@ -1447,6 +1470,7 @@ Fore
 Refer: 153 -1 N 1 0 0 1 176 348 2
 Refer: 176 1589 N 1 0 0 1 0 0 2
 Substitution2: "Forms before tail fragment-1" uniFEBD.alt
+Colour: ffff
 EndChar
 
 StartChar: uniFEBE
@@ -1460,6 +1484,7 @@ Fore
 Refer: 153 -1 N 1 0 0 1 130 335 2
 Refer: 61 65210 N 1 0 0 1 0 0 2
 Substitution2: "Forms before tail fragment-1" uniFEBE.alt
+Colour: ffff
 EndChar
 
 StartChar: uniFEBF
@@ -1472,6 +1497,7 @@ LayerCount: 2
 Fore
 Refer: 153 -1 N 1 0 0 1 176 368 2
 Refer: 62 65211 N 1 0 0 1 0 0 2
+Colour: ffff
 EndChar
 
 StartChar: uniFEC0
@@ -1484,6 +1510,7 @@ LayerCount: 2
 Fore
 Refer: 153 -1 N 1 0 0 1 160 361 2
 Refer: 63 65212 N 1 0 0 1 0 0 2
+Colour: ffff
 EndChar
 
 StartChar: uniFEC1
@@ -1520,7 +1547,6 @@ SplineSet
  409 246 380 227 344 189 c 0
  319 165 296 131 273 89 c 1
 EndSplineSet
-Colour: ffff
 EndChar
 
 StartChar: uniFEC2
@@ -1563,7 +1589,6 @@ SplineSet
  393 246 364 227 328 189 c 0
  303 165 280 131 257 89 c 1
 EndSplineSet
-Colour: ffff
 EndChar
 
 StartChar: uniFEC3
@@ -1600,7 +1625,6 @@ SplineSet
  409 246 380 227 344 189 c 0
  319 165 296 131 273 89 c 1
 EndSplineSet
-Colour: ffff
 EndChar
 
 StartChar: uniFEC4
@@ -1643,7 +1667,6 @@ SplineSet
  393 246 364 227 328 189 c 0
  303 165 280 131 257 89 c 1
 EndSplineSet
-Colour: ffff
 EndChar
 
 StartChar: uniFEC5
@@ -1656,6 +1679,7 @@ LayerCount: 2
 Fore
 Refer: 153 -1 N 1 0 0 1 295 391 2
 Refer: 178 1591 N 1 0 0 1 0 0 2
+Colour: ffff
 EndChar
 
 StartChar: uniFEC6
@@ -1668,6 +1692,7 @@ LayerCount: 2
 Fore
 Refer: 153 -1 N 1 0 0 1 290 380 2
 Refer: 69 65218 N 1 0 0 1 0 0 2
+Colour: ffff
 EndChar
 
 StartChar: uniFEC7
@@ -1680,6 +1705,7 @@ LayerCount: 2
 Fore
 Refer: 153 -1 N 1 0 0 1 285 380 2
 Refer: 70 65219 N 1 0 0 1 0 0 2
+Colour: ffff
 EndChar
 
 StartChar: uniFEC8
@@ -1692,6 +1718,7 @@ LayerCount: 2
 Fore
 Refer: 153 -1 N 1 0 0 1 290 381 2
 Refer: 71 65220 N 1 0 0 1 0 0 2
+Colour: ffff
 EndChar
 
 StartChar: uniFEC9
@@ -1730,7 +1757,6 @@ SplineSet
  183 109 146 55 146 -5 c 0
  146 -47 153 -76 166 -93 c 0
 EndSplineSet
-Colour: ffff
 EndChar
 
 StartChar: uniFECA
@@ -1776,7 +1802,6 @@ SplineSet
  325 285 318 292 302 296 c 0
  290 298 280 300 271 300 c 0
 EndSplineSet
-Colour: ffff
 EndChar
 
 StartChar: uniFECB
@@ -1810,7 +1835,6 @@ SplineSet
  -12 89 l 1
  28 89 l 2
 EndSplineSet
-Colour: ffff
 EndChar
 
 StartChar: uniFECC
@@ -1853,7 +1877,6 @@ SplineSet
  360 285 351 292 334 296 c 0
  324 298 315 300 306 300 c 0
 EndSplineSet
-Colour: ffff
 EndChar
 
 StartChar: uniFECD
@@ -1866,6 +1889,7 @@ LayerCount: 2
 Fore
 Refer: 153 -1 N 1 0 0 1 195 599 2
 Refer: 180 1593 N 1 0 0 1 0 0 2
+Colour: ffff
 EndChar
 
 StartChar: uniFECE
@@ -1878,6 +1902,7 @@ LayerCount: 2
 Fore
 Refer: 153 -1 N 1 0 0 1 238 475 2
 Refer: 77 65226 N 1 0 0 1 0 0 2
+Colour: ffff
 EndChar
 
 StartChar: uniFECF
@@ -1890,6 +1915,7 @@ LayerCount: 2
 Fore
 Refer: 153 -1 N 1 0 0 1 188 600 2
 Refer: 78 65227 N 1 0 0 1 0 0 2
+Colour: ffff
 EndChar
 
 StartChar: uniFED0
@@ -1902,6 +1928,7 @@ LayerCount: 2
 Fore
 Refer: 153 -1 N 1 0 0 1 272 475 2
 Refer: 79 65228 N 1 0 0 1 0 0 2
+Colour: ffff
 EndChar
 
 StartChar: uniFED1
@@ -1914,6 +1941,7 @@ LayerCount: 2
 Fore
 Refer: 153 -1 N 1 0 0 1 384 542 2
 Refer: 132 -1 N 1 0 0 1 0 0 2
+Colour: ffff
 EndChar
 
 StartChar: uniFED2
@@ -1926,6 +1954,7 @@ LayerCount: 2
 Fore
 Refer: 153 -1 N 1 0 0 1 381 474 2
 Refer: 133 -1 N 1 0 0 1 0 0 2
+Colour: ffff
 EndChar
 
 StartChar: uniFED3
@@ -1938,6 +1967,7 @@ LayerCount: 2
 Fore
 Refer: 153 -1 N 1 0 0 1 216 574 2
 Refer: 136 -1 N 1 0 0 1 0 0 2
+Colour: ffff
 EndChar
 
 StartChar: uniFED4
@@ -1950,6 +1980,7 @@ LayerCount: 2
 Fore
 Refer: 153 -1 N 1 0 0 1 277 500 2
 Refer: 137 -1 N 1 0 0 1 0 0 2
+Colour: ffff
 EndChar
 
 StartChar: uniFED5
@@ -1962,6 +1993,7 @@ LayerCount: 2
 Fore
 Refer: 154 -1 N 1 0 0 1 304 571 2
 Refer: 134 -1 N 1 0 0 1 0 0 2
+Colour: ffff
 EndChar
 
 StartChar: uniFED6
@@ -1974,6 +2006,7 @@ LayerCount: 2
 Fore
 Refer: 154 -1 N 1 0 0 1 303 436 2
 Refer: 135 -1 N 1 0 0 1 0 0 2
+Colour: ffff
 EndChar
 
 StartChar: uniFED7
@@ -1986,6 +2019,7 @@ LayerCount: 2
 Fore
 Refer: 136 -1 N 1 0 0 1 0 0 2
 Refer: 154 -1 N 1 0 0 1 157 575 2
+Colour: ffff
 EndChar
 
 StartChar: uniFED8
@@ -1998,6 +2032,7 @@ LayerCount: 2
 Fore
 Refer: 137 -1 N 1 0 0 1 0 0 2
 Refer: 154 -1 N 1 0 0 1 209 500 2
+Colour: ffff
 EndChar
 
 StartChar: uniFED9
@@ -2048,7 +2083,6 @@ SplineSet
  182 491 195 510 219 523 c 0
  247 538 279 546 316 547 c 1
 EndSplineSet
-Colour: ffff
 EndChar
 
 StartChar: uniFEDA
@@ -2102,7 +2136,6 @@ SplineSet
  440 778 l 1
  524 778 l 1
 EndSplineSet
-Colour: ffff
 EndChar
 
 StartChar: uniFEDB
@@ -2138,7 +2171,6 @@ SplineSet
  382 147 372 111 351 78 c 0
  320 26 269 0 199 0 c 2
 EndSplineSet
-Colour: ffff
 EndChar
 
 StartChar: uniFEDC
@@ -2181,7 +2213,6 @@ SplineSet
  369 102 363 90 357 80 c 0
  325 27 273 0 203 0 c 2
 EndSplineSet
-Colour: ffff
 EndChar
 
 StartChar: uniFEDD
@@ -2213,7 +2244,6 @@ SplineSet
  295 -67 325 -62 354 -52 c 0
  388 -40 418 -10 443 36 c 0
 EndSplineSet
-Colour: ffff
 EndChar
 
 StartChar: uniFEDE
@@ -2249,7 +2279,6 @@ SplineSet
  431 778 l 1
  516 778 l 1
 EndSplineSet
-Colour: ffff
 EndChar
 
 StartChar: uniFEDF
@@ -2275,7 +2304,6 @@ SplineSet
  501 764 494 764 494 752 c 2
  494 183 l 2
 EndSplineSet
-Colour: ffff
 EndChar
 
 StartChar: uniFEE0
@@ -2304,7 +2332,6 @@ SplineSet
  485 0 l 2
  394 0 335 14 307 44 c 1
 EndSplineSet
-Colour: ffff
 EndChar
 
 StartChar: uniFEE1
@@ -2344,7 +2371,6 @@ SplineSet
  461 55 426 42 399 42 c 0
  338 42 284 56 238 83 c 0
 EndSplineSet
-Colour: ffff
 EndChar
 
 StartChar: uniFEE2
@@ -2390,7 +2416,6 @@ SplineSet
  582 0 l 2
  524 0 487 9 476 26 c 1
 EndSplineSet
-Colour: ffff
 EndChar
 
 StartChar: uniFEE3
@@ -2427,7 +2452,6 @@ SplineSet
  218 189 206 167 200 132 c 0
  197 119 193 108 189 98 c 1
 EndSplineSet
-Colour: ffff
 EndChar
 
 StartChar: uniFEE4
@@ -2468,7 +2492,6 @@ SplineSet
  236 191 226 169 218 132 c 0
  215 119 211 108 207 98 c 1
 EndSplineSet
-Colour: ffff
 EndChar
 
 StartChar: uniFEE5
@@ -2481,6 +2504,7 @@ LayerCount: 2
 Fore
 Refer: 153 -1 N 1 0 0 1 248 356 2
 Refer: 138 64414 N 1 0 0 1 0 0 2
+Colour: ffff
 EndChar
 
 StartChar: uniFEE6
@@ -2493,6 +2517,7 @@ LayerCount: 2
 Fore
 Refer: 153 -1 N 1 0 0 1 191 266 2
 Refer: 139 64415 N 1 0 0 1 0 0 2
+Colour: ffff
 EndChar
 
 StartChar: uniFEE7
@@ -2505,6 +2530,7 @@ LayerCount: 2
 Fore
 Refer: 130 64488 N 1 0 0 1 0 0 2
 Refer: 153 -1 N 1 0 0 1 267 425 2
+Colour: ffff
 EndChar
 
 StartChar: uniFEE8
@@ -2517,6 +2543,7 @@ LayerCount: 2
 Fore
 Refer: 131 64489 N 1 0 0 1 0 0 2
 Refer: 153 -1 N 1 0 0 1 269 425 2
+Colour: ffff
 EndChar
 
 StartChar: uniFEE9
@@ -2547,7 +2574,6 @@ SplineSet
  113 204 120 247 132 274 c 0
  160 335 196 366 243 367 c 0
 EndSplineSet
-Colour: ffff
 EndChar
 
 StartChar: uniFEEA
@@ -2583,7 +2609,6 @@ SplineSet
  131 191 163 239 229 281 c 0
  265 304 308 318 359 323 c 1
 EndSplineSet
-Colour: ffff
 EndChar
 
 StartChar: uniFEEB
@@ -2634,7 +2659,6 @@ SplineSet
  167 242 168 231 171 219 c 0
  178 177 195 147 219 130 c 1
 EndSplineSet
-Colour: ffff
 EndChar
 
 StartChar: uniFEEC
@@ -2678,7 +2702,6 @@ SplineSet
  283 -13 260 0 248 0 c 2
  238 0 l 1
 EndSplineSet
-Colour: ffff
 EndChar
 
 StartChar: uniFEED
@@ -2713,7 +2736,6 @@ SplineSet
  487 265 513 227 520 181 c 0
  526 147 529 117 529 92 c 0
 EndSplineSet
-Colour: ffff
 EndChar
 
 StartChar: uniFEEE
@@ -2753,7 +2775,6 @@ SplineSet
  453 265 479 226 486 181 c 0
  491 154 495 123 496 89 c 1
 EndSplineSet
-Colour: ffff
 EndChar
 
 StartChar: uniFEEF
@@ -2795,7 +2816,6 @@ SplineSet
  584 135 589 110 589 78 c 0
  589 55 582 32 567 10 c 0
 EndSplineSet
-Colour: ffff
 EndChar
 
 StartChar: uniFEF0
@@ -2840,7 +2860,6 @@ SplineSet
  324 -25 350 -16 355 -12 c 0
  374 5 384 18 384 27 c 0
 EndSplineSet
-Colour: ffff
 EndChar
 
 StartChar: uniFEF1
@@ -2853,6 +2872,7 @@ LayerCount: 2
 Fore
 Refer: 154 -1 N 1 0 0 1 192 -238 2
 Refer: 190 1609 N 1 0 0 1 0 0 2
+Colour: ffff
 EndChar
 
 StartChar: uniFEF2
@@ -2865,6 +2885,7 @@ LayerCount: 2
 Fore
 Refer: 115 65264 N 1 0 0 1 0 0 2
 Refer: 154 -1 N 1 0 0 1 98 -237 2
+Colour: ffff
 EndChar
 
 StartChar: uniFEF3
@@ -2877,6 +2898,7 @@ LayerCount: 2
 Fore
 Refer: 154 -1 N 1 0 0 1 199 -146 2
 Refer: 130 64488 N 1 0 0 1 0 0 2
+Colour: ffff
 EndChar
 
 StartChar: uniFEF4
@@ -2889,6 +2911,7 @@ LayerCount: 2
 Fore
 Refer: 154 -1 N 1 0 0 1 208 -145 2
 Refer: 131 64489 N 1 0 0 1 0 0 2
+Colour: ffff
 EndChar
 
 StartChar: uniFEF5
@@ -2905,6 +2928,7 @@ Refer: 150 -1 N 1 0 0 1 -183 150 2
 Refer: 126 65275 N 1 0 0 1 0 0 2
 LCarets2: 1 306
 Ligature2: "Lam-Alef ligature-1" uniFEDF uniFE82
+Colour: ffff
 EndChar
 
 StartChar: uniFEF6
@@ -2921,6 +2945,7 @@ Refer: 150 -1 N 1 0 0 1 -232 150 2
 Refer: 127 65276 N 1 0 0 1 0 0 2
 LCarets2: 1 306
 Ligature2: "Lam-Alef ligature-1" uniFEE0 uniFE82
+Colour: ffff
 EndChar
 
 StartChar: uniFEF7
@@ -2937,6 +2962,7 @@ Refer: 151 -1 N 1 0 0 1 -176 150 2
 Refer: 126 65275 N 1 0 0 1 0 0 2
 LCarets2: 1 306
 Ligature2: "Lam-Alef ligature-1" uniFEDF uniFE84
+Colour: ffff
 EndChar
 
 StartChar: uniFEF8
@@ -2953,6 +2979,7 @@ Refer: 151 -1 N 1 0 0 1 -240 150 2
 Refer: 127 65276 N 1 0 0 1 0 0 2
 LCarets2: 1 306
 Ligature2: "Lam-Alef ligature-1" uniFEE0 uniFE84
+Colour: ffff
 EndChar
 
 StartChar: uniFEF9
@@ -2969,6 +2996,7 @@ Refer: 152 -1 N 1 0 0 1 -158 4 2
 Refer: 126 65275 N 1 0 0 1 0 0 2
 LCarets2: 1 306
 Ligature2: "Lam-Alef ligature-1" uniFEDF uniFE88
+Colour: ffff
 EndChar
 
 StartChar: uniFEFA
@@ -2985,6 +3013,7 @@ Refer: 152 -1 N 1 0 0 1 -158 6 2
 Refer: 127 65276 N 1 0 0 1 0 0 2
 LCarets2: 1 306
 Ligature2: "Lam-Alef ligature-1" uniFEE0 uniFE88
+Colour: ffff
 EndChar
 
 StartChar: uniFEFB
@@ -3021,7 +3050,6 @@ SplineSet
 EndSplineSet
 LCarets2: 1 306
 Ligature2: "Lam-Alef ligature-1" uniFEDF uniFE8E
-Colour: ffff
 EndChar
 
 StartChar: uniFEFC
@@ -3062,7 +3090,6 @@ SplineSet
 EndSplineSet
 LCarets2: 1 306
 Ligature2: "Lam-Alef ligature-1" uniFEE0 uniFE8E
-Colour: ffff
 EndChar
 
 StartChar: uni066E.isol
@@ -3090,7 +3117,6 @@ SplineSet
  489 134 511 166 511 202 c 0
  511 222 507 244 499 265 c 1
 EndSplineSet
-Colour: ffff
 EndChar
 
 StartChar: uni066E.fina
@@ -3124,7 +3150,6 @@ SplineSet
  474 57 443 35 412 19 c 0
  373 -1 324 -10 266 -10 c 0
 EndSplineSet
-Colour: ffff
 EndChar
 
 StartChar: uniFBE8
@@ -3148,7 +3173,6 @@ SplineSet
  344 189 l 2
  344 128 329 80 298 43 c 0
 EndSplineSet
-Colour: ffff
 EndChar
 
 StartChar: uniFBE9
@@ -3175,7 +3199,6 @@ SplineSet
  448 0 l 2
  378 0 329 14 301 44 c 1
 EndSplineSet
-Colour: ffff
 EndChar
 
 StartChar: uni06A1.isol
@@ -3218,7 +3241,6 @@ SplineSet
  572 313 575 281 575 235 c 0
  575 125 559 59 527 36 c 0
 EndSplineSet
-Colour: ffff
 EndChar
 
 StartChar: uni06A1.fina
@@ -3264,7 +3286,6 @@ SplineSet
  353 206 360 187 374 163 c 0
  390 137 412 119 440 107 c 1
 EndSplineSet
-Colour: ffff
 EndChar
 
 StartChar: uni066F.isol
@@ -3306,7 +3327,6 @@ SplineSet
  97 25 99 7 103 -4 c 0
  133 -67 171 -98 219 -98 c 0
 EndSplineSet
-Colour: ffff
 EndChar
 
 StartChar: uni066F.fina
@@ -3354,7 +3374,6 @@ SplineSet
  381 122 414 109 448 103 c 0
  463 101 472 100 476 99 c 1
 EndSplineSet
-Colour: ffff
 EndChar
 
 StartChar: uni066F.init
@@ -3393,7 +3412,6 @@ SplineSet
  -12 0 l 1
  -12 89 l 1
 EndSplineSet
-Colour: ffff
 EndChar
 
 StartChar: uni066F.medi
@@ -3436,7 +3454,6 @@ SplineSet
  356 262 343 278 323 290 c 0
  316 293 311 295 306 295 c 0
 EndSplineSet
-Colour: ffff
 EndChar
 
 StartChar: uniFB9E
@@ -3468,7 +3485,6 @@ SplineSet
  541 358 534 355 539 344 c 0
  565 291 577 219 577 128 c 0
 EndSplineSet
-Colour: ffff
 EndChar
 
 StartChar: uniFB9F
@@ -3504,7 +3520,6 @@ SplineSet
  548 0 530 8 526 26 c 1
  523 -31 508 -83 479 -131 c 0
 EndSplineSet
-Colour: ffff
 EndChar
 
 StartChar: uniFEB1.alt
@@ -3550,7 +3565,6 @@ SplineSet
  282 -1 262 -8 240 -9 c 0
  224 -10 207 3 190 32 c 1
 EndSplineSet
-Colour: ffff
 EndChar
 
 StartChar: uniFEB2.alt
@@ -3599,7 +3613,6 @@ SplineSet
  497 16 480 -5 456 -12 c 0
  447 -14 430 -14 404 -14 c 0
 EndSplineSet
-Colour: ffff
 EndChar
 
 StartChar: uniFEB5.alt
@@ -3612,6 +3625,7 @@ LayerCount: 2
 Fore
 Refer: 155 -1 N 1 0 0 1 185 400 2
 Refer: 140 -1 N 1 0 0 1 0 0 2
+Colour: ffff
 EndChar
 
 StartChar: uniFEB6.alt
@@ -3624,6 +3638,7 @@ LayerCount: 2
 Fore
 Refer: 155 -1 N 1 0 0 1 118 400 2
 Refer: 141 -1 N 1 0 0 1 0 0 2
+Colour: ffff
 EndChar
 
 StartChar: uniFEB9.alt
@@ -3665,7 +3680,6 @@ SplineSet
  425 247 395 228 359 190 c 0
  333 164 309 130 288 89 c 1
 EndSplineSet
-Colour: ffff
 EndChar
 
 StartChar: uniFEBA.alt
@@ -3714,7 +3728,6 @@ SplineSet
  387 247 357 228 320 190 c 0
  294 164 270 130 248 89 c 1
 EndSplineSet
-Colour: ffff
 EndChar
 
 StartChar: uniFEBD.alt
@@ -3727,6 +3740,7 @@ LayerCount: 2
 Fore
 Refer: 144 -1 N 1 0 0 1 0 0 2
 Refer: 153 -1 S 1 0 0 1 176 348 2
+Colour: ffff
 EndChar
 
 StartChar: uniFEBE.alt
@@ -3739,6 +3753,7 @@ LayerCount: 2
 Fore
 Refer: 145 -1 N 1 0 0 1 0 0 2
 Refer: 153 -1 N 1 0 0 1 130 335 2
+Colour: ffff
 EndChar
 
 StartChar: uniFE73
@@ -3758,7 +3773,6 @@ SplineSet
  580 -164 596 -174 613 -173 c 1
  613 -246 l 1
 EndSplineSet
-Colour: ffff
 EndChar
 
 StartChar: smallhamza
@@ -3786,7 +3800,6 @@ SplineSet
  220 668 l 25
  220 716 l 25
 EndSplineSet
-Colour: ffff
 EndChar
 
 StartChar: madda
@@ -3813,7 +3826,6 @@ SplineSet
  128 606 l 25
  128 663 l 25
 EndSplineSet
-Colour: ffff
 EndChar
 
 StartChar: hamzaabove
@@ -3827,6 +3839,7 @@ AnchorPoint: "rtl-above-mark" 304 881 basemark 0
 LayerCount: 2
 Fore
 Refer: 149 -1 N 1 0 0 1 0 -58 2
+Colour: ffff
 EndChar
 
 StartChar: hamzabelow
@@ -3840,6 +3853,7 @@ AnchorPoint: "rtl-below-mark" 310 -264 basemark 0
 LayerCount: 2
 Fore
 Refer: 149 -1 N 1 0 0 1 0 -910 2
+Colour: ffff
 EndChar
 
 StartChar: arabic_dot
@@ -3856,7 +3870,6 @@ SplineSet
  72 12 54 -5 32 -5 c 0
  10 -5 -7 12 -7 34 c 0
 EndSplineSet
-Colour: ffff
 EndChar
 
 StartChar: arabic_2dots
@@ -3894,6 +3907,7 @@ LayerCount: 2
 Fore
 Refer: 3 65152 N 1 0 0 1 0 0 2
 Substitution2: "Isolated forms-1" uniFE80
+Colour: ffff
 EndChar
 
 StartChar: alefmaddaabovearabic
@@ -3905,6 +3919,7 @@ Fore
 Refer: 4 65153 N 1 0 0 1 0 0 2
 Substitution2: "Isolated forms-1" uniFE81
 Substitution2: "Final forms-1" uniFE82
+Colour: ffff
 EndChar
 
 StartChar: alefhamzaabovearabic
@@ -3917,6 +3932,7 @@ Fore
 Refer: 6 65155 N 1 0 0 1 0 0 2
 Substitution2: "Isolated forms-1" uniFE83
 Substitution2: "Final forms-1" uniFE84
+Colour: ffff
 EndChar
 
 StartChar: wawhamzaabovearabic
@@ -3929,6 +3945,7 @@ Fore
 Refer: 8 65157 N 1 0 0 1 0 0 2
 Substitution2: "Isolated forms-1" uniFE85
 Substitution2: "Final forms-1" uniFE86
+Colour: ffff
 EndChar
 
 StartChar: alefhamzabelowarabic
@@ -3941,6 +3958,7 @@ Fore
 Refer: 10 65159 N 1 0 0 1 0 0 2
 Substitution2: "Isolated forms-1" uniFE87
 Substitution2: "Final forms-1" uniFE88
+Colour: ffff
 EndChar
 
 StartChar: yehhamzaabovearabic
@@ -3955,6 +3973,7 @@ Substitution2: "Isolated forms-1" uniFE89
 Substitution2: "Final forms-1" uniFE8A
 Substitution2: "Medial forms-1" uniFE8C
 Substitution2: "Initial forms-1" uniFE8B
+Colour: ffff
 EndChar
 
 StartChar: alefarabic
@@ -3968,6 +3987,7 @@ Fore
 Refer: 16 65165 N 1 0 0 1 0 0 2
 Substitution2: "Isolated forms-1" uniFE8D
 Substitution2: "Final forms-1" uniFE8E
+Colour: ffff
 EndChar
 
 StartChar: beharabic
@@ -3983,6 +4003,7 @@ Substitution2: "Isolated forms-1" uniFE8F
 Substitution2: "Final forms-1" uniFE90
 Substitution2: "Medial forms-1" uniFE92
 Substitution2: "Initial forms-1" uniFE91
+Colour: ffff
 EndChar
 
 StartChar: tehmarbutaarabic
@@ -3996,6 +4017,7 @@ Fore
 Refer: 22 65171 N 1 0 0 1 0 0 2
 Substitution2: "Isolated forms-1" uniFE93
 Substitution2: "Final forms-1" uniFE94
+Colour: ffff
 EndChar
 
 StartChar: teharabic
@@ -4011,6 +4033,7 @@ Substitution2: "Isolated forms-1" uniFE95
 Substitution2: "Final forms-1" uniFE96
 Substitution2: "Medial forms-1" uniFE98
 Substitution2: "Initial forms-1" uniFE97
+Colour: ffff
 EndChar
 
 StartChar: theharabic
@@ -4026,6 +4049,7 @@ Substitution2: "Isolated forms-1" uniFE99
 Substitution2: "Final forms-1" uniFE9A
 Substitution2: "Medial forms-1" uniFE9C
 Substitution2: "Initial forms-1" uniFE9B
+Colour: ffff
 EndChar
 
 StartChar: jeemarabic
@@ -4041,6 +4065,7 @@ Substitution2: "Isolated forms-1" uniFE9D
 Substitution2: "Final forms-1" uniFE9E
 Substitution2: "Medial forms-1" uniFEA0
 Substitution2: "Initial forms-1" uniFE9F
+Colour: ffff
 EndChar
 
 StartChar: haharabic
@@ -4056,6 +4081,7 @@ Substitution2: "Isolated forms-1" uniFEA1
 Substitution2: "Final forms-1" uniFEA2
 Substitution2: "Medial forms-1" uniFEA4
 Substitution2: "Initial forms-1" uniFEA3
+Colour: ffff
 EndChar
 
 StartChar: khaharabic
@@ -4071,6 +4097,7 @@ Substitution2: "Isolated forms-1" uniFEA5
 Substitution2: "Final forms-1" uniFEA6
 Substitution2: "Medial forms-1" uniFEA8
 Substitution2: "Initial forms-1" uniFEA7
+Colour: ffff
 EndChar
 
 StartChar: dalarabic
@@ -4084,6 +4111,7 @@ Fore
 Refer: 44 65193 N 1 0 0 1 0 0 2
 Substitution2: "Isolated forms-1" uniFEA9
 Substitution2: "Final forms-1" uniFEAA
+Colour: ffff
 EndChar
 
 StartChar: thalarabic
@@ -4097,6 +4125,7 @@ Fore
 Refer: 46 65195 N 1 0 0 1 0 0 2
 Substitution2: "Isolated forms-1" uniFEAB
 Substitution2: "Final forms-1" uniFEAC
+Colour: ffff
 EndChar
 
 StartChar: reharabic
@@ -4110,6 +4139,7 @@ Fore
 Refer: 48 65197 N 1 0 0 1 0 0 2
 Substitution2: "Isolated forms-1" uniFEAD
 Substitution2: "Final forms-1" uniFEAE
+Colour: ffff
 EndChar
 
 StartChar: zainarabic
@@ -4123,6 +4153,7 @@ Fore
 Refer: 50 65199 N 1 0 0 1 0 0 2
 Substitution2: "Isolated forms-1" uniFEAF
 Substitution2: "Final forms-1" uniFEB0
+Colour: ffff
 EndChar
 
 StartChar: seenarabic
@@ -4138,6 +4169,7 @@ Substitution2: "Isolated forms-1" uniFEB1
 Substitution2: "Final forms-1" uniFEB2
 Substitution2: "Medial forms-1" uniFEB4
 Substitution2: "Initial forms-1" uniFEB3
+Colour: ffff
 EndChar
 
 StartChar: sheenarabic
@@ -4153,6 +4185,7 @@ Substitution2: "Isolated forms-1" uniFEB5
 Substitution2: "Final forms-1" uniFEB6
 Substitution2: "Medial forms-1" uniFEB8
 Substitution2: "Initial forms-1" uniFEB7
+Colour: ffff
 EndChar
 
 StartChar: sadarabic
@@ -4168,6 +4201,7 @@ Substitution2: "Isolated forms-1" uniFEB9
 Substitution2: "Final forms-1" uniFEBA
 Substitution2: "Medial forms-1" uniFEBC
 Substitution2: "Initial forms-1" uniFEBB
+Colour: ffff
 EndChar
 
 StartChar: dadarabic
@@ -4183,6 +4217,7 @@ Substitution2: "Isolated forms-1" uniFEBD
 Substitution2: "Final forms-1" uniFEBE
 Substitution2: "Medial forms-1" uniFEC0
 Substitution2: "Initial forms-1" uniFEBF
+Colour: ffff
 EndChar
 
 StartChar: taharabic
@@ -4198,6 +4233,7 @@ Substitution2: "Isolated forms-1" uniFEC1
 Substitution2: "Final forms-1" uniFEC2
 Substitution2: "Medial forms-1" uniFEC4
 Substitution2: "Initial forms-1" uniFEC3
+Colour: ffff
 EndChar
 
 StartChar: zaharabic
@@ -4213,6 +4249,7 @@ Substitution2: "Isolated forms-1" uniFEC5
 Substitution2: "Final forms-1" uniFEC6
 Substitution2: "Medial forms-1" uniFEC8
 Substitution2: "Initial forms-1" uniFEC7
+Colour: ffff
 EndChar
 
 StartChar: ainarabic
@@ -4228,6 +4265,7 @@ Substitution2: "Isolated forms-1" uniFEC9
 Substitution2: "Final forms-1" uniFECA
 Substitution2: "Medial forms-1" uniFECC
 Substitution2: "Initial forms-1" uniFECB
+Colour: ffff
 EndChar
 
 StartChar: ghainarabic
@@ -4243,6 +4281,7 @@ Substitution2: "Isolated forms-1" uniFECD
 Substitution2: "Final forms-1" uniFECE
 Substitution2: "Medial forms-1" uniFED0
 Substitution2: "Initial forms-1" uniFECF
+Colour: ffff
 EndChar
 
 StartChar: feharabic
@@ -4258,6 +4297,7 @@ Substitution2: "Isolated forms-1" uniFED1
 Substitution2: "Final forms-1" uniFED2
 Substitution2: "Medial forms-1" uniFED4
 Substitution2: "Initial forms-1" uniFED3
+Colour: ffff
 EndChar
 
 StartChar: qafarabic
@@ -4273,6 +4313,7 @@ Substitution2: "Isolated forms-1" uniFED5
 Substitution2: "Final forms-1" uniFED6
 Substitution2: "Medial forms-1" uniFED8
 Substitution2: "Initial forms-1" uniFED7
+Colour: ffff
 EndChar
 
 StartChar: kafarabic
@@ -4288,6 +4329,7 @@ Substitution2: "Isolated forms-1" uniFED9
 Substitution2: "Final forms-1" uniFEDA
 Substitution2: "Medial forms-1" uniFEDC
 Substitution2: "Initial forms-1" uniFEDB
+Colour: ffff
 EndChar
 
 StartChar: lamarabic
@@ -4303,6 +4345,7 @@ Substitution2: "Isolated forms-1" uniFEDD
 Substitution2: "Final forms-1" uniFEDE
 Substitution2: "Medial forms-1" uniFEE0
 Substitution2: "Initial forms-1" uniFEDF
+Colour: ffff
 EndChar
 
 StartChar: meemarabic
@@ -4318,6 +4361,7 @@ Substitution2: "Isolated forms-1" uniFEE1
 Substitution2: "Final forms-1" uniFEE2
 Substitution2: "Medial forms-1" uniFEE4
 Substitution2: "Initial forms-1" uniFEE3
+Colour: ffff
 EndChar
 
 StartChar: noonarabic
@@ -4333,6 +4377,7 @@ Substitution2: "Isolated forms-1" uniFEE5
 Substitution2: "Final forms-1" uniFEE6
 Substitution2: "Medial forms-1" uniFEE8
 Substitution2: "Initial forms-1" uniFEE7
+Colour: ffff
 EndChar
 
 StartChar: heharabic
@@ -4348,6 +4393,7 @@ Substitution2: "Isolated forms-1" uniFEE9
 Substitution2: "Final forms-1" uniFEEA
 Substitution2: "Medial forms-1" uniFEEC
 Substitution2: "Initial forms-1" uniFEEB
+Colour: ffff
 EndChar
 
 StartChar: wawarabic
@@ -4361,6 +4407,7 @@ Fore
 Refer: 112 65261 N 1 0 0 1 0 0 2
 Substitution2: "Isolated forms-1" uniFEED
 Substitution2: "Final forms-1" uniFEEE
+Colour: ffff
 EndChar
 
 StartChar: alefmaksuraarabic
@@ -4374,6 +4421,7 @@ Fore
 Refer: 114 65263 N 1 0 0 1 0 0 2
 Substitution2: "Isolated forms-1" uniFEEF
 Substitution2: "Final forms-1" uniFEF0
+Colour: ffff
 EndChar
 
 StartChar: yeharabic
@@ -4389,6 +4437,7 @@ Substitution2: "Isolated forms-1" uniFEF1
 Substitution2: "Final forms-1" uniFEF2
 Substitution2: "Medial forms-1" uniFEF4
 Substitution2: "Initial forms-1" uniFEF3
+Colour: ffff
 EndChar
 
 StartChar: commaarabic
@@ -4398,6 +4447,7 @@ Flags: MW
 LayerCount: 2
 Fore
 Refer: 0 44 N -1 0 0 -1 587 110 2
+Colour: ffff
 EndChar
 
 StartChar: semicolonarabic
@@ -4407,6 +4457,7 @@ Flags: MW
 LayerCount: 2
 Fore
 Refer: 1 59 N -1 0 0 -1 586 488 2
+Colour: ffff
 EndChar
 
 StartChar: questionarabic
@@ -4416,6 +4467,7 @@ Flags: MW
 LayerCount: 2
 Fore
 Refer: 2 9254 N 1 0 0 1 0 0 2
+Colour: ffff
 EndChar
 
 StartChar: tatweelarabic
@@ -4433,7 +4485,6 @@ SplineSet
  623 0 l 1
  -11 0 l 1
 EndSplineSet
-Colour: ffff
 EndChar
 
 StartChar: uniFE70
@@ -4454,7 +4505,6 @@ SplineSet
  450 671 l 25
  162 609 l 25
 EndSplineSet
-Colour: ffff
 EndChar
 
 StartChar: uniFE71
@@ -4465,6 +4515,7 @@ LayerCount: 2
 Fore
 Refer: 195 1600 N 1 0 0 1 0 0 2
 Refer: 196 65136 N 1 0 0 1 0 0 2
+Colour: ffff
 EndChar
 
 StartChar: uniFE72
@@ -4508,7 +4559,6 @@ SplineSet
  314 802 321 792 336 786 c 0
  343 783 351 780 360 777 c 1
 EndSplineSet
-Colour: ffff
 EndChar
 
 StartChar: uniFE74
@@ -4529,7 +4579,6 @@ SplineSet
  450 -56 l 25
  162 -118 l 25
 EndSplineSet
-Colour: ffff
 EndChar
 
 StartChar: uniFE76
@@ -4545,7 +4594,6 @@ SplineSet
  450 671 l 25
  162 609 l 25
 EndSplineSet
-Colour: ffff
 EndChar
 
 StartChar: uniFE77
@@ -4556,6 +4604,7 @@ LayerCount: 2
 Fore
 Refer: 195 1600 N 1 0 0 1 0 0 2
 Refer: 200 65142 N 1 0 0 1 0 0 2
+Colour: ffff
 EndChar
 
 StartChar: uniFE78
@@ -4594,7 +4643,6 @@ SplineSet
  314 801 322 792 337 786 c 0
  344 783 351 780 360 777 c 1
 EndSplineSet
-Colour: ffff
 EndChar
 
 StartChar: uniFE79
@@ -4605,6 +4653,7 @@ LayerCount: 2
 Fore
 Refer: 195 1600 N 1 0 0 1 0 0 2
 Refer: 202 65144 N 1 0 0 1 0 0 2
+Colour: ffff
 EndChar
 
 StartChar: uniFE7A
@@ -4620,7 +4669,6 @@ SplineSet
  450 -73 l 25
  162 -135 l 25
 EndSplineSet
-Colour: ffff
 EndChar
 
 StartChar: uniFE7B
@@ -4631,6 +4679,7 @@ LayerCount: 2
 Fore
 Refer: 195 1600 N 1 0 0 1 0 0 2
 Refer: 204 65146 N 1 0 0 1 0 0 2
+Colour: ffff
 EndChar
 
 StartChar: uniFE7C
@@ -4664,7 +4713,6 @@ SplineSet
  360 650 343 654 334 665 c 0
  325 676 318 690 314 709 c 1
 EndSplineSet
-Colour: ffff
 EndChar
 
 StartChar: uniFE7D
@@ -4675,6 +4723,7 @@ LayerCount: 2
 Fore
 Refer: 195 1600 N 1 0 0 1 0 0 2
 Refer: 206 65148 N 1 0 0 1 0 0 2
+Colour: ffff
 EndChar
 
 StartChar: uniFE7E
@@ -4703,7 +4752,6 @@ SplineSet
  344 897 376 884 402 858 c 0
  428 832 441 800 441 762 c 0
 EndSplineSet
-Colour: ffff
 EndChar
 
 StartChar: uniFE7F
@@ -4714,6 +4762,7 @@ LayerCount: 2
 Fore
 Refer: 195 1600 N 1 0 0 1 0 0 2
 Refer: 208 65150 N 1 0 0 1 0 0 2
+Colour: ffff
 EndChar
 
 StartChar: uniFC5E
@@ -4724,6 +4773,7 @@ LayerCount: 2
 Fore
 Refer: 206 65148 N 1 0 0 1 0 0 2
 Refer: 198 65138 N 1 0 0 1 5 345 2
+Colour: ffff
 EndChar
 
 StartChar: uniFC5F
@@ -4734,6 +4784,7 @@ LayerCount: 2
 Fore
 Refer: 206 65148 N 1 0 0 1 5 345 2
 Refer: 199 65140 N 1 0 0 1 0 830 2
+Colour: ffff
 EndChar
 
 StartChar: uniFC60
@@ -4744,6 +4795,7 @@ LayerCount: 2
 Fore
 Refer: 206 65148 N 1 0 0 1 0 0 2
 Refer: 200 65142 N 1 0 0 1 5 345 2
+Colour: ffff
 EndChar
 
 StartChar: uniFC61
@@ -4754,6 +4806,7 @@ LayerCount: 2
 Fore
 Refer: 206 65148 N 1 0 0 1 0 0 2
 Refer: 202 65144 N 1 0 0 1 5 345 2
+Colour: ffff
 EndChar
 
 StartChar: uniFC62
@@ -4764,6 +4817,7 @@ LayerCount: 2
 Fore
 Refer: 206 65148 N 1 0 0 1 5 345 2
 Refer: 204 65146 N 1 0 0 1 0 830 2
+Colour: ffff
 EndChar
 
 StartChar: uniFCF2
@@ -4774,6 +4828,7 @@ LayerCount: 2
 Fore
 Refer: 195 1600 N 1 0 0 1 0 0 2
 Refer: 212 64608 N 1 0 0 1 0 0 2
+Colour: ffff
 EndChar
 
 StartChar: uniFCF3
@@ -4784,6 +4839,7 @@ LayerCount: 2
 Fore
 Refer: 195 1600 N 1 0 0 1 0 0 2
 Refer: 213 64609 N 1 0 0 1 0 0 2
+Colour: ffff
 EndChar
 
 StartChar: uniFCF4
@@ -4794,6 +4850,7 @@ LayerCount: 2
 Fore
 Refer: 195 1600 N 1 0 0 1 0 0 2
 Refer: 214 64610 N 1 0 0 1 0 0 2
+Colour: ffff
 EndChar
 
 StartChar: fathatanarabic
@@ -4805,6 +4862,7 @@ AnchorPoint: "Ligature rtl-above" 299 571 mark 0
 LayerCount: 2
 Fore
 Refer: 196 65136 N 1 0 0 1 0 0 2
+Colour: ffff
 EndChar
 
 StartChar: dammatanarabic
@@ -4816,6 +4874,7 @@ AnchorPoint: "Ligature rtl-above" 299 573 mark 0
 LayerCount: 2
 Fore
 Refer: 198 65138 N 1 0 0 1 0 0 2
+Colour: ffff
 EndChar
 
 StartChar: kasratanarabic
@@ -4827,6 +4886,7 @@ AnchorPoint: "Ligature rtl-below" 306 -9 mark 0
 LayerCount: 2
 Fore
 Refer: 199 65140 N 1 0 0 1 0 0 2
+Colour: ffff
 EndChar
 
 StartChar: fathaarabic
@@ -4839,6 +4899,7 @@ AnchorPoint: "rtl-above-mark" 299 567 mark 0
 LayerCount: 2
 Fore
 Refer: 200 65142 N 1 0 0 1 0 0 2
+Colour: ffff
 EndChar
 
 StartChar: dammaarabic
@@ -4851,6 +4912,7 @@ AnchorPoint: "rtl-above-mark" 300 565 mark 0
 LayerCount: 2
 Fore
 Refer: 202 65144 N 1 0 0 1 0 0 2
+Colour: ffff
 EndChar
 
 StartChar: kasraarabic
@@ -4863,6 +4925,7 @@ AnchorPoint: "rtl-below-mark" 306 0 mark 0
 LayerCount: 2
 Fore
 Refer: 204 65146 N 1 0 0 1 0 0 2
+Colour: ffff
 EndChar
 
 StartChar: shaddaarabic
@@ -4875,6 +4938,7 @@ AnchorPoint: "rtl-above-mark" 304 911 basemark 0
 LayerCount: 2
 Fore
 Refer: 206 65148 N 1 0 0 1 0 0 2
+Colour: ffff
 EndChar
 
 StartChar: sukunarabic
@@ -4887,6 +4951,7 @@ AnchorPoint: "rtl-above-mark" 302 565 mark 0
 LayerCount: 2
 Fore
 Refer: 208 65150 N 1 0 0 1 0 0 2
+Colour: ffff
 EndChar
 
 StartChar: shaddaarabic_dammatanarabic
@@ -4899,6 +4964,7 @@ LayerCount: 2
 Fore
 Refer: 210 64606 N 1 0 0 1 0 0 2
 Ligature2: "Composed marks-1" shaddaarabic dammatanarabic
+Colour: ffff
 EndChar
 
 StartChar: shaddaarabic_kasratanarabic
@@ -4911,6 +4977,7 @@ LayerCount: 2
 Fore
 Refer: 211 64607 N 1 0 0 1 0 0 2
 Ligature2: "Composed marks-1" shaddaarabic kasratanarabic
+Colour: ffff
 EndChar
 
 StartChar: shaddaarabic_fathaarabic
@@ -4923,6 +4990,7 @@ LayerCount: 2
 Fore
 Refer: 212 64608 N 1 0 0 1 0 0 2
 Ligature2: "Composed marks-1" shaddaarabic fathaarabic
+Colour: ffff
 EndChar
 
 StartChar: shaddaarabic_dammaarabic
@@ -4935,6 +5003,7 @@ LayerCount: 2
 Fore
 Refer: 213 64609 N 1 0 0 1 0 0 2
 Ligature2: "Composed marks-1" shaddaarabic dammaarabic
+Colour: ffff
 EndChar
 
 StartChar: shaddaarabic_kasraarabic
@@ -4947,6 +5016,7 @@ LayerCount: 2
 Fore
 Refer: 214 64610 N 1 0 0 1 0 0 2
 Ligature2: "Composed marks-1" shaddaarabic kasraarabic
+Colour: ffff
 EndChar
 
 StartChar: zeroarabic
@@ -4962,7 +5032,6 @@ SplineSet
  255 230 l 1
  255 345 l 1
 EndSplineSet
-Colour: ffff
 EndChar
 
 StartChar: onearabic
@@ -4980,7 +5049,6 @@ SplineSet
  335 543 368 435 393 318 c 0
  404 269 409 163 409 0 c 9
 EndSplineSet
-Colour: ffff
 EndChar
 
 StartChar: twoarabic
@@ -5006,7 +5074,6 @@ SplineSet
  475 442 421 398 342 398 c 0
  305 398 270 408 239 429 c 1
 EndSplineSet
-Colour: ffff
 EndChar
 
 StartChar: threearabic
@@ -5039,7 +5106,6 @@ SplineSet
  314 422 296 412 280 409 c 0
  264 405 251 404 240 405 c 1
 EndSplineSet
-Colour: ffff
 EndChar
 
 StartChar: fourarabic
@@ -5074,7 +5140,6 @@ SplineSet
  165 516 202 562 277 605 c 0
  312 625 363 640 430 649 c 17
 EndSplineSet
-Colour: ffff
 EndChar
 
 StartChar: fivearabic
@@ -5103,7 +5168,6 @@ SplineSet
  106 332 122 400 152 478 c 0
  197 594 248 652 306 652 c 24
 EndSplineSet
-Colour: ffff
 EndChar
 
 StartChar: sixarabic
@@ -5125,7 +5189,6 @@ SplineSet
  143 625 198 618 248 618 c 0
  314 618 381 625 449 642 c 17
 EndSplineSet
-Colour: ffff
 EndChar
 
 StartChar: sevenarabic
@@ -5148,7 +5211,6 @@ SplineSet
  376 169 357 77 348 0 c 9
  264 0 l 17
 EndSplineSet
-Colour: ffff
 EndChar
 
 StartChar: eightarabic
@@ -5171,7 +5233,6 @@ SplineSet
  104 69 151 190 207 366 c 0
  241 475 260 567 264 642 c 9
 EndSplineSet
-Colour: ffff
 EndChar
 
 StartChar: ninearabic
@@ -5203,7 +5264,6 @@ SplineSet
  206 401 225 394 252 390 c 16
  280 386 321 383 376 381 c 1
 EndSplineSet
-Colour: ffff
 EndChar
 
 StartChar: uniFB56
@@ -5216,6 +5276,7 @@ LayerCount: 2
 Fore
 Refer: 269 -1 N 1 0 0 1 213.3 -115.4 2
 Refer: 128 -1 N 1 0 0 1 0 0 2
+Colour: ffff
 EndChar
 
 StartChar: uniFB57
@@ -5228,6 +5289,7 @@ LayerCount: 2
 Fore
 Refer: 129 -1 N 1 0 0 1 0 0 2
 Refer: 269 -1 N 1 0 0 1 191.9 -118.1 2
+Colour: ffff
 EndChar
 
 StartChar: uniFB58
@@ -5240,6 +5302,7 @@ LayerCount: 2
 Fore
 Refer: 130 64488 N 1 0 0 1 0 0 2
 Refer: 269 -1 N 1 0 0 1 201.7 -120.5 2
+Colour: ffff
 EndChar
 
 StartChar: uniFB59
@@ -5252,6 +5315,7 @@ LayerCount: 2
 Fore
 Refer: 131 64489 N 1 0 0 1 0 0 2
 Refer: 269 -1 N 1 0 0 1 202.3 -120.5 2
+Colour: ffff
 EndChar
 
 StartChar: uniFB7A
@@ -5264,6 +5328,7 @@ LayerCount: 2
 Fore
 Refer: 269 -1 N 1 0 0 1 308.4 69 2
 Refer: 168 1581 N 1 0 0 1 0 0 2
+Colour: ffff
 EndChar
 
 StartChar: uniFB7B
@@ -5276,6 +5341,7 @@ LayerCount: 2
 Fore
 Refer: 37 65186 N 1 0 0 1 0 0 2
 Refer: 269 -1 N 1 0 0 1 224 33 2
+Colour: ffff
 EndChar
 
 StartChar: uniFB7C
@@ -5288,6 +5354,7 @@ LayerCount: 2
 Fore
 Refer: 269 -1 N 1 0 0 1 123.4 -114.9 2
 Refer: 38 65187 N 1 0 0 1 0 0 2
+Colour: ffff
 EndChar
 
 StartChar: uniFB7D
@@ -5300,6 +5367,7 @@ LayerCount: 2
 Fore
 Refer: 269 -1 N 1 0 0 1 204 -93.4 2
 Refer: 39 65188 N 1 0 0 1 0 0 2
+Colour: ffff
 EndChar
 
 StartChar: uniFB8A
@@ -5312,6 +5380,7 @@ LayerCount: 2
 Fore
 Refer: 155 -1 N 1 0 0 1 367.55 365.6 2
 Refer: 172 1585 N 1 0 0 1 0 0 2
+Colour: ffff
 EndChar
 
 StartChar: uniFB8B
@@ -5324,6 +5393,7 @@ LayerCount: 2
 Fore
 Refer: 155 -1 N 1 0 0 1 304.8 344.65 2
 Refer: 49 65198 N 1 0 0 1 0 0 2
+Colour: ffff
 EndChar
 
 StartChar: uniFB8E
@@ -5364,7 +5434,6 @@ SplineSet
  87 114 123 81 195 57 c 0
  224 48 249 42 273 42 c 0
 EndSplineSet
-Colour: ffff
 EndChar
 
 StartChar: uniFB8F
@@ -5411,7 +5480,6 @@ SplineSet
  573 20 559 31 552 42 c 2
  512 99 l 1
 EndSplineSet
-Colour: ffff
 EndChar
 
 StartChar: uniFB90
@@ -5423,6 +5491,7 @@ AnchorPoint: "rtl-below" 148 -75 basechar 0
 LayerCount: 2
 Fore
 Refer: 94 65243 N 1 0 0 1 0 0 2
+Colour: ffff
 EndChar
 
 StartChar: uniFB91
@@ -5434,6 +5503,7 @@ AnchorPoint: "rtl-below" 148 -75 basechar 0
 LayerCount: 2
 Fore
 Refer: 95 65244 N 1 0 0 1 0 0 2
+Colour: ffff
 EndChar
 
 StartChar: uniFB92
@@ -5446,6 +5516,7 @@ LayerCount: 2
 Fore
 Refer: 270 -1 N 1 0 0 1 342.3 8.05 2
 Refer: 251 64398 N 1 0 0 1 0 0 2
+Colour: ffff
 EndChar
 
 StartChar: uniFB93
@@ -5458,6 +5529,7 @@ LayerCount: 2
 Fore
 Refer: 270 -1 N 1 0 0 1 298 9 2
 Refer: 252 64399 N 1 0 0 1 0 0 2
+Colour: ffff
 EndChar
 
 StartChar: uniFB94
@@ -5470,6 +5542,7 @@ LayerCount: 2
 Fore
 Refer: 271 -1 N 1 0 0 1 70 0 2
 Refer: 253 64400 N 1 0 0 1 0 0 2
+Colour: ffff
 EndChar
 
 StartChar: uniFB95
@@ -5482,6 +5555,7 @@ LayerCount: 2
 Fore
 Refer: 271 -1 N 1 0 0 1 76 0 2
 Refer: 254 64401 N 1 0 0 1 0 0 2
+Colour: ffff
 EndChar
 
 StartChar: uniFBFC
@@ -5493,6 +5567,7 @@ AnchorPoint: "rtl-below" 255.05 -200 basechar 0
 LayerCount: 2
 Fore
 Refer: 114 65263 N 1 0 0 1 0 0 2
+Colour: ffff
 EndChar
 
 StartChar: uniFBFD
@@ -5504,6 +5579,7 @@ AnchorPoint: "rtl-below" 199.9 -200 basechar 0
 LayerCount: 2
 Fore
 Refer: 115 65264 N 1 0 0 1 0 0 2
+Colour: ffff
 EndChar
 
 StartChar: uniFBFE
@@ -5516,6 +5592,7 @@ LayerCount: 2
 Fore
 Refer: 154 -1 N 1 0 0 1 202.3 -150 2
 Refer: 130 64488 N 1 0 0 1 0 0 2
+Colour: ffff
 EndChar
 
 StartChar: uniFBFF
@@ -5528,6 +5605,7 @@ LayerCount: 2
 Fore
 Refer: 154 -1 N 1 0 0 1 208.3 -150 2
 Refer: 131 64489 N 1 0 0 1 0 0 2
+Colour: ffff
 EndChar
 
 StartChar: peharabic
@@ -5543,6 +5621,7 @@ Substitution2: "Isolated forms-1" uniFB56
 Substitution2: "Final forms-1" uniFB57
 Substitution2: "Medial forms-1" uniFB59
 Substitution2: "Initial forms-1" uniFB58
+Colour: ffff
 EndChar
 
 StartChar: tcheharabic
@@ -5558,6 +5637,7 @@ Substitution2: "Isolated forms-1" uniFB7A
 Substitution2: "Final forms-1" uniFB7B
 Substitution2: "Medial forms-1" uniFB7D
 Substitution2: "Initial forms-1" uniFB7C
+Colour: ffff
 EndChar
 
 StartChar: jeharabic
@@ -5571,6 +5651,7 @@ Fore
 Refer: 249 64394 N 1 0 0 1 0 0 2
 Substitution2: "Isolated forms-1" uniFB8A
 Substitution2: "Final forms-1" uniFB8B
+Colour: ffff
 EndChar
 
 StartChar: uni06A9
@@ -5586,6 +5667,7 @@ Substitution2: "Isolated forms-1" uniFB8E
 Substitution2: "Final forms-1" uniFB8F
 Substitution2: "Medial forms-1" uniFB91
 Substitution2: "Initial forms-1" uniFB90
+Colour: ffff
 EndChar
 
 StartChar: gafarabic
@@ -5601,6 +5683,7 @@ Substitution2: "Isolated forms-1" uniFB92
 Substitution2: "Final forms-1" uniFB93
 Substitution2: "Medial forms-1" uniFB95
 Substitution2: "Initial forms-1" uniFB94
+Colour: ffff
 EndChar
 
 StartChar: uni06CC
@@ -5616,6 +5699,7 @@ Substitution2: "Isolated forms-1" uniFBFC
 Substitution2: "Final forms-1" uniFBFD
 Substitution2: "Medial forms-1" uniFBFF
 Substitution2: "Initial forms-1" uniFBFE
+Colour: ffff
 EndChar
 
 StartChar: arabic_3dots_a
@@ -5627,6 +5711,7 @@ Fore
 Refer: 153 -1 N 1 0 0 1 59 -117 2
 Refer: 153 -1 N 1 0 0 1 118 0 2
 Refer: 153 -1 N 1 0 0 1 0 0 2
+Colour: ffff
 EndChar
 
 StartChar: arabic_gaf_bar
@@ -5642,7 +5727,6 @@ SplineSet
  307 880 l 25
  346 828 l 1
 EndSplineSet
-Colour: ffff
 EndChar
 
 StartChar: arabic_gaf_bar_a
@@ -5658,7 +5742,6 @@ SplineSet
  430 902 l 9
  460 833 l 1
 EndSplineSet
-Colour: ffff
 EndChar
 
 StartChar: zeropersian
@@ -5668,6 +5751,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 231 1632 N 1 0 0 1 0 0 2
+Colour: ffff
 EndChar
 
 StartChar: onepersian
@@ -5677,6 +5761,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 232 1633 N 1 0 0 1 0 0 2
+Colour: ffff
 EndChar
 
 StartChar: twopersian
@@ -5686,6 +5771,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 233 1634 N 1 0 0 1 0 0 2
+Colour: ffff
 EndChar
 
 StartChar: threepersian
@@ -5695,6 +5781,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 234 1635 N 1 0 0 1 0 0 2
+Colour: ffff
 EndChar
 
 StartChar: fourpersian
@@ -5729,7 +5816,6 @@ SplineSet
  230 548 250 533 274 519 c 1
 EndSplineSet
 Substitution2: "Urdu Arabic-Indic digits-1" fourpersian.urdu
-Colour: ffff
 EndChar
 
 StartChar: fivepersian
@@ -5763,7 +5849,6 @@ SplineSet
  481 23 448 -4 398 -5 c 0
  348 -6 317 20 306 73 c 1
 EndSplineSet
-Colour: ffff
 EndChar
 
 StartChar: sixpersian
@@ -5794,7 +5879,6 @@ SplineSet
  216 0 238 0 134 0 c 17
 EndSplineSet
 Substitution2: "Urdu Arabic-Indic digits-1" sixpersian.urdu
-Colour: ffff
 EndChar
 
 StartChar: sevenpersian
@@ -5805,6 +5889,7 @@ LayerCount: 2
 Fore
 Refer: 238 1639 N 1 0 0 1 0 0 2
 Substitution2: "Urdu Arabic-Indic digits-1" sevenpersian.urdu
+Colour: ffff
 EndChar
 
 StartChar: eightpersian
@@ -5814,6 +5899,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 239 1640 N 1 0 0 1 0 0 2
+Colour: ffff
 EndChar
 
 StartChar: ninepersian
@@ -5823,6 +5909,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 240 1641 N 1 0 0 1 0 0 2
+Colour: ffff
 EndChar
 
 StartChar: uniFB6A
@@ -5835,6 +5922,7 @@ LayerCount: 2
 Fore
 Refer: 155 -1 N 1 0 0 1 318.45 516 2
 Refer: 132 -1 N 1 0 0 1 0 0 2
+Colour: ffff
 EndChar
 
 StartChar: uniFB6B
@@ -5847,6 +5935,7 @@ LayerCount: 2
 Fore
 Refer: 155 -1 N 1 0 0 1 328 437.3 2
 Refer: 133 -1 N 1 0 0 1 0 0 2
+Colour: ffff
 EndChar
 
 StartChar: uniFB6C
@@ -5859,6 +5948,7 @@ LayerCount: 2
 Fore
 Refer: 155 -1 N 1 0 0 1 157.5 576.5 2
 Refer: 136 -1 N 1 0 0 1 0 0 2
+Colour: ffff
 EndChar
 
 StartChar: uniFB6D
@@ -5871,6 +5961,7 @@ LayerCount: 2
 Fore
 Refer: 155 -1 N 1 0 0 1 207.8 441.4 2
 Refer: 137 -1 N 1 0 0 1 0 0 2
+Colour: ffff
 EndChar
 
 StartChar: veharabic
@@ -5886,6 +5977,7 @@ Substitution2: "Isolated forms-1" uniFB6A
 Substitution2: "Final forms-1" uniFB6B
 Substitution2: "Medial forms-1" uniFB6D
 Substitution2: "Initial forms-1" uniFB6C
+Colour: ffff
 EndChar
 
 StartChar: uniFB66
@@ -5898,6 +5990,7 @@ LayerCount: 2
 Fore
 Refer: 305 -1 N 1 0 0 1 21 -300 2
 Refer: 128 -1 N 1 0 0 1 0 0 2
+Colour: ffff
 EndChar
 
 StartChar: uniFB67
@@ -5910,6 +6003,7 @@ LayerCount: 2
 Fore
 Refer: 305 -1 N 1 0 0 1 28 -350 2
 Refer: 129 -1 N 1 0 0 1 0 0 2
+Colour: ffff
 EndChar
 
 StartChar: uniFB68
@@ -5922,6 +6016,7 @@ LayerCount: 2
 Fore
 Refer: 130 64488 N 1 0 0 1 0 0 2
 Refer: 305 -1 N 1 0 0 1 41 -256 2
+Colour: ffff
 EndChar
 
 StartChar: uniFB69
@@ -5934,6 +6029,7 @@ LayerCount: 2
 Fore
 Refer: 131 64489 N 1 0 0 1 0 0 2
 Refer: 305 -1 N 1 0 0 1 50 -246 2
+Colour: ffff
 EndChar
 
 StartChar: uniFB88
@@ -5946,6 +6042,7 @@ LayerCount: 2
 Fore
 Refer: 305 -1 N 1 0 0 1 -18 -137 2
 Refer: 44 65193 N 1 0 0 1 0 0 2
+Colour: ffff
 EndChar
 
 StartChar: uniFB89
@@ -5958,6 +6055,7 @@ LayerCount: 2
 Fore
 Refer: 305 -1 N 1 0 0 1 -24 -150 2
 Refer: 45 65194 N 1 0 0 1 0 0 2
+Colour: ffff
 EndChar
 
 StartChar: uniFB8C
@@ -5970,6 +6068,7 @@ LayerCount: 2
 Fore
 Refer: 172 1585 N 1 0 0 1 0 0 2
 Refer: 305 -1 N 1 0 0 1 177 -292 2
+Colour: ffff
 EndChar
 
 StartChar: uniFB8D
@@ -5982,6 +6081,7 @@ LayerCount: 2
 Fore
 Refer: 305 -1 N 1 0 0 1 114 -315 2
 Refer: 49 65198 N 1 0 0 1 0 0 2
+Colour: ffff
 EndChar
 
 StartChar: uniFBA6
@@ -5993,6 +6093,7 @@ AnchorPoint: "rtl-above" 248 504 basechar 0
 LayerCount: 2
 Fore
 Refer: 108 65257 N 1 0 0 1 0 0 2
+Colour: ffff
 EndChar
 
 StartChar: uniFBA7
@@ -6022,7 +6123,6 @@ SplineSet
  170 131 141 0 135 -127 c 1
  60 -117 l 1
 EndSplineSet
-Colour: ffff
 EndChar
 
 StartChar: uniFBA8
@@ -6035,6 +6135,7 @@ LayerCount: 2
 Fore
 Refer: 192 1548 N 0.75 0 0 0.75 78 -230 2
 Refer: 130 64488 N 1 0 0 1 0 0 2
+Colour: ffff
 EndChar
 
 StartChar: uniFBA9
@@ -6063,7 +6164,6 @@ SplineSet
  192 -194 187 -145 187 -93 c 0
  187 -40 192 15 203 66 c 1
 EndSplineSet
-Colour: ffff
 EndChar
 
 StartChar: uniFBAA
@@ -6117,7 +6217,6 @@ SplineSet
  396 -32 350 -14 300 22 c 1
  258 7 214 0 166 0 c 0
 EndSplineSet
-Colour: ffff
 EndChar
 
 StartChar: uniFBAB
@@ -6172,7 +6271,6 @@ SplineSet
  492 310 546 239 571 159 c 0
  580 132 582 108 577 89 c 1
 EndSplineSet
-Colour: ffff
 EndChar
 
 StartChar: uniFBAC
@@ -6184,6 +6282,7 @@ AnchorPoint: "rtl-below" 218 -78 basechar 0
 LayerCount: 2
 Fore
 Refer: 110 65259 N 1 0 0 1 0 0 2
+Colour: ffff
 EndChar
 
 StartChar: uniFBAD
@@ -6234,7 +6333,6 @@ SplineSet
  103 89 l 2
  130 89 146 92 169 98 c 1
 EndSplineSet
-Colour: ffff
 EndChar
 
 StartChar: uniFBAE
@@ -6264,7 +6362,6 @@ SplineSet
  258 -128 l 2
  102 -128 12 -81 12 0 c 0
 EndSplineSet
-Colour: ffff
 EndChar
 
 StartChar: uniFBAF
@@ -6288,7 +6385,6 @@ SplineSet
  194 -250 l 2
  72.0244 -250 11 -172.005681635 11 -84 c 3
 EndSplineSet
-Colour: ffff
 EndChar
 
 StartChar: uni0615
@@ -6319,7 +6415,6 @@ SplineSet
  436 700 427 677 406 661 c 0
  389 646 359 638 317 638 c 2
 EndSplineSet
-Colour: ffff
 EndChar
 
 StartChar: tteharabic
@@ -6335,6 +6430,7 @@ Substitution2: "Isolated forms-1" uniFB66
 Substitution2: "Final forms-1" uniFB67
 Substitution2: "Medial forms-1" uniFB69
 Substitution2: "Initial forms-1" uniFB68
+Colour: ffff
 EndChar
 
 StartChar: ddalarabic
@@ -6348,6 +6444,7 @@ Fore
 Refer: 291 64392 N 1 0 0 1 0 0 2
 Substitution2: "Isolated forms-1" uniFB88
 Substitution2: "Final forms-1" uniFB89
+Colour: ffff
 EndChar
 
 StartChar: rreharabic
@@ -6361,6 +6458,7 @@ Fore
 Refer: 293 64396 N 1 0 0 1 0 0 2
 Substitution2: "Isolated forms-1" uniFB8C
 Substitution2: "Final forms-1" uniFB8D
+Colour: ffff
 EndChar
 
 StartChar: noonghunnaarabic
@@ -6376,6 +6474,7 @@ Substitution2: "Medial forms-1" uniFBE9
 Substitution2: "Initial forms-1" uniFBE8
 Substitution2: "Final forms-1" uniFB9F
 Substitution2: "Isolated forms-1" uniFB9E
+Colour: ffff
 EndChar
 
 StartChar: hehaltonearabic
@@ -6391,6 +6490,7 @@ Substitution2: "Isolated forms-1" uniFBA6
 Substitution2: "Final forms-1" uniFBA7
 Substitution2: "Medial forms-1" uniFBA9
 Substitution2: "Initial forms-1" uniFBA8
+Colour: ffff
 EndChar
 
 StartChar: uni06BE
@@ -6406,6 +6506,7 @@ Substitution2: "Isolated forms-1" uniFBAA
 Substitution2: "Final forms-1" uniFBAB
 Substitution2: "Medial forms-1" uniFBAD
 Substitution2: "Initial forms-1" uniFBAC
+Colour: ffff
 EndChar
 
 StartChar: yehbarreearabic
@@ -6419,6 +6520,7 @@ Fore
 Refer: 303 64430 N 1 0 0 1 0 0 2
 Substitution2: "Isolated forms-1" uniFBAE
 Substitution2: "Final forms-1" uniFBAF
+Colour: ffff
 EndChar
 
 StartChar: fourpersian.urdu
@@ -6452,7 +6554,6 @@ SplineSet
  552 631 572 622 573 621 c 1
  542 555 l 1
 EndSplineSet
-Colour: ffff
 EndChar
 
 StartChar: sixpersian.urdu
@@ -6462,6 +6563,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 237 1638 N 1 0 0 1 0 0 2
+Colour: ffff
 EndChar
 
 StartChar: sevenpersian.urdu
@@ -6482,7 +6584,6 @@ SplineSet
  347 569 322 466 281 323 c 0
  259 244 230 166 196 89 c 1
 EndSplineSet
-Colour: ffff
 EndChar
 
 StartChar: uniFBA4
@@ -6495,6 +6596,7 @@ LayerCount: 2
 Fore
 Refer: 151 -1 N 1 0 0 1 -36 -185 2
 Refer: 108 65257 N 1 0 0 1 0 0 2
+Colour: ffff
 EndChar
 
 StartChar: uniFBA5
@@ -6507,6 +6609,7 @@ LayerCount: 2
 Fore
 Refer: 151 -1 N 1 0 0 1 12 -196 2
 Refer: 109 65258 N 1 0 0 1 0 0 2
+Colour: ffff
 EndChar
 
 StartChar: uni06C2
@@ -6520,6 +6623,7 @@ Fore
 Refer: 151 -1 N 1 0 0 1 -36 -185 2
 Refer: 108 65257 N 1 0 0 1 0 0 2
 Substitution2: "Final forms-1" uni06C2.fina
+Colour: ffff
 EndChar
 
 StartChar: uni06C2.fina
@@ -6532,6 +6636,7 @@ LayerCount: 2
 Fore
 Refer: 151 -1 N 1 0 0 1 12 -196 2
 Refer: 296 64423 N 1 0 0 1 0 0 2
+Colour: ffff
 EndChar
 
 StartChar: uni06C3
@@ -6545,6 +6650,7 @@ Fore
 Refer: 154 -1 N 1 0 0 1 191 450 2
 Refer: 188 1607 N 1 0 0 1 0 0 2
 Substitution2: "Final forms-1" uni06C3.fina
+Colour: ffff
 EndChar
 
 StartChar: uni06C3.fina
@@ -6557,6 +6663,7 @@ LayerCount: 2
 Fore
 Refer: 154 -1 N 1 0 0 1 239 439 2
 Refer: 296 64423 N 1 0 0 1 0 0 2
+Colour: ffff
 EndChar
 
 StartChar: uniFBB0
@@ -6569,6 +6676,7 @@ LayerCount: 2
 Fore
 Refer: 151 -1 N 1 0 0 1 -155 -278 2
 Refer: 303 64430 N 1 0 0 1 0 0 2
+Colour: ffff
 EndChar
 
 StartChar: uniFBB1
@@ -6581,6 +6689,7 @@ LayerCount: 2
 Fore
 Refer: 151 -1 N 1 0 0 1 -144 -396 2
 Refer: 304 64431 N 1 0 0 1 0 0 2
+Colour: ffff
 EndChar
 
 StartChar: uni06C0
@@ -6593,6 +6702,7 @@ LayerCount: 2
 Fore
 Refer: 316 64420 N 1 0 0 1 0 0 2
 Substitution2: "Final forms-1" uniFBA5
+Colour: ffff
 EndChar
 
 StartChar: uni06D3
@@ -6605,6 +6715,7 @@ LayerCount: 2
 Fore
 Refer: 322 64432 N 1 0 0 1 0 0 2
 Substitution2: "Final forms-1" uniFBB1
+Colour: ffff
 EndChar
 EndChars
 EndSplineFont
