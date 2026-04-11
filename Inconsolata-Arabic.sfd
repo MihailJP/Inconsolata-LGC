@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1161020814
-ModificationTime: 1775876422
+ModificationTime: 1775900747
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 5
@@ -84,8 +84,8 @@ PUSHB_1
 SCANTYPE
 EndTTInstrs
 LangName: 1033
-OtfFeatName: 'ss01' 1033 "German alternative umlaut"
 OtfFeatName: 'ss02' 1033 "Polytonic Greek alternative circumflex"
+OtfFeatName: 'ss01' 1033 "German alternative umlaut"
 Encoding: UnicodeBmp
 Compacted: 1
 UnicodeInterp: none
@@ -127,7 +127,7 @@ Grid
 EndSplineSet
 TeXData: 1 0 0 629145 314572 209715 554697 1048576 209715 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "rtl-above-mark" "Arabic above-base mark-to-mark positioning" "rtl-below-mark" "Arabic below-base mark-to-mark positioning" "rtl-above" "Arabic above-base mark positioning" "Ligature rtl-above" "Arabic above-base mark-to-ligature positioning" "rtl-below" "Arabic below-base mark positioning" "Ligature rtl-below" "Arabic below-base mark-to-ligature positioning"
-BeginChars: 65596 437
+BeginChars: 65607 456
 
 StartChar: comma
 Encoding: 44 44 0
@@ -8471,6 +8471,225 @@ SplineSet
  340 -200 l 0
  257 -116 214 -39 214 23 c 0
 EndSplineSet
+EndChar
+
+StartChar: NameMe.437
+Encoding: 65594 -1 437
+Width: 613
+Flags: W
+AnchorPoint: "rtl-below" 296 -275 basechar 0
+AnchorPoint: "rtl-above" 312 481 basechar 0
+LayerCount: 2
+Fore
+Refer: 112 65261 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: NameMe.438
+Encoding: 65595 -1 438
+Width: 613
+Flags: W
+AnchorPoint: "rtl-below" 264 -280 basechar 0
+AnchorPoint: "rtl-above" 294 399 basechar 0
+LayerCount: 2
+Fore
+Refer: 113 65262 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: NameMe.439
+Encoding: 65596 -1 439
+Width: 613
+Flags: W
+AnchorPoint: "rtl-above" 358.5 608.2 basechar 0
+AnchorPoint: "rtl-below" 294 -274 basechar 0
+LayerCount: 2
+Fore
+Refer: 449 -1 N 1 0 0 1 53.9 -249.3 2
+Refer: 189 1608 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: NameMe.440
+Encoding: 65597 -1 440
+Width: 613
+Flags: W
+AnchorPoint: "rtl-below" 264 -280 basechar 0
+AnchorPoint: "rtl-above" 294 399 basechar 0
+LayerCount: 2
+Fore
+Refer: 113 65262 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: NameMe.441
+Encoding: 65598 -1 441
+Width: 613
+Flags: W
+AnchorPoint: "rtl-below" 296 -275 basechar 0
+AnchorPoint: "rtl-above" 312 481 basechar 0
+LayerCount: 2
+Fore
+Refer: 112 65261 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: NameMe.442
+Encoding: 65599 -1 442
+Width: 613
+Flags: W
+AnchorPoint: "rtl-below" 264 -280 basechar 0
+AnchorPoint: "rtl-above" 294 399 basechar 0
+LayerCount: 2
+Fore
+Refer: 113 65262 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: uniFBDE
+Encoding: 64478 64478 443
+Width: 613
+Flags: W
+AnchorPoint: "rtl-above" 220.4 539.3 basechar 0
+AnchorPoint: "rtl-below" 296 -275 basechar 0
+LayerCount: 2
+Fore
+Refer: 155 -1 N 1 0 0 1 275.55 365.6 2
+Refer: 112 65261 N 1 0 0 1 0 0 2
+Colour: ffff
+EndChar
+
+StartChar: uniFBDF
+Encoding: 64479 64479 444
+Width: 613
+Flags: W
+AnchorPoint: "rtl-above" 185.4 539.3 basechar 0
+AnchorPoint: "rtl-below" 264 -280 basechar 0
+LayerCount: 2
+Fore
+Refer: 155 -1 N 1 0 0 1 240.55 365.6 2
+Refer: 113 65262 N 1 0 0 1 0 0 2
+Colour: ffff
+EndChar
+
+StartChar: uniFBE4
+Encoding: 64484 64484 445
+Width: 613
+Flags: W
+AnchorPoint: "rtl-below" 287 -379 basechar 0
+AnchorPoint: "rtl-above" 342 537 basechar 0
+LayerCount: 2
+Fore
+Refer: 417 -1 N 1 0 0 1 252 -238 2
+Refer: 190 1609 N 1 0 0 1 0 0 2
+Colour: ffff
+EndChar
+
+StartChar: uniFBE5
+Encoding: 64485 64485 446
+Width: 613
+Flags: W
+AnchorPoint: "rtl-below" 192 -378 basechar 0
+AnchorPoint: "rtl-above" 180 290 basechar 0
+LayerCount: 2
+Fore
+Refer: 417 -1 N 1 0 0 1 157 -237 2
+Refer: 115 65264 N 1 0 0 1 0 0 2
+Colour: ffff
+EndChar
+
+StartChar: uniFBE6
+Encoding: 64486 64486 447
+Width: 613
+Flags: W
+AnchorPoint: "rtl-above" 298 500 basechar 0
+AnchorPoint: "rtl-below" 299 -261 basechar 0
+LayerCount: 2
+Fore
+Refer: 130 64488 N 1 0 0 1 0 0 2
+Refer: 417 -1 N 1 0 0 1 264 -120 2
+Colour: ffff
+EndChar
+
+StartChar: uniFBE7
+Encoding: 64487 64487 448
+Width: 613
+Flags: W
+AnchorPoint: "rtl-above" 298 500 basechar 0
+AnchorPoint: "rtl-below" 300 -263 basechar 0
+LayerCount: 2
+Fore
+Refer: 131 64489 N 1 0 0 1 0 0 2
+Refer: 417 -1 N 1 0 0 1 263 -122 2
+Colour: ffff
+EndChar
+
+StartChar: uni065A
+Encoding: 65600 -1 449
+Width: 613
+Flags: W
+AnchorPoint: "rtl-above" 306 600 mark 0
+AnchorPoint: "Ligature rtl-above" 306 600 mark 0
+LayerCount: 2
+Fore
+SplineSet
+272 631 m 1
+ 175 794 l 1
+ 238 794 l 1
+ 306 693 l 1
+ 374 794 l 1
+ 438 794 l 1
+ 340 631 l 1
+ 272 631 l 1
+EndSplineSet
+EndChar
+
+StartChar: NameMe.450
+Encoding: 65601 -1 450
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 2 9254 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: NameMe.451
+Encoding: 65602 -1 451
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 2 9254 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: NameMe.452
+Encoding: 65603 -1 452
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 2 9254 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: NameMe.453
+Encoding: 65604 -1 453
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 2 9254 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: NameMe.454
+Encoding: 65605 -1 454
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 2 9254 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: NameMe.455
+Encoding: 65606 -1 455
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 2 9254 N 1 0 0 1 0 0 2
 EndChar
 EndChars
 EndSplineFont
