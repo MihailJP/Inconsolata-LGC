@@ -84,8 +84,8 @@ PUSHB_1
 SCANTYPE
 EndTTInstrs
 LangName: 1033
-OtfFeatName: 'ss02' 1033 "Polytonic Greek alternative circumflex"
 OtfFeatName: 'ss01' 1033 "German alternative umlaut"
+OtfFeatName: 'ss02' 1033 "Polytonic Greek alternative circumflex"
 Encoding: UnicodeBmp
 Compacted: 1
 UnicodeInterp: none
@@ -4466,6 +4466,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 0 44 N -1 0 0 -1 587 110 2
+Substitution2: "Sindhi forms-1" uni2E41
 Colour: ffff
 EndChar
 
@@ -4476,6 +4477,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 1 59 N -1 0 0 -1 586 488 2
+Substitution2: "Sindhi forms-1" uni204F
 Colour: ffff
 EndChar
 
