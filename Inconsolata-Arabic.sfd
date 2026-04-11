@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1161020814
-ModificationTime: 1775840698
+ModificationTime: 1775875072
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 5
@@ -46,20 +46,21 @@ OS2XHeight: 543
 OS2FamilyClass: 2048
 OS2Vendor: 'PfEd'
 Lookup: 1 0 0 "Urdu Arabic-Indic digits" { "Urdu Arabic-Indic digits-1" ("urdu") } ['locl' ('arab' <'URD ' > ) ]
-Lookup: 1 1 0 "Initial forms" { "Initial forms-1"  } ['init' ('DFLT' <'dflt' > 'arab' <'URD ' 'dflt' > ) ]
-Lookup: 1 1 0 "Medial forms" { "Medial forms-1"  } ['medi' ('DFLT' <'dflt' > 'arab' <'URD ' 'dflt' > ) ]
-Lookup: 1 1 0 "Final forms" { "Final forms-1"  } ['fina' ('DFLT' <'dflt' > 'arab' <'URD ' 'dflt' > ) ]
-Lookup: 1 1 0 "Isolated forms" { "Isolated forms-1"  } ['isol' ('DFLT' <'dflt' > 'arab' <'URD ' 'dflt' > ) ]
-Lookup: 4 9 1 "Lam-Alef ligature" { "Lam-Alef ligature-1"  } ['rlig' ('DFLT' <'dflt' > 'arab' <'URD ' 'dflt' > ) ]
-Lookup: 6 9 0 "Legacy wide seen and sad" { "Legacy wide seen and sad-1"  } ['calt' ('DFLT' <'dflt' > 'arab' <'URD ' 'dflt' > ) ]
+Lookup: 1 0 0 "Sindhi forms" { "Sindhi forms-1"  } ['locl' ('arab' <'SND ' > ) ]
+Lookup: 1 1 0 "Initial forms" { "Initial forms-1"  } ['init' ('DFLT' <'dflt' > 'arab' <'SND ' 'URD ' 'dflt' > ) ]
+Lookup: 1 1 0 "Medial forms" { "Medial forms-1"  } ['medi' ('DFLT' <'dflt' > 'arab' <'SND ' 'URD ' 'dflt' > ) ]
+Lookup: 1 1 0 "Final forms" { "Final forms-1"  } ['fina' ('DFLT' <'dflt' > 'arab' <'SND ' 'URD ' 'dflt' > ) ]
+Lookup: 1 1 0 "Isolated forms" { "Isolated forms-1"  } ['isol' ('DFLT' <'dflt' > 'arab' <'SND ' 'URD ' 'dflt' > ) ]
+Lookup: 4 9 1 "Lam-Alef ligature" { "Lam-Alef ligature-1"  } ['rlig' ('DFLT' <'dflt' > 'arab' <'SND ' 'URD ' 'dflt' > ) ]
+Lookup: 6 9 0 "Legacy wide seen and sad" { "Legacy wide seen and sad-1"  } ['calt' ('DFLT' <'dflt' > 'arab' <'SND ' 'URD ' 'dflt' > ) ]
 Lookup: 1 1 0 "Forms before tail fragment" { "Forms before tail fragment-1" ("alt") } []
-Lookup: 4 1 0 "Composed marks" { "Composed marks-1"  } ['ccmp' ('DFLT' <'dflt' > 'arab' <'URD ' 'dflt' > ) ]
-Lookup: 261 1 0 "Arabic below-base mark-to-ligature positioning" { "Arabic below-base mark-to-ligature positioning"  } ['mark' ('DFLT' <'dflt' > 'arab' <'URD ' 'dflt' > ) ]
-Lookup: 260 1 0 "Arabic below-base mark positioning" { "Arabic below-base mark positioning"  } ['mark' ('DFLT' <'dflt' > 'arab' <'URD ' 'dflt' > ) ]
-Lookup: 261 1 0 "Arabic above-base mark-to-ligature positioning" { "Arabic above-base mark-to-ligature positioning"  } ['mark' ('DFLT' <'dflt' > 'arab' <'URD ' 'dflt' > ) ]
-Lookup: 260 1 0 "Arabic above-base mark positioning" { "Arabic above-base mark positioning"  } ['mark' ('DFLT' <'dflt' > 'arab' <'URD ' 'dflt' > ) ]
-Lookup: 262 1 0 "Arabic below-base mark-to-mark positioning" { "Arabic below-base mark-to-mark positioning"  } ['mkmk' ('DFLT' <'dflt' > 'arab' <'URD ' 'dflt' > ) ]
-Lookup: 262 1 0 "Arabic above-base mark-to-mark positioning" { "Arabic above-base mark-to-mark positioning"  } ['mkmk' ('DFLT' <'dflt' > 'arab' <'URD ' 'dflt' > ) ]
+Lookup: 4 1 0 "Composed marks" { "Composed marks-1"  } ['ccmp' ('DFLT' <'dflt' > 'arab' <'SND ' 'URD ' 'dflt' > ) ]
+Lookup: 261 1 0 "Arabic below-base mark-to-ligature positioning" { "Arabic below-base mark-to-ligature positioning"  } ['mark' ('DFLT' <'dflt' > 'arab' <'SND ' 'URD ' 'dflt' > ) ]
+Lookup: 260 1 0 "Arabic below-base mark positioning" { "Arabic below-base mark positioning"  } ['mark' ('DFLT' <'dflt' > 'arab' <'SND ' 'URD ' 'dflt' > ) ]
+Lookup: 261 1 0 "Arabic above-base mark-to-ligature positioning" { "Arabic above-base mark-to-ligature positioning"  } ['mark' ('DFLT' <'dflt' > 'arab' <'SND ' 'URD ' 'dflt' > ) ]
+Lookup: 260 1 0 "Arabic above-base mark positioning" { "Arabic above-base mark positioning"  } ['mark' ('DFLT' <'dflt' > 'arab' <'SND ' 'URD ' 'dflt' > ) ]
+Lookup: 262 1 0 "Arabic below-base mark-to-mark positioning" { "Arabic below-base mark-to-mark positioning"  } ['mkmk' ('DFLT' <'dflt' > 'arab' <'SND ' 'URD ' 'dflt' > ) ]
+Lookup: 262 1 0 "Arabic above-base mark-to-mark positioning" { "Arabic above-base mark-to-mark positioning"  } ['mkmk' ('DFLT' <'dflt' > 'arab' <'SND ' 'URD ' 'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
 ChainSub2: class "Legacy wide seen and sad-1" 2 0 2 1
@@ -126,7 +127,7 @@ Grid
 EndSplineSet
 TeXData: 1 0 0 629145 314572 209715 554697 1048576 209715 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "rtl-above-mark" "Arabic above-base mark-to-mark positioning" "rtl-below-mark" "Arabic below-base mark-to-mark positioning" "rtl-above" "Arabic above-base mark positioning" "Ligature rtl-above" "Arabic above-base mark-to-ligature positioning" "rtl-below" "Arabic below-base mark positioning" "Ligature rtl-below" "Arabic below-base mark-to-ligature positioning"
-BeginChars: 65595 434
+BeginChars: 65596 437
 
 StartChar: comma
 Encoding: 44 44 0
@@ -4386,6 +4387,7 @@ AnchorPoint: "rtl-below" 314 -84 basechar 0
 LayerCount: 2
 Fore
 Refer: 100 65249 N 1 0 0 1 0 0 2
+Substitution2: "Sindhi forms-1" meemarabic.sindhi
 Substitution2: "Isolated forms-1" uniFEE1
 Substitution2: "Final forms-1" uniFEE2
 Substitution2: "Medial forms-1" uniFEE4
@@ -5907,6 +5909,7 @@ SplineSet
  268 144 236 76 216 0 c 9
  216 0 238 0 134 0 c 17
 EndSplineSet
+Substitution2: "Sindhi forms-1" sixpersian.urdu
 Substitution2: "Urdu Arabic-Indic digits-1" sixpersian.urdu
 EndChar
 
@@ -5917,6 +5920,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 238 1639 N 1 0 0 1 0 0 2
+Substitution2: "Sindhi forms-1" sevenpersian.urdu
 Substitution2: "Urdu Arabic-Indic digits-1" sevenpersian.urdu
 Colour: ffff
 EndChar
@@ -7983,22 +7987,92 @@ Refer: 254 64401 N 1 0 0 1 0 0 2
 Colour: ffff
 EndChar
 
-StartChar: NameMe.409
+StartChar: uniFEE1.sindhi
 Encoding: 65588 -1 409
 Width: 613
 Flags: W
+AnchorPoint: "rtl-below" 301 -86 basechar 0
+AnchorPoint: "rtl-above" 338 544 basechar 0
 LayerCount: 2
 Fore
-Refer: 100 65249 N 1 0 0 1 0 0 2
+SplineSet
+294 148 m 1
+ 341 131 371 125 400 125 c 0
+ 415 125 426 129 433 137 c 0
+ 451 156 460 176 460 197 c 0
+ 460 204 459 211 457 219 c 0
+ 449 252 435 272 413 276 c 0
+ 400 279 385 281 370 281 c 0
+ 350 281 335 276 326 268 c 0
+ 301 244 289 221 289 196 c 0
+ 289 182 291 165 294 148 c 1
+219 96 m 1
+ 200 136 203 156 203 206 c 0
+ 203 255 231 302 286 348 c 0
+ 311 369 338 380 365 380 c 0
+ 389 380 414 374 440 362 c 0
+ 501 333 536 292 545 236 c 0
+ 548 221 549 205 549 186 c 0
+ 549 138 534 103 502 83 c 0
+ 461 55 426 42 399 42 c 0
+ 377 42 355 44 335 48 c 1
+ 306 8 209 0 166 0 c 0
+ 121 0 87 6 64 18 c 0
+ 25 39 5 71 5 113 c 0
+ 5 140 9 175 19 193 c 1
+ 96 167 l 1
+ 93 152 91 142 91 126 c 0
+ 91 110 96 101 106 98 c 0
+ 122 92 136 89 149 89 c 0
+ 169 89 193 91 219 96 c 1
+EndSplineSet
 EndChar
 
-StartChar: NameMe.410
+StartChar: uniFEE2.sindhi
 Encoding: 65589 -1 410
 Width: 613
 Flags: W
+AnchorPoint: "rtl-below" 340 -187 basechar 0
+AnchorPoint: "rtl-above" 322 448 basechar 0
 LayerCount: 2
 Fore
-Refer: 101 65250 N 1 0 0 1 0 0 2
+SplineSet
+476 26 m 1
+ 471 21 466 18 462 15 c 0
+ 417 -13 383 -26 360 -26 c 0
+ 296.581761903 -26 247.852614103 -16.4520913069 214.441986482 2.64372607931 c 1
+ 195.715439375 0.682079539825 178.555701241 -1.24344978758e-14 166 0 c 0
+ 121 0 87 6 64 18 c 0
+ 25 39 5 71 5 113 c 0
+ 5 140 9 175 19 193 c 1
+ 96 167 l 1
+ 93 152 91 142 91 126 c 0
+ 91 110 96 101 106 98 c 0
+ 122 92 136 89 149 89 c 0
+ 154 89 159 89 164 89 c 1
+ 164 97 164 108 164 136 c 0
+ 164 185 191 232 246 278 c 0
+ 271 299 299 310 326 310 c 0
+ 349 310 374 305 401 293 c 0
+ 457 269 493 226 506 167 c 0
+ 512 143 521 126 537 112 c 0
+ 546 104 556 98 570 94 c 0
+ 581 91 593 89 609 89 c 2
+ 609 89 613 89 624 89 c 1
+ 624 0 l 1
+ 582 0 l 2
+ 524 0 487 9 476 26 c 1
+255 79 m 1
+ 302 63 331 57 360 57 c 0
+ 375 57 387 60 394 67 c 0
+ 412 86 421 106 421 128 c 0
+ 421 135 420 142 418 150 c 0
+ 410 182 396 202 374 207 c 0
+ 361 210 346 211 331 211 c 0
+ 311 211 296 206 287 198 c 0
+ 262 175 250 151 250 126 c 0
+ 250 112 252 96 255 79 c 1
+EndSplineSet
 EndChar
 
 StartChar: uniFBA0
@@ -8053,26 +8127,30 @@ Refer: 305 -1 N 1 0 0 1 50 -246 2
 Colour: ffff
 EndChar
 
-StartChar: NameMe.415
-Encoding: 65590 -1 415
+StartChar: uni06FD
+Encoding: 1789 1789 415
 Width: 613
 Flags: W
 LayerCount: 2
 Fore
 Refer: 3 65152 N 1 0 0 1 0 0 2
+Refer: 419 -1 N 1 0 0 1 0 0 2
+Colour: ffff
 EndChar
 
-StartChar: NameMe.416
-Encoding: 65591 -1 416
+StartChar: uni06FE
+Encoding: 1790 1790 416
 Width: 613
 Flags: W
 LayerCount: 2
 Fore
 Refer: 409 -1 N 1 0 0 1 0 0 2
+Refer: 419 -1 N 1 0 0 1 0 0 2
+Colour: ffff
 EndChar
 
 StartChar: arabic_2dots_a
-Encoding: 65592 -1 417
+Encoding: 65590 -1 417
 Width: 613
 Flags: W
 LayerCount: 2
@@ -8083,7 +8161,7 @@ Colour: ffff
 EndChar
 
 StartChar: arabic_4dots
-Encoding: 65593 -1 418
+Encoding: 65591 -1 418
 Width: 613
 Flags: W
 LayerCount: 2
@@ -8095,13 +8173,25 @@ Refer: 153 -1 N 1 0 0 1 0 0 2
 Colour: ffff
 EndChar
 
-StartChar: NameMe.419
-Encoding: 65594 -1 419
+StartChar: u10EFA.component
+Encoding: 65592 -1 419
 Width: 613
 Flags: W
 LayerCount: 2
 Fore
-Refer: 2 9254 N 1 0 0 1 0 0 2
+SplineSet
+439 -49 m 1
+ 518 -49 l 1
+ 518 -246 l 1
+ 439 -246 l 1
+ 439 -49 l 1
+281 -49 m 1
+ 360 -49 l 1
+ 360 -246 l 1
+ 281 -246 l 1
+ 281 -49 l 1
+EndSplineSet
+Colour: ffff
 EndChar
 
 StartChar: uni067B
@@ -8320,6 +8410,57 @@ Substitution2: "Final forms-1" uniFBA1
 Substitution2: "Medial forms-1" uniFBA3
 Substitution2: "Initial forms-1" uniFBA2
 Colour: ffff
+EndChar
+
+StartChar: meemarabic.sindhi
+Encoding: 65593 -1 434
+Width: 613
+Flags: W
+AnchorPoint: "rtl-above" 338 544 basechar 0
+AnchorPoint: "rtl-below" 301 -86 basechar 0
+LayerCount: 2
+Fore
+Refer: 409 -1 N 1 0 0 1 0 0 2
+Substitution2: "Isolated forms-1" uniFEE1.sindhi
+Substitution2: "Final forms-1" uniFEE2.sindhi
+Substitution2: "Medial forms-1" uniFEE4
+Substitution2: "Initial forms-1" uniFEE3
+Colour: ffff
+EndChar
+
+StartChar: NameMe.435
+Encoding: 65594 -1 435
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+373 23 m 0
+ 373 -39 330 -116 247 -200 c 0
+ 206 -164 l 0
+ 234 -138 253 -109 265 -90 c 0
+ 271 -80 283 -61 283 -41 c 0
+ 283 -17 265 -5 255 2 c 0
+ 245 9 222 22 222 54 c 0
+ 222 90 251 122 290 122 c 0
+ 332 122 373 84 373 23 c 0
+EndSplineSet
+EndChar
+
+StartChar: NameMe.436
+Encoding: 65595 -1 436
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+364 434 m 0
+ 364 397 332 366 293 366 c 0
+ 254 366 223 397 223 434 c 0
+ 223 471 254 502 293 502 c 0
+ 332 502 364 471 364 434 c 0
+EndSplineSet
+Refer: 0 44 N 1 0 0 1 0 0 2
 EndChar
 EndChars
 EndSplineFont
