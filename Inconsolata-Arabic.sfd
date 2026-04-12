@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1161020814
-ModificationTime: 1775985501
+ModificationTime: 1775987507
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 5
@@ -129,7 +129,7 @@ Grid
 EndSplineSet
 TeXData: 1 0 0 629145 314572 209715 554697 1048576 209715 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "rtl-above-mark" "Arabic above-base mark-to-mark positioning" "rtl-below-mark" "Arabic below-base mark-to-mark positioning" "rtl-above" "Arabic above-base mark positioning" "Ligature rtl-above" "Arabic above-base mark-to-ligature positioning" "rtl-below" "Arabic below-base mark positioning" "Ligature rtl-below" "Arabic below-base mark-to-ligature positioning"
-BeginChars: 65634 517
+BeginChars: 65633 517
 
 StartChar: comma
 Encoding: 44 44 0
@@ -9522,26 +9522,93 @@ Refer: 153 -1 N 1 0 0 1 269 425 2
 Colour: ffff
 EndChar
 
-StartChar: NameMe.511
-Encoding: 65629 -1 511
+StartChar: uni06CD
+Encoding: 1741 1741 511
 Width: 613
 Flags: W
-AnchorPoint: "rtl-above" 208.4 388.2 basechar 0
-AnchorPoint: "rtl-below" 255.05 -200 basechar 0
+AnchorPoint: "rtl-above" 208 388 basechar 0
+AnchorPoint: "rtl-below" 255 -200 basechar 0
 LayerCount: 2
 Fore
-Refer: 114 65263 N 1 0 0 1 0 0 2
+SplineSet
+-119 53 m 1
+ -119 104 l 1
+ 119 156 l 1
+ 106 123 96 94 96 61 c 0
+ 96 13 125 -20 184 -36 c 0
+ 209 -43 236 -46 264 -46 c 0
+ 303 -47 341 -41 378 -29 c 0
+ 415 -17 445 3 467 30 c 0
+ 487 55 498 72 497 82 c 0
+ 498 98 493 113 483 127 c 0
+ 471 144 442 163 397 184 c 0
+ 370 200 358 226 359 265 c 0
+ 359 314 374 347 405 367 c 0
+ 429 384 456 391 487 391 c 0
+ 531 391 562 380 580 357 c 0
+ 597 337 608 304 614 257 c 1
+ 528 257 l 1
+ 528 277 525 291 519 301 c 0
+ 510 312 499 316 486 315 c 0
+ 479 314 473 312 465 305 c 0
+ 453 295 446 280 446 260 c 0
+ 446 249 467 234 509 218 c 0
+ 535 208 557 187 573 154 c 0
+ 584 135 589 110 589 78 c 0
+ 589 55 582 32 567 10 c 0
+ 522 -57 459 -99 378 -114 c 0
+ 318 -123 279 -128 258 -128 c 0
+ 218 -128 189 -125 166 -119 c 0
+ 89 -93 0 -36 13 82 c 1
+ -119 53 l 1
+EndSplineSet
+Substitution2: "Final forms-1" uni06CD.fina
 EndChar
 
-StartChar: NameMe.512
-Encoding: 65630 -1 512
+StartChar: uni06CD.fina
+Encoding: 65629 -1 512
 Width: 613
 Flags: W
-AnchorPoint: "rtl-above" 203 321.1 basechar 0
-AnchorPoint: "rtl-below" 199.9 -200 basechar 0
+AnchorPoint: "rtl-above" 203 321 basechar 0
+AnchorPoint: "rtl-below" 200 -200 basechar 0
 LayerCount: 2
 Fore
-Refer: 115 65264 N 1 0 0 1 0 0 2
+SplineSet
+-158 24 m 1
+ -158 75 l 1
+ 21 114 l 1
+ 14 87 11 65 11 26 c 0
+ 11 -9 37 -31 85 -40 c 0
+ 108 -44 140 -46 181 -46 c 0
+ 228 -46 260 -43 277 -38 c 0
+ 324 -25 350 -16 355 -12 c 0
+ 374 5 384 18 384 27 c 0
+ 383 43 382 52 379 56 c 0
+ 371 69 363 80 356 87 c 0
+ 341 103 334 120 334 138 c 0
+ 335 163 342 182 355 196 c 0
+ 381 228 411 248 440 252 c 0
+ 448 254 458 254 470 254 c 0
+ 492 254 511 248 525 236 c 0
+ 536 226 546 211 553 190 c 0
+ 576 123 594 89 605 89 c 2
+ 605 89 610 89 624 89 c 1
+ 624 0 l 1
+ 607 0 l 2
+ 566 0 535 29 512 86 c 0
+ 490 141 474 168 465 168 c 0
+ 453 168 443 165 438 160 c 0
+ 431 154 427 146 427 134 c 0
+ 427 133 434 120 448 96 c 0
+ 465 66 474 44 474 26 c 0
+ 474 1 460 -26 432 -55 c 0
+ 396 -94 346 -117 283 -124 c 0
+ 237 -128 203 -130 182 -130 c 0
+ 142 -130 97 -124 48 -112 c 0
+ -28 -93 -68 -53 -72 9 c 0
+ -73 19 -72 30 -71 43 c 1
+ -158 24 l 1
+EndSplineSet
 EndChar
 
 StartChar: uni0659
@@ -9563,7 +9630,7 @@ EndSplineSet
 EndChar
 
 StartChar: arabic_ring
-Encoding: 65631 -1 514
+Encoding: 65630 -1 514
 Width: 613
 Flags: W
 LayerCount: 2
@@ -9591,7 +9658,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni069A.alt
-Encoding: 65632 -1 515
+Encoding: 65631 -1 515
 Width: 613
 Flags: W
 AnchorPoint: "rtl-below" 340 -182 basechar 0
@@ -9605,7 +9672,7 @@ Colour: ffff
 EndChar
 
 StartChar: uni069A.fina.alt
-Encoding: 65633 -1 516
+Encoding: 65632 -1 516
 Width: 613
 Flags: W
 AnchorPoint: "rtl-below" 119 -242 basechar 0
