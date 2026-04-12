@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1161020814
-ModificationTime: 1775972386
+ModificationTime: 1775977697
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 5
@@ -86,8 +86,8 @@ PUSHB_1
 SCANTYPE
 EndTTInstrs
 LangName: 1033
-OtfFeatName: 'ss02' 1033 "Polytonic Greek alternative circumflex"
 OtfFeatName: 'ss01' 1033 "German alternative umlaut"
+OtfFeatName: 'ss02' 1033 "Polytonic Greek alternative circumflex"
 Encoding: UnicodeBmp
 Compacted: 1
 UnicodeInterp: none
@@ -129,7 +129,7 @@ Grid
 EndSplineSet
 TeXData: 1 0 0 629145 314572 209715 554697 1048576 209715 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "rtl-above-mark" "Arabic above-base mark-to-mark positioning" "rtl-below-mark" "Arabic below-base mark-to-mark positioning" "rtl-above" "Arabic above-base mark positioning" "Ligature rtl-above" "Arabic above-base mark-to-ligature positioning" "rtl-below" "Arabic below-base mark positioning" "Ligature rtl-below" "Arabic below-base mark-to-ligature positioning"
-BeginChars: 65608 481
+BeginChars: 65644 517
 
 StartChar: comma
 Encoding: 44 44 0
@@ -9093,6 +9093,357 @@ Fore
 Refer: 474 64477 N 1 0 0 1 0 0 2
 Substitution2: "Final forms-1" uni0677.fina
 Colour: ffff
+EndChar
+
+StartChar: NameMe.481
+Encoding: 65608 -1 481
+Width: 613
+Flags: W
+AnchorPoint: "rtl-above" 323 482 basechar 0
+AnchorPoint: "rtl-below" 316 -279 basechar 0
+LayerCount: 2
+Fore
+Refer: 514 -1 N 1 0 0 1 205 -248 2
+Refer: 128 1646 N 1 0 0 1 0 0 2
+Refer: 154 -1 N 1 0 0 1 229 325 2
+EndChar
+
+StartChar: NameMe.482
+Encoding: 65609 -1 482
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 2 9254 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: NameMe.483
+Encoding: 65610 -1 483
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 2 9254 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: NameMe.484
+Encoding: 65611 -1 484
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 2 9254 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: NameMe.485
+Encoding: 65612 -1 485
+Width: 613
+Flags: W
+AnchorPoint: "rtl-below" 294 -276 basechar 0
+LayerCount: 2
+Fore
+Refer: 151 -1 N 1 0 0 1 -41 -100 2
+Refer: 168 1581 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: NameMe.486
+Encoding: 65613 -1 486
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 2 9254 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: NameMe.487
+Encoding: 65614 -1 487
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 2 9254 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: NameMe.488
+Encoding: 65615 -1 488
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 2 9254 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: NameMe.489
+Encoding: 65616 -1 489
+Width: 613
+Flags: W
+AnchorPoint: "rtl-below" 286 -271 basechar 0
+LayerCount: 2
+Fore
+Refer: 155 -1 N 1 0 0 1 175 522 2
+Refer: 168 1581 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: NameMe.490
+Encoding: 65617 -1 490
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 2 9254 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: NameMe.491
+Encoding: 65618 -1 491
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 2 9254 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: NameMe.492
+Encoding: 65619 -1 492
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 2 9254 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: NameMe.493
+Encoding: 65620 -1 493
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 2 9254 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: NameMe.494
+Encoding: 65621 -1 494
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 2 9254 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: NameMe.495
+Encoding: 65622 -1 495
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 2 9254 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: NameMe.496
+Encoding: 65623 -1 496
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 2 9254 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: NameMe.497
+Encoding: 65624 -1 497
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 2 9254 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: NameMe.498
+Encoding: 65625 -1 498
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 2 9254 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: NameMe.499
+Encoding: 65626 -1 499
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 2 9254 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: NameMe.500
+Encoding: 65627 -1 500
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 2 9254 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: NameMe.501
+Encoding: 65628 -1 501
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 2 9254 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: NameMe.502
+Encoding: 65629 -1 502
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 2 9254 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: NameMe.503
+Encoding: 65630 -1 503
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 2 9254 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: NameMe.504
+Encoding: 65631 -1 504
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 2 9254 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: NameMe.505
+Encoding: 65632 -1 505
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 2 9254 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: NameMe.506
+Encoding: 65633 -1 506
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 2 9254 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: NameMe.507
+Encoding: 65634 -1 507
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 2 9254 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: NameMe.508
+Encoding: 65635 -1 508
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 2 9254 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: NameMe.509
+Encoding: 65636 -1 509
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 2 9254 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: NameMe.510
+Encoding: 65637 -1 510
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 2 9254 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: NameMe.511
+Encoding: 65638 -1 511
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 2 9254 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: NameMe.512
+Encoding: 65639 -1 512
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 2 9254 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: NameMe.513
+Encoding: 65640 -1 513
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 2 9254 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: arabic_ring
+Encoding: 65641 -1 514
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+157 110 m 0
+ 157 123 152 135 143 144 c 0
+ 134 153 122 159 108 159 c 0
+ 94 159 82 153 73 144 c 0
+ 64 135 58 123 58 110 c 0
+ 58 96 64 84 73 75 c 0
+ 82 66 94 61 108 61 c 0
+ 122 61 134 67 143 76 c 0
+ 152 85 157 97 157 110 c 0
+217 110 m 0
+ 218 79 207 53 186 32 c 0
+ 165 11 139 0 108 0 c 0
+ 77 0 51 11 30 32 c 0
+ 9 53 -2 79 -2 110 c 0
+ -2 141 9 167 30 188 c 0
+ 51 209 77 220 108 220 c 0
+ 139 220 165 209 186 188 c 0
+ 207 167 218 141 217 110 c 0
+EndSplineSet
+EndChar
+
+StartChar: NameMe.515
+Encoding: 65642 -1 515
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 2 9254 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: NameMe.516
+Encoding: 65643 -1 516
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 2 9254 N 1 0 0 1 0 0 2
 EndChar
 EndChars
 EndSplineFont
