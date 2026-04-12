@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1161020814
-ModificationTime: 1775919420
+ModificationTime: 1775959606
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 5
@@ -47,22 +47,22 @@ OS2FamilyClass: 2048
 OS2Vendor: 'PfEd'
 Lookup: 1 0 0 "Urdu Arabic-Indic digits" { "Urdu Arabic-Indic digits-1" ("urdu") } ['locl' ('arab' <'URD ' > ) ]
 Lookup: 1 0 0 "Sindhi forms" { "Sindhi forms-1"  } ['locl' ('arab' <'SND ' > ) ]
-Lookup: 1 0 0 "Central Asian feh" { "Central Asian feh-1"  } ['locl' ('arab' <'KIR ' 'UYG ' > ) ]
+Lookup: 1 0 0 "Central Asian feh" { "Central Asian feh-1"  } ['locl' ('arab' <'KAZ ' 'KIR ' 'UYG ' > ) ]
 Lookup: 1 0 0 "Kyrgyz forms" { "Kyrgyz forms-1"  } ['locl' ('arab' <'KIR ' > ) ]
-Lookup: 1 1 0 "Initial forms" { "Initial forms-1"  } ['init' ('DFLT' <'dflt' > 'arab' <'KIR ' 'SND ' 'URD ' 'UYG ' 'dflt' > ) ]
-Lookup: 1 1 0 "Medial forms" { "Medial forms-1"  } ['medi' ('DFLT' <'dflt' > 'arab' <'KIR ' 'SND ' 'URD ' 'UYG ' 'dflt' > ) ]
-Lookup: 1 1 0 "Final forms" { "Final forms-1"  } ['fina' ('DFLT' <'dflt' > 'arab' <'KIR ' 'SND ' 'URD ' 'UYG ' 'dflt' > ) ]
-Lookup: 1 1 0 "Isolated forms" { "Isolated forms-1"  } ['isol' ('DFLT' <'dflt' > 'arab' <'KIR ' 'SND ' 'URD ' 'UYG ' 'dflt' > ) ]
-Lookup: 4 9 1 "Lam-Alef ligature" { "Lam-Alef ligature-1"  } ['rlig' ('DFLT' <'dflt' > 'arab' <'KIR ' 'SND ' 'URD ' 'UYG ' 'dflt' > ) ]
-Lookup: 6 9 0 "Legacy wide seen and sad" { "Legacy wide seen and sad-1"  } ['calt' ('DFLT' <'dflt' > 'arab' <'KIR ' 'SND ' 'URD ' 'UYG ' 'dflt' > ) ]
+Lookup: 1 1 0 "Initial forms" { "Initial forms-1"  } ['init' ('DFLT' <'dflt' > 'arab' <'KAZ ' 'KIR ' 'SND ' 'URD ' 'UYG ' 'dflt' > ) ]
+Lookup: 1 1 0 "Medial forms" { "Medial forms-1"  } ['medi' ('DFLT' <'dflt' > 'arab' <'KAZ ' 'KIR ' 'SND ' 'URD ' 'UYG ' 'dflt' > ) ]
+Lookup: 1 1 0 "Final forms" { "Final forms-1"  } ['fina' ('DFLT' <'dflt' > 'arab' <'KAZ ' 'KIR ' 'SND ' 'URD ' 'UYG ' 'dflt' > ) ]
+Lookup: 1 1 0 "Isolated forms" { "Isolated forms-1"  } ['isol' ('DFLT' <'dflt' > 'arab' <'KAZ ' 'KIR ' 'SND ' 'URD ' 'UYG ' 'dflt' > ) ]
+Lookup: 4 9 1 "Lam-Alef ligature" { "Lam-Alef ligature-1"  } ['rlig' ('DFLT' <'dflt' > 'arab' <'KAZ ' 'KIR ' 'SND ' 'URD ' 'UYG ' 'dflt' > ) ]
+Lookup: 6 9 0 "Legacy wide seen and sad" { "Legacy wide seen and sad-1"  } ['calt' ('DFLT' <'dflt' > 'arab' <'KAZ ' 'KIR ' 'SND ' 'URD ' 'UYG ' 'dflt' > ) ]
 Lookup: 1 1 0 "Forms before tail fragment" { "Forms before tail fragment-1" ("alt") } []
-Lookup: 4 1 0 "Composed marks" { "Composed marks-1"  } ['ccmp' ('DFLT' <'dflt' > 'arab' <'KIR ' 'SND ' 'URD ' 'UYG ' 'dflt' > ) ]
-Lookup: 261 1 0 "Arabic below-base mark-to-ligature positioning" { "Arabic below-base mark-to-ligature positioning"  } ['mark' ('DFLT' <'dflt' > 'arab' <'KIR ' 'SND ' 'URD ' 'UYG ' 'dflt' > ) ]
-Lookup: 260 1 0 "Arabic below-base mark positioning" { "Arabic below-base mark positioning"  } ['mark' ('DFLT' <'dflt' > 'arab' <'KIR ' 'SND ' 'URD ' 'UYG ' 'dflt' > ) ]
-Lookup: 261 1 0 "Arabic above-base mark-to-ligature positioning" { "Arabic above-base mark-to-ligature positioning"  } ['mark' ('DFLT' <'dflt' > 'arab' <'KIR ' 'SND ' 'URD ' 'UYG ' 'dflt' > ) ]
-Lookup: 260 1 0 "Arabic above-base mark positioning" { "Arabic above-base mark positioning"  } ['mark' ('DFLT' <'dflt' > 'arab' <'KIR ' 'SND ' 'URD ' 'UYG ' 'dflt' > ) ]
-Lookup: 262 1 0 "Arabic below-base mark-to-mark positioning" { "Arabic below-base mark-to-mark positioning"  } ['mkmk' ('DFLT' <'dflt' > 'arab' <'KIR ' 'SND ' 'URD ' 'UYG ' 'dflt' > ) ]
-Lookup: 262 1 0 "Arabic above-base mark-to-mark positioning" { "Arabic above-base mark-to-mark positioning"  } ['mkmk' ('DFLT' <'dflt' > 'arab' <'KIR ' 'SND ' 'URD ' 'UYG ' 'dflt' > ) ]
+Lookup: 4 1 0 "Composed marks" { "Composed marks-1"  } ['ccmp' ('DFLT' <'dflt' > 'arab' <'KAZ ' 'KIR ' 'SND ' 'URD ' 'UYG ' 'dflt' > ) ]
+Lookup: 261 1 0 "Arabic below-base mark-to-ligature positioning" { "Arabic below-base mark-to-ligature positioning"  } ['mark' ('DFLT' <'dflt' > 'arab' <'KAZ ' 'KIR ' 'SND ' 'URD ' 'UYG ' 'dflt' > ) ]
+Lookup: 260 1 0 "Arabic below-base mark positioning" { "Arabic below-base mark positioning"  } ['mark' ('DFLT' <'dflt' > 'arab' <'KAZ ' 'KIR ' 'SND ' 'URD ' 'UYG ' 'dflt' > ) ]
+Lookup: 261 1 0 "Arabic above-base mark-to-ligature positioning" { "Arabic above-base mark-to-ligature positioning"  } ['mark' ('DFLT' <'dflt' > 'arab' <'KAZ ' 'KIR ' 'SND ' 'URD ' 'UYG ' 'dflt' > ) ]
+Lookup: 260 1 0 "Arabic above-base mark positioning" { "Arabic above-base mark positioning"  } ['mark' ('DFLT' <'dflt' > 'arab' <'KAZ ' 'KIR ' 'SND ' 'URD ' 'UYG ' 'dflt' > ) ]
+Lookup: 262 1 0 "Arabic below-base mark-to-mark positioning" { "Arabic below-base mark-to-mark positioning"  } ['mkmk' ('DFLT' <'dflt' > 'arab' <'KAZ ' 'KIR ' 'SND ' 'URD ' 'UYG ' 'dflt' > ) ]
+Lookup: 262 1 0 "Arabic above-base mark-to-mark positioning" { "Arabic above-base mark-to-mark positioning"  } ['mkmk' ('DFLT' <'dflt' > 'arab' <'KAZ ' 'KIR ' 'SND ' 'URD ' 'UYG ' 'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
 ChainSub2: class "Legacy wide seen and sad-1" 2 0 2 1
@@ -86,8 +86,8 @@ PUSHB_1
 SCANTYPE
 EndTTInstrs
 LangName: 1033
-OtfFeatName: 'ss01' 1033 "German alternative umlaut"
 OtfFeatName: 'ss02' 1033 "Polytonic Greek alternative circumflex"
+OtfFeatName: 'ss01' 1033 "German alternative umlaut"
 Encoding: UnicodeBmp
 Compacted: 1
 UnicodeInterp: none
@@ -129,7 +129,7 @@ Grid
 EndSplineSet
 TeXData: 1 0 0 629145 314572 209715 554697 1048576 209715 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "rtl-above-mark" "Arabic above-base mark-to-mark positioning" "rtl-below-mark" "Arabic below-base mark-to-mark positioning" "rtl-above" "Arabic above-base mark positioning" "Ligature rtl-above" "Arabic above-base mark-to-ligature positioning" "rtl-below" "Arabic below-base mark positioning" "Ligature rtl-below" "Arabic below-base mark-to-ligature positioning"
-BeginChars: 65602 469
+BeginChars: 65602 470
 
 StartChar: comma
 Encoding: 44 44 0
@@ -8930,6 +8930,18 @@ Fore
 Refer: 462 64482 N 1 0 0 1 0 0 2
 Substitution2: "Isolated forms-1" uniFBE2
 Substitution2: "Final forms-1" uniFBE3
+Colour: ffff
+EndChar
+
+StartChar: uni0674
+Encoding: 1652 1652 469
+Width: 613
+Flags: W
+AnchorPoint: "rtl-above" 330 861 basechar 0
+AnchorPoint: "rtl-below" 298 283 basechar 0
+LayerCount: 2
+Fore
+Refer: 3 65152 N 1 0 0 1 0 283 2
 Colour: ffff
 EndChar
 EndChars
