@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1161020814
-ModificationTime: 1775971706
+ModificationTime: 1775972489
 PfmFamily: 49
 TTFWeight: 700
 TTFWidth: 5
@@ -8669,15 +8669,15 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-361 726 m 0
- 361 682 338 659 277 598 c 1
- 238 627 l 1
- 258 644 267 652 279 669 c 0
- 283 674 289 683 289 690 c 0
- 289 698 283 701 276 705 c 0
- 270 709 252 719 252 744 c 0
- 252 770 273 794 302 794 c 0
- 333 794 361 767 361 726 c 0
+375 709 m 0
+ 375 654 346 625 270 549 c 1
+ 221 585 l 1
+ 247 606 258 616 273 638 c 0
+ 277 644 285 655 285 664 c 0
+ 285 674 277 679 269 683 c 0
+ 261 688 239 701 239 732 c 0
+ 239 765 266 794 302 794 c 0
+ 341 794 375 760 375 709 c 0
 EndSplineSet
 EndChar
 
@@ -8997,7 +8997,7 @@ LayerCount: 2
 Fore
 Refer: 151 -1 N 1 0 0 1 198 -260 2
 Refer: 189 1608 N 1 0 0 1 0 0 2
-Refer: 451 -1 N 1 0 0 1 14 -236 2
+Refer: 451 -1 N 1 0 0 1 -36 -236 2
 Colour: ffff
 EndChar
 
@@ -9011,7 +9011,7 @@ LayerCount: 2
 Fore
 Refer: 151 -1 N 1 0 0 1 161 -267 2
 Refer: 113 65262 N 1 0 0 1 0 0 2
-Refer: 451 -1 N 1 0 0 1 -17 -236 2
+Refer: 451 -1 N 1 0 0 1 -67 -236 2
 Colour: ffff
 EndChar
 

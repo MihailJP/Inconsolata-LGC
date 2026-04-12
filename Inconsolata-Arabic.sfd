@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1161020814
-ModificationTime: 1775971647
+ModificationTime: 1775972386
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 5
@@ -86,8 +86,8 @@ PUSHB_1
 SCANTYPE
 EndTTInstrs
 LangName: 1033
-OtfFeatName: 'ss01' 1033 "German alternative umlaut"
 OtfFeatName: 'ss02' 1033 "Polytonic Greek alternative circumflex"
+OtfFeatName: 'ss01' 1033 "German alternative umlaut"
 Encoding: UnicodeBmp
 Compacted: 1
 UnicodeInterp: none
@@ -8681,15 +8681,15 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-356 739 m 0
- 356 702 330 656 280 606 c 0
- 255 627 l 0
- 272 643 284 661 291 672 c 0
- 295 678 302 689 302 701 c 0
- 302 715 291 723 285 727 c 0
- 279 731 265 739 265 758 c 0
- 265 780 283 799 306 799 c 0
- 331 799 356 776 356 739 c 0
+369 725 m 0
+ 369 679 336 621 274 558 c 0
+ 244 585 l 0
+ 265 605 279 626 288 640 c 0
+ 292 648 301 662 301 677 c 0
+ 301 695 288 705 280 710 c 0
+ 272 715 256 724 256 748 c 0
+ 256 775 277 800 306 800 c 0
+ 338 800 369 771 369 725 c 0
 EndSplineSet
 EndChar
 
@@ -9009,7 +9009,7 @@ LayerCount: 2
 Fore
 Refer: 151 -1 N 1 0 0 1 198 -280 2
 Refer: 189 1608 N 1 0 0 1 0 0 2
-Refer: 451 -1 N 1 0 0 1 -4 -254 2
+Refer: 451 -1 N 1 0 0 1 -54 -254 2
 Colour: ffff
 EndChar
 
@@ -9023,7 +9023,7 @@ LayerCount: 2
 Fore
 Refer: 151 -1 N 1 0 0 1 177 -278 2
 Refer: 113 65262 N 1 0 0 1 0 0 2
-Refer: 451 -1 N 1 0 0 1 -34 -254 2
+Refer: 451 -1 N 1 0 0 1 -84 -254 2
 Colour: ffff
 EndChar
 
