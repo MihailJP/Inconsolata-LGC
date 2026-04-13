@@ -66,7 +66,7 @@ Lookup: 262 1 0 "Arabic above-base mark-to-mark positioning" { "Arabic above-bas
 MarkAttachClasses: 1
 DEI: 91125
 ChainSub2: class "Legacy wide seen and sad-1" 2 0 2 1
-  Class: 63 uniFEB1 uniFEB2 uniFEB5 uniFEB6 uniFEB9 uniFEBA uniFEBD uniFEBE
+  Class: 84 uniFEB1 uniFEB2 uniFEB5 uniFEB6 uniFEB9 uniFEBA uniFEBD uniFEBE uni069A uni069A.fina
   FClass: 7 uniFE73
  1 0 1
   ClsList: 1
