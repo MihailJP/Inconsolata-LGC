@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1161020814
-ModificationTime: 1776091490
+ModificationTime: 1776095640
 PfmFamily: 49
 TTFWeight: 700
 TTFWidth: 5
@@ -125,7 +125,7 @@ Grid
 EndSplineSet
 TeXData: 1 0 0 629145 314572 209715 554697 1048576 209715 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "rtl-above-mark" "Arabic above-base mark-to-mark positioning" "rtl-below-mark" "Arabic below-base mark-to-mark positioning" "rtl-above" "Arabic above-base mark positioning" "Ligature rtl-above" "Arabic above-base mark-to-ligature positioning" "rtl-below" "Arabic below-base mark positioning" "Ligature rtl-below" "Arabic below-base mark-to-ligature positioning"
-BeginChars: 65694 587
+BeginChars: 65690 587
 
 StartChar: comma
 Encoding: 44 44 0
@@ -2925,6 +2925,7 @@ LayerCount: 2
 Fore
 Refer: 150 -1 N 1 0 0 1 -183 150 2
 Refer: 126 65275 N 1 0 0 1 0 0 2
+LCarets2: 1 306
 Ligature2: "Lam-Alef ligature-1" uniFEDF uniFE82
 Colour: ffff
 EndChar
@@ -2941,6 +2942,7 @@ LayerCount: 2
 Fore
 Refer: 150 -1 N 1 0 0 1 -209 150 2
 Refer: 127 65276 N 1 0 0 1 0 0 2
+LCarets2: 1 306
 Ligature2: "Lam-Alef ligature-1" uniFEE0 uniFE82
 Colour: ffff
 EndChar
@@ -2957,6 +2959,7 @@ LayerCount: 2
 Fore
 Refer: 151 -1 N 1 0 0 1 -203 150 2
 Refer: 126 65275 N 1 0 0 1 0 0 2
+LCarets2: 1 306
 Ligature2: "Lam-Alef ligature-1" uniFEDF uniFE84
 Colour: ffff
 EndChar
@@ -2973,6 +2976,7 @@ LayerCount: 2
 Fore
 Refer: 151 -1 N 1 0 0 1 -240 150 2
 Refer: 127 65276 N 1 0 0 1 0 0 2
+LCarets2: 1 306
 Ligature2: "Lam-Alef ligature-1" uniFEE0 uniFE84
 Colour: ffff
 EndChar
@@ -2989,6 +2993,7 @@ LayerCount: 2
 Fore
 Refer: 152 -1 N 1 0 0 1 -158 -13 2
 Refer: 126 65275 N 1 0 0 1 0 0 2
+LCarets2: 1 306
 Ligature2: "Lam-Alef ligature-1" uniFEDF uniFE88
 Colour: ffff
 EndChar
@@ -3005,6 +3010,7 @@ LayerCount: 2
 Fore
 Refer: 152 -1 N 1 0 0 1 -158 -18 2
 Refer: 127 65276 N 1 0 0 1 0 0 2
+LCarets2: 1 306
 Ligature2: "Lam-Alef ligature-1" uniFEE0 uniFE88
 Colour: ffff
 EndChar
@@ -3041,7 +3047,7 @@ SplineSet
  545 737 537 740 537 738 c 2
  537 417 l 2
 EndSplineSet
-LCarets2: 1 0
+LCarets2: 1 306
 Ligature2: "Lam-Alef ligature-1" uniFEDF uniFE8E
 EndChar
 
@@ -3081,7 +3087,7 @@ SplineSet
  507 0 466 30 436 91 c 0
  430 103 426 114 423 126 c 1
 EndSplineSet
-LCarets2: 1 0
+LCarets2: 1 306
 Ligature2: "Lam-Alef ligature-1" uniFEE0 uniFE8E
 EndChar
 
@@ -9994,8 +10000,8 @@ Refer: 113 65262 N 1 0 0 1 0 0 2
 Colour: ffff
 EndChar
 
-StartChar: NameMe.539
-Encoding: 65646 -1 539
+StartChar: uni0692
+Encoding: 1682 1682 539
 Width: 613
 Flags: W
 AnchorPoint: "rtl-above" 310 583 basechar 0
@@ -10004,56 +10010,79 @@ LayerCount: 2
 Fore
 Refer: 48 65197 N 1 0 0 1 0 0 2
 Refer: 449 -1 N 1 0 0 1 159 -279 2
+Substitution2: "Final forms-1" uni0692.fina
 Colour: ffff
 EndChar
 
-StartChar: NameMe.540
-Encoding: 65647 -1 540
+StartChar: uni0692.fina
+Encoding: 65646 -1 540
 Width: 613
 Flags: W
+AnchorPoint: "rtl-above" 256 591 basechar 0
+AnchorPoint: "rtl-below" 216 -278 basechar 0
 LayerCount: 2
 Fore
-Refer: 2 9254 N 1 0 0 1 0 0 2
+Refer: 449 -1 N 1 0 0 1 105 -271 2
+Refer: 49 65198 N 1 0 0 1 0 0 2
+Colour: ffff
 EndChar
 
-StartChar: NameMe.541
-Encoding: 65648 -1 541
+StartChar: uni0694
+Encoding: 1684 1684 541
 Width: 613
 Flags: W
+AnchorPoint: "rtl-below" 278 -273 basechar 0
+AnchorPoint: "rtl-above" 247 430 basechar 0
 LayerCount: 2
 Fore
-Refer: 2 9254 N 1 0 0 1 0 0 2
+Refer: 153 -1 N 1 0 0 1 510 -247 2
+Refer: 48 65197 N 1 0 0 1 0 0 2
+Substitution2: "Final forms-1" uni0694.fina
+Colour: ffff
 EndChar
 
-StartChar: NameMe.542
-Encoding: 65649 -1 542
+StartChar: uni0694.fina
+Encoding: 65647 -1 542
 Width: 613
 Flags: W
+AnchorPoint: "rtl-below" 211 -278 basechar 0
+AnchorPoint: "rtl-above" 171 451 basechar 0
 LayerCount: 2
 Fore
-Refer: 2 9254 N 1 0 0 1 0 0 2
+Refer: 153 -1 N 1 0 0 1 456 -245 2
+Refer: 49 65198 N 1 0 0 1 0 0 2
+Colour: ffff
 EndChar
 
-StartChar: NameMe.543
-Encoding: 65650 -1 543
+StartChar: uni0695
+Encoding: 1685 1685 543
 Width: 613
 Flags: W
+AnchorPoint: "rtl-below" 278 -273 basechar 0
+AnchorPoint: "rtl-above" 247 430 basechar 0
 LayerCount: 2
 Fore
-Refer: 2 9254 N 1 0 0 1 0 0 2
+Refer: 449 -1 N 1 0 0 1 230 -883 2
+Refer: 48 65197 N 1 0 0 1 0 0 2
+Substitution2: "Final forms-1" uni0695.fina
+Colour: ffff
 EndChar
 
-StartChar: NameMe.544
-Encoding: 65651 -1 544
+StartChar: uni0695.fina
+Encoding: 65648 -1 544
 Width: 613
 Flags: W
+AnchorPoint: "rtl-below" 211 -278 basechar 0
+AnchorPoint: "rtl-above" 171 451 basechar 0
 LayerCount: 2
 Fore
-Refer: 2 9254 N 1 0 0 1 0 0 2
+Refer: 449 -1 N 1 0 0 1 175 -881 2
+Refer: 49 65198 N 1 0 0 1 0 0 2
+Colour: ffff
 EndChar
 
-StartChar: NameMe.545
-Encoding: 65652 -1 545
+StartChar: uni06B5
+Encoding: 1717 1717 545
 Width: 613
 Flags: W
 AnchorPoint: "rtl-above" 499 1050 basechar 0
@@ -10062,38 +10091,53 @@ LayerCount: 2
 Fore
 Refer: 449 -1 N 1 0 0 1 194 200 2
 Refer: 96 65245 N 1 0 0 1 0 0 2
+Substitution2: "Final forms-1" uni06B5.fina
+Substitution2: "Medial forms-1" uni06B5.medi
+Substitution2: "Initial forms-1" uni06B5.init
 Colour: ffff
 EndChar
 
-StartChar: NameMe.546
-Encoding: 65653 -1 546
+StartChar: uni06B5.fina
+Encoding: 65649 -1 546
 Width: 613
 Flags: W
+AnchorPoint: "rtl-above" 466 1050 basechar 0
+AnchorPoint: "rtl-below" 253 -219 basechar 0
 LayerCount: 2
 Fore
-Refer: 2 9254 N 1 0 0 1 0 0 2
+Refer: 449 -1 N 1 0 0 1 161 200 2
+Refer: 97 65246 N 1 0 0 1 0 0 2
+Colour: ffff
 EndChar
 
-StartChar: NameMe.547
-Encoding: 65654 -1 547
+StartChar: uni06B5.init
+Encoding: 65650 -1 547
 Width: 613
 Flags: W
+AnchorPoint: "rtl-above" 446 1050 basechar 0
+AnchorPoint: "rtl-below" 284 -63 basechar 0
 LayerCount: 2
 Fore
-Refer: 2 9254 N 1 0 0 1 0 0 2
+Refer: 449 -1 N 1 0 0 1 141 200 2
+Refer: 98 65247 N 1 0 0 1 0 0 2
+Colour: ffff
 EndChar
 
-StartChar: NameMe.548
-Encoding: 65655 -1 548
+StartChar: uni06B5.medi
+Encoding: 65651 -1 548
 Width: 613
 Flags: W
+AnchorPoint: "rtl-above" 298 1050 basechar 0
+AnchorPoint: "rtl-below" 304 -71 basechar 0
 LayerCount: 2
 Fore
-Refer: 2 9254 N 1 0 0 1 0 0 2
+Refer: 449 -1 N 1 0 0 1 -7 200 2
+Refer: 99 65248 N 1 0 0 1 0 0 2
+Colour: ffff
 EndChar
 
 StartChar: NameMe.549
-Encoding: 65656 -1 549
+Encoding: 65652 -1 549
 Width: 613
 Flags: W
 LayerCount: 2
@@ -10102,7 +10146,7 @@ Refer: 2 9254 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.550
-Encoding: 65657 -1 550
+Encoding: 65653 -1 550
 Width: 613
 Flags: W
 LayerCount: 2
@@ -10111,7 +10155,7 @@ Refer: 2 9254 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.551
-Encoding: 65658 -1 551
+Encoding: 65654 -1 551
 Width: 613
 Flags: W
 LayerCount: 2
@@ -10120,7 +10164,7 @@ Refer: 2 9254 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.552
-Encoding: 65659 -1 552
+Encoding: 65655 -1 552
 Width: 613
 Flags: W
 LayerCount: 2
@@ -10129,7 +10173,7 @@ Refer: 2 9254 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.553
-Encoding: 65660 -1 553
+Encoding: 65656 -1 553
 Width: 613
 Flags: W
 LayerCount: 2
@@ -10138,7 +10182,7 @@ Refer: 2 9254 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.554
-Encoding: 65661 -1 554
+Encoding: 65657 -1 554
 Width: 613
 Flags: W
 LayerCount: 2
@@ -10147,7 +10191,7 @@ Refer: 2 9254 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.555
-Encoding: 65662 -1 555
+Encoding: 65658 -1 555
 Width: 613
 Flags: W
 LayerCount: 2
@@ -10156,7 +10200,7 @@ Refer: 2 9254 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.556
-Encoding: 65663 -1 556
+Encoding: 65659 -1 556
 Width: 613
 Flags: W
 LayerCount: 2
@@ -10165,7 +10209,7 @@ Refer: 2 9254 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.557
-Encoding: 65664 -1 557
+Encoding: 65660 -1 557
 Width: 613
 Flags: W
 LayerCount: 2
@@ -10174,7 +10218,7 @@ Refer: 2 9254 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.558
-Encoding: 65665 -1 558
+Encoding: 65661 -1 558
 Width: 613
 Flags: W
 LayerCount: 2
@@ -10183,7 +10227,7 @@ Refer: 2 9254 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.559
-Encoding: 65666 -1 559
+Encoding: 65662 -1 559
 Width: 613
 Flags: W
 AnchorPoint: "rtl-above" 183 598 basechar 0
@@ -10196,7 +10240,7 @@ Colour: ffff
 EndChar
 
 StartChar: NameMe.560
-Encoding: 65667 -1 560
+Encoding: 65663 -1 560
 Width: 613
 Flags: W
 LayerCount: 2
@@ -10205,7 +10249,7 @@ Refer: 2 9254 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.561
-Encoding: 65668 -1 561
+Encoding: 65664 -1 561
 Width: 613
 Flags: W
 LayerCount: 2
@@ -10214,7 +10258,7 @@ Refer: 2 9254 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.562
-Encoding: 65669 -1 562
+Encoding: 65665 -1 562
 Width: 613
 Flags: W
 LayerCount: 2
@@ -10222,80 +10266,150 @@ Fore
 Refer: 2 9254 N 1 0 0 1 0 0 2
 EndChar
 
-StartChar: NameMe.563
-Encoding: 65670 -1 563
+StartChar: uni06B5_uni0622
+Encoding: 65666 -1 563
 Width: 613
 Flags: W
+AnchorPoint: "Ligature rtl-above" 473 1050 baselig 0
+AnchorPoint: "Ligature rtl-above" 68 930 baselig 1
+AnchorPoint: "Ligature rtl-below" 494 40 baselig 0
+AnchorPoint: "Ligature rtl-below" 430 6 baselig 1
 LayerCount: 2
 Fore
-Refer: 2 9254 N 1 0 0 1 0 0 2
+Refer: 449 -1 N 1 0 0 1 168 200 2
+Refer: 150 -1 N 1 0 0 1 -183 150 2
+Refer: 126 65275 N 1 0 0 1 0 0 2
+LCarets2: 1 306
+Ligature2: "Lam-Alef ligature-1" uni06B5.init uniFE82
+Colour: ffff
 EndChar
 
-StartChar: NameMe.564
-Encoding: 65671 -1 564
+StartChar: uni06B5_uni0622.fina
+Encoding: 65667 -1 564
 Width: 613
 Flags: W
+AnchorPoint: "Ligature rtl-above" 450 1050 baselig 0
+AnchorPoint: "Ligature rtl-above" 56 919 baselig 1
+AnchorPoint: "Ligature rtl-below" 422 -26 baselig 0
+AnchorPoint: "Ligature rtl-below" 346 -35 baselig 1
 LayerCount: 2
 Fore
-Refer: 2 9254 N 1 0 0 1 0 0 2
+Refer: 449 -1 N 1 0 0 1 145 200 2
+Refer: 150 -1 N 1 0 0 1 -209 150 2
+Refer: 127 65276 N 1 0 0 1 0 0 2
+LCarets2: 1 306
+Ligature2: "Lam-Alef ligature-1" uni06B5.medi uniFE82
+Colour: ffff
 EndChar
 
-StartChar: NameMe.565
-Encoding: 65672 -1 565
+StartChar: uni06B5_uni0623
+Encoding: 65668 -1 565
 Width: 613
 Flags: W
+AnchorPoint: "Ligature rtl-above" 473 1050 baselig 0
+AnchorPoint: "Ligature rtl-above" 63 1020 baselig 1
+AnchorPoint: "Ligature rtl-below" 494 40 baselig 0
+AnchorPoint: "Ligature rtl-below" 430 6 baselig 1
 LayerCount: 2
 Fore
-Refer: 2 9254 N 1 0 0 1 0 0 2
+Refer: 449 -1 N 1 0 0 1 168 200 2
+Refer: 151 -1 N 1 0 0 1 -203 150 2
+Refer: 126 65275 N 1 0 0 1 0 0 2
+LCarets2: 1 306
+Ligature2: "Lam-Alef ligature-1" uni06B5.init uniFE84
+Colour: ffff
 EndChar
 
-StartChar: NameMe.566
-Encoding: 65673 -1 566
+StartChar: uni06B5_uni0623.fina
+Encoding: 65669 -1 566
 Width: 613
 Flags: W
+AnchorPoint: "Ligature rtl-above" 450 1050 baselig 0
+AnchorPoint: "Ligature rtl-above" 26 1029 baselig 1
+AnchorPoint: "Ligature rtl-below" 412 -46 baselig 0
+AnchorPoint: "Ligature rtl-below" 311 -55 baselig 1
 LayerCount: 2
 Fore
-Refer: 2 9254 N 1 0 0 1 0 0 2
+Refer: 449 -1 N 1 0 0 1 145 200 2
+Refer: 151 -1 N 1 0 0 1 -240 150 2
+Refer: 127 65276 N 1 0 0 1 0 0 2
+LCarets2: 1 306
+Ligature2: "Lam-Alef ligature-1" uni06B5.medi uniFE84
+Colour: ffff
 EndChar
 
-StartChar: NameMe.567
-Encoding: 65674 -1 567
+StartChar: uni06B5_uni0625
+Encoding: 65670 -1 567
 Width: 613
 Flags: W
+AnchorPoint: "Ligature rtl-above" 473 1050 baselig 0
+AnchorPoint: "Ligature rtl-above" 110 751 baselig 1
+AnchorPoint: "Ligature rtl-below" 456 5 baselig 0
+AnchorPoint: "Ligature rtl-below" 149 -295 baselig 1
 LayerCount: 2
 Fore
-Refer: 2 9254 N 1 0 0 1 0 0 2
+Refer: 449 -1 N 1 0 0 1 168 200 2
+Refer: 152 -1 N 1 0 0 1 -158 -13 2
+Refer: 126 65275 N 1 0 0 1 0 0 2
+LCarets2: 1 306
+Ligature2: "Lam-Alef ligature-1" uni06B5.init uniFE88
+Colour: ffff
 EndChar
 
-StartChar: NameMe.568
-Encoding: 65675 -1 568
+StartChar: uni06B5_uni0625.fina
+Encoding: 65671 -1 568
 Width: 613
 Flags: W
+AnchorPoint: "Ligature rtl-above" 450 1050 baselig 0
+AnchorPoint: "Ligature rtl-above" 110 751 baselig 1
+AnchorPoint: "Ligature rtl-below" 410 -64 baselig 0
+AnchorPoint: "Ligature rtl-below" 141 -304 baselig 1
 LayerCount: 2
 Fore
-Refer: 2 9254 N 1 0 0 1 0 0 2
+Refer: 449 -1 N 1 0 0 1 145 200 2
+Refer: 152 -1 N 1 0 0 1 -158 -18 2
+Refer: 127 65276 N 1 0 0 1 0 0 2
+LCarets2: 1 306
+Ligature2: "Lam-Alef ligature-1" uni06B5.medi uniFE88
+Colour: ffff
 EndChar
 
-StartChar: NameMe.569
-Encoding: 65676 -1 569
+StartChar: uni06B5_uni0627
+Encoding: 65672 -1 569
 Width: 613
 Flags: W
+AnchorPoint: "Ligature rtl-above" 473 1050 baselig 0
+AnchorPoint: "Ligature rtl-below" 494 40 baselig 0
+AnchorPoint: "Ligature rtl-below" 430 6 baselig 1
+AnchorPoint: "Ligature rtl-above" 110 751 baselig 1
 LayerCount: 2
 Fore
-Refer: 2 9254 N 1 0 0 1 0 0 2
+Refer: 449 -1 N 1 0 0 1 168 200 2
+Refer: 126 65275 N 1 0 0 1 0 0 2
+LCarets2: 1 306
+Ligature2: "Lam-Alef ligature-1" uni06B5.init uniFE8E
+Colour: ffff
 EndChar
 
-StartChar: NameMe.570
-Encoding: 65677 -1 570
+StartChar: uni06B5_uni0627.fina
+Encoding: 65673 -1 570
 Width: 613
 Flags: W
+AnchorPoint: "Ligature rtl-above" 450 1050 baselig 0
+AnchorPoint: "Ligature rtl-below" 340 -50 baselig 0
+AnchorPoint: "Ligature rtl-below" 375 -20 baselig 1
+AnchorPoint: "Ligature rtl-above" 92 751 baselig 1
 LayerCount: 2
 Fore
-Refer: 2 9254 N 1 0 0 1 0 0 2
+Refer: 449 -1 N 1 0 0 1 145 200 2
+Refer: 127 65276 N 1 0 0 1 0 0 2
+LCarets2: 1 306
+Ligature2: "Lam-Alef ligature-1" uni06B5.medi uniFE8E
+Colour: ffff
 EndChar
 
 StartChar: NameMe.571
-Encoding: 65678 -1 571
+Encoding: 65674 -1 571
 Width: 613
 Flags: W
 LayerCount: 2
@@ -10304,7 +10418,7 @@ Refer: 2 9254 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.572
-Encoding: 65679 -1 572
+Encoding: 65675 -1 572
 Width: 613
 Flags: W
 LayerCount: 2
@@ -10313,7 +10427,7 @@ Refer: 2 9254 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.573
-Encoding: 65680 -1 573
+Encoding: 65676 -1 573
 Width: 613
 Flags: W
 LayerCount: 2
@@ -10322,7 +10436,7 @@ Refer: 2 9254 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.574
-Encoding: 65681 -1 574
+Encoding: 65677 -1 574
 Width: 613
 Flags: W
 LayerCount: 2
@@ -10331,7 +10445,7 @@ Refer: 2 9254 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.575
-Encoding: 65682 -1 575
+Encoding: 65678 -1 575
 Width: 613
 Flags: W
 LayerCount: 2
@@ -10340,7 +10454,7 @@ Refer: 2 9254 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.576
-Encoding: 65683 -1 576
+Encoding: 65679 -1 576
 Width: 613
 Flags: W
 LayerCount: 2
@@ -10349,7 +10463,7 @@ Refer: 2 9254 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.577
-Encoding: 65684 -1 577
+Encoding: 65680 -1 577
 Width: 613
 Flags: W
 LayerCount: 2
@@ -10358,7 +10472,7 @@ Refer: 2 9254 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.578
-Encoding: 65685 -1 578
+Encoding: 65681 -1 578
 Width: 613
 Flags: W
 LayerCount: 2
@@ -10367,7 +10481,7 @@ Refer: 2 9254 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.579
-Encoding: 65686 -1 579
+Encoding: 65682 -1 579
 Width: 613
 Flags: W
 LayerCount: 2
@@ -10376,7 +10490,7 @@ Refer: 2 9254 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.580
-Encoding: 65687 -1 580
+Encoding: 65683 -1 580
 Width: 613
 Flags: W
 LayerCount: 2
@@ -10385,7 +10499,7 @@ Refer: 2 9254 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.581
-Encoding: 65688 -1 581
+Encoding: 65684 -1 581
 Width: 613
 Flags: W
 LayerCount: 2
@@ -10394,7 +10508,7 @@ Refer: 2 9254 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.582
-Encoding: 65689 -1 582
+Encoding: 65685 -1 582
 Width: 613
 Flags: W
 LayerCount: 2
@@ -10403,7 +10517,7 @@ Refer: 2 9254 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.583
-Encoding: 65690 -1 583
+Encoding: 65686 -1 583
 Width: 613
 Flags: W
 LayerCount: 2
@@ -10412,7 +10526,7 @@ Refer: 2 9254 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.584
-Encoding: 65691 -1 584
+Encoding: 65687 -1 584
 Width: 613
 Flags: W
 LayerCount: 2
@@ -10421,7 +10535,7 @@ Refer: 2 9254 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.585
-Encoding: 65692 -1 585
+Encoding: 65688 -1 585
 Width: 613
 Flags: W
 LayerCount: 2
@@ -10430,7 +10544,7 @@ Refer: 2 9254 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.586
-Encoding: 65693 -1 586
+Encoding: 65689 -1 586
 Width: 613
 Flags: W
 LayerCount: 2
