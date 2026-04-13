@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1161020814
-ModificationTime: 1776070610
+ModificationTime: 1776091490
 PfmFamily: 49
 TTFWeight: 700
 TTFWidth: 5
@@ -86,8 +86,8 @@ PUSHB_1
 SCANTYPE
 EndTTInstrs
 LangName: 1033
-OtfFeatName: 'ss02' 1033 "Polytonic Greek alternative circumflex"
 OtfFeatName: 'ss01' 1033 "German alternative umlaut"
+OtfFeatName: 'ss02' 1033 "Polytonic Greek alternative circumflex"
 Encoding: UnicodeBmp
 Compacted: 1
 UnicodeInterp: none
@@ -125,7 +125,7 @@ Grid
 EndSplineSet
 TeXData: 1 0 0 629145 314572 209715 554697 1048576 209715 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "rtl-above-mark" "Arabic above-base mark-to-mark positioning" "rtl-below-mark" "Arabic below-base mark-to-mark positioning" "rtl-above" "Arabic above-base mark positioning" "Ligature rtl-above" "Arabic above-base mark-to-ligature positioning" "rtl-below" "Arabic below-base mark positioning" "Ligature rtl-below" "Arabic below-base mark-to-ligature positioning"
-BeginChars: 65646 539
+BeginChars: 65694 587
 
 StartChar: comma
 Encoding: 44 44 0
@@ -9992,6 +9992,450 @@ Fore
 Refer: 153 -1 N 1 0 0 1 287 442 2
 Refer: 113 65262 N 1 0 0 1 0 0 2
 Colour: ffff
+EndChar
+
+StartChar: NameMe.539
+Encoding: 65646 -1 539
+Width: 613
+Flags: W
+AnchorPoint: "rtl-above" 310 583 basechar 0
+AnchorPoint: "rtl-below" 288 -272 basechar 0
+LayerCount: 2
+Fore
+Refer: 48 65197 N 1 0 0 1 0 0 2
+Refer: 449 -1 N 1 0 0 1 159 -279 2
+Colour: ffff
+EndChar
+
+StartChar: NameMe.540
+Encoding: 65647 -1 540
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 2 9254 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: NameMe.541
+Encoding: 65648 -1 541
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 2 9254 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: NameMe.542
+Encoding: 65649 -1 542
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 2 9254 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: NameMe.543
+Encoding: 65650 -1 543
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 2 9254 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: NameMe.544
+Encoding: 65651 -1 544
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 2 9254 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: NameMe.545
+Encoding: 65652 -1 545
+Width: 613
+Flags: W
+AnchorPoint: "rtl-above" 499 1050 basechar 0
+AnchorPoint: "rtl-below" 273 -212 basechar 0
+LayerCount: 2
+Fore
+Refer: 449 -1 N 1 0 0 1 194 200 2
+Refer: 96 65245 N 1 0 0 1 0 0 2
+Colour: ffff
+EndChar
+
+StartChar: NameMe.546
+Encoding: 65653 -1 546
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 2 9254 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: NameMe.547
+Encoding: 65654 -1 547
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 2 9254 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: NameMe.548
+Encoding: 65655 -1 548
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 2 9254 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: NameMe.549
+Encoding: 65656 -1 549
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 2 9254 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: NameMe.550
+Encoding: 65657 -1 550
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 2 9254 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: NameMe.551
+Encoding: 65658 -1 551
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 2 9254 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: NameMe.552
+Encoding: 65659 -1 552
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 2 9254 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: NameMe.553
+Encoding: 65660 -1 553
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 2 9254 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: NameMe.554
+Encoding: 65661 -1 554
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 2 9254 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: NameMe.555
+Encoding: 65662 -1 555
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 2 9254 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: NameMe.556
+Encoding: 65663 -1 556
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 2 9254 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: NameMe.557
+Encoding: 65664 -1 557
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 2 9254 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: NameMe.558
+Encoding: 65665 -1 558
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 2 9254 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: NameMe.559
+Encoding: 65666 -1 559
+Width: 613
+Flags: W
+AnchorPoint: "rtl-above" 183 598 basechar 0
+AnchorPoint: "rtl-below" 260 -200 basechar 0
+LayerCount: 2
+Fore
+Refer: 449 -1 N 1 0 0 1 -122 -257 2
+Refer: 114 65263 N 1 0 0 1 0 0 2
+Colour: ffff
+EndChar
+
+StartChar: NameMe.560
+Encoding: 65667 -1 560
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 2 9254 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: NameMe.561
+Encoding: 65668 -1 561
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 2 9254 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: NameMe.562
+Encoding: 65669 -1 562
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 2 9254 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: NameMe.563
+Encoding: 65670 -1 563
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 2 9254 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: NameMe.564
+Encoding: 65671 -1 564
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 2 9254 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: NameMe.565
+Encoding: 65672 -1 565
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 2 9254 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: NameMe.566
+Encoding: 65673 -1 566
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 2 9254 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: NameMe.567
+Encoding: 65674 -1 567
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 2 9254 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: NameMe.568
+Encoding: 65675 -1 568
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 2 9254 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: NameMe.569
+Encoding: 65676 -1 569
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 2 9254 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: NameMe.570
+Encoding: 65677 -1 570
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 2 9254 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: NameMe.571
+Encoding: 65678 -1 571
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 2 9254 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: NameMe.572
+Encoding: 65679 -1 572
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 2 9254 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: NameMe.573
+Encoding: 65680 -1 573
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 2 9254 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: NameMe.574
+Encoding: 65681 -1 574
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 2 9254 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: NameMe.575
+Encoding: 65682 -1 575
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 2 9254 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: NameMe.576
+Encoding: 65683 -1 576
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 2 9254 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: NameMe.577
+Encoding: 65684 -1 577
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 2 9254 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: NameMe.578
+Encoding: 65685 -1 578
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 2 9254 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: NameMe.579
+Encoding: 65686 -1 579
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 2 9254 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: NameMe.580
+Encoding: 65687 -1 580
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 2 9254 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: NameMe.581
+Encoding: 65688 -1 581
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 2 9254 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: NameMe.582
+Encoding: 65689 -1 582
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 2 9254 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: NameMe.583
+Encoding: 65690 -1 583
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 2 9254 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: NameMe.584
+Encoding: 65691 -1 584
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 2 9254 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: NameMe.585
+Encoding: 65692 -1 585
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 2 9254 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: NameMe.586
+Encoding: 65693 -1 586
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 2 9254 N 1 0 0 1 0 0 2
 EndChar
 EndChars
 EndSplineFont
