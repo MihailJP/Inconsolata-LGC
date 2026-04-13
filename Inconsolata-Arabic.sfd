@@ -239,7 +239,7 @@ Width: 613
 Flags: MW
 LayerCount: 2
 Fore
-Refer: 162 1575 N 1 0 0 1 0 0 2
+Refer: 16 65165 N 1 0 0 1 0 0 2
 Refer: 150 -1 N 1 0 0 1 -2 224 2
 Colour: ffff
 EndChar
@@ -262,7 +262,7 @@ Flags: MW
 AnchorPoint: "rtl-above" 304 1078 basechar 0
 LayerCount: 2
 Fore
-Refer: 162 1575 N 1 0 0 1 0 0 2
+Refer: 16 65165 N 1 0 0 1 0 0 2
 Refer: 151 -1 N 1 0 0 1 -2 190 2
 Colour: ffff
 EndChar
@@ -286,7 +286,7 @@ Flags: MW
 AnchorPoint: "rtl-above" 364 648 basechar 0
 LayerCount: 2
 Fore
-Refer: 189 1608 N 1 0 0 1 0 0 2
+Refer: 112 65261 N 1 0 0 1 0 0 2
 Refer: 151 -1 N 1 0 0 1 48 -230 2
 Colour: ffff
 EndChar
@@ -310,7 +310,7 @@ Flags: MW
 AnchorPoint: "rtl-below" 303 -266 basechar 0
 LayerCount: 2
 Fore
-Refer: 162 1575 N 1 0 0 1 0 0 2
+Refer: 16 65165 N 1 0 0 1 0 0 2
 Refer: 152 -1 N 1 0 0 1 -2 5 2
 Colour: ffff
 EndChar
@@ -335,7 +335,7 @@ AnchorPoint: "rtl-below" 288 -159 basechar 0
 AnchorPoint: "rtl-above" 240 591 basechar 0
 LayerCount: 2
 Fore
-Refer: 190 1609 N 1 0 0 1 0 0 2
+Refer: 114 65263 N 1 0 0 1 0 0 2
 Refer: 151 -1 N 1 0 0 1 -65 -278 2
 Colour: ffff
 EndChar
@@ -612,7 +612,7 @@ AnchorPoint: "rtl-below" 247 -279 basechar 0
 LayerCount: 2
 Fore
 Refer: 153 -1 N 1 0 0 1 330 6 2
-Refer: 168 1581 N 1 0 0 1 0 0 2
+Refer: 36 65185 N 1 0 0 1 0 0 2
 Colour: ffff
 EndChar
 
@@ -811,7 +811,7 @@ AnchorPoint: "rtl-below" 280 -291 basechar 0
 LayerCount: 2
 Fore
 Refer: 153 -1 N 1 0 0 1 229 525 2
-Refer: 168 1581 N 1 0 0 1 0 0 2
+Refer: 36 65185 N 1 0 0 1 0 0 2
 Colour: ffff
 EndChar
 
@@ -924,7 +924,7 @@ AnchorPoint: "rtl-below" 252 -56 basechar 0
 LayerCount: 2
 Fore
 Refer: 153 -1 N 1 0 0 1 270 533 2
-Refer: 170 1583 N 1 0 0 1 0 0 2
+Refer: 44 65193 N 1 0 0 1 0 0 2
 Colour: ffff
 EndChar
 
@@ -1003,7 +1003,7 @@ AnchorPoint: "rtl-below" 278 -266 basechar 0
 LayerCount: 2
 Fore
 Refer: 153 -1 N 1 0 0 1 426 403 2
-Refer: 172 1585 N 1 0 0 1 0 0 2
+Refer: 48 65197 N 1 0 0 1 0 0 2
 Colour: ffff
 EndChar
 
@@ -1229,7 +1229,7 @@ AnchorPoint: "rtl-below" 340 -182 basechar 0
 LayerCount: 2
 Fore
 Refer: 155 -1 N 1 0 0 1 185 400 2
-Refer: 174 1587 N 1 0 0 1 0 0 2
+Refer: 52 65201 N 1 0 0 1 0 0 2
 Substitution2: "Forms before tail fragment-1" uniFEB5.alt
 Colour: ffff
 EndChar
@@ -1473,7 +1473,7 @@ AnchorPoint: "rtl-below" 415 -147 basechar 0
 LayerCount: 2
 Fore
 Refer: 153 -1 N 1 0 0 1 176 348 2
-Refer: 176 1589 N 1 0 0 1 0 0 2
+Refer: 60 65209 N 1 0 0 1 0 0 2
 Substitution2: "Forms before tail fragment-1" uniFEBD.alt
 Colour: ffff
 EndChar
@@ -1683,7 +1683,7 @@ AnchorPoint: "rtl-below" 178 -70 basechar 0
 LayerCount: 2
 Fore
 Refer: 153 -1 N 1 0 0 1 295 391 2
-Refer: 178 1591 N 1 0 0 1 0 0 2
+Refer: 68 65217 N 1 0 0 1 0 0 2
 Colour: ffff
 EndChar
 
@@ -1893,7 +1893,7 @@ AnchorPoint: "rtl-below" 330 -278 basechar 0
 LayerCount: 2
 Fore
 Refer: 153 -1 N 1 0 0 1 195 599 2
-Refer: 180 1593 N 1 0 0 1 0 0 2
+Refer: 76 65225 N 1 0 0 1 0 0 2
 Colour: ffff
 EndChar
 
@@ -2876,7 +2876,7 @@ AnchorPoint: "rtl-below" 290 -257 basechar 0
 LayerCount: 2
 Fore
 Refer: 154 -1 N 1 0 0 1 192 -238 2
-Refer: 190 1609 N 1 0 0 1 0 0 2
+Refer: 114 65263 N 1 0 0 1 0 0 2
 Colour: ffff
 EndChar
 
@@ -5367,7 +5367,7 @@ AnchorPoint: "rtl-below" 306.7 -273.7 basechar 0
 LayerCount: 2
 Fore
 Refer: 269 -1 N 1 0 0 1 308.4 69 2
-Refer: 168 1581 N 1 0 0 1 0 0 2
+Refer: 36 65185 N 1 0 0 1 0 0 2
 Colour: ffff
 EndChar
 
@@ -5419,7 +5419,7 @@ AnchorPoint: "rtl-below" 265.3 -270.25 basechar 0
 LayerCount: 2
 Fore
 Refer: 155 -1 N 1 0 0 1 367.55 365.6 2
-Refer: 172 1585 N 1 0 0 1 0 0 2
+Refer: 48 65197 N 1 0 0 1 0 0 2
 Colour: ffff
 EndChar
 
@@ -6108,7 +6108,7 @@ AnchorPoint: "rtl-above" 347 604 basechar 0
 AnchorPoint: "rtl-below" 248 -250 basechar 0
 LayerCount: 2
 Fore
-Refer: 172 1585 N 1 0 0 1 0 0 2
+Refer: 48 65197 N 1 0 0 1 0 0 2
 Refer: 305 -1 N 1 0 0 1 177 -292 2
 Colour: ffff
 EndChar
@@ -7708,7 +7708,7 @@ AnchorPoint: "rtl-below" 252 -56 basechar 0
 LayerCount: 2
 Fore
 Refer: 154 -1 N 1 0 0 1 211 533 2
-Refer: 170 1583 N 1 0 0 1 0 0 2
+Refer: 44 65193 N 1 0 0 1 0 0 2
 Colour: ffff
 EndChar
 
@@ -7734,7 +7734,7 @@ AnchorPoint: "rtl-below" 252 -56 basechar 0
 LayerCount: 2
 Fore
 Refer: 155 -1 N 1 0 0 1 211 533 2
-Refer: 170 1583 N 1 0 0 1 0 0 2
+Refer: 44 65193 N 1 0 0 1 0 0 2
 Colour: ffff
 EndChar
 
@@ -7760,7 +7760,7 @@ AnchorPoint: "rtl-below" 252 -56 basechar 0
 LayerCount: 2
 Fore
 Refer: 269 -1 N 1 0 0 1 211.3 649.5 2
-Refer: 170 1583 N 1 0 0 1 0 0 2
+Refer: 44 65193 N 1 0 0 1 0 0 2
 Substitution2: "Final forms-1" uni068F.fina
 Colour: ffff
 EndChar
@@ -7814,7 +7814,7 @@ AnchorPoint: "rtl-below" 265.3 -270.25 basechar 0
 LayerCount: 2
 Fore
 Refer: 418 -1 N 1 0 0 1 368 484 2
-Refer: 172 1585 N 1 0 0 1 0 0 2
+Refer: 48 65197 N 1 0 0 1 0 0 2
 Substitution2: "Final forms-1" uni0699.fina
 Colour: ffff
 EndChar
@@ -8488,7 +8488,7 @@ AnchorPoint: "rtl-above" 358.5 608.2 basechar 0
 AnchorPoint: "rtl-below" 294 -274 basechar 0
 LayerCount: 2
 Fore
-Refer: 189 1608 N 1 0 0 1 0 0 2
+Refer: 112 65261 N 1 0 0 1 0 0 2
 Refer: 451 -1 N 1 0 0 1 46 -254 2
 Colour: ffff
 EndChar
@@ -8515,7 +8515,7 @@ AnchorPoint: "rtl-below" 294 -274 basechar 0
 LayerCount: 2
 Fore
 Refer: 449 -1 N 1 0 0 1 53.9 -249.3 2
-Refer: 189 1608 N 1 0 0 1 0 0 2
+Refer: 112 65261 N 1 0 0 1 0 0 2
 Colour: ffff
 EndChar
 
@@ -8541,7 +8541,7 @@ AnchorPoint: "rtl-below" 294 -274 basechar 0
 LayerCount: 2
 Fore
 Refer: 450 -1 N 1 0 0 1 55 -224 2
-Refer: 189 1608 N 1 0 0 1 0 0 2
+Refer: 112 65261 N 1 0 0 1 0 0 2
 Colour: ffff
 EndChar
 
@@ -8593,7 +8593,7 @@ AnchorPoint: "rtl-above" 342 537 basechar 0
 LayerCount: 2
 Fore
 Refer: 417 -1 N 1 0 0 1 252 -238 2
-Refer: 190 1609 N 1 0 0 1 0 0 2
+Refer: 114 65263 N 1 0 0 1 0 0 2
 Colour: ffff
 EndChar
 
@@ -8786,7 +8786,7 @@ AnchorPoint: "rtl-below" 288 -159 basechar 0
 AnchorPoint: "rtl-above" 440 691 basechar 0
 LayerCount: 2
 Fore
-Refer: 190 1609 N 1 0 0 1 0 0 2
+Refer: 114 65263 N 1 0 0 1 0 0 2
 Refer: 151 -1 N 1 0 0 1 135 -178 2
 Colour: ffff
 EndChar
@@ -8839,7 +8839,7 @@ AnchorPoint: "rtl-below" 294 -274 basechar 0
 LayerCount: 2
 Fore
 Refer: 465 -1 N 1 0 0 1 54 -249 2
-Refer: 189 1608 N 1 0 0 1 0 0 2
+Refer: 112 65261 N 1 0 0 1 0 0 2
 Colour: ffff
 EndChar
 
@@ -9008,7 +9008,7 @@ AnchorPoint: "rtl-below" 294 -274 basechar 0
 LayerCount: 2
 Fore
 Refer: 151 -1 N 1 0 0 1 198 -280 2
-Refer: 189 1608 N 1 0 0 1 0 0 2
+Refer: 112 65261 N 1 0 0 1 0 0 2
 Refer: 451 -1 N 1 0 0 1 -54 -254 2
 Colour: ffff
 EndChar
@@ -9163,7 +9163,7 @@ AnchorPoint: "rtl-below" 294 -276 basechar 0
 LayerCount: 2
 Fore
 Refer: 151 -1 N 1 0 0 1 -41 -100 2
-Refer: 168 1581 N 1 0 0 1 0 0 2
+Refer: 36 65185 N 1 0 0 1 0 0 2
 Substitution2: "Final forms-1" uni0681.fina
 Substitution2: "Medial forms-1" uni0681.medi
 Substitution2: "Initial forms-1" uni0681.init
@@ -9218,7 +9218,7 @@ AnchorPoint: "rtl-below" 286 -271 basechar 0
 LayerCount: 2
 Fore
 Refer: 155 -1 N 1 0 0 1 175 522 2
-Refer: 168 1581 N 1 0 0 1 0 0 2
+Refer: 36 65185 N 1 0 0 1 0 0 2
 Substitution2: "Final forms-1" uni0685.fina
 Substitution2: "Medial forms-1" uni0685.medi
 Substitution2: "Initial forms-1" uni0685.init
@@ -9357,7 +9357,7 @@ LayerCount: 2
 Fore
 Refer: 153 -1 N 1 0 0 1 344 -144 2
 Refer: 153 -1 N 1 0 0 1 244 400 2
-Refer: 174 1587 N 1 0 0 1 0 0 2
+Refer: 52 65201 N 1 0 0 1 0 0 2
 Substitution2: "Forms before tail fragment-1" uni069A.alt
 Substitution2: "Final forms-1" uni069A.fina
 Substitution2: "Medial forms-1" uni069A.medi
@@ -9694,7 +9694,7 @@ AnchorPoint: "rtl-below" 330 -278 basechar 0
 LayerCount: 2
 Fore
 Refer: 155 -1 N 1 0 0 1 134.5 598.852 2
-Refer: 180 1593 N 1 0 0 1 0 0 2
+Refer: 76 65225 N 1 0 0 1 0 0 2
 Substitution2: "Final forms-1" uni06A0.fina
 Substitution2: "Medial forms-1" uni06A0.medi
 Substitution2: "Initial forms-1" uni06A0.init
@@ -9821,7 +9821,7 @@ AnchorPoint: "rtl-below" 252 -56 basechar 0
 LayerCount: 2
 Fore
 Refer: 418 -1 N 1 0 0 1 211 650 2
-Refer: 170 1583 N 1 0 0 1 0 0 2
+Refer: 44 65193 N 1 0 0 1 0 0 2
 Substitution2: "Final forms-1" uni0690.fina
 Colour: ffff
 EndChar
@@ -9848,7 +9848,7 @@ AnchorPoint: "rtl-below" 286 -271 basechar 0
 LayerCount: 2
 Fore
 Refer: 417 -1 N 1 0 0 1 234 640 2
-Refer: 168 1581 N 1 0 0 1 0 0 2
+Refer: 36 65185 N 1 0 0 1 0 0 2
 Substitution2: "Final forms-1" uni0682.fina
 Substitution2: "Medial forms-1" uni0682.medi
 Substitution2: "Initial forms-1" uni0682.init
