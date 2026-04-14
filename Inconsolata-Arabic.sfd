@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1161020814
-ModificationTime: 1776093638
+ModificationTime: 1776176644
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 5
@@ -129,7 +129,7 @@ Grid
 EndSplineSet
 TeXData: 1 0 0 629145 314572 209715 554697 1048576 209715 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "rtl-above-mark" "Arabic above-base mark-to-mark positioning" "rtl-below-mark" "Arabic below-base mark-to-mark positioning" "rtl-above" "Arabic above-base mark positioning" "Ligature rtl-above" "Arabic above-base mark-to-ligature positioning" "rtl-below" "Arabic below-base mark positioning" "Ligature rtl-below" "Arabic below-base mark-to-ligature positioning"
-BeginChars: 65690 587
+BeginChars: 65689 587
 
 StartChar: comma
 Encoding: 44 44 0
@@ -10231,8 +10231,8 @@ Fore
 Refer: 2 9254 N 1 0 0 1 0 0 2
 EndChar
 
-StartChar: NameMe.559
-Encoding: 65662 -1 559
+StartChar: uni06CE
+Encoding: 1742 1742 559
 Width: 613
 Flags: W
 AnchorPoint: "rtl-above" 198 580 basechar 0
@@ -10241,38 +10241,55 @@ LayerCount: 2
 Fore
 Refer: 449 -1 N 1 0 0 1 -104 -277 2
 Refer: 114 65263 N 1 0 0 1 0 0 2
+Substitution2: "Final forms-1" uni06CE.fina
+Substitution2: "Medial forms-1" uni06CE.medi
+Substitution2: "Initial forms-1" uni06CE.init
 Colour: ffff
 EndChar
 
-StartChar: NameMe.560
-Encoding: 65663 -1 560
+StartChar: uni06CE.fina
+Encoding: 65662 -1 560
 Width: 613
 Flags: W
+AnchorPoint: "rtl-above" 119 462 basechar 0
+AnchorPoint: "rtl-below" 202 -200 basechar 0
 LayerCount: 2
 Fore
-Refer: 2 9254 N 1 0 0 1 0 0 2
+Refer: 449 -1 N 1 0 0 1 -183 -395 2
+Refer: 115 65264 N 1 0 0 1 0 0 2
+Colour: ffff
 EndChar
 
-StartChar: NameMe.561
-Encoding: 65664 -1 561
+StartChar: uni06CE.init
+Encoding: 65663 -1 561
 Width: 613
 Flags: W
+AnchorPoint: "rtl-above" 296 658 basechar 0
+AnchorPoint: "rtl-below" 286 -182 basechar 0
 LayerCount: 2
 Fore
-Refer: 2 9254 N 1 0 0 1 0 0 2
+Refer: 449 -1 N 1 0 0 1 -6 -199 2
+Refer: 154 -1 N 1 0 0 1 199 -146 2
+Refer: 130 64488 N 1 0 0 1 0 0 2
+Colour: ffff
 EndChar
 
-StartChar: NameMe.562
-Encoding: 65665 -1 562
+StartChar: uni06CE.medi
+Encoding: 65664 -1 562
 Width: 613
 Flags: W
+AnchorPoint: "rtl-above" 296 658 basechar 0
+AnchorPoint: "rtl-below" 295 -185 basechar 0
 LayerCount: 2
 Fore
-Refer: 2 9254 N 1 0 0 1 0 0 2
+Refer: 449 -1 N 1 0 0 1 -6 -199 2
+Refer: 154 -1 N 1 0 0 1 208 -145 2
+Refer: 131 64489 N 1 0 0 1 0 0 2
+Colour: ffff
 EndChar
 
 StartChar: uni06B5_uni0622
-Encoding: 65666 -1 563
+Encoding: 65665 -1 563
 Width: 613
 Flags: W
 AnchorPoint: "Ligature rtl-above" 477 1050 baselig 0
@@ -10290,7 +10307,7 @@ Colour: ffff
 EndChar
 
 StartChar: uni06B5_uni0622.fina
-Encoding: 65667 -1 564
+Encoding: 65666 -1 564
 Width: 613
 Flags: W
 AnchorPoint: "Ligature rtl-above" 429 1050 baselig 0
@@ -10308,7 +10325,7 @@ Colour: ffff
 EndChar
 
 StartChar: uni06B5_uni0623
-Encoding: 65668 -1 565
+Encoding: 65667 -1 565
 Width: 613
 Flags: W
 AnchorPoint: "Ligature rtl-above" 477 1050 baselig 0
@@ -10326,7 +10343,7 @@ Colour: ffff
 EndChar
 
 StartChar: uni06B5_uni0623.fina
-Encoding: 65669 -1 566
+Encoding: 65668 -1 566
 Width: 613
 Flags: W
 AnchorPoint: "Ligature rtl-above" 429 1050 baselig 0
@@ -10344,7 +10361,7 @@ Colour: ffff
 EndChar
 
 StartChar: uni06B5_uni0625
-Encoding: 65670 -1 567
+Encoding: 65669 -1 567
 Width: 613
 Flags: W
 AnchorPoint: "Ligature rtl-above" 477 1050 baselig 0
@@ -10362,7 +10379,7 @@ Colour: ffff
 EndChar
 
 StartChar: uni06B5_uni0625.fina
-Encoding: 65671 -1 568
+Encoding: 65670 -1 568
 Width: 613
 Flags: W
 AnchorPoint: "Ligature rtl-above" 429 1050 baselig 0
@@ -10380,7 +10397,7 @@ Colour: ffff
 EndChar
 
 StartChar: uni06B5_uni0627
-Encoding: 65672 -1 569
+Encoding: 65671 -1 569
 Width: 613
 Flags: W
 AnchorPoint: "Ligature rtl-above" 477 1050 baselig 0
@@ -10397,7 +10414,7 @@ Colour: ffff
 EndChar
 
 StartChar: uni06B5_uni0627.fina
-Encoding: 65673 -1 570
+Encoding: 65672 -1 570
 Width: 613
 Flags: W
 AnchorPoint: "Ligature rtl-above" 429 1050 baselig 0
@@ -10414,7 +10431,7 @@ Colour: ffff
 EndChar
 
 StartChar: NameMe.571
-Encoding: 65674 -1 571
+Encoding: 65673 -1 571
 Width: 613
 Flags: W
 LayerCount: 2
@@ -10423,7 +10440,7 @@ Refer: 2 9254 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.572
-Encoding: 65675 -1 572
+Encoding: 65674 -1 572
 Width: 613
 Flags: W
 LayerCount: 2
@@ -10432,7 +10449,7 @@ Refer: 2 9254 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.573
-Encoding: 65676 -1 573
+Encoding: 65675 -1 573
 Width: 613
 Flags: W
 LayerCount: 2
@@ -10441,7 +10458,7 @@ Refer: 2 9254 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.574
-Encoding: 65677 -1 574
+Encoding: 65676 -1 574
 Width: 613
 Flags: W
 LayerCount: 2
@@ -10450,7 +10467,7 @@ Refer: 2 9254 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.575
-Encoding: 65678 -1 575
+Encoding: 65677 -1 575
 Width: 613
 Flags: W
 LayerCount: 2
@@ -10459,7 +10476,7 @@ Refer: 2 9254 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.576
-Encoding: 65679 -1 576
+Encoding: 65678 -1 576
 Width: 613
 Flags: W
 LayerCount: 2
@@ -10468,7 +10485,7 @@ Refer: 2 9254 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.577
-Encoding: 65680 -1 577
+Encoding: 65679 -1 577
 Width: 613
 Flags: W
 LayerCount: 2
@@ -10477,7 +10494,7 @@ Refer: 2 9254 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.578
-Encoding: 65681 -1 578
+Encoding: 65680 -1 578
 Width: 613
 Flags: W
 LayerCount: 2
@@ -10486,7 +10503,7 @@ Refer: 2 9254 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.579
-Encoding: 65682 -1 579
+Encoding: 65681 -1 579
 Width: 613
 Flags: W
 LayerCount: 2
@@ -10495,7 +10512,7 @@ Refer: 2 9254 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.580
-Encoding: 65683 -1 580
+Encoding: 65682 -1 580
 Width: 613
 Flags: W
 LayerCount: 2
@@ -10504,7 +10521,7 @@ Refer: 2 9254 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.581
-Encoding: 65684 -1 581
+Encoding: 65683 -1 581
 Width: 613
 Flags: W
 LayerCount: 2
@@ -10513,7 +10530,7 @@ Refer: 2 9254 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.582
-Encoding: 65685 -1 582
+Encoding: 65684 -1 582
 Width: 613
 Flags: W
 LayerCount: 2
@@ -10522,7 +10539,7 @@ Refer: 2 9254 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.583
-Encoding: 65686 -1 583
+Encoding: 65685 -1 583
 Width: 613
 Flags: W
 LayerCount: 2
@@ -10531,7 +10548,7 @@ Refer: 2 9254 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.584
-Encoding: 65687 -1 584
+Encoding: 65686 -1 584
 Width: 613
 Flags: W
 LayerCount: 2
@@ -10540,7 +10557,7 @@ Refer: 2 9254 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.585
-Encoding: 65688 -1 585
+Encoding: 65687 -1 585
 Width: 613
 Flags: W
 LayerCount: 2
@@ -10549,7 +10566,7 @@ Refer: 2 9254 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: NameMe.586
-Encoding: 65689 -1 586
+Encoding: 65688 -1 586
 Width: 613
 Flags: W
 LayerCount: 2
