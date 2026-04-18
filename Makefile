@@ -92,8 +92,8 @@ variable: ${VARFONTS}
 exttf: ${EXFONTS}
 hintedexttf: ${HINTEDEXTTFONTS}
 exotf: ${EXOTFONTS}
-exwoff: ${EXWOFFFONTS}
-exwoff2: ${EXWOFF2FONTS}
+exwoff: ${EXWOFFFONTS} ${EXCSS}
+exwoff2: ${EXWOFF2FONTS} ${EXCSS}
 exvariable: ${EXVARFONTS}
 
 .SUFFIXES: .tar.xz .tar.gz .tar.bz2 .zip

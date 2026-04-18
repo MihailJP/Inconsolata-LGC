@@ -406,14 +406,41 @@ def mark_dottedcircle(font: fontforge.font):
             additionalBase.append('tatweelarabic')
         additionalBase = [g for g in additionalBase if g in font]
         lookupName = 'Activate anchor ' + anchor
+        baseList = sorted(set(base + additionalBase))
+        markList = sorted(set(mark + additionalMark))
+        if 'above' in anchor:
+            aboveBelowMark = sum([[glyph.glyphname for a in glyph.anchorPoints if a[0] == anchor.replace('above', 'below') and a[1] == 'mark' and glyph.width == 0] for glyph in font.glyphs()], [])
+        elif 'below' in anchor:
+            aboveBelowMark = sum([[glyph.glyphname for a in glyph.anchorPoints if a[0] == anchor.replace('below', 'above') and a[1] == 'mark' and glyph.width == 0] for glyph in font.glyphs()], [])
+        else:
+            aboveBelowMark = []
         font.addContextualSubtable(
             lookupName,
             lookupName + '-1',
             'class',
             '1 | 1 @<Remove dotted circle> 2 |',
-            bclasses=((), tuple(sorted(set(base + additionalBase)))),
-            mclasses=((), 'invalidbase', tuple(sorted(set(mark + additionalMark)))),
+            bclasses=((), tuple(baseList)),
+            mclasses=((), 'invalidbase', tuple(markList)),
         )
+        if aboveBelowMark:
+            font.addContextualSubtable(
+                lookupName,
+                lookupName + '-2',
+                'class',
+                '1 2 | 1 @<Remove dotted circle> 2 |',
+                afterSubtable=lookupName + '-1',
+                bclasses=((), tuple(baseList), tuple(sorted(set(aboveBelowMark)))),
+                mclasses=((), 'invalidbase', tuple(markList)),
+            )
+            font.addContextualSubtable(
+                lookupName,
+                lookupName + '-3',
+                'class',
+                '1 2 3 | 1 @<Remove dotted circle> 2 |',
+                afterSubtable=lookupName + '-2',
+                bclasses=((), tuple(baseList), 'invalidbase', tuple(sorted(set(aboveBelowMark)))),
+                mclasses=((), 'invalidbase', tuple(markList)),
+            )
         lookupOrder = lookupName
 
         if font.getLookupInfo(lookup)[0] == 'gpos_mark2base':
@@ -449,7 +476,7 @@ font.fullname = font.fullname.replace('LGC', 'EX')
 font.copyright += '\n\nArabic glyphs are derived from public domain part of DejaVu Sans Mono.'
 font.os2_winascent = 1255
 font.os2_windescent = 443
-font.version = '2.906 beta'
+font.version = '2.907 beta'
 if font.italicangle != 0:
     font2.selection.all()
     font2.transform(skew(radians(-font.italicangle)), ('noWidth', 'round', 'simplePos'))
