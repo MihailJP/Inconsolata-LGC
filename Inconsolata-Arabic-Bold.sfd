@@ -2920,7 +2920,7 @@ Flags: W
 AnchorPoint: "Ligature rtl-above" 460 820 baselig 0
 AnchorPoint: "Ligature rtl-above" 68 930 baselig 1
 AnchorPoint: "Ligature rtl-below" 494 40 baselig 0
-AnchorPoint: "Ligature rtl-below" 430 6 baselig 1
+AnchorPoint: "Ligature rtl-below" 210 -50 baselig 1
 LayerCount: 2
 Fore
 Refer: 150 -1 N 1 0 0 1 -183 150 2
@@ -2937,7 +2937,7 @@ Flags: W
 AnchorPoint: "Ligature rtl-above" 460 820 baselig 0
 AnchorPoint: "Ligature rtl-above" 56 919 baselig 1
 AnchorPoint: "Ligature rtl-below" 422 -26 baselig 0
-AnchorPoint: "Ligature rtl-below" 346 -35 baselig 1
+AnchorPoint: "Ligature rtl-below" 180 -50 baselig 1
 LayerCount: 2
 Fore
 Refer: 150 -1 N 1 0 0 1 -209 150 2
@@ -2954,7 +2954,7 @@ Flags: W
 AnchorPoint: "Ligature rtl-above" 460 820 baselig 0
 AnchorPoint: "Ligature rtl-above" 63 1020 baselig 1
 AnchorPoint: "Ligature rtl-below" 494 40 baselig 0
-AnchorPoint: "Ligature rtl-below" 430 6 baselig 1
+AnchorPoint: "Ligature rtl-below" 210 -50 baselig 1
 LayerCount: 2
 Fore
 Refer: 151 -1 N 1 0 0 1 -203 150 2
@@ -2971,7 +2971,7 @@ Flags: W
 AnchorPoint: "Ligature rtl-above" 440 821 baselig 0
 AnchorPoint: "Ligature rtl-above" 26 1029 baselig 1
 AnchorPoint: "Ligature rtl-below" 412 -46 baselig 0
-AnchorPoint: "Ligature rtl-below" 311 -55 baselig 1
+AnchorPoint: "Ligature rtl-below" 180 -50 baselig 1
 LayerCount: 2
 Fore
 Refer: 151 -1 N 1 0 0 1 -240 150 2
@@ -3021,7 +3021,7 @@ Width: 613
 Flags: W
 AnchorPoint: "Ligature rtl-above" 110 751 baselig 1
 AnchorPoint: "Ligature rtl-above" 460 820 baselig 0
-AnchorPoint: "Ligature rtl-below" 430 6 baselig 1
+AnchorPoint: "Ligature rtl-below" 210 -50 baselig 1
 AnchorPoint: "Ligature rtl-below" 494 40 baselig 0
 LayerCount: 2
 Fore
@@ -3057,8 +3057,8 @@ Width: 613
 Flags: W
 AnchorPoint: "Ligature rtl-above" 442 820 baselig 0
 AnchorPoint: "Ligature rtl-above" 92 751 baselig 1
-AnchorPoint: "Ligature rtl-below" 340 -50 baselig 0
-AnchorPoint: "Ligature rtl-below" 375 -20 baselig 1
+AnchorPoint: "Ligature rtl-below" 410 -64 baselig 0
+AnchorPoint: "Ligature rtl-below" 180 -50 baselig 1
 LayerCount: 2
 Fore
 SplineSet
@@ -10337,7 +10337,7 @@ Flags: W
 AnchorPoint: "Ligature rtl-above" 473 1050 baselig 0
 AnchorPoint: "Ligature rtl-above" 68 930 baselig 1
 AnchorPoint: "Ligature rtl-below" 494 40 baselig 0
-AnchorPoint: "Ligature rtl-below" 430 6 baselig 1
+AnchorPoint: "Ligature rtl-below" 210 -50 baselig 1
 LayerCount: 2
 Fore
 Refer: 449 -1 N 1 0 0 1 168 200 2
@@ -10355,7 +10355,7 @@ Flags: W
 AnchorPoint: "Ligature rtl-above" 450 1050 baselig 0
 AnchorPoint: "Ligature rtl-above" 56 919 baselig 1
 AnchorPoint: "Ligature rtl-below" 422 -26 baselig 0
-AnchorPoint: "Ligature rtl-below" 346 -35 baselig 1
+AnchorPoint: "Ligature rtl-below" 180 -50 baselig 1
 LayerCount: 2
 Fore
 Refer: 449 -1 N 1 0 0 1 145 200 2
@@ -10373,7 +10373,7 @@ Flags: W
 AnchorPoint: "Ligature rtl-above" 473 1050 baselig 0
 AnchorPoint: "Ligature rtl-above" 63 1020 baselig 1
 AnchorPoint: "Ligature rtl-below" 494 40 baselig 0
-AnchorPoint: "Ligature rtl-below" 430 6 baselig 1
+AnchorPoint: "Ligature rtl-below" 210 -50 baselig 1
 LayerCount: 2
 Fore
 Refer: 449 -1 N 1 0 0 1 168 200 2
@@ -10391,7 +10391,7 @@ Flags: W
 AnchorPoint: "Ligature rtl-above" 450 1050 baselig 0
 AnchorPoint: "Ligature rtl-above" 26 1029 baselig 1
 AnchorPoint: "Ligature rtl-below" 412 -46 baselig 0
-AnchorPoint: "Ligature rtl-below" 311 -55 baselig 1
+AnchorPoint: "Ligature rtl-below" 180 -50 baselig 1
 LayerCount: 2
 Fore
 Refer: 449 -1 N 1 0 0 1 145 200 2
@@ -10444,7 +10444,7 @@ Width: 613
 Flags: W
 AnchorPoint: "Ligature rtl-above" 473 1050 baselig 0
 AnchorPoint: "Ligature rtl-below" 494 40 baselig 0
-AnchorPoint: "Ligature rtl-below" 430 6 baselig 1
+AnchorPoint: "Ligature rtl-below" 210 -50 baselig 1
 AnchorPoint: "Ligature rtl-above" 110 751 baselig 1
 LayerCount: 2
 Fore
@@ -10460,8 +10460,8 @@ Encoding: 65669 -1 570
 Width: 613
 Flags: W
 AnchorPoint: "Ligature rtl-above" 450 1050 baselig 0
-AnchorPoint: "Ligature rtl-below" 340 -50 baselig 0
-AnchorPoint: "Ligature rtl-below" 375 -20 baselig 1
+AnchorPoint: "Ligature rtl-below" 410 -64 baselig 0
+AnchorPoint: "Ligature rtl-below" 180 -50 baselig 1
 AnchorPoint: "Ligature rtl-above" 92 751 baselig 1
 LayerCount: 2
 Fore
@@ -10479,7 +10479,7 @@ Flags: W
 AnchorPoint: "Ligature rtl-above" 473 1050 baselig 0
 AnchorPoint: "Ligature rtl-above" 68 930 baselig 1
 AnchorPoint: "Ligature rtl-below" 494 40 baselig 0
-AnchorPoint: "Ligature rtl-below" 430 6 baselig 1
+AnchorPoint: "Ligature rtl-below" 210 -50 baselig 1
 LayerCount: 2
 Fore
 Refer: 153 -1 N 1 0 0 1 437 888 2
@@ -10497,7 +10497,7 @@ Flags: W
 AnchorPoint: "Ligature rtl-above" 450 1050 baselig 0
 AnchorPoint: "Ligature rtl-above" 56 919 baselig 1
 AnchorPoint: "Ligature rtl-below" 422 -26 baselig 0
-AnchorPoint: "Ligature rtl-below" 346 -35 baselig 1
+AnchorPoint: "Ligature rtl-below" 180 -50 baselig 1
 LayerCount: 2
 Fore
 Refer: 153 -1 N 1 0 0 1 414 888 2
@@ -10515,7 +10515,7 @@ Flags: W
 AnchorPoint: "Ligature rtl-above" 473 1050 baselig 0
 AnchorPoint: "Ligature rtl-above" 63 1020 baselig 1
 AnchorPoint: "Ligature rtl-below" 494 40 baselig 0
-AnchorPoint: "Ligature rtl-below" 430 6 baselig 1
+AnchorPoint: "Ligature rtl-below" 210 -50 baselig 1
 LayerCount: 2
 Fore
 Refer: 153 -1 N 1 0 0 1 437 888 2
@@ -10533,7 +10533,7 @@ Flags: W
 AnchorPoint: "Ligature rtl-above" 450 1050 baselig 0
 AnchorPoint: "Ligature rtl-above" 26 1029 baselig 1
 AnchorPoint: "Ligature rtl-below" 412 -46 baselig 0
-AnchorPoint: "Ligature rtl-below" 311 -55 baselig 1
+AnchorPoint: "Ligature rtl-below" 180 -50 baselig 1
 LayerCount: 2
 Fore
 Refer: 153 -1 N 1 0 0 1 414 888 2
@@ -10586,7 +10586,7 @@ Width: 613
 Flags: W
 AnchorPoint: "Ligature rtl-above" 473 1050 baselig 0
 AnchorPoint: "Ligature rtl-below" 494 40 baselig 0
-AnchorPoint: "Ligature rtl-below" 430 6 baselig 1
+AnchorPoint: "Ligature rtl-below" 210 -50 baselig 1
 AnchorPoint: "Ligature rtl-above" 110 751 baselig 1
 LayerCount: 2
 Fore
@@ -10602,8 +10602,8 @@ Encoding: 65677 -1 578
 Width: 613
 Flags: W
 AnchorPoint: "Ligature rtl-above" 450 1050 baselig 0
-AnchorPoint: "Ligature rtl-below" 340 -50 baselig 0
-AnchorPoint: "Ligature rtl-below" 375 -20 baselig 1
+AnchorPoint: "Ligature rtl-below" 410 -64 baselig 0
+AnchorPoint: "Ligature rtl-below" 180 -50 baselig 1
 AnchorPoint: "Ligature rtl-above" 92 751 baselig 1
 LayerCount: 2
 Fore
@@ -10621,7 +10621,7 @@ Flags: W
 AnchorPoint: "Ligature rtl-above" 473 1100 baselig 0
 AnchorPoint: "Ligature rtl-below" 494 40 baselig 0
 AnchorPoint: "Ligature rtl-above" 68 930 baselig 1
-AnchorPoint: "Ligature rtl-below" 430 6 baselig 1
+AnchorPoint: "Ligature rtl-below" 210 -50 baselig 1
 LayerCount: 2
 Fore
 Refer: 155 -1 N 1 0 0 1 363 837 2
@@ -10639,7 +10639,7 @@ Flags: W
 AnchorPoint: "Ligature rtl-above" 450 1100 baselig 0
 AnchorPoint: "Ligature rtl-below" 422 -26 baselig 0
 AnchorPoint: "Ligature rtl-above" 56 919 baselig 1
-AnchorPoint: "Ligature rtl-below" 346 -35 baselig 1
+AnchorPoint: "Ligature rtl-below" 180 -50 baselig 1
 LayerCount: 2
 Fore
 Refer: 155 -1 N 1 0 0 1 340 837 2
@@ -10657,7 +10657,7 @@ Flags: W
 AnchorPoint: "Ligature rtl-above" 473 1100 baselig 0
 AnchorPoint: "Ligature rtl-below" 494 40 baselig 0
 AnchorPoint: "Ligature rtl-above" 63 1020 baselig 1
-AnchorPoint: "Ligature rtl-below" 430 6 baselig 1
+AnchorPoint: "Ligature rtl-below" 210 -50 baselig 1
 LayerCount: 2
 Fore
 Refer: 155 -1 N 1 0 0 1 363 837 2
@@ -10675,7 +10675,7 @@ Flags: W
 AnchorPoint: "Ligature rtl-above" 450 1100 baselig 0
 AnchorPoint: "Ligature rtl-below" 412 -46 baselig 0
 AnchorPoint: "Ligature rtl-above" 26 1029 baselig 1
-AnchorPoint: "Ligature rtl-below" 311 -55 baselig 1
+AnchorPoint: "Ligature rtl-below" 180 -50 baselig 1
 LayerCount: 2
 Fore
 Refer: 155 -1 N 1 0 0 1 340 837 2
@@ -10728,7 +10728,7 @@ Width: 613
 Flags: W
 AnchorPoint: "Ligature rtl-above" 473 1100 baselig 0
 AnchorPoint: "Ligature rtl-below" 494 40 baselig 0
-AnchorPoint: "Ligature rtl-below" 430 6 baselig 1
+AnchorPoint: "Ligature rtl-below" 210 -50 baselig 1
 AnchorPoint: "Ligature rtl-above" 110 751 baselig 1
 LayerCount: 2
 Fore
@@ -10744,8 +10744,8 @@ Encoding: 65685 -1 586
 Width: 613
 Flags: W
 AnchorPoint: "Ligature rtl-above" 450 1100 baselig 0
-AnchorPoint: "Ligature rtl-below" 340 -50 baselig 0
-AnchorPoint: "Ligature rtl-below" 375 -20 baselig 1
+AnchorPoint: "Ligature rtl-below" 410 -64 baselig 0
+AnchorPoint: "Ligature rtl-below" 180 -50 baselig 1
 AnchorPoint: "Ligature rtl-above" 92 751 baselig 1
 LayerCount: 2
 Fore
@@ -11555,10 +11555,10 @@ StartChar: uni06B8_uni0622
 Encoding: 65729 -1 643
 Width: 613
 Flags: W
-AnchorPoint: "Ligature rtl-below" 210 -50 baselig 1
 AnchorPoint: "Ligature rtl-below" 448 -314 baselig 0
 AnchorPoint: "Ligature rtl-above" 460 820 baselig 0
 AnchorPoint: "Ligature rtl-above" 68 930 baselig 1
+AnchorPoint: "Ligature rtl-below" 210 -50 baselig 1
 LayerCount: 2
 Fore
 Refer: 269 -1 N 1 0 0 1 332 -138 2
@@ -11573,10 +11573,10 @@ StartChar: uni06B8_uni0622.fina
 Encoding: 65730 -1 644
 Width: 613
 Flags: W
-AnchorPoint: "Ligature rtl-below" 180 -50 baselig 1
 AnchorPoint: "Ligature rtl-below" 448 -314 baselig 0
 AnchorPoint: "Ligature rtl-above" 460 820 baselig 0
 AnchorPoint: "Ligature rtl-above" 56 919 baselig 1
+AnchorPoint: "Ligature rtl-below" 180 -50 baselig 1
 LayerCount: 2
 Fore
 Refer: 269 -1 N 1 0 0 1 332 -138 2
@@ -11591,10 +11591,10 @@ StartChar: uni06B8_uni0623
 Encoding: 65731 -1 645
 Width: 613
 Flags: W
-AnchorPoint: "Ligature rtl-below" 210 -50 baselig 1
 AnchorPoint: "Ligature rtl-below" 448 -314 baselig 0
 AnchorPoint: "Ligature rtl-above" 460 820 baselig 0
 AnchorPoint: "Ligature rtl-above" 63 1020 baselig 1
+AnchorPoint: "Ligature rtl-below" 210 -50 baselig 1
 LayerCount: 2
 Fore
 Refer: 269 -1 N 1 0 0 1 332 -138 2
@@ -11609,10 +11609,10 @@ StartChar: uni06B8_uni0623.fina
 Encoding: 65732 -1 646
 Width: 613
 Flags: W
-AnchorPoint: "Ligature rtl-below" 180 -50 baselig 1
 AnchorPoint: "Ligature rtl-below" 448 -314 baselig 0
 AnchorPoint: "Ligature rtl-above" 440 821 baselig 0
 AnchorPoint: "Ligature rtl-above" 26 1029 baselig 1
+AnchorPoint: "Ligature rtl-below" 180 -50 baselig 1
 LayerCount: 2
 Fore
 Refer: 269 -1 N 1 0 0 1 332 -138 2
