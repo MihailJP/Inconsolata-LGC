@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1161020814
-ModificationTime: 1777195318
+ModificationTime: 1777199261
 PfmFamily: 49
 TTFWeight: 700
 TTFWidth: 5
@@ -107,8 +107,8 @@ PUSHB_1
 SCANTYPE
 EndTTInstrs
 LangName: 1033 "" "" "Bold Italic"
-OtfFeatName: 'ss01' 1033 "German alternative umlaut"
 OtfFeatName: 'ss02' 1033 "Polytonic Greek alternative circumflex"
+OtfFeatName: 'ss01' 1033 "German alternative umlaut"
 Encoding: UnicodeFull
 Compacted: 1
 UnicodeInterp: none
@@ -145,7 +145,7 @@ Grid
  416.256 939.008 l 1049
 EndSplineSet
 TeXData: 1 0 0 629145 314572 209715 554697 1048576 209715 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 1114493 3167
+BeginChars: 1114496 3170
 
 StartChar: a
 Encoding: 97 97 0
@@ -2795,13 +2795,7 @@ Flags: MW
 TeX: 115 0
 LayerCount: 2
 Fore
-SplineSet
-69 111 m 1
- 588 111 l 1
- 569 5 l 1
- 50 5 l 1
- 69 111 l 1
-EndSplineSet
+Refer: 29 8722 N 1 0 0 1 -58 -330 2
 Refer: 28 43 N 1 0 0 1 11 61 2
 EndChar
 
@@ -10366,32 +10360,11 @@ EndChar
 StartChar: napostrophe
 Encoding: 329 329 525
 Width: 613
-UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
-SplineSet
-166 0 m 1
- 236 377 l 2
- 254 476 236 511 221 539 c 1
- 356 555 l 1
- 362 536 366 524 365 471 c 1
- 407 515 455 554 528 555 c 0
- 596 556 652 518 670 454 c 0
- 683 409 674 364 667 324 c 0
- 667 324 648 226 637 164 c 0
- 619 61 658 1 658 1 c 1
- 513 -6 l 1
- 513 -6 506 73 521 157 c 0
- 533 222 552 323 552 323 c 0
- 559 359 565 397 546 424 c 0
- 534 441 515 450 492 450 c 0
- 444 450 408 411 381 384 c 0
- 355 358 348 337 342 304 c 2
- 284 0 l 1
- 166 0 l 1
-EndSplineSet
 Refer: 56 8217 N 1 0 0 1 -195 0 2
+Refer: 3169 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: Obreve
@@ -18086,60 +18059,24 @@ StartChar: lessoverequal
 Encoding: 8806 8806 869
 Width: 613
 VWidth: 1046
-UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
-SplineSet
-107 249 m 1
- 655 249 l 1
- 637 146 l 1
- 89 146 l 1
- 107 249 l 1
-81 104 m 1
- 629 104 l 1
- 611 1 l 1
- 63 1 l 1
- 81 104 l 1
-724 623 m 1
- 331 490 l 1
- 678 344 l 1
- 657 227 l 1
- 132 461 l 1
- 144 525 l 1
- 744 735 l 1
- 724 623 l 1
-EndSplineSet
+Refer: 29 8722 N 1 0 0 1 -44 -334 2
+Refer: 29 8722 N 1 0 0 1 -18 -189 2
+Refer: 3167 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: greateroverequal
 Encoding: 8807 8807 870
 Width: 613
 VWidth: 1046
-UnlinkRmOvrlpSave: 1
 Flags: MW
 LayerCount: 2
 Fore
-SplineSet
-107 249 m 1
- 655 249 l 1
- 637 146 l 1
- 89 146 l 1
- 107 249 l 1
-81 104 m 1
- 629 104 l 1
- 611 1 l 1
- 63 1 l 1
- 81 104 l 1
-170 623 m 1
- 190 735 l 1
- 716 525 l 1
- 704 461 l 1
- 97 227 l 1
- 118 344 l 1
- 515 490 l 1
- 170 623 l 1
-EndSplineSet
+Refer: 29 8722 N 1 0 0 1 -59 -334 2
+Refer: 29 8722 N 1 0 0 1 -34 -194 2
+Refer: 3168 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: proportional
@@ -61678,6 +61615,73 @@ SplineSet
  463 267 l 1
  306 -56 l 1
  209 -7 l 1
+EndSplineSet
+EndChar
+
+StartChar: less.narrow
+Encoding: 1114493 -1 3167
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+679 623 m 1
+ 306 490 l 1
+ 633 344 l 1
+ 612 227 l 1
+ 117 461 l 1
+ 129 525 l 1
+ 699 735 l 1
+ 679 623 l 1
+EndSplineSet
+EndChar
+
+StartChar: greater.narrow
+Encoding: 1114494 -1 3168
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+155 623 m 1
+ 175 735 l 1
+ 672 525 l 1
+ 660 461 l 1
+ 82 227 l 1
+ 103 344 l 1
+ 482 490 l 1
+ 155 623 l 1
+EndSplineSet
+EndChar
+
+StartChar: n.narrow
+Encoding: 1114495 -1 3169
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+166 0 m 1
+ 236 377 l 2
+ 254 476 236 511 221 539 c 1
+ 356 555 l 1
+ 362 536 366 524 365 471 c 1
+ 407 515 455 554 528 555 c 0
+ 596 556 652 518 670 454 c 0
+ 683 409 674 364 667 324 c 0
+ 667 324 648 226 637 164 c 0
+ 619 61 658 1 658 1 c 1
+ 513 -6 l 1
+ 513 -6 506 73 521 157 c 0
+ 533 222 552 323 552 323 c 0
+ 559 359 565 397 546 424 c 0
+ 534 441 515 450 492 450 c 0
+ 444 450 408 411 381 384 c 0
+ 355 358 348 337 342 304 c 2
+ 284 0 l 1
+ 166 0 l 1
 EndSplineSet
 EndChar
 EndChars
