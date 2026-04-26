@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1161020814
-ModificationTime: 1777179130
+ModificationTime: 1777191271
 PfmFamily: 49
 TTFWeight: 700
 TTFWidth: 5
@@ -107,8 +107,8 @@ PUSHB_1
 SCANTYPE
 EndTTInstrs
 LangName: 1033
-OtfFeatName: 'ss01' 1033 "German alternative umlaut"
 OtfFeatName: 'ss02' 1033 "Polytonic Greek alternative circumflex"
+OtfFeatName: 'ss01' 1033 "German alternative umlaut"
 Encoding: UnicodeFull
 Compacted: 1
 UnicodeInterp: none
@@ -145,7 +145,7 @@ Grid
  416.256 939.008 l 1049
 EndSplineSet
 TeXData: 1 0 0 629145 314572 209715 554697 1048576 209715 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 1114498 3156
+BeginChars: 1114499 3173
 
 StartChar: a
 Encoding: 97 97 0
@@ -61471,6 +61471,195 @@ LayerCount: 2
 Fore
 Refer: 36 47 S 1 0 0 1 0 0 2
 Refer: 1939 8866 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: coproduct
+Encoding: 8720 8720 3156
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+Refer: 357 928 N -1 0 0 -1 613 740 2
+EndChar
+
+StartChar: minusplus
+Encoding: 8723 8723 3157
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 29 8722 N 1 0 0 1 0 244 2
+Refer: 28 43 N 1 0 0 1 0 -103 2
+EndChar
+
+StartChar: backslashmath
+Encoding: 8726 8726 3158
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 37 92 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: parallel
+Encoding: 8741 8741 3159
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1943 8739 N 1 0 0 1 125 0 2
+Refer: 1943 8739 N 1 0 0 1 -125 0 2
+EndChar
+
+StartChar: ratio
+Encoding: 8758 8758 3160
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 24 46 N 1 0 0 1 10 200 2
+Refer: 24 46 N 1 0 0 1 10 500 2
+EndChar
+
+StartChar: proportion
+Encoding: 8759 8759 3161
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 24 46 N 1 0 0 1 163 200 2
+Refer: 24 46 N 1 0 0 1 -143 200 2
+Refer: 24 46 N 1 0 0 1 163 500 2
+Refer: 24 46 N 1 0 0 1 -143 500 2
+EndChar
+
+StartChar: minustilde
+Encoding: 8770 8770 3162
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+Refer: 29 8722 N 1 0 0 1 0 113 2
+Refer: 89 126 N 1 0 0 1 0 -202 2
+EndChar
+
+StartChar: asymptequal
+Encoding: 8771 8771 3163
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+Refer: 29 8722 N 1 0 0 1 0 -133 2
+Refer: 89 126 N 1 0 0 1 0 2 2
+EndChar
+
+StartChar: notasymptequal
+Encoding: 8772 8772 3164
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+Refer: 3163 8771 N 1 0 0 1 0 0 2
+Refer: 36 47 S 1 0 0 1 0 0 2
+EndChar
+
+StartChar: approaches
+Encoding: 8784 8784 3165
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 24 46 N 1 0 0 1 0 590 2
+Refer: 29 8722 N 1 0 0 1 0 53 2
+Refer: 29 8722 N 1 0 0 1 0 -133 2
+EndChar
+
+StartChar: geomequal
+Encoding: 8785 8785 3166
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 24 46 N 1 0 0 1 0 590 2
+Refer: 24 46 N 1 0 0 1 0 30 2
+Refer: 29 8722 N 1 0 0 1 0 53 2
+Refer: 29 8722 N 1 0 0 1 0 -133 2
+EndChar
+
+StartChar: imageorapproxequal
+Encoding: 8787 8787 3167
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 24 46 N 1 0 0 1 100 590 2
+Refer: 24 46 N 1 0 0 1 -100 30 2
+Refer: 29 8722 N 1 0 0 1 0 53 2
+Refer: 29 8722 N 1 0 0 1 0 -133 2
+EndChar
+
+StartChar: lessnotdblequal
+Encoding: 8808 8808 3168
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+Refer: 863 8806 N 1 0 0 1 0 0 2
+Refer: 3172 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: greaternotdblequal
+Encoding: 8809 8809 3169
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+Refer: 864 8807 N 1 0 0 1 0 0 2
+Refer: 3172 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: subsetnotequal
+Encoding: 8842 8842 3170
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+Refer: 3172 -1 N 1 0 0 1 -44 -78 2
+Refer: 861 8838 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: supersetnotequal
+Encoding: 8843 8843 3171
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+Refer: 3172 -1 N 1 0 0 1 -10 -78 2
+Refer: 862 8839 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: slash.lower
+Encoding: 1114498 -1 3172
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+209 -7 m 1
+ 364 315 l 1
+ 463 267 l 1
+ 306 -56 l 1
+ 209 -7 l 1
+EndSplineSet
 EndChar
 EndChars
 EndSplineFont
