@@ -3839,7 +3839,6 @@ EndChar
 StartChar: uni0653
 Encoding: 1619 1619 150
 Width: 0
-GlyphClass: 1
 Flags: MW
 AnchorPoint: "rtl-above" 299 571 mark 0
 AnchorPoint: "Ligature rtl-above" 299 571 mark 0
@@ -8640,7 +8639,6 @@ EndChar
 StartChar: uni065A
 Encoding: 1626 1626 449
 Width: 0
-GlyphClass: 1
 Flags: W
 AnchorPoint: "rtl-above" 306 600 mark 0
 AnchorPoint: "Ligature rtl-above" 306 600 mark 0
@@ -8661,7 +8659,6 @@ EndChar
 StartChar: uni0670
 Encoding: 1648 1648 450
 Width: 0
-GlyphClass: 1
 Flags: W
 AnchorPoint: "rtl-above-mark" 300 565 mark 0
 AnchorPoint: "Ligature rtl-above" 300 565 mark 0
