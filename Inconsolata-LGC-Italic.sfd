@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1161020814
-ModificationTime: 1777306449
+ModificationTime: 1777481051
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 5
@@ -107,8 +107,8 @@ PUSHB_1
 SCANTYPE
 EndTTInstrs
 LangName: 1033
-OtfFeatName: 'ss02' 1033 "Polytonic Greek alternative circumflex"
 OtfFeatName: 'ss01' 1033 "German alternative umlaut"
+OtfFeatName: 'ss02' 1033 "Polytonic Greek alternative circumflex"
 Encoding: UnicodeFull
 Compacted: 1
 UnicodeInterp: none
@@ -145,7 +145,7 @@ Grid
  416.256 939.008 l 1049
 EndSplineSet
 TeXData: 1 0 0 629145 314572 209715 554697 1048576 209715 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 1114506 3228
+BeginChars: 1114506 3234
 
 StartChar: a
 Encoding: 97 97 0
@@ -62578,6 +62578,155 @@ SplineSet
  593 335 l 25
  139 335 l 25
  152 408 l 25
+EndSplineSet
+EndChar
+
+StartChar: Stigma
+Encoding: 986 986 3228
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+122 365 m 0
+ 174 661 356 745 471 745 c 0
+ 569 745 648 688 672 599 c 0
+ 586 560 l 0
+ 582 564 583 571 583 572 c 0
+ 584 575 584 578 585 581 c 0
+ 586 587 584 589 583 593 c 0
+ 562 645 515 679 457 679 c 0
+ 352 679 240 569 205 373 c 0
+ 179 228 262 155 304 136 c 0
+ 385 99 517 110 499 9 c 0
+ 488 -48 427 -108 415 -136 c 9
+ 324 -137 l 17
+ 349 -89 404 -45 409 -16 c 0
+ 420 49 300 16 211 84 c 0
+ 173 113 97 226 122 365 c 0
+EndSplineSet
+EndChar
+
+StartChar: stigma
+Encoding: 987 987 3229
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+125 271 m 0
+ 154 434 288 553 447 553 c 0
+ 534 553 600 516 632 453 c 0
+ 559 382 l 0
+ 551 389 559 400 556 409 c 0
+ 554 415 522 480 429 480 c 0
+ 329 480 236 404 214 280 c 0
+ 203 218 262 155 304 136 c 0
+ 385 99 517 110 499 9 c 0
+ 488 -48 427 -108 415 -136 c 9
+ 324 -137 l 17
+ 349 -89 404 -45 409 -16 c 0
+ 420 49 300 16 211 84 c 0
+ 173 113 109 183 125 271 c 0
+EndSplineSet
+EndChar
+
+StartChar: Koppa
+Encoding: 990 990 3230
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+401 740 m 1
+ 237 387 l 1
+ 609 482 l 1
+ 613 426 l 1
+ 415 0 l 1
+ 333 0 l 1
+ 515 385 l 1
+ 139 289 l 1
+ 134 345 l 1
+ 320 740 l 1
+ 401 740 l 1
+EndSplineSet
+EndChar
+
+StartChar: koppa
+Encoding: 991 991 3231
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+484 241 m 1
+ 112 241 l 1
+ 123 299 l 1
+ 395 740 l 1
+ 488 740 l 1
+ 230 315 l 1
+ 597 315 l 1
+ 585 257 l 1
+ 326 -184 l 1
+ 230 -184 l 1
+ 484 241 l 1
+EndSplineSet
+EndChar
+
+StartChar: Sampi
+Encoding: 992 992 3232
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+404 745 m 0
+ 519 745 671 661 619 365 c 0
+ 574 109 370 -147 322 -206 c 1
+ 260 -160 l 1
+ 430 57 530 250 545 409 c 1
+ 227 -14 l 1
+ 163 26 l 1
+ 542 530 l 1
+ 533 577 517 613 492 638 c 1
+ 174 217 l 1
+ 110 257 l 1
+ 427 676 l 1
+ 417 678 407 679 396 679 c 0
+ 338 679 279 645 240 593 c 0
+ 237 589 233 587 232 581 c 0
+ 231 578 233 575 232 572 c 0
+ 232 571 231 564 225 560 c 1
+ 153 599 l 1
+ 209 688 306 745 404 745 c 0
+EndSplineSet
+EndChar
+
+StartChar: sampi
+Encoding: 993 993 3233
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+194 481 m 0
+ 170 481 149 473 147 473 c 2
+ 160 554 l 1
+ 179 554 200 555 215 555 c 2
+ 216 555 l 2
+ 409 555 603 269 519 -206 c 1
+ 439 -198 l 1
+ 462 -67 462 46 448 140 c 1
+ 205 -68 l 1
+ 158 -10 l 1
+ 430 222 l 1
+ 420 257 409 290 395 318 c 1
+ 140 101 l 1
+ 93 159 l 1
+ 356 382 l 1
+ 307 447 249 481 194 481 c 0
 EndSplineSet
 EndChar
 EndChars
