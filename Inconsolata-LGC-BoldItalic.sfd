@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1161020814
-ModificationTime: 1777546082
+ModificationTime: 1777549222
 PfmFamily: 49
 TTFWeight: 700
 TTFWidth: 5
@@ -107,8 +107,8 @@ PUSHB_1
 SCANTYPE
 EndTTInstrs
 LangName: 1033 "" "" "Bold Italic"
-OtfFeatName: 'ss02' 1033 "Polytonic Greek alternative circumflex"
 OtfFeatName: 'ss01' 1033 "German alternative umlaut"
+OtfFeatName: 'ss02' 1033 "Polytonic Greek alternative circumflex"
 Encoding: UnicodeFull
 Compacted: 1
 UnicodeInterp: none
@@ -145,7 +145,7 @@ Grid
  416.256 939.008 l 1049
 EndSplineSet
 TeXData: 1 0 0 629145 314572 209715 554697 1048576 209715 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 1114511 3239
+BeginChars: 1114514 3243
 
 StartChar: a
 Encoding: 97 97 0
@@ -1350,6 +1350,7 @@ SplineSet
  165 0 l 1
  54 0 l 1
 EndSplineSet
+Substitution2: "Superscripts-1" uni1D3A
 EndChar
 
 StartChar: four
@@ -62729,6 +62730,61 @@ SplineSet
  573 425 586 434 589 447 c 0
  593 461 579 466 584 496 c 0
  590 531 627 554 657 554 c 0
+EndSplineSet
+EndChar
+
+StartChar: Ohokkien
+Encoding: 1114511 -1 3239
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 3234 -1 N 1 0 0 1 0 0 2
+Refer: 3241 -1 N 1 0 0 1 34 194 2
+Decomposition: "O+A1gA"
+EndChar
+
+StartChar: ohokkien
+Encoding: 1114512 -1 3240
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 3235 -1 N 1 0 0 1 0 0 2
+Refer: 3241 -1 N 1 0 0 1 0 0 2
+Decomposition: "o+A1gA"
+EndChar
+
+StartChar: hokkiendot
+Encoding: 1114513 -1 3241
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 222 729 S 1 0 0 1 191 -223 2
+EndChar
+
+StartChar: uni1D3A
+Encoding: 7482 7482 3242
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+196 298 m 1
+ 274 741 l 1
+ 359 741 l 1
+ 462 477 l 1
+ 509 742 l 1
+ 605 742 l 1
+ 605 714 610 718 597 701 c 0
+ 594 697 596 702 596 702 c 0
+ 524 297 l 1
+ 448 297 l 1
+ 339 581 l 1
+ 290 298 l 1
+ 196 298 l 1
 EndSplineSet
 EndChar
 EndChars
