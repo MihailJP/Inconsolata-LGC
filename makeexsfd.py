@@ -159,6 +159,7 @@ def lgcBaseAnchors(font: fontforge.font):
     excludeComposed = [
         'gcommaaccent', 'ydotbelow',
         'dcaron', 'Lcaron', 'lcaron', 'tcaron',
+        'Hcedilla', 'hcedilla',
     ]
     for glyph, composedGlyphs in composed.items():  # base glyphs
         abovePos = []
