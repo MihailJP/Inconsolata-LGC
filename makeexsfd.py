@@ -330,12 +330,6 @@ def precomposedForms(font: fontforge.font):
         'lcommaaccent': ('l', 'commasubnosp'),
         'ncommaaccent': ('n', 'commasubnosp'),
         'rcommaaccent': ('r', 'commasubnosp'),
-        # Hokkien specific
-        'Ohokkienverticalline': ('O', 'verticallineabovecmb', 'uni0358'),
-        'ohokkienverticalline': ('o', 'verticallineabovecmb', 'uni0358'),
-        # S with horn and macron
-        'Shornmacron': ('S', 'horncmb', 'macroncomb'),
-        'shornmacron': ('s', 'horncmb', 'macroncomb'),
     }
     proscribedDecomp = {
         # Duplicate
@@ -362,7 +356,7 @@ def precomposedForms(font: fontforge.font):
     font.addLookupSubtable('Precomposed forms', 'Precomposed forms-1')
     for glyph in font.glyphs():
         if (decomp := decomposition(glyph)) and all([font.findEncodingSlot(c) >= 0 for c in decomp]):
-            if len(decomp) == 2 and decomp[1] in (c[2] for c in diacriticdata):
+            if len(decomp) >= 2 and all((d in (c[2] for c in diacriticdata)) for d in decomp[1:]):
                 components = tuple(font[font.findEncodingSlot(c)].glyphname for c in decomp)
                 if glyph.glyphname not in proscribedDecomp or all([components != p for p in proscribedDecomp[glyph.glyphname]]):
                     glyph.addPosSub('Precomposed forms-1', components)

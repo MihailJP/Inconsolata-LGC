@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1161020814
-ModificationTime: 1777725222
+ModificationTime: 1777728829
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 5
@@ -107,8 +107,8 @@ PUSHB_1
 SCANTYPE
 EndTTInstrs
 LangName: 1033
-OtfFeatName: 'ss02' 1033 "Polytonic Greek alternative circumflex"
 OtfFeatName: 'ss01' 1033 "German alternative umlaut"
+OtfFeatName: 'ss02' 1033 "Polytonic Greek alternative circumflex"
 Encoding: UnicodeFull
 Compacted: 1
 UnicodeInterp: none
@@ -145,7 +145,7 @@ Grid
  416.256 939.008 l 1049
 EndSplineSet
 TeXData: 1 0 0 629145 314572 209715 554697 1048576 209715 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 1114559 3288
+BeginChars: 1114567 3296
 
 StartChar: a
 Encoding: 97 97 0
@@ -63368,6 +63368,106 @@ SplineSet
  125 -179 l 0
  137 -113 l 0
 EndSplineSet
+EndChar
+
+StartChar: idotaccentgrave
+Encoding: 1114559 -1 3288
+Width: 613
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 195 -1 N 1 0 0 1 -6 141 2
+Refer: 222 729 N 1 0 0 1 -5 -30 2
+Refer: 136 305 N 1 0 0 1 0 0 2
+Decomposition: "i+AwcDAAAA"
+EndChar
+
+StartChar: idotaccentacute
+Encoding: 1114560 -1 3289
+Width: 613
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 194 -1 N 1 0 0 1 5 141 2
+Refer: 222 729 N 1 0 0 1 -5 -30 2
+Refer: 136 305 N 1 0 0 1 0 0 2
+Decomposition: "i+AwcDAQAA"
+EndChar
+
+StartChar: idotaccenttilde
+Encoding: 1114561 -1 3290
+Width: 613
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 138 732 N 1 0 0 1 14 150 2
+Refer: 222 729 N 1 0 0 1 -5 -30 2
+Refer: 136 305 N 1 0 0 1 0 0 2
+Decomposition: "i+AwcDAwAA"
+EndChar
+
+StartChar: idotaccentmacron
+Encoding: 1114562 -1 3291
+Width: 613
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 198 713 S 1 0 0 1 26 150 2
+Refer: 222 729 S 1 0 0 1 -5 -30 2
+Refer: 136 305 N 1 0 0 1 0 0 2
+Decomposition: "i+AwcDBAAA"
+EndChar
+
+StartChar: iogonekdotaccentgrave
+Encoding: 1114563 -1 3292
+Width: 613
+VWidth: 1046
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 195 -1 N 1 0 0 1 -6 141 2
+Refer: 222 729 N 1 0 0 1 -5 -30 2
+Refer: 3126 -1 N 1 0 0 1 0 0 2
+Decomposition: "+AS8DBwMA"
+EndChar
+
+StartChar: iogonekdotaccentacute
+Encoding: 1114564 -1 3293
+Width: 613
+VWidth: 1046
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 194 -1 N 1 0 0 1 5 141 2
+Refer: 222 729 N 1 0 0 1 -5 -30 2
+Refer: 3126 -1 N 1 0 0 1 0 0 2
+Decomposition: "+AS8DBwMB"
+EndChar
+
+StartChar: iogonekdotaccenttilde
+Encoding: 1114565 -1 3294
+Width: 613
+VWidth: 1046
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 138 732 S 1 0 0 1 14 150 2
+Refer: 222 729 S 1 0 0 1 -5 -30 2
+Refer: 3126 -1 N 1 0 0 1 0 0 2
+Decomposition: "+AS8DBwMD"
+EndChar
+
+StartChar: iogonekdotaccentmacron
+Encoding: 1114566 -1 3295
+Width: 613
+VWidth: 1046
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 198 713 N 1 0 0 1 26 150 2
+Refer: 222 729 N 1 0 0 1 -5 -30 2
+Refer: 3126 -1 N 1 0 0 1 0 0 2
+Decomposition: "+AS8DBwME"
 EndChar
 EndChars
 EndSplineFont
