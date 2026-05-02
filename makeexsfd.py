@@ -259,7 +259,9 @@ diacriticdata: list[tuple[str, Optional[str], int, str]] = [
     ('caron', 'caron.cap', 0x30c, 'caroncomb'),
     ('verticallinemod', 'verticallinemod.cap', 0x30d, 'verticallineabovecmb'),
     ('dblgrave', 'dblgrave.cap', 0x30f, 'dblgravecmb'),
+    ('candrabindumod', None, 0x310, 'candrabinducmb'),
     ('invertedbreve', None, 0x311, 'breveinvertedcmb'),
+    ('commaaboveright', None, 0x315, 'commaaboverightcmb'),
     ('horn', None, 0x31b, 'horncmb'),
     ('dotsub', None, 0x323, 'dotbelowcomb'),
     ('uni02F3', None, 0x325, 'ringbelowcmb'),
@@ -273,6 +275,7 @@ diacriticdata: list[tuple[str, Optional[str], int, str]] = [
     ('uni02BF', None, 0x351, 'uni0351'),
     ('uni02BE', None, 0x357, 'uni0357'),
     ('hokkiendot', None, 0x358, 'uni0358'),
+    ('doublemacronbelow', None, 0x35f, 'uni035F'),
 ]
 
 def addLgcAnchorClasses(font: fontforge.font):
@@ -330,6 +333,9 @@ def precomposedForms(font: fontforge.font):
         # Hokkien specific
         'Ohokkienverticalline': ('O', 'verticallineabovecmb', 'uni0358'),
         'ohokkienverticalline': ('o', 'verticallineabovecmb', 'uni0358'),
+        # S with horn and macron
+        'Shornmacron': ('S', 'horncmb', 'macroncomb'),
+        'shornmacron': ('s', 'horncmb', 'macroncomb'),
     }
     proscribedDecomp = {
         # Duplicate
