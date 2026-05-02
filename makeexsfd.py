@@ -260,6 +260,7 @@ diacriticdata: list[tuple[str, Optional[str], int, str]] = [
     ('verticallinemod', 'verticallinemod.cap', 0x30d, 'verticallineabovecmb'),
     ('dblgrave', 'dblgrave.cap', 0x30f, 'dblgravecmb'),
     ('invertedbreve', None, 0x311, 'breveinvertedcmb'),
+    ('horn', None, 0x31b, 'horncmb'),
     ('dotsub', None, 0x323, 'dotbelowcomb'),
     ('uni02F3', None, 0x325, 'ringbelowcmb'),
     ('commaaccent', None, 0x326, 'commasubnosp'),
@@ -271,7 +272,6 @@ diacriticdata: list[tuple[str, Optional[str], int, str]] = [
     ('macronsub', None, 0x331, 'macronbelowcmb'),
     ('uni02BF', None, 0x351, 'uni0351'),
     ('uni02BE', None, 0x357, 'uni0357'),
-    ('horn', None, 0x31b, 'horncmb'),
     ('hokkiendot', None, 0x358, 'uni0358'),
 ]
 
@@ -290,8 +290,10 @@ def lgcMarkAnchors(font: fontforge.font):
         font[targetname].width = 0
         font[targetname].addReference(sourcename, translate(*anchorCoord(font, -613, -123 if font[sourcename].boundingBox()[1] >= 700 else 0)))
         font[targetname].glyphclass = 'mark'
-        _, _, _, top = font[sourcename].boundingBox()
-        if top < 100:
+        left, _, _, top = font[sourcename].boundingBox()
+        if left > 400:
+            return
+        elif top < 100:
             anchor = 'LGC-accent-below'
             y = 0
         else:
