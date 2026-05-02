@@ -270,6 +270,8 @@ diacriticdata: list[tuple[str, Optional[str], int, str]] = [
     ('macronsub', None, 0x331, 'macronbelowcmb'),
     ('uni02BF', None, 0x351, 'uni0351'),
     ('uni02BE', None, 0x357, 'uni0357'),
+    ('horn', None, 0x31b, 'horncmb'),
+    ('hokkiendot', None, 0x358, 'uni0358'),
 ]
 
 def addLgcAnchorClasses(font: fontforge.font):
