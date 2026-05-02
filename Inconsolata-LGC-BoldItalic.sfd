@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1161020814
-ModificationTime: 1777549222
+ModificationTime: 1777700923
 PfmFamily: 49
 TTFWeight: 700
 TTFWidth: 5
@@ -107,8 +107,8 @@ PUSHB_1
 SCANTYPE
 EndTTInstrs
 LangName: 1033 "" "" "Bold Italic"
-OtfFeatName: 'ss01' 1033 "German alternative umlaut"
 OtfFeatName: 'ss02' 1033 "Polytonic Greek alternative circumflex"
+OtfFeatName: 'ss01' 1033 "German alternative umlaut"
 Encoding: UnicodeFull
 Compacted: 1
 UnicodeInterp: none
@@ -145,7 +145,7 @@ Grid
  416.256 939.008 l 1049
 EndSplineSet
 TeXData: 1 0 0 629145 314572 209715 554697 1048576 209715 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 1114514 3243
+BeginChars: 1114525 3254
 
 StartChar: a
 Encoding: 97 97 0
@@ -62786,6 +62786,131 @@ SplineSet
  290 298 l 1
  196 298 l 1
 EndSplineSet
+EndChar
+
+StartChar: verticallinemod.cap
+Encoding: 1114514 -1 3243
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+399 796 m 1
+ 495 796 l 1
+ 468 639 l 1
+ 372 639 l 1
+ 399 796 l 1
+EndSplineSet
+EndChar
+
+StartChar: Ohokkienacute
+Encoding: 1114515 -1 3244
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 3239 -1 N 1 0 0 1 0 0 2
+Refer: 194 -1 N 1 0 0 1 -30 141 2
+Decomposition: "+ANMDWAAA"
+EndChar
+
+StartChar: ohokkienacute
+Encoding: 1114516 -1 3245
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 3240 -1 N 1 0 0 1 0 0 2
+Refer: 107 180 N 1 0 0 1 -35 0 2
+Decomposition: "+APMDWAAA"
+EndChar
+
+StartChar: Ohokkiengrave
+Encoding: 1114517 -1 3246
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 3239 -1 N 1 0 0 1 0 0 2
+Refer: 195 -1 N 1 0 0 1 -41 141 2
+Decomposition: "+ANIDWAAA"
+EndChar
+
+StartChar: ohokkiengrave
+Encoding: 1114518 -1 3247
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 3240 -1 N 1 0 0 1 0 0 2
+Refer: 130 715 N 1 0 0 1 -30 0 2
+Decomposition: "+APIDWAAA"
+EndChar
+
+StartChar: Ohokkiencircumflex
+Encoding: 1114519 -1 3248
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 3239 -1 N 1 0 0 1 0 0 2
+Refer: 190 -1 S 1 0 0 1 -12 146 2
+Decomposition: "+ANQDWAAA"
+EndChar
+
+StartChar: ohokkiencircumflex
+Encoding: 1114520 -1 3249
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 3240 -1 N 1 0 0 1 0 0 2
+Refer: 137 710 S 1 0 0 1 -41 0 2
+Decomposition: "+APQDWAAA"
+EndChar
+
+StartChar: Ohokkienmacron
+Encoding: 1114521 -1 3250
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 198 713 S 1 0 0 1 -13 201 2
+Refer: 3239 -1 N 1 0 0 1 0 0 2
+Decomposition: "+AUwDWAAA"
+EndChar
+
+StartChar: ohokkienmacron
+Encoding: 1114522 -1 3251
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 3240 -1 N 1 0 0 1 0 0 2
+Refer: 198 713 S 1 0 0 1 -38 0 2
+Decomposition: "+AU0DWAAA"
+EndChar
+
+StartChar: Ohokkienverticalline
+Encoding: 1114523 -1 3252
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 3243 -1 N 1 0 0 1 -5 143 2
+Refer: 3239 -1 N 1 0 0 1 0 0 2
+Decomposition: "O+Aw0DWAAA"
+EndChar
+
+StartChar: ohokkienverticalline
+Encoding: 1114524 -1 3253
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 3240 -1 N 1 0 0 1 0 0 2
+Refer: 1582 712 S 1 0 0 1 -26 0 2
+Decomposition: "o+Aw0DWAAA"
 EndChar
 EndChars
 EndSplineFont

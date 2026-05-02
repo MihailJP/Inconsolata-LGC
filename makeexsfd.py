@@ -256,7 +256,7 @@ diacriticdata: list[tuple[str, Optional[str], int, str]] = [
     ('ring', None, 0x30a, 'ringcmb'),
     ('hungarumlaut', 'hungarumlaut.cap', 0x30b, 'hungarumlautcmb'),
     ('caron', 'caron.cap', 0x30c, 'caroncomb'),
-    ('verticallinemod', None, 0x30d, 'verticallineabovecmb'),
+    ('verticallinemod', 'verticallinemod.cap', 0x30d, 'verticallineabovecmb'),
     ('dblgrave', 'dblgrave.cap', 0x30f, 'dblgravecmb'),
     ('invertedbreve', None, 0x311, 'breveinvertedcmb'),
     ('dotsub', None, 0x323, 'dotbelowcomb'),
@@ -324,6 +324,9 @@ def precomposedForms(font: fontforge.font):
         'lcommaaccent': ('l', 'commasubnosp'),
         'ncommaaccent': ('n', 'commasubnosp'),
         'rcommaaccent': ('r', 'commasubnosp'),
+        # Hokkien specific
+        'Ohokkienverticalline': ('O', 'verticallineabovecmb', 'uni0358'),
+        'ohokkienverticalline': ('o', 'verticallineabovecmb', 'uni0358'),
     }
     proscribedDecomp = {
         # Duplicate
