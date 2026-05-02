@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1161020814
-ModificationTime: 1777726196
+ModificationTime: 1777739153
 PfmFamily: 49
 TTFWeight: 700
 TTFWidth: 5
@@ -107,8 +107,8 @@ PUSHB_1
 SCANTYPE
 EndTTInstrs
 LangName: 1033 "" "" "Bold Italic"
-OtfFeatName: 'ss02' 1033 "Polytonic Greek alternative circumflex"
 OtfFeatName: 'ss01' 1033 "German alternative umlaut"
+OtfFeatName: 'ss02' 1033 "Polytonic Greek alternative circumflex"
 Encoding: UnicodeFull
 Compacted: 1
 UnicodeInterp: none
@@ -145,7 +145,7 @@ Grid
  416.256 939.008 l 1049
 EndSplineSet
 TeXData: 1 0 0 629145 314572 209715 554697 1048576 209715 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 1114567 3296
+BeginChars: 1114571 3303
 
 StartChar: a
 Encoding: 97 97 0
@@ -9933,8 +9933,8 @@ VWidth: 1046
 Flags: MW
 LayerCount: 2
 Fore
+Refer: 3300 -1 N 1 0 0 1 0 0 2
 Refer: 13 103 N 1 0 0 1 0 0 2
-Refer: 1056 -1 N -1 0 0 -1 723 594 2
 EndChar
 
 StartChar: tbar
@@ -25122,8 +25122,8 @@ Width: 613
 Flags: MW
 LayerCount: 2
 Fore
+Refer: 3301 -1 N 1 0 0 1 0 0 2
 Refer: 12 72 N 1 0 0 1 0 0 2
-Refer: 241 728 N 1 0 0 1 -150 -850 2
 EndChar
 
 StartChar: hbrevebelow
@@ -25132,8 +25132,8 @@ Width: 613
 Flags: MW
 LayerCount: 2
 Fore
+Refer: 3301 -1 N 1 0 0 1 0 0 2
 Refer: 14 104 N 1 0 0 1 0 0 2
-Refer: 241 728 N 1 0 0 1 -150 -850 2
 EndChar
 
 StartChar: hlinebelow
@@ -25932,8 +25932,8 @@ Width: 613
 Flags: MW
 LayerCount: 2
 Fore
+Refer: 3298 -1 N 1 0 0 1 0 0 2
 Refer: 63 85 N 1 0 0 1 0 0 2
-Refer: 139 168 N 1 0 0 1 -150 -850 2
 EndChar
 
 StartChar: udieresisbelow
@@ -25942,8 +25942,8 @@ Width: 613
 Flags: MW
 LayerCount: 2
 Fore
+Refer: 3298 -1 N 1 0 0 1 0 0 2
 Refer: 15 117 N 1 0 0 1 0 0 2
-Refer: 139 168 N 1 0 0 1 -150 -850 2
 EndChar
 
 StartChar: Utildebelow
@@ -63356,7 +63356,7 @@ EndChar
 StartChar: idotaccentgrave
 Encoding: 1114559 -1 3288
 Width: 613
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 Refer: 195 -1 N 1 0 0 1 -6 141 2
@@ -63368,7 +63368,7 @@ EndChar
 StartChar: idotaccentacute
 Encoding: 1114560 -1 3289
 Width: 613
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 Refer: 194 -1 N 1 0 0 1 5 141 2
@@ -63380,7 +63380,7 @@ EndChar
 StartChar: idotaccenttilde
 Encoding: 1114561 -1 3290
 Width: 613
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 Refer: 138 732 N 1 0 0 1 14 150 2
@@ -63392,7 +63392,7 @@ EndChar
 StartChar: idotaccentmacron
 Encoding: 1114562 -1 3291
 Width: 613
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 Refer: 198 713 S 1 0 0 1 26 150 2
@@ -63405,7 +63405,7 @@ StartChar: iogonekdotaccentgrave
 Encoding: 1114563 -1 3292
 Width: 613
 VWidth: 1046
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 Refer: 195 -1 N 1 0 0 1 -6 141 2
@@ -63418,7 +63418,7 @@ StartChar: iogonekdotaccentacute
 Encoding: 1114564 -1 3293
 Width: 613
 VWidth: 1046
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 Refer: 194 -1 N 1 0 0 1 5 141 2
@@ -63431,7 +63431,7 @@ StartChar: iogonekdotaccenttilde
 Encoding: 1114565 -1 3294
 Width: 613
 VWidth: 1046
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 Refer: 138 732 S 1 0 0 1 14 150 2
@@ -63444,13 +63444,77 @@ StartChar: iogonekdotaccentmacron
 Encoding: 1114566 -1 3295
 Width: 613
 VWidth: 1046
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 Refer: 198 713 N 1 0 0 1 26 150 2
 Refer: 222 729 N 1 0 0 1 -5 -30 2
 Refer: 3126 -1 N 1 0 0 1 0 0 2
 Decomposition: "+AS8DBwME"
+EndChar
+
+StartChar: gravesub
+Encoding: 718 718 3296
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 130 715 N 1 0 0 1 -142 -805 2
+EndChar
+
+StartChar: acutesub
+Encoding: 719 719 3297
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1583 714 N 1 0 0 1 -142 -805 2
+EndChar
+
+StartChar: dieresisbelow
+Encoding: 1114567 -1 3298
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 139 168 N 1 0 0 1 -150 -850 2
+EndChar
+
+StartChar: uni02EC
+Encoding: 748 748 3299
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 143 711 N 1 0 0 1 -142 -805 2
+EndChar
+
+StartChar: commaturnedabove
+Encoding: 1114568 -1 3300
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1056 -1 N -1 0 0 -1 723 594 2
+EndChar
+
+StartChar: brevebelow
+Encoding: 1114569 -1 3301
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 241 728 N 1 0 0 1 -150 -850 2
+EndChar
+
+StartChar: breveinvertedbelow
+Encoding: 1114570 -1 3302
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1205 -1 N 1 0 0 1 -150 -850 2
 EndChar
 EndChars
 EndSplineFont
