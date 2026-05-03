@@ -110,13 +110,15 @@ def add_dotlessforms(font: fontforge.font):
         font[dotted].addPosSub('Dotless forms-1', dotless)
         font[dotted].glyphclass = 'baseglyph'
     font.addLookup('Remove the dot above i', 'gsub_contextchain', None, (('calt', langDictToLangTuple(getLangDict(font))),))
+    diacritics = [m.glyphname for m in font.glyphs() if m.width == 0 and 'LGC-accent-above' in [a[0] for a in m.anchorPoints]]
+    diacritics += [g for g in font.glyphs() if 'cmb_' in g.glyphname or 'comb_' in g.glyphname]  # combined diacritics
     font.addContextualSubtable(
         'Remove the dot above i',
         'Remove the dot above i-1',
         'class',
         '| 1 @<Dotless forms> | 1',
         mclasses=((), tuple([d[0] for d in dotlessforms])),
-        fclasses=((), tuple([m.glyphname for m in font.glyphs() if m.width == 0 and 'LGC-accent-above' in [a[0] for a in m.anchorPoints]])),
+        fclasses=((), tuple(diacritics)),
     )
 
 def anchorCoord(font: fontforge.font, x: float, y: float) -> tuple[float, float]:
@@ -266,6 +268,7 @@ def lgcBaseAnchors(font: fontforge.font):
 diacriticdata: list[tuple[str, Optional[str], int, str]] = [
     ('gravemodifier', 'grave.cap', 0x300, 'gravecomb'),
     ('acute', 'acute.cap', 0x301, 'acutecomb'),
+    ('acute.pinyin', 'acute.cap.pinyin', -1, 'acutecomb.pinyin'),
     ('circumflex', 'circumflex.cap', 0x302, 'circumflexcomb'),
     ('tilde', None, 0x303, 'tildecomb'),
     ('macronmodifier', None, 0x304, 'macroncomb'),
@@ -334,6 +337,8 @@ def lgcMarkAnchors(font: fontforge.font):
         addChar(font, sourcename, targetuni, targetname)
         if capsourcename:
             addChar(font, capsourcename, -1, targetname + '.cap')
+        if targetname.endswith('.pinyin'):
+            font[targetname.removesuffix('.pinyin')].addPosSub('Pinyin variant forms-1', targetname)
 
 def precomposedForms(font: fontforge.font):
     customDecomp = {
@@ -391,6 +396,17 @@ def precomposedForms(font: fontforge.font):
     for glyph in customDecomp:
         font[glyph].addPosSub('Precomposed forms-1', customDecomp[glyph])
         font[glyph].glyphclass = 'baseglyph'
+    # precomposed diacritics
+    for glyph in [g for g in font.glyphs() if 'cmb_' in g.glyphname or 'comb_' in g.glyphname]:
+        assert glyph.boundingBox()[3] > 100 and glyph.boundingBox()[0] < 400
+        glyph.transform(translate(-613, 0))
+        glyph.width = 0
+        glyph.addAnchorPoint('LGC-accent-above', 'mark', *anchorCoord(font, -307, 554))
+        glyph.glyphclass = 'mark'
+        if '.' not in glyph.glyphname:
+            glyph.addPosSub('Precomposed forms-1', tuple(glyph.glyphname.split('_')))
+        elif glyph.glyphname.endswith('.pinyin'):
+            font[glyph.glyphname.removesuffix('.pinyin')].addPosSub('Pinyin variant forms-1', glyph.glyphname)
 
 def uppercaseForms(font: fontforge.font):
     mark = sum([[glyph.glyphname for a in glyph.anchorPoints if a[0] == 'LGC-accent-above' and a[1] == 'mark' and glyph.width == 0] for glyph in font.glyphs() if (glyph.glyphname + '.cap') in font], [])
