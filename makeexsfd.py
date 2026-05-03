@@ -98,17 +98,26 @@ dotlessforms: list[tuple[str, str]] = [
     ('icyril', 'dotlessi'),
     ('je', 'dotlessj'),
     ('iogonek', 'iogonek.dotless'),
-    ('ibar', '.dotless'),
+    ('ibar', 'ibar.dotless'),
     ('itildebelow', 'itildebelow.dotless'),
     ('idotbelow', 'idotbelow.dotless'),
 ]
 
 def add_dotlessforms(font: fontforge.font):
-    font.addLookup('Dotless forms', 'gsub_ligature', None, ())
+    font.addLookup('Dotless forms', 'gsub_single', None, ())
     font.addLookupSubtable('Dotless forms', 'Dotless forms-1')
     for dotted, dotless in dotlessforms:
         font[dotted].addPosSub('Dotless forms-1', dotless)
         font[dotted].glyphclass = 'baseglyph'
+    font.addLookup('Remove the dot above i', 'gsub_contextchain', None, (('calt', langDictToLangTuple(getLangDict(font))),))
+    font.addContextualSubtable(
+        'Remove the dot above i',
+        'Remove the dot above i-1',
+        'class',
+        '| 1 @<Dotless forms> | 1',
+        mclasses=((), tuple([d[0] for d in dotlessforms])),
+        fclasses=((), tuple([m.glyphname for m in font.glyphs() if m.width == 0 and 'LGC-accent-above' in [a[0] for a in m.anchorPoints]])),
+    )
 
 def anchorCoord(font: fontforge.font, x: float, y: float) -> tuple[float, float]:
     return (x - y * tan(radians(font.italicangle)), y)
@@ -123,7 +132,7 @@ lgcRange = [
 
 def lgcBaseAnchors(font: fontforge.font):
     def trunkGlyph(glyph: fontforge.glyph) -> Optional[fontforge.glyph]:
-        trunkname = re.sub(r'\.(serif|bg|mkd|ewe|var\d?|pinyin|alt)+$', '', glyph.glyphname)
+        trunkname = re.sub(r'\.(serif|bg|mkd|ewe|var\d?|pinyin|alt|dotless)+$', '', glyph.glyphname)
         if trunkname == 'fscript':
             trunkname = 'florin'
         if trunkname not in glyph.font or trunkname == glyph.glyphname:
@@ -233,6 +242,14 @@ def lgcBaseAnchors(font: fontforge.font):
                         added = True
         if not added:
             break
+    for dotted, dotless in dotlessforms:
+        if dotless.endswith('.dotless'):
+            assert dotless.startswith('i') or dotless.startswith('j')
+            positions.setdefault(dotless, [[], []])
+            if not positions[dotless][0]:
+                positions[dotless][0] = positions['dotless' + dotless[0]][0]
+            if not positions[dotless][1]:
+                positions[dotless][1] = positions[dotted][1]
     for glyph, pos in positions.items():  # add anchors
         abovePos, belowPos = [((sum([p[0] for p in q]) / len(q), sum([p[1] for p in q]) / len(q)) if len(q) else None) for q in pos]
         if abovePos:
@@ -392,10 +409,10 @@ def uppercaseForms(font: fontforge.font):
 
 def diacritics(font: fontforge.font):
     add_dottedcircle(font)
-    add_dotlessforms(font)
     addLgcAnchorClasses(font)
     lgcMarkAnchors(font)
     lgcBaseAnchors(font)
+    add_dotlessforms(font)
     precomposedForms(font)
     uppercaseForms(font)
 
