@@ -173,6 +173,16 @@ def lgcBaseAnchors(font: fontforge.font):
         'gcommaaccent', 'ydotbelow',
         'dcaron', 'Lcaron', 'lcaron', 'tcaron',
         'Hcedilla', 'hcedilla',
+        'Alphatonos', 'Epsilontonos', 'Etatonos', 'Iotatonos',
+        'Omicrontonos', 'Upsilontonos', 'Omegatonos',
+        'Alphalenis', 'Epsilonlenis', 'Etalenis', 'Iotalenis',
+        'Omicronlenis', 'Omegalenis',
+        'Alphaasper', 'Epsilonasper', 'Etaasper', 'Iotaasper',
+        'Omicronasper', 'Rhoasper', 'Upsilonasper', 'Omegaasper',
+        'Alphagrave', 'Epsilongrave', 'Etagrave', 'Iotagrave',
+        'Omicrongrave', 'Upsilongrave', 'Omegagrave',
+        'Alphaacute', 'Epsilonacute', 'Etaacute', 'Iotaacute',
+        'Omicronacute', 'Upsilonacute', 'Omegaacute',
     ]
     for glyph, composedGlyphs in composed.items():  # base glyphs
         abovePos = []
@@ -308,7 +318,7 @@ diacriticdata: list[tuple[str, Optional[str], int, str, int]] = [
 ]
 
 def addLgcAnchorClasses(font: fontforge.font):
-    allLGC = dict((scr, lng) for scr, lng in getLangDict(font).items() if scr in ['latn', 'grec', 'cyrl'])
+    allLGC = dict((scr, lng) for scr, lng in getLangDict(font).items() if scr in ['latn', 'grek', 'cyrl'])
     font.addLookup('Accent above', 'gpos_mark2base', None, (('mark', langDictToLangTuple(allLGC)),))
     font.addLookupSubtable('Accent above', 'Accent above-1')
     font.addAnchorClass('Accent above-1', 'LGC-accent-above')
