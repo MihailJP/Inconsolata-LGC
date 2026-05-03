@@ -107,8 +107,8 @@ PUSHB_1
 SCANTYPE
 EndTTInstrs
 LangName: 1033
-OtfFeatName: 'ss02' 1033 "Polytonic Greek alternative circumflex"
 OtfFeatName: 'ss01' 1033 "German alternative umlaut"
+OtfFeatName: 'ss02' 1033 "Polytonic Greek alternative circumflex"
 Encoding: UnicodeFull
 Compacted: 1
 UnicodeInterp: none
@@ -145,7 +145,7 @@ Grid
  416.256 939.008 l 1049
 EndSplineSet
 TeXData: 1 0 0 629145 314572 209715 554697 1048576 209715 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 1114577 3309
+BeginChars: 1114575 3307
 
 StartChar: a
 Encoding: 97 97 0
@@ -9932,7 +9932,7 @@ VWidth: 1046
 Flags: MW
 LayerCount: 2
 Fore
-Refer: 3285 -1 N 1 0 0 1 0 0 2
+Refer: 3283 -1 N 1 0 0 1 0 0 2
 Refer: 13 103 N 1 0 0 1 0 0 2
 EndChar
 
@@ -25131,7 +25131,7 @@ Width: 613
 Flags: MW
 LayerCount: 2
 Fore
-Refer: 3286 -1 N 1 0 0 1 0 0 2
+Refer: 3284 -1 N 1 0 0 1 0 0 2
 Refer: 12 72 N 1 0 0 1 0 0 2
 EndChar
 
@@ -25141,7 +25141,7 @@ Width: 613
 Flags: MW
 LayerCount: 2
 Fore
-Refer: 3286 -1 N 1 0 0 1 0 0 2
+Refer: 3284 -1 N 1 0 0 1 0 0 2
 Refer: 14 104 N 1 0 0 1 0 0 2
 EndChar
 
@@ -25941,7 +25941,7 @@ Width: 613
 Flags: MW
 LayerCount: 2
 Fore
-Refer: 3283 -1 N 1 0 0 1 0 0 2
+Refer: 3281 -1 N 1 0 0 1 0 0 2
 Refer: 63 85 N 1 0 0 1 0 0 2
 EndChar
 
@@ -25951,7 +25951,7 @@ Width: 613
 Flags: MW
 LayerCount: 2
 Fore
-Refer: 3283 -1 N 1 0 0 1 0 0 2
+Refer: 3281 -1 N 1 0 0 1 0 0 2
 Refer: 15 117 N 1 0 0 1 0 0 2
 EndChar
 
@@ -62930,30 +62930,8 @@ Refer: 1582 712 S 1 0 0 1 -26 0 2
 Decomposition: "o+Aw0DWAAA"
 EndChar
 
-StartChar: Cogonek
-Encoding: 1114525 -1 3254
-Width: 613
-Flags: W
-LayerCount: 2
-Fore
-Refer: 214 731 N 1 0 0 1 -95 0 2
-Refer: 72 67 N 1 0 0 1 0 0 2
-Decomposition: "C+AygA"
-EndChar
-
-StartChar: cogonek
-Encoding: 1114526 -1 3255
-Width: 613
-Flags: W
-LayerCount: 2
-Fore
-Refer: 214 731 S 1 0 0 1 -82 0 2
-Refer: 1 99 N 1 0 0 1 0 0 2
-Decomposition: "c+AygA"
-EndChar
-
 StartChar: commaaboveright
-Encoding: 1114527 -1 3256
+Encoding: 1114525 -1 3254
 Width: 613
 Flags: W
 LayerCount: 2
@@ -62962,7 +62940,7 @@ Refer: 56 8217 N 0.8 0 0 0.8 348 191 2
 EndChar
 
 StartChar: C.narrow
-Encoding: 1114528 -1 3257
+Encoding: 1114526 -1 3255
 Width: 613
 Flags: W
 LayerCount: 2
@@ -62986,7 +62964,7 @@ EndSplineSet
 EndChar
 
 StartChar: K.narrow
-Encoding: 1114529 -1 3258
+Encoding: 1114527 -1 3256
 Width: 613
 Flags: W
 LayerCount: 2
@@ -63012,7 +62990,7 @@ EndSplineSet
 EndChar
 
 StartChar: P.narrow
-Encoding: 1114530 -1 3259
+Encoding: 1114528 -1 3257
 Width: 613
 Flags: W
 LayerCount: 2
@@ -63040,7 +63018,7 @@ EndSplineSet
 EndChar
 
 StartChar: T.narrow
-Encoding: 1114531 -1 3260
+Encoding: 1114529 -1 3258
 Width: 613
 Flags: W
 LayerCount: 2
@@ -63059,130 +63037,130 @@ EndSplineSet
 EndChar
 
 StartChar: Ccommaaboveright
+Encoding: 1114530 -1 3259
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 3255 -1 N 1 0 0 1 0 0 2
+Refer: 3254 -1 N 1 0 0 1 0 0 2
+Decomposition: "C+AxUA"
+EndChar
+
+StartChar: Kcommaaboveright
+Encoding: 1114531 -1 3260
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 3256 -1 N 1 0 0 1 0 0 2
+Refer: 3254 -1 N 1 0 0 1 0 0 2
+Decomposition: "K+AxUA"
+EndChar
+
+StartChar: Pcommaaboveright
 Encoding: 1114532 -1 3261
 Width: 613
 Flags: W
 LayerCount: 2
 Fore
 Refer: 3257 -1 N 1 0 0 1 0 0 2
-Refer: 3256 -1 N 1 0 0 1 0 0 2
-Decomposition: "C+AxUA"
+Refer: 3254 -1 N 1 0 0 1 0 0 2
+Decomposition: "P+AxUA"
 EndChar
 
-StartChar: Kcommaaboveright
+StartChar: Tcommaaboveright
 Encoding: 1114533 -1 3262
 Width: 613
 Flags: W
 LayerCount: 2
 Fore
 Refer: 3258 -1 N 1 0 0 1 0 0 2
-Refer: 3256 -1 N 1 0 0 1 0 0 2
-Decomposition: "K+AxUA"
+Refer: 3254 -1 N 1 0 0 1 0 0 2
+Decomposition: "T+AxUA"
 EndChar
 
-StartChar: Pcommaaboveright
+StartChar: ccommaaboveright
 Encoding: 1114534 -1 3263
 Width: 613
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3259 -1 N 1 0 0 1 0 0 2
-Refer: 3256 -1 N 1 0 0 1 0 0 2
-Decomposition: "P+AxUA"
+Refer: 1 99 N 1 0 0 1 0 0 2
+Refer: 3254 -1 N 1 0 0 1 0 0 2
+Decomposition: "c+AxUA"
 EndChar
 
-StartChar: Tcommaaboveright
+StartChar: kcommaaboveright
 Encoding: 1114535 -1 3264
 Width: 613
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3260 -1 N 1 0 0 1 0 0 2
-Refer: 3256 -1 N 1 0 0 1 0 0 2
-Decomposition: "T+AxUA"
+Refer: 68 107 N 1 0 0 1 0 0 2
+Refer: 3254 -1 N 1 0 0 1 0 0 2
+Decomposition: "k+AxUA"
 EndChar
 
-StartChar: ccommaaboveright
+StartChar: pcommaaboveright
 Encoding: 1114536 -1 3265
 Width: 613
 Flags: W
 LayerCount: 2
 Fore
-Refer: 1 99 N 1 0 0 1 0 0 2
-Refer: 3256 -1 N 1 0 0 1 0 0 2
-Decomposition: "c+AxUA"
+Refer: 21 112 N 1 0 0 1 0 0 2
+Refer: 3254 -1 N 1 0 0 1 0 0 2
+Decomposition: "p+AxUA"
 EndChar
 
-StartChar: kcommaaboveright
+StartChar: tcommaaboveright
 Encoding: 1114537 -1 3266
 Width: 613
 Flags: W
 LayerCount: 2
 Fore
-Refer: 68 107 N 1 0 0 1 0 0 2
-Refer: 3256 -1 N 1 0 0 1 0 0 2
-Decomposition: "k+AxUA"
+Refer: 8 116 N 1 0 0 1 0 0 2
+Refer: 3254 -1 N 1 0 0 1 0 0 2
+Decomposition: "t+AxUA"
 EndChar
 
-StartChar: pcommaaboveright
+StartChar: Ccaroncommaaboveright
 Encoding: 1114538 -1 3267
 Width: 613
 Flags: W
 LayerCount: 2
 Fore
-Refer: 21 112 N 1 0 0 1 0 0 2
-Refer: 3256 -1 N 1 0 0 1 0 0 2
-Decomposition: "p+AxUA"
-EndChar
-
-StartChar: tcommaaboveright
-Encoding: 1114539 -1 3268
-Width: 613
-Flags: W
-LayerCount: 2
-Fore
-Refer: 8 116 N 1 0 0 1 0 0 2
-Refer: 3256 -1 N 1 0 0 1 0 0 2
-Decomposition: "t+AxUA"
-EndChar
-
-StartChar: Ccaroncommaaboveright
-Encoding: 1114540 -1 3269
-Width: 613
-Flags: W
-LayerCount: 2
-Fore
 Refer: 191 -1 N 1 0 0 1 22 146 2
-Refer: 3257 -1 N 1 0 0 1 0 0 2
-Refer: 3256 -1 N 1 0 0 1 0 0 2
+Refer: 3255 -1 N 1 0 0 1 0 0 2
+Refer: 3254 -1 N 1 0 0 1 0 0 2
 Decomposition: "+AQwDFQAA"
 EndChar
 
 StartChar: ccaroncommaaboveright
-Encoding: 1114541 -1 3270
+Encoding: 1114539 -1 3268
 Width: 613
 Flags: W
 LayerCount: 2
 Fore
 Refer: 143 711 N 1 0 0 1 24 0 2
 Refer: 1 99 N 1 0 0 1 0 0 2
-Refer: 3256 -1 N 1 0 0 1 0 0 2
+Refer: 3254 -1 N 1 0 0 1 0 0 2
 Decomposition: "+AQ0DFQAA"
 EndChar
 
 StartChar: Khorn
-Encoding: 1114542 -1 3271
+Encoding: 1114540 -1 3269
 Width: 613
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3258 -1 N 1 0 0 1 0 0 2
+Refer: 3256 -1 N 1 0 0 1 0 0 2
 Refer: 3238 -1 S 1 0 0 1 58 329 2
 Decomposition: "K+AxsA"
 EndChar
 
 StartChar: Shorn
-Encoding: 1114543 -1 3272
+Encoding: 1114541 -1 3270
 Width: 613
 Flags: W
 LayerCount: 2
@@ -63193,18 +63171,18 @@ Decomposition: "S+AxsA"
 EndChar
 
 StartChar: T_horn
-Encoding: 1114544 -1 3273
+Encoding: 1114542 -1 3271
 Width: 613
 Flags: W
 LayerCount: 2
 Fore
-Refer: 3260 -1 N 1 0 0 1 0 0 2
+Refer: 3258 -1 N 1 0 0 1 0 0 2
 Refer: 3238 -1 S 1 0 0 1 58 330 2
 Decomposition: "T+AxsA"
 EndChar
 
 StartChar: khorn
-Encoding: 1114545 -1 3274
+Encoding: 1114543 -1 3272
 Width: 613
 Flags: W
 LayerCount: 2
@@ -63215,7 +63193,7 @@ Decomposition: "k+AxsA"
 EndChar
 
 StartChar: shorn
-Encoding: 1114546 -1 3275
+Encoding: 1114544 -1 3273
 Width: 613
 Flags: W
 LayerCount: 2
@@ -63226,7 +63204,7 @@ Decomposition: "s+AxsA"
 EndChar
 
 StartChar: t_horn
-Encoding: 1114547 -1 3276
+Encoding: 1114545 -1 3274
 Width: 613
 Flags: W
 LayerCount: 2
@@ -63237,29 +63215,29 @@ Decomposition: "t+AxsA"
 EndChar
 
 StartChar: Shornmacron
-Encoding: 1114548 -1 3277
+Encoding: 1114546 -1 3275
 Width: 613
 Flags: W
 LayerCount: 2
 Fore
 Refer: 198 713 N 1 0 0 1 35 201 2
-Refer: 3272 -1 N 1 0 0 1 0 0 2
+Refer: 3270 -1 N 1 0 0 1 0 0 2
 Decomposition: "S+AxsDBAAA"
 EndChar
 
 StartChar: shornmacron
-Encoding: 1114549 -1 3278
+Encoding: 1114547 -1 3276
 Width: 613
 Flags: W
 LayerCount: 2
 Fore
 Refer: 198 713 N 1 0 0 1 0 0 2
-Refer: 3275 -1 N 1 0 0 1 0 0 2
+Refer: 3273 -1 N 1 0 0 1 0 0 2
 Decomposition: "s+AxsDBAAA"
 EndChar
 
 StartChar: candrabindumod
-Encoding: 1114550 -1 3279
+Encoding: 1114548 -1 3277
 Width: 613
 Flags: W
 LayerCount: 2
@@ -63269,7 +63247,7 @@ Refer: 222 729 N 1 0 0 1 18 100 2
 EndChar
 
 StartChar: doublemacronbelow
-Encoding: 1114551 -1 3280
+Encoding: 1114549 -1 3278
 Width: 613
 Flags: W
 LayerCount: 2
@@ -63284,7 +63262,7 @@ EndSplineSet
 EndChar
 
 StartChar: gravesub
-Encoding: 718 718 3281
+Encoding: 718 718 3279
 Width: 613
 Flags: W
 LayerCount: 2
@@ -63293,7 +63271,7 @@ Refer: 130 715 N 1 0 0 1 -142 -805 2
 EndChar
 
 StartChar: acutesub
-Encoding: 719 719 3282
+Encoding: 719 719 3280
 Width: 613
 Flags: W
 LayerCount: 2
@@ -63302,7 +63280,7 @@ Refer: 1583 714 N 1 0 0 1 -142 -805 2
 EndChar
 
 StartChar: dieresisbelow
-Encoding: 1114552 -1 3283
+Encoding: 1114550 -1 3281
 Width: 613
 Flags: W
 LayerCount: 2
@@ -63311,7 +63289,7 @@ Refer: 139 168 N 1 0 0 1 -150 -850 2
 EndChar
 
 StartChar: uni02EC
-Encoding: 748 748 3284
+Encoding: 748 748 3282
 Width: 613
 Flags: W
 LayerCount: 2
@@ -63320,7 +63298,7 @@ Refer: 143 711 N 1 0 0 1 -142 -805 2
 EndChar
 
 StartChar: commaturnedabove
-Encoding: 1114553 -1 3285
+Encoding: 1114551 -1 3283
 Width: 613
 VWidth: 1046
 Flags: W
@@ -63330,7 +63308,7 @@ Refer: 1056 -1 N -1 0 0 -1 723 594 2
 EndChar
 
 StartChar: brevebelow
-Encoding: 1114554 -1 3286
+Encoding: 1114552 -1 3284
 Width: 613
 Flags: W
 LayerCount: 2
@@ -63339,7 +63317,7 @@ Refer: 241 728 N 1 0 0 1 -150 -850 2
 EndChar
 
 StartChar: breveinvertedbelow
-Encoding: 1114555 -1 3287
+Encoding: 1114553 -1 3285
 Width: 613
 Flags: W
 LayerCount: 2
@@ -63348,7 +63326,7 @@ Refer: 1205 -1 N 1 0 0 1 -150 -850 2
 EndChar
 
 StartChar: dieresiscmb_macroncomb
-Encoding: 1114556 -1 3288
+Encoding: 1114554 -1 3286
 Width: 613
 Flags: W
 LayerCount: 2
@@ -63358,7 +63336,7 @@ Refer: 139 168 N 1 0 0 1 -9 -50 2
 EndChar
 
 StartChar: dieresiscmb_acutecomb
-Encoding: 1114557 -1 3289
+Encoding: 1114555 -1 3287
 Width: 613
 Flags: W
 LayerCount: 2
@@ -63368,7 +63346,7 @@ Refer: 194 -1 N 1 0 0 1 5 141 2
 EndChar
 
 StartChar: dieresiscmb_acutecomb.pinyin
-Encoding: 1114558 -1 3290
+Encoding: 1114556 -1 3288
 Width: 613
 Flags: W
 LayerCount: 2
@@ -63378,7 +63356,7 @@ Refer: 139 168 N 1 0 0 1 -9 -50 2
 EndChar
 
 StartChar: dieresiscmb_caroncomb
-Encoding: 1114559 -1 3291
+Encoding: 1114557 -1 3289
 Width: 613
 Flags: W
 LayerCount: 2
@@ -63388,7 +63366,7 @@ Refer: 191 -1 N 1 0 0 1 34 146 2
 EndChar
 
 StartChar: dieresiscmb_gravecomb
-Encoding: 1114560 -1 3292
+Encoding: 1114558 -1 3290
 Width: 613
 Flags: W
 LayerCount: 2
@@ -63398,7 +63376,7 @@ Refer: 195 -1 N 1 0 0 1 -6 141 2
 EndChar
 
 StartChar: dotaccentcmb_gravecomb
-Encoding: 1114561 -1 3293
+Encoding: 1114559 -1 3291
 Width: 613
 Flags: W
 LayerCount: 2
@@ -63408,7 +63386,7 @@ Refer: 222 729 N 1 0 0 1 -5 -30 2
 EndChar
 
 StartChar: dotaccentcmb_acutecomb
-Encoding: 1114562 -1 3294
+Encoding: 1114560 -1 3292
 Width: 613
 Flags: W
 LayerCount: 2
@@ -63418,7 +63396,7 @@ Refer: 222 729 N 1 0 0 1 -5 -30 2
 EndChar
 
 StartChar: dotaccentcmb_tildecomb
-Encoding: 1114563 -1 3295
+Encoding: 1114561 -1 3293
 Width: 613
 Flags: W
 LayerCount: 2
@@ -63428,7 +63406,7 @@ Refer: 222 729 N 1 0 0 1 -5 -30 2
 EndChar
 
 StartChar: dotaccentcmb_macroncomb
-Encoding: 1114564 -1 3296
+Encoding: 1114562 -1 3294
 Width: 613
 Flags: W
 LayerCount: 2
@@ -63438,7 +63416,7 @@ Refer: 222 729 N 1 0 0 1 -5 -30 2
 EndChar
 
 StartChar: ringcmb_acutecomb
-Encoding: 1114565 -1 3297
+Encoding: 1114563 -1 3295
 Width: 613
 VWidth: 1046
 Flags: W
@@ -63449,7 +63427,7 @@ Refer: 161 730 N 1 0 0 1 -10 -55 2
 EndChar
 
 StartChar: tildecomb_macroncomb
-Encoding: 1114566 -1 3298
+Encoding: 1114564 -1 3296
 Width: 613
 Flags: W
 LayerCount: 2
@@ -63459,7 +63437,7 @@ Refer: 198 713 N 1 0 0 1 26 150 2
 EndChar
 
 StartChar: tildecomb_gravecomb
-Encoding: 1114567 -1 3299
+Encoding: 1114565 -1 3297
 Width: 613
 Flags: W
 LayerCount: 2
@@ -63469,7 +63447,7 @@ Refer: 138 732 N 1 0 0 1 -7 -40 2
 EndChar
 
 StartChar: tildecomb_acutecomb
-Encoding: 1114568 -1 3300
+Encoding: 1114566 -1 3298
 Width: 613
 Flags: W
 LayerCount: 2
@@ -63479,7 +63457,7 @@ Refer: 194 -1 N 1 0 0 1 25 141 2
 EndChar
 
 StartChar: tildecomb_dieresiscmb
-Encoding: 1114569 -1 3301
+Encoding: 1114567 -1 3299
 Width: 613
 Flags: W
 LayerCount: 2
@@ -63489,7 +63467,7 @@ Refer: 139 168 N 1 0 0 1 31 150 2
 EndChar
 
 StartChar: tildecomb_caroncomb
-Encoding: 1114570 -1 3302
+Encoding: 1114568 -1 3300
 Width: 613
 Flags: W
 LayerCount: 2
@@ -63499,7 +63477,7 @@ Refer: 138 732 N 1 0 0 1 -7 -40 2
 EndChar
 
 StartChar: macroncomb_gravecomb
-Encoding: 1114571 -1 3303
+Encoding: 1114569 -1 3301
 Width: 613
 VWidth: 1046
 Flags: W
@@ -63510,7 +63488,7 @@ Refer: 195 -1 N 1 0 0 1 -6 141 2
 EndChar
 
 StartChar: macroncomb_acutecomb
-Encoding: 1114572 -1 3304
+Encoding: 1114570 -1 3302
 Width: 613
 VWidth: 1046
 Flags: W
@@ -63521,7 +63499,7 @@ Refer: 198 713 N 1 0 0 1 -5 -30 2
 EndChar
 
 StartChar: macroncomb_verticallineabovecmb
-Encoding: 1114573 -1 3305
+Encoding: 1114571 -1 3303
 Width: 613
 Flags: W
 LayerCount: 2
@@ -63531,7 +63509,7 @@ Refer: 198 713 N 1 0 0 1 -5 -30 2
 EndChar
 
 StartChar: circumflexcomb_macroncomb
-Encoding: 1114574 -1 3306
+Encoding: 1114572 -1 3304
 Width: 613
 Flags: W
 LayerCount: 2
@@ -63541,7 +63519,7 @@ Refer: 190 -1 N 1 0 0 1 -6 -28 2
 EndChar
 
 StartChar: circumflexcomb_caroncomb
-Encoding: 1114575 -1 3307
+Encoding: 1114573 -1 3305
 Width: 613
 Flags: W
 LayerCount: 2
@@ -63551,7 +63529,7 @@ Refer: 190 -1 N 1 0 0 1 -6 -28 2
 EndChar
 
 StartChar: circumflexcomb_tildecomb
-Encoding: 1114576 -1 3308
+Encoding: 1114574 -1 3306
 Width: 613
 Flags: W
 LayerCount: 2
