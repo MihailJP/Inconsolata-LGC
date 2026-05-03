@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1161020814
-ModificationTime: 1777785637
+ModificationTime: 1777811423
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 5
@@ -56,25 +56,26 @@ Lookup: 1 0 0 "Ewe f-hook" { "Ewe f-hook-1"  } ['locl' ('latn' <'AVN ' 'EWE ' 'L
 Lookup: 1 0 0 "Chuvash variant of The" { "Chuvash variant of The-1" ("cv") } ['locl' ('cyrl' <'CHU ' > ) ]
 Lookup: 5 0 0 "Dutch accented IJ" { "Dutch accented IJ-1"  } ['locl' ('latn' <'FLE ' 'NLD ' > ) ]
 Lookup: 1 0 0 "J with acute accent" { "J with acute accent-1"  } []
-Lookup: 1 0 0 "Old style numerals" { "Old style numerals-1" ("oldstyle") } ['onum' ('DFLT' <'dflt' > 'brai' <'dflt' > 'cyrl' <'BGR ' 'BOS ' 'CHU ' 'MKD ' 'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'AVN ' 'EWE ' 'FLE ' 'ISM ' 'LEF ' 'LIV ' 'LSM ' 'MOL ' 'NLD ' 'NSM ' 'PLK ' 'ROM ' 'SJE ' 'SJU ' 'SKS ' 'SSM ' 'WCI ' 'ZHP ' 'dflt' > ) ]
-Lookup: 1 0 0 "Superscripts" { "Superscripts-1" ("superior") } ['sups' ('DFLT' <'dflt' > 'brai' <'dflt' > 'cyrl' <'BGR ' 'BOS ' 'CHU ' 'MKD ' 'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'AVN ' 'EWE ' 'FLE ' 'ISM ' 'LEF ' 'LIV ' 'LSM ' 'MOL ' 'NLD ' 'NSM ' 'PLK ' 'ROM ' 'SJE ' 'SJU ' 'SKS ' 'SSM ' 'WCI ' 'ZHP ' 'dflt' > ) ]
-Lookup: 1 0 0 "Subscripts" { "Subscripts-1" ("inferior") } ['subs' ('DFLT' <'dflt' > 'brai' <'dflt' > 'cyrl' <'BGR ' 'BOS ' 'CHU ' 'MKD ' 'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'AVN ' 'EWE ' 'FLE ' 'ISM ' 'LEF ' 'LIV ' 'LSM ' 'MOL ' 'NLD ' 'NSM ' 'PLK ' 'ROM ' 'SJE ' 'SJU ' 'SKS ' 'SSM ' 'WCI ' 'ZHP ' 'dflt' > ) ]
-Lookup: 1 0 0 "Forms for uppercase" { "Forms for uppercase-1" ("case") } ['case' ('DFLT' <'dflt' > 'brai' <'dflt' > 'cyrl' <'BGR ' 'BOS ' 'CHU ' 'MKD ' 'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'AVN ' 'EWE ' 'FLE ' 'ISM ' 'LEF ' 'LIV ' 'LSM ' 'MOL ' 'NLD ' 'NSM ' 'PLK ' 'ROM ' 'SJE ' 'SJU ' 'SKS ' 'SSM ' 'WCI ' 'ZHP ' 'dflt' > ) ]
-Lookup: 6 0 0 "Contextual colon" { "Contextual colon-1"  } ['calt' ('DFLT' <'dflt' > 'brai' <'dflt' > 'cyrl' <'BGR ' 'BOS ' 'CHU ' 'MKD ' 'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'AVN ' 'EWE ' 'FLE ' 'ISM ' 'LEF ' 'LIV ' 'LSM ' 'MOL ' 'NLD ' 'NSM ' 'PLK ' 'ROM ' 'SJE ' 'SJU ' 'SKS ' 'SSM ' 'WCI ' 'ZHP ' 'dflt' > ) ]
+Lookup: 1 0 0 "Navajo ogonek" { "Navajo ogonek-1" ("nav") } ['locl' ('latn' <'NAV ' > ) ]
+Lookup: 1 0 0 "Old style numerals" { "Old style numerals-1" ("oldstyle") } ['onum' ('DFLT' <'dflt' > 'brai' <'dflt' > 'cyrl' <'BGR ' 'BOS ' 'CHU ' 'MKD ' 'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'AVN ' 'EWE ' 'FLE ' 'ISM ' 'LEF ' 'LIV ' 'LSM ' 'MOL ' 'NAV ' 'NLD ' 'NSM ' 'PLK ' 'ROM ' 'SJE ' 'SJU ' 'SKS ' 'SSM ' 'WCI ' 'ZHP ' 'dflt' > ) ]
+Lookup: 1 0 0 "Superscripts" { "Superscripts-1" ("superior") } ['sups' ('DFLT' <'dflt' > 'brai' <'dflt' > 'cyrl' <'BGR ' 'BOS ' 'CHU ' 'MKD ' 'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'AVN ' 'EWE ' 'FLE ' 'ISM ' 'LEF ' 'LIV ' 'LSM ' 'MOL ' 'NAV ' 'NLD ' 'NSM ' 'PLK ' 'ROM ' 'SJE ' 'SJU ' 'SKS ' 'SSM ' 'WCI ' 'ZHP ' 'dflt' > ) ]
+Lookup: 1 0 0 "Subscripts" { "Subscripts-1" ("inferior") } ['subs' ('DFLT' <'dflt' > 'brai' <'dflt' > 'cyrl' <'BGR ' 'BOS ' 'CHU ' 'MKD ' 'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'AVN ' 'EWE ' 'FLE ' 'ISM ' 'LEF ' 'LIV ' 'LSM ' 'MOL ' 'NAV ' 'NLD ' 'NSM ' 'PLK ' 'ROM ' 'SJE ' 'SJU ' 'SKS ' 'SSM ' 'WCI ' 'ZHP ' 'dflt' > ) ]
+Lookup: 1 0 0 "Forms for uppercase" { "Forms for uppercase-1" ("case") } ['case' ('DFLT' <'dflt' > 'brai' <'dflt' > 'cyrl' <'BGR ' 'BOS ' 'CHU ' 'MKD ' 'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'AVN ' 'EWE ' 'FLE ' 'ISM ' 'LEF ' 'LIV ' 'LSM ' 'MOL ' 'NAV ' 'NLD ' 'NSM ' 'PLK ' 'ROM ' 'SJE ' 'SJU ' 'SKS ' 'SSM ' 'WCI ' 'ZHP ' 'dflt' > ) ]
+Lookup: 6 0 0 "Contextual colon" { "Contextual colon-1"  } ['calt' ('DFLT' <'dflt' > 'brai' <'dflt' > 'cyrl' <'BGR ' 'BOS ' 'CHU ' 'MKD ' 'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'AVN ' 'EWE ' 'FLE ' 'ISM ' 'LEF ' 'LIV ' 'LSM ' 'MOL ' 'NAV ' 'NLD ' 'NSM ' 'PLK ' 'ROM ' 'SJE ' 'SJU ' 'SKS ' 'SSM ' 'WCI ' 'ZHP ' 'dflt' > ) ]
 Lookup: 1 0 0 "Raised colon" { "Raised colon-1"  } []
-Lookup: 3 0 0 "Variants of zero" { "Variants of zero-1"  } ['cv01' ('DFLT' <'dflt' > 'brai' <'dflt' > 'cyrl' <'BGR ' 'BOS ' 'CHU ' 'MKD ' 'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'AVN ' 'EWE ' 'FLE ' 'ISM ' 'LEF ' 'LIV ' 'LSM ' 'MOL ' 'NLD ' 'NSM ' 'PLK ' 'ROM ' 'SJE ' 'SJU ' 'SKS ' 'SSM ' 'WCI ' 'ZHP ' 'dflt' > ) ]
-Lookup: 1 0 0 "r with serif" { "r with serif-1" ("serif") } ['cv02' ('latn' <'AVN ' 'EWE ' 'FLE ' 'ISM ' 'LEF ' 'LIV ' 'LSM ' 'MOL ' 'NLD ' 'NSM ' 'PLK ' 'ROM ' 'SJE ' 'SJU ' 'SKS ' 'SSM ' 'WCI ' 'ZHP ' 'dflt' > ) ]
-Lookup: 3 0 0 "Eng variants" { "Eng variants-1"  } ['cv03' ('latn' <'AVN ' 'EWE ' 'FLE ' 'ISM ' 'LEF ' 'LIV ' 'LSM ' 'MOL ' 'NLD ' 'NSM ' 'PLK ' 'ROM ' 'SJE ' 'SJU ' 'SKS ' 'SSM ' 'WCI ' 'ZHP ' 'dflt' > ) ]
-Lookup: 3 0 0 "Alternative dollar sign" { "Alternative dollar sign-1"  } ['cv04' ('DFLT' <'dflt' > 'brai' <'dflt' > 'cyrl' <'BGR ' 'BOS ' 'CHU ' 'MKD ' 'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'AVN ' 'EWE ' 'FLE ' 'ISM ' 'LEF ' 'LIV ' 'LSM ' 'MOL ' 'NLD ' 'NSM ' 'PLK ' 'ROM ' 'SJE ' 'SJU ' 'SKS ' 'SSM ' 'WCI ' 'ZHP ' 'dflt' > ) ]
-Lookup: 3 0 0 "Ezh variants" { "Ezh variants-1"  } ['cv05' ('latn' <'AVN ' 'EWE ' 'FLE ' 'ISM ' 'LEF ' 'LIV ' 'LSM ' 'MOL ' 'NLD ' 'NSM ' 'PLK ' 'ROM ' 'SJE ' 'SJU ' 'SKS ' 'SSM ' 'WCI ' 'ZHP ' 'dflt' > ) ]
-Lookup: 1 0 0 "Text forms of triangles" { "Text forms of triangles-1" ("text") } ['cv06' ('DFLT' <'dflt' > 'brai' <'dflt' > 'cyrl' <'BGR ' 'BOS ' 'CHU ' 'MKD ' 'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'AVN ' 'EWE ' 'FLE ' 'ISM ' 'LEF ' 'LIV ' 'LSM ' 'MOL ' 'NLD ' 'NSM ' 'PLK ' 'ROM ' 'SJE ' 'SJU ' 'SKS ' 'SSM ' 'WCI ' 'ZHP ' 'dflt' > ) ]
+Lookup: 3 0 0 "Variants of zero" { "Variants of zero-1"  } ['cv01' ('DFLT' <'dflt' > 'brai' <'dflt' > 'cyrl' <'BGR ' 'BOS ' 'CHU ' 'MKD ' 'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'AVN ' 'EWE ' 'FLE ' 'ISM ' 'LEF ' 'LIV ' 'LSM ' 'MOL ' 'NAV ' 'NLD ' 'NSM ' 'PLK ' 'ROM ' 'SJE ' 'SJU ' 'SKS ' 'SSM ' 'WCI ' 'ZHP ' 'dflt' > ) ]
+Lookup: 1 0 0 "r with serif" { "r with serif-1" ("serif") } ['cv02' ('latn' <'AVN ' 'EWE ' 'FLE ' 'ISM ' 'LEF ' 'LIV ' 'LSM ' 'MOL ' 'NAV ' 'NLD ' 'NSM ' 'PLK ' 'ROM ' 'SJE ' 'SJU ' 'SKS ' 'SSM ' 'WCI ' 'ZHP ' 'dflt' > ) ]
+Lookup: 3 0 0 "Eng variants" { "Eng variants-1"  } ['cv03' ('latn' <'AVN ' 'EWE ' 'FLE ' 'ISM ' 'LEF ' 'LIV ' 'LSM ' 'MOL ' 'NAV ' 'NLD ' 'NSM ' 'PLK ' 'ROM ' 'SJE ' 'SJU ' 'SKS ' 'SSM ' 'WCI ' 'ZHP ' 'dflt' > ) ]
+Lookup: 3 0 0 "Alternative dollar sign" { "Alternative dollar sign-1"  } ['cv04' ('DFLT' <'dflt' > 'brai' <'dflt' > 'cyrl' <'BGR ' 'BOS ' 'CHU ' 'MKD ' 'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'AVN ' 'EWE ' 'FLE ' 'ISM ' 'LEF ' 'LIV ' 'LSM ' 'MOL ' 'NAV ' 'NLD ' 'NSM ' 'PLK ' 'ROM ' 'SJE ' 'SJU ' 'SKS ' 'SSM ' 'WCI ' 'ZHP ' 'dflt' > ) ]
+Lookup: 3 0 0 "Ezh variants" { "Ezh variants-1"  } ['cv05' ('latn' <'AVN ' 'EWE ' 'FLE ' 'ISM ' 'LEF ' 'LIV ' 'LSM ' 'MOL ' 'NAV ' 'NLD ' 'NSM ' 'PLK ' 'ROM ' 'SJE ' 'SJU ' 'SKS ' 'SSM ' 'WCI ' 'ZHP ' 'dflt' > ) ]
+Lookup: 1 0 0 "Text forms of triangles" { "Text forms of triangles-1" ("text") } ['cv06' ('DFLT' <'dflt' > 'brai' <'dflt' > 'cyrl' <'BGR ' 'BOS ' 'CHU ' 'MKD ' 'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'AVN ' 'EWE ' 'FLE ' 'ISM ' 'LEF ' 'LIV ' 'LSM ' 'MOL ' 'NAV ' 'NLD ' 'NSM ' 'PLK ' 'ROM ' 'SJE ' 'SJU ' 'SKS ' 'SSM ' 'WCI ' 'ZHP ' 'dflt' > ) ]
 Lookup: 1 0 0 "Variants of El with hook" { "Variants of El with hook-1"  } ['cv07' ('cyrl' <'BGR ' 'BOS ' 'CHU ' 'MKD ' 'SRB ' 'dflt' > ) ]
 Lookup: 3 0 0 "Qa variants" { "Qa variants-1"  } ['cv08' ('cyrl' <'BGR ' 'BOS ' 'CHU ' 'MKD ' 'SRB ' 'dflt' > ) ]
 Lookup: 3 0 0 "Che with hook" { "Che with hook-1"  } ['cv09' ('cyrl' <'BGR ' 'BOS ' 'CHU ' 'MKD ' 'SRB ' 'dflt' > ) ]
 Lookup: 3 0 0 "Ge with hook" { "Ge with hook-1"  } ['cv10' ('cyrl' <'BGR ' 'BOS ' 'CHU ' 'MKD ' 'SRB ' 'dflt' > ) ]
 Lookup: 1 0 0 "Ge with stroke and descender" { "Ge with stroke and descender-1"  } ['cv11' ('cyrl' <'BGR ' 'BOS ' 'CHU ' 'MKD ' 'SRB ' 'dflt' > ) ]
-Lookup: 1 0 0 "Alternative glyphs for control characters" { "Alternative glyphs for control characters-1"  } ['cv12' ('DFLT' <'dflt' > 'brai' <'dflt' > 'cyrl' <'BGR ' 'BOS ' 'CHU ' 'MKD ' 'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'AVN ' 'EWE ' 'FLE ' 'ISM ' 'LEF ' 'LIV ' 'LSM ' 'MOL ' 'NLD ' 'NSM ' 'PLK ' 'ROM ' 'SJE ' 'SJU ' 'SKS ' 'SSM ' 'WCI ' 'ZHP ' 'dflt' > ) ]
-Lookup: 1 0 0 "German alternative umlaut" { "German alternative umlaut-1"  } ['ss01' ('latn' <'AVN ' 'EWE ' 'FLE ' 'ISM ' 'LEF ' 'LIV ' 'LSM ' 'MOL ' 'NLD ' 'NSM ' 'PLK ' 'ROM ' 'SJE ' 'SJU ' 'SKS ' 'SSM ' 'WCI ' 'ZHP ' 'dflt' > ) ]
+Lookup: 1 0 0 "Alternative glyphs for control characters" { "Alternative glyphs for control characters-1"  } ['cv12' ('DFLT' <'dflt' > 'brai' <'dflt' > 'cyrl' <'BGR ' 'BOS ' 'CHU ' 'MKD ' 'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'AVN ' 'EWE ' 'FLE ' 'ISM ' 'LEF ' 'LIV ' 'LSM ' 'MOL ' 'NAV ' 'NLD ' 'NSM ' 'PLK ' 'ROM ' 'SJE ' 'SJU ' 'SKS ' 'SSM ' 'WCI ' 'ZHP ' 'dflt' > ) ]
+Lookup: 1 0 0 "German alternative umlaut" { "German alternative umlaut-1"  } ['ss01' ('latn' <'AVN ' 'EWE ' 'FLE ' 'ISM ' 'LEF ' 'LIV ' 'LSM ' 'MOL ' 'NAV ' 'NLD ' 'NSM ' 'PLK ' 'ROM ' 'SJE ' 'SJU ' 'SKS ' 'SSM ' 'WCI ' 'ZHP ' 'dflt' > ) ]
 Lookup: 1 0 0 "Polytonic Greek alternative circumflex" { "Polytonic Greek alternative circumflex-1" ("alt") } ['ss02' ('grek' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
@@ -145,7 +146,7 @@ Grid
  416.256 939.008 l 1049
 EndSplineSet
 TeXData: 1 0 0 629145 314572 209715 554697 1048576 209715 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 1114575 3307
+BeginChars: 1114580 3316
 
 StartChar: a
 Encoding: 97 97 0
@@ -4869,6 +4870,7 @@ LayerCount: 2
 Fore
 Refer: 71 65 S 1 0 0 1 0 0 2
 Refer: 214 731 S 1 0 0 1 74 0 2
+Substitution2: "Navajo ogonek-1" Aogonek.nav
 EndChar
 
 StartChar: Lcaron
@@ -5021,6 +5023,7 @@ LayerCount: 2
 Fore
 Refer: 80 69 N 1 0 0 1 0 0 2
 Refer: 214 731 N 1 0 0 1 17 0 2
+Substitution2: "Navajo ogonek-1" Eogonek.nav
 EndChar
 
 StartChar: Ecaron
@@ -5144,6 +5147,7 @@ LayerCount: 2
 Fore
 Refer: 0 97 N 1 0 0 1 0 0 2
 Refer: 214 731 N 1 0 0 1 14 0 2
+Substitution2: "Navajo ogonek-1" aogonek.nav
 EndChar
 
 StartChar: hungarumlaut
@@ -5273,6 +5277,7 @@ SplineSet
  518 443 486 489 413 489 c 0
  340 489 232 444 209 315 c 1
 EndSplineSet
+Substitution2: "Navajo ogonek-1" eogonek.nav
 EndChar
 
 StartChar: lcaron
@@ -63536,6 +63541,208 @@ LayerCount: 2
 Fore
 Refer: 138 732 N 1 0 0 1 14 150 2
 Refer: 190 -1 N 1 0 0 1 -4 -25 2
+EndChar
+
+StartChar: Aogonek.nav
+Encoding: 1114575 -1 3307
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 214 731 N 1 0 0 1 -143 0 2
+Refer: 71 65 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: aogonek.nav
+Encoding: 1114576 -1 3308
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 214 731 N 1 0 0 1 -143 0 2
+Refer: 0 97 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: Eogonek.nav
+Encoding: 1114577 -1 3309
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 214 731 N 1 0 0 1 -143 0 2
+Refer: 80 69 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: eogonek.nav
+Encoding: 1114578 -1 3310
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 214 731 S 1 0 0 1 -143 0 2
+Refer: 9 101 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: Chook
+Encoding: 391 391 3311
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+595 638 m 1
+ 600 626 605 613 608 599 c 1
+ 531 564 l 1
+ 514 622 479 679 411 679 c 0
+ 325 679 211 569 176 373 c 0
+ 141 173 218 59 307 59 c 0
+ 355 59 418 94 456 150 c 1
+ 512 110 l 1
+ 459 34 369 -12 292 -12 c 0
+ 186 -12 43 79 93 365 c 0
+ 145 661 326 745 426 745 c 0
+ 471 745 521 729 552 700 c 1
+ 587 733 629 748 666 748 c 0
+ 703 748 735 733 757 706 c 1
+ 702 630 l 1
+ 696 634 694 640 692 645 c 0
+ 686 656 673 668 651 668 c 0
+ 635 668 614 660 595 638 c 1
+EndSplineSet
+EndChar
+
+StartChar: chook
+Encoding: 392 392 3312
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+579 453 m 1
+ 516 391 l 1
+ 499 426 461 480 376 480 c 0
+ 276 480 183 404 161 280 c 0
+ 139 153 203 63 309 63 c 0
+ 363 63 451 88 495 130 c 1
+ 534 73 l 1
+ 472 17 365 -13 289 -13 c 0
+ 136 -13 43 108 72 271 c 0
+ 101 434 235 553 394 553 c 0
+ 423 553 448 549 472 541 c 1
+ 480 583 495 625 521 663 c 0
+ 561 721 617 748 666 748 c 0
+ 703 748 735 733 757 706 c 1
+ 702 630 l 1
+ 696 634 694 640 692 645 c 0
+ 686 656 673 668 651 668 c 0
+ 632 668 606 657 585 625 c 0
+ 561 588 555 547 546 498 c 1
+ 560 485 570 470 579 453 c 1
+EndSplineSet
+EndChar
+
+StartChar: uni0248
+Encoding: 584 584 3313
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+344 739 m 1
+ 682 739 l 1
+ 670 670 l 1
+ 556 670 l 1
+ 514 429 l 1
+ 628 429 l 1
+ 616 363 l 1
+ 502 363 l 1
+ 482 248 l 2
+ 473 195 463 138 425 85 c 0
+ 379 22 310 -13 239 -13 c 0
+ 174 -13 116 17 81 69 c 1
+ 148 136 l 1
+ 154 130 147 122 151 115 c 0
+ 153 112 192 60 254 60 c 0
+ 289 60 325 78 349 108 c 0
+ 382 146 390 193 398 237 c 2
+ 400 247 l 1
+ 420 363 l 1
+ 250 363 l 1
+ 262 429 l 1
+ 432 429 l 1
+ 474 670 l 1
+ 332 670 l 1
+ 344 739 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni0249
+Encoding: 585 585 3314
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+543 778 m 0
+ 577 778 599 751 593 717 c 0
+ 587 683 556 656 522 656 c 0
+ 488 656 464 683 470 717 c 0
+ 476 751 509 778 543 778 c 0
+256 543 m 1
+ 543 543 l 1
+ 505 327 l 1
+ 626 327 l 1
+ 614 261 l 1
+ 493 261 l 1
+ 454 38 l 2
+ 446 -9 437 -54 406 -99 c 0
+ 356 -171 273 -207 196 -207 c 0
+ 129 -207 76 -179 45 -131 c 1
+ 113 -57 l 1
+ 119 -63 115 -71 119 -79 c 0
+ 122 -86 150 -133 216 -133 c 0
+ 262 -133 309 -109 337 -65 c 0
+ 355 -36 360 -7 365 22 c 2
+ 407 261 l 1
+ 206 261 l 1
+ 218 327 l 1
+ 419 327 l 1
+ 444 472 l 1
+ 243 472 l 1
+ 256 543 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni0249.dotless
+Encoding: 1114579 -1 3315
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+256 543 m 1
+ 543 543 l 1
+ 505 327 l 1
+ 626 327 l 1
+ 614 261 l 1
+ 493 261 l 1
+ 454 38 l 2
+ 446 -9 437 -54 406 -99 c 0
+ 356 -171 273 -207 196 -207 c 0
+ 129 -207 76 -179 45 -131 c 1
+ 113 -57 l 1
+ 119 -63 115 -71 119 -79 c 0
+ 122 -86 150 -133 216 -133 c 0
+ 262 -133 309 -109 337 -65 c 0
+ 355 -36 360 -7 365 22 c 2
+ 407 261 l 1
+ 206 261 l 1
+ 218 327 l 1
+ 419 327 l 1
+ 444 472 l 1
+ 243 472 l 1
+ 256 543 l 1
+EndSplineSet
 EndChar
 EndChars
 EndSplineFont

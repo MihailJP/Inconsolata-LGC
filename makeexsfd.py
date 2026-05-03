@@ -92,21 +92,22 @@ def add_dottedcircle(font: fontforge.font):
     font['invalidbase'].width = 613
     font['invalidbase'].addReference('dottedcircle')
 
-dotlessforms: list[tuple[str, str]] = [
-    ('i', 'dotlessi'),
-    ('j', 'dotlessj'),
-    ('icyril', 'dotlessi'),
-    ('je', 'dotlessj'),
-    ('iogonek', 'iogonek.dotless'),
-    ('ibar', 'ibar.dotless'),
-    ('itildebelow', 'itildebelow.dotless'),
-    ('idotbelow', 'idotbelow.dotless'),
+dotlessforms: list[tuple[str, str, str]] = [
+    ('i', 'dotlessi', 'i'),
+    ('j', 'dotlessj', 'j'),
+    ('icyril', 'dotlessi', 'i'),
+    ('je', 'dotlessj', 'j'),
+    ('iogonek', 'iogonek.dotless', 'i'),
+    ('ibar', 'ibar.dotless', 'i'),
+    ('itildebelow', 'itildebelow.dotless', 'i'),
+    ('idotbelow', 'idotbelow.dotless', 'i'),
+    ('uni0249', 'uni0249.dotless', 'j'),
 ]
 
 def add_dotlessforms(font: fontforge.font):
     font.addLookup('Dotless forms', 'gsub_single', None, ())
     font.addLookupSubtable('Dotless forms', 'Dotless forms-1')
-    for dotted, dotless in dotlessforms:
+    for dotted, dotless, _ in dotlessforms:
         font[dotted].addPosSub('Dotless forms-1', dotless)
         font[dotted].glyphclass = 'baseglyph'
     font.addLookup('Remove the dot above i', 'gsub_contextchain', None, (('calt', langDictToLangTuple(getLangDict(font))),))
@@ -256,12 +257,12 @@ def lgcBaseAnchors(font: fontforge.font):
                         added = True
         if not added:
             break
-    for dotted, dotless in dotlessforms:
+    for dotted, dotless, base in dotlessforms:
         if dotless.endswith('.dotless'):
-            assert dotless.startswith('i') or dotless.startswith('j')
+            assert base == 'i' or base == 'j'
             positions.setdefault(dotless, [[], []])
             if not positions[dotless][0]:
-                positions[dotless][0] = positions['dotless' + dotless[0]][0]
+                positions[dotless][0] = positions['dotless' + base][0]
             if not positions[dotless][1]:
                 positions[dotless][1] = positions[dotted][1]
     for glyph, pos in positions.items():  # add anchors
