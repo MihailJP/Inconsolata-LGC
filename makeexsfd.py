@@ -265,46 +265,46 @@ def lgcBaseAnchors(font: fontforge.font):
             xx, yy = belowPos
             font[glyph].addAnchorPoint('LGC-accent-below', 'base', x + xx, y + yy)
  
-diacriticdata: list[tuple[str, Optional[str], int, str]] = [
-    ('gravemodifier', 'grave.cap', 0x300, 'gravecomb'),
-    ('acute', 'acute.cap', 0x301, 'acutecomb'),
-    ('acute.pinyin', 'acute.cap.pinyin', -1, 'acutecomb.pinyin'),
-    ('circumflex', 'circumflex.cap', 0x302, 'circumflexcomb'),
-    ('tilde', None, 0x303, 'tildecomb'),
-    ('macronmodifier', None, 0x304, 'macroncomb'),
-    ('breve', None, 0x306, 'brevecomb'),
-    ('dotaccent', None, 0x307, 'dotaccentcmb'),
-    ('dieresis', None, 0x308, 'dieresiscmb'),
-    ('hookabove', 'hookabove.cap', 0x309, 'hookabovecomb'),
-    ('ring', None, 0x30a, 'ringcmb'),
-    ('hungarumlaut', 'hungarumlaut.cap', 0x30b, 'hungarumlautcmb'),
-    ('caron', 'caron.cap', 0x30c, 'caroncomb'),
-    ('verticallinemod', 'verticallinemod.cap', 0x30d, 'verticallineabovecmb'),
-    ('dblgrave', 'dblgrave.cap', 0x30f, 'dblgravecmb'),
-    ('candrabindumod', None, 0x310, 'candrabinducmb'),
-    ('invertedbreve', None, 0x311, 'breveinvertedcmb'),
-    ('commaturnedabove', None, 0x312, 'commaturnedabovecmb'),
-    ('commaaboveright', None, 0x315, 'commaaboverightcmb'),
-    ('gravesub', None, 0x316, 'gravesubnosp'),
-    ('acutesub', None, 0x317, 'acutesubnosp'),
-    ('horn', None, 0x31b, 'horncmb'),
-    ('dotsub', None, 0x323, 'dotbelowcomb'),
-    ('dieresisbelow', None, 0x324, 'dieresisbelowcmb'),
-    ('uni02F3', None, 0x325, 'ringbelowcmb'),
-    ('commaaccent', None, 0x326, 'commasubnosp'),
-    ('cedilla', None, 0x327, 'cedillacmb'),
-    ('ogonek', None, 0x328, 'ogonekcmb'),
-    ('verticallinelowmod', None, 0x329, 'verticallinebelowcmb'),
-    ('uni02EC', None, 0x32c, 'caronbelowcmb'),
-    ('uniA788', None, 0x32d, 'circumflexbelowcmb'),
-    ('brevebelow', None, 0x32e, 'brevebelowcmb'),
-    ('breveinvertedbelow', None, 0x32f, 'breveinvertedbelowcmb'),
-    ('uni02F7', None, 0x330, 'tildebelowcmb'),
-    ('macronsub', None, 0x331, 'macronbelowcmb'),
-    ('uni02BF', None, 0x351, 'uni0351'),
-    ('uni02BE', None, 0x357, 'uni0357'),
-    ('hokkiendot', None, 0x358, 'uni0358'),
-    ('doublemacronbelow', None, 0x35f, 'uni035F'),
+diacriticdata: list[tuple[str, Optional[str], int, str, int]] = [
+    ('gravemodifier', 'grave.cap', 0x300, 'gravecomb', 0),
+    ('acute', 'acute.cap', 0x301, 'acutecomb', 0),
+    ('acute.pinyin', 'acute.cap.pinyin', -1, 'acutecomb.pinyin', 0),
+    ('circumflex', 'circumflex.cap', 0x302, 'circumflexcomb', 0),
+    ('tilde', None, 0x303, 'tildecomb', 0),
+    ('macronmodifier', None, 0x304, 'macroncomb', 0),
+    ('breve', None, 0x306, 'brevecomb', 0),
+    ('dotaccent', None, 0x307, 'dotaccentcmb', 0),
+    ('dieresis', None, 0x308, 'dieresiscmb', 0),
+    ('hookabove', 'hookabove.cap', 0x309, 'hookabovecomb', 0),
+    ('ring', None, 0x30a, 'ringcmb', 0),
+    ('hungarumlaut', 'hungarumlaut.cap', 0x30b, 'hungarumlautcmb', 0),
+    ('caron', 'caron.cap', 0x30c, 'caroncomb', 0),
+    ('verticallinemod', 'verticallinemod.cap', 0x30d, 'verticallineabovecmb', 0),
+    ('dblgrave', 'dblgrave.cap', 0x30f, 'dblgravecmb', 0),
+    ('candrabindumod', None, 0x310, 'candrabinducmb', 0),
+    ('invertedbreve', None, 0x311, 'breveinvertedcmb', 0),
+    ('commaturnedabove', None, 0x312, 'commaturnedabovecmb', 0),
+    ('commaaboveright', None, 0x315, 'commaaboverightcmb', 0),
+    ('gravesub', None, 0x316, 'gravesubnosp', 0),
+    ('acutesub', None, 0x317, 'acutesubnosp', 0),
+    ('horn', None, 0x31b, 'horncmb', 0),
+    ('dotsub', None, 0x323, 'dotbelowcomb', 0),
+    ('dieresisbelow', None, 0x324, 'dieresisbelowcmb', 0),
+    ('uni02F3', None, 0x325, 'ringbelowcmb', 0),
+    ('commaaccent', None, 0x326, 'commasubnosp', 10),
+    ('cedilla', None, 0x327, 'cedillacmb', -40),
+    ('ogonek', None, 0x328, 'ogonekcmb', -160),
+    ('verticallinelowmod', None, 0x329, 'verticallinebelowcmb', 0),
+    ('uni02EC', None, 0x32c, 'caronbelowcmb', 0),
+    ('uniA788', None, 0x32d, 'circumflexbelowcmb', 0),
+    ('brevebelow', None, 0x32e, 'brevebelowcmb', 0),
+    ('breveinvertedbelow', None, 0x32f, 'breveinvertedbelowcmb', 0),
+    ('uni02F7', None, 0x330, 'tildebelowcmb', 0),
+    ('macronsub', None, 0x331, 'macronbelowcmb', 0),
+    ('uni02BF', None, 0x351, 'uni0351', 0),
+    ('uni02BE', None, 0x357, 'uni0357', 0),
+    ('hokkiendot', None, 0x358, 'uni0358', 0),
+    ('doublemacronbelow', None, 0x35f, 'uni035F', 0),
 ]
 
 def addLgcAnchorClasses(font: fontforge.font):
@@ -317,10 +317,10 @@ def addLgcAnchorClasses(font: fontforge.font):
     font.addAnchorClass('Accent below-1', 'LGC-accent-below')
 
 def lgcMarkAnchors(font: fontforge.font):
-    def addChar(font: fontforge.font, sourcename: str, targetuni: int, targetname: str):
+    def addChar(font: fontforge.font, sourcename: str, targetuni: int, targetname: str, xoffset:int):
         font.createChar(targetuni, targetname)
         font[targetname].width = 0
-        font[targetname].addReference(sourcename, translate(*anchorCoord(font, -613, -123 if font[sourcename].boundingBox()[1] >= 700 else 0)))
+        font[targetname].addReference(sourcename, translate(*anchorCoord(font, xoffset - 613, -123 if font[sourcename].boundingBox()[1] >= 700 else 0)))
         font[targetname].glyphclass = 'mark'
         left, _, _, top = font[sourcename].boundingBox()
         if left > 400:
@@ -333,10 +333,10 @@ def lgcMarkAnchors(font: fontforge.font):
             y = 554
         font[targetname].addAnchorPoint(anchor, 'mark', *anchorCoord(font, -307, y))
 
-    for sourcename, capsourcename, targetuni, targetname in diacriticdata:
-        addChar(font, sourcename, targetuni, targetname)
+    for sourcename, capsourcename, targetuni, targetname, xoffset in diacriticdata:
+        addChar(font, sourcename, targetuni, targetname, xoffset)
         if capsourcename:
-            addChar(font, capsourcename, -1, targetname + '.cap')
+            addChar(font, capsourcename, -1, targetname + '.cap', xoffset)
         if targetname.endswith('.pinyin'):
             font[targetname.removesuffix('.pinyin')].addPosSub('Pinyin variant forms-1', targetname)
 
