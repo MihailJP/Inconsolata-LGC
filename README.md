@@ -128,6 +128,14 @@ or _één_ vs _een_. When _ij_ is stressed, both _i_ and _j_ should be accented.
 This Dutch and Flemish language-specific feature works for a _J_ preceded by
 an _I_, or a _j_ preceded by an _i_.
 
+### Navajo ogonek ###
+![Navajo ogonek](doc/Navajo_ogonek.png)
+
+In Navajo, unlike Polish, ogonek is centered.
+
+Due to lack of combining diacritical marks, Inconsolata LGC does not fully
+support Navajo language.
+
 
 Miscellaneous variants
 ----------------------
