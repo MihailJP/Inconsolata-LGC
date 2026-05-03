@@ -164,6 +164,8 @@ def lgcBaseAnchors(font: fontforge.font):
         'ydotbelow',
         'dieresis', 'psili', 'dasia',
         'uni2373', 'uni2375', 'uni2377', 'uni2378', 'uni237A',
+        'Acircumflex', 'Ecircumflex', 'Ocircumflex',
+        'acircumflex', 'ecircumflex', 'ocircumflex',
     ]
     excludeComposed = [
         'gcommaaccent', 'ydotbelow',
