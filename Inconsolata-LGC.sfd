@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1161020814
-ModificationTime: 1777890398
+ModificationTime: 1777901639
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 5
@@ -108,8 +108,8 @@ PUSHB_1
 SCANTYPE
 EndTTInstrs
 LangName: 1033
-OtfFeatName: 'ss02' 1033 "Polytonic Greek alternative circumflex"
 OtfFeatName: 'ss01' 1033 "German alternative umlaut"
+OtfFeatName: 'ss02' 1033 "Polytonic Greek alternative circumflex"
 Encoding: UnicodeFull
 Compacted: 1
 UnicodeInterp: none
@@ -150,7 +150,7 @@ Grid
  416.256 939.008 l 1049
 EndSplineSet
 TeXData: 1 0 0 629145 314572 209715 554697 1048576 209715 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 1114585 3326
+BeginChars: 1114585 3328
 
 StartChar: a
 Encoding: 97 97 0
@@ -64317,6 +64317,64 @@ SplineSet
  280 656 265 668 243 668 c 0
  224 668 200 657 185 625 c 0
  168 588 168 544 168 508 c 2
+EndSplineSet
+EndChar
+
+StartChar: Thook
+Encoding: 428 428 3326
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+199 740 m 2
+ 559 740 l 1
+ 559 666 l 1
+ 341 666 l 1
+ 341 -1 l 1
+ 257 -1 l 1
+ 257 666 l 1
+ 199 666 l 2
+ 134 666 110 618 110 577 c 0
+ 110 570 111 566 111 564 c 0
+ 112 559 116 556 117 548 c 1
+ 33 541 l 1
+ 32 548 32 554 32 561 c 0
+ 32 662 96 740 199 740 c 2
+EndSplineSet
+EndChar
+
+StartChar: thook
+Encoding: 429 429 3327
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+310 543 m 1
+ 483 543 l 1
+ 483 472 l 1
+ 305 472 l 1
+ 298 401 295 331 295 260 c 0
+ 295 181 298 161 298 156 c 0
+ 307 91 349 69 389 69 c 0
+ 423 69 465 84 511 118 c 1
+ 538 50 l 1
+ 492 16 430 -10 365 -10 c 0
+ 310 -10 267 11 241 47 c 0
+ 209 92 209 147 209 195 c 0
+ 209 287 213 379 220 472 c 1
+ 93 472 l 1
+ 94 542 l 1
+ 223 542 l 1
+ 225 584 231 625 250 663 c 0
+ 280 721 337 748 386 748 c 0
+ 423 748 458 733 485 706 c 1
+ 443 630 l 1
+ 436 634 433 640 430 645 c 0
+ 422 656 407 668 385 668 c 0
+ 366 668 342 657 327 625 c 0
+ 315 599 311 570 310 543 c 1
 EndSplineSet
 EndChar
 EndChars

@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1161020814
-ModificationTime: 1777890383
+ModificationTime: 1777901986
 PfmFamily: 49
 TTFWeight: 700
 TTFWidth: 5
@@ -108,8 +108,8 @@ PUSHB_1
 SCANTYPE
 EndTTInstrs
 LangName: 1033
-OtfFeatName: 'ss02' 1033 "Polytonic Greek alternative circumflex"
 OtfFeatName: 'ss01' 1033 "German alternative umlaut"
+OtfFeatName: 'ss02' 1033 "Polytonic Greek alternative circumflex"
 Encoding: UnicodeFull
 Compacted: 1
 UnicodeInterp: none
@@ -146,7 +146,7 @@ Grid
  416.256 939.008 l 1049
 EndSplineSet
 TeXData: 1 0 0 629145 314572 209715 554697 1048576 209715 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 1114585 3326
+BeginChars: 1114585 3328
 
 StartChar: a
 Encoding: 97 97 0
@@ -63835,6 +63835,64 @@ SplineSet
  270 629 258 637 243 637 c 0
  229 637 213 631 200 603 c 0
  185 571 183 531 183 497 c 2
+EndSplineSet
+EndChar
+
+StartChar: Thook
+Encoding: 428 428 3326
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+193 740 m 2
+ 574 740 l 1
+ 574 635 l 1
+ 356 635 l 1
+ 356 -1 l 1
+ 242 -1 l 1
+ 242 635 l 1
+ 193 635 l 2
+ 151 633 124 611 124 586 c 0
+ 124 561 128 558 136 550 c 0
+ 142 544 146 539 156 524 c 1
+ 40 491 l 1
+ 27 517 20 540 20 588 c 0
+ 20 654 67 740 193 740 c 2
+EndSplineSet
+EndChar
+
+StartChar: thook
+Encoding: 429 429 3327
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+326 543 m 1
+ 499 543 l 1
+ 499 441 l 1
+ 319 441 l 1
+ 313 380 310 321 310 261 c 0
+ 310 191 313 173 313 166 c 0
+ 322 114 356 99 389 99 c 0
+ 434 99 467 122 518 157 c 1
+ 556 60 l 1
+ 521 33 452 -10 365 -10 c 0
+ 306 -10 257 12 228 50 c 0
+ 193 97 194 151 194 196 c 0
+ 194 277 198 361 204 441 c 1
+ 78 441 l 1
+ 79 542 l 1
+ 209 542 l 1
+ 211 581 218 619 237 656 c 0
+ 269 718 328 748 383 748 c 0
+ 432 748 463 731 503 692 c 1
+ 448 595 l 1
+ 431 602 423 607 415 622 c 0
+ 411 629 399 637 384 637 c 0
+ 370 637 354 631 341 603 c 0
+ 332 585 328 564 326 543 c 1
 EndSplineSet
 EndChar
 EndChars
