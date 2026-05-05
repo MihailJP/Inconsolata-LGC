@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1161020814
-ModificationTime: 1777947870
+ModificationTime: 1777950083
 PfmFamily: 49
 TTFWeight: 700
 TTFWidth: 5
@@ -146,7 +146,7 @@ Grid
  416.256 939.008 l 1049
 EndSplineSet
 TeXData: 1 0 0 629145 314572 209715 554697 1048576 209715 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 1114585 3342
+BeginChars: 1114585 3343
 
 StartChar: a
 Encoding: 97 97 0
@@ -64230,6 +64230,39 @@ SplineSet
  150 395 148 376 148 353 c 2
  148 0 l 1
  40 0 l 1
+EndSplineSet
+EndChar
+
+StartChar: nhookretroflex
+Encoding: 627 627 3342
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+60 0 m 1
+ 60 542 l 1
+ 177 542 l 1
+ 177 476 l 1
+ 210 522 256 555 306 555 c 0
+ 360 555 422 519 451 456 c 0
+ 472 411 472 366 472 326 c 2
+ 472 43 l 2
+ 472 9 475 -31 490 -63 c 0
+ 503 -91 520 -97 534 -97 c 0
+ 549 -97 561 -89 565 -82 c 0
+ 573 -67 581 -62 598 -55 c 1
+ 653 -152 l 1
+ 613 -191 582 -208 533 -208 c 0
+ 478 -208 418 -178 386 -116 c 0
+ 361 -67 357 -15 357 36 c 2
+ 357 320 l 2
+ 357 356 357 395 337 423 c 0
+ 324 441 306 450 288 450 c 0
+ 249 450 210 409 195 385 c 0
+ 179 360 177 327 177 307 c 2
+ 177 0 l 1
+ 60 0 l 1
 EndSplineSet
 EndChar
 EndChars
