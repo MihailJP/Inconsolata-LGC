@@ -576,7 +576,7 @@ font.fullname = font.fullname.replace('LGC', 'EX')
 font.copyright += '\n\nArabic glyphs are derived from public domain part of DejaVu Sans Mono.'
 font.os2_winascent = 1255
 font.os2_windescent = 443
-font.version = '2.908 beta'
+font.version = '2.909 beta'
 if font.italicangle != 0:
     font2.selection.all()
     font2.transform(skew(radians(-font.italicangle)), ('noWidth', 'round', 'simplePos'))
