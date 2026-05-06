@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1161020814
-ModificationTime: 1778051007
+ModificationTime: 1778062494
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 5
@@ -129,7 +129,7 @@ Grid
 EndSplineSet
 TeXData: 1 0 0 629145 314572 209715 554697 1048576 209715 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "rtl-above-mark" "Arabic above-base mark-to-mark positioning" "rtl-below-mark" "Arabic below-base mark-to-mark positioning" "rtl-above" "Arabic above-base mark positioning" "Ligature rtl-above" "Arabic above-base mark-to-ligature positioning" "rtl-below" "Arabic below-base mark positioning" "Ligature rtl-below" "Arabic below-base mark-to-ligature positioning"
-BeginChars: 65770 711
+BeginChars: 65782 727
 
 StartChar: comma
 Encoding: 44 44 0
@@ -12614,6 +12614,267 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 709 8902 N 1 0 0 1 0 0 2
+Colour: ffff
+EndChar
+
+StartChar: uniFBC2
+Encoding: 64450 64450 711
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 62 65211 N 0.625 0 0 0.625 118 620 2
+Colour: ffff
+EndChar
+
+StartChar: uniFB50
+Encoding: 64336 64336 712
+Width: 613
+Flags: W
+AnchorPoint: "rtl-above" 304 1078 basechar 0
+LayerCount: 2
+Fore
+Refer: 711 64450 N 1 0 0 1 -2 190 2
+Refer: 16 65165 N 1 0 0 1 0 0 2
+Colour: ffff
+EndChar
+
+StartChar: uniFB51
+Encoding: 64337 64337 713
+Width: 613
+Flags: W
+AnchorPoint: "rtl-above" 298 1138 basechar 0
+LayerCount: 2
+Fore
+Refer: 711 64450 N 1 0 0 1 18 225 2
+Refer: 17 65166 N 1 0 0 1 0 0 2
+Colour: ffff
+EndChar
+
+StartChar: uni0671
+Encoding: 1649 1649 714
+Width: 613
+Flags: W
+AnchorPoint: "rtl-above" 304 1078 basechar 0
+LayerCount: 2
+Fore
+Refer: 712 64336 N 1 0 0 1 0 0 2
+Substitution2: "Isolated forms-1" uniFB50
+Substitution2: "Final forms-1" uniFB51
+Colour: ffff
+EndChar
+
+StartChar: uni0644_uni0671
+Encoding: 65770 -1 715
+Width: 613
+Flags: W
+AnchorPoint: "Ligature rtl-above" 460 820 baselig 0
+AnchorPoint: "Ligature rtl-above" 80 1019 baselig 1
+AnchorPoint: "Ligature rtl-below" 494 40 baselig 0
+AnchorPoint: "Ligature rtl-below" 233 -44 baselig 1
+LayerCount: 2
+Fore
+Refer: 711 64450 N 1 0 0 1 -176 150 2
+Refer: 126 65275 N 1 0 0 1 0 0 2
+LCarets2: 1 306
+Ligature2: "Lam-Alef ligature-1" uniFEDF uniFB51
+Colour: ffff
+EndChar
+
+StartChar: uni0644_uni0671.fina
+Encoding: 65771 -1 716
+Width: 613
+Flags: W
+AnchorPoint: "Ligature rtl-above" 419 822 baselig 0
+AnchorPoint: "Ligature rtl-above" 18 1018 baselig 1
+AnchorPoint: "Ligature rtl-below" 412 -64 baselig 0
+AnchorPoint: "Ligature rtl-below" 173 -64 baselig 1
+LayerCount: 2
+Fore
+Refer: 711 64450 N 1 0 0 1 -240 150 2
+Refer: 127 65276 N 1 0 0 1 0 0 2
+LCarets2: 1 306
+Ligature2: "Lam-Alef ligature-1" uniFEE0 uniFB51
+Colour: ffff
+EndChar
+
+StartChar: uni06B5_uni0671
+Encoding: 65772 -1 717
+Width: 613
+Flags: W
+AnchorPoint: "Ligature rtl-above" 477 1050 baselig 0
+AnchorPoint: "Ligature rtl-above" 80 1019 baselig 1
+AnchorPoint: "Ligature rtl-below" 494 40 baselig 0
+AnchorPoint: "Ligature rtl-below" 233 -44 baselig 1
+LayerCount: 2
+Fore
+Refer: 711 64450 N 1 0 0 1 -176 150 2
+Refer: 449 1626 N 1 0 0 1 172 200 2
+Refer: 126 65275 N 1 0 0 1 0 0 2
+LCarets2: 1 306
+Ligature2: "Lam-Alef ligature-1" uni06B5.init uniFB51
+Colour: ffff
+EndChar
+
+StartChar: uni06B5_uni0671.fina
+Encoding: 65773 -1 718
+Width: 613
+Flags: W
+AnchorPoint: "Ligature rtl-above" 429 1050 baselig 0
+AnchorPoint: "Ligature rtl-above" 18 1018 baselig 1
+AnchorPoint: "Ligature rtl-below" 412 -64 baselig 0
+AnchorPoint: "Ligature rtl-below" 173 -64 baselig 1
+LayerCount: 2
+Fore
+Refer: 711 64450 N 1 0 0 1 -240 150 2
+Refer: 449 1626 N 1 0 0 1 124 200 2
+Refer: 127 65276 N 1 0 0 1 0 0 2
+LCarets2: 1 306
+Ligature2: "Lam-Alef ligature-1" uni06B5.medi uniFB51
+Colour: ffff
+EndChar
+
+StartChar: uni06B6_uni0671
+Encoding: 65774 -1 719
+Width: 613
+Flags: W
+AnchorPoint: "Ligature rtl-above" 477 1000 baselig 0
+AnchorPoint: "Ligature rtl-below" 494 40 baselig 0
+AnchorPoint: "Ligature rtl-above" 80 1019 baselig 1
+AnchorPoint: "Ligature rtl-below" 233 -44 baselig 1
+LayerCount: 2
+Fore
+Refer: 711 64450 N 1 0 0 1 -176 150 2
+Refer: 153 -1 N 1 0 0 1 446 886 2
+Refer: 126 65275 N 1 0 0 1 0 0 2
+LCarets2: 1 306
+Ligature2: "Lam-Alef ligature-1" uni06B6.init uniFB51
+Colour: ffff
+EndChar
+
+StartChar: uni06B6_uni0671.fina
+Encoding: 65775 -1 720
+Width: 613
+Flags: W
+AnchorPoint: "Ligature rtl-above" 429 1000 baselig 0
+AnchorPoint: "Ligature rtl-below" 412 -64 baselig 0
+AnchorPoint: "Ligature rtl-above" 18 1018 baselig 1
+AnchorPoint: "Ligature rtl-below" 173 -64 baselig 1
+LayerCount: 2
+Fore
+Refer: 711 64450 N 1 0 0 1 -240 150 2
+Refer: 153 -1 N 1 0 0 1 398 886 2
+Refer: 127 65276 N 1 0 0 1 0 0 2
+LCarets2: 1 306
+Ligature2: "Lam-Alef ligature-1" uni06B6.medi uniFB51
+Colour: ffff
+EndChar
+
+StartChar: uni06B7_uni0671
+Encoding: 65776 -1 721
+Width: 613
+Flags: W
+AnchorPoint: "Ligature rtl-above" 477 1050 baselig 0
+AnchorPoint: "Ligature rtl-above" 80 1019 baselig 1
+AnchorPoint: "Ligature rtl-below" 494 40 baselig 0
+AnchorPoint: "Ligature rtl-below" 233 -44 baselig 1
+LayerCount: 2
+Fore
+Refer: 711 64450 N 1 0 0 1 -176 150 2
+Refer: 155 -1 N 1 0 0 1 387 835 2
+Refer: 126 65275 N 1 0 0 1 0 0 2
+LCarets2: 1 306
+Ligature2: "Lam-Alef ligature-1" uni06B7.init uniFB51
+Colour: ffff
+EndChar
+
+StartChar: uni06B7_uni0671.fina
+Encoding: 65777 -1 722
+Width: 613
+Flags: W
+AnchorPoint: "Ligature rtl-above" 429 1050 baselig 0
+AnchorPoint: "Ligature rtl-above" 18 1018 baselig 1
+AnchorPoint: "Ligature rtl-below" 412 -64 baselig 0
+AnchorPoint: "Ligature rtl-below" 173 -64 baselig 1
+LayerCount: 2
+Fore
+Refer: 711 64450 N 1 0 0 1 -240 150 2
+Refer: 155 -1 N 1 0 0 1 339 835 2
+Refer: 127 65276 N 1 0 0 1 0 0 2
+LCarets2: 1 306
+Ligature2: "Lam-Alef ligature-1" uni06B7.medi uniFB51
+Colour: ffff
+EndChar
+
+StartChar: uni06B8_uni0671
+Encoding: 65778 -1 723
+Width: 613
+Flags: W
+AnchorPoint: "Ligature rtl-below" 434 -262 baselig 0
+AnchorPoint: "Ligature rtl-above" 460 820 baselig 0
+AnchorPoint: "Ligature rtl-below" 233 -44 baselig 1
+AnchorPoint: "Ligature rtl-above" 80 1019 baselig 1
+LayerCount: 2
+Fore
+Refer: 711 64450 N 1 0 0 1 -176 150 2
+Refer: 269 -1 N 1 0 0 1 342 -120 2
+Refer: 126 65275 N 1 0 0 1 0 0 2
+LCarets2: 1 306
+Ligature2: "Lam-Alef ligature-1" uni06B8.init uniFB51
+Colour: ffff
+EndChar
+
+StartChar: uni06B8_uni0671.fina
+Encoding: 65779 -1 724
+Width: 613
+Flags: W
+AnchorPoint: "Ligature rtl-below" 434 -262 baselig 0
+AnchorPoint: "Ligature rtl-above" 419 822 baselig 0
+AnchorPoint: "Ligature rtl-below" 173 -64 baselig 1
+AnchorPoint: "Ligature rtl-above" 18 1018 baselig 1
+LayerCount: 2
+Fore
+Refer: 711 64450 N 1 0 0 1 -240 150 2
+Refer: 269 -1 N 1 0 0 1 342 -120 2
+Refer: 127 65276 N 1 0 0 1 0 0 2
+LCarets2: 1 306
+Ligature2: "Lam-Alef ligature-1" uni06B8.medi uniFB51
+Colour: ffff
+EndChar
+
+StartChar: uni08C7_uni0671
+Encoding: 65780 -1 725
+Width: 613
+Flags: W
+AnchorPoint: "Ligature rtl-above" 430 1144 baselig 0
+AnchorPoint: "Ligature rtl-below" 494 40 baselig 0
+AnchorPoint: "Ligature rtl-above" 80 1019 baselig 1
+AnchorPoint: "Ligature rtl-below" 233 -44 baselig 1
+LayerCount: 2
+Fore
+Refer: 711 64450 N 1 0 0 1 -176 150 2
+Refer: 305 1557 N 1 0 0 1 155 230 2
+Refer: 126 65275 N 1 0 0 1 0 0 2
+LCarets2: 1 306
+Ligature2: "Lam-Alef ligature-1" uni08C7.init uniFB51
+Colour: ffff
+EndChar
+
+StartChar: uni08C7_uni0671.fina
+Encoding: 65781 -1 726
+Width: 613
+Flags: W
+AnchorPoint: "Ligature rtl-above" 382 1144 baselig 0
+AnchorPoint: "Ligature rtl-below" 412 -64 baselig 0
+AnchorPoint: "Ligature rtl-above" 18 1018 baselig 1
+AnchorPoint: "Ligature rtl-below" 173 -64 baselig 1
+LayerCount: 2
+Fore
+Refer: 711 64450 N 1 0 0 1 -240 150 2
+Refer: 305 1557 N 1 0 0 1 107 230 2
+Refer: 127 65276 N 1 0 0 1 0 0 2
+LCarets2: 1 306
+Ligature2: "Lam-Alef ligature-1" uni08C7.medi uniFB51
 Colour: ffff
 EndChar
 EndChars
