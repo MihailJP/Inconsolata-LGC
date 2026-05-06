@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1161020814
-ModificationTime: 1778045080
+ModificationTime: 1778047654
 PfmFamily: 49
 TTFWeight: 700
 TTFWidth: 5
@@ -86,8 +86,8 @@ PUSHB_1
 SCANTYPE
 EndTTInstrs
 LangName: 1033
-OtfFeatName: 'ss01' 1033 "German alternative umlaut"
 OtfFeatName: 'ss02' 1033 "Polytonic Greek alternative circumflex"
+OtfFeatName: 'ss01' 1033 "German alternative umlaut"
 Encoding: UnicodeBmp
 Compacted: 1
 UnicodeInterp: none
@@ -125,7 +125,7 @@ Grid
 EndSplineSet
 TeXData: 1 0 0 629145 314572 209715 554697 1048576 209715 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "rtl-above-mark" "Arabic above-base mark-to-mark positioning" "rtl-below-mark" "Arabic below-base mark-to-mark positioning" "rtl-above" "Arabic above-base mark positioning" "Ligature rtl-above" "Arabic above-base mark-to-ligature positioning" "rtl-below" "Arabic below-base mark positioning" "Ligature rtl-below" "Arabic below-base mark-to-ligature positioning"
-BeginChars: 65768 700
+BeginChars: 65772 706
 
 StartChar: comma
 Encoding: 44 44 0
@@ -12431,6 +12431,96 @@ Refer: 305 1557 N 1 0 0 1 129 228 2
 Refer: 127 65276 N 1 0 0 1 0 0 2
 LCarets2: 1 306
 Ligature2: "Lam-Alef ligature-1" uni08C7.medi uniFE8E
+Colour: ffff
+EndChar
+
+StartChar: uni0754
+Encoding: 1876 1876 700
+Width: 613
+Flags: MW
+AnchorPoint: "rtl-above" 294 513 basechar 0
+AnchorPoint: "rtl-below" 303 -195 basechar 0
+LayerCount: 2
+Fore
+Refer: 154 -1 N 1 0 0 1 208 -152 2
+Refer: 153 -1 N 1 0 0 1 265 325 2
+Refer: 128 1646 N 1 0 0 1 0 0 2
+Substitution2: "Final forms-1" uni0754.fina
+Substitution2: "Medial forms-1" uni0754.medi
+Substitution2: "Initial forms-1" uni0754.init
+Colour: ffff
+EndChar
+
+StartChar: uni0754.fina
+Encoding: 65768 -1 701
+Width: 613
+Flags: MW
+AnchorPoint: "rtl-above" 277 529 basechar 0
+AnchorPoint: "rtl-below" 273 -204 basechar 0
+LayerCount: 2
+Fore
+Refer: 154 -1 N 1 0 0 1 158 -175 2
+Refer: 153 -1 N 1 0 0 1 261 325 2
+Refer: 129 -1 N 1 0 0 1 0 0 2
+Colour: ffff
+EndChar
+
+StartChar: uni0754.init
+Encoding: 65769 -1 702
+Width: 613
+Flags: MW
+AnchorPoint: "rtl-below" 273 -199 basechar 0
+AnchorPoint: "rtl-above" 259 609 basechar 0
+LayerCount: 2
+Fore
+Refer: 154 -1 N 1 0 0 1 175 -164 2
+Refer: 130 64488 N 1 0 0 1 0 0 2
+Refer: 153 -1 N 1 0 0 1 255 425 2
+Colour: ffff
+EndChar
+
+StartChar: uni0754.medi
+Encoding: 65770 -1 703
+Width: 613
+Flags: MW
+AnchorPoint: "rtl-below" 296 -206 basechar 0
+AnchorPoint: "rtl-above" 281 602 basechar 0
+LayerCount: 2
+Fore
+Refer: 154 -1 N 1 0 0 1 183 -164 2
+Refer: 131 64489 N 1 0 0 1 0 0 2
+Refer: 153 -1 N 1 0 0 1 258 425 2
+Colour: ffff
+EndChar
+
+StartChar: uni08A9
+Encoding: 2217 2217 704
+Width: 613
+Flags: MW
+AnchorPoint: "rtl-above" 183 593 basechar 0
+AnchorPoint: "rtl-below" 272 -316 basechar 0
+LayerCount: 2
+Fore
+Refer: 153 -1 N 1 0 0 1 147 431 2
+Refer: 154 -1 N 1 0 0 1 165 -286 2
+Refer: 114 65263 N 1 0 0 1 0 0 2
+Substitution2: "Final forms-1" uni08A9.fina
+Substitution2: "Medial forms-1" uni0754.medi
+Substitution2: "Initial forms-1" uni0754.init
+Colour: ffff
+EndChar
+
+StartChar: uni08A9.fina
+Encoding: 65771 -1 705
+Width: 613
+Flags: MW
+AnchorPoint: "rtl-above" 136 443 basechar 0
+AnchorPoint: "rtl-below" 190 -328 basechar 0
+LayerCount: 2
+Fore
+Refer: 153 -1 N 1 0 0 1 100 281 2
+Refer: 115 65264 N 1 0 0 1 0 0 2
+Refer: 154 -1 N 1 0 0 1 92 -288 2
 Colour: ffff
 EndChar
 EndChars
