@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1161020814
-ModificationTime: 1778069582
+ModificationTime: 1778073601
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 5
@@ -87,8 +87,8 @@ PUSHB_1
 SCANTYPE
 EndTTInstrs
 LangName: 1033
-OtfFeatName: 'ss01' 1033 "German alternative umlaut"
 OtfFeatName: 'ss02' 1033 "Polytonic Greek alternative circumflex"
+OtfFeatName: 'ss01' 1033 "German alternative umlaut"
 Encoding: UnicodeBmp
 Compacted: 1
 UnicodeInterp: none
@@ -130,7 +130,7 @@ Grid
 EndSplineSet
 TeXData: 1 0 0 629145 314572 209715 554697 1048576 209715 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "rtl-above-mark" "Arabic above-base mark-to-mark positioning" "rtl-below-mark" "Arabic below-base mark-to-mark positioning" "rtl-above" "Arabic above-base mark positioning" "Ligature rtl-above" "Arabic above-base mark-to-ligature positioning" "rtl-below" "Arabic below-base mark positioning" "Ligature rtl-below" "Arabic below-base mark-to-ligature positioning"
-BeginChars: 65786 735
+BeginChars: 65786 737
 
 StartChar: comma
 Encoding: 44 44 0
@@ -160,15 +160,8 @@ Flags: MW
 TeX: 118 0
 LayerCount: 2
 Fore
-SplineSet
-364 434 m 0
- 364 397 332 366 293 366 c 0
- 254 366 223 397 223 434 c 0
- 223 471 254 502 293 502 c 0
- 332 502 364 471 364 434 c 0
-EndSplineSet
 Refer: 0 44 N 1 0 0 1 0 0 2
-Validated: 1
+Refer: 735 46 S 1 0 0 1 0 379 2
 EndChar
 
 StartChar: substitutetwo
@@ -13056,6 +13049,33 @@ LayerCount: 2
 Fore
 Refer: 514 -1 N 1 0 0 1 191 -237 2
 Refer: 131 64489 N 1 0 0 1 0 0 2
+Colour: ffff
+EndChar
+
+StartChar: period
+Encoding: 46 46 735
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+364 55 m 0
+ 364 18 332 -13 293 -13 c 0
+ 254 -13 223 18 223 55 c 0
+ 223 92 254 123 293 123 c 0
+ 332 123 364 92 364 55 c 0
+EndSplineSet
+EndChar
+
+StartChar: uni061E
+Encoding: 1566 1566 736
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 735 46 N 1 0 0 1 0 170 2
+Refer: 735 46 N 1 0 0 1 100 0 2
+Refer: 735 46 N 1 0 0 1 -100 0 2
 Colour: ffff
 EndChar
 EndChars
