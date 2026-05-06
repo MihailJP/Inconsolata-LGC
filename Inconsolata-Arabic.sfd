@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1161020814
-ModificationTime: 1778048667
+ModificationTime: 1778051007
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 5
@@ -129,7 +129,7 @@ Grid
 EndSplineSet
 TeXData: 1 0 0 629145 314572 209715 554697 1048576 209715 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "rtl-above-mark" "Arabic above-base mark-to-mark positioning" "rtl-below-mark" "Arabic below-base mark-to-mark positioning" "rtl-above" "Arabic above-base mark positioning" "Ligature rtl-above" "Arabic above-base mark-to-ligature positioning" "rtl-below" "Arabic below-base mark positioning" "Ligature rtl-below" "Arabic below-base mark-to-ligature positioning"
-BeginChars: 65770 706
+BeginChars: 65770 711
 
 StartChar: comma
 Encoding: 44 44 0
@@ -12525,6 +12525,95 @@ Fore
 Refer: 153 -1 N 1 0 0 1 91 291 2
 Refer: 115 65264 N 1 0 0 1 0 0 2
 Refer: 154 -1 N 1 0 0 1 98 -237 2
+Colour: ffff
+EndChar
+
+StartChar: percentarabic
+Encoding: 1642 1642 706
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+583 142 m 0
+ 583 105 551 74 512 74 c 0
+ 473 74 442 105 442 142 c 0
+ 442 179 473 210 512 210 c 0
+ 551 210 583 179 583 142 c 0
+185 597 m 0
+ 185 560 153 529 114 529 c 0
+ 75 529 44 560 44 597 c 0
+ 44 634 75 665 114 665 c 0
+ 153 665 185 634 185 597 c 0
+474 739 m 0
+ 554 739 l 0
+ 140 0 l 0
+ 65 0 l 0
+ 474 739 l 0
+EndSplineSet
+EndChar
+
+StartChar: decimalseparatorarabic
+Encoding: 1643 1643 707
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+304 4 m 0
+ 306 14 307 24 307 36 c 0
+ 307 57 303 76 295 98 c 1
+ 376 116 l 1
+ 386 96 397 74 397 29 c 0
+ 397 13 397 -1 395 -13 c 0
+ 387 -79 351 -127 288 -160 c 0
+ 234 -188 160 -204 65 -206 c 1
+ 65 -118 l 1
+ 139 -118 195 -107 231 -85 c 0
+ 274 -61 298 -31 304 4 c 0
+EndSplineSet
+EndChar
+
+StartChar: thousandsseparatorarabic
+Encoding: 1644 1644 708
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 0 44 N 1 0 0 1 0 526 2
+Colour: ffff
+EndChar
+
+StartChar: uni22C6
+Encoding: 8902 8902 709
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+313 528 m 5
+ 353 406 l 5
+ 481 406 l 5
+ 377 330 l 5
+ 417 208 l 5
+ 313 283 l 5
+ 209 208 l 5
+ 249 330 l 5
+ 145 406 l 5
+ 273 406 l 5
+ 313 528 l 5
+EndSplineSet
+EndChar
+
+StartChar: asteriskarabic
+Encoding: 1645 1645 710
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+Refer: 709 8902 N 1 0 0 1 0 0 2
 Colour: ffff
 EndChar
 EndChars
