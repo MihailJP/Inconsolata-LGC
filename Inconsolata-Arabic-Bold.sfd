@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1161020814
-ModificationTime: 1778065141
+ModificationTime: 1778069520
 PfmFamily: 49
 TTFWeight: 700
 TTFWidth: 5
@@ -49,6 +49,7 @@ Lookup: 1 0 0 "Urdu Arabic-Indic digits" { "Urdu Arabic-Indic digits-1" ("urdu")
 Lookup: 1 0 0 "Sindhi forms" { "Sindhi forms-1"  } ['locl' ('arab' <'SND ' > ) ]
 Lookup: 1 0 0 "Central Asian feh" { "Central Asian feh-1"  } ['locl' ('arab' <'KAZ ' 'KIR ' 'UYG ' > ) ]
 Lookup: 1 0 0 "Kyrgyz forms" { "Kyrgyz forms-1"  } ['locl' ('arab' <'KIR ' > ) ]
+Lookup: 2 1 0 "Decomposition" { "Decomposition-1"  } ['ccmp' ('DFLT' <'dflt' > 'arab' <'KAZ ' 'KIR ' 'SND ' 'URD ' 'UYG ' 'dflt' > ) ]
 Lookup: 1 1 0 "Initial forms" { "Initial forms-1"  } ['init' ('DFLT' <'dflt' > 'arab' <'KAZ ' 'KIR ' 'SND ' 'URD ' 'UYG ' 'dflt' > ) ]
 Lookup: 1 1 0 "Medial forms" { "Medial forms-1"  } ['medi' ('DFLT' <'dflt' > 'arab' <'KAZ ' 'KIR ' 'SND ' 'URD ' 'UYG ' 'dflt' > ) ]
 Lookup: 1 1 0 "Final forms" { "Final forms-1"  } ['fina' ('DFLT' <'dflt' > 'arab' <'KAZ ' 'KIR ' 'SND ' 'URD ' 'UYG ' 'dflt' > ) ]
@@ -125,7 +126,7 @@ Grid
 EndSplineSet
 TeXData: 1 0 0 629145 314572 209715 554697 1048576 209715 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "rtl-above-mark" "Arabic above-base mark-to-mark positioning" "rtl-below-mark" "Arabic below-base mark-to-mark positioning" "rtl-above" "Arabic above-base mark positioning" "Ligature rtl-above" "Arabic above-base mark-to-ligature positioning" "rtl-below" "Arabic below-base mark positioning" "Ligature rtl-below" "Arabic below-base mark-to-ligature positioning"
-BeginChars: 65782 727
+BeginChars: 65786 735
 
 StartChar: comma
 Encoding: 44 44 0
@@ -12869,6 +12870,186 @@ Refer: 305 1557 N 1 0 0 1 129 228 2
 Refer: 127 65276 N 1 0 0 1 0 0 2
 LCarets2: 1 306
 Ligature2: "Lam-Alef ligature-1" uni08C7.medi uniFB51
+Colour: ffff
+EndChar
+
+StartChar: wavyhamza
+Encoding: 65782 -1 727
+Width: 0
+Flags: W
+AnchorPoint: "rtl-above" 303 558 mark 0
+AnchorPoint: "Ligature rtl-above" 303 558 mark 0
+AnchorPoint: "rtl-above-mark" 305 878 basemark 0
+LayerCount: 2
+Fore
+SplineSet
+320 653 m 2
+ 361 664 l 1
+ 348 670 338 680 331 692 c 0
+ 323 706 318 720 318 736 c 0
+ 319 767 327 789 343 806 c 0
+ 360 823 394 832 421 832 c 0
+ 443 831 463 827 483 816 c 1
+ 483 761 l 1
+ 465 772 444 776 422 777 c 0
+ 406 777 395 775 390 769 c 0
+ 381 760 377 750 377 739 c 0
+ 377 717 392 699 423 687 c 0
+ 429 685 471 693 493 698 c 1
+ 493 642 l 1
+ 320 598 l 1
+ 302 598 285 604 272 618 c 0
+ 267 623 263 629 259 636 c 1
+ 246 624 228 614 205 606 c 0
+ 193 601 168 598 131 598 c 1
+ 131 645 l 1
+ 162 645 181 647 189 650 c 0
+ 213 662 238 674 239 689 c 1
+ 279 695 l 1
+ 291 670 305 653 320 653 c 2
+EndSplineSet
+EndChar
+
+StartChar: uni065F
+Encoding: 1631 1631 728
+Width: 0
+Flags: W
+AnchorPoint: "rtl-below" 306 0 mark 0
+AnchorPoint: "Ligature rtl-below" 306 0 mark 0
+AnchorPoint: "rtl-below-mark" 309 -288 basemark 0
+LayerCount: 2
+Fore
+Refer: 727 -1 N 1 0 0 1 0 -870 2
+Colour: ffff
+EndChar
+
+StartChar: uni0672
+Encoding: 1650 1650 729
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 727 -1 N 1 0 0 1 5 294 2
+Refer: 16 65165 N 1 0 0 1 0 0 2
+MultipleSubs2: "Decomposition-1" alefarabic wavyhamza
+Colour: ffff
+EndChar
+
+StartChar: uni0673
+Encoding: 1651 1651 730
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 727 -1 N 1 0 0 1 0 -909 2
+Refer: 16 65165 N 1 0 0 1 0 0 2
+MultipleSubs2: "Decomposition-1" alefarabic uni065F
+Colour: ffff
+EndChar
+
+StartChar: uni0620
+Encoding: 1568 1568 731
+Width: 613
+Flags: W
+AnchorPoint: "rtl-above" 199 395 basechar 0
+AnchorPoint: "rtl-below" 275 -200 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+578 -8 m 0
+ 538 -66 490 -104 433 -122 c 0
+ 376 -143 318 -152 258 -152 c 0
+ 176 -152 97 -129 65 -116 c 0
+ 119 -17 l 0
+ 144 -24 207 -43 264 -43 c 0
+ 307 -43 345 -37 378 -25 c 0
+ 410 -13 436 3 454 26 c 0
+ 473 50 482 68 482 82 c 0
+ 483 98 478 111 471 122 c 0
+ 459 139 433 155 393 168 c 0
+ 341 181 315 218 316 278 c 0
+ 316 332 334 370 370 391 c 0
+ 400 409 432 418 467 418 c 0
+ 528 418 566 404 584 376 c 0
+ 601 348 611 313 614 270 c 1
+ 503 270 l 1
+ 503 290 501 303 495 310 c 0
+ 485 321 474 327 461 326 c 0
+ 454 325 445 322 437 314 c 0
+ 426 304 421 292 421 277 c 0
+ 421 259 442 243 484 231 c 0
+ 530 220 564 194 586 154 c 0
+ 597 135 602 110 602 78 c 0
+ 602 46 594 17 578 -8 c 0
+EndSplineSet
+Substitution2: "Final forms-1" uni0620.fina
+Substitution2: "Medial forms-1" uni0620.medi
+Substitution2: "Initial forms-1" uni0620.init
+EndChar
+
+StartChar: uni0620.fina
+Encoding: 65783 -1 732
+Width: 613
+Flags: W
+AnchorPoint: "rtl-above" 191 313 basechar 0
+AnchorPoint: "rtl-below" 208 -200 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+377 22 m 0
+ 376 34 374 43 370 47 c 0
+ 363 56 354 65 344 75 c 0
+ 329 91 322 112 322 138 c 0
+ 323 168 330 193 344 211 c 0
+ 365 237 389 254 417 261 c 0
+ 429 264 446 266 469 266 c 0
+ 495 266 516 259 534 244 c 0
+ 552 229 565 210 572 184 c 0
+ 588 129 602 101 612 101 c 2
+ 611 101 617 101 624 101 c 1
+ 624 0 l 1
+ 607 0 l 2
+ 558 0 524 29 505 86 c 0
+ 487 141 471 168 458 168 c 0
+ 450 168 444 165 439 160 c 0
+ 433 154 430 148 430 139 c 0
+ 430 137 437 126 451 107 c 0
+ 472 80 483 52 483 25 c 0
+ 483 -12 471 -43 447 -67 c 0
+ 417 -98 377 -120 327 -132 c 0
+ 278 -147 235 -154 198 -154 c 0
+ 158 -154 113 -148 64 -136 c 0
+ 122 -40 l 0
+ 144 -44 168 -46 197 -46 c 0
+ 229 -46 258 -43 284 -37 c 0
+ 314 -29 335 -21 348 -12 c 0
+ 367 2 377 13 377 22 c 0
+EndSplineSet
+EndChar
+
+StartChar: uni0620.init
+Encoding: 65784 -1 733
+Width: 613
+Flags: W
+AnchorPoint: "rtl-below" 293 -287 basechar 0
+AnchorPoint: "rtl-above" 294 500 basechar 0
+LayerCount: 2
+Fore
+Refer: 514 -1 N 1 0 0 1 183 -258 2
+Refer: 130 64488 N 1 0 0 1 0 0 2
+Colour: ffff
+EndChar
+
+StartChar: uni0620.medi
+Encoding: 65785 -1 734
+Width: 613
+Flags: W
+AnchorPoint: "rtl-below" 305 -291 basechar 0
+AnchorPoint: "rtl-above" 299.1 500 basechar 0
+LayerCount: 2
+Fore
+Refer: 514 -1 N 1 0 0 1 195 -262 2
+Refer: 131 64489 N 1 0 0 1 0 0 2
 Colour: ffff
 EndChar
 EndChars

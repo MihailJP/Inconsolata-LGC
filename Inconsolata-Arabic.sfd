@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1161020814
-ModificationTime: 1778062494
+ModificationTime: 1778069582
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 5
@@ -49,6 +49,7 @@ Lookup: 1 0 0 "Urdu Arabic-Indic digits" { "Urdu Arabic-Indic digits-1" ("urdu")
 Lookup: 1 0 0 "Sindhi forms" { "Sindhi forms-1"  } ['locl' ('arab' <'SND ' > ) ]
 Lookup: 1 0 0 "Central Asian feh" { "Central Asian feh-1"  } ['locl' ('arab' <'KAZ ' 'KIR ' 'UYG ' > ) ]
 Lookup: 1 0 0 "Kyrgyz forms" { "Kyrgyz forms-1"  } ['locl' ('arab' <'KIR ' > ) ]
+Lookup: 2 1 0 "Decomposition" { "Decomposition-1"  } ['ccmp' ('DFLT' <'dflt' > 'arab' <'KAZ ' 'KIR ' 'SND ' 'URD ' 'UYG ' 'dflt' > ) ]
 Lookup: 1 1 0 "Initial forms" { "Initial forms-1"  } ['init' ('DFLT' <'dflt' > 'arab' <'KAZ ' 'KIR ' 'SND ' 'URD ' 'UYG ' 'dflt' > ) ]
 Lookup: 1 1 0 "Medial forms" { "Medial forms-1"  } ['medi' ('DFLT' <'dflt' > 'arab' <'KAZ ' 'KIR ' 'SND ' 'URD ' 'UYG ' 'dflt' > ) ]
 Lookup: 1 1 0 "Final forms" { "Final forms-1"  } ['fina' ('DFLT' <'dflt' > 'arab' <'KAZ ' 'KIR ' 'SND ' 'URD ' 'UYG ' 'dflt' > ) ]
@@ -86,8 +87,8 @@ PUSHB_1
 SCANTYPE
 EndTTInstrs
 LangName: 1033
-OtfFeatName: 'ss02' 1033 "Polytonic Greek alternative circumflex"
 OtfFeatName: 'ss01' 1033 "German alternative umlaut"
+OtfFeatName: 'ss02' 1033 "Polytonic Greek alternative circumflex"
 Encoding: UnicodeBmp
 Compacted: 1
 UnicodeInterp: none
@@ -129,7 +130,7 @@ Grid
 EndSplineSet
 TeXData: 1 0 0 629145 314572 209715 554697 1048576 209715 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "rtl-above-mark" "Arabic above-base mark-to-mark positioning" "rtl-below-mark" "Arabic below-base mark-to-mark positioning" "rtl-above" "Arabic above-base mark positioning" "Ligature rtl-above" "Arabic above-base mark-to-ligature positioning" "rtl-below" "Arabic below-base mark positioning" "Ligature rtl-below" "Arabic below-base mark-to-ligature positioning"
-BeginChars: 65782 727
+BeginChars: 65786 735
 
 StartChar: comma
 Encoding: 44 44 0
@@ -12875,6 +12876,186 @@ Refer: 305 1557 N 1 0 0 1 107 230 2
 Refer: 127 65276 N 1 0 0 1 0 0 2
 LCarets2: 1 306
 Ligature2: "Lam-Alef ligature-1" uni08C7.medi uniFB51
+Colour: ffff
+EndChar
+
+StartChar: wavyhamza
+Encoding: 65782 -1 727
+Width: 0
+Flags: W
+AnchorPoint: "rtl-above" 299 567 mark 0
+AnchorPoint: "Ligature rtl-above" 299 567 mark 0
+AnchorPoint: "rtl-above-mark" 304 881 basemark 0
+LayerCount: 2
+Fore
+SplineSet
+320 658 m 2
+ 360 667 l 1
+ 344 674 334 683 330 695 c 0
+ 326 706 323 720 323 735 c 0
+ 324 766 335 789 352 803 c 0
+ 372 817 393 825 425 825 c 0
+ 444 824 463 819 482 808 c 1
+ 482 760 l 1
+ 465 771 446 776 425 777 c 0
+ 401 777 386 774 381 768 c 0
+ 371 756 365 747 365 739 c 0
+ 365 713 382 695 414 687 c 0
+ 427 684 446 685 492 695 c 1
+ 492 648 l 1
+ 320 610 l 2
+ 302 610 285 616 272 630 c 0
+ 267 635 263 641 259 648 c 1
+ 246 636 228 626 205 618 c 0
+ 193 613 168 610 131 610 c 1
+ 131 650 l 1
+ 162 650 181 652 189 655 c 0
+ 213 667 238 679 239 694 c 1
+ 279 700 l 0
+ 291 675 305 658 320 658 c 2
+EndSplineSet
+EndChar
+
+StartChar: uni065F
+Encoding: 1631 1631 728
+Width: 0
+Flags: W
+AnchorPoint: "rtl-below" 306 0 mark 0
+AnchorPoint: "Ligature rtl-below" 306 0 mark 0
+AnchorPoint: "rtl-below-mark" 310 -264 basemark 0
+LayerCount: 2
+Fore
+Refer: 727 -1 N 1 0 0 1 0 -852 2
+Colour: ffff
+EndChar
+
+StartChar: uni0672
+Encoding: 1650 1650 729
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 727 -1 N 1 0 0 1 9 285 2
+Refer: 16 65165 N 1 0 0 1 0 0 2
+MultipleSubs2: "Decomposition-1" alefarabic wavyhamza
+Colour: ffff
+EndChar
+
+StartChar: uni0673
+Encoding: 1651 1651 730
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 727 -1 N 1 0 0 1 0 -891 2
+Refer: 16 65165 N 1 0 0 1 0 0 2
+MultipleSubs2: "Decomposition-1" alefarabic uni065F
+Colour: ffff
+EndChar
+
+StartChar: uni0620
+Encoding: 1568 1568 731
+Width: 613
+Flags: W
+AnchorPoint: "rtl-above" 208 388 basechar 0
+AnchorPoint: "rtl-below" 288 -159 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+567 10 m 0
+ 522 -57 459 -99 378 -114 c 0
+ 318 -123 279 -128 258 -128 c 0
+ 178 -128 88 -103 65 -97 c 0
+ 83 -14 l 0
+ 108 -21 208 -46 264 -46 c 0
+ 303 -46 341 -41 378 -29 c 0
+ 415 -17 445 3 467 30 c 0
+ 487 55 498 72 497 82 c 0
+ 498 98 493 113 483 127 c 0
+ 471 144 442 163 397 184 c 0
+ 370 200 358 226 359 265 c 0
+ 359 314 374 347 405 367 c 0
+ 429 384 456 391 487 391 c 0
+ 531 391 562 380 580 357 c 0
+ 597 337 608 304 614 257 c 1
+ 528 257 l 1
+ 528 277 525 291 519 301 c 0
+ 510 312 499 316 486 315 c 0
+ 479 314 473 312 465 305 c 0
+ 453 295 446 280 446 260 c 0
+ 446 249 467 234 509 218 c 0
+ 535 208 557 187 573 154 c 0
+ 584 135 589 110 589 78 c 0
+ 589 55 582 32 567 10 c 0
+EndSplineSet
+Substitution2: "Final forms-1" uni0620.fina
+Substitution2: "Medial forms-1" uni0620.medi
+Substitution2: "Initial forms-1" uni0620.init
+EndChar
+
+StartChar: uni0620.fina
+Encoding: 65783 -1 732
+Width: 613
+Flags: W
+AnchorPoint: "rtl-below" 202 -200 basechar 0
+AnchorPoint: "rtl-above" 206 279 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+384 27 m 0
+ 383 43 382 52 379 56 c 0
+ 371 69 363 80 356 87 c 0
+ 341 103 334 120 334 138 c 0
+ 335 163 342 182 355 196 c 0
+ 381 228 411 248 440 252 c 0
+ 448 254 458 254 470 254 c 0
+ 492 254 511 248 525 236 c 0
+ 536 226 546 211 553 190 c 0
+ 576 123 594 89 605 89 c 2
+ 604 89 610 89 624 89 c 1
+ 624 0 l 1
+ 607 0 l 2
+ 566 0 535 29 512 86 c 0
+ 490 141 474 168 465 168 c 0
+ 453 168 443 165 438 160 c 0
+ 431 154 427 146 427 134 c 0
+ 427 133 434 120 448 96 c 0
+ 465 66 474 44 474 26 c 0
+ 474 1 460 -26 432 -55 c 0
+ 396 -94 346 -117 283 -124 c 0
+ 237 -128 203 -130 182 -130 c 0
+ 142 -130 97 -124 48 -112 c 4
+ 85 -40 l 4
+ 108 -44 140 -46 181 -46 c 0
+ 228 -46 260 -43 277 -38 c 0
+ 324 -25 350 -16 355 -12 c 0
+ 374 5 384 18 384 27 c 0
+EndSplineSet
+EndChar
+
+StartChar: uni0620.init
+Encoding: 65784 -1 733
+Width: 613
+Flags: W
+AnchorPoint: "rtl-above" 294 500 basechar 0
+AnchorPoint: "rtl-below" 288 -270 basechar 0
+LayerCount: 2
+Fore
+Refer: 514 -1 N 1 0 0 1 177 -239 2
+Refer: 130 64488 N 1 0 0 1 0 0 2
+Colour: ffff
+EndChar
+
+StartChar: uni0620.medi
+Encoding: 65785 -1 734
+Width: 613
+Flags: W
+AnchorPoint: "rtl-above" 300.3 500 basechar 0
+AnchorPoint: "rtl-below" 302 -268 basechar 0
+LayerCount: 2
+Fore
+Refer: 514 -1 N 1 0 0 1 191 -237 2
+Refer: 131 64489 N 1 0 0 1 0 0 2
 Colour: ffff
 EndChar
 EndChars
