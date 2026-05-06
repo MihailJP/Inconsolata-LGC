@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1161020814
-ModificationTime: 1778077303
+ModificationTime: 1778081085
 PfmFamily: 49
 TTFWeight: 700
 TTFWidth: 5
@@ -108,8 +108,8 @@ PUSHB_1
 SCANTYPE
 EndTTInstrs
 LangName: 1033
-OtfFeatName: 'ss01' 1033 "German alternative umlaut"
 OtfFeatName: 'ss02' 1033 "Polytonic Greek alternative circumflex"
+OtfFeatName: 'ss01' 1033 "German alternative umlaut"
 Encoding: UnicodeFull
 Compacted: 1
 UnicodeInterp: none
@@ -146,7 +146,7 @@ Grid
  416.256 939.008 l 1049
 EndSplineSet
 TeXData: 1 0 0 629145 314572 209715 554697 1048576 209715 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 1114585 3358
+BeginChars: 1114585 3375
 
 StartChar: a
 Encoding: 97 97 0
@@ -64658,6 +64658,250 @@ SplineSet
  172 542 l 1
  151 417 141 355 141 262 c 0
  141 217 145 94 194 94 c 0
+EndSplineSet
+EndChar
+
+StartChar: uni2C6F
+Encoding: 11375 11375 3358
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 71 65 N -1 0 0 -1 613 738 2
+EndChar
+
+StartChar: aturned
+Encoding: 592 592 3359
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 0 97 N -1 0 0 -1 613 542 2
+EndChar
+
+StartChar: uni2C70
+Encoding: 11376 11376 3360
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 3351 11373 N -1 0 0 -1 613 736 2
+EndChar
+
+StartChar: ascriptturned
+Encoding: 594 594 3361
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1434 593 N -1 0 0 -1 613 542 2
+EndChar
+
+StartChar: ereversed
+Encoding: 600 600 3362
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+296 555 m 0
+ 434 555 561 461 561 266 c 0
+ 561 87 439 -12 285 -12 c 0
+ 152 -12 92 61 70 88 c 1
+ 139 155 l 1
+ 196 87 253 87 278 87 c 0
+ 343 87 433 116 446 244 c 1
+ 63 244 l 1
+ 60 278 60 283 60 295 c 0
+ 60 317 62 340 66 360 c 1
+ 92 506 202 555 296 555 c 0
+441 340 m 1
+ 421 433 352 459 302 459 c 0
+ 229 459 176 407 176 343 c 0
+ 176 342 176 342 176 340 c 1
+ 441 340 l 1
+EndSplineSet
+EndChar
+
+StartChar: uniA7AB
+Encoding: 42923 42923 3363
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+Refer: 374 1047 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: eopenreversed
+Encoding: 604 604 3364
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+Refer: 406 1079 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: eopenreversedclosed
+Encoding: 606 606 3365
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+310 554 m 0
+ 435 554 533 465 533 381 c 0
+ 533 338 511 305 475 285 c 1
+ 522 261 543 211 543 163 c 0
+ 543 107 521 -14 312 -14 c 0
+ 174 -14 52 92 52 269 c 0
+ 52 453 178 554 310 554 c 0
+315 451 m 0
+ 247 451 169 397 169 265 c 0
+ 169 145 242 91 311 91 c 0
+ 396 92 427 132 427 162 c 0
+ 427 180 424 226 328 226 c 0
+ 312 226 311 226 290 221 c 1
+ 290 337 l 1
+ 309 335 311 335 328 335 c 0
+ 402 335 416 352 416 381 c 0
+ 416 413 379 451 315 451 c 0
+EndSplineSet
+EndChar
+
+StartChar: uniA78D
+Encoding: 42893 42893 3366
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+59 739 m 1
+ 176 739 l 1
+ 182 729 184 726 184 719 c 0
+ 184 699 176 701 176 697 c 0
+ 176 438 l 1
+ 435 438 l 1
+ 435 739 l 1
+ 549 739 l 1
+ 555 731 557 728 557 720 c 0
+ 557 698 549 701 549 699 c 0
+ 549 -1 l 1
+ 434 -1 l 1
+ 434 337 l 1
+ 59 337 l 1
+ 59 739 l 1
+EndSplineSet
+EndChar
+
+StartChar: hturned
+Encoding: 613 613 3367
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+535 542 m 1
+ 535 -198 l 1
+ 411 -198 l 1
+ 406 -186 406 -186 406 -180 c 0
+ 406 -165 416 -157 417 -156 c 0
+ 417 -156 417 -156 417 -155 c 0
+ 417 66 l 1
+ 375 20 317 -13 253 -13 c 0
+ 185 -13 123 23 94 86 c 0
+ 73 131 73 176 73 216 c 0
+ 73 542 l 1
+ 188 542 l 1
+ 188 222 l 0
+ 188 186 189 147 214 119 c 0
+ 230 101 253 92 276 92 c 0
+ 325 92 375 133 394 157 c 0
+ 414 182 417 202 417 235 c 0
+ 417 542 l 1
+ 535 542 l 1
+EndSplineSet
+EndChar
+
+StartChar: rturned
+Encoding: 633 633 3368
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 16 114 N -1 0 0 -1 613 541 2
+EndChar
+
+StartChar: uniA7B1
+Encoding: 42929 42929 3369
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 59 84 N -1 0 0 -1 613 738 2
+EndChar
+
+StartChar: tturned
+Encoding: 647 647 3370
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 8 116 N -1 0 0 -1 613 545 2
+EndChar
+
+StartChar: wturned
+Encoding: 653 653 3371
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 55 119 N -1 0 0 -1 613 541 2
+EndChar
+
+StartChar: yturned
+Encoding: 654 654 3372
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 23 121 N -1 0 0 -1 613 543 2
+EndChar
+
+StartChar: uniA7B0
+Encoding: 42928 42928 3373
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 84 75 N -1 0 0 -1 613 740 2
+EndChar
+
+StartChar: kturned
+Encoding: 670 670 3374
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+539 -198 m 1
+ 414 -198 l 1
+ 410 -180 409 -180 421 -157 c 0
+ 423 -153 423 -153 423 -152 c 2
+ 423 228 l 1
+ 171 -5 l 1
+ 149 0 135 2 103 2 c 2
+ 34 2 l 1
+ 280 222 l 1
+ 2 542 l 9
+ 18 542 27 542 43 542 c 16
+ 72 542 123 543 152 547 c 1
+ 368 277 l 1
+ 423 328 l 1
+ 423 542 l 1
+ 539 542 l 1
+ 539 -198 l 1
 EndSplineSet
 EndChar
 EndChars
