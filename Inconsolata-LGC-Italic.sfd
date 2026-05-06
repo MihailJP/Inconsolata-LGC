@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1161020814
-ModificationTime: 1777973415
+ModificationTime: 1778074710
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 5
@@ -108,8 +108,8 @@ PUSHB_1
 SCANTYPE
 EndTTInstrs
 LangName: 1033
-OtfFeatName: 'ss02' 1033 "Polytonic Greek alternative circumflex"
 OtfFeatName: 'ss01' 1033 "German alternative umlaut"
+OtfFeatName: 'ss02' 1033 "Polytonic Greek alternative circumflex"
 Encoding: UnicodeFull
 Compacted: 1
 UnicodeInterp: none
@@ -146,7 +146,7 @@ Grid
  416.256 939.008 l 1049
 EndSplineSet
 TeXData: 1 0 0 629145 314572 209715 554697 1048576 209715 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 1114579 3348
+BeginChars: 1114579 3350
 
 StartChar: a
 Encoding: 97 97 0
@@ -64572,6 +64572,81 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 1052 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: uniA7B4
+Encoding: 42932 42932 3348
+Width: 613
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+198 739 m 1
+ 408 739 l 2
+ 453 739 501 739 543 719 c 0
+ 607 689 634 625 622 559 c 0
+ 609 488 555 423 484 396 c 0
+ 562 368 603 291 588 205 c 0
+ 575 129 519 56 433 22 c 0
+ 378 0 326 0 276 0 c 2
+ 150 0 l 1
+ 115 -198 l 1
+ 33 -198 l 9
+ 198 739 l 1
+268 669 m 25
+ 226 433 l 25
+ 341 433 l 2
+ 374 433 410 434 447 449 c 0
+ 498 469 529 509 536 551 c 0
+ 544 594 524 635 479 655 c 0
+ 448 668 416 669 384 669 c 2
+ 268 669 l 25
+214 364 m 25
+ 163 73 l 25
+ 304 73 l 2
+ 336 73 368 74 402 88 c 0
+ 457 111 494 160 503 213 c 0
+ 512 266 492 319 442 345 c 0
+ 408 363 371 364 334 364 c 2
+ 214 364 l 25
+EndSplineSet
+EndChar
+
+StartChar: uniA7B5
+Encoding: 42933 42933 3349
+Width: 613
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+574 200 m 8
+ 554 87 431 -12 328 -14 c 0
+ 327 -14 326 -14 325 -14 c 0
+ 217 -14 172 90 172 90 c 1
+ 121 -198 l 1
+ 42 -198 l 1
+ 160 473 l 2
+ 168 520 179 577 211 627 c 0
+ 260 704 340 748 417 748 c 0
+ 530 748 603 653 585 549 c 0
+ 574 487 530 430 470 402 c 1
+ 549 376 590 291 574 200 c 8
+340 59 m 1
+ 412 59 479 121 493 200 c 0
+ 503 257 480 311 442 337 c 0
+ 413 356 390 359 353 359 c 2
+ 274 359 l 1
+ 287 429 l 1
+ 364 429 l 2
+ 463 429 493 508 501 551 c 0
+ 514 624 475 674 408 674 c 0
+ 371 674 332 662 298 625 c 0
+ 261 583 249 530 241 483 c 0
+ 240 480 241 477 240 474 c 2
+ 182 145 l 1
+ 205 139 263 59 333 59 c 0
+ 335 59 338 59 340 59 c 1
+EndSplineSet
 EndChar
 EndChars
 EndSplineFont
