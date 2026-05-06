@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1161020814
-ModificationTime: 1777979021
+ModificationTime: 1778045080
 PfmFamily: 49
 TTFWeight: 700
 TTFWidth: 5
@@ -125,7 +125,7 @@ Grid
 EndSplineSet
 TeXData: 1 0 0 629145 314572 209715 554697 1048576 209715 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "rtl-above-mark" "Arabic above-base mark-to-mark positioning" "rtl-below-mark" "Arabic below-base mark-to-mark positioning" "rtl-above" "Arabic above-base mark positioning" "Ligature rtl-above" "Arabic above-base mark-to-ligature positioning" "rtl-below" "Arabic below-base mark positioning" "Ligature rtl-below" "Arabic below-base mark-to-ligature positioning"
-BeginChars: 65757 688
+BeginChars: 65768 700
 
 StartChar: comma
 Encoding: 44 44 0
@@ -12234,6 +12234,203 @@ Fore
 Refer: 305 1557 N 1 0 0 1 -23 -66 2
 Refer: 131 64489 N 1 0 0 1 0 0 2
 Refer: 153 -1 N 1 0 0 1 258 425 2
+Colour: ffff
+EndChar
+
+StartChar: uni08C7
+Encoding: 2247 2247 688
+Width: 613
+Flags: W
+AnchorPoint: "rtl-above" 437 1186 basechar 0
+AnchorPoint: "rtl-below" 273 -212 basechar 0
+LayerCount: 2
+Fore
+Refer: 305 1557 N 1 0 0 1 178 228 2
+Refer: 96 65245 N 1 0 0 1 0 0 2
+Substitution2: "Final forms-1" uni08C7.fina
+Substitution2: "Medial forms-1" uni08C7.medi
+Substitution2: "Initial forms-1" uni08C7.init
+Colour: ffff
+EndChar
+
+StartChar: uni08C7.fina
+Encoding: 65757 -1 689
+Width: 613
+Flags: W
+AnchorPoint: "rtl-above" 404 1186 basechar 0
+AnchorPoint: "rtl-below" 253 -219 basechar 0
+LayerCount: 2
+Fore
+Refer: 305 1557 N 1 0 0 1 145 228 2
+Refer: 97 65246 N 1 0 0 1 0 0 2
+Colour: ffff
+EndChar
+
+StartChar: uni08C7.init
+Encoding: 65758 -1 690
+Width: 613
+Flags: W
+AnchorPoint: "rtl-above" 384 1186 basechar 0
+AnchorPoint: "rtl-below" 284 -63 basechar 0
+LayerCount: 2
+Fore
+Refer: 305 1557 N 1 0 0 1 125 228 2
+Refer: 98 65247 N 1 0 0 1 0 0 2
+Colour: ffff
+EndChar
+
+StartChar: uni08C7.medi
+Encoding: 65759 -1 691
+Width: 613
+Flags: W
+AnchorPoint: "rtl-above" 236 1186 basechar 0
+AnchorPoint: "rtl-below" 304 -71 basechar 0
+LayerCount: 2
+Fore
+Refer: 305 1557 N 1 0 0 1 -23 228 2
+Refer: 99 65248 N 1 0 0 1 0 0 2
+Colour: ffff
+EndChar
+
+StartChar: uni08C7_uni0622
+Encoding: 65760 -1 692
+Width: 613
+Flags: W
+AnchorPoint: "Ligature rtl-above" 411 1186 baselig 0
+AnchorPoint: "Ligature rtl-below" 494 40 baselig 0
+AnchorPoint: "Ligature rtl-above" 68 930 baselig 1
+AnchorPoint: "Ligature rtl-below" 210 -50 baselig 1
+LayerCount: 2
+Fore
+Refer: 305 1557 N 1 0 0 1 152 228 2
+Refer: 150 1619 N 1 0 0 1 -183 150 2
+Refer: 126 65275 N 1 0 0 1 0 0 2
+LCarets2: 1 306
+Ligature2: "Lam-Alef ligature-1" uni08C7.init uniFE82
+Colour: ffff
+EndChar
+
+StartChar: uni08C7_uni0622.fina
+Encoding: 65761 -1 693
+Width: 613
+Flags: W
+AnchorPoint: "Ligature rtl-above" 388 1186 baselig 0
+AnchorPoint: "Ligature rtl-below" 422 -26 baselig 0
+AnchorPoint: "Ligature rtl-above" 56 919 baselig 1
+AnchorPoint: "Ligature rtl-below" 180 -50 baselig 1
+LayerCount: 2
+Fore
+Refer: 305 1557 N 1 0 0 1 129 228 2
+Refer: 150 1619 N 1 0 0 1 -209 150 2
+Refer: 127 65276 N 1 0 0 1 0 0 2
+LCarets2: 1 306
+Ligature2: "Lam-Alef ligature-1" uni08C7.medi uniFE82
+Colour: ffff
+EndChar
+
+StartChar: uni08C7_uni0623
+Encoding: 65762 -1 694
+Width: 613
+Flags: W
+AnchorPoint: "Ligature rtl-above" 411 1186 baselig 0
+AnchorPoint: "Ligature rtl-below" 494 40 baselig 0
+AnchorPoint: "Ligature rtl-above" 63 1020 baselig 1
+AnchorPoint: "Ligature rtl-below" 210 -50 baselig 1
+LayerCount: 2
+Fore
+Refer: 305 1557 N 1 0 0 1 152 228 2
+Refer: 151 -1 N 1 0 0 1 -203 150 2
+Refer: 126 65275 N 1 0 0 1 0 0 2
+LCarets2: 1 306
+Ligature2: "Lam-Alef ligature-1" uni08C7.init uniFE84
+Colour: ffff
+EndChar
+
+StartChar: uni08C7_uni0623.fina
+Encoding: 65763 -1 695
+Width: 613
+Flags: W
+AnchorPoint: "Ligature rtl-above" 388 1186 baselig 0
+AnchorPoint: "Ligature rtl-below" 412 -46 baselig 0
+AnchorPoint: "Ligature rtl-above" 26 1029 baselig 1
+AnchorPoint: "Ligature rtl-below" 180 -50 baselig 1
+LayerCount: 2
+Fore
+Refer: 305 1557 N 1 0 0 1 129 228 2
+Refer: 151 -1 N 1 0 0 1 -240 150 2
+Refer: 127 65276 N 1 0 0 1 0 0 2
+LCarets2: 1 306
+Ligature2: "Lam-Alef ligature-1" uni08C7.medi uniFE84
+Colour: ffff
+EndChar
+
+StartChar: uni08C7_uni0625
+Encoding: 65764 -1 696
+Width: 613
+Flags: W
+AnchorPoint: "Ligature rtl-above" 411 1186 baselig 0
+AnchorPoint: "Ligature rtl-below" 456 5 baselig 0
+AnchorPoint: "Ligature rtl-above" 110 751 baselig 1
+AnchorPoint: "Ligature rtl-below" 149 -295 baselig 1
+LayerCount: 2
+Fore
+Refer: 305 1557 N 1 0 0 1 152 228 2
+Refer: 152 -1 N 1 0 0 1 -158 -13 2
+Refer: 126 65275 N 1 0 0 1 0 0 2
+LCarets2: 1 306
+Ligature2: "Lam-Alef ligature-1" uni08C7.init uniFE88
+Colour: ffff
+EndChar
+
+StartChar: uni08C7_uni0625.fina
+Encoding: 65765 -1 697
+Width: 613
+Flags: W
+AnchorPoint: "Ligature rtl-above" 388 1186 baselig 0
+AnchorPoint: "Ligature rtl-below" 410 -64 baselig 0
+AnchorPoint: "Ligature rtl-above" 110 751 baselig 1
+AnchorPoint: "Ligature rtl-below" 141 -304 baselig 1
+LayerCount: 2
+Fore
+Refer: 305 1557 N 1 0 0 1 129 228 2
+Refer: 152 -1 N 1 0 0 1 -158 -18 2
+Refer: 127 65276 N 1 0 0 1 0 0 2
+LCarets2: 1 306
+Ligature2: "Lam-Alef ligature-1" uni08C7.medi uniFE88
+Colour: ffff
+EndChar
+
+StartChar: uni08C7_uni0627
+Encoding: 65766 -1 698
+Width: 613
+Flags: W
+AnchorPoint: "Ligature rtl-above" 411 1186 baselig 0
+AnchorPoint: "Ligature rtl-below" 494 40 baselig 0
+AnchorPoint: "Ligature rtl-below" 210 -50 baselig 1
+AnchorPoint: "Ligature rtl-above" 110 751 baselig 1
+LayerCount: 2
+Fore
+Refer: 305 1557 N 1 0 0 1 152 228 2
+Refer: 126 65275 N 1 0 0 1 0 0 2
+LCarets2: 1 306
+Ligature2: "Lam-Alef ligature-1" uni08C7.init uniFE8E
+Colour: ffff
+EndChar
+
+StartChar: uni08C7_uni0627.fina
+Encoding: 65767 -1 699
+Width: 613
+Flags: W
+AnchorPoint: "Ligature rtl-above" 388 1186 baselig 0
+AnchorPoint: "Ligature rtl-below" 410 -64 baselig 0
+AnchorPoint: "Ligature rtl-below" 180 -50 baselig 1
+AnchorPoint: "Ligature rtl-above" 92 751 baselig 1
+LayerCount: 2
+Fore
+Refer: 305 1557 N 1 0 0 1 129 228 2
+Refer: 127 65276 N 1 0 0 1 0 0 2
+LCarets2: 1 306
+Ligature2: "Lam-Alef ligature-1" uni08C7.medi uniFE8E
 Colour: ffff
 EndChar
 EndChars
