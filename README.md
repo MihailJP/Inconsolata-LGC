@@ -145,6 +145,14 @@ This is preferred for Latvian, but not for Marshallese.
 
 Due to lack of combining diacritical marks, Inconsolata LGC does not fully
 support Marshallese language.
+Concretely, M and O with cedilla, and N with macron are missing.
+
+Certain convention uses alternative characters: L, M, N, and O with cedilla
+replaced by dot below, and N with macron replaced by tilde.
+Such characters will also be replaced in order to show Marshallese text with
+precomposed characters.
+
+For legacy apps, use **Inconsolata LGC Marshallese** in the TTC.
 
 
 Miscellaneous variants

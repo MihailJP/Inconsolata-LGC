@@ -30,6 +30,23 @@ t = {
 	}},
 	"ewe" => {namesuffix: "African",   swap: {"florin" => "fscript.ewe"}},
 	"cv"  => {namesuffix: "Chuvash",   tag: /\.cv$/     },
+	"mah" => {namesuffix: "Marshallese",  swap: {
+		"Lcommaaccent" => "Lcedilla.mah",
+		"lcommaaccent" => "lcedilla.mah",
+		"Ncommaaccent" => "Ncedilla.mah",
+		"ncommaaccent" => "ncedilla.mah",
+		"Mdotbelow" => "Mcedilla.mah",
+		"mdotbelow" => "mcedilla.mah",
+		"Odotbelow" => "Ocedilla.mah",
+		"odotbelow" => "ocedilla.mah",
+		"Ntilde" => "Nmacron",
+		"ntilde" => "nmacron",
+	}, replace: {
+		"Lcedilla.mah" => "Ldotbelow",
+		"lcedilla.mah" => "ldotbelow",
+		"Ncedilla.mah" => "Ndotbelow",
+		"ncedilla.mah" => "ndotbelow",
+	}},
 }
 
 f.each {|l|

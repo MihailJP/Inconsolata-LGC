@@ -1,7 +1,7 @@
 .INTERMEDIATE: Inconsolata-LGC-Intermediate.sfd
 .INTERMEDIATE: Inconsolata-LGC-Romanian.sfd Inconsolata-LGC-Polish.sfd Inconsolata-LGC-Bulgarian.sfd Inconsolata-LGC-Yugoslav.sfd
 .INTERMEDIATE: Inconsolata-LGC-Livonian.sfd Inconsolata-LGC-Sami.sfd Inconsolata-LGC-Pinyin.sfd Inconsolata-LGC-African.sfd
-.INTERMEDIATE: Inconsolata-LGC-Chuvash.sfd
+.INTERMEDIATE: Inconsolata-LGC-Chuvash.sfd Inconsolata-LGC-Marshallese.sfd
 Inconsolata-LGC-Intermediate.sfd: Inconsolata-LGC.sfd makefont.py
 	./makefont.py $@ $<
 Inconsolata-LGC-Romanian.sfd: Inconsolata-LGC-Intermediate.sfd regional.rb
@@ -22,12 +22,14 @@ Inconsolata-LGC-African.sfd: Inconsolata-LGC-Intermediate.sfd regional.rb
 	./regional.rb ewe < $< > $@
 Inconsolata-LGC-Chuvash.sfd: Inconsolata-LGC-Intermediate.sfd regional.rb
 	./regional.rb cv < $< > $@
+Inconsolata-LGC-Marshallese.sfd: Inconsolata-LGC-Intermediate.sfd regional.rb
+	./regional.rb mah < $< > $@
 
 .INTERMEDIATE: Inconsolata-LGC.raw.ttc
 Inconsolata-LGC.raw.ttc: Inconsolata-LGC-Intermediate.sfd \
 Inconsolata-LGC-Romanian.sfd Inconsolata-LGC-Polish.sfd Inconsolata-LGC-Bulgarian.sfd Inconsolata-LGC-Yugoslav.sfd \
 Inconsolata-LGC-Livonian.sfd Inconsolata-LGC-Sami.sfd Inconsolata-LGC-Pinyin.sfd Inconsolata-LGC-African.sfd \
-Inconsolata-LGC-Chuvash.sfd
+Inconsolata-LGC-Chuvash.sfd Inconsolata-LGC-Marshallese.sfd
 	./makettc.py $@ $^
 
 Inconsolata-LGC.ttc: Inconsolata-LGC.raw.ttc

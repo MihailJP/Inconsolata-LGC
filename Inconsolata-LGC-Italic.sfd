@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1161020814
-ModificationTime: 1778157511
+ModificationTime: 1778169047
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 5
@@ -109,8 +109,8 @@ PUSHB_1
 SCANTYPE
 EndTTInstrs
 LangName: 1033
-OtfFeatName: 'ss01' 1033 "German alternative umlaut"
 OtfFeatName: 'ss02' 1033 "Polytonic Greek alternative circumflex"
+OtfFeatName: 'ss01' 1033 "German alternative umlaut"
 Encoding: UnicodeFull
 Compacted: 1
 UnicodeInterp: none
@@ -147,7 +147,7 @@ Grid
  416.256 939.008 l 1049
 EndSplineSet
 TeXData: 1 0 0 629145 314572 209715 554697 1048576 209715 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 1114583 3400
+BeginChars: 1114589 3406
 
 StartChar: a
 Encoding: 97 97 0
@@ -3329,6 +3329,7 @@ LayerCount: 2
 Fore
 Refer: 6 110 N 1 0 0 1 0 0 2
 Refer: 138 732 S 1 0 0 1 -6 0 2
+Substitution2: "Marshallese precomposed cedilla-1" nmacron
 EndChar
 
 StartChar: dotlessi
@@ -4252,6 +4253,7 @@ LayerCount: 2
 Fore
 Refer: 46 78 N 1 0 0 1 0 0 2
 Refer: 138 732 S 1 0 0 1 26.449 150 2
+Substitution2: "Marshallese precomposed cedilla-1" Nmacron
 EndChar
 
 StartChar: Ydieresis
@@ -19493,6 +19495,7 @@ LayerCount: 2
 Fore
 Refer: 42 79 N 1 0 0 1 0 0 2
 Refer: 1304 -1 S 1 0 0 1 0 0 2
+Substitution2: "Marshallese precomposed cedilla-1" Ocedilla.mah
 EndChar
 
 StartChar: odotbelow
@@ -19503,6 +19506,7 @@ LayerCount: 2
 Fore
 Refer: 5 111 N 1 0 0 1 0 0 2
 Refer: 1304 -1 S 1 0 0 1 0 0 2
+Substitution2: "Marshallese precomposed cedilla-1" ocedilla.mah
 EndChar
 
 StartChar: Ohookabove
@@ -24871,6 +24875,7 @@ LayerCount: 2
 Fore
 Refer: 52 76 N 1 0 0 1 0 0 2
 Refer: 1304 -1 N 1 0 0 1 0 0 2
+Substitution2: "Marshallese precomposed cedilla-1" Lcedilla.mah
 EndChar
 
 StartChar: ldotbelow
@@ -24881,6 +24886,7 @@ LayerCount: 2
 Fore
 Refer: 7 108 N 1 0 0 1 0 0 2
 Refer: 1304 -1 N 1 0 0 1 0 0 2
+Substitution2: "Marshallese precomposed cedilla-1" lcedilla.mah
 EndChar
 
 StartChar: Ldotbelowmacron
@@ -24913,6 +24919,7 @@ LayerCount: 2
 Fore
 Refer: 51 77 N 1 0 0 1 0 0 2
 Refer: 1304 -1 N 1 0 0 1 0 0 2
+Substitution2: "Marshallese precomposed cedilla-1" Mcedilla.mah
 EndChar
 
 StartChar: mdotbelow
@@ -24923,6 +24930,7 @@ LayerCount: 2
 Fore
 Refer: 2 109 N 1 0 0 1 0 0 2
 Refer: 1304 -1 N 1 0 0 1 0 0 2
+Substitution2: "Marshallese precomposed cedilla-1" mcedilla.mah
 EndChar
 
 StartChar: Hdotbelow
@@ -25013,6 +25021,7 @@ LayerCount: 2
 Fore
 Refer: 46 78 N 1 0 0 1 0 0 2
 Refer: 1304 -1 N 1 0 0 1 0 0 2
+Substitution2: "Marshallese precomposed cedilla-1" Ncedilla.mah
 EndChar
 
 StartChar: ndotbelow
@@ -25023,6 +25032,7 @@ LayerCount: 2
 Fore
 Refer: 6 110 N 1 0 0 1 0 0 2
 Refer: 1304 -1 N 1 0 0 1 0 0 2
+Substitution2: "Marshallese precomposed cedilla-1" ncedilla.mah
 EndChar
 
 StartChar: Sdotbelow
@@ -65708,6 +65718,7 @@ LayerCount: 2
 Fore
 Refer: 201 184 N 1 0 0 1 -40 0 2
 Refer: 52 76 N 1 0 0 1 0 0 2
+Decomposition: "L+AycA"
 EndChar
 
 StartChar: lcedilla.mah
@@ -65718,6 +65729,7 @@ LayerCount: 2
 Fore
 Refer: 201 184 N 1 0 0 1 -40 0 2
 Refer: 7 108 N 1 0 0 1 0 0 2
+Decomposition: "l+AycA"
 EndChar
 
 StartChar: Ncedilla.mah
@@ -65728,6 +65740,7 @@ LayerCount: 2
 Fore
 Refer: 201 184 N 1 0 0 1 -40 0 2
 Refer: 46 78 N 1 0 0 1 0 0 2
+Decomposition: "N+AycA"
 EndChar
 
 StartChar: ncedilla.mah
@@ -65738,6 +65751,73 @@ LayerCount: 2
 Fore
 Refer: 201 184 N 1 0 0 1 -40 0 2
 Refer: 6 110 N 1 0 0 1 0 0 2
+Decomposition: "n+AycA"
+EndChar
+
+StartChar: Mcedilla.mah
+Encoding: 1114583 -1 3400
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 51 77 N 1 0 0 1 0 0 2
+Refer: 201 184 S 1 0 0 1 -40 0 2
+Decomposition: "M+AycA"
+EndChar
+
+StartChar: mcedilla.mah
+Encoding: 1114584 -1 3401
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 2 109 N 1 0 0 1 0 0 2
+Refer: 201 184 S 1 0 0 1 -40 0 2
+Decomposition: "m+AycA"
+EndChar
+
+StartChar: Ocedilla.mah
+Encoding: 1114585 -1 3402
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 42 79 N 1 0 0 1 0 0 2
+Refer: 201 184 S 1 0 0 1 -40 0 2
+Decomposition: "O+AycA"
+EndChar
+
+StartChar: ocedilla.mah
+Encoding: 1114586 -1 3403
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 5 111 N 1 0 0 1 0 0 2
+Refer: 201 184 S 1 0 0 1 -40 0 2
+Decomposition: "o+AycA"
+EndChar
+
+StartChar: Nmacron
+Encoding: 1114587 -1 3404
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 198 713 N 1 0 0 1 35 201 2
+Refer: 46 78 N 1 0 0 1 0 0 2
+Decomposition: "N+AwQA"
+EndChar
+
+StartChar: nmacron
+Encoding: 1114588 -1 3405
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 198 713 N 1 0 0 1 0 0 2
+Refer: 6 110 N 1 0 0 1 0 0 2
+Decomposition: "n+AwQA"
 EndChar
 EndChars
 EndSplineFont
