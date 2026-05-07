@@ -136,6 +136,16 @@ In Navajo, unlike Polish, ogonek is centered.
 Due to lack of combining diacritical marks, Inconsolata LGC does not fully
 support Navajo language.
 
+### Marshallese precomposed cedilla ###
+![Marshallese precomposed cedilla](doc/Marshallese_cedilla.png)
+
+U+013B, U+013C, U+0145, and U+0146 are recommended to be shown with comma
+below despite their formal name suggests cedilla.
+This is preferred for Latvian, but not for Marshallese.
+
+Due to lack of combining diacritical marks, Inconsolata LGC does not fully
+support Marshallese language.
+
 
 Miscellaneous variants
 ----------------------
