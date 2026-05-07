@@ -46,8 +46,13 @@ Inconsolata-LGC-Italic.mk: Inconsolata-LGC.mk
 Inconsolata-LGC-BoldItalic.mk: Inconsolata-LGC.mk
 	sed -E -e 's/\.(sfd|ttc)/-BoldItalic.\1/g' $< > $@
 
-.sfd.ttf .sfd.otf .sfd.woff .sfd.woff2 .sfd.ufo:
+.sfd.ttf .sfd.otf .sfd.woff .sfd.ufo:
 	for i in $?; do ./makefont.py $@ $$i; done
+
+.DELETE_ON_ERROR: $(WOFF2FONTS)
+.sfd.woff2:
+	for i in $?; do ./makefont.py $@ $$i; done
+	file $@ | grep 'Web Open Font Format (Version 2)'
 
 %-Hinted-raw.ttf: %.sfd
 	./makefont.py $@ $<
