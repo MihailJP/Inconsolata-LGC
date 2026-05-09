@@ -110,7 +110,7 @@ def add_dotlessforms(font: fontforge.font):
     for dotted, dotless, _ in dotlessforms:
         font[dotted].addPosSub('Dotless forms-1', dotless)
         font[dotted].glyphclass = 'baseglyph'
-    font.addLookup('Remove the dot above i', 'gsub_contextchain', None, (('calt', langDictToLangTuple(getLangDict(font))),))
+    font.addLookup('Remove the dot above i', 'gsub_contextchain', None, (('ccmp', langDictToLangTuple(getLangDict(font))),))
     diacritics = [m.glyphname for m in font.glyphs() if m.width == 0 and 'LGC-accent-above' in [a[0] for a in m.anchorPoints]]
     diacritics += [g for g in font.glyphs() if 'cmb_' in g.glyphname or 'comb_' in g.glyphname]  # combined diacritics
     font.addContextualSubtable(
@@ -461,7 +461,7 @@ def uppercaseForms(font: fontforge.font):
     base = sum([[glyph.glyphname for a in glyph.anchorPoints if a[0] == 'LGC-accent-above' and a[1] != 'mark' and glyph.boundingBox()[3] >= 660] for glyph in font.glyphs()], [])
     font.addLookup('Forms for tall base glyphs', 'gsub_single', None, (), font.gsub_lookups[-1])
     font.addLookupSubtable('Forms for tall base glyphs', 'Forms for tall base glyphs-1')
-    font.addLookup('Accents for tall base glyphs', 'gsub_contextchain', None, (('calt', langDictToLangTuple(getLangDict(font))),), font.gsub_lookups[-1])
+    font.addLookup('Accents for tall base glyphs', 'gsub_contextchain', None, (('ccmp', langDictToLangTuple(getLangDict(font))),), font.gsub_lookups[-1])
     font.addContextualSubtable(
         'Accents for tall base glyphs',
         'Accents for tall base glyphs-1',
