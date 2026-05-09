@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1161020814
-ModificationTime: 1778317797
+ModificationTime: 1778318929
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 5
@@ -109,8 +109,8 @@ PUSHB_1
 SCANTYPE
 EndTTInstrs
 LangName: 1033
-OtfFeatName: 'ss01' 1033 "German alternative umlaut"
 OtfFeatName: 'ss02' 1033 "Polytonic Greek alternative circumflex"
+OtfFeatName: 'ss01' 1033 "German alternative umlaut"
 Encoding: UnicodeFull
 Compacted: 1
 UnicodeInterp: none
@@ -147,7 +147,7 @@ Grid
  416.256 939.008 l 1049
 EndSplineSet
 TeXData: 1 0 0 629145 314572 209715 554697 1048576 209715 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 1114591 3422
+BeginChars: 1114591 3424
 
 StartChar: a
 Encoding: 97 97 0
@@ -66063,6 +66063,68 @@ SplineSet
  650 739 l 1
  637 665 l 1
  285 665 l 1
+EndSplineSet
+EndChar
+
+StartChar: uniA7C7
+Encoding: 42951 42951 3422
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+204 739 m 1
+ 377 739 l 2
+ 442 739 494 735 542 700 c 0
+ 626 638 646 513 621 371 c 0
+ 592 209 513 83 397 29 c 0
+ 340 2 291 -1 232 -1 c 2
+ 74 -1 l 1
+ 204 739 l 1
+214 348 m 1
+ 164 65 l 1
+ 239 65 l 2
+ 285 65 333 67 384 98 c 0
+ 448 137 506 214 533 348 c 1
+ 214 348 l 1
+228 424 m 1
+ 544 424 l 1
+ 551 507 539 583 492 628 c 0
+ 453 666 407 669 360 669 c 2
+ 271 669 l 1
+ 228 424 l 1
+EndSplineSet
+EndChar
+
+StartChar: uniA7C8
+Encoding: 42952 42952 3423
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+112 276 m 0
+ 151 500 394 554 447 554 c 0
+ 500 554 544 532 544 532 c 1
+ 590 790 l 1
+ 681 790 l 1
+ 679 776 667 774 664 756 c 2
+ 560 161 l 2
+ 543 61 580 0 580 0 c 1
+ 473 -5 l 1
+ 473 -5 470 38 472 98 c 1
+ 427 39 345 -12 277 -12 c 0
+ 172 -12 77 76 112 276 c 0
+193 259 m 1
+ 176 105 253 63 310 63 c 0
+ 367 63 430 101 462 166 c 0
+ 475 192 489 221 496 259 c 1
+ 193 259 l 1
+508 325 m 1
+ 534 469 l 1
+ 534 469 492 490 435 490 c 0
+ 383 490 248 451 206 325 c 1
+ 508 325 l 1
 EndSplineSet
 EndChar
 EndChars
