@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1161020814
-ModificationTime: 1778333414
+ModificationTime: 1778334889
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 5
@@ -109,8 +109,8 @@ PUSHB_1
 SCANTYPE
 EndTTInstrs
 LangName: 1033
-OtfFeatName: 'ss02' 1033 "Polytonic Greek alternative circumflex"
 OtfFeatName: 'ss01' 1033 "German alternative umlaut"
+OtfFeatName: 'ss02' 1033 "Polytonic Greek alternative circumflex"
 Encoding: UnicodeFull
 Compacted: 1
 UnicodeInterp: none
@@ -151,7 +151,7 @@ Grid
  416.256 939.008 l 1049
 EndSplineSet
 TeXData: 1 0 0 629145 314572 209715 554697 1048576 209715 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 1114597 3453
+BeginChars: 1114597 3455
 
 StartChar: a
 Encoding: 97 97 0
@@ -67137,6 +67137,79 @@ SplineSet
  182 376 178 349 178 312 c 0
  178 0 l 0
  91 0 l 0
+EndSplineSet
+EndChar
+
+StartChar: uni2C63
+Encoding: 11363 11363 3453
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+103 739 m 1
+ 305 739 l 2
+ 348 739 398 739 445 714 c 0
+ 515 678 551 606 551 531 c 0
+ 551 456 515 385 446 350 c 0
+ 401 327 350 327 311 327 c 2
+ 189 327 l 1
+ 189 0 l 1
+ 103 0 l 1
+ 103 499 l 1
+ 46 499 l 1
+ 46 568 l 1
+ 103 568 l 1
+ 103 739 l 1
+188 499 m 1
+ 188 399 l 1
+ 314 399 l 2
+ 339 399 371 401 400 415 c 0
+ 443 437 466 480 466 527 c 0
+ 466 575 442 622 396 645 c 0
+ 365 660 331 662 305 662 c 2
+ 189 662 l 1
+ 189 568 l 1
+ 304 568 l 1
+ 304 499 l 1
+ 188 499 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni1D7D
+Encoding: 7549 7549 3454
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+308 481 m 0
+ 253 481 202 451 182 402 c 0
+ 173 381 169 357 168 327 c 1
+ 465 327 l 1
+ 442 463 349 481 308 481 c 0
+81 542 m 1
+ 168 542 l 1
+ 168 459 l 1
+ 205 518 269 554 339 554 c 0
+ 435 554 538 484 556 327 c 1
+ 583 327 l 1
+ 583 261 l 1
+ 559 261 l 1
+ 553 74 440 -14 332 -14 c 0
+ 266 -14 205 19 169 72 c 1
+ 169 -198 l 1
+ 82 -198 l 1
+ 81 261 l 1
+ 30 261 l 1
+ 30 327 l 1
+ 81 327 l 1
+ 81 542 l 1
+168 261 m 1
+ 168 203 170 167 183 136 c 0
+ 205 87 256 61 307 61 c 0
+ 358 61 470 91 470 261 c 9
+ 168 261 l 1
 EndSplineSet
 EndChar
 EndChars
