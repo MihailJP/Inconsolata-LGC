@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1161020814
-ModificationTime: 1778320131
+ModificationTime: 1778321094
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 5
@@ -109,8 +109,8 @@ PUSHB_1
 SCANTYPE
 EndTTInstrs
 LangName: 1033
-OtfFeatName: 'ss01' 1033 "German alternative umlaut"
 OtfFeatName: 'ss02' 1033 "Polytonic Greek alternative circumflex"
+OtfFeatName: 'ss01' 1033 "German alternative umlaut"
 Encoding: UnicodeFull
 Compacted: 1
 UnicodeInterp: none
@@ -147,7 +147,7 @@ Grid
  416.256 939.008 l 1049
 EndSplineSet
 TeXData: 1 0 0 629145 314572 209715 554697 1048576 209715 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 1114591 3425
+BeginChars: 1114591 3427
 
 StartChar: a
 Encoding: 97 97 0
@@ -66158,6 +66158,47 @@ SplineSet
  174 661 356 745 471 745 c 0
  522 745 569 730 604 702 c 1
 EndSplineSet
+EndChar
+
+StartChar: uni021C
+Encoding: 540 540 3425
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+174 599 m 1
+ 230 688 327 745 425 745 c 0
+ 571 745 642 635 624 534 c 0
+ 611 462 559 381 473 356 c 1
+ 551 306 588 204 568 91 c 0
+ 539 -72 401 -207 248 -207 c 0
+ 150 -207 88 -163 46 -107 c 1
+ 105 -50 l 1
+ 135 -92 188 -131 255 -131 c 0
+ 361 -131 460 -27 482 100 c 0
+ 504 224 441 315 341 315 c 0
+ 327 315 285 314 252 312 c 1
+ 264 379 l 1
+ 339 381 401 391 427 399 c 0
+ 501 421 535 488 543 533 c 0
+ 554 595 521 679 417 679 c 0
+ 359 679 298 647 261 593 c 0
+ 258 589 254 587 253 581 c 0
+ 252 578 254 575 253 572 c 0
+ 253 571 252 564 246 560 c 1
+ 174 599 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni021D
+Encoding: 541 541 3426
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1050 -1 N 1 0 0 1 0 0 2
 EndChar
 EndChars
 EndSplineFont
