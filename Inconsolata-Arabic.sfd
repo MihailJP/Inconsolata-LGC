@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1161020814
-ModificationTime: 1778073601
+ModificationTime: 1778344541
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 5
@@ -55,7 +55,7 @@ Lookup: 1 1 0 "Medial forms" { "Medial forms-1"  } ['medi' ('DFLT' <'dflt' > 'ar
 Lookup: 1 1 0 "Final forms" { "Final forms-1"  } ['fina' ('DFLT' <'dflt' > 'arab' <'KAZ ' 'KIR ' 'SND ' 'URD ' 'UYG ' 'dflt' > ) ]
 Lookup: 1 1 0 "Isolated forms" { "Isolated forms-1"  } ['isol' ('DFLT' <'dflt' > 'arab' <'KAZ ' 'KIR ' 'SND ' 'URD ' 'UYG ' 'dflt' > ) ]
 Lookup: 4 9 1 "Lam-Alef ligature" { "Lam-Alef ligature-1"  } ['rlig' ('DFLT' <'dflt' > 'arab' <'KAZ ' 'KIR ' 'SND ' 'URD ' 'UYG ' 'dflt' > ) ]
-Lookup: 6 9 0 "Legacy wide seen and sad" { "Legacy wide seen and sad-1"  } ['calt' ('DFLT' <'dflt' > 'arab' <'KAZ ' 'KIR ' 'SND ' 'URD ' 'UYG ' 'dflt' > ) ]
+Lookup: 6 9 0 "Legacy wide seen and sad" { "Legacy wide seen and sad-1"  } ['ccmp' ('DFLT' <'dflt' > 'arab' <'KAZ ' 'KIR ' 'SND ' 'URD ' 'UYG ' 'dflt' > ) ]
 Lookup: 1 1 0 "Forms before tail fragment" { "Forms before tail fragment-1" ("alt") } []
 Lookup: 4 1 0 "Composed marks" { "Composed marks-1"  } ['ccmp' ('DFLT' <'dflt' > 'arab' <'KAZ ' 'KIR ' 'SND ' 'URD ' 'UYG ' 'dflt' > ) ]
 Lookup: 261 1 0 "Arabic below-base mark-to-ligature positioning" { "Arabic below-base mark-to-ligature positioning"  } ['mark' ('DFLT' <'dflt' > 'arab' <'KAZ ' 'KIR ' 'SND ' 'URD ' 'UYG ' 'dflt' > ) ]
@@ -87,8 +87,8 @@ PUSHB_1
 SCANTYPE
 EndTTInstrs
 LangName: 1033
-OtfFeatName: 'ss02' 1033 "Polytonic Greek alternative circumflex"
 OtfFeatName: 'ss01' 1033 "German alternative umlaut"
+OtfFeatName: 'ss02' 1033 "Polytonic Greek alternative circumflex"
 Encoding: UnicodeBmp
 Compacted: 1
 UnicodeInterp: none
