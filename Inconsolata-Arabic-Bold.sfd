@@ -4443,8 +4443,10 @@ AnchorPoint: "rtl-below" 288 -166 basechar 0
 LayerCount: 2
 Fore
 Refer: 114 65263 N 1 0 0 1 0 0 2
-Substitution2: "Isolated forms-1" uniFEEF
+Substitution2: "Medial forms-1" uniFBE9
+Substitution2: "Initial forms-1" uniFBE8
 Substitution2: "Final forms-1" uniFEF0
+Substitution2: "Isolated forms-1" uniFEEF
 Colour: ffff
 EndChar
 
