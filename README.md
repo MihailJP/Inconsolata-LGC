@@ -289,6 +289,13 @@ Greek circumflex (_perispomeni_) looks like either tilde or inverted breve.
 Inconsolata defaults to inverted breve form; tilde form is used when `ss02`
 is activated.
 
+### `ss03`: Really use cedilla ###
+![G, K, L, N, and R with cedilla](doc/GKLNR_with_cedilla.png)
+
+G, K, L, N, and R with cedilla shows comma below instead of cedilla by
+default. This is suitable for Latvian and Livonian, but in special cases
+cedilla must be shown as is.
+
 ### `calt`: Contextual alternates ###
 ![Raised colon](doc/raised_colon.png)
 

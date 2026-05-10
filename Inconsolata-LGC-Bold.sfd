@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1161020814
-ModificationTime: 1778379064
+ModificationTime: 1778388873
 PfmFamily: 49
 TTFWeight: 700
 TTFWidth: 5
@@ -79,6 +79,7 @@ Lookup: 1 0 0 "Ge with stroke and descender" { "Ge with stroke and descender-1" 
 Lookup: 1 0 0 "Alternative glyphs for control characters" { "Alternative glyphs for control characters-1"  } ['cv12' ('DFLT' <'dflt' > 'brai' <'dflt' > 'cyrl' <'BGR ' 'BOS ' 'CHU ' 'MKD ' 'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'AVN ' 'EWE ' 'FLE ' 'ISM ' 'KBC ' 'LEF ' 'LIV ' 'LSM ' 'MAH ' 'MOL ' 'NAV ' 'NLD ' 'NSM ' 'PLK ' 'ROM ' 'SJE ' 'SJU ' 'SKS ' 'SSM ' 'WCI ' 'ZHP ' 'dflt' > ) ]
 Lookup: 1 0 0 "German alternative umlaut" { "German alternative umlaut-1"  } ['ss01' ('latn' <'AVN ' 'EWE ' 'FLE ' 'ISM ' 'KBC ' 'LEF ' 'LIV ' 'LSM ' 'MAH ' 'MOL ' 'NAV ' 'NLD ' 'NSM ' 'PLK ' 'ROM ' 'SJE ' 'SJU ' 'SKS ' 'SSM ' 'WCI ' 'ZHP ' 'dflt' > ) ]
 Lookup: 1 0 0 "Polytonic Greek alternative circumflex" { "Polytonic Greek alternative circumflex-1" ("alt") } ['ss02' ('grek' <'dflt' > ) ]
+Lookup: 1 0 0 "Really use cedilla" { "Really use cedilla-1"  } ['ss03' ('latn' <'AVN ' 'EWE ' 'FLE ' 'ISM ' 'KBC ' 'LEF ' 'LIV ' 'LSM ' 'MAH ' 'MOL ' 'NAV ' 'NLD ' 'NSM ' 'PLK ' 'ROM ' 'SJE ' 'SJU ' 'SKS ' 'SSM ' 'WCI ' 'ZHP ' 'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
 ChainSub2: coverage "Contextual colon-1" 0 0 0 1
@@ -112,6 +113,7 @@ EndTTInstrs
 LangName: 1033
 OtfFeatName: 'ss01' 1033 "German alternative umlaut"
 OtfFeatName: 'ss02' 1033 "Polytonic Greek alternative circumflex"
+OtfFeatName: 'ss03' 1033 "Really use cedilla"
 Encoding: UnicodeFull
 Compacted: 1
 UnicodeInterp: none
@@ -148,7 +150,7 @@ Grid
  416.256 939.008 l 1049
 EndSplineSet
 TeXData: 1 0 0 629145 314572 209715 554697 1048576 209715 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 1114599 3467
+BeginChars: 1114606 3474
 
 StartChar: a
 Encoding: 97 97 0
@@ -9738,6 +9740,7 @@ LayerCount: 2
 Fore
 Refer: 1060 -1 N 1 0 0 1 0 0 2
 Refer: 101 82 N 1 0 0 1 0 0 2
+Substitution2: "Really use cedilla-1" Rcedilla.alt
 EndChar
 
 StartChar: Itilde
@@ -9760,6 +9763,7 @@ LayerCount: 2
 Fore
 Refer: 1060 -1 N 1 0 0 1 0 0 2
 Refer: 52 76 N 1 0 0 1 0 0 2
+Substitution2: "Really use cedilla-1" Lcedilla.mah
 Substitution2: "Marshallese precomposed cedilla-1" Lcedilla.mah
 EndChar
 
@@ -9783,6 +9787,7 @@ LayerCount: 2
 Fore
 Refer: 1060 -1 N 1 0 0 1 0 0 2
 Refer: 67 71 N 1 0 0 1 0 0 2
+Substitution2: "Really use cedilla-1" Gcedilla.alt
 EndChar
 
 StartChar: Tbar
@@ -9821,6 +9826,7 @@ LayerCount: 2
 Fore
 Refer: 1060 -1 N 1 0 0 1 0 0 2
 Refer: 16 114 N 1 0 0 1 0 0 2
+Substitution2: "Really use cedilla-1" rcedilla.alt
 Substitution2: "r with serif-1" rcommaaccent.serif
 EndChar
 
@@ -9844,6 +9850,7 @@ LayerCount: 2
 Fore
 Refer: 1060 -1 N 1 0 0 1 0 0 2
 Refer: 7 108 N 1 0 0 1 0 0 2
+Substitution2: "Really use cedilla-1" lcedilla.mah
 Substitution2: "Marshallese precomposed cedilla-1" lcedilla.mah
 EndChar
 
@@ -9867,6 +9874,7 @@ LayerCount: 2
 Fore
 Refer: 3289 -1 N 1 0 0 1 0 0 2
 Refer: 13 103 N 1 0 0 1 0 0 2
+Substitution2: "Really use cedilla-1" gcedilla.alt
 EndChar
 
 StartChar: tbar
@@ -9961,6 +9969,7 @@ LayerCount: 2
 Fore
 Refer: 1060 -1 N 1 0 0 1 0 0 2
 Refer: 46 78 N 1 0 0 1 0 0 2
+Substitution2: "Really use cedilla-1" Ncedilla.mah
 Substitution2: "Marshallese precomposed cedilla-1" Ncedilla.mah
 EndChar
 
@@ -9984,6 +9993,7 @@ LayerCount: 2
 Fore
 Refer: 1060 -1 N 1 0 0 1 0 0 2
 Refer: 84 75 N 1 0 0 1 0 0 2
+Substitution2: "Really use cedilla-1" Kcedilla.alt
 EndChar
 
 StartChar: Uogonek
@@ -10100,6 +10110,7 @@ LayerCount: 2
 Fore
 Refer: 1060 -1 N 1 0 0 1 0 0 2
 Refer: 6 110 N 1 0 0 1 0 0 2
+Substitution2: "Really use cedilla-1" ncedilla.mah
 Substitution2: "Marshallese precomposed cedilla-1" ncedilla.mah
 EndChar
 
@@ -10112,6 +10123,7 @@ LayerCount: 2
 Fore
 Refer: 1060 -1 N 1 0 0 1 0 0 2
 Refer: 68 107 N 1 0 0 1 0 0 2
+Substitution2: "Really use cedilla-1" kcedilla.alt
 EndChar
 
 StartChar: uogonek
@@ -23841,6 +23853,7 @@ LayerCount: 2
 Fore
 Refer: 1060 -1 N 1 0 0 1 0 0 2
 Refer: 269 -1 N 1 0 0 1 0 0 2
+Substitution2: "Really use cedilla-1" rcedilla.serif
 EndChar
 
 StartChar: rcaron.serif
@@ -67111,6 +67124,82 @@ SplineSet
  351 78 403 110 421 167 c 0
  428 190 431 214 431 246 c 1
 EndSplineSet
+EndChar
+
+StartChar: Gcedilla.alt
+Encoding: 1114599 -1 3467
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 201 184 N 1 0 0 1 0 0 2
+Refer: 67 71 N 1 0 0 1 0 0 2
+Decomposition: "G+AycA"
+EndChar
+
+StartChar: gcedilla.alt
+Encoding: 1114600 -1 3468
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 201 184 N 1 0 0 1 -40 -198 2
+Refer: 13 103 N 1 0 0 1 0 0 2
+Decomposition: "g+AycA"
+EndChar
+
+StartChar: Kcedilla.alt
+Encoding: 1114601 -1 3469
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 201 184 N 1 0 0 1 -40 0 2
+Refer: 84 75 N 1 0 0 1 0 0 2
+Decomposition: "K+AycA"
+EndChar
+
+StartChar: kcedilla.alt
+Encoding: 1114602 -1 3470
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 201 184 N 1 0 0 1 -40 0 2
+Refer: 68 107 N 1 0 0 1 0 0 2
+Decomposition: "k+AycA"
+EndChar
+
+StartChar: Rcedilla.alt
+Encoding: 1114603 -1 3471
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 201 184 N 1 0 0 1 -40 0 2
+Refer: 101 82 N 1 0 0 1 0 0 2
+Decomposition: "R+AycA"
+EndChar
+
+StartChar: rcedilla.alt
+Encoding: 1114604 -1 3472
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 201 184 N 1 0 0 1 -40 0 2
+Refer: 16 114 N 1 0 0 1 0 0 2
+Decomposition: "r+AycA"
+EndChar
+
+StartChar: rcedilla.serif
+Encoding: 1114605 -1 3473
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 201 184 N 1 0 0 1 -40 0 2
+Refer: 269 -1 N 1 0 0 1 0 0 2
 EndChar
 EndChars
 EndSplineFont
