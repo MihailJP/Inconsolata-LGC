@@ -35,6 +35,7 @@ Usage in your stylesheets:
 	font-variant-alternates: character-variant(ge-with-hook);
 	font-variant-alternates: character-variant(ge-with-hook-alt);
 	font-variant-alternates: character-variant(ge-with-stroke-and-descender);
+	font-variant-alternates: character-variant(g-with-stroke);
 	font-variant-numeric: oldstyle-nums;
 */
 
@@ -90,6 +91,7 @@ Usage in your stylesheets:
 		ge-with-hook-alt: 10 2;
 		ge-with-stroke-and-descender: 11 1;
 		control-pictures-symbols: 12 1;
+		g-with-stroke: 13 1;
 	}
 }
 

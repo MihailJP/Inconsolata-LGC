@@ -39,5 +39,10 @@ font.os2_supyoff = font1.os2_supyoff
 font.os2_supysize = font1.os2_supysize
 
 font.importLookups(font1, font1.gsub_lookups)
+for lookup in (  # workaround for multiple lookup tag
+    lu for lu in font.gsub_lookups if
+    lu in font1.gsub_lookups and font.getLookupInfo(lu) != font1.getLookupInfo(lu)
+):
+    font.lookupSetFeatureList(lookup, font1.getLookupInfo(lookup)[2])
 
 font.save(argv[1])

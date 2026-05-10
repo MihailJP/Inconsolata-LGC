@@ -47,6 +47,7 @@ t = {
 		"Ncedilla.mah" => "Ndotbelow",
 		"ncedilla.mah" => "ndotbelow",
 	}},
+	"kbc" => {namesuffix: "Kadiweu",   tag: /\.kbc$/    },
 }
 
 f.each {|l|

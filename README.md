@@ -154,6 +154,15 @@ precomposed characters.
 
 For legacy apps, use **Inconsolata LGC Marshallese** in the TTC.
 
+### Kadiwéu form of G with stroke ###
+![Kadiwéu form of G with stroke](doc/Kadiweu_G_with_stroke.png)
+
+G with stroke is used in both Skolt Sámi and Kadiwéu, but preferred glyphs
+differ between them. This font defaults to the former; the latter is available
+through language-dependent feature.
+
+For legacy apps, use **Inconsolata LGC Kadiweu** in the TTC.
+
 
 Miscellaneous variants
 ----------------------
@@ -263,6 +272,12 @@ _Ge with stroke and descender_ is a variant of _ge with stroke and hook_
 ![Alternative glyphs for control pictures](doc/control_pictures.png)
 
 Symbol notations for U+2400 to U+2421 in Control Pictures.
+
+### `cv13`: G with stroke ###
+![Kadiwéu form of G with stroke](doc/Kadiweu_G_with_stroke.png)
+
+G with stroke has alternative glyphs said above. Use this character variant
+feature to discretionally activate those glyphs.
 
 ### `ss01`: German alternative umlaut ###
 ![Differences between regular and alternative umlaut variants](doc/German_alternative_umlaut.png)
