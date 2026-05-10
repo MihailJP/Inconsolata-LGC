@@ -38,7 +38,7 @@ elif argv[1].endswith(".ufo") or widthCount == 1:
 	font.generate(argv[1], flags=('no-mac-names','opentype','no-FFTM-table'))
 else:
 	with TemporaryDirectory() as tmpdir:
-		tmpFont = Path(tmpdir, 'tmp.ttf')
+		tmpFont = Path(tmpdir, 'tmp.' + argv[1].split('.')[-1])
 		ttxFile = Path(tmpdir, 'tmp.ttx')
 		font.generate(str(tmpFont), flags=('no-mac-names','opentype','no-FFTM-table'))
 		run(['ttx', '-o', str(ttxFile), '-t', 'post', str(tmpFont)], check=True)
