@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1161020814
-ModificationTime: 1778388928
+ModificationTime: 1778390342
 PfmFamily: 49
 TTFWeight: 700
 TTFWidth: 5
@@ -150,7 +150,7 @@ Grid
  416.256 939.008 l 1049
 EndSplineSet
 TeXData: 1 0 0 629145 314572 209715 554697 1048576 209715 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 1114600 3468
+BeginChars: 1114612 3480
 
 StartChar: a
 Encoding: 97 97 0
@@ -67278,6 +67278,138 @@ LayerCount: 2
 Fore
 Refer: 201 184 N 1 0 0 1 -40 0 2
 Refer: 269 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: Gcommaaccent.composed
+Encoding: 1114600 -1 3468
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+Refer: 490 290 N 1 0 0 1 0 0 2
+Decomposition: "G+AyYA"
+EndChar
+
+StartChar: gcommaaccent.composed
+Encoding: 1114601 -1 3469
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+Refer: 496 291 N 1 0 0 1 0 0 2
+Decomposition: "g+AxIA"
+EndChar
+
+StartChar: gcommaaccent.alt
+Encoding: 1114602 -1 3470
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1056 -1 S 1 0 0 1 -35 -198 2
+Refer: 13 103 N 1 0 0 1 0 0 2
+Decomposition: "g+AyYA"
+EndChar
+
+StartChar: Kcommaaccent.composed
+Encoding: 1114603 -1 3471
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+Refer: 504 310 N 1 0 0 1 0 0 2
+Decomposition: "K+AyYA"
+EndChar
+
+StartChar: kcommaaccent.composed
+Encoding: 1114604 -1 3472
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+Refer: 513 311 N 1 0 0 1 0 0 2
+Decomposition: "k+AyYA"
+EndChar
+
+StartChar: Lcommaaccent.composed
+Encoding: 1114605 -1 3473
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+Refer: 488 315 N 1 0 0 1 0 0 2
+Decomposition: "L+AyYA"
+EndChar
+
+StartChar: lcommaaccent.composed
+Encoding: 1114606 -1 3474
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+Refer: 494 316 N 1 0 0 1 0 0 2
+Decomposition: "l+AyYA"
+EndChar
+
+StartChar: Ncommaaccent.composed
+Encoding: 1114607 -1 3475
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+Refer: 502 325 N 1 0 0 1 0 0 2
+Decomposition: "N+AyYA"
+EndChar
+
+StartChar: ncommaaccent.composed
+Encoding: 1114608 -1 3476
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+Refer: 512 326 N 1 0 0 1 0 0 2
+Decomposition: "n+AyYA"
+EndChar
+
+StartChar: Rcommaaccent.composed
+Encoding: 1114609 -1 3477
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+Refer: 486 342 N 1 0 0 1 0 0 2
+Decomposition: "R+AyYA"
+EndChar
+
+StartChar: rcommaaccent.composed
+Encoding: 1114610 -1 3478
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+Refer: 492 343 N 1 0 0 1 0 0 2
+Substitution2: "r with serif-1" rcommaaccent.serif.composed
+Decomposition: "r+AyYA"
+EndChar
+
+StartChar: rcommaaccent.serif.composed
+Encoding: 1114611 -1 3479
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1209 -1 N 1 0 0 1 0 0 2
 EndChar
 EndChars
 EndSplineFont
