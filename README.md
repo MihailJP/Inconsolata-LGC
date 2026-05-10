@@ -136,6 +136,33 @@ In Navajo, unlike Polish, ogonek is centered.
 Due to lack of combining diacritical marks, Inconsolata LGC does not fully
 support Navajo language.
 
+### Marshallese precomposed cedilla ###
+![Marshallese precomposed cedilla](doc/Marshallese_cedilla.png)
+
+U+013B, U+013C, U+0145, and U+0146 are recommended to be shown with comma
+below despite their formal name suggests cedilla.
+This is preferred for Latvian, but not for Marshallese.
+
+Due to lack of combining diacritical marks, Inconsolata LGC does not fully
+support Marshallese language.
+Concretely, M and O with cedilla, and N with macron are missing.
+
+Certain convention uses alternative characters: L, M, N, and O with cedilla
+replaced by dot below, and N with macron replaced by tilde.
+Such characters will also be replaced in order to show Marshallese text with
+precomposed characters.
+
+For legacy apps, use **Inconsolata LGC Marshallese** in the TTC.
+
+### Kadiwéu form of G with stroke ###
+![Kadiwéu form of G with stroke](doc/Kadiweu_G_with_stroke.png)
+
+G with stroke is used in both Skolt Sámi and Kadiwéu, but preferred glyphs
+differ between them. This font defaults to the former; the latter is available
+through language-dependent feature.
+
+For legacy apps, use **Inconsolata LGC Kadiweu** in the TTC.
+
 
 Miscellaneous variants
 ----------------------
@@ -246,15 +273,54 @@ _Ge with stroke and descender_ is a variant of _ge with stroke and hook_
 
 Symbol notations for U+2400 to U+2421 in Control Pictures.
 
+### `cv13`: G with stroke ###
+![Kadiwéu form of G with stroke](doc/Kadiweu_G_with_stroke.png)
+
+G with stroke has alternative glyphs said above. Use this character variant
+feature to discretionally activate those glyphs.
+
 ### `ss01`: German alternative umlaut ###
 ![Differences between regular and alternative umlaut variants](doc/German_alternative_umlaut.png)
 
 Lowered position of umlaut to fit to ascenders.
 
 ### `ss02`: Polytonic Greek alternative circumflex ###
+![Polytonic Greek alternative circumflex](doc/alternative_perispomeni.png)
+
 Greek circumflex (_perispomeni_) looks like either tilde or inverted breve.
 Inconsolata defaults to inverted breve form; tilde form is used when `ss02`
 is activated.
+
+### `ss03`: Pedantic ###
+Some characters has decompositions and formal names different from what they
+look. This “pedantic” style, unlike ordinary one, shows honestly composed
+characters.
+
+For legacy apps, use **Inconsolata LGC Pedantica** in the TTC.
+
+#### G, K, L, N, and R with cedilla ####
+![G, K, L, N, and R with cedilla](doc/GKLNR_with_cedilla.png)
+
+G, K, L, N, and R with cedilla show comma below instead of cedilla by
+default. This is suitable for Latvian and Livonian, but in special cases
+cedilla must be shown as is.
+
+#### L, d, l, and t with caron ####
+![L, d, l, and t with caron](doc/Ldlt_with_caron.png)
+
+Uppercase L, lowercase d, l, and t with caron show prime or apostrophe instead
+of caron. This is suitable for Czech or Slovak, but in special cases, if any,
+caron as is.
+
+#### Stacked accents above circumflex and y with dot below ####
+![Vietnamese and pedantic variants](doc/Vietnamese_and_pedantic_variants.png)
+
+If appeared as Vietnamese tone marks, acute and grave accents, and hook above
+are placed at the right or left side of circumflex accent rather than stacked
+above. This is the default behavior but not wanted in certain contexts.
+
+Additionally, in Vietnamese text, dot below is placed nearer to y than
+pedantic variant.
 
 ### `calt`: Contextual alternates ###
 ![Raised colon](doc/raised_colon.png)
