@@ -33,6 +33,7 @@ DESIGNSPACES=Inconsolata-LGC.designspace Inconsolata-LGC-Italic.designspace
 EXDESIGNSPACES=Inconsolata-EX.designspace Inconsolata-EX-Italic.designspace
 DOC_ASSET_DIR=doc
 DOCUMENTS=README.md ChangeLog OFL.txt $(wildcard ${DOC_ASSET_DIR}/*.png)
+EXDOCUMENTS=${DOCUMENTS} Inconsolata-EX.md $(wildcard ${DOC_ASSET_DIR}/EX/*.png)
 PKGS=InconsolataLGC.tar.xz InconsolataLGC-Hinted.tar.xz InconsolataLGC-OT.tar.xz \
      InconsolataLGC-WOFF2.tar.xz InconsolataLGC-TTC.tar.xz InconsolataLGC-Variable.tar.xz \
 	 InconsolataEX.tar.xz InconsolataEX-Hinted.tar.xz InconsolataEX-OT.tar.xz \
@@ -48,11 +49,11 @@ WOFF2PKGCMD=rm -rf $*; mkdir $*; rsync -R ${WOFF2FONTS} ${CSS} ${DOCUMENTS} $*
 TTCPKGCMD=rm -rf $*; mkdir $*; rsync -R ${TTCFONTS} ${DOCUMENTS} $*
 VTTFPKGCMD=rm -rf $*; mkdir $*; rsync -R ${VARFONTS} ${DOCUMENTS} $*
 
-EXTTFPKGCMD=rm -rf $*; mkdir $*; rsync -R ${EXFONTS} ${DOCUMENTS} $*
-HINTEDEXTTFPKGCMD=rm -rf $*; mkdir $*; rsync -R ${HINTEDEXTTFONTS} ${DOCUMENTS} $*
-EXOTFPKGCMD=rm -rf $*; mkdir $*; rsync -R ${EXOTFONTS} ${DOCUMENTS} $*
-EXWOFF2PKGCMD=rm -rf $*; mkdir $*; rsync -R ${EXWOFF2FONTS} ${EXCSS} ${DOCUMENTS} $*
-EXVTTFPKGCMD=rm -rf $*; mkdir $*; rsync -R ${EXVARFONTS} ${DOCUMENTS} $*
+EXTTFPKGCMD=rm -rf $*; mkdir $*; rsync -R ${EXFONTS} ${EXDOCUMENTS} $*
+HINTEDEXTTFPKGCMD=rm -rf $*; mkdir $*; rsync -R ${HINTEDEXTTFONTS} ${EXDOCUMENTS} $*
+EXOTFPKGCMD=rm -rf $*; mkdir $*; rsync -R ${EXOTFONTS} ${EXDOCUMENTS} $*
+EXWOFF2PKGCMD=rm -rf $*; mkdir $*; rsync -R ${EXWOFF2FONTS} ${EXCSS} ${EXDOCUMENTS} $*
+EXVTTFPKGCMD=rm -rf $*; mkdir $*; rsync -R ${EXVARFONTS} ${EXDOCUMENTS} $*
 
 .PHONY: all
 all: ttf hintedttf otf ttc woff2 variable exttf hintedexttf exotf exwoff2 exvariable
@@ -71,8 +72,13 @@ Inconsolata-LGC-Italic.mk: Inconsolata-LGC.mk
 Inconsolata-LGC-BoldItalic.mk: Inconsolata-LGC.mk
 	sed -E -e 's/\.(sfd|ttc)/-BoldItalic.\1/g' $< > $@
 
-.sfd.ttf .sfd.otf .sfd.woff .sfd.woff2 .sfd.ufo:
+.sfd.ttf .sfd.otf .sfd.woff .sfd.ufo:
 	for i in $?; do ./makefont.py $@ $$i; done
+
+.DELETE_ON_ERROR: $(WOFF2FONTS)
+.sfd.woff2:
+	for i in $?; do ./makefont.py $@ $$i; done
+	file $@ | grep 'Web Open Font Format (Version 2)'
 
 %-Hinted-raw.ttf: %.sfd
 	./makefont.py $@ $<

@@ -362,17 +362,6 @@ def precomposedForms(font: fontforge.font):
         'ecircumflexdotbelow': ('ecircumflex', 'dotbelowcomb'),
         'Ocircumflexdotbelow': ('Ocircumflex', 'dotbelowcomb'),
         'ocircumflexdotbelow': ('ocircumflex', 'dotbelowcomb'),
-        # Comma accent
-        'Gcommaaccent': ('G', 'commasubnosp'),
-        'Kcommaaccent': ('K', 'commasubnosp'),
-        'Lcommaaccent': ('L', 'commasubnosp'),
-        'Ncommaaccent': ('N', 'commasubnosp'),
-        'Rcommaaccent': ('R', 'commasubnosp'),
-        'gcommaaccent': ('g', 'commaturnedabovecmb'),
-        'kcommaaccent': ('k', 'commasubnosp'),
-        'lcommaaccent': ('l', 'commasubnosp'),
-        'ncommaaccent': ('n', 'commasubnosp'),
-        'rcommaaccent': ('r', 'commasubnosp'),
     }
     proscribedDecomp = {
         # Duplicate
@@ -393,6 +382,26 @@ def precomposedForms(font: fontforge.font):
         'lcommaaccent': [('l', 'cedillacmb')],
         'ncommaaccent': [('n', 'cedillacmb')],
         'rcommaaccent': [('r', 'cedillacmb')],
+        # Vietnamese
+        'Acircumflexacute': [('Acircumflex', 'acutecomb')],
+        'Acircumflexgrave': [('Acircumflex', 'gravecomb')],
+        'Acircumflexhookabove': [('Acircumflex', 'hookabovecomb')],
+        'Ecircumflexacute': [('Ecircumflex', 'acutecomb')],
+        'Ecircumflexgrave': [('Ecircumflex', 'gravecomb')],
+        'Ecircumflexhookabove': [('Ecircumflex', 'hookabovecomb')],
+        'Ocircumflexacute': [('Ocircumflex', 'acutecomb')],
+        'Ocircumflexgrave': [('Ocircumflex', 'gravecomb')],
+        'Ocircumflexhookabove': [('Ocircumflex', 'hookabovecomb')],
+        'acircumflexacute': [('acircumflex', 'acutecomb')],
+        'acircumflexgrave': [('acircumflex', 'gravecomb')],
+        'acircumflexhookabove': [('acircumflex', 'hookabovecomb')],
+        'ecircumflexacute': [('ecircumflex', 'acutecomb')],
+        'ecircumflexgrave': [('ecircumflex', 'gravecomb')],
+        'ecircumflexhookabove': [('ecircumflex', 'hookabovecomb')],
+        'ocircumflexacute': [('ocircumflex', 'acutecomb')],
+        'ocircumflexgrave': [('ocircumflex', 'gravecomb')],
+        'ocircumflexhookabove': [('ocircumflex', 'hookabovecomb')],
+        'ydotbelow': [('y', 'dotbelowcomb')],
     }
     all_lang = font.getLookupInfo('Variants of zero')[2][0][1]
     font.addLookup('Precomposed forms', 'gsub_ligature', None, (('ccmp', all_lang),))
@@ -576,7 +585,7 @@ font.fullname = font.fullname.replace('LGC', 'EX')
 font.copyright += '\n\nArabic glyphs are derived from public domain part of DejaVu Sans Mono.'
 font.os2_winascent = 1255
 font.os2_windescent = 443
-font.version = '2.909 beta'
+font.version = '2.910 beta'
 if font.italicangle != 0:
     font2.selection.all()
     font2.transform(skew(radians(-font.italicangle)), ('noWidth', 'round', 'simplePos'))

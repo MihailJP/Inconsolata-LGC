@@ -15,6 +15,7 @@ Usage in your stylesheets:
 	font-language-override: "ZHP";
 	font-variant-alternates: styleset(alternative-umlaut);
 	font-variant-alternates: styleset(alternative-perispomeni);
+	font-variant-alternates: styleset(pedantic);
 	font-variant-alternates: character-variant(zero-plain);
 	font-variant-alternates: character-variant(zero-dotted);
 	font-variant-alternates: character-variant(zero-longslash);
@@ -35,6 +36,7 @@ Usage in your stylesheets:
 	font-variant-alternates: character-variant(ge-with-hook);
 	font-variant-alternates: character-variant(ge-with-hook-alt);
 	font-variant-alternates: character-variant(ge-with-stroke-and-descender);
+	font-variant-alternates: character-variant(g-with-stroke);
 	font-variant-numeric: oldstyle-nums;
 */
 
@@ -67,6 +69,7 @@ Usage in your stylesheets:
 	@styleset {
 		alternative-umlaut: 1;
 		alternative-perispomeni: 2;
+		pedantic: 3;
 	}
 	@character-variant {
 		zero-plain: 1 1;
@@ -90,6 +93,7 @@ Usage in your stylesheets:
 		ge-with-hook-alt: 10 2;
 		ge-with-stroke-and-descender: 11 1;
 		control-pictures-symbols: 12 1;
+		g-with-stroke: 13 1;
 	}
 }
 

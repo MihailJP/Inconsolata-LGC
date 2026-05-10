@@ -14,6 +14,7 @@ ChangeLog
 *-Pinyin*.sfd
 *-African*.sfd
 *-Chuvash*.sfd
+*-Marshallese*.sfd
 Inconsolata-LGC-*.mk
 !Inconsolata-LGC-Variable.mk
 *.ufo
@@ -22,6 +23,7 @@ Inconsolata-LGC-*.mk
 Inconsolata-LGC-Minimum*
 Inconsolata-LGC-Maximum*
 Inconsolata-EX*
+!Inconsolata-EX.md
 InconsolataLGC/
 InconsolataLGC-Hinted/
 InconsolataLGC-OT/
