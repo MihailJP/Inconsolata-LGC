@@ -291,7 +291,14 @@ Greek circumflex (_perispomeni_) looks like either tilde or inverted breve.
 Inconsolata defaults to inverted breve form; tilde form is used when `ss02`
 is activated.
 
-### `ss03`: Really use cedilla ###
+### `ss03`: Pedantic ###
+Some characters has decompositions and formal names different from what they
+look. This “pedantic” style, unlike ordinary one, shows honestly composed
+characters.
+
+For legacy apps, use **Inconsolata LGC Pedantica** in the TTC.
+
+#### G, K, L, N, and R with cedilla ####
 ![G, K, L, N, and R with cedilla](doc/GKLNR_with_cedilla.png)
 
 G, K, L, N, and R with cedilla shows comma below instead of cedilla by

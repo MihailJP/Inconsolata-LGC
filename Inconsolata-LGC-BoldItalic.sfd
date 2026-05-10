@@ -113,7 +113,7 @@ EndTTInstrs
 LangName: 1033 "" "" "Bold Italic"
 OtfFeatName: 'ss01' 1033 "German alternative umlaut"
 OtfFeatName: 'ss02' 1033 "Polytonic Greek alternative circumflex"
-OtfFeatName: 'ss03' 1033 "Really use cedilla"
+OtfFeatName: 'ss03' 1033 "Pedantic"
 Encoding: UnicodeFull
 Compacted: 1
 UnicodeInterp: none

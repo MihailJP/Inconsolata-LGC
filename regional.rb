@@ -48,6 +48,19 @@ t = {
 		"ncedilla.mah" => "ndotbelow",
 	}},
 	"kbc" => {namesuffix: "Kadiweu",   tag: /\.kbc$/    },
+
+	"pedantic" => {namesuffix: "Pedantica",  swap: {
+		"Gcommaaccent" => "Gcedilla.alt",
+		"gcommaaccent" => "gcedilla.alt",
+		"Kcommaaccent" => "Kcedilla.alt",
+		"kcommaaccent" => "kcedilla.alt",
+		"Lcommaaccent" => "Lcedilla.mah",
+		"lcommaaccent" => "lcedilla.mah",
+		"Ncommaaccent" => "Ncedilla.mah",
+		"ncommaaccent" => "ncedilla.mah",
+		"Rcommaaccent" => "Rcedilla.alt",
+		"rcommaaccent" => "rcedilla.alt",
+	}},
 }
 
 f.each {|l|
