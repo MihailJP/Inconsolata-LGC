@@ -312,6 +312,16 @@ Uppercase L, lowercase d, l, and t with caron show prime or apostrophe instead
 of caron. This is suitable for Czech or Slovak, but in special cases, if any,
 caron as is.
 
+#### Stacked accents above circumflex and y with dot below ####
+![Vietnamese and pedantic variants](doc/Vietnamese_and_pedantic_variants.png)
+
+If appeared as Vietnamese tone marks, acute and grave accents, and hook above
+are placed at the right or left side of circumflex accent rather than stacked
+above. This is the default behavior but not wanted in certain contexts.
+
+Additionally, in Vietnamese text, dot below is placed nearer to y than
+pedantic variant.
+
 ### `calt`: Contextual alternates ###
 ![Raised colon](doc/raised_colon.png)
 

@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1161020814
-ModificationTime: 1778396901
+ModificationTime: 1778402564
 PfmFamily: 49
 TTFWeight: 700
 TTFWidth: 5
@@ -33,9 +33,9 @@ OS2TypoAOffset: 0
 OS2TypoDescent: -198
 OS2TypoDOffset: 0
 OS2TypoLinegap: 0
-OS2WinAscent: 1128
+OS2WinAscent: 1144
 OS2WinAOffset: 0
-OS2WinDescent: 408
+OS2WinDescent: 422
 OS2WinDOffset: 0
 HheadAscent: 939
 HheadAOffset: 0
@@ -150,7 +150,7 @@ Grid
  416.256 939.008 l 1049
 EndSplineSet
 TeXData: 1 0 0 629145 314572 209715 554697 1048576 209715 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 1114616 3484
+BeginChars: 1114633 3501
 
 StartChar: a
 Encoding: 97 97 0
@@ -19097,6 +19097,7 @@ LayerCount: 2
 Fore
 Refer: 165 194 N 1 0 0 1 0 0 2
 Refer: 1451 -1 N 1 0 0 1 0 0 2
+Substitution2: "Pedantic-1" Acircumflexacute.alt
 EndChar
 
 StartChar: acircumflexacute
@@ -19107,6 +19108,7 @@ LayerCount: 2
 Fore
 Refer: 110 226 N 1 0 0 1 0 0 2
 Refer: 1452 -1 N 1 0 0 1 0 0 2
+Substitution2: "Pedantic-1" acircumflexacute.alt
 EndChar
 
 StartChar: Acircumflexgrave
@@ -19117,6 +19119,7 @@ LayerCount: 2
 Fore
 Refer: 165 194 N 1 0 0 1 0 0 2
 Refer: 1453 -1 N 1 0 0 1 0 0 2
+Substitution2: "Pedantic-1" Acircumflexgrave.alt
 EndChar
 
 StartChar: acircumflexgrave
@@ -19127,6 +19130,7 @@ LayerCount: 2
 Fore
 Refer: 110 226 N 1 0 0 1 0 0 2
 Refer: 1454 -1 N 1 0 0 1 0 0 2
+Substitution2: "Pedantic-1" acircumflexgrave.alt
 EndChar
 
 StartChar: Acircumflexhookabove
@@ -19137,6 +19141,7 @@ LayerCount: 2
 Fore
 Refer: 165 194 N 1 0 0 1 0 0 2
 Refer: 1020 -1 N 1 0 0 1 191 231 2
+Substitution2: "Pedantic-1" Acircumflexhookabove.alt
 EndChar
 
 StartChar: acircumflexhookabove
@@ -19147,6 +19152,7 @@ LayerCount: 2
 Fore
 Refer: 1019 -1 N 1 0 0 1 174 125 2
 Refer: 110 226 N 1 0 0 1 0 0 2
+Substitution2: "Pedantic-1" acircumflexhookabove.alt
 EndChar
 
 StartChar: Acircumflextilde
@@ -19357,6 +19363,7 @@ LayerCount: 2
 Fore
 Refer: 170 202 N 1 0 0 1 0 0 2
 Refer: 1451 -1 N 1 0 0 1 0 0 2
+Substitution2: "Pedantic-1" Ecircumflexacute.alt
 Substitution2: "Pinyin variant forms-1" Ecircumflexacute.pinyin
 EndChar
 
@@ -19368,6 +19375,7 @@ LayerCount: 2
 Fore
 Refer: 116 234 N 1 0 0 1 0 0 2
 Refer: 1452 -1 N 1 0 0 1 0 0 2
+Substitution2: "Pedantic-1" ecircumflexacute.alt
 Substitution2: "Pinyin variant forms-1" ecircumflexacute.pinyin
 EndChar
 
@@ -19379,6 +19387,7 @@ LayerCount: 2
 Fore
 Refer: 170 202 N 1 0 0 1 0 0 2
 Refer: 1453 -1 N 1 0 0 1 0 0 2
+Substitution2: "Pedantic-1" Ecircumflexgrave.pinyin
 Substitution2: "Pinyin variant forms-1" Ecircumflexgrave.pinyin
 EndChar
 
@@ -19390,6 +19399,7 @@ LayerCount: 2
 Fore
 Refer: 116 234 N 1 0 0 1 0 0 2
 Refer: 1454 -1 N 1 0 0 1 0 0 2
+Substitution2: "Pedantic-1" ecircumflexgrave.pinyin
 Substitution2: "Pinyin variant forms-1" ecircumflexgrave.pinyin
 EndChar
 
@@ -19401,6 +19411,7 @@ LayerCount: 2
 Fore
 Refer: 170 202 N 1 0 0 1 0 0 2
 Refer: 1020 -1 S 1 0 0 1 191 231 2
+Substitution2: "Pedantic-1" Ecircumflexhookabove.alt
 EndChar
 
 StartChar: ecircumflexhookabove
@@ -19411,6 +19422,7 @@ LayerCount: 2
 Fore
 Refer: 116 234 N 1 0 0 1 0 0 2
 Refer: 1019 -1 S 1 0 0 1 174 125 2
+Substitution2: "Pedantic-1" ecircumflexhookabove.alt
 EndChar
 
 StartChar: Ecircumflextilde
@@ -19544,6 +19556,7 @@ LayerCount: 2
 Fore
 Refer: 178 212 N 1 0 0 1 0 0 2
 Refer: 1451 -1 N 1 0 0 1 0 0 2
+Substitution2: "Pedantic-1" Ocircumflexacute.alt
 EndChar
 
 StartChar: ocircumflexacute
@@ -19554,6 +19567,7 @@ LayerCount: 2
 Fore
 Refer: 120 244 N 1 0 0 1 0 0 2
 Refer: 1452 -1 N 1 0 0 1 0 0 2
+Substitution2: "Pedantic-1" ocircumflexacute.alt
 EndChar
 
 StartChar: Ocircumflexgrave
@@ -19564,6 +19578,7 @@ LayerCount: 2
 Fore
 Refer: 178 212 N 1 0 0 1 0 0 2
 Refer: 1453 -1 N 1 0 0 1 0 0 2
+Substitution2: "Pedantic-1" Ocircumflexgrave.alt
 EndChar
 
 StartChar: ocircumflexgrave
@@ -19574,6 +19589,7 @@ LayerCount: 2
 Fore
 Refer: 120 244 N 1 0 0 1 0 0 2
 Refer: 1454 -1 N 1 0 0 1 0 0 2
+Substitution2: "Pedantic-1" ocircumflexgrave.alt
 EndChar
 
 StartChar: Ocircumflexhookabove
@@ -19584,6 +19600,7 @@ LayerCount: 2
 Fore
 Refer: 178 212 N 1 0 0 1 0 0 2
 Refer: 1020 -1 N 1 0 0 1 191 231 2
+Substitution2: "Pedantic-1" Ocircumflexhookabove.alt
 EndChar
 
 StartChar: ocircumflexhookabove
@@ -19594,6 +19611,7 @@ LayerCount: 2
 Fore
 Refer: 120 244 N 1 0 0 1 0 0 2
 Refer: 1019 -1 S 1 0 0 1 174 125 2
+Substitution2: "Pedantic-1" ocircumflexhookabove.alt
 EndChar
 
 StartChar: Ocircumflextilde
@@ -19927,6 +19945,7 @@ SplineSet
  476 -58 403 -204 259 -204 c 0
  88 -204 52 -175 15 -114 c 1
 EndSplineSet
+Substitution2: "Pedantic-1" ydotbelow.alt
 EndChar
 
 StartChar: Yhookabove
@@ -26591,6 +26610,7 @@ LayerCount: 2
 Fore
 Refer: 170 202 N 1 0 0 1 0 0 2
 Refer: 195 -1 N 1 0 0 1 21.8981 300 2
+Decomposition: "+AMoDAAAA"
 EndChar
 
 StartChar: ecircumflexgrave.pinyin
@@ -26602,6 +26622,7 @@ Fore
 Refer: 195 -1 N 1 0 0 1 -6 141 2
 Refer: 9 101 N 1 0 0 1 0 0 2
 Refer: 190 -1 N 1 0 0 1 -5 -30 2
+Decomposition: "+AOoDAAAA"
 EndChar
 
 StartChar: acute.cap.vietstack
@@ -67458,6 +67479,201 @@ Fore
 Refer: 8 116 N 1 0 0 1 0 0 2
 Refer: 191 -1 S 1 0 0 1 34 146 2
 Decomposition: "t+AwwA"
+EndChar
+
+StartChar: Acircumflexacute.alt
+Encoding: 1114616 -1 3484
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 194 -1 N 1 0 0 1 22 300 2
+Refer: 165 194 N 1 0 0 1 0 0 2
+Decomposition: "+AMIDAQAA"
+EndChar
+
+StartChar: acircumflexacute.alt
+Encoding: 1114617 -1 3485
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 194 -1 N 1 0 0 1 -6 141 2
+Refer: 0 97 N 1 0 0 1 0 0 2
+Refer: 190 -1 N 1 0 0 1 -5 -30 2
+Decomposition: "+AOIDAQAA"
+EndChar
+
+StartChar: Acircumflexgrave.alt
+Encoding: 1114618 -1 3486
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 195 -1 N 1 0 0 1 22 300 2
+Refer: 165 194 N 1 0 0 1 0 0 2
+Decomposition: "+AMIDAAAA"
+EndChar
+
+StartChar: acircumflexgrave.alt
+Encoding: 1114619 -1 3487
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 195 -1 N 1 0 0 1 -6 141 2
+Refer: 190 -1 N 1 0 0 1 -5 -30 2
+Refer: 0 97 N 1 0 0 1 0 0 2
+Decomposition: "+AOIDAAAA"
+EndChar
+
+StartChar: Acircumflexhookabove.alt
+Encoding: 1114620 -1 3488
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 165 194 N 1 0 0 1 0 0 2
+Refer: 1020 -1 N 1 0 0 1 52 350 2
+Decomposition: "+AMIDCQAA"
+EndChar
+
+StartChar: acircumflexhookabove.alt
+Encoding: 1114621 -1 3489
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1020 -1 N 1 0 0 1 26 145 2
+Refer: 0 97 N 1 0 0 1 0 0 2
+Refer: 190 -1 N 1 0 0 1 -9 -50 2
+Decomposition: "+AOIDCQAA"
+EndChar
+
+StartChar: Ecircumflexacute.alt
+Encoding: 1114622 -1 3490
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 194 -1 N 1 0 0 1 22 300 2
+Refer: 170 202 N 1 0 0 1 0 0 2
+Decomposition: "+AMoDAQAA"
+EndChar
+
+StartChar: ecircumflexacute.alt
+Encoding: 1114623 -1 3491
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 194 -1 N 1 0 0 1 -6 141 2
+Refer: 9 101 N 1 0 0 1 0 0 2
+Refer: 190 -1 N 1 0 0 1 -5 -30 2
+Decomposition: "+AOoDAQAA"
+EndChar
+
+StartChar: Ecircumflexhookabove.alt
+Encoding: 1114624 -1 3492
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1020 -1 N 1 0 0 1 62 350 2
+Refer: 170 202 N 1 0 0 1 0 0 2
+Decomposition: "+AMoDCQAA"
+EndChar
+
+StartChar: ecircumflexhookabove.alt
+Encoding: 1114625 -1 3493
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1020 -1 N 1 0 0 1 26 145 2
+Refer: 9 101 N 1 0 0 1 0 0 2
+Refer: 190 -1 N 1 0 0 1 -9 -50 2
+Decomposition: "+AOoDCQAA"
+EndChar
+
+StartChar: Ocircumflexacute.alt
+Encoding: 1114626 -1 3494
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 194 -1 N 1 0 0 1 22 300 2
+Refer: 178 212 N 1 0 0 1 0 0 2
+Decomposition: "+ANQDAQAA"
+EndChar
+
+StartChar: ocircumflexacute.alt
+Encoding: 1114627 -1 3495
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 194 -1 S 1 0 0 1 -6 141 2
+Refer: 5 111 N 1 0 0 1 0 0 2
+Refer: 190 -1 N 1 0 0 1 -5 -30 2
+Decomposition: "+APQDAQAA"
+EndChar
+
+StartChar: Ocircumflexgrave.alt
+Encoding: 1114628 -1 3496
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 195 -1 N 1 0 0 1 22 300 2
+Refer: 178 212 N 1 0 0 1 0 0 2
+Decomposition: "+ANQDAAAA"
+EndChar
+
+StartChar: ocircumflexgrave.alt
+Encoding: 1114629 -1 3497
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 195 -1 N 1 0 0 1 -6 141 2
+Refer: 190 -1 N 1 0 0 1 -5 -30 2
+Refer: 5 111 N 1 0 0 1 0 0 2
+Decomposition: "+APQDAAAA"
+EndChar
+
+StartChar: Ocircumflexhookabove.alt
+Encoding: 1114630 -1 3498
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1020 -1 N 1 0 0 1 62 350 2
+Refer: 178 212 N 1 0 0 1 0 0 2
+Decomposition: "+ANQDCQAA"
+EndChar
+
+StartChar: ocircumflexhookabove.alt
+Encoding: 1114631 -1 3499
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1020 -1 N 1 0 0 1 26 145 2
+Refer: 5 111 N 1 0 0 1 0 0 2
+Refer: 190 -1 N 1 0 0 1 -9 -50 2
+Decomposition: "+APQDCQAA"
+EndChar
+
+StartChar: ydotbelow.alt
+Encoding: 1114632 -1 3500
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 23 121 N 1 0 0 1 0 0 2
+Refer: 1304 -1 N 1 0 0 1 -35 -198 2
+Decomposition: "y+AyMA"
 EndChar
 EndChars
 EndSplineFont
