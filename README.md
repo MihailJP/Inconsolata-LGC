@@ -301,9 +301,16 @@ For legacy apps, use **Inconsolata LGC Pedantica** in the TTC.
 #### G, K, L, N, and R with cedilla ####
 ![G, K, L, N, and R with cedilla](doc/GKLNR_with_cedilla.png)
 
-G, K, L, N, and R with cedilla shows comma below instead of cedilla by
+G, K, L, N, and R with cedilla show comma below instead of cedilla by
 default. This is suitable for Latvian and Livonian, but in special cases
 cedilla must be shown as is.
+
+#### L, d, l, and t with caron ####
+![L, d, l, and t with caron](doc/Ldlt_with_caron.png)
+
+Uppercase L, lowercase d, l, and t with caron show prime or apostrophe instead
+of caron. This is suitable for Czech or Slovak, but in special cases, if any,
+caron as is.
 
 ### `calt`: Contextual alternates ###
 ![Raised colon](doc/raised_colon.png)

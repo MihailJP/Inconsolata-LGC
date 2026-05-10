@@ -15,7 +15,7 @@ Usage in your stylesheets:
 	font-language-override: "ZHP";
 	font-variant-alternates: styleset(alternative-umlaut);
 	font-variant-alternates: styleset(alternative-perispomeni);
-	font-variant-alternates: styleset(really-use-cedilla);
+	font-variant-alternates: styleset(pedantic);
 	font-variant-alternates: character-variant(zero-plain);
 	font-variant-alternates: character-variant(zero-dotted);
 	font-variant-alternates: character-variant(zero-longslash);
@@ -69,7 +69,7 @@ Usage in your stylesheets:
 	@styleset {
 		alternative-umlaut: 1;
 		alternative-perispomeni: 2;
-		really-use-cedilla: 3;
+		pedantic: 3;
 	}
 	@character-variant {
 		zero-plain: 1 1;

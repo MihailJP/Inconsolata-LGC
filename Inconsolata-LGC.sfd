@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1161020814
-ModificationTime: 1778389477
+ModificationTime: 1778396162
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 5
@@ -79,7 +79,7 @@ Lookup: 1 0 0 "Ge with stroke and descender" { "Ge with stroke and descender-1" 
 Lookup: 1 0 0 "Alternative glyphs for control characters" { "Alternative glyphs for control characters-1"  } ['cv12' ('DFLT' <'dflt' > 'brai' <'dflt' > 'cyrl' <'BGR ' 'BOS ' 'CHU ' 'MKD ' 'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'AVN ' 'EWE ' 'FLE ' 'ISM ' 'KBC ' 'LEF ' 'LIV ' 'LSM ' 'MAH ' 'MOL ' 'NAV ' 'NLD ' 'NSM ' 'PLK ' 'ROM ' 'SJE ' 'SJU ' 'SKS ' 'SSM ' 'WCI ' 'ZHP ' 'dflt' > ) ]
 Lookup: 1 0 0 "German alternative umlaut" { "German alternative umlaut-1"  } ['ss01' ('latn' <'AVN ' 'EWE ' 'FLE ' 'ISM ' 'KBC ' 'LEF ' 'LIV ' 'LSM ' 'MAH ' 'MOL ' 'NAV ' 'NLD ' 'NSM ' 'PLK ' 'ROM ' 'SJE ' 'SJU ' 'SKS ' 'SSM ' 'WCI ' 'ZHP ' 'dflt' > ) ]
 Lookup: 1 0 0 "Polytonic Greek alternative circumflex" { "Polytonic Greek alternative circumflex-1" ("alt") } ['ss02' ('grek' <'dflt' > ) ]
-Lookup: 1 0 0 "Really use cedilla" { "Really use cedilla-1"  } ['ss03' ('latn' <'AVN ' 'EWE ' 'FLE ' 'ISM ' 'KBC ' 'LEF ' 'LIV ' 'LSM ' 'MAH ' 'MOL ' 'NAV ' 'NLD ' 'NSM ' 'PLK ' 'ROM ' 'SJE ' 'SJU ' 'SKS ' 'SSM ' 'WCI ' 'ZHP ' 'dflt' > ) ]
+Lookup: 1 0 0 "Pedantic" { "Pedantic-1"  } ['ss03' ('latn' <'AVN ' 'EWE ' 'FLE ' 'ISM ' 'KBC ' 'LEF ' 'LIV ' 'LSM ' 'MAH ' 'MOL ' 'NAV ' 'NLD ' 'NSM ' 'PLK ' 'ROM ' 'SJE ' 'SJU ' 'SKS ' 'SSM ' 'WCI ' 'ZHP ' 'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
 ChainSub2: coverage "Contextual colon-1" 0 0 0 1
@@ -154,7 +154,7 @@ Grid
  416.256 939.008 l 1049
 EndSplineSet
 TeXData: 1 0 0 629145 314572 209715 554697 1048576 209715 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 1114618 3486
+BeginChars: 1114622 3490
 
 StartChar: a
 Encoding: 97 97 0
@@ -5108,6 +5108,7 @@ LayerCount: 2
 Fore
 Refer: 3010 -1 N 1 0 0 1 150 -51 2
 Refer: 52 76 N 1 0 0 1 0 0 2
+Substitution2: "Pedantic-1" Lcaron.alt
 EndChar
 
 StartChar: Sacute
@@ -5489,6 +5490,7 @@ LayerCount: 2
 Fore
 Refer: 3010 -1 S 1 0 0 1 253 0 2
 Refer: 155 -1 N 1 0 0 1 0 0 2
+Substitution2: "Pedantic-1" dcaron.alt
 EndChar
 
 StartChar: eogonek
@@ -5535,6 +5537,7 @@ LayerCount: 2
 Fore
 Refer: 3010 -1 N 1 0 0 1 162 0 2
 Refer: 7 108 N 1 0 0 1 -20 0 2
+Substitution2: "Pedantic-1" lcaron.alt
 EndChar
 
 StartChar: lacute
@@ -6166,6 +6169,7 @@ LayerCount: 2
 Fore
 Refer: 3010 -1 S 1 0 0 1 172 0 2
 Refer: 8 116 N 1 0 0 1 -31 0 2
+Substitution2: "Pedantic-1" tcaron.alt
 EndChar
 
 StartChar: bullet
@@ -10158,7 +10162,7 @@ LayerCount: 2
 Fore
 Refer: 1060 -1 N 1 0 0 1 0 0 2
 Refer: 101 82 N 1 0 0 1 0 0 2
-Substitution2: "Really use cedilla-1" Rcedilla.alt
+Substitution2: "Pedantic-1" Rcedilla.alt
 EndChar
 
 StartChar: Itilde
@@ -10181,7 +10185,7 @@ LayerCount: 2
 Fore
 Refer: 1060 -1 N 1 0 0 1 0 0 2
 Refer: 52 76 N 1 0 0 1 0 0 2
-Substitution2: "Really use cedilla-1" Lcedilla.mah
+Substitution2: "Pedantic-1" Lcedilla.mah
 Substitution2: "Marshallese precomposed cedilla-1" Lcedilla.mah
 EndChar
 
@@ -10205,7 +10209,7 @@ LayerCount: 2
 Fore
 Refer: 1060 -1 N 1 0 0 1 0 0 2
 Refer: 67 71 N 1 0 0 1 0 0 2
-Substitution2: "Really use cedilla-1" Gcedilla.alt
+Substitution2: "Pedantic-1" Gcedilla.alt
 EndChar
 
 StartChar: Tbar
@@ -10245,7 +10249,7 @@ LayerCount: 2
 Fore
 Refer: 1060 -1 N 1 0 0 1 0 0 2
 Refer: 16 114 N 1 0 0 1 0 0 2
-Substitution2: "Really use cedilla-1" rcedilla.alt
+Substitution2: "Pedantic-1" rcedilla.alt
 Substitution2: "r with serif-1" rcommaaccent.serif
 EndChar
 
@@ -10269,7 +10273,7 @@ LayerCount: 2
 Fore
 Refer: 1060 -1 N 1 0 0 1 0 0 2
 Refer: 7 108 N 1 0 0 1 0 0 2
-Substitution2: "Really use cedilla-1" lcedilla.mah
+Substitution2: "Pedantic-1" lcedilla.mah
 Substitution2: "Marshallese precomposed cedilla-1" lcedilla.mah
 EndChar
 
@@ -10293,7 +10297,7 @@ LayerCount: 2
 Fore
 Refer: 3289 -1 N 1 0 0 1 0 0 2
 Refer: 13 103 N 1 0 0 1 0 0 2
-Substitution2: "Really use cedilla-1" gcedilla.alt
+Substitution2: "Pedantic-1" gcedilla.alt
 EndChar
 
 StartChar: tbar
@@ -10389,7 +10393,7 @@ LayerCount: 2
 Fore
 Refer: 1060 -1 N 1 0 0 1 0 0 2
 Refer: 46 78 N 1 0 0 1 0 0 2
-Substitution2: "Really use cedilla-1" Ncedilla.mah
+Substitution2: "Pedantic-1" Ncedilla.mah
 Substitution2: "Marshallese precomposed cedilla-1" Ncedilla.mah
 EndChar
 
@@ -10413,7 +10417,7 @@ LayerCount: 2
 Fore
 Refer: 1060 -1 N 1 0 0 1 0 0 2
 Refer: 84 75 N 1 0 0 1 0 0 2
-Substitution2: "Really use cedilla-1" Kcedilla.alt
+Substitution2: "Pedantic-1" Kcedilla.alt
 EndChar
 
 StartChar: Uogonek
@@ -10531,7 +10535,7 @@ LayerCount: 2
 Fore
 Refer: 1060 -1 N 1 0 0 1 0 0 2
 Refer: 6 110 N 1 0 0 1 0 0 2
-Substitution2: "Really use cedilla-1" ncedilla.mah
+Substitution2: "Pedantic-1" ncedilla.mah
 Substitution2: "Marshallese precomposed cedilla-1" ncedilla.mah
 EndChar
 
@@ -10544,7 +10548,7 @@ LayerCount: 2
 Fore
 Refer: 1060 -1 N 1 0 0 1 0 0 2
 Refer: 68 107 N 1 0 0 1 0 0 2
-Substitution2: "Really use cedilla-1" kcedilla.alt
+Substitution2: "Pedantic-1" kcedilla.alt
 EndChar
 
 StartChar: uogonek
@@ -24325,7 +24329,7 @@ LayerCount: 2
 Fore
 Refer: 1060 -1 N 1 0 0 1 0 0 2
 Refer: 269 -1 N 1 0 0 1 0 0 2
-Substitution2: "Really use cedilla-1" rcedilla.serif
+Substitution2: "Pedantic-1" rcedilla.serif
 EndChar
 
 StartChar: rcaron.serif
@@ -67814,6 +67818,50 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 1214 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: Lcaron.alt
+Encoding: 1114618 -1 3486
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 191 -1 S 1 0 0 1 8 146 2
+Refer: 52 76 N 1 0 0 1 0 0 2
+Decomposition: "L+AwwA"
+EndChar
+
+StartChar: dcaron.alt
+Encoding: 1114619 -1 3487
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 20 100 N 1 0 0 1 0 0 2
+Refer: 191 -1 S 1 0 0 1 8 193 2
+Decomposition: "d+AwwA"
+EndChar
+
+StartChar: lcaron.alt
+Encoding: 1114620 -1 3488
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 7 108 N 1 0 0 1 0 0 2
+Refer: 191 -1 N 1 0 0 1 8 193 2
+Decomposition: "l+AwwA"
+EndChar
+
+StartChar: tcaron.alt
+Encoding: 1114621 -1 3489
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 8 116 N 1 0 0 1 0 0 2
+Refer: 191 -1 S 1 0 0 1 8 146 2
+Decomposition: "t+AwwA"
 EndChar
 EndChars
 EndSplineFont

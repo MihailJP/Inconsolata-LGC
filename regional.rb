@@ -60,6 +60,10 @@ t = {
 		"ncommaaccent" => "ncedilla.mah",
 		"Rcommaaccent" => "Rcedilla.alt",
 		"rcommaaccent" => "rcedilla.alt",
+		"Lcaron" => "Lcaron.alt",
+		"dcaron" => "dcaron.alt",
+		"lcaron" => "lcaron.alt",
+		"tcaron" => "tcaron.alt",
 	}},
 }
 
