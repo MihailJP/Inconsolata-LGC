@@ -226,7 +226,9 @@ def lgcBaseAnchors(font: fontforge.font):
                 if cat in ['Lu', 'Ll'] and not decomp:
                     positions.setdefault(glyph.glyphname, [[], []])
                     if (not positions[glyph.glyphname][0]) and all(g[0] != glyph.glyphname for g in dotlessforms):
-                        if glyph.boundingBox()[3] >= 700:
+                        if (glyph.yBoundsAtX(306) or (0, 0))[1] >= 766:
+                            positions[glyph.glyphname][0].append((0, 193))
+                        elif glyph.boundingBox()[3] >= 700:
                             positions[glyph.glyphname][0].append((0, 151))
                         elif glyph.boundingBox()[3] >= 600:
                             positions[glyph.glyphname][0].append((0, 110))
