@@ -1,4 +1,4 @@
-#!/usr/bin/env fontforge
+#!/usr/bin/env python3
 
 import fontforge, re
 from sys import argv

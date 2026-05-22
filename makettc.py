@@ -1,4 +1,4 @@
-#!/usr/bin/env fontforge
+#!/usr/bin/env python3
 import fontforge
 from sys import argv
 fontforge.hooks = {}  # disable hooks for this script
