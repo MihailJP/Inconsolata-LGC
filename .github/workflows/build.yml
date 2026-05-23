@@ -25,9 +25,7 @@ jobs:
         sudo apt remove firefox
         sudo apt update
         sudo apt upgrade
-        sudo apt install python3-fontforge ttfautohint
-        pushd /usr/lib/python3/dist-packages; for i in fontforge psMat; do sudo ln -s $i.*.so $i.so; done; popd
-        ls /usr/lib/python3/dist-packages
+        sudo apt install fontforge ttfautohint
     - name: Build
       run: source venv/bin/activate; make
     - name: Make distributable

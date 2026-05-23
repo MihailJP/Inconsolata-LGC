@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env -S fontforge -skippyfile -skippyplug
 
 from sys import argv
 import fontforge
