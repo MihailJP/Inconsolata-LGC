@@ -1,4 +1,4 @@
-#!/usr/bin/env -S fontforge -skippyfile -skippyplug
+#!/usr/bin/env -S bash -c 'exec "$(dirname $0)/pyworkaround" "$0" "$@"'
 
 import fontforge, re
 from sys import argv

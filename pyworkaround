@@ -1,0 +1,8 @@
+#!/bin/sh
+
+fontforge $@
+if [ $? -eq 139 ]; then
+	# Workaround needed
+	echo "[WORKAROUND] Retry using python3 module" 1>&2
+	python3 $@
+fi
