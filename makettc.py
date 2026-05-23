@@ -1,4 +1,4 @@
-#!/usr/bin/env -S bash -c 'exec "$(dirname $0)/pyworkaround" "$0" "$@"'
+#!/usr/bin/env python3
 import fontforge
 from sys import argv
 fontforge.hooks = {}  # disable hooks for this script
