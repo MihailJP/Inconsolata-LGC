@@ -1,0 +1,13 @@
+{
+    "makefile.configureOnOpen": false,
+    "flake8.enabled": false,
+    "markdownlint.config": {
+        "blanks-around-headings": false,
+        "blanks-around-lists": false,
+        "heading-style": {
+            "style": "setext_with_atx_closed",
+        },
+        "no-multiple-blanks": false,
+        "no-space-in-code": false,
+    },
+}
