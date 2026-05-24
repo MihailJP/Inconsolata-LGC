@@ -126,11 +126,16 @@ def anchorCoord(font: fontforge.font, x: float, y: float) -> tuple[float, float]
     return (x - y * tan(radians(font.italicangle)), y)
 
 lgcRange = [
-    range(0x0041, 0x005b),
-    range(0x0061, 0x007b),
-    range(0x00c0, 0x0530),
-    range(0x1c80, 0x1c90),
-    range(0x1e00, 0x1f00),
+    range(0x0041, 0x005b),  # Basic uppercase letters
+    range(0x0061, 0x007b),  # Basic lowercase letters
+    range(0x00c0, 0x0530),  # LGC letters
+    range(0x1c80, 0x1c90),  # Cyrillic Extended-C
+    range(0x1d00, 0x1dc0),  # Phonetic Extensions
+    range(0x1e00, 0x1f00),  # Latin Extended Additional
+    range(0x2c60, 0x2c80),  # Latin Extended-C
+    range(0xa720, 0xa800),  # Latin Extended-D
+    range(0xab30, 0xab70),  # Latin Extended-E
+    range(0x10780, 0x107c0),  # Latin Extended-F
 ]
 
 def lgcBaseAnchors(font: fontforge.font):
