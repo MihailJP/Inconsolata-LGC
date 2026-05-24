@@ -24,7 +24,7 @@ jobs:
       uses: MihailJP/setup-fontforge@v1
     - name: Install Python dependencies
       run: |
-        pip3 install fonttools fontmake
+        pip3 install Brotli fonttools fontmake
         pip3 install "fontforge-ref-sel-util>=0.1.3"
     - name: Build
       run: make
