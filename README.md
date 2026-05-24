@@ -355,13 +355,30 @@ bump for such weight.
 
 Build-time dependencies
 -----------------------
-* [FontForge](https://fontforge.org/) with Python scripting feature enabled
+* [FontForge](https://fontforge.org/) Python module
   * [fontforge-ref-sel-util](https://pypi.org/project/fontforge-ref-sel-util/) plugin
 * For variable font, also:
   * [fonttools](https://github.com/fonttools/fonttools)
   * [fontmake](https://github.com/googlefonts/fontmake)
 * For hinted font, also:
   * [ttfautohint](https://freetype.org/ttfautohint/)
+
+### Make sure Fontforge Python module is usable
+
+In interactive mode of Python, run:
+
+```python
+import fontforge
+```
+
+If it raises ``ModuleNotFoundError`` exception, install Fontforge first. If
+installed, make sure the build option set that the Python module gets also
+installed. If already so, Python interpreter does not recognize the module
+path where the required module.
+
+```shell
+export PYTHONPATH=/path/to/fontforge/python/module:$PYTHONPATH
+```
 
 License
 -------
