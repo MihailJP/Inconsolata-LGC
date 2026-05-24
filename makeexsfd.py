@@ -338,10 +338,19 @@ def addLgcAnchorClasses(font: fontforge.font):
     font.addAnchorClass('Accent below-1', 'LGC-accent-below')
 
 def lgcMarkAnchors(font: fontforge.font):
+    def yTranslate(font: fontforge.font, sourcename: str) -> int:
+        bbox = font[sourcename].boundingBox()
+        if bbox[1] >= 700:
+            return -123
+        elif 10 < bbox[3] < 100:
+            return -55
+        else:
+            return 0
+
     def addChar(font: fontforge.font, sourcename: str, targetuni: int, targetname: str, xoffset:int):
         font.createChar(targetuni, targetname)
         font[targetname].width = 0
-        font[targetname].addReference(sourcename, translate(*anchorCoord(font, xoffset - 613, -123 if font[sourcename].boundingBox()[1] >= 700 else 0)))
+        font[targetname].addReference(sourcename, translate(*anchorCoord(font, xoffset - 613, yTranslate(font, sourcename))))
         font[targetname].glyphclass = 'mark'
         left, _, _, top = font[sourcename].boundingBox()
         if left > 400:
