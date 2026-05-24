@@ -20,16 +20,14 @@ jobs:
         sudo apt update
         sudo apt upgrade
         sudo apt install ttfautohint
-    - name: Install Python dependencies
-      run: |
-        python3 -m venv venv
-        source venv/bin/activate
-        pip3 install afdko fonttools fontmake
-        pip3 install "fontforge-ref-sel-util>=0.1.3"
     - name: Build and install Fontforge
       uses: MihailJP/setup-fontforge@v1
+    - name: Install Python dependencies
+      run: |
+        pip3 install fonttools fontmake
+        pip3 install "fontforge-ref-sel-util>=0.1.3"
     - name: Build
-      run: source venv/bin/activate; make
+      run: make
     - name: Make distributable
       run: make dist
     - name: Upload a Static TTF Artifact

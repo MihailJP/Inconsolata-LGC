@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1161020814
-ModificationTime: 1779604262
+ModificationTime: 1779612072
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 5
@@ -111,13 +111,13 @@ PUSHB_1
 SCANTYPE
 EndTTInstrs
 LangName: 1033
-OtfFeatName: 'ss03' 1033 "Pedantic"
-OtfFeatName: 'ss02' 1033 "Polytonic Greek alternative circumflex"
 OtfFeatName: 'ss01' 1033 "German alternative umlaut"
+OtfFeatName: 'ss02' 1033 "Polytonic Greek alternative circumflex"
+OtfFeatName: 'ss03' 1033 "Pedantic"
 Encoding: UnicodeFull
 Compacted: 1
 UnicodeInterp: none
-NameList: Adobe Glyph List
+NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
@@ -154,7 +154,7 @@ Grid
  416.256 939.008 l 1049
 EndSplineSet
 TeXData: 1 0 0 629145 314572 209715 554697 1048576 209715 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 1114640 3559
+BeginChars: 1114641 3561
 
 StartChar: a
 Encoding: 97 97 0
@@ -69506,6 +69506,36 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 1060 -1 N 1 0 0 1 17 832 2
+EndChar
+
+StartChar: commareversedmod
+Encoding: 701 701 3559
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+Refer: 545 8219 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: commareversedabove
+Encoding: 1114640 -1 3560
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+268 740 m 0
+ 268 777 293 803 322 803 c 0
+ 348 803 367 781 367 757 c 0
+ 367 734 351 725 345 721 c 0
+ 339 718 334 714 334 707 c 0
+ 334 700 339 692 342 688 c 0
+ 353 672 361 665 380 650 c 1
+ 345 623 l 1
+ 289 679 268 700 268 740 c 0
+EndSplineSet
 EndChar
 EndChars
 EndSplineFont

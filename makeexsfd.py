@@ -303,6 +303,7 @@ diacriticdata: list[tuple[str, Optional[str], int, str, int]] = [
     ('invertedbreve', None, 0x311, 'breveinvertedcmb', 0),
     ('commaturnedabove', None, 0x312, 'commaturnedabovecmb', 0),
     ('commaabove', None, 0x313, 'commaabovecmb', 0),
+    ('commareversedabove', None, 0x314, 'commareversedabovecmb', 0),
     ('commaaboveright', None, 0x315, 'commaaboverightcmb', 0),
     ('gravesub', None, 0x316, 'gravesubnosp', 0),
     ('acutesub', None, 0x317, 'acutesubnosp', 0),
@@ -389,6 +390,7 @@ def precomposedForms(font: fontforge.font):
         'tonos': [('space', 'acutecomb')],
         'koronis': [('space', 'commaabovecmb')],
         'psili': [('space', 'commaabovecmb')],
+        'dasia': [('space', 'commareversedabovecmb')],
         # Caron
         'dcaron': [('d', 'caroncomb')],
         'Lcaron': [('L', 'caroncomb')],
