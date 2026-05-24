@@ -303,7 +303,9 @@ diacriticdata: list[tuple[str, Optional[str], int, str, int]] = [
     ('invertedbreve', None, 0x311, 'breveinvertedcmb', 0),
     ('commaturnedabove', None, 0x312, 'commaturnedabovecmb', 0),
     ('commaabove', None, 0x313, 'commaabovecmb', 0),
+    ('psili', None, -1, 'commaabovecmb.grek', 0),
     ('commareversedabove', None, 0x314, 'commareversedabovecmb', 0),
+    ('dasia', None, -1, 'commareversedabovecmb.grek', 0),
     ('commaaboveright', None, 0x315, 'commaaboverightcmb', 0),
     ('gravesub', None, 0x316, 'gravesubnosp', 0),
     ('acutesub', None, 0x317, 'acutesubnosp', 0),
@@ -364,12 +366,22 @@ def lgcMarkAnchors(font: fontforge.font):
             y = 554
         font[targetname].addAnchorPoint(anchor, 'mark', *anchorCoord(font, -307, y))
 
+    font.addLookup(
+        'Combining Greek breathing marks',
+        'gsub_single',
+        None,
+        (('locl', (('grek', ('dflt',)),)),),
+        font.gsub_lookups[font.gsub_lookups.index('Old style numerals') - 1],
+    )
+    font.addLookupSubtable('Combining Greek breathing marks', 'Combining Greek breathing marks-1')
     for sourcename, capsourcename, targetuni, targetname, xoffset in diacriticdata:
         addChar(font, sourcename, targetuni, targetname, xoffset)
         if capsourcename:
             addChar(font, capsourcename, -1, targetname + '.cap', xoffset)
         if targetname.endswith('.pinyin'):
             font[targetname.removesuffix('.pinyin')].addPosSub('Pinyin variant forms-1', targetname)
+        if targetname.endswith('.grek'):
+            font[targetname.removesuffix('.grek')].addPosSub('Combining Greek breathing marks-1', targetname)
         if targetname == 'perispomenigreekcmb.alt':
             font[targetname.removesuffix('.alt')].addPosSub('Polytonic Greek alternative circumflex-1', targetname)
 
