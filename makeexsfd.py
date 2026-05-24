@@ -314,6 +314,8 @@ diacriticdata: list[tuple[str, Optional[str], int, str, int]] = [
     ('breveinvertedbelow', None, 0x32f, 'breveinvertedbelowcmb', 0),
     ('uni02F7', None, 0x330, 'tildebelowcmb', 0),
     ('macronsub', None, 0x331, 'macronbelowcmb', 0),
+    ('invertedbreve', None, 0x342, 'perispomenigreekcmb', 0),
+    ('tilde', None, -1, 'perispomenigreekcmb.alt', 0),
     ('uni02BF', None, 0x351, 'uni0351', 0),
     ('uni02BE', None, 0x357, 'uni0357', 0),
     ('hokkiendot', None, 0x358, 'uni0358', 0),
@@ -352,6 +354,8 @@ def lgcMarkAnchors(font: fontforge.font):
             addChar(font, capsourcename, -1, targetname + '.cap', xoffset)
         if targetname.endswith('.pinyin'):
             font[targetname.removesuffix('.pinyin')].addPosSub('Pinyin variant forms-1', targetname)
+        if targetname == 'perispomenigreekcmb.alt':
+            font[targetname.removesuffix('.alt')].addPosSub('Polytonic Greek alternative circumflex-1', targetname)
 
 def precomposedForms(font: fontforge.font):
     customDecomp = {
