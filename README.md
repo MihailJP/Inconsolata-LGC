@@ -13,14 +13,14 @@ Greek.
 
 Inconsolata LGC changes
 -----------------------
-* Cyrillic glyphs and additional symbols added.
-* Italic and Bold font added.
+- Cyrillic glyphs and additional symbols added.
+- Italic and Bold font added.
 
-### Changes inherited from Inconsolata Hellenic
-* Greek glyphs.
+### Changes inherited from Inconsolata Hellenic ###
+- Greek glyphs.
 
-### Changes inherited from Inconsolata-dz:
-* Straight quotation marks.
+### Changes inherited from Inconsolata-dz ###
+- Straight quotation marks.
 
 
 Regional forms
@@ -355,15 +355,15 @@ bump for such weight.
 
 Build-time dependencies
 -----------------------
-* [FontForge](https://fontforge.org/) Python module
-  * [fontforge-ref-sel-util](https://pypi.org/project/fontforge-ref-sel-util/) plugin
-* For variable font, also:
-  * [fonttools](https://github.com/fonttools/fonttools)
-  * [fontmake](https://github.com/googlefonts/fontmake)
-* For hinted font, also:
-  * [ttfautohint](https://freetype.org/ttfautohint/)
+- [FontForge](https://fontforge.org/) Python module
+  - [fontforge-ref-sel-util](https://pypi.org/project/fontforge-ref-sel-util/) plugin
+- For variable font, also:
+  - [fonttools](https://github.com/fonttools/fonttools)
+  - [fontmake](https://github.com/googlefonts/fontmake)
+- For hinted font, also:
+  - [ttfautohint](https://freetype.org/ttfautohint/)
 
-### Make sure Fontforge Python module is usable
+### Make sure Fontforge Python module is usable ###
 
 In interactive mode of Python, run:
 
