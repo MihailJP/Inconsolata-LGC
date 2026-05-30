@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1161020814
-ModificationTime: 1780131190
+ModificationTime: 1780136217
 PfmFamily: 49
 TTFWeight: 700
 TTFWidth: 5
@@ -7989,8 +7989,8 @@ StartChar: uniFEE1.sindhi
 Encoding: 65584 -1 409
 Width: 613
 Flags: W
-AnchorPoint: "rtl-below" 346 -78 basechar 0
 AnchorPoint: "rtl-above" 305 497 basechar 0
+AnchorPoint: "rtl-below" 346 -78 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -8004,8 +8004,8 @@ SplineSet
  351 262 338 256 330 245 c 0
  313 224 305 206 305 189 c 0
  305 180 307 165 310 148 c 1
-198 105 m 1
- 191 122 191 163 191 206 c 0
+191 168 m 1
+ 191 206 l 2
  191 256 215 301 263 341 c 0
  288 362 322 373 365 373 c 0
  393 373 422 366 452 354 c 0
@@ -8013,16 +8013,12 @@ SplineSet
  561 214 562 198 562 179 c 0
  562 126 544 87 507 62 c 0
  471 37 434 24 399 24 c 0
- 372 24 345 27 318 34 c 1
- 293 6 203 0 160 0 c 0
- 99 0 57 6 36 18 c 0
- -4 40 -24 73 -24 118 c 0
- -24 137 -20 170 -7 184 c 1
- 91 149 l 1
- 90 144 90 141 90 131 c 0
- 90 120 95 111 107 107 c 0
- 119 102 131 100 144 101 c 0
- 163 102 182 103 198 105 c 1
+ 346 24 289 38 235 66 c 1
+ 226 60 216 54 204 49 c 0
+ 118 9 8 -13 -28 -14 c 1
+ -28 92 l 1
+ 16 92 85 109 156 147 c 0
+ 169 154 181 161 191 168 c 1
 EndSplineSet
 EndChar
 
@@ -8030,25 +8026,21 @@ StartChar: uniFEE2.sindhi
 Encoding: 65585 -1 410
 Width: 613
 Flags: W
-AnchorPoint: "rtl-below" 339 -135 basechar 0
 AnchorPoint: "rtl-above" 291 456 basechar 0
+AnchorPoint: "rtl-below" 339 -135 basechar 0
 LayerCount: 2
 Fore
 SplineSet
 487 26 m 1
  482 21 477 18 473 15 c 0
  432 -10 396 -23 365 -23 c 0
- 316 -23 270 -14 228 4 c 1
- 202 1 178 0 160 0 c 0
- 99 0 57 6 36 18 c 0
- -4 40 -24 73 -24 118 c 0
- -24 137 -20 170 -7 184 c 1
- 91 149 l 1
- 90 144 90 141 90 131 c 0
- 90 120 95 111 107 107 c 0
- 119 102 131 100 144 101 c 0
- 149 101 155 102 160 102 c 1
- 159 112 156 123 156 159 c 0
+ 307 -23 253 -11 205 15 c 1
+ 185 -4 163 -23 135 -40 c 0
+ 58 -88 -6 -106 -28 -106 c 1
+ -28 0 l 1
+ -10 0 19 13 81 56 c 0
+ 115 79 136 104 156 128 c 1
+ 156 159 l 2
  156 209 180 254 228 293 c 0
  253 314 288 325 331 325 c 0
  359 325 387 318 417 306 c 0
