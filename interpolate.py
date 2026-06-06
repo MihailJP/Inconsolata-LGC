@@ -76,8 +76,8 @@ if font1.gpos_lookups:
                         ))
                 elif anchor[1] == 'ligature':
                     if anchor1 and anchor2:
-                        anchor1 = [a for a in anchor1 if a[4] == anchor[4]]
-                        anchor2 = [a for a in anchor2 if a[4] == anchor[4]]
+                        anchor1 = [a for a in anchor1 if a[1] == 'ligature' and a[4] == anchor[4]]
+                        anchor2 = [a for a in anchor2 if a[1] == 'ligature' and a[4] == anchor[4]]
                         if anchor1 and anchor2:
                             anchor1 = anchor1[0]
                             anchor2 = anchor2[0]

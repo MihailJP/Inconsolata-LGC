@@ -35,7 +35,7 @@ def getLangDict(font: fontforge.font, lookup: Union[str, Iterable[str], None] = 
     else:
         lookups = lookup
     scripts = sum([list(font.getLookupInfo(lu)[2][0][1]) for lu in lookups if font.getLookupInfo(lu)[2]], [])
-    return langTupleToLangDict(scripts)
+    return langTupleToLangDict(tuple(scripts))
 
 def allAnchors(font: fontforge.font) -> tuple[list[str], list[str]]:
     subtables = sum([list(font.getLookupSubtables(a)) for a in font.gpos_lookups], [])
@@ -118,8 +118,8 @@ def add_dotlessforms(font: fontforge.font):
         'Remove the dot above i-1',
         'class',
         '| 1 @<Dotless forms> | 1',
-        mclasses=((), tuple([d[0] for d in dotlessforms])),
-        fclasses=((), tuple(diacritics)),
+        mclasses=((), tuple([d[0] for d in dotlessforms])),  # pyright: ignore[reportArgumentType]
+        fclasses=((), tuple(diacritics)),  # pyright: ignore[reportArgumentType]
     )
 
 def anchorCoord(font: fontforge.font, x: float, y: float) -> tuple[float, float]:
@@ -149,7 +149,7 @@ def lgcBaseAnchors(font: fontforge.font):
             return font[trunkname]
         else:
             return None
-    type ComposedDict = dict[str, list[tuple[str, list[str]]]]
+    type ComposedDict = dict[str, list[tuple[str, list[str]]]]  # pyright: ignore[reportGeneralTypeIssues]
     composed: ComposedDict = {}
     def addComposedVariant(composed: ComposedDict, glyph: fontforge.glyph):
         if '.' in glyph.glyphname:
@@ -488,7 +488,7 @@ def precomposedDiacritics(font: fontforge.font):
         glyphs = [
             g.glyphname for g in font.glyphs() if
             g.getPosSub('Accent decomposition-1') and
-            g.getPosSub('Accent decomposition-1')[0][3] == mark1 and
+            g.getPosSub('Accent decomposition-1')[0][3] == mark1 and  # pyright: ignore[reportGeneralTypeIssues]
             not [
                 h.getPosSub('Precomposed forms-1') for h in font.glyphs() if
                 h.getPosSub('Precomposed forms-1') and
@@ -500,8 +500,8 @@ def precomposedDiacritics(font: fontforge.font):
             'Decompose {} before {}'.format(mark1, mark2),
             'class',
             '| 1 @<Accent decomposition> | 1',
-            mclasses=((), tuple(glyphs)),
-            fclasses=((), (mark2,)),
+            mclasses=((), tuple(glyphs)),  # pyright: ignore[reportArgumentType]
+            fclasses=((), (mark2,)),  # pyright: ignore[reportArgumentType]
         )
 
 def uppercaseForms(font: fontforge.font):
@@ -515,8 +515,8 @@ def uppercaseForms(font: fontforge.font):
         'Accents for tall base glyphs-1',
         'class',
         '1 | 1 @<Forms for tall base glyphs> |',
-        bclasses=((), tuple(base)),
-        mclasses=((), tuple(mark)),
+        bclasses=((), tuple(base)),  # pyright: ignore[reportArgumentType]
+        mclasses=((), tuple(mark)),  # pyright: ignore[reportArgumentType]
     )
     for glyph in mark:
         font[glyph].addPosSub('Forms for tall base glyphs-1', glyph + '.cap')
@@ -567,8 +567,8 @@ def mark_dottedcircle(font: fontforge.font):
             lookupName + '-1',
             'class',
             '1 | 1 @<Remove dotted circle> 2 |',
-            bclasses=((), tuple(baseList)),
-            mclasses=((), 'invalidbase', tuple(markList)),
+            bclasses=((), tuple(baseList)),  # pyright: ignore[reportArgumentType]
+            mclasses=((), 'invalidbase', tuple(markList)),  # pyright: ignore[reportArgumentType]
         )
         if aboveBelowMark:
             font.addContextualSubtable(
@@ -577,8 +577,8 @@ def mark_dottedcircle(font: fontforge.font):
                 'class',
                 '1 2 | 1 @<Remove dotted circle> 2 |',
                 afterSubtable=lookupName + '-1',
-                bclasses=((), tuple(baseList), tuple(sorted(set(aboveBelowMark)))),
-                mclasses=((), 'invalidbase', tuple(markList)),
+                bclasses=((), tuple(baseList), tuple(sorted(set(aboveBelowMark)))),  # pyright: ignore[reportArgumentType]
+                mclasses=((), 'invalidbase', tuple(markList)),  # pyright: ignore[reportArgumentType]
             )
             font.addContextualSubtable(
                 lookupName,
@@ -586,8 +586,8 @@ def mark_dottedcircle(font: fontforge.font):
                 'class',
                 '1 2 3 | 1 @<Remove dotted circle> 2 |',
                 afterSubtable=lookupName + '-2',
-                bclasses=((), tuple(baseList), 'invalidbase', tuple(sorted(set(aboveBelowMark)))),
-                mclasses=((), 'invalidbase', tuple(markList)),
+                bclasses=((), tuple(baseList), 'invalidbase', tuple(sorted(set(aboveBelowMark)))),  # pyright: ignore[reportArgumentType]
+                mclasses=((), 'invalidbase', tuple(markList)),  # pyright: ignore[reportArgumentType]
             )
         lookupOrder = lookupName
 
@@ -618,6 +618,7 @@ font = fontforge.open(argv[2])
 font2 = fontforge.open(argv[3])
 font.encoding = 'Original'
 font2.encoding = 'Original'
+assert font.copyright
 font.fontname = font.fontname.replace('LGC', 'EX')
 font.familyname = font.familyname.replace('LGC', 'EX')
 font.fullname = font.fullname.replace('LGC', 'EX')
