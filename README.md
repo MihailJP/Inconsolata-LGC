@@ -322,9 +322,20 @@ On the other hand, lining (or titling) numerals are “uppercase” to which
 this font defaults.
 
 ### `calt`: Contextual alternates ###
+
+Currently there is only raised colon used when:
+
+#### Time notation ####
 ![Raised colon](doc/raised_colon.png)
 
-Currently there is only raised colon used as in 12:00.
+In time notation as in 12:00, raised colon is used.
+
+#### Programming operators ####
+![Operators with colon](doc/operators_with_colon.png)
+
+Some programming languages have operators which include colon such as `:=`.
+In certain combinations of characters the colon should be raised
+for esthetical reason.
 
 ### `case`: Case-sensitive forms ###
 ![Regular and all-caps variants](doc/capital_forms.png)

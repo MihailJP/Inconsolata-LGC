@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1161020814
-ModificationTime: 1780732835
+ModificationTime: 1780754915
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 5
@@ -63,7 +63,7 @@ Lookup: 1 0 0 "Old style numerals" { "Old style numerals-1" ("oldstyle") } ['onu
 Lookup: 1 0 0 "Superscripts" { "Superscripts-1" ("superior") } ['sups' ('DFLT' <'dflt' > 'brai' <'dflt' > 'cyrl' <'BGR ' 'BOS ' 'CHU ' 'MKD ' 'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'AVN ' 'EWE ' 'FLE ' 'ISM ' 'KBC ' 'LEF ' 'LIV ' 'LSM ' 'MAH ' 'MOL ' 'NAV ' 'NLD ' 'NSM ' 'PLK ' 'ROM ' 'SJE ' 'SJU ' 'SKS ' 'SSM ' 'WCI ' 'ZHP ' 'dflt' > ) ]
 Lookup: 1 0 0 "Subscripts" { "Subscripts-1" ("inferior") } ['subs' ('DFLT' <'dflt' > 'brai' <'dflt' > 'cyrl' <'BGR ' 'BOS ' 'CHU ' 'MKD ' 'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'AVN ' 'EWE ' 'FLE ' 'ISM ' 'KBC ' 'LEF ' 'LIV ' 'LSM ' 'MAH ' 'MOL ' 'NAV ' 'NLD ' 'NSM ' 'PLK ' 'ROM ' 'SJE ' 'SJU ' 'SKS ' 'SSM ' 'WCI ' 'ZHP ' 'dflt' > ) ]
 Lookup: 1 0 0 "Forms for uppercase" { "Forms for uppercase-1" ("case") } ['case' ('DFLT' <'dflt' > 'brai' <'dflt' > 'cyrl' <'BGR ' 'BOS ' 'CHU ' 'MKD ' 'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'AVN ' 'EWE ' 'FLE ' 'ISM ' 'KBC ' 'LEF ' 'LIV ' 'LSM ' 'MAH ' 'MOL ' 'NAV ' 'NLD ' 'NSM ' 'PLK ' 'ROM ' 'SJE ' 'SJU ' 'SKS ' 'SSM ' 'WCI ' 'ZHP ' 'dflt' > ) ]
-Lookup: 6 0 0 "Contextual colon" { "Contextual colon-1"  } ['calt' ('DFLT' <'dflt' > 'brai' <'dflt' > 'cyrl' <'BGR ' 'BOS ' 'CHU ' 'MKD ' 'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'AVN ' 'EWE ' 'FLE ' 'ISM ' 'KBC ' 'LEF ' 'LIV ' 'LSM ' 'MAH ' 'MOL ' 'NAV ' 'NLD ' 'NSM ' 'PLK ' 'ROM ' 'SJE ' 'SJU ' 'SKS ' 'SSM ' 'WCI ' 'ZHP ' 'dflt' > ) ]
+Lookup: 6 0 0 "Contextual colon" { "Time notations"  "Programming operators"  } ['calt' ('DFLT' <'dflt' > 'brai' <'dflt' > 'cyrl' <'BGR ' 'BOS ' 'CHU ' 'MKD ' 'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'AVN ' 'EWE ' 'FLE ' 'ISM ' 'KBC ' 'LEF ' 'LIV ' 'LSM ' 'MAH ' 'MOL ' 'NAV ' 'NLD ' 'NSM ' 'PLK ' 'ROM ' 'SJE ' 'SJU ' 'SKS ' 'SSM ' 'WCI ' 'ZHP ' 'dflt' > ) ]
 Lookup: 1 0 0 "Raised colon" { "Raised colon-1"  } []
 Lookup: 3 0 0 "Variants of zero" { "Variants of zero-1"  } ['cv01' ('DFLT' <'dflt' > 'brai' <'dflt' > 'cyrl' <'BGR ' 'BOS ' 'CHU ' 'MKD ' 'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'AVN ' 'EWE ' 'FLE ' 'ISM ' 'KBC ' 'LEF ' 'LIV ' 'LSM ' 'MAH ' 'MOL ' 'NAV ' 'NLD ' 'NSM ' 'PLK ' 'ROM ' 'SJE ' 'SJU ' 'SKS ' 'SSM ' 'WCI ' 'ZHP ' 'dflt' > ) ]
 Lookup: 1 0 0 "r with serif" { "r with serif-1" ("serif") } ['cv02' ('latn' <'AVN ' 'EWE ' 'FLE ' 'ISM ' 'KBC ' 'LEF ' 'LIV ' 'LSM ' 'MAH ' 'MOL ' 'NAV ' 'NLD ' 'NSM ' 'PLK ' 'ROM ' 'SJE ' 'SJU ' 'SKS ' 'SSM ' 'WCI ' 'ZHP ' 'dflt' > ) ]
@@ -82,7 +82,27 @@ Lookup: 1 0 0 "Polytonic Greek alternative circumflex" { "Polytonic Greek altern
 Lookup: 1 0 0 "Pedantic" { "Pedantic-1"  } ['ss03' ('latn' <'AVN ' 'EWE ' 'FLE ' 'ISM ' 'KBC ' 'LEF ' 'LIV ' 'LSM ' 'MAH ' 'MOL ' 'NAV ' 'NLD ' 'NSM ' 'PLK ' 'ROM ' 'SJE ' 'SJU ' 'SKS ' 'SSM ' 'WCI ' 'ZHP ' 'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
-ChainSub2: coverage "Contextual colon-1" 0 0 0 1
+ChainSub2: class "Programming operators" 2 2 2 2
+  Class: 5 colon
+  BClass: 30 plus hyphen less equal greater
+  FClass: 30 plus hyphen less equal greater
+ 1 0 1
+  ClsList: 1
+  BClsList:
+  FClsList: 1
+ 1
+  SeqLookup: 0 "Raised colon"
+ 1 1 0
+  ClsList: 1
+  BClsList: 1
+  FClsList:
+ 1
+  SeqLookup: 0 "Raised colon"
+  ClassNames: "All_Others" "1"
+  BClassNames: "All_Others" "1"
+  FClassNames: "All_Others" "1"
+EndFPST
+ChainSub2: coverage "Time notations" 0 0 0 1
  1 1 1
   Coverage: 5 colon
   BCoverage: 49 zero one two three four five six seven eight nine
