@@ -155,17 +155,8 @@ through language-dependent feature.
 For legacy apps, use **Inconsolata LGC Kadiweu** in the TTC.
 
 
-Miscellaneous variants
-----------------------
-
-### `onum`: old style numerals ###
-![Differences between lining and old-style numerics](doc/old_style_numeric.png)
-
-Old style numerals are “lowercase” of numerals: 0, 1, and 2 are of x-height,
-6 and 8 have ascenders, and the others have descenders. They are also known
-as text figures.
-On the other hand, lining (or titling) numerals are “uppercase” to which
-this font defaults.
+Character variants
+------------------
 
 ### `cv01`: variants of zero ###
 ![Variants of zero](doc/variants_of_zero.png)
@@ -270,6 +261,10 @@ Symbol notations for U+2400 to U+2421 in Control Pictures.
 G with stroke has alternative glyphs said above. Use this character variant
 feature to discretionally activate those glyphs.
 
+
+Style sets
+----------
+
 ### `ss01`: German alternative umlaut ###
 ![Differences between regular and alternative umlaut variants](doc/German_alternative_umlaut.png)
 
@@ -312,6 +307,19 @@ above. This is the default behavior but not wanted in certain contexts.
 
 Additionally, in Vietnamese text, dot below is placed nearer to y than
 pedantic variant.
+
+
+Miscellaneous variants
+----------------------
+
+### `onum`: old style numerals ###
+![Differences between lining and old-style numerics](doc/old_style_numeric.png)
+
+Old style numerals are “lowercase” of numerals: 0, 1, and 2 are of x-height,
+6 and 8 have ascenders, and the others have descenders. They are also known
+as text figures.
+On the other hand, lining (or titling) numerals are “uppercase” to which
+this font defaults.
 
 ### `calt`: Contextual alternates ###
 ![Raised colon](doc/raised_colon.png)
