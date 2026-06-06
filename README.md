@@ -326,23 +326,6 @@ Since this is a discretionary feature, this will not be active unless there
 is not an instruction to do so.
 
 
-Deprecated features
--------------------
-
-### Dutch accented IJ ###
-![Dutch accented IJ feature](doc/Dutch_accented_ij.png)
-
-In Dutch, acute accent is used to mark stress like _vóórkomen_ vs _voorkómen_,
-or _één_ vs _een_. When _ij_ is stressed, both _i_ and _j_ should be accented.
-
-This Dutch and Flemish language-specific feature works for a _J_ preceded by
-an _I_, or a _j_ preceded by an _i_.
-
-In loanwords there may be unaccented _j_ preceded by accented _i_.
-Upcoming Inconsolata EX or Inconsolata LGC version 3 will not have this feature.
-Until removal of the feature, use ZWNJ between accented _i_ and _j_.
-
-
 Variable font
 -------------
 As of version 1.5.1, variable font package is available along with

@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1161020814
-ModificationTime: 1780733210
+ModificationTime: 1780734525
 PfmFamily: 49
 TTFWeight: 700
 TTFWidth: 5
@@ -54,8 +54,6 @@ Lookup: 1 0 0 "Sami variant of Eng" { "Sami variant of Eng-1"  } ['locl' ('latn'
 Lookup: 1 0 0 "Pinyin variant forms" { "Pinyin variant forms-1" ("pinyin") } ['locl' ('latn' <'ZHP ' > ) ]
 Lookup: 1 0 0 "Ewe f-hook" { "Ewe f-hook-1"  } ['locl' ('latn' <'AVN ' 'EWE ' 'LEF ' 'WCI ' > ) ]
 Lookup: 1 0 0 "Chuvash variant of The" { "Chuvash variant of The-1" ("cv") } ['locl' ('cyrl' <'CHU ' > ) ]
-Lookup: 5 0 0 "Dutch accented IJ" { "Dutch accented IJ-1"  } ['locl' ('latn' <'FLE ' 'NLD ' > ) ]
-Lookup: 1 0 0 "J with acute accent" { "J with acute accent-1"  } []
 Lookup: 1 0 0 "Navajo ogonek" { "Navajo ogonek-1" ("nav") } ['locl' ('latn' <'NAV ' > ) ]
 Lookup: 1 0 0 "Marshallese precomposed cedilla" { "Marshallese precomposed cedilla-1"  } ['locl' ('latn' <'MAH ' > ) ]
 Lookup: 1 0 0 "Kadiw+AOkA-u form of G with stroke" { "Kadiw+AOkA-u form of G with stroke-1" ("kbc") } ['cv13' ('latn' <'AVN ' 'EWE ' 'FLE ' 'ISM ' 'KBC ' 'LEF ' 'LIV ' 'LSM ' 'MAH ' 'MOL ' 'NAV ' 'NLD ' 'NSM ' 'PLK ' 'ROM ' 'SJE ' 'SJU ' 'SKS ' 'SSM ' 'WCI ' 'ZHP ' 'dflt' > ) 'locl' ('latn' <'KBC ' > ) ]
@@ -89,18 +87,6 @@ ChainSub2: coverage "Contextual colon-1" 0 0 0 1
   FCoverage: 49 zero one two three four five six seven eight nine
  1
   SeqLookup: 0 "Raised colon"
-EndFPST
-ContextSub2: glyph "Dutch accented IJ-1" 0 0 0 2
- String: 8 Iacute J
- BString: 0 
- FString: 0 
- 1
-  SeqLookup: 1 "J with acute accent"
- String: 8 iacute j
- BString: 0 
- FString: 0 
- 1
-  SeqLookup: 1 "J with acute accent"
 EndFPST
 TtTable: prep
 PUSHW_1
@@ -1873,7 +1859,6 @@ SplineSet
  459 744 501 778 543 778 c 0
 EndSplineSet
 Substitution2: "Superscripts-1" jsuperior
-Substitution2: "J with acute accent-1" jacute
 EndChar
 
 StartChar: x
@@ -2380,7 +2365,6 @@ SplineSet
  329 739 l 1
 EndSplineSet
 Substitution2: "Superscripts-1" uni1D36
-Substitution2: "J with acute accent-1" Jacute
 EndChar
 
 StartChar: K

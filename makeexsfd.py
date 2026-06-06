@@ -612,10 +612,6 @@ def fixAllLang(font: fontforge.font, oldAllLang: LangDict, newAllLang: LangDict)
             newTags.append((tag, langDictToLangTuple(newLangDict)))
         font.lookupSetFeatureList(lookup, tuple(newTags))
 
-def removeDeprecatedLookups(font: fontforge.font):
-    font.removeLookup('Dutch accented IJ')
-    font.removeLookup('J with acute accent')
-
 font = fontforge.open(argv[2])
 font2 = fontforge.open(argv[3])
 font.encoding = 'Original'
@@ -632,7 +628,6 @@ if font.italicangle != 0:
     font2.transform(skew(radians(-font.italicangle)), ('noWidth', 'round', 'simplePos'))
 removeUnusedAnchorClass(font2)
 diacritics(font)
-removeDeprecatedLookups(font)
 oldAllLang = getLangDict(font)
 font.mergeFonts(argv[3])
 font.save(argv[1])
