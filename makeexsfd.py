@@ -419,6 +419,8 @@ def precomposedForms(font: fontforge.font):
         'lcommaaccent': [('l', 'cedillacmb')],
         'ncommaaccent': [('n', 'cedillacmb')],
         'rcommaaccent': [('r', 'cedillacmb')],
+        'Dcedilla': [('D', 'cedillacmb')],
+        'dcedilla': [('d', 'cedillacmb')],
         # Vietnamese
         'Acircumflexacute': [('Acircumflex', 'acutecomb')],
         'Acircumflexgrave': [('Acircumflex', 'gravecomb')],

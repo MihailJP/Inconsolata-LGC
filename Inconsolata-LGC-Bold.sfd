@@ -24233,48 +24233,48 @@ Refer: 0 97 N 1 0 0 1 0 0 2
 Refer: 198 713 N 1 0 0 1 20 150 2
 EndChar
 
-StartChar: Dcedilla
-Encoding: 7696 7696 1232
+StartChar: Dcedilla.alt
+Encoding: 1114184 -1 1232
 Width: 613
 Flags: MW
 LayerCount: 2
 Fore
 Refer: 79 68 N 1 0 0 1 0 0 2
 Refer: 201 184 N 1 0 0 1 -79 0 2
-Substitution2: "Livonian comma accent-1" Dcommaaccent
-Substitution2: "Romanian comma accent-1" Dcommaaccent
+Decomposition: "D+AycA"
 EndChar
 
-StartChar: dcedilla
-Encoding: 7697 7697 1233
+StartChar: dcedilla.alt
+Encoding: 1114185 -1 1233
 Width: 613
 Flags: MW
 LayerCount: 2
 Fore
 Refer: 20 100 N 1 0 0 1 0 0 2
 Refer: 201 184 N 1 0 0 1 -45 0 2
-Substitution2: "Livonian comma accent-1" dcommaaccent
-Substitution2: "Romanian comma accent-1" dcommaaccent
+Decomposition: "d+AycA"
 EndChar
 
-StartChar: Dcommaaccent
-Encoding: 1114184 -1 1234
+StartChar: Dcedilla
+Encoding: 7696 7696 1234
 Width: 613
 Flags: MW
 LayerCount: 2
 Fore
 Refer: 79 68 N 1 0 0 1 0 0 2
 Refer: 1060 -1 S 1 0 0 1 0 0 2
+Substitution2: "Pedantic-1" Dcedilla.alt
 EndChar
 
-StartChar: dcommaaccent
-Encoding: 1114185 -1 1235
+StartChar: dcedilla
+Encoding: 7697 7697 1235
 Width: 613
 Flags: MW
 LayerCount: 2
 Fore
 Refer: 20 100 N 1 0 0 1 0 0 2
 Refer: 1060 -1 S 1 0 0 1 0 0 2
+Substitution2: "Pedantic-1" dcedilla.alt
 EndChar
 
 StartChar: uni022A
@@ -69036,7 +69036,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: Dcommaaccent.composed
+StartChar: Dcedilla.composed
 Encoding: 1114641 -1 3561
 Width: 613
 Flags: W
@@ -69047,7 +69047,7 @@ Refer: 1060 -1 S 1 0 0 1 0 0 2
 Decomposition: "D+AyYA"
 EndChar
 
-StartChar: dcommaaccent.composed
+StartChar: dcedilla.composed
 Encoding: 1114642 -1 3562
 Width: 613
 Flags: W

@@ -43,9 +43,6 @@ Romanian alphabet has S and T with comma below, not with cedilla. The `locl`
 feature for Romanian is included for compatibility: using codepoints in
 Latin Extended B is recommended.
 
-In addition, D with cedilla will be replaced with D with comma below since it
-was used for pre-1904 spelling. It is now spelt with Z.
-
 For legacy apps, use **Inconsolata LGC Romanian** in the TTC.
 
 ### Bulgarian variant ###
@@ -73,7 +70,7 @@ Delta-like _be_ also applies in Roman (non-italic) fonts.
 For legacy apps, use **Inconsolata LGC Yugoslav** in the TTC.
 
 ### Livonian comma accent ###
-Livonian alphabet has D and T with comma below, not with cedilla.
+Livonian alphabet has T with comma below, not with cedilla.
 Language system tag for Livonian language is added as `LIV ` in OpenType
 1.9.1; maybe not all systems support this yet.
 
@@ -289,10 +286,10 @@ characters.
 
 For legacy apps, use **Inconsolata LGC Pedantica** in the TTC.
 
-#### G, K, L, N, and R with cedilla ####
-![G, K, L, N, and R with cedilla](doc/GKLNR_with_cedilla.png)
+#### D, G, K, L, N, and R with cedilla ####
+![D, G, K, L, N, and R with cedilla](doc/DGKLNR_with_cedilla.png)
 
-G, K, L, N, and R with cedilla show comma below instead of cedilla by
+D, G, K, L, N, and R with cedilla show comma below instead of cedilla by
 default. This is suitable for Latvian and Livonian, but in special cases
 cedilla must be shown as is.
 
