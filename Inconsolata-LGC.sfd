@@ -54,8 +54,6 @@ Lookup: 1 0 0 "Sami variant of Eng" { "Sami variant of Eng-1"  } ['locl' ('latn'
 Lookup: 1 0 0 "Pinyin variant forms" { "Pinyin variant forms-1" ("pinyin") } ['locl' ('latn' <'ZHP ' > ) ]
 Lookup: 1 0 0 "Ewe f-hook" { "Ewe f-hook-1"  } ['locl' ('latn' <'AVN ' 'EWE ' 'LEF ' 'WCI ' > ) ]
 Lookup: 1 0 0 "Chuvash variant of The" { "Chuvash variant of The-1" ("cv") } ['locl' ('cyrl' <'CHU ' > ) ]
-Lookup: 5 0 0 "Dutch accented IJ" { "Dutch accented IJ-1"  } ['locl' ('latn' <'FLE ' 'NLD ' > ) ]
-Lookup: 1 0 0 "J with acute accent" { "J with acute accent-1"  } []
 Lookup: 1 0 0 "Navajo ogonek" { "Navajo ogonek-1" ("nav") } ['locl' ('latn' <'NAV ' > ) ]
 Lookup: 1 0 0 "Marshallese precomposed cedilla" { "Marshallese precomposed cedilla-1"  } ['locl' ('latn' <'MAH ' > ) ]
 Lookup: 1 0 0 "Kadiw+AOkA-u form of G with stroke" { "Kadiw+AOkA-u form of G with stroke-1" ("kbc") } ['cv13' ('latn' <'AVN ' 'EWE ' 'FLE ' 'ISM ' 'KBC ' 'LEF ' 'LIV ' 'LSM ' 'MAH ' 'MOL ' 'NAV ' 'NLD ' 'NSM ' 'PLK ' 'ROM ' 'SJE ' 'SJU ' 'SKS ' 'SSM ' 'WCI ' 'ZHP ' 'dflt' > ) 'locl' ('latn' <'KBC ' > ) ]
@@ -109,18 +107,6 @@ ChainSub2: coverage "Time notations" 0 0 0 1
   FCoverage: 49 zero one two three four five six seven eight nine
  1
   SeqLookup: 0 "Raised colon"
-EndFPST
-ContextSub2: glyph "Dutch accented IJ-1" 0 0 0 2
- String: 8 Iacute J
- BString: 0 
- FString: 0 
- 1
-  SeqLookup: 1 "J with acute accent"
- String: 8 iacute j
- BString: 0 
- FString: 0 
- 1
-  SeqLookup: 1 "J with acute accent"
 EndFPST
 TtTable: prep
 PUSHW_1
@@ -1964,7 +1950,6 @@ SplineSet
 EndSplineSet
 Validated: 1
 Substitution2: "Superscripts-1" jsuperior
-Substitution2: "J with acute accent-1" jacute
 EndChar
 
 StartChar: x
@@ -2483,7 +2468,6 @@ SplineSet
 EndSplineSet
 Validated: 33
 Substitution2: "Superscripts-1" uni1D36
-Substitution2: "J with acute accent-1" Jacute
 EndChar
 
 StartChar: K
@@ -24741,48 +24725,48 @@ Refer: 0 97 N 1 0 0 1 0 0 2
 Refer: 198 713 N 1 0 0 1 20 150 2
 EndChar
 
-StartChar: Dcedilla
-Encoding: 7696 7696 1232
+StartChar: Dcedilla.alt
+Encoding: 1114184 -1 1232
 Width: 613
 Flags: MW
 LayerCount: 2
 Fore
 Refer: 79 68 N 1 0 0 1 0 0 2
 Refer: 201 184 N 1 0 0 1 -79 0 2
-Substitution2: "Livonian comma accent-1" Dcommaaccent
-Substitution2: "Romanian comma accent-1" Dcommaaccent
+Decomposition: "D+AycA"
 EndChar
 
-StartChar: dcedilla
-Encoding: 7697 7697 1233
+StartChar: dcedilla.alt
+Encoding: 1114185 -1 1233
 Width: 613
 Flags: MW
 LayerCount: 2
 Fore
 Refer: 20 100 N 1 0 0 1 0 0 2
 Refer: 201 184 N 1 0 0 1 -45 0 2
-Substitution2: "Livonian comma accent-1" dcommaaccent
-Substitution2: "Romanian comma accent-1" dcommaaccent
+Decomposition: "d+AycA"
 EndChar
 
-StartChar: Dcommaaccent
-Encoding: 1114184 -1 1234
+StartChar: Dcedilla
+Encoding: 7696 7696 1234
 Width: 613
 Flags: MW
 LayerCount: 2
 Fore
 Refer: 79 68 N 1 0 0 1 0 0 2
 Refer: 1060 -1 S 1 0 0 1 0 0 2
+Substitution2: "Pedantic-1" Dcedilla.alt
 EndChar
 
-StartChar: dcommaaccent
-Encoding: 1114185 -1 1235
+StartChar: dcedilla
+Encoding: 7697 7697 1235
 Width: 613
 Flags: MW
 LayerCount: 2
 Fore
 Refer: 20 100 N 1 0 0 1 0 0 2
 Refer: 1060 -1 S 1 0 0 1 0 0 2
+Substitution2: "Pedantic-1" dcedilla.alt
 EndChar
 
 StartChar: uni022A
@@ -69556,7 +69540,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: Dcommaaccent.composed
+StartChar: Dcedilla.composed
 Encoding: 1114641 -1 3561
 Width: 613
 Flags: W
@@ -69567,7 +69551,7 @@ Refer: 1060 -1 S 1 0 0 1 0 0 2
 Decomposition: "D+AyYA"
 EndChar
 
-StartChar: dcommaaccent.composed
+StartChar: dcedilla.composed
 Encoding: 1114642 -1 3562
 Width: 613
 Flags: W

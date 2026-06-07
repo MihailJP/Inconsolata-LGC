@@ -3,6 +3,8 @@
 import fontforge, re
 from sys import argv
 from pathlib import Path
+from tempfile import TemporaryDirectory
+from subprocess import run
 import fontforge_refsel
 
 fontforge.hooks = {}  # disable hooks for this script
@@ -25,10 +27,27 @@ for glyph in sorted(fontforge_refsel.unusedGlyphs(font)):
 if argv[1].endswith(".otf"):
 	font.em = 1000
 
+glyphnames = [n for n in font]
+widthCount = len(set(glyph.width for glyph in font.glyphs()))
+
+assert not argv[1].endswith(".ttc")
+
 if argv[1].endswith(".sfd"):
 	font.save(argv[1])
-else:
+elif argv[1].endswith(".ufo") or widthCount == 1:
 	font.generate(argv[1], flags=('no-mac-names','opentype','no-FFTM-table'))
+else:
+	with TemporaryDirectory() as tmpdir:
+		tmpFont = Path(tmpdir, 'tmp.' + argv[1].split('.')[-1])
+		ttxFile = Path(tmpdir, 'tmp.ttx')
+		font.generate(str(tmpFont), flags=('no-mac-names','opentype','no-FFTM-table'))
+		run(['ttx', '-o', str(ttxFile), '-t', 'post', str(tmpFont)], check=True)
+		with open(ttxFile) as ttx:
+			ttxData = ttx.read()
+		ttxData = re.sub(r'(?<=<isFixedPitch value=")0(?=")', r"1", ttxData)
+		with open(ttxFile, "w") as ttx:
+			ttx.write(ttxData)
+		run(['ttx', '-o', argv[1], '-m', str(tmpFont), str(ttxFile)], check=True)
 
 font.close()
 
@@ -55,6 +74,11 @@ if argv[1].endswith(".ufo"): # workaround
 		for feature in gsubtags:
 			featureInstructions += "  feature {0};\n".format(feature)
 		fontFeature = re.sub(r"\bfeature\b", "feature aalt {{\n{0}}} aalt;\n\nfeature".format(featureInstructions), fontFeature, count=1)
+
+	# Check nonexistent glyphs
+	nonexistentGlyphs = set(m[0] for m in re.finditer(r'\\[\w\.]+\b', fontFeature)) - set('\\' + g for g in glyphnames)
+	for glyph in sorted(nonexistentGlyphs):
+		fontFeature = re.sub(glyph.replace("\\", "\\\\") + r'\b(?!\.)', '', fontFeature)
 
 	# Write
 	with open(Path(argv[1], "fontinfo.plist"), "w") as font:

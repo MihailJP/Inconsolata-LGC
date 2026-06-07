@@ -43,9 +43,6 @@ Romanian alphabet has S and T with comma below, not with cedilla. The `locl`
 feature for Romanian is included for compatibility: using codepoints in
 Latin Extended B is recommended.
 
-In addition, D with cedilla will be replaced with D with comma below since it
-was used for pre-1904 spelling. It is now spelt with Z.
-
 For legacy apps, use **Inconsolata LGC Romanian** in the TTC.
 
 ### Bulgarian variant ###
@@ -73,7 +70,7 @@ Delta-like _be_ also applies in Roman (non-italic) fonts.
 For legacy apps, use **Inconsolata LGC Yugoslav** in the TTC.
 
 ### Livonian comma accent ###
-Livonian alphabet has D and T with comma below, not with cedilla.
+Livonian alphabet has T with comma below, not with cedilla.
 Language system tag for Livonian language is added as `LIV ` in OpenType
 1.9.1; maybe not all systems support this yet.
 
@@ -284,10 +281,10 @@ characters.
 
 For legacy apps, use **Inconsolata LGC Pedantica** in the TTC.
 
-#### G, K, L, N, and R with cedilla ####
-![G, K, L, N, and R with cedilla](doc/GKLNR_with_cedilla.png)
+#### D, G, K, L, N, and R with cedilla ####
+![D, G, K, L, N, and R with cedilla](doc/DGKLNR_with_cedilla.png)
 
-G, K, L, N, and R with cedilla show comma below instead of cedilla by
+D, G, K, L, N, and R with cedilla show comma below instead of cedilla by
 default. This is suitable for Latvian and Livonian, but in special cases
 cedilla must be shown as is.
 
@@ -343,23 +340,6 @@ for esthetical reason.
 Some punctuation marks can be justified for all-caps texts.
 Since this is a discretionary feature, this will not be active unless there
 is not an instruction to do so.
-
-
-Deprecated features
--------------------
-
-### Dutch accented IJ ###
-![Dutch accented IJ feature](doc/Dutch_accented_ij.png)
-
-In Dutch, acute accent is used to mark stress like _vóórkomen_ vs _voorkómen_,
-or _één_ vs _een_. When _ij_ is stressed, both _i_ and _j_ should be accented.
-
-This Dutch and Flemish language-specific feature works for a _J_ preceded by
-an _I_, or a _j_ preceded by an _i_.
-
-In loanwords there may be unaccented _j_ preceded by accented _i_.
-Upcoming Inconsolata EX or Inconsolata LGC version 3 will not have this feature.
-Until removal of the feature, use ZWNJ between accented _i_ and _j_.
 
 
 Variable font
