@@ -66,11 +66,11 @@ include Inconsolata-LGC-Italic.mk
 include Inconsolata-LGC-BoldItalic.mk
 
 Inconsolata-LGC-Bold.mk: Inconsolata-LGC.mk
-	sed -E -e 's/\.(sfd|ttc)/-Bold.\1/g' $< > $@
+	sed -E -e 's/\.(sfd|ttc)/-Bold.\1/g' -e 's/SFD_REGULAR/SFD_BOLD/g' $< > $@
 Inconsolata-LGC-Italic.mk: Inconsolata-LGC.mk
-	sed -E -e 's/\.(sfd|ttc)/-Italic.\1/g' $< > $@
+	sed -E -e 's/\.(sfd|ttc)/-Italic.\1/g' -e 's/SFD_REGULAR/SFD_ITALIC/g' $< > $@
 Inconsolata-LGC-BoldItalic.mk: Inconsolata-LGC.mk
-	sed -E -e 's/\.(sfd|ttc)/-BoldItalic.\1/g' $< > $@
+	sed -E -e 's/\.(sfd|ttc)/-BoldItalic.\1/g' -e 's/SFD_REGULAR/SFD_BOLDITALIC/g' $< > $@
 
 .sfd.ttf .sfd.otf .sfd.woff .sfd.ufo:
 	for i in $?; do ./makefont.py $@ $$i; done
@@ -267,10 +267,8 @@ clean:
 	-rm -f ${FONTS} ${HINTEDTTFONTS} ${OTFONTS} ${TTCFONTS} ${WOFFFONTS} ${WOFF2FONTS} ${VARFONTS} ChangeLog
 	-rm -f ${VARFONTS:.ttf=.raw.ttf} ${TTCFONTS:.ttc=.raw.ttc}
 	-rm -f ${EXFONTS:.ttf=.sfd} ${EXFONTS} ${HINTEDEXTTFONTS} ${EXOTFONTS} ${EXWOFFFONTS} ${EXWOFF2FONTS} ${EXVARFONTS} ${EXCSS}
-	-rm -f ${FONTS:.ttf=-Intermediate.sfd}
-	-rm -f ${FONTS:.ttf=-Romanian.sfd} ${FONTS:.ttf=-Polish.sfd} ${FONTS:.ttf=-Bulgarian.sfd} ${FONTS:.ttf=-Yugoslav.sfd}
-	-rm -f ${FONTS:.ttf=-Livonian.sfd} ${FONTS:.ttf=-Sami.sfd} ${FONTS:.ttf=-Pinyin.sfd} ${FONTS:.ttf=-African.sfd}
-	-rm -f ${FONTS:.ttf=-Chuvash.sfd}
+	-rm -f $(LOCALIZED_SFD_REGULAR) $(LOCALIZED_SFD_BOLD)
+	-rm -f $(LOCALIZED_SFD_ITALIC) $(LOCALIZED_SFD_BOLDITALIC)
 	-rm -f Inconsolata-LGC-Bold.mk Inconsolata-LGC-Italic.mk Inconsolata-LGC-BoldItalic.mk
 	-rm -f Inconsolata-EX-Variable.mk
 	-rm -f prep.ttx
