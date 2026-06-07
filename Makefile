@@ -27,6 +27,7 @@ HINTEDEXTTFONTS=${EXFONTS:.ttf=-Hinted.ttf}
 EXOTFONTS=${EXFONTS:.ttf=.otf}
 EXWOFFFONTS=${EXFONTS:.ttf=.woff}
 EXWOFF2FONTS=${EXFONTS:.ttf=.woff2}
+EXTTCFONTS=${EXFONTS:.ttf=.ttc}
 UFOS=${FONTS:.ttf=.ufo} ${EXTRAPOLATES:.sfd=.ufo}
 EXUFOS=${EXFONTS:.ttf=.ufo} ${EXEXTRAPOLATES:.sfd=.ufo}
 DESIGNSPACES=Inconsolata-LGC.designspace Inconsolata-LGC-Italic.designspace
@@ -37,7 +38,7 @@ EXDOCUMENTS=${DOCUMENTS} Inconsolata-EX.md $(wildcard ${DOC_ASSET_DIR}/EX/*.png)
 PKGS=InconsolataLGC.tar.xz InconsolataLGC-Hinted.tar.xz InconsolataLGC-OT.tar.xz \
      InconsolataLGC-WOFF2.tar.xz InconsolataLGC-TTC.tar.xz InconsolataLGC-Variable.tar.xz \
 	 InconsolataEX.tar.xz InconsolataEX-Hinted.tar.xz InconsolataEX-OT.tar.xz \
-	 InconsolataEX-WOFF2.tar.xz InconsolataEX-Variable.tar.xz
+	 InconsolataEX-WOFF2.tar.xz InconsolataEX-TTC.tar.xz InconsolataEX-Variable.tar.xz
 VARFONTS=Inconsolata-LGC-Variable.ttf \
          Inconsolata-LGC-Variable-Italic.ttf
 EXVARFONTS=Inconsolata-EX-Variable.ttf \
@@ -53,10 +54,12 @@ EXTTFPKGCMD=rm -rf $*; mkdir $*; rsync -R ${EXFONTS} ${EXDOCUMENTS} $*
 HINTEDEXTTFPKGCMD=rm -rf $*; mkdir $*; rsync -R ${HINTEDEXTTFONTS} ${EXDOCUMENTS} $*
 EXOTFPKGCMD=rm -rf $*; mkdir $*; rsync -R ${EXOTFONTS} ${EXDOCUMENTS} $*
 EXWOFF2PKGCMD=rm -rf $*; mkdir $*; rsync -R ${EXWOFF2FONTS} ${EXCSS} ${EXDOCUMENTS} $*
+EXTTCPKGCMD=rm -rf $*; mkdir $*; rsync -R ${EXTTCFONTS} ${DOCUMENTS} $*
 EXVTTFPKGCMD=rm -rf $*; mkdir $*; rsync -R ${EXVARFONTS} ${EXDOCUMENTS} $*
 
 .PHONY: all
-all: ttf hintedttf otf ttc woff2 variable exttf hintedexttf exotf exwoff2 exvariable
+all: ttf hintedttf otf ttc woff2 variable \
+	exttf hintedexttf exotf exttc exwoff2 exvariable
 
 .SUFFIXES: .sfd .ttf .otf .woff .woff2 .ufo
 
@@ -65,12 +68,26 @@ include Inconsolata-LGC-Bold.mk
 include Inconsolata-LGC-Italic.mk
 include Inconsolata-LGC-BoldItalic.mk
 
+include Inconsolata-EX.mk
+include Inconsolata-EX-Bold.mk
+include Inconsolata-EX-Italic.mk
+include Inconsolata-EX-BoldItalic.mk
+
 Inconsolata-LGC-Bold.mk: Inconsolata-LGC.mk
 	sed -E -e 's/\.(sfd|ttc)/-Bold.\1/g' -e 's/SFD_REGULAR/SFD_BOLD/g' $< > $@
 Inconsolata-LGC-Italic.mk: Inconsolata-LGC.mk
 	sed -E -e 's/\.(sfd|ttc)/-Italic.\1/g' -e 's/SFD_REGULAR/SFD_ITALIC/g' $< > $@
 Inconsolata-LGC-BoldItalic.mk: Inconsolata-LGC.mk
 	sed -E -e 's/\.(sfd|ttc)/-BoldItalic.\1/g' -e 's/SFD_REGULAR/SFD_BOLDITALIC/g' $< > $@
+
+Inconsolata-EX.mk: Inconsolata-LGC.mk
+	sed -E -e 's/Inconsolata-LGC/Inconsolata-EX/g' -e 's/SFD_/EX_SFD_/g' $< > $@
+Inconsolata-EX-Bold.mk: Inconsolata-LGC-Bold.mk
+	sed -E -e 's/Inconsolata-LGC/Inconsolata-EX/g' -e 's/SFD_/EX_SFD_/g' $< > $@
+Inconsolata-EX-Italic.mk: Inconsolata-LGC-Italic.mk
+	sed -E -e 's/Inconsolata-LGC/Inconsolata-EX/g' -e 's/SFD_/EX_SFD_/g' $< > $@
+Inconsolata-EX-BoldItalic.mk: Inconsolata-LGC-BoldItalic.mk
+	sed -E -e 's/Inconsolata-LGC/Inconsolata-EX/g' -e 's/SFD_/EX_SFD_/g' $< > $@
 
 .sfd.ttf .sfd.otf .sfd.woff .sfd.ufo:
 	for i in $?; do ./makefont.py $@ $$i; done
@@ -94,10 +111,11 @@ woff: ${WOFFFONTS}
 woff2: ${WOFF2FONTS}
 variable: ${VARFONTS}
 
-.PHONY: exttf exotf exwoff exwoff2 exvariable hintedexttf
+.PHONY: exttf exotf exttc exwoff exwoff2 exvariable hintedexttf
 exttf: ${EXFONTS}
 hintedexttf: ${HINTEDEXTTFONTS}
 exotf: ${EXOTFONTS}
+exttc: ${EXTTCFONTS}
 exwoff: ${EXWOFFFONTS} ${EXCSS}
 exwoff2: ${EXWOFF2FONTS} ${EXCSS}
 exvariable: ${EXVARFONTS}
@@ -250,6 +268,15 @@ InconsolataEX-WOFF2.tar.bz2: ${EXWOFF2FONTS} ${EXCSS} ${DOCUMENTS}
 InconsolataEX-WOFF2.zip: ${EXWOFF2FONTS} ${EXCSS} ${DOCUMENTS}
 	${EXWOFF2PKGCMD}; zip -9r $@ $*
 
+InconsolataEX-TTC.tar.xz: ${EXTTCFONTS} ${DOCUMENTS}
+	${EXTTCPKGCMD}; tar cfvJ $@ $*
+InconsolataEX-TTC.tar.gz: ${EXTTCFONTS} ${DOCUMENTS}
+	${EXTTCPKGCMD}; tar cfvz $@ $*
+InconsolataEX-TTC.tar.bz2: ${EXTTCFONTS} ${DOCUMENTS}
+	${EXTTCPKGCMD}; tar cfvj $@ $*
+InconsolataEX-TTC.zip: ${EXTTCFONTS} ${DOCUMENTS}
+	${EXTTCPKGCMD}; zip -9r $@ $*
+
 InconsolataEX-Variable.tar.xz: ${EXVARFONTS} ${DOCUMENTS}
 	${EXVTTFPKGCMD}; tar cfvJ $@ $*
 InconsolataEX-Variable.tar.gz: ${EXVARFONTS} ${DOCUMENTS}
@@ -269,8 +296,11 @@ clean:
 	-rm -f ${EXFONTS:.ttf=.sfd} ${EXFONTS} ${HINTEDEXTTFONTS} ${EXOTFONTS} ${EXWOFFFONTS} ${EXWOFF2FONTS} ${EXVARFONTS} ${EXCSS}
 	-rm -f $(LOCALIZED_SFD_REGULAR) $(LOCALIZED_SFD_BOLD)
 	-rm -f $(LOCALIZED_SFD_ITALIC) $(LOCALIZED_SFD_BOLDITALIC)
+	-rm -f $(LOCALIZED_EX_SFD_REGULAR) $(LOCALIZED_EX_SFD_BOLD)
+	-rm -f $(LOCALIZED_EX_SFD_ITALIC) $(LOCALIZED_EX_SFD_BOLDITALIC)
 	-rm -f Inconsolata-LGC-Bold.mk Inconsolata-LGC-Italic.mk Inconsolata-LGC-BoldItalic.mk
-	-rm -f Inconsolata-EX-Variable.mk
+	-rm -f Inconsolata-EX-Variable.mk Inconsolata-EX.mk
+	-rm -f Inconsolata-EX-Bold.mk Inconsolata-EX-Italic.mk Inconsolata-EX-BoldItalic.mk
 	-rm -f prep.ttx
 	-rm -rf ${UFOS} ${EXTRAPOLATES} ${DESIGNSPACES}
 	-rm -rf ${EXUFOS} ${EXEXTRAPOLATES} ${EXDESIGNSPACES}
