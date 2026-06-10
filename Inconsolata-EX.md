@@ -26,6 +26,13 @@ Regional forms
 Inconsolata EX supports OpenType `locl` feature to display langauge-specific
 variants.
 
+### Catalan _l·l_ ligature ###
+![Catalan l·l ligature](doc/EX/Catalan_LL_ligatures.png)
+
+In Catalan, unique spelling _l·l_ should have 2-character wide,
+and middle dot (_punt volat_) should be in the middle of
+vertical stems of two L’s.
+
 ### Arabic-Indic digits ###
 ![Regional variants of Arabic-Indic digits](doc/EX/Arabic-Indic_digits.png)
 

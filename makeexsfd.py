@@ -614,6 +614,46 @@ def fixAllLang(font: fontforge.font, oldAllLang: LangDict, newAllLang: LangDict)
             newTags.append((tag, langDictToLangTuple(newLangDict)))
         font.lookupSetFeatureList(lookup, tuple(newTags))
 
+def addLdotL(font: fontforge.font):
+    lastLoclLookup = font.gsub_lookups[font.gsub_lookups.index('Old style numerals') - 1]
+    font.addLookup('Catalan punt volat precomposed', 'gsub_single', None, (), lastLoclLookup)
+    font.addLookupSubtable('Catalan punt volat precomposed', 'Catalan punt volat precomposed-1')
+    font.addLookup('Catalan punt volat ligature', 'gsub_ligature', None, (), lastLoclLookup)
+    font.addLookupSubtable('Catalan punt volat ligature', 'Catalan punt volat ligature-1')
+    dot_bb = font['periodcentered'].boundingBox()
+    for ligature in ['L_periodcentered.cat', 'l_periodcentered.cat']:
+        base = ligature[0]
+        font.createChar(-1, ligature)
+        font.selection.select(base)
+        font.copyReference()
+        font.selection.select(ligature)
+        font.paste()
+        font[ligature].useRefsMetrics(base)
+        stem = font[ligature].xBoundsAtY(dot_bb[1], dot_bb[3])
+        assert stem is not None
+        stemX = (stem[0] + stem[1]) / 2
+        dotX = (dot_bb[0] + dot_bb[2]) / 2
+        targetX = stemX + font[ligature].width / 2
+        font[ligature].addReference('periodcentered', translate(targetX - dotX, 0))
+        font[ligature].addPosSub('Catalan punt volat ligature-1', (base, 'periodcentered'))
+        font[ligature].lcarets = (306,)
+    for ligature in ['Ldot.cat', 'ldot.cat']:
+        font.createChar(-1, ligature)
+        font.selection.select(ligature[0] + '_periodcentered.cat')
+        font.copy()
+        font.selection.select(ligature)
+        font.paste()
+        font[ligature.removesuffix('.cat')].addPosSub('Catalan punt volat precomposed-1', ligature)
+    font.addLookup('Catalan L-L', 'gsub_contextchain', None, (('locl', (('latn', ('CAT ',)),)),), lastLoclLookup)
+    for ligprec in [('precomposed', 'dot', ''), ('ligature', '', ' periodcentered')]:
+        for ell in ['l', 'L']:
+            font.addContextualSubtable(
+                'Catalan L-L',
+                'Catalan {0:}-{0:} {1:}'.format(ell, ligprec[0]),
+                'glyph',
+                '| {0:}{2:} @<Catalan punt volat {1:}>{3:} | {0:}'.format(ell, *ligprec),
+            )
+
 font = fontforge.open(argv[2])
 font2 = fontforge.open(argv[3])
 font.encoding = 'Original'
@@ -631,6 +671,7 @@ if font.italicangle != 0:
 removeUnusedAnchorClass(font2)
 diacritics(font)
 oldAllLang = getLangDict(font)
+addLdotL(font)
 font.mergeFonts(argv[3])
 font.save(argv[1])
 font.close()  # workaround
