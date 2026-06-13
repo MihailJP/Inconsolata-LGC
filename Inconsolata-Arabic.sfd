@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1161020814
-ModificationTime: 1781322810
+ModificationTime: 1781328967
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 5
@@ -67,7 +67,7 @@ Lookup: 262 1 0 "Arabic above-base mark-to-mark positioning" { "Arabic above-bas
 MarkAttachClasses: 1
 DEI: 91125
 ChainSub2: class "Legacy wide seen and sad-1" 2 0 2 1
-  Class: 231 uniFEB1 uniFEB2 uniFEB5 uniFEB6 uniFEB9 uniFEBA uniFEBD uniFEBE uni069A uni069A.fina uni069E uni069E.fina uni069B uni069B.fina uni069C uni069C.fina uni069D uni069D.fina uni06FA uni06FA.fina uni06FB uni06FB.fina uni0771 uni0771.fina
+  Class: 252 uniFEB1 uniFEB2 uniFEB5 uniFEB6 uniFEB9 uniFEBA uniFEBD uniFEBE uni069A uni069A.fina uni069E uni069E.fina uni069B uni069B.fina uni069C uni069C.fina uni069D uni069D.fina uni06FA uni06FA.fina uni06FB uni06FB.fina uni0771 uni0771.fina uni075C uni075C.fina
   FClass: 7 uniFE73
  1 0 1
   ClsList: 1
@@ -128,7 +128,7 @@ Grid
 EndSplineSet
 TeXData: 1 0 0 629145 314572 209715 554697 1048576 209715 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "rtl-above-mark" "Arabic above-base mark-to-mark positioning" "rtl-below-mark" "Arabic below-base mark-to-mark positioning" "rtl-above" "Arabic above-base mark positioning" "Ligature rtl-above" "Arabic above-base mark-to-ligature positioning" "rtl-below" "Arabic below-base mark positioning" "Ligature rtl-below" "Arabic below-base mark-to-ligature positioning"
-BeginChars: 65803 760
+BeginChars: 65808 767
 
 StartChar: comma
 Encoding: 44 44 0
@@ -13424,6 +13424,102 @@ Fore
 Refer: 305 1557 N 1 0 0 1 -99 -101 2
 Refer: 154 -1 N 1 0 0 1 118 400 2
 Refer: 141 -1 N 1 0 0 1 0 0 2
+Colour: ffff
+EndChar
+
+StartChar: uni075C
+Encoding: 1884 1884 760
+Width: 613
+Flags: W
+AnchorPoint: "rtl-above" 238 687 basechar 0
+AnchorPoint: "rtl-below" 340 -182 basechar 0
+LayerCount: 2
+Fore
+Refer: 418 -1 N 1 0 0 1 185 518 2
+Refer: 52 65201 N 1 0 0 1 0 0 2
+Substitution2: "Forms before tail fragment-1" uni075C.alt
+Substitution2: "Medial forms-1" uni075C.medi
+Substitution2: "Initial forms-1" uni075C.init
+Substitution2: "Final forms-1" uni075C.fina
+Colour: ffff
+EndChar
+
+StartChar: uni075C.fina
+Encoding: 65803 -1 761
+Width: 613
+Flags: W
+AnchorPoint: "rtl-above" 79 652 basechar 0
+AnchorPoint: "rtl-below" 119 -242 basechar 0
+LayerCount: 2
+Fore
+Refer: 418 -1 N 1 0 0 1 118 518 2
+Refer: 53 65202 N 1 0 0 1 0 0 2
+Substitution2: "Forms before tail fragment-1" uni075C.fina.alt
+Colour: ffff
+EndChar
+
+StartChar: uni075C.init
+Encoding: 65804 -1 762
+Width: 613
+Flags: W
+AnchorPoint: "rtl-above" 150 661 basechar 0
+AnchorPoint: "rtl-below" 142 -74 basechar 0
+LayerCount: 2
+Fore
+Refer: 418 -1 N 1 0 0 1 212 518 2
+Refer: 54 65203 N 1 0 0 1 0 0 2
+Colour: ffff
+EndChar
+
+StartChar: uni075C.medi
+Encoding: 65805 -1 763
+Width: 613
+Flags: W
+AnchorPoint: "rtl-above" 129 654 basechar 0
+AnchorPoint: "rtl-below" 146 -74 basechar 0
+LayerCount: 2
+Fore
+Refer: 418 -1 N 1 0 0 1 180 518 2
+Refer: 55 65204 N 1 0 0 1 0 0 2
+Colour: ffff
+EndChar
+
+StartChar: uni075C.alt
+Encoding: 65806 -1 764
+Width: 613
+Flags: W
+AnchorPoint: "rtl-above" 238 687 basechar 0
+AnchorPoint: "rtl-below" 340 -182 basechar 0
+LayerCount: 2
+Fore
+Refer: 418 -1 N 1 0 0 1 185 518 2
+Refer: 140 -1 N 1 0 0 1 0 0 2
+Colour: ffff
+EndChar
+
+StartChar: uni075C.fina.alt
+Encoding: 65807 -1 765
+Width: 613
+Flags: W
+AnchorPoint: "rtl-above" 79 652 basechar 0
+AnchorPoint: "rtl-below" 119 -242 basechar 0
+LayerCount: 2
+Fore
+Refer: 418 -1 N 1 0 0 1 118 518 2
+Refer: 141 -1 N 1 0 0 1 0 0 2
+Colour: ffff
+EndChar
+
+StartChar: uni08FF
+Encoding: 2303 2303 766
+Width: 0
+Flags: W
+AnchorPoint: "rtl-above" 300 565 mark 0
+AnchorPoint: "Ligature rtl-above" 300 565 mark 0
+AnchorPoint: "rtl-above-mark" 300 565 mark 0
+LayerCount: 2
+Fore
+Refer: 524 1624 N 0 1 -1 0 1038 441 2
 Colour: ffff
 EndChar
 EndChars
