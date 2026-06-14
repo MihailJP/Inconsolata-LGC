@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1161020814
-ModificationTime: 1781438381
+ModificationTime: 1781444642
 PfmFamily: 49
 TTFWeight: 700
 TTFWidth: 5
@@ -75,6 +75,7 @@ Lookup: 3 0 0 "Che with hook" { "Che with hook-1"  } ['cv09' ('cyrl' <'BGR ' 'BO
 Lookup: 3 0 0 "Ge with hook" { "Ge with hook-1"  } ['cv10' ('cyrl' <'BGR ' 'BOS ' 'CHU ' 'MKD ' 'SRB ' 'dflt' > ) ]
 Lookup: 1 0 0 "Ge with stroke and descender" { "Ge with stroke and descender-1"  } ['cv11' ('cyrl' <'BGR ' 'BOS ' 'CHU ' 'MKD ' 'SRB ' 'dflt' > ) ]
 Lookup: 1 0 0 "Alternative glyphs for control characters" { "Alternative glyphs for control characters-1"  } ['cv12' ('DFLT' <'dflt' > 'brai' <'dflt' > 'cyrl' <'BGR ' 'BOS ' 'CHU ' 'MKD ' 'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'AVN ' 'EWE ' 'FLE ' 'ISM ' 'KBC ' 'LEF ' 'LIV ' 'LSM ' 'MAH ' 'MOL ' 'NAV ' 'NLD ' 'NSM ' 'PLK ' 'ROM ' 'SJE ' 'SJU ' 'SKS ' 'SSM ' 'WCI ' 'ZHP ' 'dflt' > ) ]
+Lookup: 1 0 0 "Koalib casing at" { "Koalib casing at-1" ("koalib") } ['cv14' ('DFLT' <'dflt' > 'brai' <'dflt' > 'cyrl' <'BGR ' 'BOS ' 'CHU ' 'MKD ' 'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'AVN ' 'EWE ' 'FLE ' 'ISM ' 'KBC ' 'LEF ' 'LIV ' 'LSM ' 'MAH ' 'MOL ' 'NAV ' 'NLD ' 'NSM ' 'PLK ' 'ROM ' 'SJE ' 'SJU ' 'SKS ' 'SSM ' 'WCI ' 'ZHP ' 'dflt' > ) ]
 Lookup: 1 0 0 "German alternative umlaut" { "German alternative umlaut-1"  } ['ss01' ('latn' <'AVN ' 'EWE ' 'FLE ' 'ISM ' 'KBC ' 'LEF ' 'LIV ' 'LSM ' 'MAH ' 'MOL ' 'NAV ' 'NLD ' 'NSM ' 'PLK ' 'ROM ' 'SJE ' 'SJU ' 'SKS ' 'SSM ' 'WCI ' 'ZHP ' 'dflt' > ) ]
 Lookup: 1 0 0 "Polytonic Greek alternative circumflex" { "Polytonic Greek alternative circumflex-1" ("alt") } ['ss02' ('grek' <'dflt' > ) ]
 Lookup: 1 0 0 "Pedantic" { "Pedantic-1"  } ['ss03' ('latn' <'AVN ' 'EWE ' 'FLE ' 'ISM ' 'KBC ' 'LEF ' 'LIV ' 'LSM ' 'MAH ' 'MOL ' 'NAV ' 'NLD ' 'NSM ' 'PLK ' 'ROM ' 'SJE ' 'SJU ' 'SKS ' 'SSM ' 'WCI ' 'ZHP ' 'dflt' > ) ]
@@ -156,7 +157,7 @@ Grid
  416.256 939.008 l 1049
 EndSplineSet
 TeXData: 1 0 0 629145 314572 209715 554697 1048576 209715 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 1114640 3612
+BeginChars: 1114643 3615
 
 StartChar: a
 Encoding: 97 97 0
@@ -69229,6 +69230,7 @@ LayerCount: 2
 Fore
 Refer: 3530 7468 N 1 0 0 1 -25 -150 2
 Refer: 1616 -1 N 1 0 0 1 0 0 2
+Substitution2: "Koalib casing at-1" Acircle.koalib
 EndChar
 
 StartChar: uni24B7
@@ -69490,6 +69492,7 @@ LayerCount: 2
 Fore
 Refer: 3505 7491 N 1 0 0 1 -12 -100 2
 Refer: 1616 -1 N 1 0 0 1 0 0 2
+Substitution2: "Koalib casing at-1" acircle.koalib
 EndChar
 
 StartChar: uni24D1
@@ -69741,6 +69744,78 @@ LayerCount: 2
 Fore
 Refer: 3529 7611 N 1 0 0 1 -17 -100 2
 Refer: 1616 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: Acircle.koalib
+Encoding: 1114640 -1 3612
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 3530 7468 N 1 0 0 1 20 -150 2
+Refer: 3614 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: acircle.koalib
+Encoding: 1114641 -1 3613
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+456 554 m 0
+ 525 554 586 527 619 481 c 0
+ 643 448 637 414 632 385 c 2
+ 583 106 l 1
+ 481 106 l 1
+ 484 127 l 1
+ 451 107 414 96 376 96 c 0
+ 284 96 218 163 234 251 c 0
+ 245 314 300 379 385 408 c 0
+ 436 425 480 425 514 425 c 2
+ 531 425 l 1
+ 521 445 486 459 437 459 c 0
+ 321 459 219 407 196 275 c 0
+ 172 139 257 84 369 84 c 0
+ 434 84 476 101 508 116 c 1
+ 539 31 l 1
+ 503 15 439 -13 345 -13 c 0
+ 215 -13 58 51 97 274 c 0
+ 129 455 273 554 456 554 c 0
+518 320 m 2
+ 521 336 l 1
+ 504 336 l 2
+ 474 336 428 335 389 314 c 0
+ 357 296 343 276 339 255 c 0
+ 333 221 361 191 407 191 c 0
+ 437 191 469 205 488 230 c 0
+ 504 250 510 275 516 305 c 0
+ 517 310 517 315 518 320 c 2
+EndSplineSet
+EndChar
+
+StartChar: at.outer
+Encoding: 1114642 -1 3614
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+554 46 m 1
+ 482 7 432 -13 358 -13 c 0
+ 202 -13 50 100 98 373 c 0
+ 145 638 326 751 464 751 c 0
+ 556 751 632 701 657 611 c 0
+ 674 552 664 492 654 437 c 2
+ 603 148 l 1
+ 501 148 l 1
+ 561 487 l 2
+ 581 600 523 657 445 657 c 0
+ 354 657 232 575 197 376 c 0
+ 160 165 275 84 382 84 c 0
+ 428 84 470 96 523 130 c 1
+ 554 46 l 1
+EndSplineSet
 EndChar
 EndChars
 EndSplineFont

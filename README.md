@@ -258,6 +258,17 @@ Symbol notations for U+2400 to U+2421 in Control Pictures.
 G with stroke has alternative glyphs said above. Use this character variant
 feature to discretionally activate those glyphs.
 
+### `cv14`: Koalib casing at signs ###
+![Circled A's and casing pair of at signs](doc/Koalib_casing_at.png)
+
+In Koalib language, casing pair of at sign is occasionally used
+in Arabic loanwords.
+However they have not gotten they Unicode codepoints
+(there is a rejected suggestion to encode them.)
+And there is no OpenType language tags for Koalib.
+
+For legacy apps, use **Inconsolata LGC African** in the TTC.
+
 
 Style sets
 ----------

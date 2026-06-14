@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1161020814
-ModificationTime: 1781439633
+ModificationTime: 1781444590
 PfmFamily: 49
 TTFWeight: 700
 TTFWidth: 5
@@ -75,6 +75,7 @@ Lookup: 3 0 0 "Che with hook" { "Che with hook-1"  } ['cv09' ('cyrl' <'BGR ' 'BO
 Lookup: 3 0 0 "Ge with hook" { "Ge with hook-1"  } ['cv10' ('cyrl' <'BGR ' 'BOS ' 'CHU ' 'MKD ' 'SRB ' 'dflt' > ) ]
 Lookup: 1 0 0 "Ge with stroke and descender" { "Ge with stroke and descender-1"  } ['cv11' ('cyrl' <'BGR ' 'BOS ' 'CHU ' 'MKD ' 'SRB ' 'dflt' > ) ]
 Lookup: 1 0 0 "Alternative glyphs for control characters" { "Alternative glyphs for control characters-1"  } ['cv12' ('DFLT' <'dflt' > 'brai' <'dflt' > 'cyrl' <'BGR ' 'BOS ' 'CHU ' 'MKD ' 'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'AVN ' 'EWE ' 'FLE ' 'ISM ' 'KBC ' 'LEF ' 'LIV ' 'LSM ' 'MAH ' 'MOL ' 'NAV ' 'NLD ' 'NSM ' 'PLK ' 'ROM ' 'SJE ' 'SJU ' 'SKS ' 'SSM ' 'WCI ' 'ZHP ' 'dflt' > ) ]
+Lookup: 1 0 0 "Koalib casing at" { "Koalib casing at-1" ("koalib") } ['cv14' ('DFLT' <'dflt' > 'brai' <'dflt' > 'cyrl' <'BGR ' 'BOS ' 'CHU ' 'MKD ' 'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'AVN ' 'EWE ' 'FLE ' 'ISM ' 'KBC ' 'LEF ' 'LIV ' 'LSM ' 'MAH ' 'MOL ' 'NAV ' 'NLD ' 'NSM ' 'PLK ' 'ROM ' 'SJE ' 'SJU ' 'SKS ' 'SSM ' 'WCI ' 'ZHP ' 'dflt' > ) ]
 Lookup: 1 0 0 "German alternative umlaut" { "German alternative umlaut-1"  } ['ss01' ('latn' <'AVN ' 'EWE ' 'FLE ' 'ISM ' 'KBC ' 'LEF ' 'LIV ' 'LSM ' 'MAH ' 'MOL ' 'NAV ' 'NLD ' 'NSM ' 'PLK ' 'ROM ' 'SJE ' 'SJU ' 'SKS ' 'SSM ' 'WCI ' 'ZHP ' 'dflt' > ) ]
 Lookup: 1 0 0 "Polytonic Greek alternative circumflex" { "Polytonic Greek alternative circumflex-1" ("alt") } ['ss02' ('grek' <'dflt' > ) ]
 Lookup: 1 0 0 "Pedantic" { "Pedantic-1"  } ['ss03' ('latn' <'AVN ' 'EWE ' 'FLE ' 'ISM ' 'KBC ' 'LEF ' 'LIV ' 'LSM ' 'MAH ' 'MOL ' 'NAV ' 'NLD ' 'NSM ' 'PLK ' 'ROM ' 'SJE ' 'SJU ' 'SKS ' 'SSM ' 'WCI ' 'ZHP ' 'dflt' > ) ]
@@ -156,7 +157,7 @@ Grid
  416.256 939.008 l 1049
 EndSplineSet
 TeXData: 1 0 0 629145 314572 209715 554697 1048576 209715 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 1114646 3618
+BeginChars: 1114649 3621
 
 StartChar: a
 Encoding: 97 97 0
@@ -69155,6 +69156,7 @@ LayerCount: 2
 Fore
 Refer: 3536 7468 N 1 0 0 1 1 -150 2
 Refer: 1625 -1 N 1 0 0 1 0 0 2
+Substitution2: "Koalib casing at-1" Acircle.koalib
 EndChar
 
 StartChar: Bcircle
@@ -69416,6 +69418,7 @@ LayerCount: 2
 Fore
 Refer: 3511 7491 N 1 0 0 1 6 -100 2
 Refer: 1625 -1 N 1 0 0 1 0 0 2
+Substitution2: "Koalib casing at-1" acircle.koalib
 EndChar
 
 StartChar: bcircle
@@ -69667,6 +69670,79 @@ LayerCount: 2
 Fore
 Refer: 3535 7611 N 1 0 0 1 1 -100 2
 Refer: 1625 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: Acircle.koalib
+Encoding: 1114646 -1 3618
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 3536 7468 N 1 0 0 1 20 -150 2
+Refer: 3620 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: acircle.koalib
+Encoding: 1114647 -1 3619
+Width: 613
+UnlinkRmOvrlpSave: 1
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+358 554 m 0
+ 427 554 493 527 534 481 c 0
+ 564 448 564 414 564 385 c 2
+ 564 106 l 1
+ 462 106 l 1
+ 462 127 l 1
+ 433 107 397 96 359 96 c 0
+ 267 96 190 163 190 251 c 0
+ 190 314 233 379 313 408 c 0
+ 361 425 405 425 439 425 c 2
+ 456 425 l 1
+ 442 445 405 459 356 459 c 0
+ 240 459 148 407 148 275 c 0
+ 148 139 242 84 354 84 c 0
+ 419 84 459 101 488 116 c 1
+ 534 31 l 1
+ 501 15 441 -13 347 -13 c 0
+ 217 -13 49 51 49 274 c 0
+ 49 455 175 554 358 554 c 0
+462 320 m 2
+ 462 336 l 1
+ 445 336 l 2
+ 415 336 369 335 334 314 c 0
+ 305 296 294 276 294 255 c 0
+ 294 221 327 191 373 191 c 0
+ 403 191 432 205 447 230 c 0
+ 459 250 461 275 462 305 c 0
+ 462 310 462 315 462 320 c 2
+EndSplineSet
+EndChar
+
+StartChar: at.outer
+Encoding: 1114648 -1 3620
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+545.85122989 45.8965418284 m 1
+ 481 7 434 -13 360 -13 c 0
+ 204.136905902 -13 32 99.8487841451 32 372.848866499 c 0
+ 32 637.915263845 193.765673096 751 332 751 c 0
+ 423.500144727 751 509.136734894 700.779372251 549.655078577 611.212507269 c 0
+ 576.737753178 551.838951413 577 492.222717283 577 437.252717283 c 2
+ 577 148 l 1
+ 475 148 l 1
+ 475 487 l 2
+ 475 600.01724782 407.367259172 657 329 657 c 0
+ 237.850298291 657 131 574.430403662 131 375.726368159 c 0
+ 131 164.766748022 259.653206136 84 367 84 c 0
+ 413 84 453 96 500.2413691 129.759834249 c 1
+ 545.85122989 45.8965418284 l 1
+EndSplineSet
 EndChar
 EndChars
 EndSplineFont

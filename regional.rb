@@ -28,7 +28,11 @@ t = {
 		"Tcommaaccent" => "Tcedilla",
 		"tcommaaccent" => "tcedilla",
 	}},
-	"ewe" => {namesuffix: "African",   swap: {"florin" => "fscript.ewe"}},
+	"ewe" => {namesuffix: "African",   swap: {
+		"florin" => "fscript.ewe",
+		"Acircle" => "Acircle.koalib",
+		"acircle" => "acircle.koalib",
+	}},
 	"cv"  => {namesuffix: "Chuvash",   tag: /\.cv$/     },
 	"mah" => {namesuffix: "Marshallese",  swap: {
 		"Lcommaaccent" => "Lcedilla.mah",
