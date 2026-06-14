@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1161020814
-ModificationTime: 1780754915
+ModificationTime: 1781430651
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 5
@@ -156,7 +156,7 @@ Grid
  416.256 939.008 l 1049
 EndSplineSet
 TeXData: 1 0 0 629145 314572 209715 554697 1048576 209715 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 1114637 3557
+BeginChars: 1114640 3560
 
 StartChar: a
 Encoding: 97 97 0
@@ -2705,6 +2705,7 @@ SplineSet
  323 292 l 0
  175 740 l 0
 EndSplineSet
+Substitution2: "Superscripts-1" Y.superior
 EndChar
 
 StartChar: yen
@@ -2766,6 +2767,7 @@ SplineSet
  201 665 l 0
  214 739 l 0
 EndSplineSet
+Substitution2: "Superscripts-1" Z.superior
 EndChar
 
 StartChar: Q
@@ -2907,6 +2909,7 @@ SplineSet
  388 459 l 1
  590 740 l 1
 EndSplineSet
+Substitution2: "Superscripts-1" X.superior
 EndChar
 
 StartChar: six
@@ -69169,6 +69172,72 @@ Fore
 Refer: 20 100 N 1 0 0 1 0 0 2
 Refer: 1056 -1 S 1 0 0 1 0 0 2
 Decomposition: "d+AyYA"
+EndChar
+
+StartChar: X.superior
+Encoding: 1114637 -1 3557
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+524 742 m 1
+ 594 742 l 1
+ 439 525 l 1
+ 530 298 l 1
+ 453 298 l 1
+ 389 464 l 1
+ 270 298 l 1
+ 195 298 l 1
+ 360 524 l 1
+ 275 742 l 1
+ 350 742 l 1
+ 409 584 l 1
+ 524 742 l 1
+EndSplineSet
+EndChar
+
+StartChar: Y.superior
+Encoding: 1114638 -1 3558
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+264 742 m 1
+ 342 742 l 1
+ 408 539 l 1
+ 537 741 l 1
+ 611 741 l 1
+ 431 473 l 1
+ 401 298 l 1
+ 329 298 l 1
+ 359 473 l 1
+ 264 742 l 1
+EndSplineSet
+EndChar
+
+StartChar: Z.superior
+Encoding: 1114639 -1 3559
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+294 741 m 1
+ 587 741 l 1
+ 578 697 l 1
+ 306 360 l 1
+ 499 360 l 0
+ 504 360 508 365 519 365 c 8
+ 523 365 526 365 530 365 c 17
+ 518 297 l 1
+ 206 297 l 1
+ 214 342 l 1
+ 491 678 l 1
+ 283 678 l 1
+ 294 741 l 1
+EndSplineSet
 EndChar
 EndChars
 EndSplineFont
