@@ -46,17 +46,17 @@ jobs:
         name: variable
         path: InconsolataLGC-Variable/**
     - name: Upload an EX Static TTF Artifact
-      uses: actions/upload-artifact@v4
+      uses: actions/upload-artifact@v7
       with:
         name: exttf
         path: InconsolataEX/**
     - name: Upload a Hinted EX TTF Artifact
-      uses: actions/upload-artifact@v4
+      uses: actions/upload-artifact@v7
       with:
         name: hinted-ex
         path: InconsolataEX-Hinted/**
     - name: Upload an EX Variable TTF Artifact
-      uses: actions/upload-artifact@v4
+      uses: actions/upload-artifact@v7
       with:
         name: exvariable
         path: InconsolataEX-Variable/**
