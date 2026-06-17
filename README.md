@@ -263,7 +263,7 @@ feature to discretionally activate those glyphs.
 
 In Koalib language, casing pair of at sign is occasionally used
 in Arabic loanwords.
-However they have not gotten they Unicode codepoints
+However they have not gotten their Unicode codepoints
 (there is a rejected suggestion to encode them.)
 And there is no OpenType language tags for Koalib.
 
