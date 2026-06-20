@@ -355,7 +355,7 @@ def lgcMarkAnchors(font: fontforge.font):
     def addChar(font: fontforge.font, sourcename: str, targetuni: int, targetname: str, xoffset:int):
         font.createChar(targetuni, targetname)
         font[targetname].width = 0
-        font[targetname].addReference(sourcename, translate(*anchorCoord(font, xoffset - 613, yTranslate(font, sourcename))))
+        font[targetname].addReference(sourcename, translate(*anchorCoord(font, xoffset - 306, yTranslate(font, sourcename))))
         font[targetname].glyphclass = 'mark'
         left, _, _, top = font[sourcename].boundingBox()
         if left > 400:
@@ -366,7 +366,7 @@ def lgcMarkAnchors(font: fontforge.font):
         else:
             anchor = 'LGC-accent-above'
             y = 554
-        font[targetname].addAnchorPoint(anchor, 'mark', *anchorCoord(font, -307, y))
+        font[targetname].addAnchorPoint(anchor, 'mark', *anchorCoord(font, 0, y))
 
     font.addLookup(
         'Combining Greek breathing marks',
@@ -465,9 +465,9 @@ def precomposedDiacritics(font: fontforge.font):
     composedDiacritics = [g for g in font.glyphs() if 'cmb_' in g.glyphname or 'comb_' in g.glyphname]
     for glyph in composedDiacritics:
         assert glyph.boundingBox()[3] > 100 and glyph.boundingBox()[0] < 400
-        glyph.transform(translate(-613, 0))
+        glyph.transform(translate(-306, 0))
         glyph.width = 0
-        glyph.addAnchorPoint('LGC-accent-above', 'mark', *anchorCoord(font, -307, 554))
+        glyph.addAnchorPoint('LGC-accent-above', 'mark', *anchorCoord(font, 0, 554))
         glyph.glyphclass = 'mark'
         if '.' not in glyph.glyphname:
             glyph.addPosSub('Precomposed diacritics-1', tuple(glyph.glyphname.split('_')))
@@ -594,7 +594,7 @@ def mark_dottedcircle(font: fontforge.font):
         lookupOrder = lookupName
 
         if font.getLookupInfo(lookup)[0] == 'gpos_mark2base':
-            markCoordinates = sum([[(a[2] + (613 if (lambda bb: abs(bb[0]) > abs(bb[2]))(font[g].boundingBox()) else 0), a[3]) for a in font[g].anchorPoints if a[0] == anchor] for g in mark], [])
+            markCoordinates = sum([[(a[2] + (306 if (lambda bb: (bb[0] * bb[2]) < 0)(font[g].boundingBox()) else 0), a[3]) for a in font[g].anchorPoints if a[0] == anchor] for g in mark], [])
             averagex = sum([p[0] for p in markCoordinates], 0.0) / len(markCoordinates)
             averagey = sum([p[1] for p in markCoordinates], 0.0) / len(markCoordinates)
             for g in ['dottedcircle', 'invalidbase']:
