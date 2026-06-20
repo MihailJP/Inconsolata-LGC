@@ -140,7 +140,7 @@ lgcRange = [
 
 def lgcBaseAnchors(font: fontforge.font):
     def trunkGlyph(glyph: fontforge.glyph) -> Optional[fontforge.glyph]:
-        trunkname = re.sub(r'\.(serif|bg|mkd|ewe|var\d?|pinyin|alt|dotless)+$', '', glyph.glyphname)
+        trunkname = re.sub(r'\.(serif|bg|mkd|ewe|nav|kbc|cat|var\d?|pinyin|alt|dotless)+$', '', glyph.glyphname)
         if trunkname == 'fscript':
             trunkname = 'florin'
         if trunkname not in glyph.font or trunkname == glyph.glyphname:
@@ -272,6 +272,8 @@ def lgcBaseAnchors(font: fontforge.font):
                 positions[dotless][0] = positions['dotless' + base][0]
             if not positions[dotless][1]:
                 positions[dotless][1] = positions[dotted][1]
+    for glyph in (g.glyphname.removesuffix('.nav') for g in font.glyphs() if g.glyphname.endswith('.nav')):
+        positions[glyph + '.nav'] = positions[glyph]
     for glyph, pos in positions.items():  # add anchors
         abovePos, belowPos = [((sum([p[0] for p in q]) / len(q), sum([p[1] for p in q]) / len(q)) if len(q) else None) for q in pos]
         if abovePos:
