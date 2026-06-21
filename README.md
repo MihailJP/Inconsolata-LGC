@@ -269,6 +269,11 @@ And there is no OpenType language tags for Koalib.
 
 For legacy apps, use **Inconsolata LGC African** in the TTC.
 
+### `cv15`: Closed Latin OU ###
+![Open and closed Latin OU](doc/closed_Latin_ou.png)
+
+Latin letter OU has open and closed variants.
+
 
 Style sets
 ----------

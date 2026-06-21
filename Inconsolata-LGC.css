@@ -38,6 +38,7 @@ Usage in your stylesheets:
 	font-variant-alternates: character-variant(ge-with-stroke-and-descender);
 	font-variant-alternates: character-variant(g-with-stroke);
 	font-variant-alternates: character-variant(koalib-casing-at);
+	font-variant-alternates: character-variant(closed-latin-ou);
 	font-variant-numeric: oldstyle-nums;
 */
 
@@ -96,6 +97,7 @@ Usage in your stylesheets:
 		control-pictures-symbols: 12 1;
 		g-with-stroke: 13 1;
 		koalib-casing-at: 14 1;
+		closed-latin-ou: 15 1;
 	}
 }
 

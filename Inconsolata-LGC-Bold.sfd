@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1161020814
-ModificationTime: 1781958208
+ModificationTime: 1782011464
 PfmFamily: 49
 TTFWeight: 700
 TTFWidth: 5
@@ -76,6 +76,7 @@ Lookup: 3 0 0 "Ge with hook" { "Ge with hook-1"  } ['cv10' ('cyrl' <'BGR ' 'BOS 
 Lookup: 1 0 0 "Ge with stroke and descender" { "Ge with stroke and descender-1"  } ['cv11' ('cyrl' <'BGR ' 'BOS ' 'CHU ' 'MKD ' 'SRB ' 'dflt' > ) ]
 Lookup: 1 0 0 "Alternative glyphs for control characters" { "Alternative glyphs for control characters-1"  } ['cv12' ('DFLT' <'dflt' > 'brai' <'dflt' > 'cyrl' <'BGR ' 'BOS ' 'CHU ' 'MKD ' 'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'AVN ' 'EWE ' 'FLE ' 'ISM ' 'KBC ' 'LEF ' 'LIV ' 'LSM ' 'MAH ' 'MOL ' 'NAV ' 'NLD ' 'NSM ' 'PLK ' 'ROM ' 'SJE ' 'SJU ' 'SKS ' 'SSM ' 'WCI ' 'ZHP ' 'dflt' > ) ]
 Lookup: 1 0 0 "Koalib casing at" { "Koalib casing at-1" ("koalib") } ['cv14' ('DFLT' <'dflt' > 'brai' <'dflt' > 'cyrl' <'BGR ' 'BOS ' 'CHU ' 'MKD ' 'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'AVN ' 'EWE ' 'FLE ' 'ISM ' 'KBC ' 'LEF ' 'LIV ' 'LSM ' 'MAH ' 'MOL ' 'NAV ' 'NLD ' 'NSM ' 'PLK ' 'ROM ' 'SJE ' 'SJU ' 'SKS ' 'SSM ' 'WCI ' 'ZHP ' 'dflt' > ) ]
+Lookup: 1 0 0 "Variants of Latin OU" { "Variants of Latin OU-1"  } ['cv15' ('latn' <'AVN ' 'EWE ' 'FLE ' 'ISM ' 'KBC ' 'LEF ' 'LIV ' 'LSM ' 'MAH ' 'MOL ' 'NAV ' 'NLD ' 'NSM ' 'PLK ' 'ROM ' 'SJE ' 'SJU ' 'SKS ' 'SSM ' 'WCI ' 'ZHP ' 'dflt' > ) ]
 Lookup: 1 0 0 "German alternative umlaut" { "German alternative umlaut-1"  } ['ss01' ('latn' <'AVN ' 'EWE ' 'FLE ' 'ISM ' 'KBC ' 'LEF ' 'LIV ' 'LSM ' 'MAH ' 'MOL ' 'NAV ' 'NLD ' 'NSM ' 'PLK ' 'ROM ' 'SJE ' 'SJU ' 'SKS ' 'SSM ' 'WCI ' 'ZHP ' 'dflt' > ) ]
 Lookup: 1 0 0 "Polytonic Greek alternative circumflex" { "Polytonic Greek alternative circumflex-1" ("alt") } ['ss02' ('grek' <'dflt' > ) ]
 Lookup: 1 0 0 "Pedantic" { "Pedantic-1"  } ['ss03' ('latn' <'AVN ' 'EWE ' 'FLE ' 'ISM ' 'KBC ' 'LEF ' 'LIV ' 'LSM ' 'MAH ' 'MOL ' 'NAV ' 'NLD ' 'NSM ' 'PLK ' 'ROM ' 'SJE ' 'SJU ' 'SKS ' 'SSM ' 'WCI ' 'ZHP ' 'dflt' > ) ]
@@ -157,7 +158,7 @@ Grid
  416.256 939.008 l 1049
 EndSplineSet
 TeXData: 1 0 0 629145 314572 209715 554697 1048576 209715 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 1114649 3622
+BeginChars: 1114651 3626
 
 StartChar: a
 Encoding: 97 97 0
@@ -69752,6 +69753,131 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 262 8221 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: uni0222
+Encoding: 546 546 3622
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+292 358 m 1
+ 198 330 152 272 152 212 c 0
+ 152 148 205 92 310 92 c 0
+ 414 92 465 147 465 208 c 0
+ 465 269 412 328 292 358 c 1
+235 682 m 1
+ 296 610 l 1
+ 292 599 288 588 271 588 c 0
+ 265 588 264 590 261 590 c 0
+ 260 590 258 590 255 589 c 0
+ 210 576 182 564 182 536 c 0
+ 182 485 327 438 327 438 c 1
+ 408 467 443 514 443 560 c 0
+ 443 609 403 656 317 658 c 9
+ 317 749 l 17
+ 460 749 554 669 554 566 c 0
+ 554 499 513 435 430 395 c 1
+ 526 353 579 280 579 198 c 0
+ 579 79 471 -12 306 -12 c 0
+ 144 -12 37 77 37 193 c 0
+ 37 273 89 348 189 392 c 1
+ 111 428 72 486 72 530 c 0
+ 72 624 147 674 235 682 c 1
+EndSplineSet
+Substitution2: "Variants of Latin OU-1" uni0222.alt
+EndChar
+
+StartChar: uni0223
+Encoding: 547 547 3623
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+293 408 m 1
+ 230 380 182 328 182 237 c 0
+ 182 144 235 92 310 92 c 0
+ 382 92 435 142 435 233 c 0
+ 435 290 416 367 293 408 c 1
+153 748 m 1
+ 272 748 l 1
+ 272 728 272 720 255 713 c 0
+ 251 711 247 708 245 706 c 0
+ 227 687 212 640 212 609 c 0
+ 212 491 324 476 324 476 c 1
+ 380 506 413 523 413 604 c 0
+ 413 661 392 729 362 748 c 1
+ 478 748 l 1
+ 489 731 524 680 524 610 c 0
+ 524 513 484 473 423 439 c 1
+ 497 398 549 325 549 220 c 0
+ 549 77 446 -12 306 -12 c 0
+ 169 -12 67 75 67 215 c 0
+ 67 319 119 392 197 436 c 1
+ 140 467 102 505 102 602 c 0
+ 102 651 124 710 153 748 c 1
+EndSplineSet
+Substitution2: "Variants of Latin OU-1" uni0223.alt
+EndChar
+
+StartChar: uni0222.alt
+Encoding: 1114649 -1 3624
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+317 749 m 0
+ 460 749 554 669 554 566 c 0
+ 554 499 513 435 430 395 c 1
+ 526 353 579 280 579 198 c 0
+ 579 79 471 -12 306 -12 c 0
+ 144 -12 37 77 37 193 c 0
+ 37 273 89 348 189 392 c 1
+ 111 429 72 491 72 559 c 0
+ 72 665 168 749 317 749 c 0
+292 358 m 1
+ 198 330 152 272 152 212 c 0
+ 152 148 205 92 310 92 c 0
+ 414 92 465 147 465 208 c 0
+ 465 269 412 328 292 358 c 1
+310 649 m 0
+ 228 649 182 613 182 558 c 0
+ 182 474 327 426 327 426 c 1
+ 408 456 443 505 443 553 c 0
+ 443 611 392 649 310 649 c 0
+EndSplineSet
+EndChar
+
+StartChar: uni0223.alt
+Encoding: 1114650 -1 3625
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+317 749 m 0
+ 430 749 524 682 524 574 c 0
+ 524 508 483 456 422 419 c 1
+ 484 386 549 328 549 210 c 0
+ 549 58 438 -12 306 -12 c 0
+ 166 -12 67 68 67 205 c 0
+ 67 322 131 381 197 416 c 1
+ 140 450 102 499 102 566 c 0
+ 102 676 198 749 317 749 c 0
+293 388 m 1
+ 221 357 182 310 182 227 c 0
+ 182 137 232 92 310 92 c 0
+ 386 92 435 135 435 223 c 0
+ 435 305 394 355 293 388 c 1
+310 649 m 0
+ 262 649 212 628 212 573 c 0
+ 212 489 325 456 325 456 c 1
+ 379 486 413 521 413 568 c 0
+ 413 619 372 649 310 649 c 0
+EndSplineSet
 EndChar
 EndChars
 EndSplineFont
