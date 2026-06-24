@@ -158,7 +158,7 @@ Grid
  416.256 939.008 l 1049
 EndSplineSet
 TeXData: 1 0 0 629145 314572 209715 554697 1048576 209715 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 1114651 3626
+BeginChars: 1114652 3627
 
 StartChar: a
 Encoding: 97 97 0
@@ -69879,6 +69879,15 @@ SplineSet
  379 486 413 521 413 568 c 0
  413 619 372 649 310 649 c 0
 EndSplineSet
+EndChar
+
+StartChar: strokeshortoverlay
+Encoding: 1114651 -1 3626
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 198 713 N 1 0 0 1 0 -394 2
 EndChar
 EndChars
 EndSplineFont

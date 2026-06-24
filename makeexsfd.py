@@ -325,6 +325,7 @@ diacriticdata: list[tuple[str, Optional[str], int, str, int]] = [
     ('breveinvertedbelow', None, 0x32f, 'breveinvertedbelowcmb', 0),
     ('uni02F7', None, 0x330, 'tildebelowcmb', 0),
     ('macronsub', None, 0x331, 'macronbelowcmb', 0),
+    ('strokeshortoverlay', None, 0x335, 'strokeshortoverlaycmb', 0),
     ('invertedbreve', None, 0x342, 'perispomenigreekcmb', 0),
     ('tilde', None, -1, 'perispomenigreekcmb.alt', 0),
     ('uni02BF', None, 0x351, 'uni0351', 0),
@@ -341,6 +342,9 @@ def addLgcAnchorClasses(font: fontforge.font):
     font.addLookup('Accent below', 'gpos_mark2base', None, (('mark', langDictToLangTuple(allLGC)),))
     font.addLookupSubtable('Accent below', 'Accent below-1')
     font.addAnchorClass('Accent below-1', 'LGC-accent-below')
+    font.addLookup('Overlay', 'gpos_mark2base', None, (('mark', langDictToLangTuple(allLGC)),))
+    font.addLookupSubtable('Overlay', 'Overlay-1')
+    font.addAnchorClass('Overlay-1', 'LGC-overlay')
 
 def lgcMarkAnchors(font: fontforge.font):
     def yTranslate(font: fontforge.font, sourcename: str) -> int:
@@ -363,6 +367,9 @@ def lgcMarkAnchors(font: fontforge.font):
         elif top < 100:
             anchor = 'LGC-accent-below'
             y = 0
+        elif top < 500:
+            anchor = 'LGC-overlay'
+            y = 294
         else:
             anchor = 'LGC-accent-above'
             y = 554
@@ -523,6 +530,83 @@ def uppercaseForms(font: fontforge.font):
     for glyph in mark:
         font[glyph].addPosSub('Forms for tall base glyphs-1', glyph + '.cap')
 
+def overlayDiacritics(font: fontforge.font):
+    def overlayRequired(g: fontforge.glyph) -> bool:
+        return (
+            (g.width > 0) and
+            ('bar' not in g.glyphname) and
+            ('slash' not in g.glyphname) and
+            ('stroke' not in g.glyphname) and
+            (g.glyphname not in [
+                'Eth',
+                'Dcroat',
+                'dcroat',
+                'Dafrican',
+                'uni023A',
+                'uni023B',
+                'uni023C',
+                'uni023D',
+                'uni023E',
+                'uni0243',
+                'uni0246',
+                'uni0247',
+                'uni0248',
+                'uni0249',
+                'uni024C',
+                'uni024D',
+                'uni024E',
+                'uni024F',
+                'lmiddletilde',
+                'lbelt',
+                'uni04FA',
+                'uni04FB',
+                'uni04FA.var',
+                'uni04FB.var',
+                'uni04FE',
+                'uni04FF',
+                'uni1D7D',
+                'uni2C60',
+                'uni2C61',
+                'uni2C62',
+                'uni2C63',
+                'uni2C65',
+                'uni2C66',
+                'uniA740',
+                'uniA741',
+                'uniA748',
+                'uniA749',
+                'uniA7A8',
+                'uniA7A9',
+                'uniA7AD',
+                'uniA7B8',
+                'uniA7B9',
+                'uniA7C7',
+                'uniA7C8',
+                'uniA7CC',
+                'uniA7CD',
+                'uniA7DC',
+            ]) and
+            bool([a[0] for a in g.anchorPoints if 'LGC-' in a[0]])
+        )
+
+    for glyph in (g for g in font.glyphs() if overlayRequired(g)):
+        baseglyph = glyph
+        while True:
+            if (baselist := baseglyph.getPosSub('Precomposed forms-1')):
+                baseglyph = font[baselist[0][2]]
+            else:
+                break
+        if (
+            baseglyph.boundingBox()[3] < 720 or
+            any(a[3] < 600 for a in baseglyph.anchorPoints if 'LGC-accent-above' in a[0]) or
+            (baseglyph.glyphname in (g[0] for g in dotlessforms))
+        ):
+            glyph.addAnchorPoint('LGC-overlay', 'base', 306, 315)
+            # glyph.color = 0xff00ff
+        else:
+            glyph.addAnchorPoint('LGC-overlay', 'base', 306, 421)
+            # glyph.color = 0xff80ff
+
 def diacritics(font: fontforge.font):
     add_dottedcircle(font)
     addLgcAnchorClasses(font)
@@ -532,6 +616,7 @@ def diacritics(font: fontforge.font):
     precomposedForms(font)
     precomposedDiacritics(font)
     uppercaseForms(font)
+    overlayDiacritics(font)
 
 def mark_dottedcircle(font: fontforge.font):
     font.addLookup('Append dotted circle', 'gsub_multiple', None, (('ccmp', langDictToLangTuple(getLangDict(font))),), font.gsub_lookups[-1])
@@ -564,6 +649,7 @@ def mark_dottedcircle(font: fontforge.font):
             aboveBelowMark = sum([[glyph.glyphname for a in glyph.anchorPoints if a[0] == anchor.replace('below', 'above') and a[1] == 'mark' and glyph.width == 0] for glyph in font.glyphs()], [])
         else:
             aboveBelowMark = []
+        overlayMark = sum([[glyph.glyphname for a in glyph.anchorPoints if a[0] == 'LGC-overlay' and a[1] == 'mark' and glyph.width == 0] for glyph in font.glyphs()], [])
         font.addContextualSubtable(
             lookupName,
             lookupName + '-1',
@@ -573,24 +659,25 @@ def mark_dottedcircle(font: fontforge.font):
             mclasses=((), 'invalidbase', tuple(markList)),  # pyright: ignore[reportArgumentType]
         )
         if aboveBelowMark:
-            font.addContextualSubtable(
-                lookupName,
-                lookupName + '-2',
-                'class',
-                '1 2 | 1 @<Remove dotted circle> 2 |',
-                afterSubtable=lookupName + '-1',
-                bclasses=((), tuple(baseList), tuple(sorted(set(aboveBelowMark)))),  # pyright: ignore[reportArgumentType]
-                mclasses=((), 'invalidbase', tuple(markList)),  # pyright: ignore[reportArgumentType]
-            )
-            font.addContextualSubtable(
-                lookupName,
-                lookupName + '-3',
-                'class',
-                '1 2 3 | 1 @<Remove dotted circle> 2 |',
-                afterSubtable=lookupName + '-2',
-                bclasses=((), tuple(baseList), 'invalidbase', tuple(sorted(set(aboveBelowMark)))),  # pyright: ignore[reportArgumentType]
-                mclasses=((), 'invalidbase', tuple(markList)),  # pyright: ignore[reportArgumentType]
-            )
+            marks = [
+                tuple(sorted(set(aboveBelowMark))),
+                'invalidbase',
+                tuple(sorted(set(overlayMark))),
+            ]
+            backtracks = [
+                [0],
+                [1, 0],
+            ]
+            for i, v in enumerate(backtracks, start=2):
+                font.addContextualSubtable(
+                    lookupName,
+                    lookupName + '-' + str(i),
+                    'class',
+                    '1 ' + (' '.join(str(gc + 2) for gc in v)) + ' | 1 @<Remove dotted circle> 2 |',
+                    afterSubtable=lookupName + '-' + str(i - 1),
+                    bclasses=((), tuple(baseList)) + tuple(marks),  # pyright: ignore[reportArgumentType]
+                    mclasses=((), 'invalidbase', tuple(markList)),  # pyright: ignore[reportArgumentType]
+                )
         lookupOrder = lookupName
 
         if font.getLookupInfo(lookup)[0] == 'gpos_mark2base':
