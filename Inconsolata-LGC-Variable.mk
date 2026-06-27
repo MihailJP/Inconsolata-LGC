@@ -25,3 +25,9 @@ ${ADDITIONALFONTS_R}: Inconsolata-LGC-Variable.ttf
 	./instancer.py $@ $^
 ${ADDITIONALFONTS_I}: Inconsolata-LGC-Variable-Italic.ttf
 	./instancer.py $@ $^
+
+.INTERMEDIATE: ${ADDITIONALFONTS:.ttf=-Hinted-raw.ttf}
+${ADDITIONALFONTS:.ttf=-Hinted-raw.ttf}: %-Hinted-raw.ttf: %.ttf
+	./makefont.py $@ $<
+
+ADDITIONALHINTEDFONTS=${ADDITIONALFONTS:.ttf=-Hinted.ttf}

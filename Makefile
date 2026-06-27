@@ -37,10 +37,10 @@ DOCUMENTS=README.md ChangeLog OFL.txt $(wildcard ${DOC_ASSET_DIR}/*.png)
 EXDOCUMENTS=${DOCUMENTS} Inconsolata-EX.md $(wildcard ${DOC_ASSET_DIR}/EX/*.png)
 PKGS=InconsolataLGC.tar.xz InconsolataLGC-Hinted.tar.xz InconsolataLGC-OT.tar.xz \
      InconsolataLGC-WOFF2.tar.xz InconsolataLGC-TTC.tar.xz InconsolataLGC-Variable.tar.xz \
-     InconsolataLGC-FullTTF.tar.xz \
+     InconsolataLGC-FullTTF.tar.xz InconsolataLGC-Hinted-Full.tar.xz \
 	 InconsolataEX.tar.xz InconsolataEX-Hinted.tar.xz InconsolataEX-OT.tar.xz \
 	 InconsolataEX-WOFF2.tar.xz InconsolataEX-TTC.tar.xz InconsolataEX-Variable.tar.xz \
-     InconsolataEX-FullTTF.tar.xz
+     InconsolataEX-FullTTF.tar.xz InconsolataEX-Hinted-Full.tar.xz
 VARFONTS=Inconsolata-LGC-Variable.ttf \
          Inconsolata-LGC-Variable-Italic.ttf
 EXVARFONTS=Inconsolata-EX-Variable.ttf \
@@ -48,8 +48,8 @@ EXVARFONTS=Inconsolata-EX-Variable.ttf \
 PKGCMD=rm -rf $*; mkdir $*; rsync -R $^ $*
 
 .PHONY: all
-all: ttf hintedttf otf ttc woff2 variable ttffull \
-	exttf hintedexttf exotf exttc exwoff2 exvariable exttffull
+all: ttf hintedttf otf ttc woff2 variable ttffull hintedttffull \
+	exttf hintedexttf exotf exttc exwoff2 exvariable exttffull hintedexttffull
 
 .SUFFIXES: .sfd .ttf .otf .woff .woff2 .ufo
 
@@ -128,14 +128,16 @@ include Inconsolata-LGC-Variable.mk
 include Inconsolata-EX-Variable.mk
 
 Inconsolata-EX-Variable.mk: Inconsolata-LGC-Variable.mk
-	sed -E -e 's/-LGC/-EX/g' -e 's/ADDITIONALFONTS/EX_ADDITIONALFONTS/g' $< > $@
+	sed -E -e 's/-LGC/-EX/g' -e 's/ADDITIONAL/EX_ADDITIONAL/g' $< > $@
 
 ${VARFONTS} ${EXVARFONTS}: %.ttf: %.raw.ttf Inconsolata-LGC.ttf
 	./fixvf.py $@ $^
 
-.PHONY: ttffull exttffull
+.PHONY: ttffull exttffull hintedttffull hintedexttffull
 ttffull: ttf ${ADDITIONALFONTS}
 exttffull: exttf ${EX_ADDITIONALFONTS}
+hintedttffull: hintedttf ${ADDITIONALHINTEDFONTS}
+hintedexttffull: hintedexttf ${EX_ADDITIONALHINTEDFONTS}
 
 Inconsolata-EX.css: Inconsolata-LGC.css
 	sed 's/LGC/EX/' $< > $@
@@ -193,6 +195,15 @@ InconsolataLGC-Hinted.tar.gz: ${HINTEDTTFONTS} ${DOCUMENTS}
 InconsolataLGC-Hinted.tar.bz2: ${HINTEDTTFONTS} ${DOCUMENTS}
 	${PKGCMD}; tar cfvj $@ $*
 InconsolataLGC-Hinted.zip: ${HINTEDTTFONTS} ${DOCUMENTS}
+	${PKGCMD}; zip -9r $@ $*
+
+InconsolataLGC-Hinted-Full.tar.xz: ${HINTEDTTFONTS} ${ADDITIONALHINTEDFONTS} ${DOCUMENTS}
+	${PKGCMD}; tar cfvJ $@ $*
+InconsolataLGC-Hinted-Full.tar.gz: ${HINTEDTTFONTS} ${ADDITIONALHINTEDFONTS} ${DOCUMENTS}
+	${PKGCMD}; tar cfvz $@ $*
+InconsolataLGC-Hinted-Full.tar.bz2: ${HINTEDTTFONTS} ${ADDITIONALHINTEDFONTS} ${DOCUMENTS}
+	${PKGCMD}; tar cfvj $@ $*
+InconsolataLGC-Hinted-Full.zip: ${HINTEDTTFONTS} ${ADDITIONALHINTEDFONTS} ${DOCUMENTS}
 	${PKGCMD}; zip -9r $@ $*
 
 InconsolataLGC-OT.tar.xz: ${OTFONTS} ${DOCUMENTS}
@@ -258,6 +269,15 @@ InconsolataEX-Hinted.tar.bz2: ${HINTEDEXTTFONTS} ${DOCUMENTS}
 InconsolataEX-Hinted.zip: ${HINTEDEXTTFONTS} ${DOCUMENTS}
 	${PKGCMD}; zip -9r $@ $*
 
+InconsolataEX-Hinted-Full.tar.xz: ${HINTEDEXTTFONTS} ${EX_ADDITIONALHINTEDFONTS} ${DOCUMENTS}
+	${PKGCMD}; tar cfvJ $@ $*
+InconsolataEX-Hinted-Full.tar.gz: ${HINTEDEXTTFONTS} ${EX_ADDITIONALHINTEDFONTS} ${DOCUMENTS}
+	${PKGCMD}; tar cfvz $@ $*
+InconsolataEX-Hinted-Full.tar.bz2: ${HINTEDEXTTFONTS} ${EX_ADDITIONALHINTEDFONTS} ${DOCUMENTS}
+	${PKGCMD}; tar cfvj $@ $*
+InconsolataEX-Hinted-Full.zip: ${HINTEDEXTTFONTS} ${EX_ADDITIONALHINTEDFONTS} ${DOCUMENTS}
+	${PKGCMD}; zip -9r $@ $*
+
 InconsolataEX-OT.tar.xz: ${EXOTFONTS} ${DOCUMENTS}
 	${PKGCMD}; tar cfvJ $@ $*
 InconsolataEX-OT.tar.gz: ${EXOTFONTS} ${DOCUMENTS}
@@ -310,6 +330,8 @@ clean:
 	-rm -f Inconsolata-EX-Variable.mk Inconsolata-EX.mk
 	-rm -f Inconsolata-EX-Bold.mk Inconsolata-EX-Italic.mk Inconsolata-EX-BoldItalic.mk
 	-rm -f ${ADDITIONALFONTS} ${EX_ADDITIONALFONTS}
+	-rm -f ${ADDITIONALFONTS:.ttf=-Hinted-raw.ttf} ${EX_ADDITIONALFONTS:.ttf=-Hinted-raw.ttf}
+	-rm -f ${ADDITIONALFONTS:.ttf=-Hinted.ttf} ${EX_ADDITIONALFONTS:.ttf=-Hinted.ttf}
 	-rm -f prep.ttx
 	-rm -rf ${UFOS} ${EXTRAPOLATES} ${DESIGNSPACES}
 	-rm -rf ${EXUFOS} ${EXEXTRAPOLATES} ${EXDESIGNSPACES}
