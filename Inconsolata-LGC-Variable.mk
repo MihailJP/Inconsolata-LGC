@@ -16,3 +16,12 @@ Inconsolata-LGC-Variable.raw.ttf: Inconsolata-LGC.designspace
 	fontmake -m $< -o variable --output-path $@
 Inconsolata-LGC-Variable-Italic.raw.ttf: Inconsolata-LGC-Italic.designspace
 	fontmake -m $< -o variable --output-path $@
+
+ADDITIONALFONTS_R=Inconsolata-LGC-Light.ttf Inconsolata-LGC-Medium.ttf Inconsolata-LGC-DemiBold.ttf Inconsolata-LGC-ExtraBold.ttf
+ADDITIONALFONTS_I=Inconsolata-LGC-LightItalic.ttf Inconsolata-LGC-MediumItalic.ttf Inconsolata-LGC-DemiBoldItalic.ttf Inconsolata-LGC-ExtraBoldItalic.ttf
+ADDITIONALFONTS=${ADDITIONALFONTS_R} ${ADDITIONALFONTS_I}
+
+${ADDITIONALFONTS_R}: Inconsolata-LGC-Variable.ttf
+	./instancer.py $@ $^
+${ADDITIONALFONTS_I}: Inconsolata-LGC-Variable-Italic.ttf
+	./instancer.py $@ $^

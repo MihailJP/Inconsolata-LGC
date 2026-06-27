@@ -32,12 +32,14 @@ InconsolataLGC-OT/
 InconsolataLGC-WOFF2/
 InconsolataLGC-TTC/
 InconsolataLGC-Variable/
+InconsolataLGC-FullTTF/
 InconsolataEX/
 InconsolataEX-Hinted/
 InconsolataEX-OT/
 InconsolataEX-WOFF2/
 InconsolataEX-TTC/
 InconsolataEX-Variable/
+InconsolataEX-FullTTF/
 *.tar.xz
 *.tar.gz
 *.tar.bz2
