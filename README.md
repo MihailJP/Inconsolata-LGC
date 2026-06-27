@@ -350,6 +350,14 @@ Some programming languages have operators which include colon such as `:=`.
 In certain combinations of characters the colon should be raised
 for esthetical reason.
 
+> [!TIP]
+> To enable this feature on Visual Studio Code, add following item 
+> to your settings.json:
+>
+> ```json
+> "editor.fontLigatures": true,
+> ```
+
 ### `case`: Case-sensitive forms ###
 ![Regular and all-caps variants](doc/capital_forms.png)
 
