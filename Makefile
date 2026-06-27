@@ -140,12 +140,8 @@ include Inconsolata-EX-Variable.mk
 Inconsolata-EX-Variable.mk: Inconsolata-LGC-Variable.mk
 	sed -E -e 's/-LGC/-EX/g' $< > $@
 
-.INTERMEDIATE: prep.ttx
-prep.ttx: Inconsolata-LGC.ttf
-	ttx -o $@ -tprep $<
-
-${VARFONTS} ${EXVARFONTS}: %.ttf: %.raw.ttf prep.ttx
-	ttx -o $@ -m $^
+${VARFONTS} ${EXVARFONTS}: %.ttf: %.raw.ttf Inconsolata-LGC.ttf
+	./fixvf.py $@ $^
 
 Inconsolata-EX.css: Inconsolata-LGC.css
 	sed 's/LGC/EX/' $< > $@
