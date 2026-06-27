@@ -43,19 +43,7 @@ VARFONTS=Inconsolata-LGC-Variable.ttf \
          Inconsolata-LGC-Variable-Italic.ttf
 EXVARFONTS=Inconsolata-EX-Variable.ttf \
            Inconsolata-EX-Variable-Italic.ttf
-TTFPKGCMD=rm -rf $*; mkdir $*; rsync -R ${FONTS} ${DOCUMENTS} $*
-HINTEDTTFPKGCMD=rm -rf $*; mkdir $*; rsync -R ${HINTEDTTFONTS} ${DOCUMENTS} $*
-OTFPKGCMD=rm -rf $*; mkdir $*; rsync -R ${OTFONTS} ${DOCUMENTS} $*
-WOFF2PKGCMD=rm -rf $*; mkdir $*; rsync -R ${WOFF2FONTS} ${CSS} ${DOCUMENTS} $*
-TTCPKGCMD=rm -rf $*; mkdir $*; rsync -R ${TTCFONTS} ${DOCUMENTS} $*
-VTTFPKGCMD=rm -rf $*; mkdir $*; rsync -R ${VARFONTS} ${DOCUMENTS} $*
-
-EXTTFPKGCMD=rm -rf $*; mkdir $*; rsync -R ${EXFONTS} ${EXDOCUMENTS} $*
-HINTEDEXTTFPKGCMD=rm -rf $*; mkdir $*; rsync -R ${HINTEDEXTTFONTS} ${EXDOCUMENTS} $*
-EXOTFPKGCMD=rm -rf $*; mkdir $*; rsync -R ${EXOTFONTS} ${EXDOCUMENTS} $*
-EXWOFF2PKGCMD=rm -rf $*; mkdir $*; rsync -R ${EXWOFF2FONTS} ${EXCSS} ${EXDOCUMENTS} $*
-EXTTCPKGCMD=rm -rf $*; mkdir $*; rsync -R ${EXTTCFONTS} ${DOCUMENTS} $*
-EXVTTFPKGCMD=rm -rf $*; mkdir $*; rsync -R ${EXVARFONTS} ${EXDOCUMENTS} $*
+PKGCMD=rm -rf $*; mkdir $*; rsync -R $^ $*
 
 .PHONY: all
 all: ttf hintedttf otf ttc woff2 variable \
@@ -175,112 +163,112 @@ check-ex-variable: fontspector_variable.toml ${EXVARFONTS}
 	${CHECKCMD}
 
 InconsolataLGC.tar.xz: ${FONTS} ${DOCUMENTS}
-	${TTFPKGCMD}; tar cfvJ $@ $*
+	${PKGCMD}; tar cfvJ $@ $*
 InconsolataLGC.tar.gz: ${FONTS} ${DOCUMENTS}
-	${TTFPKGCMD}; tar cfvz $@ $*
+	${PKGCMD}; tar cfvz $@ $*
 InconsolataLGC.tar.bz2: ${FONTS} ${DOCUMENTS}
-	${TTFPKGCMD}; tar cfvj $@ $*
+	${PKGCMD}; tar cfvj $@ $*
 InconsolataLGC.zip: ${FONTS} ${DOCUMENTS}
-	${TTFPKGCMD}; zip -9r $@ $*
+	${PKGCMD}; zip -9r $@ $*
 
 InconsolataLGC-Hinted.tar.xz: ${HINTEDTTFONTS} ${DOCUMENTS}
-	${HINTEDTTFPKGCMD}; tar cfvJ $@ $*
+	${PKGCMD}; tar cfvJ $@ $*
 InconsolataLGC-Hinted.tar.gz: ${HINTEDTTFONTS} ${DOCUMENTS}
-	${HINTEDTTFPKGCMD}; tar cfvz $@ $*
+	${PKGCMD}; tar cfvz $@ $*
 InconsolataLGC-Hinted.tar.bz2: ${HINTEDTTFONTS} ${DOCUMENTS}
-	${HINTEDTTFPKGCMD}; tar cfvj $@ $*
+	${PKGCMD}; tar cfvj $@ $*
 InconsolataLGC-Hinted.zip: ${HINTEDTTFONTS} ${DOCUMENTS}
-	${HINTEDTTFPKGCMD}; zip -9r $@ $*
+	${PKGCMD}; zip -9r $@ $*
 
 InconsolataLGC-OT.tar.xz: ${OTFONTS} ${DOCUMENTS}
-	${OTFPKGCMD}; tar cfvJ $@ $*
+	${PKGCMD}; tar cfvJ $@ $*
 InconsolataLGC-OT.tar.gz: ${OTFONTS} ${DOCUMENTS}
-	${OTFPKGCMD}; tar cfvz $@ $*
+	${PKGCMD}; tar cfvz $@ $*
 InconsolataLGC-OT.tar.bz2: ${OTFONTS} ${DOCUMENTS}
-	${OTFPKGCMD}; tar cfvj $@ $*
+	${PKGCMD}; tar cfvj $@ $*
 InconsolataLGC-OT.zip: ${OTFONTS} ${DOCUMENTS}
-	${OTFPKGCMD}; zip -9r $@ $*
+	${PKGCMD}; zip -9r $@ $*
 
 InconsolataLGC-WOFF2.tar.xz: ${WOFF2FONTS} ${CSS} ${DOCUMENTS}
-	${WOFF2PKGCMD}; tar cfvJ $@ $*
+	${PKGCMD}; tar cfvJ $@ $*
 InconsolataLGC-WOFF2.tar.gz: ${WOFF2FONTS} ${CSS} ${DOCUMENTS}
-	${WOFF2PKGCMD}; tar cfvz $@ $*
+	${PKGCMD}; tar cfvz $@ $*
 InconsolataLGC-WOFF2.tar.bz2: ${WOFF2FONTS} ${CSS} ${DOCUMENTS}
-	${WOFF2PKGCMD}; tar cfvj $@ $*
+	${PKGCMD}; tar cfvj $@ $*
 InconsolataLGC-WOFF2.zip: ${WOFF2FONTS} ${CSS} ${DOCUMENTS}
-	${WOFF2PKGCMD}; zip -9r $@ $*
+	${PKGCMD}; zip -9r $@ $*
 
 InconsolataLGC-TTC.tar.xz: ${TTCFONTS} ${DOCUMENTS}
-	${TTCPKGCMD}; tar cfvJ $@ $*
+	${PKGCMD}; tar cfvJ $@ $*
 InconsolataLGC-TTC.tar.gz: ${TTCFONTS} ${DOCUMENTS}
-	${TTCPKGCMD}; tar cfvz $@ $*
+	${PKGCMD}; tar cfvz $@ $*
 InconsolataLGC-TTC.tar.bz2: ${TTCFONTS} ${DOCUMENTS}
-	${TTCPKGCMD}; tar cfvj $@ $*
+	${PKGCMD}; tar cfvj $@ $*
 InconsolataLGC-TTC.zip: ${TTCFONTS} ${DOCUMENTS}
-	${TTCPKGCMD}; zip -9r $@ $*
+	${PKGCMD}; zip -9r $@ $*
 
 InconsolataLGC-Variable.tar.xz: ${VARFONTS} ${DOCUMENTS}
-	${VTTFPKGCMD}; tar cfvJ $@ $*
+	${PKGCMD}; tar cfvJ $@ $*
 InconsolataLGC-Variable.tar.gz: ${VARFONTS} ${DOCUMENTS}
-	${VTTFPKGCMD}; tar cfvz $@ $*
+	${PKGCMD}; tar cfvz $@ $*
 InconsolataLGC-Variable.tar.bz2: ${VARFONTS} ${DOCUMENTS}
-	${VTTFPKGCMD}; tar cfvj $@ $*
+	${PKGCMD}; tar cfvj $@ $*
 InconsolataLGC-Variable.zip: ${VARFONTS} ${DOCUMENTS}
-	${VTTFPKGCMD}; zip -9r $@ $*
+	${PKGCMD}; zip -9r $@ $*
 
 InconsolataEX.tar.xz: ${EXFONTS} ${DOCUMENTS}
-	${EXTTFPKGCMD}; tar cfvJ $@ $*
+	${PKGCMD}; tar cfvJ $@ $*
 InconsolataEX.tar.gz: ${EXFONTS} ${DOCUMENTS}
-	${EXTTFPKGCMD}; tar cfvz $@ $*
+	${PKGCMD}; tar cfvz $@ $*
 InconsolataEX.tar.bz2: ${EXFONTS} ${DOCUMENTS}
-	${EXTTFPKGCMD}; tar cfvj $@ $*
+	${PKGCMD}; tar cfvj $@ $*
 InconsolataEX.zip: ${EXFONTS} ${DOCUMENTS}
-	${EXTTFPKGCMD}; zip -9r $@ $*
+	${PKGCMD}; zip -9r $@ $*
 
 InconsolataEX-Hinted.tar.xz: ${HINTEDEXTTFONTS} ${DOCUMENTS}
-	${HINTEDEXTTFPKGCMD}; tar cfvJ $@ $*
+	${PKGCMD}; tar cfvJ $@ $*
 InconsolataEX-Hinted.tar.gz: ${HINTEDEXTTFONTS} ${DOCUMENTS}
-	${HINTEDEXTTFPKGCMD}; tar cfvz $@ $*
+	${PKGCMD}; tar cfvz $@ $*
 InconsolataEX-Hinted.tar.bz2: ${HINTEDEXTTFONTS} ${DOCUMENTS}
-	${HINTEDEXTTFPKGCMD}; tar cfvj $@ $*
+	${PKGCMD}; tar cfvj $@ $*
 InconsolataEX-Hinted.zip: ${HINTEDEXTTFONTS} ${DOCUMENTS}
-	${HINTEDEXTTFPKGCMD}; zip -9r $@ $*
+	${PKGCMD}; zip -9r $@ $*
 
 InconsolataEX-OT.tar.xz: ${EXOTFONTS} ${DOCUMENTS}
-	${EXOTFPKGCMD}; tar cfvJ $@ $*
+	${PKGCMD}; tar cfvJ $@ $*
 InconsolataEX-OT.tar.gz: ${EXOTFONTS} ${DOCUMENTS}
-	${EXOTFPKGCMD}; tar cfvz $@ $*
+	${PKGCMD}; tar cfvz $@ $*
 InconsolataEX-OT.tar.bz2: ${EXOTFONTS} ${DOCUMENTS}
-	${EXOTFPKGCMD}; tar cfvj $@ $*
+	${PKGCMD}; tar cfvj $@ $*
 InconsolataEX-OT.zip: ${EXOTFONTS} ${DOCUMENTS}
-	${EXOTFPKGCMD}; zip -9r $@ $*
+	${PKGCMD}; zip -9r $@ $*
 
 InconsolataEX-WOFF2.tar.xz: ${EXWOFF2FONTS} ${EXCSS} ${DOCUMENTS}
-	${EXWOFF2PKGCMD}; tar cfvJ $@ $*
+	${PKGCMD}; tar cfvJ $@ $*
 InconsolataEX-WOFF2.tar.gz: ${EXWOFF2FONTS} ${EXCSS} ${DOCUMENTS}
-	${EXWOFF2PKGCMD}; tar cfvz $@ $*
+	${PKGCMD}; tar cfvz $@ $*
 InconsolataEX-WOFF2.tar.bz2: ${EXWOFF2FONTS} ${EXCSS} ${DOCUMENTS}
-	${EXWOFF2PKGCMD}; tar cfvj $@ $*
+	${PKGCMD}; tar cfvj $@ $*
 InconsolataEX-WOFF2.zip: ${EXWOFF2FONTS} ${EXCSS} ${DOCUMENTS}
-	${EXWOFF2PKGCMD}; zip -9r $@ $*
+	${PKGCMD}; zip -9r $@ $*
 
 InconsolataEX-TTC.tar.xz: ${EXTTCFONTS} ${DOCUMENTS}
-	${EXTTCPKGCMD}; tar cfvJ $@ $*
+	${PKGCMD}; tar cfvJ $@ $*
 InconsolataEX-TTC.tar.gz: ${EXTTCFONTS} ${DOCUMENTS}
-	${EXTTCPKGCMD}; tar cfvz $@ $*
+	${PKGCMD}; tar cfvz $@ $*
 InconsolataEX-TTC.tar.bz2: ${EXTTCFONTS} ${DOCUMENTS}
-	${EXTTCPKGCMD}; tar cfvj $@ $*
+	${PKGCMD}; tar cfvj $@ $*
 InconsolataEX-TTC.zip: ${EXTTCFONTS} ${DOCUMENTS}
-	${EXTTCPKGCMD}; zip -9r $@ $*
+	${PKGCMD}; zip -9r $@ $*
 
 InconsolataEX-Variable.tar.xz: ${EXVARFONTS} ${DOCUMENTS}
-	${EXVTTFPKGCMD}; tar cfvJ $@ $*
+	${PKGCMD}; tar cfvJ $@ $*
 InconsolataEX-Variable.tar.gz: ${EXVARFONTS} ${DOCUMENTS}
-	${EXVTTFPKGCMD}; tar cfvz $@ $*
+	${PKGCMD}; tar cfvz $@ $*
 InconsolataEX-Variable.tar.bz2: ${EXVARFONTS} ${DOCUMENTS}
-	${EXVTTFPKGCMD}; tar cfvj $@ $*
+	${PKGCMD}; tar cfvj $@ $*
 InconsolataEX-Variable.zip: ${EXVARFONTS} ${DOCUMENTS}
-	${EXVTTFPKGCMD}; zip -9r $@ $*
+	${PKGCMD}; zip -9r $@ $*
 
 ChangeLog: .git # GIT
 	./mkchglog.rb > $@ # GIT
