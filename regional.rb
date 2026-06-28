@@ -118,6 +118,8 @@ g = ""
 f.each {|l|
 	if l =~ /^(Font|Full|Family)Name:/ then
 		l.sub!(/Inconsolata( ?)(LGC|EX)/, '\&\1' + t[$*[0]][:namesuffix])
+	elsif l =~ /^Encoding: Unicode/ then
+		l = 'Encoding: Custom'
 	elsif l =~ /^StartChar:/ then
 		g = l.sub(/^StartChar:\s*(.*)$/, '\1')
 	elsif l =~ /^Encoding:/ and g != "" then
