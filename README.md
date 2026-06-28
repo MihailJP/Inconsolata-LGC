@@ -351,11 +351,23 @@ In certain combinations of characters the colon should be raised
 for esthetical reason.
 
 > [!TIP]
-> To enable this feature on Visual Studio Code, add following item 
+> To enable this feature on Visual Studio Code, add following item
 > to your settings.json:
 >
 > ```json
 > "editor.fontLigatures": true,
+> ```
+>
+> Alternatively, more specific configuration:
+>
+> ```json
+> "editor.fontLigatures": "calt",
+> ```
+>
+> or:
+>
+> ```json
+> "editor.fontLigatures": "calt: on",
 > ```
 
 ### `case`: Case-sensitive forms ###
