@@ -117,7 +117,7 @@ c.each {|k, v|
 g = ""
 f.each {|l|
 	if l =~ /^(Font|Full|Family)Name:/ then
-		l.sub!(/Inconsolata( ?)LGC/, '\&\1' + t[$*[0]][:namesuffix])
+		l.sub!(/Inconsolata( ?)(LGC|EX)/, '\&\1' + t[$*[0]][:namesuffix])
 	elsif l =~ /^StartChar:/ then
 		g = l.sub(/^StartChar:\s*(.*)$/, '\1')
 	elsif l =~ /^Encoding:/ and g != "" then
