@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1161020814
-ModificationTime: 1782295586
+ModificationTime: 1782661094
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 5
@@ -158,7 +158,7 @@ Grid
  416.256 939.008 l 1049
 EndSplineSet
 TeXData: 1 0 0 629145 314572 209715 554697 1048576 209715 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 1114646 3621
+BeginChars: 1114664 3639
 
 StartChar: a
 Encoding: 97 97 0
@@ -69980,6 +69980,190 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 198 713 N 1 0 0 1 -72 -410 2
+EndChar
+
+StartChar: brevecomb_acutecomb
+Encoding: 1114646 -1 3621
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 241 728 N 1 0 0 1 0 0 2
+Refer: 194 -1 N 1 0 0 1 15 140 2
+EndChar
+
+StartChar: brevecomb_gravecomb
+Encoding: 1114647 -1 3622
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 241 728 N 1 0 0 1 0 0 2
+Refer: 195 -1 N 1 0 0 1 15 141 2
+EndChar
+
+StartChar: brevecomb_hookabovecomb
+Encoding: 1114648 -1 3623
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 241 728 N 1 0 0 1 0 0 2
+Refer: 1020 -1 N 1 0 0 1 16 145 2
+EndChar
+
+StartChar: brevecomb_tildecomb
+Encoding: 1114649 -1 3624
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 241 728 N 1 0 0 1 0 0 2
+Refer: 138 732 N 1 0 0 1 11 150 2
+EndChar
+
+StartChar: circumflexcomb_acutecomb
+Encoding: 1114650 -1 3625
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 137 710 N 1 0 0 1 0 0 2
+Refer: 1452 -1 N 1 0 0 1 0 0 2
+Substitution2: "Pinyin variant forms-1" uni03020301.pinyin
+Substitution2: "Pedantic-1" uni03020301.ss03
+EndChar
+
+StartChar: circumflexcomb_gravecomb
+Encoding: 1114651 -1 3626
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 137 710 N 1 0 0 1 0 0 2
+Refer: 1454 -1 N 1 0 0 1 0 0 2
+Substitution2: "Pedantic-1" uni03020300.ss03
+EndChar
+
+StartChar: circumflexcomb_hookabovecomb
+Encoding: 1114652 -1 3627
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 137 710 N 1 0 0 1 0 0 2
+Refer: 1019 -1 N 1 0 0 1 174 125 2
+Substitution2: "Pedantic-1" uni03020309.ss03
+EndChar
+
+StartChar: uni03020301.cap
+Encoding: 1114653 -1 3628
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 190 -1 N 1 0 0 1 0 0 2
+Refer: 1451 -1 N 1 0 0 1 -25 -146 2
+EndChar
+
+StartChar: uni03020300.cap
+Encoding: 1114654 -1 3629
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 190 -1 N 1 0 0 1 0 0 2
+Refer: 1453 -1 N 1 0 0 1 -25 -146 2
+EndChar
+
+StartChar: uni03020309.cap
+Encoding: 1114655 -1 3630
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 190 -1 N 1 0 0 1 0 0 2
+Refer: 1020 -1 N 1 0 0 1 166 85 2
+EndChar
+
+StartChar: uni03020301.ss03
+Encoding: 1114656 -1 3631
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 194 -1 N 1 0 0 1 -6 141 2
+Refer: 190 -1 N 1 0 0 1 -9 -50 2
+EndChar
+
+StartChar: uni03020300.ss03
+Encoding: 1114657 -1 3632
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 195 -1 N 1 0 0 1 -6 141 2
+Refer: 190 -1 N 1 0 0 1 -9 -50 2
+EndChar
+
+StartChar: uni03020309.ss03
+Encoding: 1114658 -1 3633
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1020 -1 N 1 0 0 1 26 145 2
+Refer: 190 -1 N 1 0 0 1 -9 -50 2
+EndChar
+
+StartChar: uni03020301.cap.ss03
+Encoding: 1114659 -1 3634
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 190 -1 N 1 0 0 1 0 0 2
+Refer: 194 -1 N 1 0 0 1 -3 154 2
+EndChar
+
+StartChar: uni03020300.cap.ss03
+Encoding: 1114660 -1 3635
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 190 -1 N 1 0 0 1 0 0 2
+Refer: 195 -1 N 1 0 0 1 -3 154 2
+EndChar
+
+StartChar: uni03020309.cap.ss03
+Encoding: 1114661 -1 3636
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 190 -1 N 1 0 0 1 0 0 2
+Refer: 1020 -1 N 1 0 0 1 37 204 2
+EndChar
+
+StartChar: uni03020301.pinyin
+Encoding: 1114662 -1 3637
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1442 -1 N 1 0 0 1 25 141 2
+Refer: 190 -1 N 1 0 0 1 -9 -50 2
+EndChar
+
+StartChar: uni03020301.cap.pinyin
+Encoding: 1114663 -1 3638
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 190 -1 N 1 0 0 1 0 0 2
+Refer: 1442 -1 N 1 0 0 1 31 154 2
 EndChar
 EndChars
 EndSplineFont

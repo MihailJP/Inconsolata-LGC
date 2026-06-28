@@ -10,6 +10,8 @@ t = {
 	"pl"  => {namesuffix: "Polish",    tag: /\.pl$/     },
 	"zhp" => {namesuffix: "Pinyin",    tag: /\.pinyin$/, replace: {
 		"ascript" => "a",
+	}, swap: {
+		"circumflexcomb_acutecomb" => "uni03020301.pinyin",
 	}},
 	"smi" => {namesuffix: "Sami",      swap: {"Eng.var2" => "Eng"}},
 	"liv" => {namesuffix: "Livonian",  swap: {
@@ -102,8 +104,10 @@ f.each {|l|
 c.each {|k, v|
 	if (not t[$*[0]][:tag].nil?) and k =~ t[$*[0]][:tag] then
 		w = c[k.sub(t[$*[0]][:tag], "")]
-		c[k.sub(t[$*[0]][:tag], "")] = v
-		c[k] = w
+		unless w.nil?
+			c[k.sub(t[$*[0]][:tag], "")] = v
+			c[k] = w
+		end
 	elsif (not t[$*[0]][:swap].nil?) and (not t[$*[0]][:swap][k].nil?) then
 		w = c[t[$*[0]][:swap][k]]
 		c[t[$*[0]][:swap][k]] = v

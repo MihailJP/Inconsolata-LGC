@@ -465,19 +465,37 @@ def precomposedForms(font: fontforge.font):
         font[glyph].addPosSub('Precomposed forms-1', customDecomp[glyph])
         font[glyph].glyphclass = 'baseglyph'
 
-def precomposedDiacritics(font: fontforge.font):
-    all_lang = font.getLookupInfo('Variants of zero')[2][0][1]
-    font.addLookup('Precomposed diacritics', 'gsub_ligature', None, (('ccmp', all_lang),))
-    font.addLookupSubtable('Precomposed diacritics', 'Precomposed diacritics-1')
-    composedDiacritics = [g for g in font.glyphs() if 'cmb_' in g.glyphname or 'comb_' in g.glyphname]
-    for glyph in composedDiacritics:
+def precomposedDiacritics(font: fontforge.font, additionalCap: dict[str, str]):
+    def setComposedDiacritics(glyph: fontforge.glyph):
         assert glyph.boundingBox()[3] > 100 and glyph.boundingBox()[0] < 400
         glyph.transform(translate(-306, 0))
         glyph.width = 0
         glyph.addAnchorPoint('LGC-accent-above', 'mark', *anchorCoord(font, 0, 554))
         glyph.glyphclass = 'mark'
+
+    all_lang = font.getLookupInfo('Variants of zero')[2][0][1]
+    font.addLookup('Precomposed diacritics', 'gsub_ligature', None, (('ccmp', all_lang),))
+    font.addLookupSubtable('Precomposed diacritics', 'Precomposed diacritics-1')
+    composedDiacritics = [g for g in font.glyphs() if 'cmb_' in g.glyphname or 'comb_' in g.glyphname]
+    for glyph in composedDiacritics:
+        setComposedDiacritics(glyph)
         if '.' not in glyph.glyphname:
-            glyph.addPosSub('Precomposed diacritics-1', tuple(glyph.glyphname.split('_')))
+            glyphs = tuple(glyph.glyphname.split('_'))
+            glyph.addPosSub('Precomposed diacritics-1', glyphs)
+            simplifiedname = 'uni{:04X}{:04X}'.format(font[glyphs[0]].unicode, font[glyphs[1]].unicode)
+            if (simplifiedname + '.cap') in font:
+                setComposedDiacritics(font[simplifiedname + '.cap'])
+                additionalCap[glyph.glyphname] = simplifiedname + '.cap'
+            if (simplifiedname + '.ss03') in font:
+                setComposedDiacritics(font[simplifiedname + '.ss03'])
+            if (simplifiedname + '.cap.ss03') in font:
+                setComposedDiacritics(font[simplifiedname + '.cap.ss03'])
+                additionalCap[simplifiedname + '.ss03'] = simplifiedname + '.cap.ss03'
+            if (simplifiedname + '.pinyin') in font:
+                setComposedDiacritics(font[simplifiedname + '.pinyin'])
+            if (simplifiedname + '.cap.pinyin') in font:
+                setComposedDiacritics(font[simplifiedname + '.cap.pinyin'])
+                additionalCap[simplifiedname + '.pinyin'] = simplifiedname + '.cap.pinyin'
         elif glyph.glyphname.endswith('.pinyin'):
             font[glyph.glyphname.removesuffix('.pinyin')].addPosSub('Pinyin variant forms-1', glyph.glyphname)
     font.addLookup('Accent decomposition', 'gsub_multiple', None, ())
@@ -513,8 +531,9 @@ def precomposedDiacritics(font: fontforge.font):
             fclasses=((), (mark2,)),  # pyright: ignore[reportArgumentType]
         )
 
-def uppercaseForms(font: fontforge.font):
+def uppercaseForms(font: fontforge.font, additionalCap: dict[str, str]):
     mark = sum([[glyph.glyphname for a in glyph.anchorPoints if a[0] == 'LGC-accent-above' and a[1] == 'mark' and glyph.width == 0] for glyph in font.glyphs() if (glyph.glyphname + '.cap') in font], [])
+    mark += list(additionalCap.keys())
     base = sum([[glyph.glyphname for a in glyph.anchorPoints if a[0] == 'LGC-accent-above' and a[1] != 'mark' and glyph.boundingBox()[3] >= 660] for glyph in font.glyphs()], [])
     font.addLookup('Forms for tall base glyphs', 'gsub_single', None, (), font.gsub_lookups[-1])
     font.addLookupSubtable('Forms for tall base glyphs', 'Forms for tall base glyphs-1')
@@ -528,7 +547,10 @@ def uppercaseForms(font: fontforge.font):
         mclasses=((), tuple(mark)),  # pyright: ignore[reportArgumentType]
     )
     for glyph in mark:
-        font[glyph].addPosSub('Forms for tall base glyphs-1', glyph + '.cap')
+        if glyph in additionalCap:
+            font[glyph].addPosSub('Forms for tall base glyphs-1', additionalCap[glyph])
+        else:
+            font[glyph].addPosSub('Forms for tall base glyphs-1', glyph + '.cap')
 
 def overlayDiacritics(font: fontforge.font):
     def overlayRequired(g: fontforge.glyph) -> bool:
@@ -608,14 +630,15 @@ def overlayDiacritics(font: fontforge.font):
             # glyph.color = 0xff80ff
 
 def diacritics(font: fontforge.font):
+    additionalCap = {}
     add_dottedcircle(font)
     addLgcAnchorClasses(font)
     lgcMarkAnchors(font)
     lgcBaseAnchors(font)
     add_dotlessforms(font)
     precomposedForms(font)
-    precomposedDiacritics(font)
-    uppercaseForms(font)
+    precomposedDiacritics(font, additionalCap)
+    uppercaseForms(font, additionalCap)
     overlayDiacritics(font)
 
 def mark_dottedcircle(font: fontforge.font):
