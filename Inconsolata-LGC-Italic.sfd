@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1161020814
-ModificationTime: 1782661094
+ModificationTime: 1784370274
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 5
@@ -2222,13 +2222,13 @@ TeX: 115 0
 LayerCount: 2
 Fore
 SplineSet
-229 716 m 0
- 264 790 l 0
- 441 701 532 508 495 297 c 0
- 457 84 295 -113 82 -207 c 0
- 72 -135 l 0
- 247 -50 379 115 410 294 c 0
- 441 470 371 633 229 716 c 0
+228 717 m 0
+ 264 791 l 0
+ 441 702 533 518 496 307 c 0
+ 458 94 297 -111 83 -205 c 0
+ 73 -133 l 0
+ 248 -48 380 125 412 304 c 0
+ 443 480 370 634 228 717 c 0
 EndSplineSet
 Substitution2: "Forms for uppercase-1" parenright.case
 EndChar
@@ -60945,11 +60945,11 @@ Fore
 SplineSet
 231 731 m 0
  267 806 l 0
- 446 724 538 545 504 350 c 0
- 469 153 310 -30 98 -117 c 0
- 88 -44 l 0
- 262 34 390 183 419 347 c 0
- 447 508 375 655 231 731 c 0
+ 446 724 539 555 505 360 c 0
+ 470 163 311 -28 99 -115 c 0
+ 89 -42 l 0
+ 263 36 392 193 421 357 c 0
+ 449 518 375 655 231 731 c 0
 EndSplineSet
 EndChar
 
