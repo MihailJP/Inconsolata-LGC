@@ -9,20 +9,24 @@ if '-Light' in argv[1]:
     static = instantiateVariableFont(font, {'wght': 300}, static=True)
     bold = False
     subfamilyName = ribbiFamily = 'Light'
+    panoseWeight = 3
 elif '-Medium' in argv[1]:
     static = instantiateVariableFont(font, {'wght': 500}, static=True)
     bold = False
     subfamilyName = ribbiFamily = 'Medium'
+    panoseWeight = 6
 elif '-DemiBold' in argv[1]:
     static = instantiateVariableFont(font, {'wght': 600}, static=True)
     bold = True
     ribbiFamily = 'Light'
     subfamilyName = 'DemiBold'
+    panoseWeight = 7
 elif '-ExtraBold' in argv[1]:
     static = instantiateVariableFont(font, {'wght': 800}, static=True)
     bold = True
     ribbiFamily = 'Medium'
     subfamilyName = 'ExtraBold'
+    panoseWeight = 9
 else:
     raise ValueError('unknown weight: {}'.format(argv[1]))
 italic = ('Italic' in argv[1])
@@ -44,6 +48,7 @@ static['name'].setName(ribbiName, 2, 3, 1, 0x409)
 static['OS/2'].fsSelection &= ~(0x7f)  # pyright: ignore[reportAttributeAccessIssue]
 static['OS/2'].fsSelection |= (33 if italic else 32) if bold else (1 if italic else 64)  # pyright: ignore[reportAttributeAccessIssue]
 static['OS/2'].fsSelection |= 128  # pyright: ignore[reportAttributeAccessIssue]
+static['OS/2'].panose.bWeight = panoseWeight
 static['head'].macStyle = (3 if italic else 1) if bold else (2 if italic else 0)  # pyright: ignore[reportAttributeAccessIssue]
 
 static.save(argv[1])
