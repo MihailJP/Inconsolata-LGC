@@ -26,6 +26,11 @@ elif '-ExtraBold' in argv[1]:
     bold = False
     ribbiFamily = subfamilyName = 'ExtraBold'
     panoseWeight = 9
+elif '-Black' in argv[1]:
+    static = instantiateVariableFont(font, {'wght': 900}, static=True)
+    bold = False
+    ribbiFamily = subfamilyName = 'Black'
+    panoseWeight = 10
 else:
     raise ValueError('unknown weight: {}'.format(argv[1]))
 italic = ('Italic' in argv[1])
