@@ -23,9 +23,8 @@ elif '-DemiBold' in argv[1]:
     panoseWeight = 7
 elif '-ExtraBold' in argv[1]:
     static = instantiateVariableFont(font, {'wght': 800}, static=True)
-    bold = True
-    ribbiFamily = 'Medium'
-    subfamilyName = 'ExtraBold'
+    bold = False
+    ribbiFamily = subfamilyName = 'ExtraBold'
     panoseWeight = 9
 else:
     raise ValueError('unknown weight: {}'.format(argv[1]))
