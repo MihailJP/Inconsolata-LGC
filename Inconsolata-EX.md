@@ -60,6 +60,13 @@ for compatibility.
 
 In Kyrgyz, _hamza_ is placed differently above _yeh_.
 
+### Rohingya _sukun_ ###
+![Sukun and jazm](doc/EX/sukun_jazm.png)
+
+In Rohingya, angular (like greater-than or decrescendo) _jazm_ is preferred
+over circular _sukun_.
+This is already encoded at U+06E1 but U+0652 is preferred.
+
 
 Miscellaneous variants
 ----------------------
