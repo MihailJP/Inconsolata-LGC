@@ -102,6 +102,7 @@ dotlessforms: list[tuple[str, str, str]] = [
     ('itildebelow', 'itildebelow.dotless', 'i'),
     ('idotbelow', 'idotbelow.dotless', 'i'),
     ('uni0249', 'jdotlessbar', 'j'),
+    ('jcrosstail', 'jcrosstail.dotless', 'j'),
 ]
 
 def add_dotlessforms(font: fontforge.font):
