@@ -65048,6 +65048,7 @@ SplineSet
  247 712 183 672 146 609 c 1
  86 666 l 1
 EndSplineSet
+Substitution2: "Superscripts-1" glottalstopmod
 EndChar
 
 StartChar: glottalstopreversed
@@ -65075,6 +65076,7 @@ SplineSet
  87 691 164 790 298 790 c 0
  387 790 475 746 527 666 c 1
 EndSplineSet
+Substitution2: "Superscripts-1" glottalstopreversedmod
 EndChar
 
 StartChar: uni2C6D
@@ -70645,7 +70647,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni02C0
+StartChar: glottalstopmod
 Encoding: 704 704 3648
 Width: 613
 Flags: W
@@ -70672,7 +70674,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni02C1
+StartChar: glottalstopreversedmod
 Encoding: 705 705 3649
 Width: 613
 Flags: W
