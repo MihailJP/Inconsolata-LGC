@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1161020814
-ModificationTime: 1789968592
+ModificationTime: 1789971492
 PfmFamily: 49
 TTFWeight: 700
 TTFWidth: 5
@@ -173,7 +173,7 @@ Grid
  416.256 939.008 l 1049
 EndSplineSet
 TeXData: 1 0 0 629145 314572 209715 554697 1048576 209715 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 1114671 3659
+BeginChars: 1114677 3686
 
 StartChar: a
 Encoding: 97 97 0
@@ -211,6 +211,7 @@ SplineSet
  432 168 432 195 432 220 c 0
  432 239 l 1
 EndSplineSet
+Substitution2: "Subscripts-1" uni2090
 Substitution2: "Superscripts-1" uni1D43
 Substitution2: "Pinyin variant forms-1" ascript
 EndChar
@@ -236,6 +237,7 @@ SplineSet
  61 433 181 553 349 553 c 0
  389 553 507 543 571 436 c 1
 EndSplineSet
+Substitution2: "Subscripts-1" cinferior
 Substitution2: "Superscripts-1" uni1D9C
 EndChar
 
@@ -276,6 +278,7 @@ SplineSet
  148 0 l 1
  40 0 l 1
 EndSplineSet
+Substitution2: "Subscripts-1" uni2098
 Substitution2: "Superscripts-1" uni1D50
 EndChar
 
@@ -309,6 +312,7 @@ SplineSet
  97 486 190 555 321 555 c 0
  355 555 455 555 543 456 c 1
 EndSplineSet
+Substitution2: "Subscripts-1" uni209B
 Substitution2: "Superscripts-1" ssuper
 EndChar
 
@@ -356,6 +360,7 @@ SplineSet
  382 90 455 145 455 265 c 0
  455 397 377 451 309 451 c 0
 EndSplineSet
+Substitution2: "Subscripts-1" uni2092
 Substitution2: "Superscripts-1" uni1D52
 EndChar
 
@@ -384,6 +389,7 @@ SplineSet
  194 0 l 1
  76 0 l 1
 EndSplineSet
+Substitution2: "Subscripts-1" uni2099
 Substitution2: "Superscripts-1" nsuperior
 EndChar
 
@@ -407,6 +413,7 @@ SplineSet
  95 689 l 1
  95 788 l 1
 EndSplineSet
+Substitution2: "Subscripts-1" uni2097
 Substitution2: "Superscripts-1" lsuper
 EndChar
 
@@ -440,6 +447,7 @@ SplineSet
  209 542 l 1
  219 685 l 1
 EndSplineSet
+Substitution2: "Subscripts-1" uni209C
 Substitution2: "Superscripts-1" uni1D57
 EndChar
 
@@ -468,6 +476,7 @@ SplineSet
  437 407 384 459 311 459 c 0
  261 459 192 433 172 340 c 1
 EndSplineSet
+Substitution2: "Subscripts-1" uni2091
 Substitution2: "Superscripts-1" uni1D49
 EndChar
 
@@ -507,6 +516,7 @@ SplineSet
  351 94 449 117 449 261 c 0
  449 430 349 451 305 451 c 0
 EndSplineSet
+Substitution2: "Subscripts-1" binferior
 Substitution2: "Superscripts-1" uni1D47
 EndChar
 
@@ -587,6 +597,7 @@ SplineSet
  320 22 305 22 292 23 c 0
  253 25 224 26 205 28 c 1
 EndSplineSet
+Substitution2: "Subscripts-1" ginferior
 Substitution2: "Superscripts-1" uni1D4D
 EndChar
 
@@ -618,6 +629,7 @@ SplineSet
  196 0 l 1
  78 0 l 1
 EndSplineSet
+Substitution2: "Subscripts-1" uni2095
 Substitution2: "Superscripts-1" hsuperior
 EndChar
 
@@ -648,6 +660,7 @@ SplineSet
  68 148 69 197 69 241 c 1
  70 542 l 1
 EndSplineSet
+Substitution2: "Subscripts-1" uni1D64
 Substitution2: "Superscripts-1" uni1D58
 EndChar
 
@@ -673,6 +686,7 @@ SplineSet
  113 -1 l 1
  113 542 l 1
 EndSplineSet
+Substitution2: "Subscripts-1" uni1D63
 Substitution2: "Superscripts-1" rsuper
 Substitution2: "r with serif-1" r.serif
 EndChar
@@ -702,6 +716,7 @@ SplineSet
  270 626 236 660 236 702 c 0
  236 744 270 778 312 778 c 0
 EndSplineSet
+Substitution2: "Subscripts-1" uni1D62
 Substitution2: "Superscripts-1" uni2071
 EndChar
 
@@ -736,6 +751,7 @@ SplineSet
  187 596 189 645 219 694 c 1
  260 761 338 796 418 796 c 0
 EndSplineSet
+Substitution2: "Subscripts-1" finferior
 Substitution2: "Superscripts-1" uni1DA0
 EndChar
 
@@ -760,6 +776,7 @@ SplineSet
  262 -4 l 1
  35 543 l 1
 EndSplineSet
+Substitution2: "Subscripts-1" uni1D65
 Substitution2: "Superscripts-1" uni1D5B
 EndChar
 
@@ -793,6 +810,7 @@ SplineSet
  428 322 426 348 420 369 c 0
  401 435 339 456 296 456 c 0
 EndSplineSet
+Substitution2: "Subscripts-1" dinferior
 Substitution2: "Superscripts-1" uni1D48
 EndChar
 
@@ -822,6 +840,7 @@ SplineSet
  353 92 455 112 455 260 c 0
  455 434 349 451 308 451 c 0
 EndSplineSet
+Substitution2: "Subscripts-1" uni209A
 Substitution2: "Superscripts-1" uni1D56
 EndChar
 
@@ -851,6 +870,7 @@ SplineSet
  431 325 429 355 419 380 c 1
  398 435 342 456 299 456 c 0
 EndSplineSet
+Substitution2: "Subscripts-1" qinferior
 Substitution2: "Superscripts-1" u107A5
 EndChar
 
@@ -883,6 +903,7 @@ SplineSet
  268 16 l 1
  42 542 l 1
 EndSplineSet
+Substitution2: "Subscripts-1" uni209E
 Substitution2: "Superscripts-1" ysuperior
 EndChar
 
@@ -1671,6 +1692,7 @@ SplineSet
  126 -1 l 1
  10 543 l 1
 EndSplineSet
+Substitution2: "Subscripts-1" uni209D
 Substitution2: "Superscripts-1" wsuperior
 EndChar
 
@@ -1900,6 +1922,7 @@ SplineSet
  363 626 329 660 329 702 c 0
  329 744 364 778 406 778 c 0
 EndSplineSet
+Substitution2: "Subscripts-1" uni2C7C
 Substitution2: "Superscripts-1" jsuperior
 EndChar
 
@@ -1925,6 +1948,7 @@ SplineSet
  305 354 l 1
  432 543 l 1
 EndSplineSet
+Substitution2: "Subscripts-1" uni2093
 Substitution2: "Superscripts-1" xsuperior
 EndChar
 
@@ -1984,6 +2008,7 @@ SplineSet
  74 -1 l 1
  74 788 l 1
 EndSplineSet
+Substitution2: "Subscripts-1" uni2096
 Substitution2: "Superscripts-1" uni1D4F
 EndChar
 
@@ -2009,6 +2034,7 @@ SplineSet
  79 437 l 1
  79 543 l 1
 EndSplineSet
+Substitution2: "Subscripts-1" uni209F
 Substitution2: "Superscripts-1" uni1DBB
 EndChar
 
@@ -23553,6 +23579,7 @@ Flags: MW
 LayerCount: 2
 Fore
 Refer: 1138 1241 N 1 0 0 1 0 0 2
+Substitution2: "Subscripts-1" uni2094
 Substitution2: "Superscripts-1" uni1D4A
 EndChar
 
@@ -70496,6 +70523,250 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 3515 7497 N -1 0 0 -1 640 922 2
+EndChar
+
+StartChar: uni2090
+Encoding: 8336 8336 3659
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 3511 7491 N 1 0 0 1 0 -483 2
+EndChar
+
+StartChar: binferior
+Encoding: 1114671 -1 3660
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 3512 7495 N 1 0 0 1 0 -483 2
+EndChar
+
+StartChar: cinferior
+Encoding: 1114672 -1 3661
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 3513 7580 N 1 0 0 1 0 -483 2
+EndChar
+
+StartChar: dinferior
+Encoding: 1114673 -1 3662
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 3514 7496 N 1 0 0 1 0 -483 2
+EndChar
+
+StartChar: uni2091
+Encoding: 8337 8337 3663
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 3515 7497 N 1 0 0 1 0 -483 2
+EndChar
+
+StartChar: finferior
+Encoding: 1114674 -1 3664
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 3516 7584 N 1 0 0 1 0 -483 2
+EndChar
+
+StartChar: ginferior
+Encoding: 1114675 -1 3665
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 3517 7501 N 1 0 0 1 0 -483 2
+EndChar
+
+StartChar: uni2095
+Encoding: 8341 8341 3666
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 3518 688 N 1 0 0 1 0 -483 2
+EndChar
+
+StartChar: uni1D62
+Encoding: 7522 7522 3667
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 3519 8305 N 1 0 0 1 0 -483 2
+EndChar
+
+StartChar: uni2C7C
+Encoding: 11388 11388 3668
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 3520 690 N 1 0 0 1 0 -483 2
+EndChar
+
+StartChar: uni2096
+Encoding: 8342 8342 3669
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 3521 7503 N 1 0 0 1 0 -483 2
+EndChar
+
+StartChar: uni2097
+Encoding: 8343 8343 3670
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 3522 737 N 1 0 0 1 0 -483 2
+EndChar
+
+StartChar: uni2098
+Encoding: 8344 8344 3671
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 3523 7504 N 1 0 0 1 0 -483 2
+EndChar
+
+StartChar: uni2099
+Encoding: 8345 8345 3672
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+Refer: 552 8319 N 1 0 0 1 0 -483 2
+EndChar
+
+StartChar: uni2092
+Encoding: 8338 8338 3673
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 3524 7506 N 1 0 0 1 0 -483 2
+EndChar
+
+StartChar: uni209A
+Encoding: 8346 8346 3674
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 3525 7510 N 1 0 0 1 0 -483 2
+EndChar
+
+StartChar: qinferior
+Encoding: 1114676 -1 3675
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 3526 67493 N 1 0 0 1 0 -483 2
+EndChar
+
+StartChar: uni1D63
+Encoding: 7523 7523 3676
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 3527 691 N 1 0 0 1 0 -483 2
+EndChar
+
+StartChar: uni209B
+Encoding: 8347 8347 3677
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 3528 738 N 1 0 0 1 0 -483 2
+EndChar
+
+StartChar: uni209C
+Encoding: 8348 8348 3678
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 3529 7511 N 1 0 0 1 0 -483 2
+EndChar
+
+StartChar: uni1D64
+Encoding: 7524 7524 3679
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 3530 7512 N 1 0 0 1 0 -483 2
+EndChar
+
+StartChar: uni1D65
+Encoding: 7525 7525 3680
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 3531 7515 N 1 0 0 1 0 -483 2
+EndChar
+
+StartChar: uni209D
+Encoding: 8349 8349 3681
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 3532 695 N 1 0 0 1 0 -483 2
+EndChar
+
+StartChar: uni2093
+Encoding: 8339 8339 3682
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 3533 739 N 1 0 0 1 0 -483 2
+EndChar
+
+StartChar: uni209E
+Encoding: 8350 8350 3683
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 3534 696 N 1 0 0 1 0 -483 2
+EndChar
+
+StartChar: uni209F
+Encoding: 8351 8351 3684
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 3535 7611 N 1 0 0 1 0 -483 2
+EndChar
+
+StartChar: uni2094
+Encoding: 8340 8340 3685
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 3658 7498 N 1 0 0 1 0 -483 2
 EndChar
 EndChars
 EndSplineFont
