@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1161020814
-ModificationTime: 1789964305
+ModificationTime: 1789965930
 PfmFamily: 49
 TTFWeight: 700
 TTFWidth: 5
@@ -173,7 +173,7 @@ Grid
  416.256 939.008 l 1049
 EndSplineSet
 TeXData: 1 0 0 629145 314572 209715 554697 1048576 209715 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 1114671 3657
+BeginChars: 1114671 3658
 
 StartChar: a
 Encoding: 97 97 0
@@ -28134,6 +28134,7 @@ SplineSet
  332 -110 365 -104 365 -71 c 0
  365 -28 365 -26 304 80 c 1
 EndSplineSet
+Substitution2: "Superscripts-1" gammasuperior
 EndChar
 
 StartChar: Vhook
@@ -70450,6 +70451,38 @@ SplineSet
  283 651 279 652 276 652 c 0
  272 652 270 653 264 640 c 0
  257 625 254 596 254 586 c 2
+EndSplineSet
+EndChar
+
+StartChar: gammasuperior
+Encoding: 736 736 3657
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+123 624 m 1
+ 238 624 l 1
+ 242 609 248 614 248 612 c 0
+ 248 605 244 600 242 597 c 1
+ 316 463 l 1
+ 347 517 l 2
+ 403 609 392 622 393 624 c 1
+ 487 624 l 1
+ 481 607 491 599 428 501 c 2
+ 365 408 l 1
+ 431 315 433 306 433 274 c 0
+ 433 232 410 201 376 185 c 0
+ 356 177 336 174 314 174 c 0
+ 291 174 267 177 247 187 c 0
+ 215 204 195 235 195 275 c 0
+ 195 304 199 311 261 401 c 1
+ 123 624 l 1
+308 332 m 1
+ 287 296 284 292 284 269 c 0
+ 284 267 292 259 309 259 c 0
+ 306 259 332 250 332 269 c 0
+ 332 289 331 292 308 332 c 1
 EndSplineSet
 EndChar
 EndChars
