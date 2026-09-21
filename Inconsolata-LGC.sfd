@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1161020814
-ModificationTime: 1790003989
+ModificationTime: 1790005042
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 5
@@ -177,7 +177,7 @@ Grid
  416.256 939.008 l 1049
 EndSplineSet
 TeXData: 1 0 0 629145 314572 209715 554697 1048576 209715 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 1114691 3709
+BeginChars: 1114691 3710
 
 StartChar: a
 Encoding: 97 97 0
@@ -65080,7 +65080,6 @@ SplineSet
  247 712 183 672 146 609 c 1
  86 666 l 1
 EndSplineSet
-Substitution2: "Superscripts-1" glottalstopmod
 EndChar
 
 StartChar: glottalstopreversed
@@ -65108,7 +65107,7 @@ SplineSet
  87 691 164 790 298 790 c 0
  387 790 475 746 527 666 c 1
 EndSplineSet
-Substitution2: "Superscripts-1" glottalstopreversedmod
+Substitution2: "Superscripts-1" glottalstopreversedsuperior
 EndChar
 
 StartChar: uni2C6D
@@ -70692,10 +70691,6 @@ SplineSet
  451 583 399 553 377 533 c 0
  351 510 350 493 350 468 c 2
  350 375 l 1
- 443 375 l 1
- 443 315 l 1
- 195 315 l 1
- 195 375 l 1
  283 375 l 1
  283 468 l 2
  283 500 287 529 320 566 c 0
@@ -70720,10 +70715,6 @@ SplineSet
  237 618 270 591 293 566 c 0
  326 529 330 500 330 468 c 2
  330 375 l 1
- 418 375 l 1
- 418 315 l 1
- 170 315 l 1
- 170 375 l 1
  263 375 l 1
  263 468 l 2
  263 493 262 510 236 533 c 0
@@ -71648,6 +71639,33 @@ SplineSet
  458 793 l 1
  458 727 l 1
  329 727 l 1
+EndSplineSet
+EndChar
+
+StartChar: glottalstopreversedsuperior
+Encoding: 740 740 3709
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+447 705 m 1
+ 397 658 l 1
+ 385 678 356 725 303 725 c 0
+ 266 725 237 696 237 659 c 0
+ 237 618 270 591 293 566 c 0
+ 326 529 330 500 330 468 c 2
+ 330 375 l 1
+ 418 375 l 1
+ 418 315 l 1
+ 170 315 l 1
+ 170 375 l 1
+ 263 375 l 1
+ 263 468 l 2
+ 263 493 262 510 236 533 c 0
+ 214 553 162 583 162 655 c 0
+ 162 726 212 790 298 790 c 0
+ 380 790 426 738 447 705 c 1
 EndSplineSet
 EndChar
 EndChars
