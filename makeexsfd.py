@@ -313,6 +313,7 @@ diacriticdata: list[tuple[str, Optional[str], int, str, int, int]] = [
     ('gravesub', None, 0x316, 'gravesubnosp', 0, 0),
     ('acutesub', None, 0x317, 'acutesubnosp', 0, 0),
     ('horn', None, 0x31b, 'horncmb', 0, 0),
+    ('minusbelow', None, 0x320, 'minusbelowcmb', 0, 0),
     ('dotsub', None, 0x323, 'dotbelowcomb', 0, 0),
     ('dieresisbelow', None, 0x324, 'dieresisbelowcmb', 0, 0),
     ('uni02F3', None, 0x325, 'ringbelowcmb', 0, 0),
