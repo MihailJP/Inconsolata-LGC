@@ -338,7 +338,10 @@ diacriticdata: list[tuple[str, Optional[str], int, str, int, int]] = [
     ('uni02BF', None, 0x351, 'uni0351', 0, 0),
     ('uni02BE', None, 0x357, 'uni0357', 0, 0),
     ('hokkiendot', None, 0x358, 'uni0358', 0, 0),
+    ('doublebrevebelow', None, 0x35c, 'uni035C', 0, 0),
+    ('doublebreveabove', None, 0x35d, 'uni035D', 0, 0),
     ('doublemacronbelow', None, 0x35f, 'uni035F', 0, 0),
+    ('doubleinvertedbreveabove', None, 0x361, 'uni0361', 0, 0),
     ('uni1D63', None, 0x1dca, 'uni1DCA', 0, -176),
 ]
 
