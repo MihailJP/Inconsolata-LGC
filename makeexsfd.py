@@ -330,6 +330,8 @@ diacriticdata: list[tuple[str, Optional[str], int, str, int, int]] = [
     ('lowline', None, 0x332, 'lowlinecmb', 0, 0),
     ('tildeoverlay', None, 0x334, 'tildeoverlaycmb', 0, 0),
     ('strokeshortoverlay', None, 0x335, 'strokeshortoverlaycmb', 0, 0),
+    ('longslashoverlay', None, 0x337, 'solidusshortoverlaycmb', 0, 20),
+    ('longslashoverlay.cap', None, 0x338, 'soliduslongoverlaycmb', 0, -60),
     ('invertedbreve', None, 0x342, 'perispomenigreekcmb', 0, 0),
     ('tilde', None, -1, 'perispomenigreekcmb.alt', 0, 0),
     ('ypogegrammeni', None, 0x345, 'ypogegrammenigreekcmb', 0, 0),
@@ -373,7 +375,7 @@ def lgcMarkAnchors(font: fontforge.font):
         elif (top + yoffset) < 100:
             anchor = 'LGC-accent-below'
             y = 0
-        elif top < 500:
+        elif (top < 500) or (targetuni in [0x0337, 0x0338]):
             anchor = 'LGC-overlay'
             y = 294
         else:
