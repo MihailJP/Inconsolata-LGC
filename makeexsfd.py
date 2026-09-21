@@ -327,6 +327,7 @@ diacriticdata: list[tuple[str, Optional[str], int, str, int, int]] = [
     ('breveinvertedbelow', None, 0x32f, 'breveinvertedbelowcmb', 0, 0),
     ('uni02F7', None, 0x330, 'tildebelowcmb', 0, 0),
     ('macronsub', None, 0x331, 'macronbelowcmb', 0, 0),
+    ('lowline', None, 0x332, 'lowlinecmb', 0, 0),
     ('strokeshortoverlay', None, 0x335, 'strokeshortoverlaycmb', 0, 0),
     ('invertedbreve', None, 0x342, 'perispomenigreekcmb', 0, 0),
     ('tilde', None, -1, 'perispomenigreekcmb.alt', 0, 0),
