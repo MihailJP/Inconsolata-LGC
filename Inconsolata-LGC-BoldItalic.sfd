@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1161020814
-ModificationTime: 1790001675
+ModificationTime: 1790004606
 PfmFamily: 49
 TTFWeight: 700
 TTFWidth: 5
@@ -173,7 +173,7 @@ Grid
  416.256 939.008 l 1049
 EndSplineSet
 TeXData: 1 0 0 629145 314572 209715 554697 1048576 209715 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 1114677 3695
+BeginChars: 1114685 3703
 
 StartChar: a
 Encoding: 97 97 0
@@ -71107,6 +71107,142 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 3693 -1 N -1 0 0 -1 1471 1403 2
+EndChar
+
+StartChar: macronacute
+Encoding: 1114677 -1 3695
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+418 711 m 1
+ 563 860 l 1
+ 620 798 l 1
+ 441 614 l 1
+ 249 614 l 1
+ 266 711 l 1
+ 418 711 l 1
+EndSplineSet
+EndChar
+
+StartChar: gravemacron
+Encoding: 1114678 -1 3696
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+464 711 m 1
+ 598 711 l 1
+ 581 614 l 1
+ 401 614 l 1
+ 288 800 l 1
+ 380 860 l 1
+ 464 711 l 1
+EndSplineSet
+EndChar
+
+StartChar: macrongrave
+Encoding: 1114679 -1 3697
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+414 716 m 1
+ 267 716 l 1
+ 284 813 l 1
+ 477 813 l 1
+ 591 627 l 1
+ 499 567 l 1
+ 414 716 l 1
+EndSplineSet
+EndChar
+
+StartChar: acutemacron
+Encoding: 1114680 -1 3698
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+459 716 m 1
+ 316 567 l 1
+ 259 629 l 1
+ 437 813 l 1
+ 616 813 l 1
+ 599 716 l 1
+ 459 716 l 1
+EndSplineSet
+EndChar
+
+StartChar: macronacute.cap
+Encoding: 1114681 -1 3699
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+412 728 m 1
+ 587 824 l 1
+ 629 762 l 1
+ 433 631 l 1
+ 252 631 l 1
+ 269 728 l 1
+ 412 728 l 1
+EndSplineSet
+EndChar
+
+StartChar: gravemacron.cap
+Encoding: 1114682 -1 3700
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+456 728 m 1
+ 601 728 l 1
+ 584 631 l 1
+ 397 631 l 1
+ 257 760 l 1
+ 327 828 l 1
+ 456 728 l 1
+EndSplineSet
+EndChar
+
+StartChar: macrongrave.cap
+Encoding: 1114683 -1 3701
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+413 696 m 1
+ 264 696 l 1
+ 281 793 l 1
+ 472 793 l 1
+ 612 664 l 1
+ 542 596 l 1
+ 413 696 l 1
+EndSplineSet
+EndChar
+
+StartChar: acutemacron.cap
+Encoding: 1114684 -1 3702
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+457 696 m 1
+ 282 600 l 1
+ 240 662 l 1
+ 436 793 l 1
+ 613 793 l 1
+ 596 696 l 1
+ 457 696 l 1
+EndSplineSet
 EndChar
 EndChars
 EndSplineFont
