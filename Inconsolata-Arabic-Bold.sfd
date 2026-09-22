@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1161020814
-ModificationTime: 1786437878
+ModificationTime: 1790039088
 PfmFamily: 49
 TTFWeight: 700
 TTFWidth: 5
@@ -125,7 +125,7 @@ Grid
 EndSplineSet
 TeXData: 1 0 0 629145 314572 209715 554697 1048576 209715 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "rtl-above-mark" "Arabic above-base mark-to-mark positioning" "rtl-below-mark" "Arabic below-base mark-to-mark positioning" "rtl-above" "Arabic above-base mark positioning" "Ligature rtl-above" "Arabic above-base mark-to-ligature positioning" "rtl-below" "Arabic below-base mark positioning" "Ligature rtl-below" "Arabic below-base mark-to-ligature positioning"
-BeginChars: 65898 884
+BeginChars: 65901 888
 
 StartChar: comma
 Encoding: 44 44 0
@@ -15460,6 +15460,61 @@ SplineSet
  264 719 285 733 306 750 c 0
  322 763 343 776 369 787 c 1
 EndSplineSet
+EndChar
+
+StartChar: uni075D
+Encoding: 1885 1885 884
+Width: 613
+Flags: W
+AnchorPoint: "rtl-above" 187 802 basechar 0
+AnchorPoint: "rtl-below" 299 -285 basechar 0
+LayerCount: 2
+Fore
+Refer: 154 -1 N 1 0 0 1 100 603 2
+Refer: 76 65225 N 1 0 0 1 0 0 2
+Substitution2: "Final forms-1" uni075D.fina
+Substitution2: "Medial forms-1" uni075D.medi
+Substitution2: "Initial forms-1" uni075D.init
+Colour: ffff
+EndChar
+
+StartChar: uni075D.fina
+Encoding: 65898 -1 885
+Width: 613
+Flags: W
+AnchorPoint: "rtl-above" 237 675 basechar 0
+AnchorPoint: "rtl-below" 215 -277 basechar 0
+LayerCount: 2
+Fore
+Refer: 154 -1 N 1 0 0 1 150 476 2
+Refer: 77 65226 N 1 0 0 1 0 0 2
+Colour: ffff
+EndChar
+
+StartChar: uni075D.init
+Encoding: 65899 -1 886
+Width: 613
+Flags: W
+AnchorPoint: "rtl-above" 200 800 basechar 0
+AnchorPoint: "rtl-below" 188 -46 basechar 0
+LayerCount: 2
+Fore
+Refer: 154 -1 N 1 0 0 1 113 601 2
+Refer: 78 65227 N 1 0 0 1 0 0 2
+Colour: ffff
+EndChar
+
+StartChar: uni075D.medi
+Encoding: 65900 -1 887
+Width: 613
+Flags: W
+AnchorPoint: "rtl-above" 275 674 basechar 0
+AnchorPoint: "rtl-below" 301 -48 basechar 0
+LayerCount: 2
+Fore
+Refer: 154 -1 N 1 0 0 1 188 475 2
+Refer: 79 65228 N 1 0 0 1 0 0 2
+Colour: ffff
 EndChar
 EndChars
 EndSplineFont
