@@ -7,6 +7,7 @@ from sys import argv
 from typing import Optional, Union, Iterable
 from copy import deepcopy
 import re
+from tempfile import TemporaryDirectory
 
 type LangTuple = tuple[tuple[str, tuple[str, ...]], ...]
 type LangDict = dict[str, set[str]]
@@ -815,30 +816,35 @@ def addLdotL(font: fontforge.font):
                 '| {0:}{2:} @<Catalan punt volat {1:}>{3:} | {0:}'.format(ell, *ligprec),
             )
 
-font = fontforge.open(argv[2])
-font2 = fontforge.open(argv[3])
+_, targetSfd, sourceSfd, *additionalSfds = argv
+font = fontforge.open(sourceSfd)
 font.encoding = 'Original'
-font2.encoding = 'Original'
-assert font.copyright
-font.fontname = font.fontname.replace('LGC', 'EX')
-font.familyname = font.familyname.replace('LGC', 'EX')
-font.fullname = font.fullname.replace('LGC', 'EX')
-font.copyright += '\n\nArabic glyphs are derived from public domain part of DejaVu Sans Mono.'
-font.os2_winascent = 1255
-font.os2_windescent = 631
-if font.italicangle != 0:
-    font2.selection.all()
-    font2.transform(skew(radians(-font.italicangle)), ('noWidth', 'round', 'simplePos'))
-removeUnusedAnchorClass(font2)
 diacritics(font)
-oldAllLang = getLangDict(font)
 addLdotL(font)
-font.mergeFonts(argv[3])
-font.save(argv[1])
-font.close()  # workaround
-font = fontforge.open(argv[1])
+if additionalSfds:
+    assert font.copyright
+    font.fontname = font.fontname.replace('LGC', 'EX')
+    font.familyname = font.familyname.replace('LGC', 'EX')
+    font.fullname = font.fullname.replace('LGC', 'EX')
+    font.copyright += '\n\nArabic glyphs are derived from public domain part of DejaVu Sans Mono.'
+    font.os2_winascent = 1255
+    font.os2_windescent = 631
+    with TemporaryDirectory() as tmpdir:
+        tmpfile = tmpdir + '/tmp.sfd'
+        for additionalSfd in additionalSfds:
+            font2 = fontforge.open(additionalSfd)
+            font2.encoding = 'Original'
+            if font.italicangle != 0:
+                font2.selection.all()
+                font2.transform(skew(radians(-font.italicangle)), ('noWidth', 'round', 'simplePos'))
+            removeUnusedAnchorClass(font2)
+            oldAllLang = getLangDict(font)
+            font.mergeFonts(additionalSfd)
+            font.save(tmpfile)
+            font.close()  # workaround
+            font = fontforge.open(tmpfile)
+            newAllLang = getLangDict(font)
+            fixAllLang(font, oldAllLang, newAllLang)
 font.encoding = 'UnicodeFull'
-newAllLang = getLangDict(font)
-fixAllLang(font, oldAllLang, newAllLang)
 mark_dottedcircle(font)
-font.save(argv[1])
+font.save(targetSfd)
