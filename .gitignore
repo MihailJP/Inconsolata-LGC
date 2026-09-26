@@ -22,6 +22,8 @@ Inconsolata-LGC-*.mk
 *.ufo
 *.designspace
 *.ttx
+Inconsolata-LGC*.sfd
+!Inconsolata-LGC-Base*.sfd
 Inconsolata-LGC-Minimum*
 Inconsolata-LGC-Maximum*
 Inconsolata-EX*

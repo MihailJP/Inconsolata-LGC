@@ -114,13 +114,22 @@ exvariable: ${EXVARFONTS}
 .PHONY: dist
 dist: ${PKGS}
 
-Inconsolata-EX.sfd: Inconsolata-LGC.sfd Inconsolata-Arabic.sfd
+Inconsolata-LGC.sfd: Inconsolata-LGC-Base.sfd
 	./makeexsfd.py $@ $^
-Inconsolata-EX-Italic.sfd: Inconsolata-LGC-Italic.sfd Inconsolata-Arabic.sfd
+Inconsolata-LGC-Italic.sfd: Inconsolata-LGC-Base-Italic.sfd
 	./makeexsfd.py $@ $^
-Inconsolata-EX-Bold.sfd: Inconsolata-LGC-Bold.sfd Inconsolata-Arabic-Bold.sfd
+Inconsolata-LGC-Bold.sfd: Inconsolata-LGC-Base-Bold.sfd
 	./makeexsfd.py $@ $^
-Inconsolata-EX-BoldItalic.sfd: Inconsolata-LGC-BoldItalic.sfd Inconsolata-Arabic-Bold.sfd
+Inconsolata-LGC-BoldItalic.sfd: Inconsolata-LGC-Base-BoldItalic.sfd
+	./makeexsfd.py $@ $^
+
+Inconsolata-EX.sfd: Inconsolata-LGC-Base.sfd Inconsolata-Arabic.sfd
+	./makeexsfd.py $@ $^
+Inconsolata-EX-Italic.sfd: Inconsolata-LGC-Base-Italic.sfd Inconsolata-Arabic.sfd
+	./makeexsfd.py $@ $^
+Inconsolata-EX-Bold.sfd: Inconsolata-LGC-Base-Bold.sfd Inconsolata-Arabic-Bold.sfd
+	./makeexsfd.py $@ $^
+Inconsolata-EX-BoldItalic.sfd: Inconsolata-LGC-Base-BoldItalic.sfd Inconsolata-Arabic-Bold.sfd
 	./makeexsfd.py $@ $^
 
 .INTERMEDIATE: ${VARFONTS:.ttf=.raw.ttf} ${EXVARFONTS:.ttf=.raw.ttf}
@@ -319,7 +328,7 @@ ChangeLog: .git # GIT
 
 .PHONY: clean
 clean:
-	-rm -f ${FONTS} ${HINTEDTTFONTS} ${OTFONTS} ${TTCFONTS} ${WOFFFONTS} ${WOFF2FONTS} ${VARFONTS} ChangeLog
+	-rm -f ${FONTS:.ttf=.sfd} ${FONTS} ${HINTEDTTFONTS} ${OTFONTS} ${TTCFONTS} ${WOFFFONTS} ${WOFF2FONTS} ${VARFONTS} ChangeLog
 	-rm -f ${VARFONTS:.ttf=.raw.ttf} ${TTCFONTS:.ttc=.raw.ttc}
 	-rm -f ${EXFONTS:.ttf=.sfd} ${EXFONTS} ${HINTEDEXTTFONTS} ${EXTTCFONTS} ${EXOTFONTS} ${EXWOFFFONTS} ${EXWOFF2FONTS} ${EXVARFONTS} ${EXCSS}
 	-rm -f $(LOCALIZED_SFD_REGULAR) $(LOCALIZED_SFD_BOLD)
