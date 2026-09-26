@@ -371,12 +371,25 @@ def lgcMarkAnchors(font: fontforge.font):
         else:
             return 0
 
+    def isUnreferred(font: fontforge.font, sourcename: str) -> bool:
+        if len([d for d in diacriticdata if d[0] == sourcename]) > 1:
+            return False
+        else:
+            return font[sourcename].unicode == -1 and not any(any(r[0] == sourcename for r in g.references) for g in font.glyphs())
+
     def addChar(font: fontforge.font, sourcename: str, targetuni: int, targetname: str, xoffset: int, yoffset: int):
-        font.createChar(targetuni if 0x300 <= targetuni <= 0x36f else -1, targetname)
-        font[targetname].width = 0
-        font[targetname].addReference(sourcename, translate(*anchorCoord(font, xoffset - 306, yTranslate(font, sourcename) + yoffset)))
-        font[targetname].glyphclass = 'mark'
+        mat = translate(*anchorCoord(font, xoffset - 306, yTranslate(font, sourcename) + yoffset))
+        uni = targetuni if 0x300 <= targetuni <= 0x36f else -1
         left, _, _, top = font[sourcename].boundingBox()
+        if isUnreferred(font, sourcename):
+            font[sourcename].glyphname = targetname
+            font[targetname].transform(mat)
+            font[targetname].unicode = uni
+        else:
+            font.createChar(uni, targetname)
+            font[targetname].addReference(sourcename, mat)
+        font[targetname].width = 0
+        font[targetname].glyphclass = 'mark'
         if left > 400:
             return
         elif (top + yoffset) < 100:
