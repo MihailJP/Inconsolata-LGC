@@ -18,10 +18,10 @@ Layer: 1 0 "Fore" 0
 XUID: [1021 77 1780377399 11264577]
 FSType: 0
 OS2Version: 0
-OS2_WeightWidthSlopeOnly: 0
+OS2_WeightWidthSlopeOnly: 1
 OS2_UseTypoMetrics: 1
 CreationTime: 1161020814
-ModificationTime: 1790006525
+ModificationTime: 1790470927
 PfmFamily: 49
 TTFWeight: 700
 TTFWidth: 5
