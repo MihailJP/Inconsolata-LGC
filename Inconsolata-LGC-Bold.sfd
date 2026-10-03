@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 1
 OS2_UseTypoMetrics: 1
 CreationTime: 1161020814
-ModificationTime: 1791012035
+ModificationTime: 1791037520
 PfmFamily: 49
 TTFWeight: 700
 TTFWidth: 5
@@ -173,7 +173,7 @@ Grid
  416.256 939.008 l 1049
 EndSplineSet
 TeXData: 1 0 0 629145 314572 209715 554697 1048576 209715 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 1114691 3751
+BeginChars: 1114695 3776
 
 StartChar: a
 Encoding: 97 97 0
@@ -71795,6 +71795,348 @@ LayerCount: 2
 Fore
 Refer: 3738 8885 N 1 0 0 1 0 0 2
 Refer: 36 47 S 1 0 0 1 0 0 2
+EndChar
+
+StartChar: minus.short
+Encoding: 1114691 -1 3751
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+148 438 m 1
+ 466 438 l 1
+ 466 335 l 1
+ 148 335 l 1
+ 148 438 l 1
+EndSplineSet
+EndChar
+
+StartChar: excess
+Encoding: 8761 8761 3752
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 24 46 N 1 0 0 1 180 153 2
+Refer: 24 46 N 1 0 0 1 180 520 2
+Refer: 3751 -1 N 1 0 0 1 -100 0 2
+EndChar
+
+StartChar: equivasymptotic
+Encoding: 8781 8781 3753
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+98 577 m 1
+ 186 513 249 502 308 502 c 0
+ 402 502 452 533 525 577 c 1
+ 571 508 l 1
+ 500 459 430 411 308 411 c 0
+ 185 411 113 457 42 505 c 1
+ 98 577 l 1
+516 127 m 1
+ 430 190 393 217 306 217 c 0
+ 212 217 162 180 89 127 c 1
+ 43 202 l 1
+ 114 256 184 308 306 308 c 0
+ 429 308 501 257 572 205 c 1
+ 516 127 l 1
+EndSplineSet
+EndChar
+
+StartChar: geomequivalent.upper
+Encoding: 1114692 -1 3754
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+48 448 m 1
+ 48 551 l 1
+ 167 551 l 1
+ 196 579 248 628 307 628 c 0
+ 366 628 418 579 447 551 c 1
+ 566 551 l 1
+ 566 448 l 1
+ 372 448 l 1
+ 372 484 343 528 307 528 c 0
+ 271 528 242 486 242 448 c 1
+ 48 448 l 1
+EndSplineSet
+EndChar
+
+StartChar: geomequivalent.lower
+Encoding: 1114693 -1 3755
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+447 217 m 1
+ 418 171 366 140 307 140 c 0
+ 248 140 196 171 167 217 c 1
+ 48 217 l 1
+ 48 320 l 1
+ 242 320 l 1
+ 242 268 271 240 307 240 c 0
+ 343 240 372 267 372 320 c 1
+ 566 320 l 1
+ 566 217 l 1
+ 447 217 l 1
+EndSplineSet
+EndChar
+
+StartChar: geomequivalent
+Encoding: 8782 8782 3756
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 3754 -1 N 1 0 0 1 0 0 2
+Refer: 3755 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: difference
+Encoding: 8783 8783 3757
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 29 8722 N 1 0 0 1 0 -103 2
+Refer: 3754 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: colonequal
+Encoding: 8788 8788 3758
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 3751 -1 N 1 0 0 1 100 -133 2
+Refer: 3751 -1 N 1 0 0 1 100 113 2
+Refer: 24 46 N 1 0 0 1 -160 207 2
+Refer: 24 46 N 1 0 0 1 -160 456 2
+EndChar
+
+StartChar: equalcolon
+Encoding: 8789 8789 3759
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 24 46 N 1 0 0 1 180 207 2
+Refer: 24 46 N 1 0 0 1 180 456 2
+Refer: 3751 -1 N 1 0 0 1 -100 -133 2
+Refer: 3751 -1 N 1 0 0 1 -100 113 2
+EndChar
+
+StartChar: ringinequal
+Encoding: 8790 8790 3760
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 29 8722 N 1 0 0 1 0 113 2
+Refer: 29 8722 N 1 0 0 1 0 -133 2
+Refer: 1934 8728 N 1 0 0 1 0 26 2
+EndChar
+
+StartChar: ringequal
+Encoding: 8791 8791 3761
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 29 8722 N 1 0 0 1 0 113 2
+Refer: 29 8722 N 1 0 0 1 0 -133 2
+Refer: 1934 8728 N 1 0 0 1 0 350 2
+EndChar
+
+StartChar: corresponds
+Encoding: 8792 8792 3762
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1209 -1 N 1 0 0 1 0 0 2
+Refer: 29 8722 N 1 0 0 1 0 113 2
+Refer: 29 8722 N 1 0 0 1 0 -133 2
+EndChar
+
+StartChar: estimates
+Encoding: 8793 8793 3763
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 137 710 N 1 0 0 1 0 -2 2
+Refer: 29 8722 N 1 0 0 1 0 113 2
+Refer: 29 8722 N 1 0 0 1 0 -133 2
+EndChar
+
+StartChar: equiangular
+Encoding: 8794 8794 3764
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 143 711 N 1 0 0 1 0 -12 2
+Refer: 29 8722 N 1 0 0 1 0 113 2
+Refer: 29 8722 N 1 0 0 1 0 -133 2
+EndChar
+
+StartChar: starequal
+Encoding: 8795 8795 3765
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1946 8902 N 1 0 0 1 0 358 2
+Refer: 29 8722 N 1 0 0 1 0 113 2
+Refer: 29 8722 N 1 0 0 1 0 -133 2
+EndChar
+
+StartChar: defines
+Encoding: 8796 8796 3766
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 793 9651 N 0.5 0 0 0.5 142 564 2
+Refer: 29 8722 N 1 0 0 1 0 113 2
+Refer: 29 8722 N 1 0 0 1 0 -133 2
+EndChar
+
+StartChar: definequal
+Encoding: 8797 8797 3767
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 3516 7584 N 0.5 0 0 0.5 307 457 2
+Refer: 3515 7497 N 0.5 0 0 0.5 156 457 2
+Refer: 3514 7496 N 0.5 0 0 0.5 -10 457 2
+Refer: 29 8722 N 1 0 0 1 0 113 2
+Refer: 29 8722 N 1 0 0 1 0 -133 2
+EndChar
+
+StartChar: measurequal
+Encoding: 8798 8798 3768
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 3523 7504 N 0.75 0 0 0.75 62 383 2
+Refer: 29 8722 N 1 0 0 1 0 113 2
+Refer: 29 8722 N 1 0 0 1 0 -133 2
+EndChar
+
+StartChar: notequivasymptotic
+Encoding: 8813 8813 3769
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 3753 8781 N 1 0 0 1 0 0 2
+Refer: 36 47 S 1 0 0 1 0 0 2
+EndChar
+
+StartChar: precedes
+Encoding: 8826 8826 3770
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+502 75 m 1
+ 413 164 246 316 51 345 c 1
+ 51 415 l 1
+ 240 443 403 560 499 656 c 1
+ 549 606 l 1
+ 468 525 341 430 189 378 c 1
+ 295 336 419 258 552 125 c 1
+ 502 75 l 1
+EndSplineSet
+EndChar
+
+StartChar: succeeds
+Encoding: 8827 8827 3771
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+112 75 m 1
+ 62 125 l 1
+ 195 258 319 336 425 378 c 1
+ 273 430 146 525 65 606 c 1
+ 115 656 l 1
+ 211 560 374 443 563 415 c 1
+ 563 345 l 1
+ 368 316 201 164 112 75 c 1
+EndSplineSet
+EndChar
+
+StartChar: notprecedes
+Encoding: 8832 8832 3772
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 3770 8826 N 1 0 0 1 0 0 2
+Refer: 36 47 S 1 0 0 1 0 0 2
+EndChar
+
+StartChar: notsucceeds
+Encoding: 8833 8833 3773
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 3771 8827 N 1 0 0 1 0 0 2
+Refer: 36 47 S 1 0 0 1 0 0 2
+EndChar
+
+StartChar: questionequal.question
+Encoding: 1114694 -1 3774
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+339 634 m 0
+ 339 616 324 603 306 603 c 0
+ 288 603 273 616 273 634 c 0
+ 273 652 288 667 306 667 c 0
+ 324 667 339 652 339 634 c 0
+221 794 m 1
+ 224 799 241 844 304 844 c 0
+ 351 844 379 809 379 770 c 0
+ 379 730 350 713 340 704 c 0
+ 328 693 329 688 329 676 c 0
+ 329 690 l 1
+ 282 690 l 1
+ 282 676 l 0
+ 282 693 284 710 302 730 c 0
+ 314 744 327 755 327 772 c 0
+ 327 787 317 798 302 798 c 0
+ 263 798 255 757 257 761 c 1
+ 221 794 l 1
+EndSplineSet
+EndChar
+
+StartChar: questionequal
+Encoding: 8799 8799 3775
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 3774 -1 N 1 0 0 1 0 0 2
+Refer: 29 8722 N 1 0 0 1 0 113 2
+Refer: 29 8722 N 1 0 0 1 0 -133 2
 EndChar
 EndChars
 EndSplineFont

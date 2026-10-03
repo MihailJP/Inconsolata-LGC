@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 1
 OS2_UseTypoMetrics: 1
 CreationTime: 1161020814
-ModificationTime: 1791034368
+ModificationTime: 1791038145
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 5
@@ -119,24 +119,24 @@ PUSHB_1
 SCANTYPE
 EndTTInstrs
 LangName: 1033
-OtfFeatName: 'cv01' 1033 "Variants of zero" "" "0" 3 "plain zero (without slash)" "dotted zero" "zero with long slash" ""
-OtfFeatName: 'cv02' 1033 "r with serif" "" "r+AVUBVwFZ" 0 ""
-OtfFeatName: 'cv03' 1033 "Variants of Eng" "" "+AUoA" 2 "enlarged lowercase n" "uppercase N" ""
-OtfFeatName: 'cv04' 1033 "Alternative dollar signs" "" "$" 2 "middle-empty" "double-struck" ""
-OtfFeatName: 'cv05' 1033 "Variants of Ezh" "" "+AbcB7gAA" 2 "without descender" "reversed Sigma" ""
-OtfFeatName: 'cv06' 1033 "Text form triangles" "" "+JeIl4yXkJeUA" 0 ""
-OtfFeatName: 'cv07' 1033 "Variants of El with hook" "" "+BRIFEwAA" 0 ""
-OtfFeatName: 'cv08' 1033 "Variants of uppercase Qa" "" "+BRoA" 2 "enlarged lowercase" "reversed P" ""
-OtfFeatName: 'cv09' 1033 "Che with hook" "" "+BLYEtwAA" 2 "lengthened stem" "attached hook" ""
-OtfFeatName: 'cv10' 1033 "Ge with hook" "" "+BPYE9wAA" 2 "lengthened stem" "attached hook" ""
-OtfFeatName: 'cv11' 1033 "Ge with stroke and descender" "" "+BPoE+wAA" 0 ""
-OtfFeatName: 'cv12' 1033 "Alternative glyphs for control pictures" "" "+JAAkASQCJAMkBCQFJAYkByQIJAkkCiQLJAwkDSQOJA8kECQRJBIkEyQUJBUkFiQXJBgkGSQaJBskHCQdJB4kHyQgJCEA" 0 ""
-OtfFeatName: 'cv13' 1033 "G with stroke" "" "+AeQB5QAA" 0 ""
-OtfFeatName: 'cv14' 1033 "Koalib casing at signs" "" "+JLYk0AAA" 0 ""
-OtfFeatName: 'cv15' 1033 "Closed Latin OU" "" "+AiICIwAA" 0 ""
-OtfFeatName: 'ss01' 1033 "German alternative umlaut"
-OtfFeatName: 'ss02' 1033 "Polytonic Greek alternative circumflex"
 OtfFeatName: 'ss03' 1033 "Pedantic"
+OtfFeatName: 'ss02' 1033 "Polytonic Greek alternative circumflex"
+OtfFeatName: 'ss01' 1033 "German alternative umlaut"
+OtfFeatName: 'cv15' 1033 "Closed Latin OU" "" "+AiICIwAA" 0 ""
+OtfFeatName: 'cv14' 1033 "Koalib casing at signs" "" "+JLYk0AAA" 0 ""
+OtfFeatName: 'cv13' 1033 "G with stroke" "" "+AeQB5QAA" 0 ""
+OtfFeatName: 'cv12' 1033 "Alternative glyphs for control pictures" "" "+JAAkASQCJAMkBCQFJAYkByQIJAkkCiQLJAwkDSQOJA8kECQRJBIkEyQUJBUkFiQXJBgkGSQaJBskHCQdJB4kHyQgJCEA" 0 ""
+OtfFeatName: 'cv11' 1033 "Ge with stroke and descender" "" "+BPoE+wAA" 0 ""
+OtfFeatName: 'cv10' 1033 "Ge with hook" "" "+BPYE9wAA" 2 "lengthened stem" "attached hook" ""
+OtfFeatName: 'cv09' 1033 "Che with hook" "" "+BLYEtwAA" 2 "lengthened stem" "attached hook" ""
+OtfFeatName: 'cv08' 1033 "Variants of uppercase Qa" "" "+BRoA" 2 "enlarged lowercase" "reversed P" ""
+OtfFeatName: 'cv07' 1033 "Variants of El with hook" "" "+BRIFEwAA" 0 ""
+OtfFeatName: 'cv06' 1033 "Text form triangles" "" "+JeIl4yXkJeUA" 0 ""
+OtfFeatName: 'cv05' 1033 "Variants of Ezh" "" "+AbcB7gAA" 2 "without descender" "reversed Sigma" ""
+OtfFeatName: 'cv04' 1033 "Alternative dollar signs" "" "$" 2 "middle-empty" "double-struck" ""
+OtfFeatName: 'cv03' 1033 "Variants of Eng" "" "+AUoA" 2 "enlarged lowercase n" "uppercase N" ""
+OtfFeatName: 'cv02' 1033 "r with serif" "" "r+AVUBVwFZ" 0 ""
+OtfFeatName: 'cv01' 1033 "Variants of zero" "" "0" 3 "plain zero (without slash)" "dotted zero" "zero with long slash" ""
 Encoding: UnicodeFull
 Compacted: 1
 UnicodeInterp: none
@@ -173,7 +173,7 @@ Grid
  416.256 939.008 l 1049
 EndSplineSet
 TeXData: 1 0 0 629145 314572 209715 554697 1048576 209715 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 1114686 3746
+BeginChars: 1114691 3772
 
 StartChar: a
 Encoding: 97 97 0
@@ -71903,6 +71903,366 @@ SplineSet
  254 -13 223 18 223 55 c 0
  223 92 254 123 293 123 c 0
  332 123 364 92 364 55 c 0
+EndSplineSet
+EndChar
+
+StartChar: minus.short
+Encoding: 1114686 -1 3746
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+235 408 m 25
+ 523 408 l 25
+ 510 335 l 25
+ 222 335 l 25
+ 235 408 l 25
+EndSplineSet
+EndChar
+
+StartChar: excess
+Encoding: 8761 8761 3747
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 24 46 N 1 0 0 1 203 133 2
+Refer: 24 46 N 1 0 0 1 268 500 2
+Refer: 3746 -1 N 1 0 0 1 -100 0 2
+EndChar
+
+StartChar: equivasymptotic
+Encoding: 8781 8781 3748
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+196 541 m 0
+ 247 498 292 457 389 457 c 0
+ 477 457 536 488 616 540 c 0
+ 638 491 l 0
+ 557 437 486 396 378 396 c 0
+ 276 396 216 430 149 487 c 0
+ 196 541 l 0
+544 178 m 0
+ 493 221 449 262 352 262 c 0
+ 264 262 205 231 125 179 c 0
+ 103 228 l 0
+ 184 282 255 323 363 323 c 0
+ 465 323 525 289 592 232 c 0
+ 544 178 l 0
+EndSplineSet
+EndChar
+
+StartChar: geomequivalent.upper
+Encoding: 1114687 -1 3749
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+137 418 m 1
+ 150 491 l 1
+ 263 491 l 1
+ 297 537 351 568 407 568 c 0
+ 463 568 507 537 525 491 c 1
+ 638 491 l 1
+ 625 418 l 1
+ 461 418 l 1
+ 469 462 439 498 395 498 c 0
+ 351 498 309 462 301 418 c 1
+ 137 418 l 1
+EndSplineSet
+EndChar
+
+StartChar: geomequivalent.lower
+Encoding: 1114688 -1 3750
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+479 232 m 1
+ 445 186 390 155 334 155 c 0
+ 278 155 235 186 217 232 c 1
+ 104 232 l 1
+ 117 305 l 1
+ 281 305 l 1
+ 273 261 303 225 347 225 c 0
+ 391 225 433 261 441 305 c 1
+ 605 305 l 1
+ 592 232 l 1
+ 479 232 l 1
+EndSplineSet
+EndChar
+
+StartChar: geomequivalent
+Encoding: 8782 8782 3751
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 3749 -1 N 1 0 0 1 0 0 2
+Refer: 3750 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: difference
+Encoding: 8783 8783 3752
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 29 8722 N 1 0 0 1 -18 -103 2
+Refer: 3749 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: colonequal
+Encoding: 8788 8788 3753
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 3746 -1 N 1 0 0 1 82 -103 2
+Refer: 3746 -1 N 1 0 0 1 115 83 2
+Refer: 24 46 N 1 0 0 1 -122 213 2
+Refer: 24 46 N 1 0 0 1 -89 402 2
+EndChar
+
+StartChar: equalcolon
+Encoding: 8789 8789 3754
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 24 46 N 1 0 0 1 218 213 2
+Refer: 24 46 N 1 0 0 1 251 402 2
+Refer: 3746 -1 N 1 0 0 1 -118 -103 2
+Refer: 3746 -1 N 1 0 0 1 -85 83 2
+EndChar
+
+StartChar: ringinequal
+Encoding: 8790 8790 3755
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 29 8722 N 1 0 0 1 15 83 2
+Refer: 29 8722 N 1 0 0 1 -18 -103 2
+Refer: 1925 8728 N 1 0 0 1 2 11 2
+EndChar
+
+StartChar: ringequal
+Encoding: 8791 8791 3756
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 29 8722 N 1 0 0 1 15 83 2
+Refer: 29 8722 N 1 0 0 1 -18 -103 2
+Refer: 1925 8728 N 1 0 0 1 51 290 2
+EndChar
+
+StartChar: corresponds
+Encoding: 8792 8792 3757
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1205 -1 N 1 0 0 1 -11 -60 2
+Refer: 29 8722 N 1 0 0 1 15 83 2
+Refer: 29 8722 N 1 0 0 1 -18 -103 2
+EndChar
+
+StartChar: estimates
+Encoding: 8793 8793 3758
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 137 710 N 1 0 0 1 -11 -62 2
+Refer: 29 8722 N 1 0 0 1 15 83 2
+Refer: 29 8722 N 1 0 0 1 -18 -103 2
+EndChar
+
+StartChar: equiangular
+Encoding: 8794 8794 3759
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 143 711 N 1 0 0 1 -13 -72 2
+Refer: 29 8722 N 1 0 0 1 15 83 2
+Refer: 29 8722 N 1 0 0 1 -18 -103 2
+EndChar
+
+StartChar: starequal
+Encoding: 8795 8795 3760
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1937 8902 N 1 0 0 1 53 298 2
+Refer: 29 8722 N 1 0 0 1 15 83 2
+Refer: 29 8722 N 1 0 0 1 -18 -103 2
+EndChar
+
+StartChar: defines
+Encoding: 8796 8796 3761
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 3771 -1 N 1 0 0 1 0 0 2
+Refer: 29 8722 N 1 0 0 1 15 83 2
+Refer: 29 8722 N 1 0 0 1 -18 -103 2
+EndChar
+
+StartChar: definequal
+Encoding: 8797 8797 3762
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 3510 7584 N 0.5 0 0 0.5 377 397 2
+Refer: 3509 7497 N 0.5 0 0 0.5 226 397 2
+Refer: 3508 7496 N 0.5 0 0 0.5 60 397 2
+Refer: 29 8722 N 1 0 0 1 15 83 2
+Refer: 29 8722 N 1 0 0 1 -18 -103 2
+EndChar
+
+StartChar: measurequal
+Encoding: 8798 8798 3763
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 3517 7504 N 0.75 0 0 0.75 119 323 2
+Refer: 29 8722 N 1 0 0 1 15 83 2
+Refer: 29 8722 N 1 0 0 1 -18 -103 2
+EndChar
+
+StartChar: notequivasymptotic
+Encoding: 8813 8813 3764
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 3748 8781 N 1 0 0 1 0 0 2
+Refer: 36 47 S 1 0 0 1 0 0 2
+EndChar
+
+StartChar: precedes
+Encoding: 8826 8826 3765
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+515 75 m 1
+ 442 164 302 316 112 345 c 1
+ 124 415 l 1
+ 318 443 502 560 615 656 c 1
+ 656 606 l 1
+ 561 525 417 430 256 378 c 1
+ 355 336 464 258 574 125 c 1
+ 515 75 l 1
+EndSplineSet
+EndChar
+
+StartChar: succeeds
+Encoding: 8827 8827 3766
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+125 75 m 1
+ 84 125 l 1
+ 240 258 379 336 492 378 c 1
+ 349 430 239 525 172 606 c 1
+ 231 656 l 1
+ 310 560 452 443 636 415 c 1
+ 624 345 l 1
+ 424 316 230 164 125 75 c 1
+EndSplineSet
+EndChar
+
+StartChar: notprecedes
+Encoding: 8832 8832 3767
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 3765 8826 N 1 0 0 1 0 0 2
+Refer: 36 47 S 1 0 0 1 0 0 2
+EndChar
+
+StartChar: notsucceeds
+Encoding: 8833 8833 3768
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 3766 8827 N 1 0 0 1 0 0 2
+Refer: 36 47 S 1 0 0 1 0 0 2
+EndChar
+
+StartChar: questionequal.question
+Encoding: 1114689 -1 3769
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+434 568 m 0
+ 432 554 418 543 404 543 c 0
+ 390 543 381 554 383 568 c 0
+ 385 582 399 593 413 593 c 0
+ 427 593 436 582 434 568 c 0
+363 742 m 1
+ 376 758 404 784 445 784 c 0
+ 488 784 507 752 501 717 c 0
+ 495 681 467 666 454 656 c 0
+ 438 644 436 635 434 623 c 0
+ 433 620 l 1
+ 400 620 l 1
+ 401 623 l 0
+ 404 639 408 654 427 672 c 0
+ 440 685 460 698 464 719 c 0
+ 467 738 457 752 438 752 c 0
+ 412 752 392 728 384 718 c 1
+ 363 742 l 1
+EndSplineSet
+EndChar
+
+StartChar: questionequal
+Encoding: 8799 8799 3770
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 3769 -1 N 1 0 0 1 0 0 2
+Refer: 29 8722 N 1 0 0 1 15 83 2
+Refer: 29 8722 N 1 0 0 1 -18 -103 2
+EndChar
+
+StartChar: defines.upper
+Encoding: 1114690 -1 3771
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+419 703 m 1
+ 343 591 l 1
+ 456 591 l 1
+ 419 703 l 1
+432 780 m 1
+ 505 555 l 1
+ 281 555 l 1
+ 432 780 l 1
 EndSplineSet
 EndChar
 EndChars

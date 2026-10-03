@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 1
 OS2_UseTypoMetrics: 1
 CreationTime: 1161020814
-ModificationTime: 1791012214
+ModificationTime: 1791038154
 PfmFamily: 49
 TTFWeight: 700
 TTFWidth: 5
@@ -119,24 +119,24 @@ PUSHB_1
 SCANTYPE
 EndTTInstrs
 LangName: 1033 "" "" "Bold Italic"
-OtfFeatName: 'ss03' 1033 "Pedantic"
-OtfFeatName: 'ss02' 1033 "Polytonic Greek alternative circumflex"
-OtfFeatName: 'ss01' 1033 "German alternative umlaut"
-OtfFeatName: 'cv15' 1033 "Closed Latin OU" "" "+AiICIwAA" 0 ""
-OtfFeatName: 'cv14' 1033 "Koalib casing at signs" "" "+JLYk0AAA" 0 ""
-OtfFeatName: 'cv13' 1033 "G with stroke" "" "+AeQB5QAA" 0 ""
-OtfFeatName: 'cv12' 1033 "Alternative glyphs for control pictures" "" "+JAAkASQCJAMkBCQFJAYkByQIJAkkCiQLJAwkDSQOJA8kECQRJBIkEyQUJBUkFiQXJBgkGSQaJBskHCQdJB4kHyQgJCEA" 0 ""
-OtfFeatName: 'cv11' 1033 "Ge with stroke and descender" "" "+BPoE+wAA" 0 ""
-OtfFeatName: 'cv10' 1033 "Ge with hook" "" "+BPYE9wAA" 2 "lengthened stem" "attached hook" ""
-OtfFeatName: 'cv09' 1033 "Che with hook" "" "+BLYEtwAA" 2 "lengthened stem" "attached hook" ""
-OtfFeatName: 'cv08' 1033 "Variants of uppercase Qa" "" "+BRoA" 2 "enlarged lowercase" "reversed P" ""
-OtfFeatName: 'cv07' 1033 "Variants of El with hook" "" "+BRIFEwAA" 0 ""
-OtfFeatName: 'cv06' 1033 "Text form triangles" "" "+JeIl4yXkJeUA" 0 ""
-OtfFeatName: 'cv05' 1033 "Variants of Ezh" "" "+AbcB7gAA" 2 "without descender" "reversed Sigma" ""
-OtfFeatName: 'cv04' 1033 "Alternative dollar signs" "" "$" 2 "middle-empty" "double-struck" ""
-OtfFeatName: 'cv03' 1033 "Variants of Eng" "" "+AUoA" 2 "enlarged lowercase n" "uppercase N" ""
-OtfFeatName: 'cv02' 1033 "r with serif" "" "r+AVUBVwFZ" 0 ""
 OtfFeatName: 'cv01' 1033 "Variants of zero" "" "0" 3 "plain zero (without slash)" "dotted zero" "zero with long slash" ""
+OtfFeatName: 'cv02' 1033 "r with serif" "" "r+AVUBVwFZ" 0 ""
+OtfFeatName: 'cv03' 1033 "Variants of Eng" "" "+AUoA" 2 "enlarged lowercase n" "uppercase N" ""
+OtfFeatName: 'cv04' 1033 "Alternative dollar signs" "" "$" 2 "middle-empty" "double-struck" ""
+OtfFeatName: 'cv05' 1033 "Variants of Ezh" "" "+AbcB7gAA" 2 "without descender" "reversed Sigma" ""
+OtfFeatName: 'cv06' 1033 "Text form triangles" "" "+JeIl4yXkJeUA" 0 ""
+OtfFeatName: 'cv07' 1033 "Variants of El with hook" "" "+BRIFEwAA" 0 ""
+OtfFeatName: 'cv08' 1033 "Variants of uppercase Qa" "" "+BRoA" 2 "enlarged lowercase" "reversed P" ""
+OtfFeatName: 'cv09' 1033 "Che with hook" "" "+BLYEtwAA" 2 "lengthened stem" "attached hook" ""
+OtfFeatName: 'cv10' 1033 "Ge with hook" "" "+BPYE9wAA" 2 "lengthened stem" "attached hook" ""
+OtfFeatName: 'cv11' 1033 "Ge with stroke and descender" "" "+BPoE+wAA" 0 ""
+OtfFeatName: 'cv12' 1033 "Alternative glyphs for control pictures" "" "+JAAkASQCJAMkBCQFJAYkByQIJAkkCiQLJAwkDSQOJA8kECQRJBIkEyQUJBUkFiQXJBgkGSQaJBskHCQdJB4kHyQgJCEA" 0 ""
+OtfFeatName: 'cv13' 1033 "G with stroke" "" "+AeQB5QAA" 0 ""
+OtfFeatName: 'cv14' 1033 "Koalib casing at signs" "" "+JLYk0AAA" 0 ""
+OtfFeatName: 'cv15' 1033 "Closed Latin OU" "" "+AiICIwAA" 0 ""
+OtfFeatName: 'ss01' 1033 "German alternative umlaut"
+OtfFeatName: 'ss02' 1033 "Polytonic Greek alternative circumflex"
+OtfFeatName: 'ss03' 1033 "Pedantic"
 Encoding: UnicodeFull
 Compacted: 1
 UnicodeInterp: none
@@ -173,7 +173,7 @@ Grid
  416.256 939.008 l 1049
 EndSplineSet
 TeXData: 1 0 0 629145 314572 209715 554697 1048576 209715 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 1114686 3746
+BeginChars: 1114691 3772
 
 StartChar: a
 Encoding: 97 97 0
@@ -71884,6 +71884,366 @@ SplineSet
  246 -44 208 -7 208 39 c 0
  208 85 246 123 293 123 c 0
  340 123 379 85 379 39 c 0
+EndSplineSet
+EndChar
+
+StartChar: minus.short
+Encoding: 1114686 -1 3746
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+225 438 m 1
+ 543 438 l 1
+ 525 335 l 1
+ 207 335 l 1
+ 225 438 l 1
+EndSplineSet
+EndChar
+
+StartChar: excess
+Encoding: 8761 8761 3747
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 24 46 N 1 0 0 1 207 153 2
+Refer: 24 46 N 1 0 0 1 272 520 2
+Refer: 3746 -1 N 1 0 0 1 -100 0 2
+EndChar
+
+StartChar: equivasymptotic
+Encoding: 8781 8781 3748
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+200 577 m 1
+ 277 513 338 502 397 502 c 0
+ 491 502 546 533 627 577 c 1
+ 661 508 l 1
+ 581 459 502 411 380 411 c 0
+ 257 411 194 457 131 505 c 1
+ 200 577 l 1
+538 127 m 1
+ 463 190 431 217 344 217 c 0
+ 250 217 193 180 111 127 c 1
+ 79 202 l 1
+ 160 256 238 308 360 308 c 0
+ 483 308 546 257 608 205 c 1
+ 538 127 l 1
+EndSplineSet
+EndChar
+
+StartChar: geomequivalent.upper
+Encoding: 1114687 -1 3749
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+127 448 m 1
+ 145 551 l 1
+ 264 551 l 1
+ 298 579 359 628 418 628 c 0
+ 477 628 520 579 544 551 c 1
+ 663 551 l 1
+ 645 448 l 1
+ 451 448 l 1
+ 457 484 436 528 400 528 c 0
+ 364 528 328 486 321 448 c 1
+ 127 448 l 1
+EndSplineSet
+EndChar
+
+StartChar: geomequivalent.lower
+Encoding: 1114688 -1 3750
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+485 217 m 1
+ 448 171 391 140 332 140 c 0
+ 273 140 226 171 205 217 c 1
+ 86 217 l 1
+ 104 320 l 1
+ 298 320 l 1
+ 289 268 313 240 349 240 c 0
+ 385 240 419 267 428 320 c 1
+ 622 320 l 1
+ 604 217 l 1
+ 485 217 l 1
+EndSplineSet
+EndChar
+
+StartChar: geomequivalent
+Encoding: 8782 8782 3751
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 3749 -1 N 1 0 0 1 0 0 2
+Refer: 3750 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: difference
+Encoding: 8783 8783 3752
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 29 8722 N 1 0 0 1 -18 -103 2
+Refer: 3749 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: colonequal
+Encoding: 8788 8788 3753
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 3746 -1 N 1 0 0 1 77 -133 2
+Refer: 3746 -1 N 1 0 0 1 120 113 2
+Refer: 24 46 N 1 0 0 1 -124 207 2
+Refer: 24 46 N 1 0 0 1 -80 456 2
+EndChar
+
+StartChar: equalcolon
+Encoding: 8789 8789 3754
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 24 46 N 1 0 0 1 216 207 2
+Refer: 24 46 N 1 0 0 1 260 456 2
+Refer: 3746 -1 N 1 0 0 1 -123 -133 2
+Refer: 3746 -1 N 1 0 0 1 -80 113 2
+EndChar
+
+StartChar: ringinequal
+Encoding: 8790 8790 3755
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 29 8722 N 1 0 0 1 20 113 2
+Refer: 29 8722 N 1 0 0 1 -23 -133 2
+Refer: 1925 8728 N 1 0 0 1 5 26 2
+EndChar
+
+StartChar: ringequal
+Encoding: 8791 8791 3756
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 29 8722 N 1 0 0 1 20 113 2
+Refer: 29 8722 N 1 0 0 1 -23 -133 2
+Refer: 1925 8728 N 1 0 0 1 62 350 2
+EndChar
+
+StartChar: corresponds
+Encoding: 8792 8792 3757
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1205 -1 N 1 0 0 1 0 0 2
+Refer: 29 8722 N 1 0 0 1 20 113 2
+Refer: 29 8722 N 1 0 0 1 -23 -133 2
+EndChar
+
+StartChar: estimates
+Encoding: 8793 8793 3758
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 137 710 N 1 0 0 1 0 -2 2
+Refer: 29 8722 N 1 0 0 1 20 113 2
+Refer: 29 8722 N 1 0 0 1 -23 -133 2
+EndChar
+
+StartChar: equiangular
+Encoding: 8794 8794 3759
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 143 711 N 1 0 0 1 -2 -12 2
+Refer: 29 8722 N 1 0 0 1 20 113 2
+Refer: 29 8722 N 1 0 0 1 -23 -133 2
+EndChar
+
+StartChar: starequal
+Encoding: 8795 8795 3760
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 1937 8902 N 1 0 0 1 63 358 2
+Refer: 29 8722 N 1 0 0 1 20 113 2
+Refer: 29 8722 N 1 0 0 1 -23 -133 2
+EndChar
+
+StartChar: defines
+Encoding: 8796 8796 3761
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 3771 -1 N 1 0 0 1 0 0 2
+Refer: 29 8722 N 1 0 0 1 20 113 2
+Refer: 29 8722 N 1 0 0 1 -23 -133 2
+EndChar
+
+StartChar: definequal
+Encoding: 8797 8797 3762
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 3510 7584 N 0.5 0 0 0.5 388 457 2
+Refer: 3509 7497 N 0.5 0 0 0.5 237 457 2
+Refer: 3508 7496 N 0.5 0 0 0.5 71 457 2
+Refer: 29 8722 N 1 0 0 1 20 113 2
+Refer: 29 8722 N 1 0 0 1 -23 -133 2
+EndChar
+
+StartChar: measurequal
+Encoding: 8798 8798 3763
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 3517 7504 N 0.75 0 0 0.75 130 383 2
+Refer: 29 8722 N 1 0 0 1 20 113 2
+Refer: 29 8722 N 1 0 0 1 -23 -133 2
+EndChar
+
+StartChar: notequivasymptotic
+Encoding: 8813 8813 3764
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 3748 8781 N 1 0 0 1 0 0 2
+Refer: 36 47 S 1 0 0 1 0 0 2
+EndChar
+
+StartChar: precedes
+Encoding: 8826 8826 3765
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+515 75 m 1
+ 442 164 302 316 112 345 c 1
+ 124 415 l 1
+ 318 443 502 560 615 656 c 1
+ 656 606 l 1
+ 561 525 417 430 256 378 c 1
+ 355 336 464 258 574 125 c 1
+ 515 75 l 1
+EndSplineSet
+EndChar
+
+StartChar: succeeds
+Encoding: 8827 8827 3766
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+125 75 m 1
+ 84 125 l 1
+ 240 258 379 336 492 378 c 1
+ 349 430 239 525 172 606 c 1
+ 231 656 l 1
+ 310 560 452 443 636 415 c 1
+ 624 345 l 1
+ 424 316 230 164 125 75 c 1
+EndSplineSet
+EndChar
+
+StartChar: notprecedes
+Encoding: 8832 8832 3767
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 3765 8826 N 1 0 0 1 0 0 2
+Refer: 36 47 S 1 0 0 1 0 0 2
+EndChar
+
+StartChar: notsucceeds
+Encoding: 8833 8833 3768
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 3766 8827 N 1 0 0 1 0 0 2
+Refer: 36 47 S 1 0 0 1 0 0 2
+EndChar
+
+StartChar: questionequal.question
+Encoding: 1114689 -1 3769
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+451 634 m 0
+ 448 616 430 603 412 603 c 0
+ 394 603 382 616 385 634 c 0
+ 388 652 406 667 424 667 c 0
+ 442 667 454 652 451 634 c 0
+361 794 m 1
+ 365 799 390 844 453 844 c 0
+ 500 844 522 809 515 770 c 0
+ 508 730 476 713 464 704 c 0
+ 450 693 450 688 448 676 c 0
+ 451 690 l 1
+ 404 690 l 1
+ 401 676 l 0
+ 404 693 409 710 431 730 c 0
+ 445 744 460 755 463 772 c 0
+ 466 787 458 798 443 798 c 0
+ 404 798 388 757 391 761 c 1
+ 361 794 l 1
+EndSplineSet
+EndChar
+
+StartChar: questionequal
+Encoding: 8799 8799 3770
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+Refer: 3769 -1 N 1 0 0 1 0 0 2
+Refer: 29 8722 N 1 0 0 1 20 113 2
+Refer: 29 8722 N 1 0 0 1 -23 -133 2
+EndChar
+
+StartChar: defines.upper
+Encoding: 1114690 -1 3771
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+429 763 m 1
+ 354 651 l 1
+ 466 651 l 1
+ 429 763 l 1
+442 840 m 1
+ 516 615 l 1
+ 291 615 l 1
+ 442 840 l 1
 EndSplineSet
 EndChar
 EndChars
