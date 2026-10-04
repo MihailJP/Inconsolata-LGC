@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 1
 OS2_UseTypoMetrics: 1
 CreationTime: 1161020814
-ModificationTime: 1791038154
+ModificationTime: 1791081062
 PfmFamily: 49
 TTFWeight: 700
 TTFWidth: 5
@@ -173,7 +173,7 @@ Grid
  416.256 939.008 l 1049
 EndSplineSet
 TeXData: 1 0 0 629145 314572 209715 554697 1048576 209715 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 1114691 3772
+BeginChars: 1114697 3788
 
 StartChar: a
 Encoding: 97 97 0
@@ -72244,6 +72244,238 @@ SplineSet
  516 615 l 1
  291 615 l 1
  442 840 l 1
+EndSplineSet
+EndChar
+
+StartChar: precedesequal.upper
+Encoding: 1114691 -1 3772
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+538 195 m 1
+ 487 246 309 405 110 418 c 1
+ 124 500 l 1
+ 329 515 553 647 624 700 c 1
+ 680 621 l 1
+ 557 542 444 491 323 457 c 1
+ 437 415 528 356 623 277 c 1
+ 538 195 l 1
+EndSplineSet
+EndChar
+
+StartChar: followsequal.upper
+Encoding: 1114692 -1 3773
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+144 195 m 1
+ 89 277 l 1
+ 212 356 325 415 453 457 c 1
+ 344 491 247 542 152 621 c 1
+ 236 700 l 1
+ 289 647 467 515 666 500 c 1
+ 652 418 l 1
+ 449 405 213 246 144 195 c 1
+EndSplineSet
+EndChar
+
+StartChar: precedesequal.lower
+Encoding: 1114693 -1 3774
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+501 -18 m 0
+ 407 64 285 179 72 205 c 1
+ 87 291 l 1
+ 279 270 438 186 585 63 c 1
+ 501 -18 l 0
+EndSplineSet
+EndChar
+
+StartChar: followsequal.lower
+Encoding: 1114694 -1 3775
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+107 -18 m 0
+ 51 63 l 1
+ 242 186 429 270 629 291 c 1
+ 614 205 l 1
+ 391 179 229 64 107 -18 c 0
+EndSplineSet
+EndChar
+
+StartChar: precedesequal
+Encoding: 8828 8828 3776
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+Refer: 3772 -1 N 1 0 0 1 0 0 2
+Refer: 3774 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: followsequal
+Encoding: 8829 8829 3777
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+Refer: 3773 -1 N 1 0 0 1 0 0 2
+Refer: 3775 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: precedequivlnt.upper
+Encoding: 1114695 -1 3778
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+503 152 m 1
+ 437 222 218 399 36 411 c 1
+ 36 502 l 1
+ 187 520 378 611 500 734 c 1
+ 570 658 l 1
+ 463 562 353 496 233 453 c 1
+ 355 403 461 329 573 228 c 1
+ 503 152 l 1
+EndSplineSet
+EndChar
+
+StartChar: followsequivlnt.upper
+Encoding: 1114696 -1 3779
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+111 152 m 1
+ 41 228 l 1
+ 153 329 259 403 381 453 c 1
+ 261 496 151 562 44 658 c 1
+ 114 734 l 1
+ 236 611 427 520 578 502 c 1
+ 578 411 l 1
+ 396 399 177 222 111 152 c 1
+EndSplineSet
+EndChar
+
+StartChar: precedequivlnt
+Encoding: 8830 8830 3780
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+Refer: 3778 -1 N 1 0 0 1 0 0 2
+Refer: 1935 8764 S 1 0 0 1 0 -301 2
+EndChar
+
+StartChar: followsequivlnt
+Encoding: 8831 8831 3781
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+Refer: 3779 -1 N 1 0 0 1 0 0 2
+Refer: 1935 8764 S 1 0 0 1 0 -301 2
+EndChar
+
+StartChar: preceedsnotequal
+Encoding: 8928 8928 3782
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+Refer: 3776 8828 N 1 0 0 1 0 0 2
+Refer: 36 47 S 1 0 0 1 0 0 2
+EndChar
+
+StartChar: followsnotequal
+Encoding: 8929 8929 3783
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+Refer: 3777 8829 N 1 0 0 1 0 0 2
+Refer: 36 47 S 1 0 0 1 0 0 2
+EndChar
+
+StartChar: preceedsnotsimilar
+Encoding: 8936 8936 3784
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+Refer: 3780 8830 N 1 0 0 1 0 0 2
+Refer: 3166 -1 S 1 0 0 1 -44 -64 2
+EndChar
+
+StartChar: followsnotequivlnt
+Encoding: 8937 8937 3785
+Width: 613
+VWidth: 1046
+Flags: W
+LayerCount: 2
+Fore
+Refer: 3781 8831 N 1 0 0 1 0 0 2
+Refer: 3166 -1 S 1 0 0 1 -44 -64 2
+EndChar
+
+StartChar: curlyor
+Encoding: 8910 8910 3786
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+560 564 m 1
+ 505 497 360 315 339 122 c 1
+ 253 122 l 1
+ 231 315 123 484 55 561 c 1
+ 134 631 l 1
+ 198 558 251 449 298 313 c 1
+ 335 411 399 536 478 634 c 1
+ 560 564 l 1
+EndSplineSet
+EndChar
+
+StartChar: curlyand
+Encoding: 8911 8911 3787
+Width: 613
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+560 175 m 1
+ 478 105 l 1
+ 399 203 335 328 298 426 c 1
+ 251 290 198 181 134 108 c 1
+ 55 178 l 1
+ 123 255 231 424 253 617 c 1
+ 339 617 l 1
+ 360 424 505 242 560 175 c 1
 EndSplineSet
 EndChar
 EndChars
