@@ -139,6 +139,12 @@ lgcRange = [
     range(0x10780, 0x107c0),  # Latin Extended-F
 ]
 
+def inRanges(ranges: list[range], obj):
+    return any(obj in r for r in ranges)
+
+def inLgcRange(obj):
+    return inRanges(lgcRange, obj)
+
 def lgcBaseAnchors(font: fontforge.font):
     def trunkGlyph(glyph: fontforge.glyph) -> Optional[fontforge.glyph]:
         trunkname = re.sub(r'\.(serif|bg|mkd|ewe|nav|kbc|cat|var\d?|pinyin|alt|dotless)+$', '', glyph.glyphname)
@@ -225,7 +231,7 @@ def lgcBaseAnchors(font: fontforge.font):
     for glyph in font.glyphs():
         from unicodedata import category
         trunk = trunkGlyph(glyph) or glyph
-        if (any(glyph.unicode in r for r in lgcRange) or any(trunk and (trunk.unicode in r) for r in lgcRange)) and glyph.glyphname not in excludeComposed:
+        if inLgcRange(glyph.unicode) or (trunk and inLgcRange(trunk.unicode)) and glyph.glyphname not in excludeComposed:
             if ((not (len(glyph.references) == 1 and glyph.references[0][1] == (1, 0, 0, 1, 0, 0)))) or (trunk is not glyph):
                 decomp = decomposition(trunk)
                 cat = category(chr(trunk.unicode))
@@ -248,7 +254,7 @@ def lgcBaseAnchors(font: fontforge.font):
     while True:  # alias
         added = False
         for glyph in font.glyphs():
-            if glyph.foreground.isEmpty() and len(glyph.references) == 1 and glyph.glyphname not in positions and glyph.references[0][0] in positions and glyph.references[0][1] == (1, 0, 0, 1, 0, 0) and any((glyph.unicode in r) for r in lgcRange):
+            if glyph.foreground.isEmpty() and len(glyph.references) == 1 and glyph.glyphname not in positions and glyph.references[0][0] in positions and glyph.references[0][1] == (1, 0, 0, 1, 0, 0) and inLgcRange(glyph.unicode):
                 positions[glyph.glyphname] = positions[glyph.references[0][0]]
                 added = True
         if not added:
@@ -256,7 +262,7 @@ def lgcBaseAnchors(font: fontforge.font):
     while True:  # pre-composed
         added = False
         for glyph, composedGlyphs in composed.items():
-            if glyph in positions and glyph not in excludeBase and any((trunk.unicode in r) for r in (lgcRange + [range(-1, 0)])):
+            if glyph in positions and glyph not in excludeBase and inRanges(lgcRange + [range(-1, 0)], trunk.unicode):
                 for composedGlyph, _ in composedGlyphs:
                     if composedGlyph not in positions and composedGlyph not in excludeComposed:
                         above = bool(font[composedGlyph].boundingBox()[3] > font[glyph].boundingBox()[3])
