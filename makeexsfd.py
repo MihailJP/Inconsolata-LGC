@@ -176,6 +176,7 @@ def lgcBaseAnchors(font: fontforge.font):
         addComposedVariant(composed, font['ii.bg'])
     positions: dict[str, list[list[tuple[float, float]]]] = {}
     excludeBase = [
+        'less', 'equal', 'greater',
         'ydotbelow',
         'dieresis', 'psili', 'dasia',
         'uni2373', 'uni2375', 'uni2377', 'uni2378', 'uni237A',
@@ -203,6 +204,8 @@ def lgcBaseAnchors(font: fontforge.font):
         for composedGlyph, _ in composedGlyphs:
             accentType = ''
             if glyph in excludeBase or composedGlyph in excludeComposed:
+                pass
+            elif 0x2200 <= font[glyph].unicode <= 0x22ff:  # Mathematical operators
                 pass
             elif font[composedGlyph].boundingBox()[3] > font[glyph].boundingBox()[3]:  # above
                 accentType = 'above'
