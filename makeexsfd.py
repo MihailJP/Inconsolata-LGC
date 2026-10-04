@@ -231,14 +231,19 @@ def lgcBaseAnchors(font: fontforge.font):
             else:
                 positions[glyph][0] += abovePos
             positions[glyph][1] += belowPos
+    def checkUnicodeCharCategory(codepoint: int) -> bool:
+        try:
+            from unicodedata2 import category
+            return category(chr(trunk.unicode)) in ['Lu', 'Ll']
+        except ModuleNotFoundError:
+            from unicodedata import category
+            return category(chr(trunk.unicode)) in ['Lu', 'Ll']
     for glyph in font.glyphs():
-        from unicodedata import category
         trunk = trunkGlyph(glyph) or glyph
         if inLgcRange(glyph.unicode) or (trunk and inLgcRange(trunk.unicode)) and glyph.glyphname not in excludeComposed:
             if ((not (len(glyph.references) == 1 and glyph.references[0][1] == (1, 0, 0, 1, 0, 0)))) or (trunk is not glyph):
                 decomp = decomposition(trunk)
-                cat = category(chr(trunk.unicode))
-                if cat in ['Lu', 'Ll'] and not decomp:
+                if checkUnicodeCharCategory(trunk.unicode) and not decomp:
                     positions.setdefault(glyph.glyphname, [[], []])
                     if (not positions[glyph.glyphname][0]) and all(g[0] != glyph.glyphname for g in dotlessforms):
                         if (glyph.yBoundsAtX(306) or (0, 0))[1] >= 766:
