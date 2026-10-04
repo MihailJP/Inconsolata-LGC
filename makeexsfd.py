@@ -140,6 +140,12 @@ lgcRange = [
     range(0x10780, 0x107c0),  # Latin Extended-F
 ]
 
+def inRanges(ranges: list[range], obj):
+    return any(obj in r for r in ranges)
+
+def inLgcRange(obj):
+    return inRanges(lgcRange, obj)
+
 def lgcBaseAnchors(font: fontforge.font):
     def trunkGlyph(glyph: fontforge.glyph) -> Optional[fontforge.glyph]:
         trunkname = re.sub(r'\.(serif|bg|mkd|ewe|nav|kbc|cat|var\d?|pinyin|alt|dotless)+$', '', glyph.glyphname)
@@ -171,6 +177,7 @@ def lgcBaseAnchors(font: fontforge.font):
         addComposedVariant(composed, font['ii.bg'])
     positions: dict[str, list[list[tuple[float, float]]]] = {}
     excludeBase = [
+        'less', 'equal', 'greater',
         'ydotbelow',
         'dieresis', 'psili', 'dasia',
         'uni2373', 'uni2375', 'uni2377', 'uni2378', 'uni237A',
@@ -191,6 +198,7 @@ def lgcBaseAnchors(font: fontforge.font):
         'Omicrongrave', 'Upsilongrave', 'Omegagrave',
         'Alphaacute', 'Epsilonacute', 'Etaacute', 'Iotaacute',
         'Omicronacute', 'Upsilonacute', 'Omegaacute',
+        'Alphaiotasub', 'Etaiotasub', 'Omegaiotasub',
     ]
     for glyph, composedGlyphs in composed.items():  # base glyphs
         abovePos = []
@@ -198,6 +206,8 @@ def lgcBaseAnchors(font: fontforge.font):
         for composedGlyph, _ in composedGlyphs:
             accentType = ''
             if glyph in excludeBase or composedGlyph in excludeComposed:
+                pass
+            elif not inLgcRange(font[glyph].unicode):  # not a letter
                 pass
             elif font[composedGlyph].boundingBox()[3] > font[glyph].boundingBox()[3]:  # above
                 accentType = 'above'
@@ -223,14 +233,19 @@ def lgcBaseAnchors(font: fontforge.font):
             else:
                 positions[glyph][0] += abovePos
             positions[glyph][1] += belowPos
+    def checkUnicodeCharCategory(codepoint: int) -> bool:
+        try:
+            from unicodedata2 import category
+            return category(chr(trunk.unicode)) in ['Lu', 'Ll']
+        except ModuleNotFoundError:
+            from unicodedata import category
+            return category(chr(trunk.unicode)) in ['Lu', 'Ll']
     for glyph in font.glyphs():
-        from unicodedata import category
         trunk = trunkGlyph(glyph) or glyph
-        if (any(glyph.unicode in r for r in lgcRange) or any(trunk and (trunk.unicode in r) for r in lgcRange)) and glyph.glyphname not in excludeComposed:
+        if inLgcRange(glyph.unicode) or (trunk and inLgcRange(trunk.unicode)) and glyph.glyphname not in excludeComposed:
             if ((not (len(glyph.references) == 1 and glyph.references[0][1] == (1, 0, 0, 1, 0, 0)))) or (trunk is not glyph):
                 decomp = decomposition(trunk)
-                cat = category(chr(trunk.unicode))
-                if cat in ['Lu', 'Ll'] and not decomp:
+                if checkUnicodeCharCategory(trunk.unicode) and not decomp:
                     positions.setdefault(glyph.glyphname, [[], []])
                     if (not positions[glyph.glyphname][0]) and all(g[0] != glyph.glyphname for g in dotlessforms):
                         if (glyph.yBoundsAtX(306) or (0, 0))[1] >= 766:
@@ -249,7 +264,7 @@ def lgcBaseAnchors(font: fontforge.font):
     while True:  # alias
         added = False
         for glyph in font.glyphs():
-            if glyph.foreground.isEmpty() and len(glyph.references) == 1 and glyph.glyphname not in positions and glyph.references[0][0] in positions and glyph.references[0][1] == (1, 0, 0, 1, 0, 0) and any((glyph.unicode in r) for r in lgcRange):
+            if glyph.foreground.isEmpty() and len(glyph.references) == 1 and glyph.glyphname not in positions and glyph.references[0][0] in positions and glyph.references[0][1] == (1, 0, 0, 1, 0, 0) and inLgcRange(glyph.unicode):
                 positions[glyph.glyphname] = positions[glyph.references[0][0]]
                 added = True
         if not added:
@@ -257,7 +272,7 @@ def lgcBaseAnchors(font: fontforge.font):
     while True:  # pre-composed
         added = False
         for glyph, composedGlyphs in composed.items():
-            if glyph in positions and glyph not in excludeBase and any((trunk.unicode in r) for r in (lgcRange + [range(-1, 0)])):
+            if glyph in positions and glyph not in excludeBase and inRanges(lgcRange + [range(-1, 0)], trunk.unicode):
                 for composedGlyph, _ in composedGlyphs:
                     if composedGlyph not in positions and composedGlyph not in excludeComposed:
                         above = bool(font[composedGlyph].boundingBox()[3] > font[glyph].boundingBox()[3])
@@ -276,6 +291,8 @@ def lgcBaseAnchors(font: fontforge.font):
                 positions[dotless][1] = positions[dotted][1]
     for glyph in (g.glyphname.removesuffix('.nav') for g in font.glyphs() if g.glyphname.endswith('.nav')):
         positions[glyph + '.nav'] = positions[glyph]
+    for glyph in ['clicklateral', 'clickalveolar', 'clickretroflex']:  # exceptional
+        positions[glyph] = deepcopy(positions['clickdental'])
     for glyph, pos in positions.items():  # add anchors
         abovePos, belowPos = [((sum([p[0] for p in q]) / len(q), sum([p[1] for p in q]) / len(q)) if len(q) else None) for q in pos]
         if abovePos:
@@ -372,12 +389,25 @@ def lgcMarkAnchors(font: fontforge.font):
         else:
             return 0
 
+    def isUnreferred(font: fontforge.font, sourcename: str) -> bool:
+        if len([d for d in diacriticdata if d[0] == sourcename]) > 1:
+            return False
+        else:
+            return font[sourcename].unicode == -1 and not any(any(r[0] == sourcename for r in g.references) for g in font.glyphs())
+
     def addChar(font: fontforge.font, sourcename: str, targetuni: int, targetname: str, xoffset: int, yoffset: int):
-        font.createChar(targetuni if 0x300 <= targetuni <= 0x36f else -1, targetname)
-        font[targetname].width = 0
-        font[targetname].addReference(sourcename, translate(*anchorCoord(font, xoffset - 306, yTranslate(font, sourcename) + yoffset)))
-        font[targetname].glyphclass = 'mark'
+        mat = translate(*anchorCoord(font, xoffset - 306, yTranslate(font, sourcename) + yoffset))
+        uni = targetuni if 0x300 <= targetuni <= 0x36f else -1
         left, _, _, top = font[sourcename].boundingBox()
+        if isUnreferred(font, sourcename):
+            font[sourcename].glyphname = targetname
+            font[targetname].transform(mat)
+            font[targetname].unicode = uni
+        else:
+            font.createChar(uni, targetname)
+            font[targetname].addReference(sourcename, mat)
+        font[targetname].width = 0
+        font[targetname].glyphclass = 'mark'
         if left > 400:
             return
         elif (top + yoffset) < 100:

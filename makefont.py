@@ -76,6 +76,25 @@ if argv[1].endswith(".ufo"): # workaround
 	if fontInfo.find("<key>styleMapFamilyName</key>") >= 0:
 		fontInfo = re.sub(r"(?<=<key>styleMapFamilyName</key>)(\s*<string>.*?)( Bold)?( Italic)?</string>", r"\1</string>", fontInfo)
 
+	# Workaround for openTypeOS2Selection
+	if "<key>openTypeOS2Selection</key>" in fontInfo:
+		fontInfo = re.sub(r"(?<=<key>openTypeOS2Selection</key>)(\s*)<array>.*?</array>", (
+			r"\1<array>" "\n"
+			"    <array>\n"
+			"      <integer>7</integer>\n"
+			"      <integer>8</integer>\n"
+			"    </array>\n"
+		), fontInfo)
+	else:
+		fontInfo = re.sub(r"\n(?=\s*</dict>\s*</plist>)", (
+			"\n"
+			"    <key>openTypeOS2Selection</key>\n"
+			"    <array>\n"
+			"      <integer>7</integer>\n"
+			"      <integer>8</integer>\n"
+			"    </array>\n"
+		), fontInfo)
+
 	# Add `aalt` feature
 	if gsubtags:
 		featureInstructions = ""

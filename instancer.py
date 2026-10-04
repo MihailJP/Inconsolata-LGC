@@ -51,8 +51,9 @@ static['name'].setName(familyName + ' ' + ribbiFamily, 1, 3, 1, 0x409)
 static['name'].setName(ribbiName, 2, 3, 1, 0x409)
 static['OS/2'].fsSelection &= ~(0x7f)  # pyright: ignore[reportAttributeAccessIssue]
 static['OS/2'].fsSelection |= (33 if italic else 32) if bold else (1 if italic else 64)  # pyright: ignore[reportAttributeAccessIssue]
-static['OS/2'].fsSelection |= 128  # pyright: ignore[reportAttributeAccessIssue]
-static['OS/2'].panose.bWeight = panoseWeight
+static['OS/2'].fsSelection |= 128  # USE_TYPO_METRICS  # pyright: ignore[reportAttributeAccessIssue]
+static['OS/2'].fsSelection |= 256  # WWS  # pyright: ignore[reportAttributeAccessIssue]
+static['OS/2'].panose.bWeight = panoseWeight  # pyright: ignore[reportAttributeAccessIssue]
 static['head'].macStyle = (3 if italic else 1) if bold else (2 if italic else 0)  # pyright: ignore[reportAttributeAccessIssue]
 
 static.save(argv[1])
