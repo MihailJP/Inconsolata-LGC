@@ -197,6 +197,7 @@ def lgcBaseAnchors(font: fontforge.font):
         'Omicrongrave', 'Upsilongrave', 'Omegagrave',
         'Alphaacute', 'Epsilonacute', 'Etaacute', 'Iotaacute',
         'Omicronacute', 'Upsilonacute', 'Omegaacute',
+        'Alphaiotasub', 'Etaiotasub', 'Omegaiotasub',
     ]
     for glyph, composedGlyphs in composed.items():  # base glyphs
         abovePos = []
