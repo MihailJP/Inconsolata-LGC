@@ -284,6 +284,8 @@ def lgcBaseAnchors(font: fontforge.font):
                 positions[dotless][1] = positions[dotted][1]
     for glyph in (g.glyphname.removesuffix('.nav') for g in font.glyphs() if g.glyphname.endswith('.nav')):
         positions[glyph + '.nav'] = positions[glyph]
+    for glyph in ['clicklateral', 'clickalveolar', 'clickretroflex']:  # exceptional
+        positions[glyph] = deepcopy(positions['clickdental'])
     for glyph, pos in positions.items():  # add anchors
         abovePos, belowPos = [((sum([p[0] for p in q]) / len(q), sum([p[1] for p in q]) / len(q)) if len(q) else None) for q in pos]
         if abovePos:
