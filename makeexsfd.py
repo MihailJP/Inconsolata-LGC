@@ -205,7 +205,7 @@ def lgcBaseAnchors(font: fontforge.font):
             accentType = ''
             if glyph in excludeBase or composedGlyph in excludeComposed:
                 pass
-            elif 0x2200 <= font[glyph].unicode <= 0x22ff:  # Mathematical operators
+            elif not inLgcRange(font[glyph].unicode):  # not a letter
                 pass
             elif font[composedGlyph].boundingBox()[3] > font[glyph].boundingBox()[3]:  # above
                 accentType = 'above'
