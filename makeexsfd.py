@@ -235,10 +235,10 @@ def lgcBaseAnchors(font: fontforge.font):
     def checkUnicodeCharCategory(codepoint: int) -> bool:
         try:
             from unicodedata2 import category
-            return category(chr(trunk.unicode)) in ['Lu', 'Ll']
+            return category(chr(codepoint)) in ['Lu', 'Ll']
         except ModuleNotFoundError:
             from unicodedata import category
-            return category(chr(trunk.unicode)) in ['Lu', 'Ll']
+            return category(chr(codepoint)) in ['Lu', 'Ll']
     for glyph in font.glyphs():
         trunk = trunkGlyph(glyph) or glyph
         if inLgcRange(glyph.unicode) or (trunk and inLgcRange(trunk.unicode)) and glyph.glyphname not in excludeComposed:
