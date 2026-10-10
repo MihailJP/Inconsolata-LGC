@@ -41,7 +41,9 @@ for weight in weightList:
 		name = "Regular" if weight[1] is None else weight[1],
 		userValue = weight[0],
 	)
-	if weight[0] == 400:
+	if weight[0] == 300:
+		l1.linkedUserValue = 600
+	elif weight[0] == 400:
 		l1.elidable = isItalic
 		l1.linkedUserValue = 700
 	a1.axisLabels = a1.axisLabels + [l1]
