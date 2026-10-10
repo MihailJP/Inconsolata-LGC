@@ -40,15 +40,28 @@ widthCount = len(set(glyph.width for glyph in font.glyphs()))
 
 assert not argv[1].endswith(".ttc")
 
+def genfont(font: fontforge.font, filename: str):
+	try:
+		font.generate(filename, flags=(  # pyright: ignore[reportArgumentType]
+			'no-mac-names',
+			'opentype',
+			'no-FFTM-table',
+			'no-special-null-cr',
+		))
+	except ValueError:
+		stderr.write("This version of Fontforge does not support 'no-special-null-cr' flag.\n")
+		stderr.write("Dangling glyphs '.null' and 'nonmarkingreturn' will be present.\n")
+		font.generate(filename, flags=('no-mac-names','opentype','no-FFTM-table'))
+
 if argv[1].endswith(".sfd"):
 	font.save(argv[1])
 elif argv[1].endswith(".ufo") or widthCount == 1:
-	font.generate(argv[1], flags=('no-mac-names','opentype','no-FFTM-table'))
+	genfont(font, argv[1])
 else:
 	with TemporaryDirectory() as tmpdir:
 		tmpFont = Path(tmpdir, 'tmp.' + argv[1].split('.')[-1])
 		ttxFile = Path(tmpdir, 'tmp.ttx')
-		font.generate(str(tmpFont), flags=('no-mac-names','opentype','no-FFTM-table'))
+		genfont(font, str(tmpFont))
 		run(['ttx', '-o', str(ttxFile), '-t', 'post', str(tmpFont)], check=True)
 		with open(ttxFile) as ttx:
 			ttxData = ttx.read()
