@@ -237,7 +237,7 @@ SplineSet
  61 433 181 553 349 553 c 0
  389 553 507 543 571 436 c 1
 EndSplineSet
-Substitution2: "Subscripts-1" cinferior
+Substitution2: "Subscripts-1" c.inferior
 Substitution2: "Superscripts-1" uni1D9C
 EndChar
 
@@ -516,7 +516,7 @@ SplineSet
  351 94 449 117 449 261 c 0
  449 430 349 451 305 451 c 0
 EndSplineSet
-Substitution2: "Subscripts-1" binferior
+Substitution2: "Subscripts-1" b.inferior
 Substitution2: "Superscripts-1" uni1D47
 EndChar
 
@@ -597,7 +597,7 @@ SplineSet
  320 22 305 22 292 23 c 0
  253 25 224 26 205 28 c 1
 EndSplineSet
-Substitution2: "Subscripts-1" ginferior
+Substitution2: "Subscripts-1" g.inferior
 Substitution2: "Superscripts-1" uni1D4D
 EndChar
 
@@ -751,7 +751,7 @@ SplineSet
  187 596 189 645 219 694 c 1
  260 761 338 796 418 796 c 0
 EndSplineSet
-Substitution2: "Subscripts-1" finferior
+Substitution2: "Subscripts-1" f.inferior
 Substitution2: "Superscripts-1" uni1DA0
 EndChar
 
@@ -810,7 +810,7 @@ SplineSet
  428 322 426 348 420 369 c 0
  401 435 339 456 296 456 c 0
 EndSplineSet
-Substitution2: "Subscripts-1" dinferior
+Substitution2: "Subscripts-1" d.inferior
 Substitution2: "Superscripts-1" uni1D48
 EndChar
 
@@ -870,7 +870,7 @@ SplineSet
  431 325 429 355 419 380 c 1
  398 435 342 456 299 456 c 0
 EndSplineSet
-Substitution2: "Subscripts-1" qinferior
+Substitution2: "Subscripts-1" q.inferior
 Substitution2: "Superscripts-1" u107A5
 EndChar
 
@@ -3429,7 +3429,7 @@ LayerCount: 2
 Fore
 Refer: 138 732 S 1 0 0 1 -6 0 2
 Refer: 6 110 N 1 0 0 1 0 0 2
-Substitution2: "Marshallese precomposed cedilla-1" nmacron
+Substitution2: "Marshallese precomposed cedilla-1" n_macroncomb
 EndChar
 
 StartChar: dotlessi
@@ -4352,7 +4352,7 @@ LayerCount: 2
 Fore
 Refer: 138 732 S 1 0 0 1 0 150 2
 Refer: 46 78 N 1 0 0 1 0 0 2
-Substitution2: "Marshallese precomposed cedilla-1" Nmacron
+Substitution2: "Marshallese precomposed cedilla-1" N_macroncomb
 EndChar
 
 StartChar: Ydieresis
@@ -19513,7 +19513,7 @@ LayerCount: 2
 Fore
 Refer: 42 79 N 1 0 0 1 0 0 2
 Refer: 1310 -1 S 1 0 0 1 0 0 2
-Substitution2: "Marshallese precomposed cedilla-1" Ocedilla.mah
+Substitution2: "Marshallese precomposed cedilla-1" O_cedillacmb
 EndChar
 
 StartChar: odotbelow
@@ -19524,7 +19524,7 @@ LayerCount: 2
 Fore
 Refer: 5 111 N 1 0 0 1 0 0 2
 Refer: 1310 -1 S 1 0 0 1 0 0 2
-Substitution2: "Marshallese precomposed cedilla-1" ocedilla.mah
+Substitution2: "Marshallese precomposed cedilla-1" o_cedillacmb
 EndChar
 
 StartChar: Ohookabove
@@ -25114,7 +25114,7 @@ LayerCount: 2
 Fore
 Refer: 51 77 N 1 0 0 1 0 0 2
 Refer: 1310 -1 N 1 0 0 1 0 0 2
-Substitution2: "Marshallese precomposed cedilla-1" Mcedilla.mah
+Substitution2: "Marshallese precomposed cedilla-1" M_cedillacmb
 EndChar
 
 StartChar: mdotbelow
@@ -25125,7 +25125,7 @@ LayerCount: 2
 Fore
 Refer: 2 109 N 1 0 0 1 0 0 2
 Refer: 1310 -1 N 1 0 0 1 0 0 2
-Substitution2: "Marshallese precomposed cedilla-1" mcedilla.mah
+Substitution2: "Marshallese precomposed cedilla-1" m_cedillacmb
 EndChar
 
 StartChar: Hdotbelow
@@ -31332,7 +31332,7 @@ Refer: 1676 -1 N 1 0 0 1 100 0 2
 AlternateSubs2: "Variants of zero-1" twentycircle.noslash twentycircle.dotted twentycircle.longslash
 EndChar
 
-StartChar: twentyonecircle
+StartChar: uni3251
 Encoding: 12881 12881 1646
 Width: 613
 Flags: MW
@@ -31343,7 +31343,7 @@ Refer: 1678 -1 N 1 0 0 1 -100 0 2
 Refer: 1677 -1 N 1 0 0 1 130 0 2
 EndChar
 
-StartChar: twentytwocircle
+StartChar: uni3252
 Encoding: 12882 12882 1647
 Width: 613
 Flags: MW
@@ -31354,7 +31354,7 @@ Refer: 1678 -1 N 1 0 0 1 -100 0 2
 Refer: 1678 -1 N 1 0 0 1 100 0 2
 EndChar
 
-StartChar: twentythreecircle
+StartChar: uni3253
 Encoding: 12883 12883 1648
 Width: 613
 Flags: MW
@@ -31365,7 +31365,7 @@ Refer: 1678 -1 N 1 0 0 1 -100 0 2
 Refer: 1679 -1 N 1 0 0 1 100 0 2
 EndChar
 
-StartChar: twentyfourcircle
+StartChar: uni3254
 Encoding: 12884 12884 1649
 Width: 613
 Flags: MW
@@ -31376,7 +31376,7 @@ Refer: 1678 -1 N 1 0 0 1 -100 0 2
 Refer: 1680 -1 N 1 0 0 1 100 0 2
 EndChar
 
-StartChar: twentyfivecircle
+StartChar: uni3255
 Encoding: 12885 12885 1650
 Width: 613
 Flags: MW
@@ -31387,7 +31387,7 @@ Refer: 1678 -1 N 1 0 0 1 -100 0 2
 Refer: 1681 -1 N 1 0 0 1 100 0 2
 EndChar
 
-StartChar: twentysixcircle
+StartChar: uni3256
 Encoding: 12886 12886 1651
 Width: 613
 Flags: MW
@@ -31398,7 +31398,7 @@ Refer: 1678 -1 N 1 0 0 1 -100 0 2
 Refer: 1682 -1 N 1 0 0 1 100 0 2
 EndChar
 
-StartChar: twentysevencircle
+StartChar: uni3257
 Encoding: 12887 12887 1652
 Width: 613
 Flags: MW
@@ -31409,7 +31409,7 @@ Refer: 1678 -1 N 1 0 0 1 -100 0 2
 Refer: 1683 -1 N 1 0 0 1 100 0 2
 EndChar
 
-StartChar: twentyeightcircle
+StartChar: uni3258
 Encoding: 12888 12888 1653
 Width: 613
 Flags: MW
@@ -31420,7 +31420,7 @@ Refer: 1678 -1 N 1 0 0 1 -100 0 2
 Refer: 1684 -1 N 1 0 0 1 100 0 2
 EndChar
 
-StartChar: twentyninecircle
+StartChar: uni3259
 Encoding: 12889 12889 1654
 Width: 613
 Flags: MW
@@ -31431,7 +31431,7 @@ Refer: 1678 -1 N 1 0 0 1 -100 0 2
 Refer: 1685 -1 N 1 0 0 1 100 0 2
 EndChar
 
-StartChar: thirtycircle
+StartChar: uni325A
 Encoding: 12890 12890 1655
 Width: 613
 Flags: MW
@@ -31440,10 +31440,10 @@ Fore
 Refer: 1625 -1 N 1 0 0 1 0 0 2
 Refer: 1679 -1 N 1 0 0 1 -100 0 2
 Refer: 1676 -1 N 1 0 0 1 100 0 2
-AlternateSubs2: "Variants of zero-1" thirtycircle.noslash thirtycircle.dotted thirtycircle.longslash
+AlternateSubs2: "Variants of zero-1" uni325A.noslash thirtycircle.dotted thirtycircle.longslash
 EndChar
 
-StartChar: thirtyonecircle
+StartChar: uni325B
 Encoding: 12891 12891 1656
 Width: 613
 Flags: MW
@@ -31454,7 +31454,7 @@ Refer: 1679 -1 N 1 0 0 1 -100 0 2
 Refer: 1677 -1 N 1 0 0 1 130 0 2
 EndChar
 
-StartChar: thirtytwocircle
+StartChar: uni325C
 Encoding: 12892 12892 1657
 Width: 613
 Flags: MW
@@ -31465,7 +31465,7 @@ Refer: 1679 -1 N 1 0 0 1 -100 0 2
 Refer: 1678 -1 N 1 0 0 1 100 0 2
 EndChar
 
-StartChar: thirtythreecircle
+StartChar: uni325D
 Encoding: 12893 12893 1658
 Width: 613
 Flags: MW
@@ -31476,7 +31476,7 @@ Refer: 1679 -1 N 1 0 0 1 -100 0 2
 Refer: 1679 -1 N 1 0 0 1 100 0 2
 EndChar
 
-StartChar: thirtyfourcircle
+StartChar: uni325E
 Encoding: 12894 12894 1659
 Width: 613
 Flags: MW
@@ -31487,7 +31487,7 @@ Refer: 1679 -1 N 1 0 0 1 -100 0 2
 Refer: 1680 -1 N 1 0 0 1 100 0 2
 EndChar
 
-StartChar: thirtyfivecircle
+StartChar: uni325F
 Encoding: 12895 12895 1660
 Width: 613
 Flags: MW
@@ -31498,7 +31498,7 @@ Refer: 1679 -1 N 1 0 0 1 -100 0 2
 Refer: 1681 -1 N 1 0 0 1 100 0 2
 EndChar
 
-StartChar: thirtysixcircle
+StartChar: uni32B1
 Encoding: 12977 12977 1661
 Width: 613
 Flags: MW
@@ -31509,7 +31509,7 @@ Refer: 1679 -1 N 1 0 0 1 -100 0 2
 Refer: 1682 -1 N 1 0 0 1 100 0 2
 EndChar
 
-StartChar: thirtysevencircle
+StartChar: uni32B2
 Encoding: 12978 12978 1662
 Width: 613
 Flags: MW
@@ -31520,7 +31520,7 @@ Refer: 1679 -1 N 1 0 0 1 -100 0 2
 Refer: 1683 -1 N 1 0 0 1 100 0 2
 EndChar
 
-StartChar: thirtyeightcircle
+StartChar: uni32B3
 Encoding: 12979 12979 1663
 Width: 613
 Flags: MW
@@ -31531,7 +31531,7 @@ Refer: 1679 -1 N 1 0 0 1 -100 0 2
 Refer: 1684 -1 N 1 0 0 1 100 0 2
 EndChar
 
-StartChar: thirtyninecircle
+StartChar: uni32B4
 Encoding: 12980 12980 1664
 Width: 613
 Flags: MW
@@ -31542,7 +31542,7 @@ Refer: 1679 -1 N 1 0 0 1 -100 0 2
 Refer: 1685 -1 N 1 0 0 1 100 0 2
 EndChar
 
-StartChar: fortycircle
+StartChar: uni32B5
 Encoding: 12981 12981 1665
 Width: 613
 Flags: MW
@@ -31551,10 +31551,10 @@ Fore
 Refer: 1625 -1 N 1 0 0 1 0 0 2
 Refer: 1680 -1 N 1 0 0 1 -100 0 2
 Refer: 1676 -1 N 1 0 0 1 100 0 2
-AlternateSubs2: "Variants of zero-1" fortycircle.noslash fortycircle.dotted fortycircle.longslash
+AlternateSubs2: "Variants of zero-1" uni32B5.noslash fortycircle.dotted fortycircle.longslash
 EndChar
 
-StartChar: fortyonecircle
+StartChar: uni32B6
 Encoding: 12982 12982 1666
 Width: 613
 Flags: MW
@@ -31565,7 +31565,7 @@ Refer: 1680 -1 N 1 0 0 1 -100 0 2
 Refer: 1677 -1 N 1 0 0 1 130 0 2
 EndChar
 
-StartChar: fortytwocircle
+StartChar: uni32B7
 Encoding: 12983 12983 1667
 Width: 613
 Flags: MW
@@ -31576,7 +31576,7 @@ Refer: 1680 -1 N 1 0 0 1 -100 0 2
 Refer: 1678 -1 N 1 0 0 1 100 0 2
 EndChar
 
-StartChar: fortythreecircle
+StartChar: uni32B8
 Encoding: 12984 12984 1668
 Width: 613
 Flags: MW
@@ -31587,7 +31587,7 @@ Refer: 1680 -1 N 1 0 0 1 -100 0 2
 Refer: 1679 -1 N 1 0 0 1 100 0 2
 EndChar
 
-StartChar: fortyfourcircle
+StartChar: uni32B9
 Encoding: 12985 12985 1669
 Width: 613
 Flags: MW
@@ -31598,7 +31598,7 @@ Refer: 1680 -1 N 1 0 0 1 -100 0 2
 Refer: 1680 -1 N 1 0 0 1 100 0 2
 EndChar
 
-StartChar: fortyfivecircle
+StartChar: uni32BA
 Encoding: 12986 12986 1670
 Width: 613
 Flags: MW
@@ -31609,7 +31609,7 @@ Refer: 1680 -1 N 1 0 0 1 -100 0 2
 Refer: 1681 -1 N 1 0 0 1 100 0 2
 EndChar
 
-StartChar: fortysixcircle
+StartChar: uni32BB
 Encoding: 12987 12987 1671
 Width: 613
 Flags: MW
@@ -31620,7 +31620,7 @@ Refer: 1680 -1 N 1 0 0 1 -100 0 2
 Refer: 1682 -1 N 1 0 0 1 100 0 2
 EndChar
 
-StartChar: fortysevencircle
+StartChar: uni32BC
 Encoding: 12988 12988 1672
 Width: 613
 Flags: MW
@@ -31631,7 +31631,7 @@ Refer: 1680 -1 N 1 0 0 1 -100 0 2
 Refer: 1683 -1 N 1 0 0 1 100 0 2
 EndChar
 
-StartChar: fortyeightcircle
+StartChar: uni32BD
 Encoding: 12989 12989 1673
 Width: 613
 Flags: MW
@@ -31642,7 +31642,7 @@ Refer: 1680 -1 N 1 0 0 1 -100 0 2
 Refer: 1684 -1 N 1 0 0 1 100 0 2
 EndChar
 
-StartChar: fortyninecircle
+StartChar: uni32BE
 Encoding: 12990 12990 1674
 Width: 613
 Flags: MW
@@ -31653,7 +31653,7 @@ Refer: 1680 -1 N 1 0 0 1 -100 0 2
 Refer: 1685 -1 N 1 0 0 1 100 0 2
 EndChar
 
-StartChar: fiftycircle
+StartChar: uni32BF
 Encoding: 12991 12991 1675
 Width: 613
 Flags: MW
@@ -31662,7 +31662,7 @@ Fore
 Refer: 1625 -1 N 1 0 0 1 0 0 2
 Refer: 1681 -1 N 1 0 0 1 -100 0 2
 Refer: 1676 -1 N 1 0 0 1 100 0 2
-AlternateSubs2: "Variants of zero-1" fiftycircle.noslash fiftycircle.dotted fiftycircle.longslash
+AlternateSubs2: "Variants of zero-1" uni32BF.noslash fiftycircle.dotted fiftycircle.longslash
 EndChar
 
 StartChar: zero.smallnarrow
@@ -31971,7 +31971,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: zerocircle
+StartChar: uni24EA
 Encoding: 9450 9450 1688
 Width: 613
 Flags: MW
@@ -31979,10 +31979,10 @@ LayerCount: 2
 Fore
 Refer: 1625 -1 N 1 0 0 1 0 0 2
 Refer: 556 8304 N 1 0 0 1 0 -150 2
-AlternateSubs2: "Variants of zero-1" zerocircle.noslash zerocircle.dotted zerocircle.longslash
+AlternateSubs2: "Variants of zero-1" uni24EA.noslash zerocircle.dotted zerocircle.longslash
 EndChar
 
-StartChar: zerocircle.noslash
+StartChar: uni24EA.noslash
 Encoding: 1114247 -1 1689
 Width: 613
 Flags: MW
@@ -31992,7 +31992,7 @@ Refer: 1625 -1 N 1 0 0 1 0 0 2
 Refer: 1218 -1 N 1 0 0 1 0 -150 2
 EndChar
 
-StartChar: zerocircle.dotted
+StartChar: uni24EA.dotted
 Encoding: 1114248 -1 1690
 Width: 613
 Flags: MW
@@ -32046,7 +32046,7 @@ Refer: 1678 -1 N 1 0 0 1 -100 0 2
 Refer: 1687 -1 N 1 0 0 1 100 0 2
 EndChar
 
-StartChar: thirtycircle.noslash
+StartChar: uni325A.noslash
 Encoding: 1114253 -1 1695
 Width: 613
 Flags: MW
@@ -32057,7 +32057,7 @@ Refer: 1679 -1 N 1 0 0 1 -100 0 2
 Refer: 1686 -1 N 1 0 0 1 100 0 2
 EndChar
 
-StartChar: thirtycircle.dotted
+StartChar: uni325A.dotted
 Encoding: 1114254 -1 1696
 Width: 613
 Flags: MW
@@ -32068,7 +32068,7 @@ Refer: 1679 -1 N 1 0 0 1 -100 0 2
 Refer: 1687 -1 N 1 0 0 1 100 0 2
 EndChar
 
-StartChar: fortycircle.noslash
+StartChar: uni32B5.noslash
 Encoding: 1114255 -1 1697
 Width: 613
 Flags: MW
@@ -32079,7 +32079,7 @@ Refer: 1680 -1 N 1 0 0 1 -100 0 2
 Refer: 1686 -1 N 1 0 0 1 100 0 2
 EndChar
 
-StartChar: fortycircle.dotted
+StartChar: uni32B5.dotted
 Encoding: 1114256 -1 1698
 Width: 613
 Flags: MW
@@ -32090,7 +32090,7 @@ Refer: 1680 -1 N 1 0 0 1 -100 0 2
 Refer: 1687 -1 N 1 0 0 1 100 0 2
 EndChar
 
-StartChar: fiftycircle.noslash
+StartChar: uni32BF.noslash
 Encoding: 1114257 -1 1699
 Width: 613
 Flags: MW
@@ -32101,7 +32101,7 @@ Refer: 1681 -1 N 1 0 0 1 -100 0 2
 Refer: 1686 -1 N 1 0 0 1 100 0 2
 EndChar
 
-StartChar: fiftycircle.dotted
+StartChar: uni32BF.dotted
 Encoding: 1114258 -1 1700
 Width: 613
 Flags: MW
@@ -32236,7 +32236,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: zerocircle.longslash
+StartChar: uni24EA.longslash
 Encoding: 1114264 -1 1706
 Width: 613
 Flags: MW
@@ -32268,7 +32268,7 @@ Refer: 1678 -1 N 1 0 0 1 -100 0 2
 Refer: 1705 -1 N 1 0 0 1 100 0 2
 EndChar
 
-StartChar: thirtycircle.longslash
+StartChar: uni325A.longslash
 Encoding: 1114267 -1 1709
 Width: 613
 Flags: MW
@@ -32279,7 +32279,7 @@ Refer: 1679 -1 N 1 0 0 1 -100 0 2
 Refer: 1705 -1 N 1 0 0 1 100 0 2
 EndChar
 
-StartChar: fortycircle.longslash
+StartChar: uni32B5.longslash
 Encoding: 1114268 -1 1710
 Width: 613
 Flags: MW
@@ -32290,7 +32290,7 @@ Refer: 1680 -1 N 1 0 0 1 -100 0 2
 Refer: 1705 -1 N 1 0 0 1 100 0 2
 EndChar
 
-StartChar: fiftycircle.longslash
+StartChar: uni32BF.longslash
 Encoding: 1114269 -1 1711
 Width: 613
 Flags: MW
@@ -39515,7 +39515,7 @@ Refer: 2157 -1 N 1 0 0 1 0 158 2
 Refer: 2130 8190 N 1 0 0 1 0 -20 2
 EndChar
 
-StartChar: Jacute
+StartChar: J_acutecomb
 Encoding: 1114327 -1 2161
 Width: 613
 VWidth: 1046
@@ -39527,7 +39527,7 @@ Refer: 83 74 N 1 0 0 1 0 0 2
 Decomposition: "J+AwEA"
 EndChar
 
-StartChar: jacute
+StartChar: j_acutecomb
 Encoding: 1114328 -1 2162
 Width: 613
 VWidth: 1046
@@ -61139,7 +61139,7 @@ Fore
 Refer: 99 191 S 1 0 0 1 0 190 2
 EndChar
 
-StartChar: IJacute
+StartChar: IJ_acutecomb
 Encoding: 1114491 -1 3132
 Width: 613
 VWidth: 1046
@@ -61184,7 +61184,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: ijacute
+StartChar: ij_acutecomb
 Encoding: 1114493 -1 3134
 Width: 613
 VWidth: 1046
@@ -62859,7 +62859,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: Ohokkien
+StartChar: O_uni0358
 Encoding: 1114517 -1 3245
 Width: 613
 Flags: W
@@ -62870,7 +62870,7 @@ Refer: 3247 -1 N 1 0 0 1 0 194 2
 Decomposition: "O+A1gA"
 EndChar
 
-StartChar: ohokkien
+StartChar: o_uni0358
 Encoding: 1114518 -1 3246
 Width: 613
 Flags: W
@@ -62929,7 +62929,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: Ohokkienacute
+StartChar: Oacute_uni0358
 Encoding: 1114521 -1 3250
 Width: 613
 Flags: W
@@ -62940,7 +62940,7 @@ Refer: 194 -1 N 1 0 0 1 -55 141 2
 Decomposition: "+ANMDWAAA"
 EndChar
 
-StartChar: ohokkienacute
+StartChar: oacute_uni0358
 Encoding: 1114522 -1 3251
 Width: 613
 Flags: W
@@ -62951,7 +62951,7 @@ Refer: 107 180 N 1 0 0 1 -35 0 2
 Decomposition: "+APMDWAAA"
 EndChar
 
-StartChar: Ohokkiengrave
+StartChar: Ograve_uni0358
 Encoding: 1114523 -1 3252
 Width: 613
 Flags: W
@@ -62962,7 +62962,7 @@ Refer: 195 -1 N 1 0 0 1 -66 141 2
 Decomposition: "+ANIDWAAA"
 EndChar
 
-StartChar: ohokkiengrave
+StartChar: ograve_uni0358
 Encoding: 1114524 -1 3253
 Width: 613
 Flags: W
@@ -62973,7 +62973,7 @@ Refer: 130 715 N 1 0 0 1 -30 0 2
 Decomposition: "+APIDWAAA"
 EndChar
 
-StartChar: Ohokkiencircumflex
+StartChar: Ocircumflex_uni0358
 Encoding: 1114525 -1 3254
 Width: 613
 Flags: W
@@ -62984,7 +62984,7 @@ Refer: 190 -1 S 1 0 0 1 -38 146 2
 Decomposition: "+ANQDWAAA"
 EndChar
 
-StartChar: ohokkiencircumflex
+StartChar: ocircumflex_uni0358
 Encoding: 1114526 -1 3255
 Width: 613
 Flags: W
@@ -62995,7 +62995,7 @@ Refer: 137 710 S 1 0 0 1 -41 0 2
 Decomposition: "+APQDWAAA"
 EndChar
 
-StartChar: Ohokkienmacron
+StartChar: Omacron_uni0358
 Encoding: 1114527 -1 3256
 Width: 613
 Flags: W
@@ -63006,7 +63006,7 @@ Refer: 3245 -1 N 1 0 0 1 0 0 2
 Decomposition: "+AUwDWAAA"
 EndChar
 
-StartChar: ohokkienmacron
+StartChar: omacron_uni0358
 Encoding: 1114528 -1 3257
 Width: 613
 Flags: W
@@ -63017,7 +63017,7 @@ Refer: 198 713 S 1 0 0 1 -38 0 2
 Decomposition: "+AU0DWAAA"
 EndChar
 
-StartChar: Ohokkienverticalline
+StartChar: O_uni030D_uni0358
 Encoding: 1114529 -1 3258
 Width: 613
 Flags: W
@@ -63028,7 +63028,7 @@ Refer: 3245 -1 N 1 0 0 1 0 0 2
 Decomposition: "O+Aw0DWAAA"
 EndChar
 
-StartChar: ohokkienverticalline
+StartChar: o_uni030D_uni0358
 Encoding: 1114530 -1 3259
 Width: 613
 Flags: W
@@ -63145,7 +63145,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: Ccommaaboveright
+StartChar: C_uni0315
 Encoding: 1114536 -1 3265
 Width: 613
 Flags: W
@@ -63156,7 +63156,7 @@ Refer: 3260 -1 N 1 0 0 1 0 0 2
 Decomposition: "C+AxUA"
 EndChar
 
-StartChar: Kcommaaboveright
+StartChar: K_uni0315
 Encoding: 1114537 -1 3266
 Width: 613
 Flags: W
@@ -63167,7 +63167,7 @@ Refer: 3260 -1 N 1 0 0 1 0 0 2
 Decomposition: "K+AxUA"
 EndChar
 
-StartChar: Pcommaaboveright
+StartChar: P_uni0315
 Encoding: 1114538 -1 3267
 Width: 613
 Flags: W
@@ -63178,7 +63178,7 @@ Refer: 3260 -1 N 1 0 0 1 0 0 2
 Decomposition: "P+AxUA"
 EndChar
 
-StartChar: Tcommaaboveright
+StartChar: T_uni0315
 Encoding: 1114539 -1 3268
 Width: 613
 Flags: W
@@ -63189,7 +63189,7 @@ Refer: 3260 -1 N 1 0 0 1 0 0 2
 Decomposition: "T+AxUA"
 EndChar
 
-StartChar: ccommaaboveright
+StartChar: c_uni0315
 Encoding: 1114540 -1 3269
 Width: 613
 Flags: W
@@ -63200,7 +63200,7 @@ Refer: 3260 -1 N 1 0 0 1 0 0 2
 Decomposition: "c+AxUA"
 EndChar
 
-StartChar: kcommaaboveright
+StartChar: k_uni0315
 Encoding: 1114541 -1 3270
 Width: 613
 Flags: W
@@ -63211,7 +63211,7 @@ Refer: 3260 -1 N 1 0 0 1 0 0 2
 Decomposition: "k+AxUA"
 EndChar
 
-StartChar: pcommaaboveright
+StartChar: p_uni0315
 Encoding: 1114542 -1 3271
 Width: 613
 Flags: W
@@ -63222,7 +63222,7 @@ Refer: 3260 -1 N 1 0 0 1 0 0 2
 Decomposition: "p+AxUA"
 EndChar
 
-StartChar: tcommaaboveright
+StartChar: t_uni0315
 Encoding: 1114543 -1 3272
 Width: 613
 Flags: W
@@ -63233,7 +63233,7 @@ Refer: 3260 -1 N 1 0 0 1 0 0 2
 Decomposition: "t+AxUA"
 EndChar
 
-StartChar: Ccaroncommaaboveright
+StartChar: Ccaron_uni0315
 Encoding: 1114544 -1 3273
 Width: 613
 Flags: W
@@ -63245,7 +63245,7 @@ Refer: 3260 -1 N 1 0 0 1 0 0 2
 Decomposition: "+AQwDFQAA"
 EndChar
 
-StartChar: ccaroncommaaboveright
+StartChar: ccaron_uni0315
 Encoding: 1114545 -1 3274
 Width: 613
 Flags: W
@@ -63257,7 +63257,7 @@ Refer: 3260 -1 N 1 0 0 1 0 0 2
 Decomposition: "+AQ0DFQAA"
 EndChar
 
-StartChar: Khorn
+StartChar: K_uni031B
 Encoding: 1114546 -1 3275
 Width: 613
 Flags: W
@@ -63268,7 +63268,7 @@ Refer: 3244 -1 S 1 0 0 1 0 332 2
 Decomposition: "K+AxsA"
 EndChar
 
-StartChar: Shorn
+StartChar: S_uni031B
 Encoding: 1114547 -1 3276
 Width: 613
 Flags: W
@@ -63279,7 +63279,7 @@ Refer: 50 83 N 1 0 0 1 0 0 2
 Decomposition: "S+AxsA"
 EndChar
 
-StartChar: T_horn
+StartChar: T_uni031B
 Encoding: 1114548 -1 3277
 Width: 613
 Flags: W
@@ -63290,7 +63290,7 @@ Refer: 3244 -1 S 1 0 0 1 0 333 2
 Decomposition: "T+AxsA"
 EndChar
 
-StartChar: khorn
+StartChar: k_uni031B
 Encoding: 1114549 -1 3278
 Width: 613
 Flags: W
@@ -63301,7 +63301,7 @@ Refer: 3244 -1 S 1 0 0 1 0 139 2
 Decomposition: "k+AxsA"
 EndChar
 
-StartChar: shorn
+StartChar: s_uni031B
 Encoding: 1114550 -1 3279
 Width: 613
 Flags: W
@@ -63312,7 +63312,7 @@ Refer: 3244 -1 S 1 0 0 1 0 92 2
 Decomposition: "s+AxsA"
 EndChar
 
-StartChar: t_horn
+StartChar: t_uni031B
 Encoding: 1114551 -1 3280
 Width: 613
 Flags: W
@@ -63323,7 +63323,7 @@ Refer: 3244 -1 S 1 0 0 1 0 136 2
 Decomposition: "t+AxsA"
 EndChar
 
-StartChar: Shornmacron
+StartChar: S_uni031B_macroncomb
 Encoding: 1114552 -1 3281
 Width: 613
 Flags: W
@@ -63334,7 +63334,7 @@ Refer: 3276 -1 N 1 0 0 1 0 0 2
 Decomposition: "S+AxsDBAAA"
 EndChar
 
-StartChar: shornmacron
+StartChar: s_uni031B_macroncomb
 Encoding: 1114553 -1 3282
 Width: 613
 Flags: W
@@ -65812,7 +65812,7 @@ Refer: 6 110 N 1 0 0 1 0 0 2
 Decomposition: "n+AycA"
 EndChar
 
-StartChar: Mcedilla.mah
+StartChar: M_cedillacmb
 Encoding: 1114589 -1 3406
 Width: 613
 Flags: W
@@ -65823,7 +65823,7 @@ Refer: 201 184 S 1 0 0 1 -40 0 2
 Decomposition: "M+AycA"
 EndChar
 
-StartChar: mcedilla.mah
+StartChar: m_cedillacmb
 Encoding: 1114590 -1 3407
 Width: 613
 Flags: W
@@ -65834,7 +65834,7 @@ Refer: 201 184 S 1 0 0 1 -40 0 2
 Decomposition: "m+AycA"
 EndChar
 
-StartChar: Ocedilla.mah
+StartChar: O_cedillacmb
 Encoding: 1114591 -1 3408
 Width: 613
 Flags: W
@@ -65845,7 +65845,7 @@ Refer: 201 184 S 1 0 0 1 -40 0 2
 Decomposition: "O+AycA"
 EndChar
 
-StartChar: ocedilla.mah
+StartChar: o_cedillacmb
 Encoding: 1114592 -1 3409
 Width: 613
 Flags: W
@@ -65856,7 +65856,7 @@ Refer: 201 184 S 1 0 0 1 -40 0 2
 Decomposition: "o+AycA"
 EndChar
 
-StartChar: Nmacron
+StartChar: N_macroncomb
 Encoding: 1114593 -1 3410
 Width: 613
 Flags: W
@@ -65867,7 +65867,7 @@ Refer: 46 78 N 1 0 0 1 0 0 2
 Decomposition: "N+AwQA"
 EndChar
 
-StartChar: nmacron
+StartChar: n_macroncomb
 Encoding: 1114594 -1 3411
 Width: 613
 Flags: W
@@ -70380,7 +70380,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: ramshorn
+StartChar: rams_uni031B
 Encoding: 612 612 3654
 Width: 613
 Flags: W
@@ -70529,7 +70529,7 @@ Fore
 Refer: 3511 7491 N 1 0 0 1 0 -483 2
 EndChar
 
-StartChar: binferior
+StartChar: b.inferior
 Encoding: 1114671 -1 3660
 Width: 613
 Flags: W
@@ -70538,7 +70538,7 @@ Fore
 Refer: 3512 7495 N 1 0 0 1 0 -483 2
 EndChar
 
-StartChar: cinferior
+StartChar: c.inferior
 Encoding: 1114672 -1 3661
 Width: 613
 Flags: W
@@ -70547,7 +70547,7 @@ Fore
 Refer: 3513 7580 N 1 0 0 1 0 -483 2
 EndChar
 
-StartChar: dinferior
+StartChar: d.inferior
 Encoding: 1114673 -1 3662
 Width: 613
 Flags: W
@@ -70565,7 +70565,7 @@ Fore
 Refer: 3515 7497 N 1 0 0 1 0 -483 2
 EndChar
 
-StartChar: finferior
+StartChar: f.inferior
 Encoding: 1114674 -1 3664
 Width: 613
 Flags: W
@@ -70574,7 +70574,7 @@ Fore
 Refer: 3516 7584 N 1 0 0 1 0 -483 2
 EndChar
 
-StartChar: ginferior
+StartChar: g.inferior
 Encoding: 1114675 -1 3665
 Width: 613
 Flags: W
@@ -70665,7 +70665,7 @@ Fore
 Refer: 3525 7510 N 1 0 0 1 0 -483 2
 EndChar
 
-StartChar: qinferior
+StartChar: q.inferior
 Encoding: 1114676 -1 3675
 Width: 613
 Flags: W
