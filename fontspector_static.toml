@@ -1,4 +1,3 @@
 exclude_checks = [
     'opentype/STAT/ital_axis',
-    'fontdata_namecheck',
 ]

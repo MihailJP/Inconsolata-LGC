@@ -80,31 +80,49 @@ jobs:
       uses: actions/download-artifact@v8
     - name: Check Static Fonts
       run: |
-        fontspector -l info --full-lists \
+        fontspector -c fontdata_namecheck -l info --full-lists \
+          --configuration fontspector_static.toml \
+          ttf/*.ttf || true
+        fontspector -x fontdata_namecheck -l info --full-lists \
           --configuration fontspector_static.toml \
           ttf/*.ttf
     - name: Check Hinted Fonts
       run: |
-        fontspector -l info --full-lists \
+        fontspector -c fontdata_namecheck -l info --full-lists \
+          --configuration fontspector_static.toml \
+          hinted/*.ttf || true
+        fontspector -x fontdata_namecheck -l info --full-lists \
           --configuration fontspector_static.toml \
           hinted/*.ttf
     - name: Check Variable Fonts
       run: |
-        fontspector -l info --full-lists \
+        fontspector -c fontdata_namecheck -l info --full-lists \
+          --configuration fontspector_variable.toml \
+          variable/*.ttf || true
+        fontspector -x fontdata_namecheck -l info --full-lists \
           --configuration fontspector_variable.toml \
           variable/*.ttf
     - name: Check EX Static Fonts
       run: |
-        fontspector -l info --full-lists \
+        fontspector -c fontdata_namecheck -l info --full-lists \
+          --configuration fontspector_static.toml \
+          exttf/*.ttf || true
+        fontspector -x fontdata_namecheck -l info --full-lists \
           --configuration fontspector_static.toml \
           exttf/*.ttf
     - name: Check Hinted EX Fonts
       run: |
-        fontspector -l info --full-lists \
+        fontspector -c fontdata_namecheck -l info --full-lists \
+          --configuration fontspector_static.toml \
+          hinted-ex/*.ttf || true
+        fontspector -x fontdata_namecheck -l info --full-lists \
           --configuration fontspector_static.toml \
           hinted-ex/*.ttf
     - name: Check EX Variable Fonts
       run: |
-        fontspector -l info --full-lists \
+        fontspector -c fontdata_namecheck -l info --full-lists \
+          --configuration fontspector_variable.toml \
+          exvariable/*.ttf || true
+        fontspector -x fontdata_namecheck -l info --full-lists \
           --configuration fontspector_variable.toml \
           exvariable/*.ttf
