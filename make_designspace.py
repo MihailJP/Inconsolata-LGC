@@ -80,9 +80,8 @@ doc.addAxis(a2)
 
 sourceList = [
 	("Regular", argv[2],   0),
-	("Minimum", argv[4], -16),
-	("Bold",    argv[3],  10),
-	("Maximum", argv[5],  25),
+	("Minimum", argv[3], -16),
+	("Maximum", argv[4],  25),
 ]
 
 for source in sourceList:
