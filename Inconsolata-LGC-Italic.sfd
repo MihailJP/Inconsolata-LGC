@@ -41,6 +41,16 @@ HheadAscent: 939
 HheadAOffset: 0
 HheadDescent: -198
 HheadDOffset: 0
+OS2SubXSize: 665
+OS2SubYSize: 716
+OS2SubXOff: 9
+OS2SubYOff: 143
+OS2SupXSize: 665
+OS2SupYSize: 716
+OS2SupXOff: -34
+OS2SupYOff: 491
+OS2StrikeYSize: 51
+OS2StrikeYPos: 265
 OS2CapHeight: 740
 OS2XHeight: 543
 OS2FamilyClass: 2048
