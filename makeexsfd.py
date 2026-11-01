@@ -236,10 +236,10 @@ def lgcBaseAnchors(font: fontforge.font):
     def checkUnicodeCharCategory(codepoint: int) -> bool:
         try:
             from unicodedata2 import category
-            return category(chr(trunk.unicode)) in ['Lu', 'Ll']
+            return category(chr(codepoint)) in ['Lu', 'Ll']
         except ModuleNotFoundError:
             from unicodedata import category
-            return category(chr(trunk.unicode)) in ['Lu', 'Ll']
+            return category(chr(codepoint)) in ['Lu', 'Ll']
     for glyph in font.glyphs():
         trunk = trunkGlyph(glyph) or glyph
         if inLgcRange(glyph.unicode) or (trunk and inLgcRange(trunk.unicode)) and glyph.glyphname not in excludeComposed:
@@ -722,11 +722,14 @@ def diacritics(font: fontforge.font):
     diacriticsWorkaround(font)
 
 def mark_dottedcircle(font: fontforge.font):
+    def isMark(glyph: fontforge.glyph):
+        return glyph.width == 0 and glyph.unicode not in range(0x200b, 0x2010)
+
     font.addLookup('Append dotted circle', 'gsub_multiple', None, (('ccmp', langDictToLangTuple(getLangDict(font))),), font.gsub_lookups[-1])
     font.addLookupSubtable('Append dotted circle', 'Append dotted circle-1')
     font.addLookup('Remove dotted circle', 'gsub_ligature', None, (), 'Append dotted circle')
     font.addLookupSubtable('Remove dotted circle', 'Remove dotted circle-1')
-    for glyph in [g for g in font.glyphs() if g.width == 0]:
+    for glyph in [g for g in font.glyphs() if isMark(g)]:
         glyph.addPosSub('Append dotted circle-1', ('invalidbase', glyph.glyphname))
         glyph.addPosSub('Remove dotted circle-1', ('invalidbase', glyph.glyphname))
     anchors, _ = allAnchors(font)
@@ -736,7 +739,7 @@ def mark_dottedcircle(font: fontforge.font):
         lookup = font.getLookupOfSubtable(font.getSubtableOfAnchor(anchor))
         lang = getLangDict(font, lookup)
         font.addLookup('Activate anchor ' + anchor, 'gsub_contextchain', font.getLookupInfo(lookup)[1], (('ccmp', langDictToLangTuple(getLangDict(font))),), lookupOrder)
-        mark = sum([[glyph.glyphname for a in glyph.anchorPoints if a[0] == anchor and a[1] == 'mark' and glyph.width == 0] for glyph in font.glyphs()], [])
+        mark = sum([[glyph.glyphname for a in glyph.anchorPoints if a[0] == anchor and a[1] == 'mark' and isMark(glyph)] for glyph in font.glyphs()], [])
         base = sum([[glyph.glyphname for a in glyph.anchorPoints if a[0] == anchor and a[1] != 'mark'] for glyph in font.glyphs()], [])
         additionalMark = []
         additionalBase = ['space', 'nonbreakingspace', 'dottedcircle']
@@ -747,12 +750,12 @@ def mark_dottedcircle(font: fontforge.font):
         baseList = sorted(set(base + additionalBase))
         markList = sorted(set(mark + additionalMark))
         if 'above' in anchor:
-            aboveBelowMark = sum([[glyph.glyphname for a in glyph.anchorPoints if a[0] == anchor.replace('above', 'below') and a[1] == 'mark' and glyph.width == 0] for glyph in font.glyphs()], [])
+            aboveBelowMark = sum([[glyph.glyphname for a in glyph.anchorPoints if a[0] == anchor.replace('above', 'below') and a[1] == 'mark' and isMark(glyph)] for glyph in font.glyphs()], [])
         elif 'below' in anchor:
-            aboveBelowMark = sum([[glyph.glyphname for a in glyph.anchorPoints if a[0] == anchor.replace('below', 'above') and a[1] == 'mark' and glyph.width == 0] for glyph in font.glyphs()], [])
+            aboveBelowMark = sum([[glyph.glyphname for a in glyph.anchorPoints if a[0] == anchor.replace('below', 'above') and a[1] == 'mark' and isMark(glyph)] for glyph in font.glyphs()], [])
         else:
             aboveBelowMark = []
-        overlayMark = sum([[glyph.glyphname for a in glyph.anchorPoints if a[0] == 'LGC-overlay' and a[1] == 'mark' and glyph.width == 0] for glyph in font.glyphs()], [])
+        overlayMark = sum([[glyph.glyphname for a in glyph.anchorPoints if a[0] == 'LGC-overlay' and a[1] == 'mark' and isMark(glyph)] for glyph in font.glyphs()], [])
         font.addContextualSubtable(
             lookupName,
             lookupName + '-1',

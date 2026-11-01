@@ -23,6 +23,13 @@ weightList = [
 	(900, "Black"),
 ]
 
+weightMap = [
+	(0, -16),
+	(400, 0),
+	(700, 10),
+	(1000, 25),
+]
+
 #------
 # axes
 #------
@@ -35,13 +42,16 @@ a1.name = "Weight"
 a1.tag = "wght"
 a1.axisOrdering = 1
 a1.axisLabels = []
+a1.map = weightMap
 
 for weight in weightList:
 	l1 = AxisLabelDescriptor(
 		name = "Regular" if weight[1] is None else weight[1],
 		userValue = weight[0],
 	)
-	if weight[0] == 400:
+	if weight[0] == 300:
+		l1.linkedUserValue = 600
+	elif weight[0] == 400:
 		l1.elidable = isItalic
 		l1.linkedUserValue = 700
 	a1.axisLabels = a1.axisLabels + [l1]
@@ -69,10 +79,9 @@ doc.addAxis(a2)
 #---------
 
 sourceList = [
-	("Regular", argv[2],  400),
-	("Minimum", argv[4],    0),
-	("Bold",    argv[3],  700),
-	("Maximum", argv[5], 1000),
+	("Regular", argv[2],   0),
+	("Minimum", argv[3], -16),
+	("Maximum", argv[4],  25),
 ]
 
 for source in sourceList:
@@ -116,7 +125,8 @@ for weight in weightList:
 	else:
 		i1.styleMapStyleName = None
 	i1.path = i1.postScriptFontName + ".ufo"
-	i1.designLocation = dict(Weight=weight[0], Italic=italicValue)
+	i1.designLocation = dict(Italic=italicValue)
+	i1.userLocation = dict(Weight=weight[0])
 	doc.addInstance(i1)
 
 

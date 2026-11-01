@@ -1,7 +1,3 @@
-exclude_checks = [
-    'fontdata_namecheck',
-]
-
 [[overrides]]
 code = 'instance-too-long'
 status = 'WARN'
