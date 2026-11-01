@@ -31366,7 +31366,7 @@ Fore
 Refer: 1616 -1 N 1 0 0 1 0 0 2
 Refer: 1670 -1 N 1 0 0 1 -100 0 2
 Refer: 1667 -1 N 1 0 0 1 100 0 2
-AlternateSubs2: "Variants of zero-1" uni325A.noslash thirtycircle.dotted thirtycircle.longslash
+AlternateSubs2: "Variants of zero-1" uni325A.noslash uni325A.dotted uni325A.longslash
 EndChar
 
 StartChar: uni325B
@@ -31477,7 +31477,7 @@ Fore
 Refer: 1616 -1 N 1 0 0 1 0 0 2
 Refer: 1671 -1 N 1 0 0 1 -100 0 2
 Refer: 1667 -1 N 1 0 0 1 100 0 2
-AlternateSubs2: "Variants of zero-1" uni32B5.noslash fortycircle.dotted fortycircle.longslash
+AlternateSubs2: "Variants of zero-1" uni32B5.noslash uni32B5.dotted uni32B5.longslash
 EndChar
 
 StartChar: uni32B6
@@ -31588,7 +31588,7 @@ Fore
 Refer: 1616 -1 N 1 0 0 1 0 0 2
 Refer: 1672 -1 N 1 0 0 1 -100 0 2
 Refer: 1667 -1 N 1 0 0 1 100 0 2
-AlternateSubs2: "Variants of zero-1" uni32BF.noslash fiftycircle.dotted fiftycircle.longslash
+AlternateSubs2: "Variants of zero-1" uni32BF.noslash uni32BF.dotted uni32BF.longslash
 EndChar
 
 StartChar: zero.smallnarrow
@@ -31912,7 +31912,7 @@ LayerCount: 2
 Fore
 Refer: 1616 -1 N 1 0 0 1 0 0 2
 Refer: 566 8304 N 1 0 0 1 -26 -150 2
-AlternateSubs2: "Variants of zero-1" uni24EA.noslash zerocircle.dotted zerocircle.longslash
+AlternateSubs2: "Variants of zero-1" uni24EA.noslash uni24EA.dotted uni24EA.longslash
 EndChar
 
 StartChar: uni24EA.noslash
