@@ -18,6 +18,8 @@ EXEXTRAPOLATES=Inconsolata-EX-Minimum.sfd \
              Inconsolata-EX-MaximumItalic.sfd
 CSS=Inconsolata-LGC.css
 EXCSS=Inconsolata-EX.css
+VARCSS=Inconsolata-LGC-Variable.css
+EXVARCSS=Inconsolata-EX-Variable.css
 HINTEDTTFONTS=${FONTS:.ttf=-Hinted.ttf}
 OTFONTS=${FONTS:.ttf=.otf}
 TTCFONTS=${FONTS:.ttf=.ttc}
@@ -37,19 +39,23 @@ DOCUMENTS=README.md ChangeLog OFL.txt $(wildcard ${DOC_ASSET_DIR}/*.png)
 EXDOCUMENTS=${DOCUMENTS} Inconsolata-EX.md $(wildcard ${DOC_ASSET_DIR}/EX/*.png)
 PKGS=InconsolataLGC.tar.xz InconsolataLGC-Hinted.tar.xz InconsolataLGC-OT.tar.xz \
      InconsolataLGC-WOFF2.tar.xz InconsolataLGC-TTC.tar.xz InconsolataLGC-Variable.tar.xz \
+     InconsolataLGC-WOFF2-Variable.tar.xz \
      InconsolataLGC-FullTTF.tar.xz InconsolataLGC-Hinted-Full.tar.xz \
-	 InconsolataEX.tar.xz InconsolataEX-Hinted.tar.xz InconsolataEX-OT.tar.xz \
-	 InconsolataEX-WOFF2.tar.xz InconsolataEX-TTC.tar.xz InconsolataEX-Variable.tar.xz \
+     InconsolataEX.tar.xz InconsolataEX-Hinted.tar.xz InconsolataEX-OT.tar.xz \
+     InconsolataEX-WOFF2.tar.xz InconsolataEX-TTC.tar.xz InconsolataEX-Variable.tar.xz \
+     InconsolataEX-WOFF2-Variable.tar.xz \
      InconsolataEX-FullTTF.tar.xz InconsolataEX-Hinted-Full.tar.xz
 VARFONTS=Inconsolata-LGC-Variable.ttf \
          Inconsolata-LGC-Variable-Italic.ttf
 EXVARFONTS=Inconsolata-EX-Variable.ttf \
            Inconsolata-EX-Variable-Italic.ttf
+VARWOFF2FONTS=${VARFONTS:.ttf=.woff2}
+EXVARWOFF2FONTS=${EXVARFONTS:.ttf=.woff2}
 PKGCMD=rm -rf $*; mkdir $*; rsync -R $^ $*
 
 .PHONY: all
-all: ttf hintedttf otf ttc woff2 variable ttffull hintedttffull \
-	exttf hintedexttf exotf exttc exwoff2 exvariable exttffull hintedexttffull
+all: ttf hintedttf otf ttc woff2 variable variable-woff2 ttffull hintedttffull \
+	exttf hintedexttf exotf exttc exwoff2 exvariable exvariable-woff2 exttffull hintedexttffull
 
 .SUFFIXES: .sfd .ttf .otf .woff .woff2 .ufo
 
@@ -92,7 +98,7 @@ Inconsolata-EX-BoldItalic.mk: Inconsolata-LGC-BoldItalic.mk
 %-Hinted.ttf: %-Hinted-raw.ttf Inconsolata-LGC.ttf
 	ttfautohint -R Inconsolata-LGC.ttf $< $@
 
-.PHONY: ttf otf ttc woff woff2 variable hintedttf
+.PHONY: ttf otf ttc woff woff2 variable variable-woff2 hintedttf
 ttf: ${FONTS}
 hintedttf: ${HINTEDTTFONTS}
 otf: ${OTFONTS}
@@ -100,8 +106,9 @@ ttc: ${TTCFONTS}
 woff: ${WOFFFONTS}
 woff2: ${WOFF2FONTS}
 variable: ${VARFONTS}
+variable-woff2: ${VARWOFF2FONTS} ${VARCSS}
 
-.PHONY: exttf exotf exttc exwoff exwoff2 exvariable hintedexttf
+.PHONY: exttf exotf exttc exwoff exwoff2 exvariable exvariable-woff2 hintedexttf
 exttf: ${EXFONTS}
 hintedexttf: ${HINTEDEXTTFONTS}
 exotf: ${EXOTFONTS}
@@ -109,6 +116,7 @@ exttc: ${EXTTCFONTS}
 exwoff: ${EXWOFFFONTS} ${EXCSS}
 exwoff2: ${EXWOFF2FONTS} ${EXCSS}
 exvariable: ${EXVARFONTS}
+exvariable-woff2: ${EXVARWOFF2FONTS} ${EXVARCSS}
 
 .SUFFIXES: .tar.xz .tar.gz .tar.bz2 .zip
 .PHONY: dist
@@ -148,8 +156,17 @@ exttffull: exttf ${EX_ADDITIONALFONTS}
 hintedttffull: hintedttf ${ADDITIONALHINTEDFONTS}
 hintedexttffull: hintedexttf ${EX_ADDITIONALHINTEDFONTS}
 
-Inconsolata-EX.css: Inconsolata-LGC.css
+${EXCSS}: ${CSS}
 	sed 's/LGC/EX/' $< > $@
+${EXVARCSS}: ${VARCSS}
+	sed 's/LGC/EX/' $< > $@
+
+.DELETE_ON_ERROR: ${VARCSS}
+${VARCSS}: Inconsolata-LGC-Variable.css.patch ${CSS}
+	patch -o $@ --no-backup-if-mismatch < $<
+
+${VARWOFF2FONTS} ${EXVARWOFF2FONTS}: %.woff2: %.ttf
+	woff2_compress $<
 
 .PHONY: check
 check: check-static check-hinted check-variable
@@ -251,6 +268,15 @@ InconsolataLGC-Variable.tar.bz2: ${VARFONTS} ${DOCUMENTS}
 InconsolataLGC-Variable.zip: ${VARFONTS} ${DOCUMENTS}
 	${PKGCMD}; zip -9r $@ $*
 
+InconsolataLGC-WOFF2-Variable.tar.xz: ${VARWOFF2FONTS} ${VARCSS} ${DOCUMENTS}
+	${PKGCMD}; tar cfvJ $@ $*
+InconsolataLGC-WOFF2-Variable.tar.gz: ${VARWOFF2FONTS} ${VARCSS} ${DOCUMENTS}
+	${PKGCMD}; tar cfvz $@ $*
+InconsolataLGC-WOFF2-Variable.tar.bz2: ${VARWOFF2FONTS} ${VARCSS} ${DOCUMENTS}
+	${PKGCMD}; tar cfvj $@ $*
+InconsolataLGC-WOFF2-Variable.zip: ${VARWOFF2FONTS} ${VARCSS} ${DOCUMENTS}
+	${PKGCMD}; zip -9r $@ $*
+
 InconsolataEX.tar.xz: ${EXFONTS} ${DOCUMENTS}
 	${PKGCMD}; tar cfvJ $@ $*
 InconsolataEX.tar.gz: ${EXFONTS} ${DOCUMENTS}
@@ -323,14 +349,23 @@ InconsolataEX-Variable.tar.bz2: ${EXVARFONTS} ${DOCUMENTS}
 InconsolataEX-Variable.zip: ${EXVARFONTS} ${DOCUMENTS}
 	${PKGCMD}; zip -9r $@ $*
 
+InconsolataEX-WOFF2-Variable.tar.xz: ${EXVARWOFF2FONTS} ${EXVARCSS} ${DOCUMENTS}
+	${PKGCMD}; tar cfvJ $@ $*
+InconsolataEX-WOFF2-Variable.tar.gz: ${EXVARWOFF2FONTS} ${EXVARCSS} ${DOCUMENTS}
+	${PKGCMD}; tar cfvz $@ $*
+InconsolataEX-WOFF2-Variable.tar.bz2: ${EXVARWOFF2FONTS} ${EXVARCSS} ${DOCUMENTS}
+	${PKGCMD}; tar cfvj $@ $*
+InconsolataEX-WOFF2-Variable.zip: ${EXVARWOFF2FONTS} ${EXVARCSS} ${DOCUMENTS}
+	${PKGCMD}; zip -9r $@ $*
+
 ChangeLog: .git # GIT
 	./mkchglog.rb > $@ # GIT
 
 .PHONY: clean
 clean:
-	-rm -f ${FONTS:.ttf=.sfd} ${FONTS} ${HINTEDTTFONTS} ${OTFONTS} ${TTCFONTS} ${WOFFFONTS} ${WOFF2FONTS} ${VARFONTS} ChangeLog
+	-rm -f ${FONTS:.ttf=.sfd} ${FONTS} ${HINTEDTTFONTS} ${OTFONTS} ${TTCFONTS} ${WOFFFONTS} ${WOFF2FONTS} ${VARFONTS} ${VARWOFF2FONTS} ChangeLog
 	-rm -f ${VARFONTS:.ttf=.raw.ttf} ${TTCFONTS:.ttc=.raw.ttc}
-	-rm -f ${EXFONTS:.ttf=.sfd} ${EXFONTS} ${HINTEDEXTTFONTS} ${EXTTCFONTS} ${EXOTFONTS} ${EXWOFFFONTS} ${EXWOFF2FONTS} ${EXVARFONTS} ${EXCSS}
+	-rm -f ${EXFONTS:.ttf=.sfd} ${EXFONTS} ${HINTEDEXTTFONTS} ${EXTTCFONTS} ${EXOTFONTS} ${EXWOFFFONTS} ${EXWOFF2FONTS} ${EXVARFONTS} ${EXVARWOFF2FONTS} ${EXCSS} ${VARCSS} ${EXVARCSS}
 	-rm -f $(LOCALIZED_SFD_REGULAR) $(LOCALIZED_SFD_BOLD)
 	-rm -f $(LOCALIZED_SFD_ITALIC) $(LOCALIZED_SFD_BOLDITALIC)
 	-rm -f $(LOCALIZED_EX_SFD_REGULAR) $(LOCALIZED_EX_SFD_BOLD)

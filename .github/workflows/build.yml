@@ -19,7 +19,7 @@ jobs:
         sudo apt remove firefox
         sudo apt update
         sudo apt upgrade
-        sudo apt install ttfautohint
+        sudo apt install ttfautohint woff2
     - name: Build and install Fontforge
       uses: MihailJP/setup-fontforge@v1
     - name: Install Python dependencies
