@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 import fontforge
-from psMat import skew, translate, scale
+from psMat import skew, translate, scale, inverse
 from math import radians, tan
 from sys import argv
 from typing import Optional, Union, Iterable
@@ -405,7 +405,12 @@ def lgcMarkAnchors(font: fontforge.font):
             font[targetname].unicode = uni
         else:
             font.createChar(uni, targetname)
-            font[targetname].addReference(sourcename, mat)
+            font[targetname].layers[1] = font[sourcename].layers[1]
+            font[sourcename].layers[1] = fontforge.layer()
+            font[targetname].references = font[sourcename].references
+            font[sourcename].references = ()
+            font[targetname].transform(mat)
+            font[sourcename].addReference(targetname, inverse(mat))
         font[targetname].width = 0
         font[targetname].glyphclass = 'mark'
         if left > 400:
