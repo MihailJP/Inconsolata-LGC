@@ -880,4 +880,15 @@ if additionalSfds:
             fixAllLang(font, oldAllLang, newAllLang)
 font.encoding = 'UnicodeFull'
 mark_dottedcircle(font)
-font.save(targetSfd)
+with TemporaryDirectory() as tmpdir:
+    tmpfile = tmpdir + '/tmp.sfd'
+    font.save(tmpfile)
+
+    font.close()
+    with open(tmpfile, "r", encoding="utf-8") as infile:
+        with open(targetSfd, "w", encoding="utf-8") as outfile:
+            for line in infile:
+                if line.startswith('Flags: '):
+                    outfile.write(line.replace('H', '').replace('O', ''))
+                else:
+                    outfile.write(line)
