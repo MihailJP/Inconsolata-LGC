@@ -1,4 +1,0 @@
-[[overrides]]
-code = 'instance-too-long'
-status = 'WARN'
-reason = 'Postponed'

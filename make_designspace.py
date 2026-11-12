@@ -13,13 +13,13 @@ italicValue = 1 if isItalic else 0
 
 weightList = [
 	(100, "Thin"),
-	(200, "Extra Light"),
+	(200, "ExtraLight"),
 	(300, "Light"),
 	(400, None),
 	(500, "Medium"),
 	(600, "DemiBold"),
 	(700, "Bold"),
-	(800, "Extra Bold"),
+	(800, "ExtraBold"),
 	(900, "Black"),
 ]
 
@@ -29,6 +29,12 @@ weightMap = [
 	(700, 10),
 	(1000, 25),
 ]
+
+styleNameCorrections = {
+	"":                  "Regular",
+	"ExtraLight Italic": "ExtraLt Italic",
+	"ExtraBold Italic":  "ExtraBd Italic",
+}
 
 #------
 # axes
@@ -109,8 +115,8 @@ for weight in weightList:
 	styleNameList = [i for i in [weight[1], "Italic" if isItalic else None] if i is not None]
 	i1.familyName = familyName
 	i1.styleName = " ".join(styleNameList)
-	if i1.styleName == "":
-		i1.styleName = "Regular"
+	if i1.styleName in styleNameCorrections:
+		i1.styleName = styleNameCorrections[i1.styleName]
 	if weight[0] == 400 and not isItalic:
 		i1.name = i1.familyName
 		i1.postScriptFontName = i1.familyName.replace(" ", "")
