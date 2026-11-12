@@ -22,6 +22,9 @@ Inconsolata-LGC-*.mk
 *.ufo
 *.designspace
 *.ttx
+Inconsolata-LGC*.sfd
+Inconsolata-LGC-Variable.css
+!Inconsolata-LGC-Base*.sfd
 Inconsolata-LGC-Minimum*
 Inconsolata-LGC-Maximum*
 Inconsolata-EX*
@@ -32,6 +35,7 @@ InconsolataLGC-OT/
 InconsolataLGC-WOFF2/
 InconsolataLGC-TTC/
 InconsolataLGC-Variable/
+InconsolataLGC-WOFF2-Variable/
 InconsolataLGC-FullTTF/
 InconsolataLGC-Hinted-Full/
 InconsolataEX/
@@ -40,6 +44,7 @@ InconsolataEX-OT/
 InconsolataEX-WOFF2/
 InconsolataEX-TTC/
 InconsolataEX-Variable/
+InconsolataEX-WOFF2-Variable/
 InconsolataEX-FullTTF/
 InconsolataEX-Hinted-Full/
 *.tar.xz

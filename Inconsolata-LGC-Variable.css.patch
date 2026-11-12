@@ -1,0 +1,43 @@
+--- Inconsolata-LGC.css	2026-06-21 12:24:48.000485757 +0900
++++ Inconsolata-LGC-Variable.css	2026-11-10 14:09:21.797586845 +0900
+@@ -4,7 +4,7 @@
+ Replace url() values with the path to the font installed in your server
+ 
+ Usage in your hypertexts:
+-	<link rel="stylesheet" type="text/css" href="Inconsolata-LGC.css" />
++	<link rel="stylesheet" type="text/css" href="Inconsolata-LGC-Variable.css" />
+ 
+ For Romanian, Polish, Bulgarian, Macedonian, Serbian and Bosnian languages
+ `locl` feature shall be automatically activated through "lang" attribute.
+@@ -44,27 +44,15 @@
+ 
+ @font-face {
+ 	font-family: "Inconsolata LGC";
+-	font-weight: regular;
++	font-weight: 0 1000;
+ 	font-style: normal;
+-	src: url("Inconsolata-LGC.woff2") format("woff2");
++	src: url("Inconsolata-LGC-Variable.woff2") format("woff2") tech("variants");
+ }
+ @font-face {
+ 	font-family: "Inconsolata LGC";
+-	font-weight: regular;
++	font-weight: 0 1000;
+ 	font-style: italic;
+-	src: url("Inconsolata-LGC-Italic.woff2") format("woff2");
+-}
+-@font-face {
+-	font-family: "Inconsolata LGC";
+-	font-weight: bold;
+-	font-style: normal;
+-	src: url("Inconsolata-LGC-Bold.woff2") format("woff2");
+-}
+-@font-face {
+-	font-family: "Inconsolata LGC";
+-	font-weight: bold;
+-	font-style: italic;
+-	src: url("Inconsolata-LGC-BoldItalic.woff2") format("woff2");
++	src: url("Inconsolata-LGC-Variable-Italic.woff2") format("woff2") tech("variants");
+ }
+ 
+ @font-feature-values "Inconsolata LGC" {

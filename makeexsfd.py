@@ -1,12 +1,13 @@
 #!/usr/bin/env python3
 
 import fontforge
-from psMat import skew, translate, scale
+from psMat import skew, translate, scale, inverse
 from math import radians, tan
 from sys import argv
 from typing import Optional, Union, Iterable
 from copy import deepcopy
 import re
+from tempfile import TemporaryDirectory
 
 type LangTuple = tuple[tuple[str, tuple[str, ...]], ...]
 type LangDict = dict[str, set[str]]
@@ -404,7 +405,12 @@ def lgcMarkAnchors(font: fontforge.font):
             font[targetname].unicode = uni
         else:
             font.createChar(uni, targetname)
-            font[targetname].addReference(sourcename, mat)
+            font[targetname].layers[1] = font[sourcename].layers[1]
+            font[sourcename].layers[1] = fontforge.layer()
+            font[targetname].references = font[sourcename].references
+            font[sourcename].references = ()
+            font[targetname].transform(mat)
+            font[sourcename].addReference(targetname, inverse(mat))
         font[targetname].width = 0
         font[targetname].glyphclass = 'mark'
         if left > 400:
@@ -848,30 +854,46 @@ def addLdotL(font: fontforge.font):
                 '| {0:}{2:} @<Catalan punt volat {1:}>{3:} | {0:}'.format(ell, *ligprec),
             )
 
-font = fontforge.open(argv[2])
-font2 = fontforge.open(argv[3])
+_, targetSfd, sourceSfd, *additionalSfds = argv
+font = fontforge.open(sourceSfd)
 font.encoding = 'Original'
-font2.encoding = 'Original'
-assert font.copyright
-font.fontname = font.fontname.replace('LGC', 'EX')
-font.familyname = font.familyname.replace('LGC', 'EX')
-font.fullname = font.fullname.replace('LGC', 'EX')
-font.copyright += '\n\nArabic glyphs are derived from public domain part of DejaVu Sans Mono.'
-font.os2_winascent = 1310
-font.os2_windescent = 726
-if font.italicangle != 0:
-    font2.selection.all()
-    font2.transform(skew(radians(-font.italicangle)), ('noWidth', 'round', 'simplePos'))
-removeUnusedAnchorClass(font2)
 diacritics(font)
-oldAllLang = getLangDict(font)
 addLdotL(font)
-font.mergeFonts(argv[3])
-font.save(argv[1])
-font.close()  # workaround
-font = fontforge.open(argv[1])
+if additionalSfds:
+    assert font.copyright
+    font.fontname = font.fontname.replace('LGC', 'EX')
+    font.familyname = font.familyname.replace('LGC', 'EX')
+    font.fullname = font.fullname.replace('LGC', 'EX')
+    font.copyright += '\n\nArabic glyphs are derived from public domain part of DejaVu Sans Mono.'
+    font.os2_winascent = 1310
+    font.os2_windescent = 726
+    with TemporaryDirectory() as tmpdir:
+        tmpfile = tmpdir + '/tmp.sfd'
+        for additionalSfd in additionalSfds:
+            font2 = fontforge.open(additionalSfd)
+            font2.encoding = 'Original'
+            if font.italicangle != 0:
+                font2.selection.all()
+                font2.transform(skew(radians(-font.italicangle)), ('noWidth', 'round', 'simplePos'))
+            removeUnusedAnchorClass(font2)
+            oldAllLang = getLangDict(font)
+            font.mergeFonts(additionalSfd)
+            font.save(tmpfile)
+            font.close()  # workaround
+            font = fontforge.open(tmpfile)
+            newAllLang = getLangDict(font)
+            fixAllLang(font, oldAllLang, newAllLang)
 font.encoding = 'UnicodeFull'
-newAllLang = getLangDict(font)
-fixAllLang(font, oldAllLang, newAllLang)
 mark_dottedcircle(font)
-font.save(argv[1])
+with TemporaryDirectory() as tmpdir:
+    tmpfile = tmpdir + '/tmp.sfd'
+    font.save(tmpfile)
+
+    font.close()
+    with open(tmpfile, "r", encoding="utf-8") as infile:
+        with open(targetSfd, "w", encoding="utf-8") as outfile:
+            for line in infile:
+                if line.startswith('Flags: '):
+                    outfile.write(line.replace('H', '').replace('O', ''))
+                else:
+                    outfile.write(line)

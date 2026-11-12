@@ -25,8 +25,8 @@ Inconsolata LGC changes
 
 Regional forms
 --------------
-Inconsolata LGC supports OpenType `locl` feature to display Polish,
-Romanian, Bulgarian, Macedonian, and Serbian specific variant. TTC version
+Inconsolata LGC supports OpenType `locl` feature to display language-specific
+variants used in Polish, Romanian, Bulgarian, Serbian, and so on. TTC version
 is intended for use in apps which do not support `locl` feature.
 
 ### Polish _kreska_ ###
@@ -150,6 +150,13 @@ differ between them. This font defaults to the former; the latter is available
 through language-dependent feature.
 
 For legacy apps, use **Inconsolata LGC Kadiweu** in the TTC.
+
+### Catalan _l·l_ ligature ###
+![Catalan l·l ligature](doc/Catalan_LL_ligatures.png)
+
+In Catalan, unique spelling _l·l_ should have 2-character wide,
+and middle dot (_punt volat_) should be in the middle of
+vertical stems of two L’s.
 
 
 Character variants
